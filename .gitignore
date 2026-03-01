@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# blog images (generated locally, not committed)
+/public/images/blog/*.png
+/public/images/blog/*.webp
+/public/images/blog/*.jpg
