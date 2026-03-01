@@ -123,7 +123,7 @@ export default async function Blog({ params }: { params: Promise<{ slug: string 
           </Row>
           {post.metadata.image && (
             <Media
-              src={post.metadata.image}
+              src={withBasePath(post.metadata.image)}
               alt={post.metadata.title}
               aspectRatio="16/9"
               priority
