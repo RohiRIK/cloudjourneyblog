@@ -17,6 +17,7 @@ import {
 import { baseURL, about, blog, person } from "@/resources";
 import { formatDate } from "@/utils/formatDate";
 import { getPosts } from "@/utils/utils";
+import { withBasePath } from "@/utils/basePath";
 import { Metadata } from "next";
 import React from "react";
 import { Posts } from "@/components/blog/Posts";
@@ -114,7 +115,7 @@ export default async function Blog({ params }: { params: Promise<{ slug: string 
           </Column>
           <Row marginBottom="32" horizontal="center">
             <Row gap="16" vertical="center">
-              <Avatar size="s" src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${person.avatar}`} />
+              <Avatar size="s" src={withBasePath(person.avatar)} />
               <Text variant="label-default-m" onBackground="brand-weak">
                 {person.name}
               </Text>

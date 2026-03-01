@@ -12,6 +12,7 @@ import {
   Line,
 } from "@once-ui-system/core";
 import { home, about, person, baseURL, routes } from "@/resources";
+import { withBasePath } from "@/utils/basePath";
 import { Mailchimp } from "@/components";
 import { Projects } from "@/components/work/Projects";
 import { Posts } from "@/components/blog/Posts";
@@ -90,7 +91,7 @@ export default function Home() {
                   <Avatar
                     marginRight="8"
                     style={{ marginLeft: "-0.75rem" }}
-                    src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${person.avatar}`}
+                    src={withBasePath(person.avatar)}
                     size="m"
                   />
                 )}

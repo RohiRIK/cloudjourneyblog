@@ -15,6 +15,7 @@ import {
   Row,
 } from "@once-ui-system/core";
 import { baseURL, about, person, social } from "@/resources";
+import { withBasePath } from "@/utils/basePath";
 import TableOfContents from "@/components/about/TableOfContents";
 import styles from "@/components/about/about.module.scss";
 import React from "react";
@@ -100,7 +101,7 @@ export default function About() {
             flex={3}
             horizontal="center"
           >
-            <Media className={styles.avatarImage} src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${person.avatar}`} radius="full" aspectRatio="1/1" sizes="160px" alt={person.name} />
+            <Media className={styles.avatarImage} src={withBasePath(person.avatar)} radius="full" aspectRatio="1/1" sizes="160px" alt={person.name} />
             <Row gap="8" vertical="center">
               <Icon onBackground="accent-weak" name="globe" />
               {person.location}
