@@ -10,6 +10,9 @@ const nextConfig = {
   output: "export",
   basePath: "/resume",
   assetPrefix: "/resume",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/resume",
+  },
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   transpilePackages: ["next-mdx-remote"],
   images: {
