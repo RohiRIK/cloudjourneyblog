@@ -100,7 +100,7 @@ export default function About() {
             flex={3}
             horizontal="center"
           >
-            <Media className={styles.avatarImage} src={person.avatar} radius="full" aspectRatio="1/1" sizes="160px" alt={person.name} />
+            <Media className={styles.avatarImage} src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${person.avatar}`} radius="full" aspectRatio="1/1" sizes="160px" alt={person.name} />
             <Row gap="8" vertical="center">
               <Icon onBackground="accent-weak" name="globe" />
               {person.location}

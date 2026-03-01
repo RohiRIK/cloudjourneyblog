@@ -90,7 +90,7 @@ export default function Home() {
                   <Avatar
                     marginRight="8"
                     style={{ marginLeft: "-0.75rem" }}
-                    src={person.avatar}
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${person.avatar}`}
                     size="m"
                   />
                 )}
