@@ -5,6 +5,13 @@
 # Send each prompt to Gemini (gemini.google.com) → select Imagen 3 model.
 # Save results to: public/images/blog/<slug>.png
 
+## Generation Checklist
+- [x] 1. zero-trust-is-not-a-product.png
+- [x] 2. conditional-access-in-practice.png
+- [x] 3. endpoint-hardening-zero-trust-control.png
+- [X] 4. zero-trust-for-ai-agents.png
+- [ ] 5. identity-first-security.png
+
 ---
 
 ## 1. zero-trust-is-not-a-product.png
