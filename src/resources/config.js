@@ -1,4 +1,4 @@
-const baseURL = 'https://rohirikman.com'
+const baseURL = 'https://rohirik.github.io/resume'
 
 const meta = {
     title: 'Rohi Rikman | Cloud Security Architect',
