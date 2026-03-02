@@ -10,7 +10,9 @@
 - [x] 2. conditional-access-in-practice.png
 - [x] 3. endpoint-hardening-zero-trust-control.png
 - [X] 4. zero-trust-for-ai-agents.png
-- [ ] 5. identity-first-security.png
+- [X] 5. identity-first-security.png
+- [x] 6. vibe-coding-ai-workflows.png
+- [x] 7. homelab-docker-swarm.png
 
 ---
 
@@ -185,3 +187,77 @@ center, clean neon connections right.
 Color palette: near-black background, crumbling wall in dim steel-blue,
 identity badge in warm amber-gold with cyan checkmark, connections in neon
 cyan, destination icons in cool white. Subjects fill full frame.
+
+---
+
+## 6. vibe-coding-ai-workflows.png
+
+**Concept:** ORCHESTRATION / MULTI-AGENT problem type.
+Vibe coding is not a lone AI generating code — it's a structured team of
+specialized agents, each scoped to a role, working in sequence. Planning,
+reviewing, testing, verifying. The human sets direction; the agents execute.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background. Bold flat geometry, neon accents, minimal surreal. No text.
+
+Center composition: a horizontal pipeline rendered as a clean neon-cyan
+conveyor — geometric, flat, slightly angular. Along the pipeline, five distinct
+agent nodes (hexagonal, glowing) sit at equal intervals:
+- Node 1 (amber): Planner — emits upward rays suggesting direction/scope
+- Node 2 (electric blue): Implementer — circuit traces, code lines
+- Node 3 (green): Reviewer — checkmark geometry inside
+- Node 4 (purple): Security — shield geometry, slightly ominous
+- Node 5 (cyan): Verifier — clean tick mark, final gate
+
+Each node connects to the next via thin crisp neon lines along the pipeline.
+Above the pipeline, a single larger geometric node — warm gold, octagonal —
+represents the human: distinct, elevated, setting the starting direction.
+A clean amber line flows from this human node down into the first agent.
+
+The pipeline terminates at the right in a clean output gate — electric blue,
+solid, successful — representing shipped work.
+
+Color palette: near-black background, pipeline in neon-cyan, agent nodes in
+amber/blue/green/purple/cyan, human node in warm gold, output gate in
+electric blue. Clean, structured, slightly cold. Subjects fill full frame.
+
+---
+
+## 7. homelab-docker-swarm.png
+
+**Concept:** LAYERED ARCHITECTURE / SEGMENTATION problem type.
+A homelab is not a flat pile of containers — it's a structured network:
+Traefik at the edge handling all external traffic, overlay networks keeping
+services isolated, Swarm orchestrating restarts and health. Order over chaos.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background. Bold flat geometry, neon layers, clean separation. No text.
+
+Vertical composition with three distinct horizontal bands:
+
+Top band (edge layer): A single angular gateway node — Traefik — rendered
+in electric blue with neon-white routing lines branching downward. SSL
+padlocks (minimal geometric icons) float above it in cold cyan. This is the
+only contact point with the outside (abstract arrow from upper-left, stopped
+by the gateway).
+
+Middle band (service layer): Multiple smaller hexagonal service nodes arranged
+in a horizontal cluster — each in a distinct neon color (purple, amber, green,
+cyan, magenta). Each node is connected to its neighbors by thin overlay network
+lines. One node (Portainer) has a faint management bracket around it — a
+frame-within-a-frame suggesting it can see and control the others.
+
+Bottom band (secrets layer): A single geometric vault node — deep amber,
+heavier than the others, more solid — with thin credential lines rising upward
+to the service nodes above. The lines are dotted, suggesting encrypted transit.
+
+The three bands are separated by clean neon-white horizontal divider lines,
+making the segmentation explicit and intentional.
+
+Color palette: near-black background, gateway in electric blue, service nodes
+in varied neon (purple/amber/green/cyan/magenta), secrets vault in deep amber,
+divider lines in cool white, network lines in dim cyan. Subjects fill full frame.

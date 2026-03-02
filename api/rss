@@ -5,7 +5,7 @@
     <link>https://rohirik.github.io/resume/blog</link>
     <description>Read what Rohi Rikman has been up to recently</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 14:17:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 15:38:03 GMT</lastBuildDate>
     <atom:link href="https://rohirik.github.io/resume/api/rss" rel="self" type="application/rss+xml" />
     <managingEditor>rohi@rohirikman.dev (Rohi Rikman)</managingEditor>
     <webMaster>rohi@rohirikman.dev (Rohi Rikman)</webMaster>
@@ -15,6 +15,26 @@
       <link>https://rohirik.github.io/resume/blog</link>
     </image>
     
+    <item>
+      <title>My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke</title>
+      <link>https://rohirik.github.io/resume/blog/homelab-docker-swarm</link>
+      <guid>https://rohirik.github.io/resume/blog/homelab-docker-swarm</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.]]></description>
+      <enclosure url="https://rohirik.github.io/resume/images/blog/homelab-docker-swarm.png" type="image/jpeg" />
+      <category>Infrastructure</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>What I Actually Learned from Vibe Coding with Claude Code</title>
+      <link>https://rohirik.github.io/resume/blog/vibe-coding-ai-workflows</link>
+      <guid>https://rohirik.github.io/resume/blog/vibe-coding-ai-workflows</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A year of building projects with AI: what the workflow looks like, how I keep context alive across sessions, which safety patterns actually work, and what breaks if you skip them.]]></description>
+      <enclosure url="https://rohirik.github.io/resume/images/blog/vibe-coding-ai-workflows.png" type="image/jpeg" />
+      <category>Engineering</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
     <item>
       <title>Zero Trust Is Not a Product</title>
       <link>https://rohirik.github.io/resume/blog/zero-trust-is-not-a-product</link>

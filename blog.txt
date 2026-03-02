@@ -13,63 +13,199 @@
 :HL["/resume/_next/static/chunks/b3a7f4834154c9dc.css","style"]
 :HL["/resume/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/resume/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-9:Tdcb,
-I work in IT security. I've sat through a lot of vendor calls. And somewhere around the third time someone told me their network appliance was "a Zero Trust solution," I started keeping count.
+9:T1f79,
+My homelab runs on a dedicated server, not a cloud VPS. Everything is version-controlled, documented, and designed to run without me touching it. It's been doing that for over a year.
 
-It's not a product. It never was. Here's what it actually is.
+This is what's running, how it's wired together, and what went wrong the first time.
 
-## The original idea
+## Why Swarm and not the alternatives
 
-Zero Trust comes from a 2010 paper by John Kindervag at Forrester. The core insight was blunt: perimeter-based security is wrong. The assumption that everything inside your network is trusted and everything outside isn't — that model breaks the moment you have remote workers, cloud services, SaaS apps, contractors, or any real-world complexity.
+The choice comes up every time I mention this setup: why not Kubernetes, why not plain Compose?
 
-The answer wasn't a new product. It was a different assumption: **trust no one by default, verify everything explicitly, and grant access based on identity and context — not network location.**
+Kubernetes is genuinely overkill for a single server. The operational overhead — etcd, control plane components, kubeconfig management, networking plugins — is real work for infrastructure that only needs to orchestrate maybe 10 services. The value of Kubernetes is horizontal scaling and high availability across nodes. I have one node.
 
-That's the model. Three sentences.
+Plain Compose works and is simple to reason about, but it doesn't give you health-based restarts, rolling updates, or service redeployment without downtime. When a container crashes, Compose doesn't automatically reschedule it. Swarm does.
 
-## What it means operationally
+Swarm hits the right point in the tradeoff: orchestration primitives (services, secrets, overlay networks, health checks, update policies) without the operational overhead of a full cluster. It's been running with no manual intervention since I set it up.
 
-If you actually implement Zero Trust, it looks like this:
+## Network architecture
 
-**Identity is the perimeter.** It doesn't matter where a request comes from — your office, a coffee shop, a data center. What matters is: who is authenticating, is that identity verified, and does this specific context (device health, location, time, risk score) justify access to this specific resource?
+All external traffic enters through Traefik on ports 80 and 443. Traefik handles Let's Encrypt SSL automatically — certificates are provisioned on first request and renewed without manual intervention. It routes to the right service based on hostname labels on each container.
 
-**Least privilege, always.** Users and services get exactly the access they need for the task, nothing more. Not "give the developer access to the dev environment" — give this developer, on this verified device, read access to this specific service, until the session expires.
+Backend services communicate over internal overlay networks and have no ports exposed to the outside. The pattern is: Traefik is the only service on `proxy-net` that faces the internet. Everything else is on service-specific overlay networks and only joins `proxy-net` if it needs to be externally reachable. Services that don't need external exposure — databases, internal APIs — are never on `proxy-net` at all.
 
-**Assume breach.** Design your controls as if attackers are already inside. Segment laterally so a compromised endpoint can't reach everything. Log everything so you can detect and respond.
+This is the same segmentation principle as network microsegmentation: services can't reach each other unless there's an explicit path. If Firecrawl gets compromised, it can't directly reach n8n or the secrets store. They're on different networks.
 
-**Continuous verification.** Authentication isn't a one-time gate at login. The trust assessment runs continuously — if device posture changes, if the user does something anomalous, trust can be revoked mid-session.
+## Secrets management
 
-## What vendors sell
+The first version of this setup used environment variables in Compose files. This is the common approach and also the wrong one: environment variables end up in Compose files, Compose files end up in git, and suddenly you're sanitizing git history.
 
-What vendors sell is: their product has a "Zero Trust" feature set. Sometimes that's meaningful. Conditional Access in Entra ID genuinely enforces identity-based access with device posture signals. That's a real implementation of Zero Trust principles.
+I replaced all of that with Infisical, which I self-host on the same server. Agents and services fetch credentials at runtime through the Infisical SDK or CLI. Nothing sensitive is in the Compose files. If I need to rotate a credential, I update it in Infisical and restart the affected service — no code changes, no Compose file edits.
 
-But "Zero Trust firewall" is mostly marketing. Network segmentation is one piece of a Zero Trust architecture — it's not the whole model. A firewall doesn't verify identity. It filters traffic. That's useful, but it's not Zero Trust.
+Infisical also gives me an audit trail: which service fetched which secret, when. For a homelab, this might sound excessive. It's not — knowing that a service fetched a credential at an unexpected time is useful signal.
 
-The tell is whether the product forces you to think about identity and context, or whether it's still thinking in terms of network location. If the conversation is about IP ranges and VLANs, you're still in the perimeter model with new branding.
+Docker Swarm also has native secrets (`docker secret`), which I use for a few things that Infisical can't easily inject (init scripts, bootstrap credentials for Infisical itself). Both live alongside each other without conflict.
 
-## Why it matters
+## What runs on it
 
-The reason to care about the distinction isn't pedantry. It's that if you think Zero Trust is a product you can buy, you'll buy the product and think you're done. You won't be.
+**Traefik** — Edge router and SSL termination. Service discovery is automatic via container labels. I define routes in each service's Compose file rather than in a central Traefik config, which means adding a new service doesn't require touching the router config.
 
-The actual work is architectural: redefining trust boundaries, implementing strong identity across all users and services, getting device health signals into access decisions, segmenting your environment so lateral movement is hard, building detection and response for when (not if) something gets through.
+**Portainer** — Swarm management UI. Most things I do via CLI, but Portainer is useful for visualizing the current state of the stack, looking at service logs without SSHing in, and managing one-off tasks. It connects to the Docker socket and has full visibility into the Swarm.
 
-None of that is a product. All of it is work.
+**Infisical** — Secrets store. Self-hosted with its own database. Services fetch credentials from Infisical at startup; nothing sensitive lives anywhere else in the stack.
 
----
+**n8n** — Workflow automation. This is the busiest service in the stack — it's connected to a handful of external APIs and runs scheduled and event-triggered automations. It persists state to a volume on the host. The workflow definitions are exported and version-controlled separately.
 
-This is the first of a few posts I'm planning on Zero Trust — what it actually means, how I've implemented pieces of it in real environments, and where the hard parts are. Next up: Conditional Access, which is where most of the practical implementation lives.
-0:{"P":null,"b":"ZzBsSR6k0JnZ5NuYzTcT9","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/resume/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/resume/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/resume/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/resume/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/resume/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/resume/_next/static/chunks/601dc1a12bda3fda.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/resume/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/resume/_next/static/chunks/9988c4a59e44ac76.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/resume/_next/static/chunks/05424c1bbd401aee.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/resume/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://rohirik.github.io/resume/blog\",\"sameAs\":[],\"headline\":\"Writing about automation and security...\",\"description\":\"Read what Rohi Rikman has been up to recently\",\"image\":\"https://rohirik.github.io/resume/https://rohirik.github.io/resume/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://rohirik.github.io/resume/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://rohirik.github.io/resume/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing about automation and security..."}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","zero-trust-is-not-a-product",{"post":{"metadata":{"title":"Zero Trust Is Not a Product","subtitle":"","publishedAt":"2026-02-20","summary":"Every vendor sells 'Zero Trust.' Most of what they're selling is a marketing label on a firewall. Here's what the model actually means and why it matters.","image":"/images/blog/zero-trust-is-not-a-product.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-is-not-a-product","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc","$Ld"]}]]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
+**Firecrawl** — Documentation crawling for AI projects. I run this alongside Project Aegis and other AI tools that need to index documentation from web sources. Self-hosting it means I control the crawl rate and the data stays local.
+
+**SearXNG** — Self-hosted metasearch. Routes queries to multiple search engines without sending identifying information to any of them. Useful when Claude Code or local agents need to search the web without leaking query patterns.
+
+## The modular stack structure
+
+The first version of this setup was a single large Compose file. Everything was defined in one place, which felt clean until the stack had eight services and adding a ninth meant scrolling through 400 lines of YAML and hoping you didn't break something in the middle.
+
+More importantly: redeploying one service meant bringing the entire stack down or doing careful surgery on a monolithic file. It didn't scale.
+
+The current structure is one directory per service, each with its own Compose file:
+
+```
+homelab-swarm-stack/
+  traefik/
+    docker-compose.yml
+  portainer/
+    docker-compose.yml
+  infisical/
+    docker-compose.yml
+  n8n/
+    docker-compose.yml
+  ...
+```
+
+Each service connects to the shared `proxy-net` network for ingress (if it needs external exposure) and to service-specific networks for internal communication. The `proxy-net` network is created once and referenced as external in each Compose file.
+
+Deploying a new service: create its directory, write its Compose file, deploy with `docker stack deploy`. No other service is touched. Removing a service: `docker stack rm <service>`. The rest of the stack is unaffected.
+
+This is the same principle as microservices architecture applied to infrastructure config: each unit is independently deployable and changes to one don't risk breaking others.
+
+## What's required to maintain it
+
+The honest answer: almost nothing. Traefik renews certs automatically. Services restart on failure via Swarm health checks. I don't do manual updates — I have a process for pulling new images and redeploying, but it's not automated (I want to be intentional about when things update).
+
+What does require occasional attention:
+
+**Storage.** Volumes accumulate data. n8n's database grows. I check disk usage monthly and prune what's not needed.
+
+**Infisical.** The self-hosted version needs occasional updates. These are the updates I'm most careful about — Infisical holds credentials for everything else, so a botched update has cascading effects. I test updates on a snapshot before applying to the live instance.
+
+**Network connectivity.** Occasionally a service loses connectivity to `proxy-net` after a server restart. The fix is always `docker network connect proxy-net <container>` — it takes 10 seconds, but it's annoying enough that I documented it in the project's gotchas file.
+
+**Swarm state.** Single-node Swarm doesn't have the HA guarantees of a multi-node cluster. If the server loses power without a clean shutdown, Swarm state can get inconsistent. I keep a current export of all stack definitions so recovery is redeploy-from-scratch rather than debugging corrupted state.
+
+## What I'd do differently
+
+The secrets management was the biggest early mistake. Environment variables in Compose files feel convenient until they're not. Infisical from the start would have saved the work of migrating everything over.
+
+The second thing: start modular. A monolithic Compose file is tempting for the first three services because it's less overhead. By service six, you're paying for it. The directory-per-service structure takes five minutes to set up and saves hours later.
+
+Everything else, including the Swarm choice over Kubernetes, I'd make the same way.
+0:{"P":null,"b":"qdrbgpgunk3Cy1dQtgZ-t","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/resume/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/resume/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/resume/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/resume/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/resume/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/resume/_next/static/chunks/601dc1a12bda3fda.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/resume/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/resume/_next/static/chunks/9988c4a59e44ac76.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/resume/_next/static/chunks/05424c1bbd401aee.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/resume/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://rohirik.github.io/resume/blog\",\"sameAs\":[],\"headline\":\"Writing about automation and security...\",\"description\":\"Read what Rohi Rikman has been up to recently\",\"image\":\"https://rohirik.github.io/resume/https://rohirik.github.io/resume/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://rohirik.github.io/resume/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://rohirik.github.io/resume/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing about automation and security..."}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","homelab-docker-swarm",{"post":{"metadata":{"title":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","subtitle":"","publishedAt":"2026-03-02","summary":"A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.","image":"/images/blog/homelab-docker-swarm.png","images":[],"tag":"Infrastructure","team":[],"link":""},"slug":"homelab-docker-swarm","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc","$Ld"]}]]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
 14:I[303847,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"Mailchimp"]
-17:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
-18:"$Sreact.suspense"
-1a:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"ViewportBoundary"]
-1c:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"MetadataBoundary"]
-1f:I[530824,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"Providers"]
-20:I[621971,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"RevealFx"]
-21:I[394412,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"Background"]
-22:I[521247,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"ClientFlex"]
-23:I[402971,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"Header"]
-24:I[1166,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"RouteGuard"]
-12:T15a9,
+19:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+1a:"$Sreact.suspense"
+1c:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"ViewportBoundary"]
+1e:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"MetadataBoundary"]
+21:I[530824,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"Providers"]
+22:I[621971,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"RevealFx"]
+23:I[394412,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"Background"]
+24:I[521247,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"ClientFlex"]
+25:I[402971,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"Header"]
+26:I[1166,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"RouteGuard"]
+12:T1eda,
+I've been building most of my personal projects with Claude Code for the past year. The tool works, but not in the way most people describe it. The narrative is usually "just describe what you want and it builds it." That's not wrong, but it's missing the part where a bad description causes you to spend two hours steering the model away from the wrong implementation.
+
+The shift that changed everything was treating AI as an analyst team, not a code generator.
+
+## The planning problem
+
+Early on, I'd describe a feature and let Claude start coding immediately. Sometimes it went well. More often, I'd get 200 lines of code that solved the wrong problem — technically correct but not what I needed. Worse, fixing the direction mid-implementation is expensive. You've already loaded context, written partial code, maybe created files. Undoing that costs more than starting right.
+
+The pattern I settled on: spend more time on the plan, less time on implementation. A well-scoped plan with clear constraints means near-zero steering during implementation. The model isn't smarter with a good plan, it's just pointed at the right target.
+
+My workflow now: `/plan` → review and modify until it's right → auto-accept mode for implementation → `/simplify` → `/verify` → commit. The planning phase takes as long as it takes. Everything after it is fast.
+
+## The context problem
+
+The second thing that broke early: context windows. You hit the limit mid-session, the model compacts, and suddenly it's lost track of decisions you made an hour ago. It suggests approaches you already ruled out. You repeat yourself. Progress slows.
+
+I solved this with a 3-layer memory model.
+
+**Layer 1: Real-time context management.** A context-mode MCP server runs commands in isolated subprocesses and returns only summaries to the main context window. Running `bun test` without this floods the window with output you don't need. With it, you get a two-line summary. This alone extended how long a focused session could run before things got noisy.
+
+**Layer 2: Per-session state.** Four markdown files per project, stored at `~/.claude/projects/<name>/`:
+- `context-goals.md` — what I'm working on right now (max 5 lines, rewritten when goals change)
+- `context-decisions.md` — architectural choices and why (permanent, never deleted)
+- `context-progress.md` — completed tasks and what's in flight (auto-trimmed to last 20)
+- `context-gotchas.md` — warnings, blockers, lessons (permanent, never deleted)
+
+A pre-compaction hook assembles these into a summary that gets injected at the next session start. When I come back after a break, I'm not starting from scratch — the model knows where we left off, what decisions are locked in, and what to avoid.
+
+**Layer 3: Cross-session learning.** At the end of each session, an EvaluateSession hook extracts patterns from the transcript and writes them to `skills/Learned/`. These are ephemeral and eventually trimmed. But if a lesson is important enough to keep — a bug pattern that bit me twice, a library quirk — I promote it manually to `context-gotchas.md`. Gotchas never get trimmed.
+
+## The analyst team model
+
+The thing I've found most useful is treating Claude not as one model but as a team with different roles. I have 11 specialized agents configured, each scoped to a specific kind of work:
+
+- **Planner** — scopes features, identifies dependencies, flags risks before any code is written
+- **Code reviewer** — severity-based feedback: critical issues block commit, high issues get fixed, medium are noted
+- **Security reviewer** — OWASP Top 10, secrets detection, dependency auditing
+- **TDD guide** — enforces write-tests-first; if I try to implement before writing a test, it stops me
+- **Build error resolver** — when the build breaks, this agent diagnoses and fixes without touching anything else
+- **Architect** — for decisions that affect project structure, not just implementation
+- **E2E runner** — Playwright tests for critical user flows
+
+These aren't just named system prompts. They run as separate agents with access to the codebase but scoped to their role. The code reviewer doesn't have permission to edit files. The build error resolver doesn't refactor — it makes the minimum change to get green. Scope matters for agents the same way it matters for service accounts.
+
+## SOC workflow integration
+
+My Project Aegis work — the AI agent system for security operations — introduced a different set of constraints. When an agent can interact with a SIEM, create tickets, or trigger containment actions, "let the model decide" isn't good enough.
+
+The patterns that held up:
+
+**Confidence thresholds.** Every agent action has a confidence score. Below a threshold, the action pauses and creates a human review task instead of executing. The threshold is higher for destructive actions. Isolating a device requires higher confidence than creating an alert ticket.
+
+**Read-before-write confirmation.** Before any write action, the agent confirms its understanding of the current state. This catches prompt injection — where adversarial content in ingested data tries to redirect the agent — before damage is done. If the agent's understanding of state doesn't match reality, it stops.
+
+**Rate limiting on destructive operations.** An agent that can create tickets is capped at N per hour. An agent that can isolate devices has a hard limit per day. If the cap is hit, it alerts a human rather than continuing. This catches runaway behavior from bugs or injection before it becomes a real incident.
+
+**Separate identities per agent.** Each agent in Aegis has its own service principal with scoped permissions. The threat intel ingestion agent can't touch the ticketing system. The triage agent can't run containment actions. When agents hand off work, they pass context — not credentials. The receiving agent authenticates with its own identity.
+
+This isn't theoretical. I caught two cases during development where prompt injection in test threat feeds would have caused the agent to try accessing out-of-scope resources. The read-before-write check stopped both.
+
+## The non-negotiables
+
+After a year of this, some things have survived every project. They're in my global Claude Code config and get applied automatically:
+
+**Immutability.** Spread operators, never mutate. Every time I've allowed mutation "just for simplicity," I've spent more time debugging state issues than the mutation saved.
+
+**80% test coverage minimum.** Not a target, a floor. The TDD agent enforces this. Tests go in first; if they don't, the agent pauses and redirects. I've shipped features with 95% coverage. I've never shipped with less than 80% and had it go cleanly.
+
+**Conventional commits.** `feat|fix|refactor|docs|chore: description`. The commit-push-pr command precomputes git context and generates these automatically. Having a consistent format means the git history is readable and PRs are easy to summarize.
+
+**Bun, not npm.** Faster, built-in TypeScript support, consistent. I stopped arguing about this.
+
+**No `console.log` in committed code.** A PostToolUse hook flags it on every edit. It sounds minor. It's not — debugging production logs that are half `console.log("here")` is miserable.
+
+## What actually breaks if you skip the planning
+
+I've run the experiment. Skipping `/plan` and going straight to implementation feels faster at the start. By the middle of implementation, you're steering. By the end, you're either accepting something that doesn't quite fit or throwing away the implementation and starting over.
+
+The planning phase doesn't write code, so it feels unproductive. It's the opposite. A 20-minute planning session that surfaces a wrong assumption saves two hours of implementation. Every time.
+
+The model isn't the bottleneck. The bottleneck is clarity about what you're building.
+a:["$","$L7",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","vibe-coding-ai-workflows",{"post":{"metadata":{"title":"What I Actually Learned from Vibe Coding with Claude Code","subtitle":"","publishedAt":"2026-03-02","summary":"A year of building projects with AI: what the workflow looks like, how I keep context alive across sessions, which safety patterns actually work, and what breaks if you skip them.","image":"/images/blog/vibe-coding-ai-workflows.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"vibe-coding-ai-workflows","content":"$12"},"thumbnail":true,"direction":"column"}],"$L13"]}]
+b:["$","$L14",null,{"marginBottom":"l"}]
+c:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Earlier posts"}]
+15:T15a9,
 If you're running Microsoft 365 and you're serious about Zero Trust, Conditional Access is where most of the actual work happens. It's the enforcement layer that sits between your users and your apps — evaluating identity, device health, location, and risk signals before granting access.
 
 I've built Conditional Access policies for several client environments. Here's what I've learned.
@@ -141,10 +277,171 @@ KQL queries against the sign-in logs in Log Analytics give you more flexibility 
 ---
 
 Next post: endpoint hardening as a Zero Trust control — because Conditional Access requiring a "compliant device" is only as good as what your compliance policies actually check.
-a:["$","$L7",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","conditional-access-in-practice",{"post":{"metadata":{"title":"Conditional Access in Practice","subtitle":"","publishedAt":"2026-02-15","summary":"Conditional Access is where Zero Trust principles actually land in a Microsoft environment. Here's how to think about it, what to get right, and where I've seen it go wrong.","image":"/images/blog/conditional-access-in-practice.png","images":[],"tag":"Security","team":[],"link":""},"slug":"conditional-access-in-practice","content":"$12"},"thumbnail":true,"direction":"column"}],"$L13"]}]
-b:["$","$L14",null,{"marginBottom":"l"}]
-c:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Earlier posts"}]
-15:T1747,
+d:["$","$L7",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","conditional-access-in-practice",{"post":{"metadata":{"title":"Conditional Access in Practice","subtitle":"","publishedAt":"2026-02-15","summary":"Conditional Access is where Zero Trust principles actually land in a Microsoft environment. Here's how to think about it, what to get right, and where I've seen it go wrong.","image":"/images/blog/conditional-access-in-practice.png","images":[],"tag":"Security","team":[],"link":""},"slug":"conditional-access-in-practice","content":"$15"},"thumbnail":false,"direction":"$undefined"}],"$L16","$L17","$L18"]}]
+e:["$","script","script-0",{"src":"/resume/_next/static/chunks/1639f11c1a7acc88.js","async":true,"nonce":"$undefined"}]
+f:["$","$L19",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1b"}]}]
+10:["$","$1","h",{"children":[null,["$","$L1c",null,{"children":"$L1d"}],["$","div",null,{"hidden":true,"children":["$","$L1e",null,{"children":["$","$1a",null,{"name":"Next.Metadata","children":"$L1f"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+20:T771,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"violet","accent":"emerald","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$20"}}]}],["$","$L21",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L22",null,{"fill":true,"position":"absolute","children":["$","$L23",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L24",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L25",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L26",null,{"children":"$L27"}]}]}],"$L28"]}]}]]}]
+2d:I[778454,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"Row"]
+2e:I[298229,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"IconButton"]
+29:Tdcb,
+I work in IT security. I've sat through a lot of vendor calls. And somewhere around the third time someone told me their network appliance was "a Zero Trust solution," I started keeping count.
+
+It's not a product. It never was. Here's what it actually is.
+
+## The original idea
+
+Zero Trust comes from a 2010 paper by John Kindervag at Forrester. The core insight was blunt: perimeter-based security is wrong. The assumption that everything inside your network is trusted and everything outside isn't — that model breaks the moment you have remote workers, cloud services, SaaS apps, contractors, or any real-world complexity.
+
+The answer wasn't a new product. It was a different assumption: **trust no one by default, verify everything explicitly, and grant access based on identity and context — not network location.**
+
+That's the model. Three sentences.
+
+## What it means operationally
+
+If you actually implement Zero Trust, it looks like this:
+
+**Identity is the perimeter.** It doesn't matter where a request comes from — your office, a coffee shop, a data center. What matters is: who is authenticating, is that identity verified, and does this specific context (device health, location, time, risk score) justify access to this specific resource?
+
+**Least privilege, always.** Users and services get exactly the access they need for the task, nothing more. Not "give the developer access to the dev environment" — give this developer, on this verified device, read access to this specific service, until the session expires.
+
+**Assume breach.** Design your controls as if attackers are already inside. Segment laterally so a compromised endpoint can't reach everything. Log everything so you can detect and respond.
+
+**Continuous verification.** Authentication isn't a one-time gate at login. The trust assessment runs continuously — if device posture changes, if the user does something anomalous, trust can be revoked mid-session.
+
+## What vendors sell
+
+What vendors sell is: their product has a "Zero Trust" feature set. Sometimes that's meaningful. Conditional Access in Entra ID genuinely enforces identity-based access with device posture signals. That's a real implementation of Zero Trust principles.
+
+But "Zero Trust firewall" is mostly marketing. Network segmentation is one piece of a Zero Trust architecture — it's not the whole model. A firewall doesn't verify identity. It filters traffic. That's useful, but it's not Zero Trust.
+
+The tell is whether the product forces you to think about identity and context, or whether it's still thinking in terms of network location. If the conversation is about IP ranges and VLANs, you're still in the perimeter model with new branding.
+
+## Why it matters
+
+The reason to care about the distinction isn't pedantry. It's that if you think Zero Trust is a product you can buy, you'll buy the product and think you're done. You won't be.
+
+The actual work is architectural: redefining trust boundaries, implementing strong identity across all users and services, getting device health signals into access decisions, segmenting your environment so lateral movement is hard, building detection and response for when (not if) something gets through.
+
+None of that is a product. All of it is work.
+
+---
+
+This is the first of a few posts I'm planning on Zero Trust — what it actually means, how I've implemented pieces of it in real environments, and where the hard parts are. Next up: Conditional Access, which is where most of the practical implementation lives.
+13:["$","$L8","zero-trust-is-not-a-product",{"post":{"metadata":{"title":"Zero Trust Is Not a Product","subtitle":"","publishedAt":"2026-02-20","summary":"Every vendor sells 'Zero Trust.' Most of what they're selling is a marketing label on a firewall. Here's what the model actually means and why it matters.","image":"/images/blog/zero-trust-is-not-a-product.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-is-not-a-product","content":"$29"},"thumbnail":true,"direction":"column"}]
+2a:T15f3,
+In the last post I talked about Conditional Access requiring device compliance as a gate for accessing sensitive resources. That's a good control — but it's only as strong as what your compliance policies actually check.
+
+A compliance policy that requires Windows 10 or later and nothing else isn't doing much. Here's what meaningful endpoint hardening looks like and how to enforce it at scale.
+
+## What you're actually trying to prevent
+
+Endpoint hardening exists because endpoints are where most breaches start. Phishing drops malware on a laptop. A stolen credential gets used from an unmanaged device. A vulnerability in an unpatched browser gets exploited in a drive-by.
+
+The goal is: make endpoints harder to compromise, make compromise harder to escalate, and make detection faster when it happens anyway.
+
+In a Zero Trust model, the device posture signal feeds directly into access decisions. A device with BitLocker disabled and a 90-day-old OS patch level is a liability — and Conditional Access can refuse it access to production resources until it's fixed.
+
+## The baseline controls
+
+These are the things I configure in every Intune environment before anything else:
+
+**BitLocker everywhere.** Full disk encryption on Windows endpoints. If a laptop is lost or stolen, the data on it is inaccessible without the PIN. Enforce BitLocker, escrow recovery keys to Entra ID, and verify via Intune compliance policy. If a device isn't encrypted, it fails compliance.
+
+**OS and software updates.** Unpatched systems are a known-risk liability. Intune's update rings for Windows let you enforce patch timelines — you can require that devices are within N days of the latest security patch before passing compliance. Combine with Windows Update for Business for ring-based deployment.
+
+**Defender Antivirus and real-time protection.** Basic but worth enforcing via compliance policy. Ensure real-time protection is on and definitions are current. If you have Defender for Endpoint licensed, that opens up device risk score integration.
+
+**Firewall enabled.** Windows Firewall should be on for all profiles (domain, private, public). This is easy to check and easy to enforce, and it closes a lot of lateral movement options.
+
+**Secure Boot.** Prevents boot-time attacks. Enforce via compliance policy — devices that can't pass Secure Boot attestation fail compliance.
+
+**No jailbreak / rooted status** (mobile). For iOS and Android in Intune, compliance policies can check for jailbreak/root status. Jailbroken devices bypass OS security controls and shouldn't be touching corporate resources.
+
+## The deeper controls
+
+Once the baseline is solid, the next layer:
+
+**Defender for Endpoint integration.** If you have the licensing, connect Defender for Endpoint to Intune compliance. DfE computes a machine risk score based on active threats, vulnerability exposure, and security configuration. You can require that risk score is "low" or "medium" before a device passes compliance. This gives you real-time threat signal flowing into access decisions.
+
+**Attack Surface Reduction rules.** ASR rules in Defender block specific behaviors: Office macros from spawning child processes, executable content from email attachments, credential theft from lsass.exe. Some of these are noisy in audit mode and need tuning, but they block real attack techniques.
+
+**Credential Guard.** Protects credentials in memory using virtualization-based security. Prevents pass-the-hash and pass-the-ticket attacks even on a compromised endpoint. Requires UEFI and Secure Boot, so you need hardware that supports it.
+
+**Local admin restrictions.** Standard users shouldn't be local admins on their workstations. If they need to install software, the right answer is a software catalog, not admin rights. Restricting local admin significantly limits what malware can do once it lands.
+
+**LAPS.** Local Administrator Password Solution rotates local admin passwords per device and stores them in Entra ID. This prevents credential reuse attacks — if an attacker gets the local admin password from one machine, it doesn't work on others.
+
+## Enforcement reality
+
+The gap between "configured in Intune" and "actually enforced" is real. Intune compliance policies mark devices as non-compliant, but if Conditional Access isn't actually gating on that, it's just a report.
+
+The rollout order I use:
+1. Build the compliance policies and put everything in report-only or "warn" mode
+2. Let it run for 2–4 weeks, review what's failing and why
+3. Fix the legitimate issues (old hardware, software conflicts, provisioning gaps)
+4. Enable Conditional Access enforcement for a pilot group
+5. Expand to full enforcement once the pilot is clean
+
+Skipping step 3 means you'll lock out legitimate users when you enforce, which makes IT look like the problem rather than the solution.
+
+## Measuring it
+
+The questions I use to audit whether endpoint hardening is actually working:
+
+- What percentage of managed endpoints pass compliance today? (Target: >95%)
+- What are the top 3 reasons devices fail compliance?
+- Are any devices passing compliance that shouldn't be (false compliant)?
+- What's the DfE machine risk distribution across the fleet?
+- When did the highest-risk device last check in?
+
+If you can answer those from Intune and DfE dashboards in under 5 minutes, your visibility is in decent shape. If you can't, that's the first thing to fix.
+
+---
+
+Next: why I built Project Aegis — an AI agent system for security operations — and how the same Zero Trust principles apply to agentic systems that have access to sensitive tools.
+16:["$","$L8","endpoint-hardening-zero-trust-control",{"post":{"metadata":{"title":"Endpoint Hardening as a Zero Trust Control","subtitle":"","publishedAt":"2026-02-10","summary":"A compliant device in Conditional Access is only meaningful if your compliance policies check things that actually matter. Here's what to harden and how to measure it.","image":"/images/blog/endpoint-hardening-zero-trust-control.png","images":[],"tag":"Security","team":[],"link":""},"slug":"endpoint-hardening-zero-trust-control","content":"$2a"},"thumbnail":false,"direction":"$undefined"}]
+2b:T1747,
 I've spent the last year building Project Aegis — an AI agent system that automates security operations work. Threat intel ingestion, alert triage, compliance checks, incident drafts. The agents have access to APIs, can query databases, can interact with ticketing systems.
 
 While I was building it, I kept running into the same realization: agentic systems need Zero Trust applied to them too. Most don't have it.
@@ -216,126 +513,8 @@ The core shift is treating your AI agents as principals that need the same secur
 Identity, least privilege, logging, continuous monitoring, assume breach. The principles are the same. The implementation is different but not dramatically so if you're already doing it for your users and services.
 
 The hard part is the culture: most agentic development moves fast and treats security as something to add later. Later usually doesn't happen. Better to bake it in from the start.
-d:["$","$L7",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","zero-trust-for-ai-agents",{"post":{"metadata":{"title":"Zero Trust for AI Agents","subtitle":"","publishedAt":"2026-02-05","summary":"AI agents have access to real tools — APIs, databases, shell execution. The same principles that apply to human users apply here, and most agentic systems ignore them.","image":"/images/blog/zero-trust-for-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-for-ai-agents","content":"$15"},"thumbnail":false,"direction":"$undefined"}],"$L16"]}]
-e:["$","script","script-0",{"src":"/resume/_next/static/chunks/1639f11c1a7acc88.js","async":true,"nonce":"$undefined"}]
-f:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
-10:["$","$1","h",{"children":[null,["$","$L1a",null,{"children":"$L1b"}],["$","div",null,{"hidden":true,"children":["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$L1d"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-1e:T771,
-              (function() {
-                try {
-                  const root = document.documentElement;
-                  const defaultTheme = 'system';
-                  
-                  // Set defaults from config
-                  const config = {"brand":"violet","accent":"emerald","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
-                  
-                  // Apply default values
-                  Object.entries(config).forEach(([key, value]) => {
-                    root.setAttribute('data-' + key, value);
-                  });
-                  
-                  // Resolve theme
-                  const resolveTheme = (themeValue) => {
-                    if (!themeValue || themeValue === 'system') {
-                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-                    }
-                    return themeValue;
-                  };
-                  
-                  // Apply saved theme
-                  const savedTheme = localStorage.getItem('data-theme');
-                  const resolvedTheme = resolveTheme(savedTheme);
-                  root.setAttribute('data-theme', resolvedTheme);
-                  
-                  // Apply any saved style overrides
-                  const styleKeys = Object.keys(config);
-                  styleKeys.forEach(key => {
-                    const value = localStorage.getItem('data-' + key);
-                    if (value) {
-                      root.setAttribute('data-' + key, value);
-                    }
-                  });
-                } catch (e) {
-                  console.error('Failed to initialize theme:', e);
-                  document.documentElement.setAttribute('data-theme', 'dark');
-                }
-              })();
-            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$1e"}}]}],["$","$L1f",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L20",null,{"fill":true,"position":"absolute","children":["$","$L21",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L22",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L23",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L24",null,{"children":"$L25"}]}]}],"$L26"]}]}]]}]
-29:I[778454,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"Row"]
-2a:I[298229,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/1639f11c1a7acc88.js"],"IconButton"]
-27:T15f3,
-In the last post I talked about Conditional Access requiring device compliance as a gate for accessing sensitive resources. That's a good control — but it's only as strong as what your compliance policies actually check.
-
-A compliance policy that requires Windows 10 or later and nothing else isn't doing much. Here's what meaningful endpoint hardening looks like and how to enforce it at scale.
-
-## What you're actually trying to prevent
-
-Endpoint hardening exists because endpoints are where most breaches start. Phishing drops malware on a laptop. A stolen credential gets used from an unmanaged device. A vulnerability in an unpatched browser gets exploited in a drive-by.
-
-The goal is: make endpoints harder to compromise, make compromise harder to escalate, and make detection faster when it happens anyway.
-
-In a Zero Trust model, the device posture signal feeds directly into access decisions. A device with BitLocker disabled and a 90-day-old OS patch level is a liability — and Conditional Access can refuse it access to production resources until it's fixed.
-
-## The baseline controls
-
-These are the things I configure in every Intune environment before anything else:
-
-**BitLocker everywhere.** Full disk encryption on Windows endpoints. If a laptop is lost or stolen, the data on it is inaccessible without the PIN. Enforce BitLocker, escrow recovery keys to Entra ID, and verify via Intune compliance policy. If a device isn't encrypted, it fails compliance.
-
-**OS and software updates.** Unpatched systems are a known-risk liability. Intune's update rings for Windows let you enforce patch timelines — you can require that devices are within N days of the latest security patch before passing compliance. Combine with Windows Update for Business for ring-based deployment.
-
-**Defender Antivirus and real-time protection.** Basic but worth enforcing via compliance policy. Ensure real-time protection is on and definitions are current. If you have Defender for Endpoint licensed, that opens up device risk score integration.
-
-**Firewall enabled.** Windows Firewall should be on for all profiles (domain, private, public). This is easy to check and easy to enforce, and it closes a lot of lateral movement options.
-
-**Secure Boot.** Prevents boot-time attacks. Enforce via compliance policy — devices that can't pass Secure Boot attestation fail compliance.
-
-**No jailbreak / rooted status** (mobile). For iOS and Android in Intune, compliance policies can check for jailbreak/root status. Jailbroken devices bypass OS security controls and shouldn't be touching corporate resources.
-
-## The deeper controls
-
-Once the baseline is solid, the next layer:
-
-**Defender for Endpoint integration.** If you have the licensing, connect Defender for Endpoint to Intune compliance. DfE computes a machine risk score based on active threats, vulnerability exposure, and security configuration. You can require that risk score is "low" or "medium" before a device passes compliance. This gives you real-time threat signal flowing into access decisions.
-
-**Attack Surface Reduction rules.** ASR rules in Defender block specific behaviors: Office macros from spawning child processes, executable content from email attachments, credential theft from lsass.exe. Some of these are noisy in audit mode and need tuning, but they block real attack techniques.
-
-**Credential Guard.** Protects credentials in memory using virtualization-based security. Prevents pass-the-hash and pass-the-ticket attacks even on a compromised endpoint. Requires UEFI and Secure Boot, so you need hardware that supports it.
-
-**Local admin restrictions.** Standard users shouldn't be local admins on their workstations. If they need to install software, the right answer is a software catalog, not admin rights. Restricting local admin significantly limits what malware can do once it lands.
-
-**LAPS.** Local Administrator Password Solution rotates local admin passwords per device and stores them in Entra ID. This prevents credential reuse attacks — if an attacker gets the local admin password from one machine, it doesn't work on others.
-
-## Enforcement reality
-
-The gap between "configured in Intune" and "actually enforced" is real. Intune compliance policies mark devices as non-compliant, but if Conditional Access isn't actually gating on that, it's just a report.
-
-The rollout order I use:
-1. Build the compliance policies and put everything in report-only or "warn" mode
-2. Let it run for 2–4 weeks, review what's failing and why
-3. Fix the legitimate issues (old hardware, software conflicts, provisioning gaps)
-4. Enable Conditional Access enforcement for a pilot group
-5. Expand to full enforcement once the pilot is clean
-
-Skipping step 3 means you'll lock out legitimate users when you enforce, which makes IT look like the problem rather than the solution.
-
-## Measuring it
-
-The questions I use to audit whether endpoint hardening is actually working:
-
-- What percentage of managed endpoints pass compliance today? (Target: >95%)
-- What are the top 3 reasons devices fail compliance?
-- Are any devices passing compliance that shouldn't be (false compliant)?
-- What's the DfE machine risk distribution across the fleet?
-- When did the highest-risk device last check in?
-
-If you can answer those from Intune and DfE dashboards in under 5 minutes, your visibility is in decent shape. If you can't, that's the first thing to fix.
-
----
-
-Next: why I built Project Aegis — an AI agent system for security operations — and how the same Zero Trust principles apply to agentic systems that have access to sensitive tools.
-13:["$","$L8","endpoint-hardening-zero-trust-control",{"post":{"metadata":{"title":"Endpoint Hardening as a Zero Trust Control","subtitle":"","publishedAt":"2026-02-10","summary":"A compliant device in Conditional Access is only meaningful if your compliance policies check things that actually matter. Here's what to harden and how to measure it.","image":"/images/blog/endpoint-hardening-zero-trust-control.png","images":[],"tag":"Security","team":[],"link":""},"slug":"endpoint-hardening-zero-trust-control","content":"$27"},"thumbnail":true,"direction":"column"}]
-28:T16b6,
+17:["$","$L8","zero-trust-for-ai-agents",{"post":{"metadata":{"title":"Zero Trust for AI Agents","subtitle":"","publishedAt":"2026-02-05","summary":"AI agents have access to real tools — APIs, databases, shell execution. The same principles that apply to human users apply here, and most agentic systems ignore them.","image":"/images/blog/zero-trust-for-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-for-ai-agents","content":"$2b"},"thumbnail":false,"direction":"$undefined"}]
+2c:T16b6,
 There's a version of security that's built around the network. The idea is: defend the boundary, and everything inside is safe. Keep attackers out with firewalls, VPNs, intrusion detection. Trust the inside.
 
 That model has been broken for a long time. Cloud services, remote work, SaaS, third-party integrations — the "inside" isn't a coherent concept anymore. Your users are authenticating from coffee shops. Your apps are in Azure. Your data is in SharePoint and Salesforce and a dozen other places. There's no perimeter to defend.
@@ -396,10 +575,10 @@ The conversation shifts from "security is making our lives harder" to "we're bui
 ---
 
 Last post in this series will be practical: what a Zero Trust rollout actually looks like in a mid-size organization, what to do first, and where the first six months usually go wrong.
-16:["$","$L8","identity-first-security",{"post":{"metadata":{"title":"Identity-First Security","subtitle":"","publishedAt":"2026-01-28","summary":"The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.","image":"/images/blog/identity-first-security.png","images":[],"tag":"Security","team":[],"link":""},"slug":"identity-first-security","content":"$28"},"thumbnail":false,"direction":"$undefined"}]
-25:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
-26:["$","$L29",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L29",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L29",null,{"gap":"16","children":[["$","$L2a","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L2a","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L2a","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L29",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-1b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-2b:I[27201,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"IconMark"]
-19:null
-1d:[["$","title","0",{"children":"Writing about automation and security..."}],["$","meta","1",{"name":"description","content":"Read what Rohi Rikman has been up to recently"}],["$","meta","2",{"property":"og:title","content":"Writing about automation and security..."}],["$","meta","3",{"property":"og:description","content":"Read what Rohi Rikman has been up to recently"}],["$","meta","4",{"property":"og:url","content":"https://rohirik.github.io/resume/blog"}],["$","meta","5",{"property":"og:image","content":"https://rohirik.github.io/resume/images/avatar.png"}],["$","meta","6",{"property":"og:image:alt","content":"Writing about automation and security..."}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing about automation and security..."}],["$","meta","10",{"name":"twitter:description","content":"Read what Rohi Rikman has been up to recently"}],["$","meta","11",{"name":"twitter:image","content":"https://rohirik.github.io/resume/images/avatar.png"}],["$","link","12",{"rel":"icon","href":"/resume/icon.png?icon.4f0888a0.png","sizes":"1532x1858","type":"image/png"}],["$","$L2b","13",{}]]
+18:["$","$L8","identity-first-security",{"post":{"metadata":{"title":"Identity-First Security","subtitle":"","publishedAt":"2026-01-28","summary":"The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.","image":"/images/blog/identity-first-security.png","images":[],"tag":"Security","team":[],"link":""},"slug":"identity-first-security","content":"$2c"},"thumbnail":false,"direction":"$undefined"}]
+27:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+28:["$","$L2d",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L2d",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L2d",null,{"gap":"16","children":[["$","$L2e","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L2e","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L2e","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L2d",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+1d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2f:I[27201,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"IconMark"]
+1b:null
+1f:[["$","title","0",{"children":"Writing about automation and security..."}],["$","meta","1",{"name":"description","content":"Read what Rohi Rikman has been up to recently"}],["$","meta","2",{"property":"og:title","content":"Writing about automation and security..."}],["$","meta","3",{"property":"og:description","content":"Read what Rohi Rikman has been up to recently"}],["$","meta","4",{"property":"og:url","content":"https://rohirik.github.io/resume/blog"}],["$","meta","5",{"property":"og:image","content":"https://rohirik.github.io/resume/images/avatar.png"}],["$","meta","6",{"property":"og:image:alt","content":"Writing about automation and security..."}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing about automation and security..."}],["$","meta","10",{"name":"twitter:description","content":"Read what Rohi Rikman has been up to recently"}],["$","meta","11",{"name":"twitter:image","content":"https://rohirik.github.io/resume/images/avatar.png"}],["$","link","12",{"rel":"icon","href":"/resume/icon.png?icon.4f0888a0.png","sizes":"1532x1858","type":"image/png"}],["$","$L2f","13",{}]]

@@ -1,0 +1,189 @@
+1:"$Sreact.fragment"
+2:I[778454,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Row"]
+3:I[273323,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Column"]
+4:I[479520,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],""]
+5:I[624379,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"SmartLink"]
+6:I[145250,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Avatar"]
+7:I[398382,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Media"]
+8:I[811052,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"HeadingLink"]
+34:I[362844,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"InlineCode"]
+35:I[448588,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"ShareSection"]
+36:I[311451,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Line"]
+37:I[89532,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Grid"]
+38:I[814360,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"default"]
+3b:I[988654,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"ScrollToHash"]
+3c:I[605649,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"HeadingNav"]
+3d:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+3e:"$Sreact.suspense"
+0:{"buildId":"qdrbgpgunk3Cy1dQtgZ-t","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/homelab-docker-swarm","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://rohirik.github.io/resume/blog/homelab-docker-swarm\",\"sameAs\":[],\"headline\":\"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke\",\"description\":\"A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.\",\"image\":\"https://rohirik.github.io/resume/images/blog/homelab-docker-swarm.png\",\"datePublished\":\"2026-03-02\",\"dateModified\":\"2026-03-02\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://rohirik.github.io/resume/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://rohirik.github.io/resume/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 2, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/resume/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/resume/images/blog/homelab-docker-swarm.png","alt":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"My homelab runs on a dedicated server, not a cloud VPS. Everything is version-controlled, documented, and designed to run without me touching it. It's been doing that for over a year."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is what's running, how it's wired together, and what went wrong the first time."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-swarm-and-not-the-alternatives","children":"Why Swarm and not the alternatives"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The choice comes up every time I mention this setup: why not Kubernetes, why not plain Compose?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Kubernetes is genuinely overkill for a single server. The operational overhead — etcd, control plane components, kubeconfig management, networking plugins — is real work for infrastructure that only needs to orchestrate maybe 10 services. The value of Kubernetes is horizontal scaling and high availability across nodes. I have one node."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d"]}],"$L2e","$L2f","$L30"]}]}],"$L31"]}],["$L32"],"$L33"]}],"loading":null,"isPartial":false}
+9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Plain Compose works and is simple to reason about, but it doesn't give you health-based restarts, rolling updates, or service redeployment without downtime. When a container crashes, Compose doesn't automatically reschedule it. Swarm does."}]
+a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Swarm hits the right point in the tradeoff: orchestration primitives (services, secrets, overlay networks, health checks, update policies) without the operational overhead of a full cluster. It's been running with no manual intervention since I set it up."}]
+b:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"network-architecture","children":"Network architecture"}]
+c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"All external traffic enters through Traefik on ports 80 and 443. Traefik handles Let's Encrypt SSL automatically — certificates are provisioned on first request and renewed without manual intervention. It routes to the right service based on hostname labels on each container."}]
+d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Backend services communicate over internal overlay networks and have no ports exposed to the outside. The pattern is: Traefik is the only service on ",["$","$L34",null,{"children":"proxy-net"}]," that faces the internet. Everything else is on service-specific overlay networks and only joins ",["$","$L34",null,{"children":"proxy-net"}]," if it needs to be externally reachable. Services that don't need external exposure — databases, internal APIs — are never on ",["$","$L34",null,{"children":"proxy-net"}]," at all."]}]
+e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is the same segmentation principle as network microsegmentation: services can't reach each other unless there's an explicit path. If Firecrawl gets compromised, it can't directly reach n8n or the secrets store. They're on different networks."}]
+f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"secrets-management","children":"Secrets management"}]
+10:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The first version of this setup used environment variables in Compose files. This is the common approach and also the wrong one: environment variables end up in Compose files, Compose files end up in git, and suddenly you're sanitizing git history."}]
+11:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I replaced all of that with Infisical, which I self-host on the same server. Agents and services fetch credentials at runtime through the Infisical SDK or CLI. Nothing sensitive is in the Compose files. If I need to rotate a credential, I update it in Infisical and restart the affected service — no code changes, no Compose file edits."}]
+12:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Infisical also gives me an audit trail: which service fetched which secret, when. For a homelab, this might sound excessive. It's not — knowing that a service fetched a credential at an unexpected time is useful signal."}]
+13:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Docker Swarm also has native secrets (",["$","$L34",null,{"children":"docker secret"}],"), which I use for a few things that Infisical can't easily inject (init scripts, bootstrap credentials for Infisical itself). Both live alongside each other without conflict."]}]
+14:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-runs-on-it","children":"What runs on it"}]
+15:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Traefik"}]," — Edge router and SSL termination. Service discovery is automatic via container labels. I define routes in each service's Compose file rather than in a central Traefik config, which means adding a new service doesn't require touching the router config."]}]
+16:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Portainer"}]," — Swarm management UI. Most things I do via CLI, but Portainer is useful for visualizing the current state of the stack, looking at service logs without SSHing in, and managing one-off tasks. It connects to the Docker socket and has full visibility into the Swarm."]}]
+17:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Infisical"}]," — Secrets store. Self-hosted with its own database. Services fetch credentials from Infisical at startup; nothing sensitive lives anywhere else in the stack."]}]
+18:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"n8n"}]," — Workflow automation. This is the busiest service in the stack — it's connected to a handful of external APIs and runs scheduled and event-triggered automations. It persists state to a volume on the host. The workflow definitions are exported and version-controlled separately."]}]
+19:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Firecrawl"}]," — Documentation crawling for AI projects. I run this alongside Project Aegis and other AI tools that need to index documentation from web sources. Self-hosting it means I control the crawl rate and the data stays local."]}]
+1a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"SearXNG"}]," — Self-hosted metasearch. Routes queries to multiple search engines without sending identifying information to any of them. Useful when Claude Code or local agents need to search the web without leaking query patterns."]}]
+1b:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-modular-stack-structure","children":"The modular stack structure"}]
+1c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The first version of this setup was a single large Compose file. Everything was defined in one place, which felt clean until the stack had eight services and adding a ninth meant scrolling through 400 lines of YAML and hoping you didn't break something in the middle."}]
+1d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"More importantly: redeploying one service meant bringing the entire stack down or doing careful surgery on a monolithic file. It didn't scale."}]
+1e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The current structure is one directory per service, each with its own Compose file:"}]
+1f:["$","pre",null,{"children":["$","$L34",null,{"children":"homelab-swarm-stack/\n  traefik/\n    docker-compose.yml\n  portainer/\n    docker-compose.yml\n  infisical/\n    docker-compose.yml\n  n8n/\n    docker-compose.yml\n  ...\n"}]}]
+20:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Each service connects to the shared ",["$","$L34",null,{"children":"proxy-net"}]," network for ingress (if it needs external exposure) and to service-specific networks for internal communication. The ",["$","$L34",null,{"children":"proxy-net"}]," network is created once and referenced as external in each Compose file."]}]
+21:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Deploying a new service: create its directory, write its Compose file, deploy with ",["$","$L34",null,{"children":"docker stack deploy"}],". No other service is touched. Removing a service: ",["$","$L34",null,{"children":"docker stack rm <service>"}],". The rest of the stack is unaffected."]}]
+22:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is the same principle as microservices architecture applied to infrastructure config: each unit is independently deployable and changes to one don't risk breaking others."}]
+23:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-s-required-to-maintain-it","children":"What's required to maintain it"}]
+24:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The honest answer: almost nothing. Traefik renews certs automatically. Services restart on failure via Swarm health checks. I don't do manual updates — I have a process for pulling new images and redeploying, but it's not automated (I want to be intentional about when things update)."}]
+25:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"What does require occasional attention:"}]
+26:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Storage."}]," Volumes accumulate data. n8n's database grows. I check disk usage monthly and prune what's not needed."]}]
+27:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Infisical."}]," The self-hosted version needs occasional updates. These are the updates I'm most careful about — Infisical holds credentials for everything else, so a botched update has cascading effects. I test updates on a snapshot before applying to the live instance."]}]
+28:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Network connectivity."}]," Occasionally a service loses connectivity to ",["$","$L34",null,{"children":"proxy-net"}]," after a server restart. The fix is always ",["$","$L34",null,{"children":"docker network connect proxy-net <container>"}]," — it takes 10 seconds, but it's annoying enough that I documented it in the project's gotchas file."]}]
+29:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Swarm state."}]," Single-node Swarm doesn't have the HA guarantees of a multi-node cluster. If the server loses power without a clean shutdown, Swarm state can get inconsistent. I keep a current export of all stack definitions so recovery is redeploy-from-scratch rather than debugging corrupted state."]}]
+2a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-i-d-do-differently","children":"What I'd do differently"}]
+2b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The secrets management was the biggest early mistake. Environment variables in Compose files feel convenient until they're not. Infisical from the start would have saved the work of migrating everything over."}]
+2c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The second thing: start modular. A monolithic Compose file is tempting for the first three services because it's less overhead. By service six, you're paying for it. The directory-per-service structure takes five minutes to set up and saves hours later."}]
+2d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Everything else, including the Swarm choice over Kubernetes, I'd make the same way."}]
+2e:["$","$L35",null,{"title":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","url":"https://rohirik.github.io/resume/blog/homelab-docker-swarm"}]
+39:T1eda,
+I've been building most of my personal projects with Claude Code for the past year. The tool works, but not in the way most people describe it. The narrative is usually "just describe what you want and it builds it." That's not wrong, but it's missing the part where a bad description causes you to spend two hours steering the model away from the wrong implementation.
+
+The shift that changed everything was treating AI as an analyst team, not a code generator.
+
+## The planning problem
+
+Early on, I'd describe a feature and let Claude start coding immediately. Sometimes it went well. More often, I'd get 200 lines of code that solved the wrong problem — technically correct but not what I needed. Worse, fixing the direction mid-implementation is expensive. You've already loaded context, written partial code, maybe created files. Undoing that costs more than starting right.
+
+The pattern I settled on: spend more time on the plan, less time on implementation. A well-scoped plan with clear constraints means near-zero steering during implementation. The model isn't smarter with a good plan, it's just pointed at the right target.
+
+My workflow now: `/plan` → review and modify until it's right → auto-accept mode for implementation → `/simplify` → `/verify` → commit. The planning phase takes as long as it takes. Everything after it is fast.
+
+## The context problem
+
+The second thing that broke early: context windows. You hit the limit mid-session, the model compacts, and suddenly it's lost track of decisions you made an hour ago. It suggests approaches you already ruled out. You repeat yourself. Progress slows.
+
+I solved this with a 3-layer memory model.
+
+**Layer 1: Real-time context management.** A context-mode MCP server runs commands in isolated subprocesses and returns only summaries to the main context window. Running `bun test` without this floods the window with output you don't need. With it, you get a two-line summary. This alone extended how long a focused session could run before things got noisy.
+
+**Layer 2: Per-session state.** Four markdown files per project, stored at `~/.claude/projects/<name>/`:
+- `context-goals.md` — what I'm working on right now (max 5 lines, rewritten when goals change)
+- `context-decisions.md` — architectural choices and why (permanent, never deleted)
+- `context-progress.md` — completed tasks and what's in flight (auto-trimmed to last 20)
+- `context-gotchas.md` — warnings, blockers, lessons (permanent, never deleted)
+
+A pre-compaction hook assembles these into a summary that gets injected at the next session start. When I come back after a break, I'm not starting from scratch — the model knows where we left off, what decisions are locked in, and what to avoid.
+
+**Layer 3: Cross-session learning.** At the end of each session, an EvaluateSession hook extracts patterns from the transcript and writes them to `skills/Learned/`. These are ephemeral and eventually trimmed. But if a lesson is important enough to keep — a bug pattern that bit me twice, a library quirk — I promote it manually to `context-gotchas.md`. Gotchas never get trimmed.
+
+## The analyst team model
+
+The thing I've found most useful is treating Claude not as one model but as a team with different roles. I have 11 specialized agents configured, each scoped to a specific kind of work:
+
+- **Planner** — scopes features, identifies dependencies, flags risks before any code is written
+- **Code reviewer** — severity-based feedback: critical issues block commit, high issues get fixed, medium are noted
+- **Security reviewer** — OWASP Top 10, secrets detection, dependency auditing
+- **TDD guide** — enforces write-tests-first; if I try to implement before writing a test, it stops me
+- **Build error resolver** — when the build breaks, this agent diagnoses and fixes without touching anything else
+- **Architect** — for decisions that affect project structure, not just implementation
+- **E2E runner** — Playwright tests for critical user flows
+
+These aren't just named system prompts. They run as separate agents with access to the codebase but scoped to their role. The code reviewer doesn't have permission to edit files. The build error resolver doesn't refactor — it makes the minimum change to get green. Scope matters for agents the same way it matters for service accounts.
+
+## SOC workflow integration
+
+My Project Aegis work — the AI agent system for security operations — introduced a different set of constraints. When an agent can interact with a SIEM, create tickets, or trigger containment actions, "let the model decide" isn't good enough.
+
+The patterns that held up:
+
+**Confidence thresholds.** Every agent action has a confidence score. Below a threshold, the action pauses and creates a human review task instead of executing. The threshold is higher for destructive actions. Isolating a device requires higher confidence than creating an alert ticket.
+
+**Read-before-write confirmation.** Before any write action, the agent confirms its understanding of the current state. This catches prompt injection — where adversarial content in ingested data tries to redirect the agent — before damage is done. If the agent's understanding of state doesn't match reality, it stops.
+
+**Rate limiting on destructive operations.** An agent that can create tickets is capped at N per hour. An agent that can isolate devices has a hard limit per day. If the cap is hit, it alerts a human rather than continuing. This catches runaway behavior from bugs or injection before it becomes a real incident.
+
+**Separate identities per agent.** Each agent in Aegis has its own service principal with scoped permissions. The threat intel ingestion agent can't touch the ticketing system. The triage agent can't run containment actions. When agents hand off work, they pass context — not credentials. The receiving agent authenticates with its own identity.
+
+This isn't theoretical. I caught two cases during development where prompt injection in test threat feeds would have caused the agent to try accessing out-of-scope resources. The read-before-write check stopped both.
+
+## The non-negotiables
+
+After a year of this, some things have survived every project. They're in my global Claude Code config and get applied automatically:
+
+**Immutability.** Spread operators, never mutate. Every time I've allowed mutation "just for simplicity," I've spent more time debugging state issues than the mutation saved.
+
+**80% test coverage minimum.** Not a target, a floor. The TDD agent enforces this. Tests go in first; if they don't, the agent pauses and redirects. I've shipped features with 95% coverage. I've never shipped with less than 80% and had it go cleanly.
+
+**Conventional commits.** `feat|fix|refactor|docs|chore: description`. The commit-push-pr command precomputes git context and generates these automatically. Having a consistent format means the git history is readable and PRs are easy to summarize.
+
+**Bun, not npm.** Faster, built-in TypeScript support, consistent. I stopped arguing about this.
+
+**No `console.log` in committed code.** A PostToolUse hook flags it on every edit. It sounds minor. It's not — debugging production logs that are half `console.log("here")` is miserable.
+
+## What actually breaks if you skip the planning
+
+I've run the experiment. Skipping `/plan` and going straight to implementation feels faster at the start. By the middle of implementation, you're steering. By the end, you're either accepting something that doesn't quite fit or throwing away the implementation and starting over.
+
+The planning phase doesn't write code, so it feels unproductive. It's the opposite. A 20-minute planning session that surfaces a wrong assumption saves two hours of implementation. Every time.
+
+The model isn't the bottleneck. The bottleneck is clarity about what you're building.
+2f:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L36",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L37",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L38","vibe-coding-ai-workflows",{"post":{"metadata":{"title":"What I Actually Learned from Vibe Coding with Claude Code","subtitle":"","publishedAt":"2026-03-02","summary":"A year of building projects with AI: what the workflow looks like, how I keep context alive across sessions, which safety patterns actually work, and what breaks if you skip them.","image":"/images/blog/vibe-coding-ai-workflows.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"vibe-coding-ai-workflows","content":"$39"},"thumbnail":true,"direction":"column"}],"$L3a"]}]]}]
+30:["$","$L3b",null,{}]
+31:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L3c",null,{"fitHeight":true}]}]
+32:["$","script","script-0",{"src":"/resume/_next/static/chunks/b4d60b79b2dcf7b3.js","async":true}]
+33:["$","$L3d",null,{"children":["$","$3e",null,{"name":"Next.MetadataOutlet","children":"$@3f"}]}]
+40:Tdcb,
+I work in IT security. I've sat through a lot of vendor calls. And somewhere around the third time someone told me their network appliance was "a Zero Trust solution," I started keeping count.
+
+It's not a product. It never was. Here's what it actually is.
+
+## The original idea
+
+Zero Trust comes from a 2010 paper by John Kindervag at Forrester. The core insight was blunt: perimeter-based security is wrong. The assumption that everything inside your network is trusted and everything outside isn't — that model breaks the moment you have remote workers, cloud services, SaaS apps, contractors, or any real-world complexity.
+
+The answer wasn't a new product. It was a different assumption: **trust no one by default, verify everything explicitly, and grant access based on identity and context — not network location.**
+
+That's the model. Three sentences.
+
+## What it means operationally
+
+If you actually implement Zero Trust, it looks like this:
+
+**Identity is the perimeter.** It doesn't matter where a request comes from — your office, a coffee shop, a data center. What matters is: who is authenticating, is that identity verified, and does this specific context (device health, location, time, risk score) justify access to this specific resource?
+
+**Least privilege, always.** Users and services get exactly the access they need for the task, nothing more. Not "give the developer access to the dev environment" — give this developer, on this verified device, read access to this specific service, until the session expires.
+
+**Assume breach.** Design your controls as if attackers are already inside. Segment laterally so a compromised endpoint can't reach everything. Log everything so you can detect and respond.
+
+**Continuous verification.** Authentication isn't a one-time gate at login. The trust assessment runs continuously — if device posture changes, if the user does something anomalous, trust can be revoked mid-session.
+
+## What vendors sell
+
+What vendors sell is: their product has a "Zero Trust" feature set. Sometimes that's meaningful. Conditional Access in Entra ID genuinely enforces identity-based access with device posture signals. That's a real implementation of Zero Trust principles.
+
+But "Zero Trust firewall" is mostly marketing. Network segmentation is one piece of a Zero Trust architecture — it's not the whole model. A firewall doesn't verify identity. It filters traffic. That's useful, but it's not Zero Trust.
+
+The tell is whether the product forces you to think about identity and context, or whether it's still thinking in terms of network location. If the conversation is about IP ranges and VLANs, you're still in the perimeter model with new branding.
+
+## Why it matters
+
+The reason to care about the distinction isn't pedantry. It's that if you think Zero Trust is a product you can buy, you'll buy the product and think you're done. You won't be.
+
+The actual work is architectural: redefining trust boundaries, implementing strong identity across all users and services, getting device health signals into access decisions, segmenting your environment so lateral movement is hard, building detection and response for when (not if) something gets through.
+
+None of that is a product. All of it is work.
+
+---
+
+This is the first of a few posts I'm planning on Zero Trust — what it actually means, how I've implemented pieces of it in real environments, and where the hard parts are. Next up: Conditional Access, which is where most of the practical implementation lives.
+3a:["$","$L38","zero-trust-is-not-a-product",{"post":{"metadata":{"title":"Zero Trust Is Not a Product","subtitle":"","publishedAt":"2026-02-20","summary":"Every vendor sells 'Zero Trust.' Most of what they're selling is a marketing label on a firewall. Here's what the model actually means and why it matters.","image":"/images/blog/zero-trust-is-not-a-product.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-is-not-a-product","content":"$40"},"thumbnail":true,"direction":"column"}]
+3f:null
