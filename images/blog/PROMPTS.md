@@ -13,7 +13,7 @@
 - [X] 5. identity-first-security.png
 - [x] 6. vibe-coding-ai-workflows.png
 - [x] 7. homelab-docker-swarm.png
-- [ ] 8. claude-code-config.png
+- [x] 8. claude-code-config.png
 
 ---
 
