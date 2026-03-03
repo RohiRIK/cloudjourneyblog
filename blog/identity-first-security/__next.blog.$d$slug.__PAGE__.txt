@@ -16,7 +16,7 @@
 30:I[605649,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"HeadingNav"]
 31:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 32:"$Sreact.suspense"
-0:{"buildId":"uhErEepKWfcFcyCEJA_OC","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/identity-first-security","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://rohirik.github.io/resume/blog/identity-first-security\",\"sameAs\":[],\"headline\":\"Identity-First Security\",\"description\":\"The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.\",\"image\":\"https://rohirik.github.io/resume/images/blog/identity-first-security.png\",\"datePublished\":\"2026-01-28\",\"dateModified\":\"2026-01-28\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://rohirik.github.io/resume/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://rohirik.github.io/resume/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"January 28, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Identity-First Security"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/resume/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/resume/images/blog/identity-first-security.png","alt":"Identity-First Security","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"There's a version of security that's built around the network. The idea is: defend the boundary, and everything inside is safe. Keep attackers out with firewalls, VPNs, intrusion detection. Trust the inside."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"That model has been broken for a long time. Cloud services, remote work, SaaS, third-party integrations — the \"inside\" isn't a coherent concept anymore. Your users are authenticating from coffee shops. Your apps are in Azure. Your data is in SharePoint and Salesforce and a dozen other places. There's no perimeter to defend."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"What's left is identity. And identity-first security is what it sounds like: rebuild your controls around who is authenticating, rather than where they're connecting from."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-identity-first-means-operationally","children":"What identity-first means operationally"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The mental model shift is from \"is this request coming from our network?\" to \"is this principal authorized to take this action, given what I know about them right now?\""}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20"]}],"$L21","$L22","$L23"]}]}],"$L24"]}],["$L25"],"$L26"]}],"loading":null,"isPartial":false}
+0:{"buildId":"HlJElaXeL1YN0unckC-d0","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/identity-first-security","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://rohirik.github.io/resume/blog/identity-first-security\",\"sameAs\":[],\"headline\":\"Identity-First Security\",\"description\":\"The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.\",\"image\":\"https://rohirik.github.io/resume/images/blog/identity-first-security.png\",\"datePublished\":\"2026-01-28\",\"dateModified\":\"2026-01-28\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://rohirik.github.io/resume/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://rohirik.github.io/resume/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"January 28, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Identity-First Security"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/resume/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/resume/images/blog/identity-first-security.png","alt":"Identity-First Security","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"There's a version of security that's built around the network. The idea is: defend the boundary, and everything inside is safe. Keep attackers out with firewalls, VPNs, intrusion detection. Trust the inside."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"That model has been broken for a long time. Cloud services, remote work, SaaS, third-party integrations — the \"inside\" isn't a coherent concept anymore. Your users are authenticating from coffee shops. Your apps are in Azure. Your data is in SharePoint and Salesforce and a dozen other places. There's no perimeter to defend."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"What's left is identity. And identity-first security is what it sounds like: rebuild your controls around who is authenticating, rather than where they're connecting from."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-identity-first-means-operationally","children":"What identity-first means operationally"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The mental model shift is from \"is this request coming from our network?\" to \"is this principal authorized to take this action, given what I know about them right now?\""}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20"]}],"$L21","$L22","$L23"]}]}],"$L24"]}],["$L25"],"$L26"]}],"loading":null,"isPartial":false}
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"That second question is more complex, but it's the right question. It considers:"}]
 a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Authentication strength."}]," Is this a password? A TOTP code? A FIDO2 hardware key? Phishing-resistant MFA is different from SMS MFA, which is different from a password. Access to sensitive resources should require authentication strength proportional to their sensitivity."]}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Identity assurance."}]," Is this account in good standing? Has it shown anomalous behavior recently? Entra ID Protection gives you risk scores based on behavioral signals — leaked credentials, impossible travel, atypical location. A user with elevated risk should face stepped-up authentication or blocking, not the same access they'd get on a normal day."]}]
@@ -42,7 +42,163 @@ f:["$","span",null,{"className":"font-body font-default font-m neutral-on-backgr
 1f:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L29",null,{"maxWidth":"40"}]}]
 20:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Last post in this series will be practical: what a Zero Trust rollout actually looks like in a mid-size organization, what to do first, and where the first six months usually go wrong."}]
 21:["$","$L2a",null,{"title":"Identity-First Security","url":"https://rohirik.github.io/resume/blog/identity-first-security"}]
-2d:T2296,
+2d:T19c9,
+If you're preparing to migrate to Entra ID and a penetration test just flagged "Netlogon not requiring RPC Sealing" — this is how you close it properly.
+
+This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you.
+
+## Why this matters
+
+Netlogon is the protocol domain-joined machines use to authenticate against Domain Controllers. Without RPC Sealing, that channel is unencrypted — a classic man-in-the-middle opportunity. Microsoft patched this with the Netlogon secure channel update (CVE-2020-1472 / Zerologon era), but enforcement is still opt-in. A lot of environments are patched but not enforced.
+
+Before you flip enforcement on, you need to know what's still sending unencrypted traffic. That's the whole point of phases 1–3.
+
+---
+
+## Phase 1: Infrastructure Preparation
+
+**Target:** All servers and endpoints — DCs, member servers, and clients.
+
+Before any enforcement, the OS must actually support the RPC Sealing protocol. If you patch only your DCs and leave member servers behind, those servers will fail to authenticate once you enforce.
+
+**Action:** Deploy the latest Cumulative Updates. Specifically confirm KB5062600 / KB5021130 are installed. Reboot everything. Check that OS builds are current across the board.
+
+This phase is boring. Do it anyway.
+
+---
+
+## Phase 2: Discovery (The Listening Phase)
+
+**Target:** Domain Controllers only.
+
+At this stage, DCs are capable of RPC Sealing but won't block anything yet. They will, however, log every non-compliant connection. That's exactly what you want.
+
+### Step 1 — MDI Reports
+
+Open Microsoft Defender for Identity. Pull the **"Weak Ciphers"** and **"NTLM Authentication"** reports. These give you a fast visual map of legacy devices: old NAS boxes, third-party applications, Linux/Samba servers, network appliances that predate NTLMv2.
+
+### Step 2 — PowerShell Event Log Query
+
+Event ID `5838` = connection attempted without sealing. Event ID `5840` = connection using weak cryptography. You want to find every machine generating these events across all your DCs.
+
+```powershell
+# Create a temp folder for the report
+$Path = "C:\temp"
+If (!(Test-Path $Path)) { New-Item -ItemType Directory -Force -Path $Path }
+
+# Get all Domain Controllers in the domain
+$DCs = Get-ADDomainController -Filter * | Select-Object -ExpandProperty Hostname
+
+$EventIDs = @(5838, 5840)
+$AllEvents = @()
+
+foreach ($DC in $DCs) {
+    Write-Host "Querying logs on DC: $DC..." -ForegroundColor Cyan
+    try {
+        $Events = Get-WinEvent -ComputerName $DC -FilterHashtable @{LogName='System'; ID=$EventIDs} -ErrorAction Stop
+
+        foreach ($Event in $Events) {
+            $AllEvents += [PSCustomObject]@{
+                DomainController = $DC
+                TimeCreated      = $Event.TimeCreated
+                EventID          = $Event.Id
+                Message          = $Event.Message.Split("`n")[0]
+            }
+        }
+    } catch {
+        Write-Warning "No matching events found on $DC, or access was denied."
+    }
+}
+
+# Export results
+if ($AllEvents.Count -gt 0) {
+    $ExportPath = "$Path\Netlogon_Vulnerable_Traffic.csv"
+    $AllEvents | Export-Csv -Path $ExportPath -NoTypeInformation -Encoding UTF8
+    Write-Host "Done! Found vulnerable traffic. Report saved to: $ExportPath" -ForegroundColor Yellow
+} else {
+    Write-Host "Excellent! No vulnerable Netlogon traffic detected across any DCs." -ForegroundColor Green
+}
+```
+
+Run this against all DCs. You'll get a CSV with timestamps, the DC that logged each event, and the message. That CSV is your remediation backlog.
+
+---
+
+## Phase 3: Remediation (The Go/No-Go Gate)
+
+**Target:** Specific assets identified in Phase 2.
+
+This is where most projects stall. The CSV output usually surfaces a few categories:
+
+- **Legacy printers and scanners** — firmware update or replace
+- **Third-party applications** — vendor update or configuration change
+- **Linux/Samba servers** — update Samba and configure `client use spnego = yes`, `ntlm auth = no`
+- **Network appliances** — firmware update; sometimes the only option is replacement
+
+Work through each one. If something genuinely cannot be updated, you document why and decide whether a temporary exception is acceptable. In my experience, "we can't update it" is usually "we haven't tried hard enough yet."
+
+**The gate condition:** Run the discovery script again after remediation. You must see **zero new 5838 or 5840 events across all DCs for at least a few days** before moving to Phase 4. Not fewer events — zero.
+
+---
+
+## Phase 4: Enforcement & Hardening
+
+**Target:** DCs for Netlogon; all servers and clients for SMB/NTLM.
+
+Only run this phase when Phase 3 is clean.
+
+### Step 4.1 — Enforce RPC Sealing on DCs
+
+Deploy via GPO targeting the Domain Controllers OU, or set the registry key directly via PowerShell:
+
+```
+Path:  HKLM\System\CurrentControlSet\Services\Netlogon\Parameters
+Key:   RequireSeal
+Type:  DWORD
+Value: 2
+```
+
+Once `RequireSeal = 2`, any device that fails to use RPC sealing is blocked immediately. Blocked connections generate Event ID `5839` — monitor for these after enforcement so you can catch anything you missed in Phase 3.
+
+### Step 4.2 — SMB Signing and NTLM Hardening
+
+Roll these GPOs out in rings. Don't push to all clients simultaneously.
+
+- **Ring 1:** IT / test machines
+- **Ring 2:** Member servers
+- **Ring 3:** All clients
+
+GPO settings to enforce:
+
+| Setting | Value |
+|---|---|
+| `Microsoft network server: Digitally sign communications (always)` | Enabled |
+| `Network security: LAN Manager authentication level` | Send NTLMv2 response only. Refuse LM & NTLM |
+
+The LAN Manager setting is the one that surprises people. Anything still using plain NTLM or LM will break when you enforce this. That's why the discovery phase exists.
+
+---
+
+## What this closes
+
+Done correctly, this playbook addresses:
+
+- Unencrypted Netlogon channel (pen test finding)
+- Zerologon attack surface (CVE-2020-1472 enforcement)
+- NTLM downgrade attack vectors
+- SMB relay opportunities on the internal network
+
+It also puts you in a much cleaner position for Entra ID migration — because the same legacy devices causing problems here will cause problems during hybrid join and Conditional Access rollout. You're finding them now instead of later.
+
+---
+
+The script above is what I run before any enforcement conversation. If you're seeing 5838s you didn't expect, start there — the CSV usually tells you exactly what needs attention.
+22:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L29",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L2b",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2c","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$2d"},"thumbnail":true,"direction":"column"}],"$L2e"]}]]}]
+23:["$","$L2f",null,{}]
+24:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L30",null,{"fitHeight":true}]}]
+25:["$","script","script-0",{"src":"/resume/_next/static/chunks/b4d60b79b2dcf7b3.js","async":true}]
+26:["$","$L31",null,{"children":["$","$32",null,{"name":"Next.MetadataOutlet","children":"$@33"}]}]
+34:T2296,
 The default Claude Code installation does one thing poorly: it forgets everything. Every new session, you re-explain your stack, your preferences, the decisions you made last week. It compounds quickly on any project you're in for more than a few days.
 
 I spent a few months building a configuration layer on top of Claude Code that solves this. Here's what it does and how it works.
@@ -148,105 +304,5 @@ The skills mean the repetitive parts (planning, verifying, committing) have cons
 None of this is magic. It's structured configuration that enforces a workflow I decided I wanted. The alternative is relying on memory and discipline to apply that workflow manually every time. That doesn't scale.
 
 The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
-22:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L29",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L2b",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2c","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$2d"},"thumbnail":true,"direction":"column"}],"$L2e"]}]]}]
-23:["$","$L2f",null,{}]
-24:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L30",null,{"fitHeight":true}]}]
-25:["$","script","script-0",{"src":"/resume/_next/static/chunks/b4d60b79b2dcf7b3.js","async":true}]
-26:["$","$L31",null,{"children":["$","$32",null,{"name":"Next.MetadataOutlet","children":"$@33"}]}]
-34:T1f79,
-My homelab runs on a dedicated server, not a cloud VPS. Everything is version-controlled, documented, and designed to run without me touching it. It's been doing that for over a year.
-
-This is what's running, how it's wired together, and what went wrong the first time.
-
-## Why Swarm and not the alternatives
-
-The choice comes up every time I mention this setup: why not Kubernetes, why not plain Compose?
-
-Kubernetes is genuinely overkill for a single server. The operational overhead — etcd, control plane components, kubeconfig management, networking plugins — is real work for infrastructure that only needs to orchestrate maybe 10 services. The value of Kubernetes is horizontal scaling and high availability across nodes. I have one node.
-
-Plain Compose works and is simple to reason about, but it doesn't give you health-based restarts, rolling updates, or service redeployment without downtime. When a container crashes, Compose doesn't automatically reschedule it. Swarm does.
-
-Swarm hits the right point in the tradeoff: orchestration primitives (services, secrets, overlay networks, health checks, update policies) without the operational overhead of a full cluster. It's been running with no manual intervention since I set it up.
-
-## Network architecture
-
-All external traffic enters through Traefik on ports 80 and 443. Traefik handles Let's Encrypt SSL automatically — certificates are provisioned on first request and renewed without manual intervention. It routes to the right service based on hostname labels on each container.
-
-Backend services communicate over internal overlay networks and have no ports exposed to the outside. The pattern is: Traefik is the only service on `proxy-net` that faces the internet. Everything else is on service-specific overlay networks and only joins `proxy-net` if it needs to be externally reachable. Services that don't need external exposure — databases, internal APIs — are never on `proxy-net` at all.
-
-This is the same segmentation principle as network microsegmentation: services can't reach each other unless there's an explicit path. If Firecrawl gets compromised, it can't directly reach n8n or the secrets store. They're on different networks.
-
-## Secrets management
-
-The first version of this setup used environment variables in Compose files. This is the common approach and also the wrong one: environment variables end up in Compose files, Compose files end up in git, and suddenly you're sanitizing git history.
-
-I replaced all of that with Infisical, which I self-host on the same server. Agents and services fetch credentials at runtime through the Infisical SDK or CLI. Nothing sensitive is in the Compose files. If I need to rotate a credential, I update it in Infisical and restart the affected service — no code changes, no Compose file edits.
-
-Infisical also gives me an audit trail: which service fetched which secret, when. For a homelab, this might sound excessive. It's not — knowing that a service fetched a credential at an unexpected time is useful signal.
-
-Docker Swarm also has native secrets (`docker secret`), which I use for a few things that Infisical can't easily inject (init scripts, bootstrap credentials for Infisical itself). Both live alongside each other without conflict.
-
-## What runs on it
-
-**Traefik** — Edge router and SSL termination. Service discovery is automatic via container labels. I define routes in each service's Compose file rather than in a central Traefik config, which means adding a new service doesn't require touching the router config.
-
-**Portainer** — Swarm management UI. Most things I do via CLI, but Portainer is useful for visualizing the current state of the stack, looking at service logs without SSHing in, and managing one-off tasks. It connects to the Docker socket and has full visibility into the Swarm.
-
-**Infisical** — Secrets store. Self-hosted with its own database. Services fetch credentials from Infisical at startup; nothing sensitive lives anywhere else in the stack.
-
-**n8n** — Workflow automation. This is the busiest service in the stack — it's connected to a handful of external APIs and runs scheduled and event-triggered automations. It persists state to a volume on the host. The workflow definitions are exported and version-controlled separately.
-
-**Firecrawl** — Documentation crawling for AI projects. I run this alongside Project Aegis and other AI tools that need to index documentation from web sources. Self-hosting it means I control the crawl rate and the data stays local.
-
-**SearXNG** — Self-hosted metasearch. Routes queries to multiple search engines without sending identifying information to any of them. Useful when Claude Code or local agents need to search the web without leaking query patterns.
-
-## The modular stack structure
-
-The first version of this setup was a single large Compose file. Everything was defined in one place, which felt clean until the stack had eight services and adding a ninth meant scrolling through 400 lines of YAML and hoping you didn't break something in the middle.
-
-More importantly: redeploying one service meant bringing the entire stack down or doing careful surgery on a monolithic file. It didn't scale.
-
-The current structure is one directory per service, each with its own Compose file:
-
-```
-homelab-swarm-stack/
-  traefik/
-    docker-compose.yml
-  portainer/
-    docker-compose.yml
-  infisical/
-    docker-compose.yml
-  n8n/
-    docker-compose.yml
-  ...
-```
-
-Each service connects to the shared `proxy-net` network for ingress (if it needs external exposure) and to service-specific networks for internal communication. The `proxy-net` network is created once and referenced as external in each Compose file.
-
-Deploying a new service: create its directory, write its Compose file, deploy with `docker stack deploy`. No other service is touched. Removing a service: `docker stack rm <service>`. The rest of the stack is unaffected.
-
-This is the same principle as microservices architecture applied to infrastructure config: each unit is independently deployable and changes to one don't risk breaking others.
-
-## What's required to maintain it
-
-The honest answer: almost nothing. Traefik renews certs automatically. Services restart on failure via Swarm health checks. I don't do manual updates — I have a process for pulling new images and redeploying, but it's not automated (I want to be intentional about when things update).
-
-What does require occasional attention:
-
-**Storage.** Volumes accumulate data. n8n's database grows. I check disk usage monthly and prune what's not needed.
-
-**Infisical.** The self-hosted version needs occasional updates. These are the updates I'm most careful about — Infisical holds credentials for everything else, so a botched update has cascading effects. I test updates on a snapshot before applying to the live instance.
-
-**Network connectivity.** Occasionally a service loses connectivity to `proxy-net` after a server restart. The fix is always `docker network connect proxy-net <container>` — it takes 10 seconds, but it's annoying enough that I documented it in the project's gotchas file.
-
-**Swarm state.** Single-node Swarm doesn't have the HA guarantees of a multi-node cluster. If the server loses power without a clean shutdown, Swarm state can get inconsistent. I keep a current export of all stack definitions so recovery is redeploy-from-scratch rather than debugging corrupted state.
-
-## What I'd do differently
-
-The secrets management was the biggest early mistake. Environment variables in Compose files feel convenient until they're not. Infisical from the start would have saved the work of migrating everything over.
-
-The second thing: start modular. A monolithic Compose file is tempting for the first three services because it's less overhead. By service six, you're paying for it. The directory-per-service structure takes five minutes to set up and saves hours later.
-
-Everything else, including the Swarm choice over Kubernetes, I'd make the same way.
-2e:["$","$L2c","homelab-docker-swarm",{"post":{"metadata":{"title":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","subtitle":"","publishedAt":"2026-03-02","summary":"A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.","image":"/images/blog/homelab-docker-swarm.png","images":[],"tag":"Infrastructure","team":[],"link":""},"slug":"homelab-docker-swarm","content":"$34"},"thumbnail":true,"direction":"column"}]
+2e:["$","$L2c","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$34"},"thumbnail":true,"direction":"column"}]
 33:null

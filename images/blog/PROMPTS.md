@@ -14,6 +14,7 @@
 - [x] 6. vibe-coding-ai-workflows.png
 - [x] 7. homelab-docker-swarm.png
 - [x] 8. claude-code-config.png
+- [x] 9. netlogon-rpc-sealing-playbook.png
 
 ---
 
@@ -312,3 +313,52 @@ Color palette: near-black blue-tinted background, file cards in dim gray,
 icons in pale off-white, accent lines and hook/clock icons in muted slate
 blue. Nothing bright. Nothing loud. Subjects centered, plenty of negative
 space.
+
+---
+
+## 9. netlogon-rpc-sealing-playbook.png
+
+**Concept:** COMPLEXITY / PHASED ENFORCEMENT problem type.
+A secure channel exists between domain controllers but is unencrypted by
+default. Before you can seal it, you must discover what's still sending
+vulnerable traffic, fix it, then lock the channel shut. The image should
+capture the moment of sealing — an airlock closing on a connection.
+
+**Style:** Space / NASA technical illustration aesthetic. NOT Nano Banana
+cyberpunk. Clean, bright, precise. Think mission systems concept art.
+Deep space background, crisp technical geometry, warm amber and cool cyan
+accents. No neon. No retrofuturism. Clinical and purposeful.
+
+**Prompt:**
+
+Clean NASA technical space illustration. Deep space blue-black background
+(#0A1628). Precise geometric linework, slight painterly rendering, editorial
+concept art quality. No text in image. No neon. No cyberpunk.
+
+Center composition: two angular orbital station nodes — white-silver with
+warm amber indicator lights — connected by a straight conduit tunnel. The
+conduit is rendered as a clean cylindrical tube, its surface showing subtle
+panel lines.
+
+At the exact center of the conduit: a large mechanical seal ring is closing
+shut — flanges locking together, bolts tightening around the circumference.
+The seal ring glows with cool cyan light as the flanges meet. This is the
+focal point. The moment of enforcement.
+
+The left node has four phase-indicator lights visible on its hull — three
+lit amber (phases complete), one unlit (phase in progress) — representing
+the four-phase playbook. The right node is solid and receiving, no
+indicators, just the sealed connection arriving.
+
+Small particles of light drift between the nodes in the background —
+representing the vulnerable unencrypted traffic being eliminated as the
+seal closes.
+
+FULL FRAME — the two nodes and conduit fill the composition horizontally,
+nearly touching the edges. The seal ring is centered and dominant.
+
+Color palette: deep space blue-black background (#0A1628), node hulls in
+white-silver (#C8D0D8), amber indicator lights (#B8860B), conduit in
+cool gray (#7A8A96), seal ring mechanics in cool cyan (#00BCD4) with bright
+white highlights at contact points. Minimal. Precise. Gallery-worthy
+technical art. Small signature bottom right.

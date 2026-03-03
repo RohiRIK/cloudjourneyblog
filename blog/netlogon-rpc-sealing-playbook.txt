@@ -1,0 +1,363 @@
+1:"$Sreact.fragment"
+3:I[339756,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"default"]
+4:I[837457,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"default"]
+6:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"ViewportBoundary"]
+b:I[897367,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"MetadataBoundary"]
+d:I[168027,[],"default"]
+:HL["/resume/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
+:HL["/resume/_next/static/chunks/d20e0f0702cef329.css","style"]
+:HL["/resume/_next/static/chunks/3a1b43107ae24619.css","style"]
+:HL["/resume/_next/static/chunks/eef662fdc50843a7.css","style"]
+:HL["/resume/_next/static/chunks/b3a7f4834154c9dc.css","style"]
+:HL["/resume/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/resume/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"HlJElaXeL1YN0unckC-d0","c":["","blog","netlogon-rpc-sealing-playbook"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","netlogon-rpc-sealing-playbook","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/resume/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/resume/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/resume/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/resume/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/resume/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/resume/_next/static/chunks/601dc1a12bda3fda.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/resume/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/resume/_next/static/chunks/9988c4a59e44ac76.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/resume/_next/static/chunks/05424c1bbd401aee.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/resume/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/resume/_next/static/chunks/b4d60b79b2dcf7b3.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+f:I[530824,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Providers"]
+10:I[273323,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Column"]
+11:I[621971,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"RevealFx"]
+12:I[394412,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Background"]
+13:I[521247,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"ClientFlex"]
+14:I[402971,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Header"]
+15:I[1166,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"RouteGuard"]
+e:T771,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"violet","accent":"emerald","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$e"}}]}],["$","$Lf",null,{"children":["$","$L10",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L11",null,{"fill":true,"position":"absolute","children":["$","$L12",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L13",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L14",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L15",null,{"children":"$L16"}]}]}],"$L17"]}]}]]}]
+18:I[778454,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Row"]
+19:I[298229,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"IconButton"]
+1a:I[479520,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],""]
+1b:I[624379,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"SmartLink"]
+1c:I[145250,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Avatar"]
+1d:I[398382,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Media"]
+1f:I[448588,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"ShareSection"]
+20:I[311451,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Line"]
+21:I[89532,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"Grid"]
+22:I[814360,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"default"]
+16:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+23:T2296,
+The default Claude Code installation does one thing poorly: it forgets everything. Every new session, you re-explain your stack, your preferences, the decisions you made last week. It compounds quickly on any project you're in for more than a few days.
+
+I spent a few months building a configuration layer on top of Claude Code that solves this. Here's what it does and how it works.
+
+## The memory problem
+
+Claude Code has no persistence by default. The context window holds your current session. When it compacts or you start a new one, that state is gone. You're not losing information in a database — you're losing it from the model's working memory.
+
+The fix isn't clever prompting. It's an explicit memory system with structured files and hooks that write to and read from those files automatically.
+
+## The 4-file context system
+
+Each project gets a directory at `~/.claude/projects/<name>/` with four files:
+
+**`context-goals.md`** — what I'm working on right now. Max 5 lines. Rewritten when the goal changes. Keeps the model from drifting into solving adjacent problems.
+
+**`context-decisions.md`** — architectural choices and why. Permanent, never deleted. If I decided to use Infisical instead of environment variables, that's in here with the reason. The model doesn't suggest what I've already ruled out.
+
+**`context-progress.md`** — completed tasks and what's in flight. Auto-trimmed to the last 20 items. Serves as a working log without growing unbounded.
+
+**`context-gotchas.md`** — warnings, blockers, and lessons. Also permanent. If something bit me once — a library quirk, an environment constraint, a mistake pattern — it lives here forever. The model reads it at session start and doesn't repeat the same mistakes.
+
+These files are plain markdown. They're updated manually after significant tasks, and automatically by hooks at session end.
+
+## The hooks
+
+Hooks are shell scripts or TypeScript files that Claude Code runs in response to lifecycle events. I have six:
+
+**SessionStart** — runs when a new session opens. Reads the project's context files and injects a summary (max 60 lines) as a system message. The model immediately knows what project it's in, what the current goal is, what decisions are locked, and what to avoid. No re-explaining needed.
+
+**PreCompact** — runs before Claude Code compacts the context window. Assembles all four context files into `context-summary.md` — a structured 60-line snapshot. This becomes what SessionStart injects next time. Without this, compaction destroys context. With it, compaction is just a checkpoint.
+
+**EvaluateSession** — runs when the session ends. Reads the transcript, extracts patterns — recurring mistakes, useful techniques, things that worked — and writes them to `~/.claude/skills/Learned/`. These are ephemeral: they roll off after a few sessions. For anything important enough to keep permanently, I promote it manually to `context-gotchas.md`.
+
+**SuggestCompact** — tracks a running count of tool calls per session. At 50, it suggests running `/compact`. This isn't mandatory, but the reminder is useful — context windows that run too long start producing lower-quality output.
+
+**UpdateContext** — PostToolUse hook that fires after Write, Edit, or MultiEdit operations. Logs modified files to context-progress and runs Prettier and tsc on changed files immediately. Type errors and formatting issues surface at edit time, not at build time.
+
+**Cleanup** — periodic maintenance. Trims context-progress.md to the last 20 items. Removes context directories for projects that haven't been touched in 30 days.
+
+## Skills and commands
+
+Skills are reusable prompts that expand into full instructions when invoked. I have these:
+
+**`/plan`** — invokes the planner agent before any implementation. Restates the requirement, breaks it into phases, identifies dependencies, flags risks. Produces a plan for review before any code is touched. I don't write code without running this first for anything non-trivial.
+
+**`/verify`** — runs a self-check loop: tsc → lint → tests → build, in order, stopping on first failure. The skill knows to skip steps that aren't configured for the project. Run before every commit.
+
+**`/simplify`** — post-implementation review. Looks at recently modified code for unnecessary abstraction, duplicated logic, or complexity that crept in during implementation. Runs after verify.
+
+**`/commit-push-pr`** — precomputes git context (status, diff, log, branch), generates a conventional commit message, stages relevant files, commits, and pushes. Skips the tedium of assembling git commands manually.
+
+**`/learn`** — manual trigger for pattern extraction. Same process as EvaluateSession but runs on demand mid-session when I want to capture something specific.
+
+**`/update-context`** — reads the current session and updates all four context files. Useful after completing a significant task when I want to flush progress immediately rather than waiting for the end-of-session hook.
+
+**`/tdd`** — enforces test-first workflow. Scaffolds the interface, writes the test, makes it fail, then implements the minimum code to pass. Blocks implementation until the test exists.
+
+**`/code-review`** — runs the code-reviewer agent on recently modified files. Returns severity-rated feedback: critical issues stop work, high issues get fixed, medium issues are noted.
+
+## Agents
+
+Agents are specialized sub-models with scoped roles. They run separately from the main session and have access to the codebase but only for their designated purpose.
+
+**planner** — for implementation planning. Doesn't write code. Only produces plans with phases, dependencies, and risk flags.
+
+**code-reviewer** — reviews code after it's written. Severity-based feedback. The reviewer doesn't have write access — it can't change files, only report.
+
+**security-reviewer** — OWASP Top 10 checks, secret detection, dependency auditing. Runs before commits on anything that touches auth, input handling, or external integrations.
+
+**tdd-guide** — enforces test-first. If I start implementing without a failing test, it redirects. Tracks coverage and flags when it drops below 80%.
+
+**architect** — for decisions that affect project structure. Invoked when I'm choosing between approaches that have lasting consequences, not for individual implementation decisions.
+
+**build-error-resolver** — when the build breaks, this agent diagnoses and makes the minimum change to get it green. Doesn't refactor, doesn't improve — just fixes the build.
+
+**refactor-cleaner** — dead code removal and consolidation. Runs tools like `knip` to find unused exports, then removes them. Used for maintenance, not mid-feature.
+
+The separation is intentional. A code reviewer that can also edit files is dangerous — it starts making "improvements" that weren't asked for. Each agent does one thing.
+
+## Global rules
+
+Rules are markdown files in `~/.claude/rules/` that load into every session. They cover:
+
+- **Coding style**: immutability-first (spread operators, never mutate), no `any` types, explicit return types on exports, functions under 50 lines
+- **Package manager**: bun not npm, uv not pip — enforced globally so I never get npm in a bun project
+- **Git workflow**: conventional commits (`feat|fix|refactor|docs|chore:`), no `Co-Authored-By` footers, PR descriptions that cover the full diff not just the latest commit
+- **Testing**: 80% minimum coverage, TDD workflow required for new features
+- **Security**: no hardcoded secrets, input validation at system boundaries only, rate limiting on all endpoints
+
+The model reads these rules at every session start. They're not suggestions — they're constraints that get checked during code review and verify.
+
+## What this actually changes day-to-day
+
+The memory system means I can leave a project for a week and come back without a re-orientation session. The model knows where I left off, what I decided, and what's broken.
+
+The hooks mean formatting and type errors surface immediately. I don't batch-discover problems at commit time.
+
+The agents mean review happens as a matter of course. I'm not remembering to run security checks — they're part of the workflow for anything touching auth or external data.
+
+The skills mean the repetitive parts (planning, verifying, committing) have consistent execution. I don't skip `/verify` because it's convenient — the skill is right there and running it takes two seconds.
+
+None of this is magic. It's structured configuration that enforces a workflow I decided I wanted. The alternative is relying on memory and discipline to apply that workflow manually every time. That doesn't scale.
+
+The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
+5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/netlogon-rpc-sealing-playbook","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://rohirik.github.io/resume/blog/netlogon-rpc-sealing-playbook\",\"sameAs\":[],\"headline\":\"Netlogon RPC Sealing: The Full Hardening Playbook\",\"description\":\"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.\",\"image\":\"https://rohirik.github.io/resume/images/blog/netlogon-rpc-sealing-playbook.png\",\"datePublished\":\"2026-03-03\",\"dateModified\":\"2026-03-03\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://rohirik.github.io/resume/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://rohirik.github.io/resume/images/avatar.png\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"March 3, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Netlogon RPC Sealing: The Full Hardening Playbook"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/resume/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}]]}]}],["$","$L1d",null,{"src":"/resume/images/blog/netlogon-rpc-sealing-playbook.png","alt":"Netlogon RPC Sealing: The Full Hardening Playbook","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","url":"https://rohirik.github.io/resume/blog/netlogon-rpc-sealing-playbook"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L20",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L21",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L22","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$23"},"thumbnail":true,"direction":"column"}],"$L24"]}]]}],"$L25"]}]}],"$L26"]}]
+28:I[988654,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"ScrollToHash"]
+29:I[605649,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"HeadingNav"]
+27:T1f79,
+My homelab runs on a dedicated server, not a cloud VPS. Everything is version-controlled, documented, and designed to run without me touching it. It's been doing that for over a year.
+
+This is what's running, how it's wired together, and what went wrong the first time.
+
+## Why Swarm and not the alternatives
+
+The choice comes up every time I mention this setup: why not Kubernetes, why not plain Compose?
+
+Kubernetes is genuinely overkill for a single server. The operational overhead — etcd, control plane components, kubeconfig management, networking plugins — is real work for infrastructure that only needs to orchestrate maybe 10 services. The value of Kubernetes is horizontal scaling and high availability across nodes. I have one node.
+
+Plain Compose works and is simple to reason about, but it doesn't give you health-based restarts, rolling updates, or service redeployment without downtime. When a container crashes, Compose doesn't automatically reschedule it. Swarm does.
+
+Swarm hits the right point in the tradeoff: orchestration primitives (services, secrets, overlay networks, health checks, update policies) without the operational overhead of a full cluster. It's been running with no manual intervention since I set it up.
+
+## Network architecture
+
+All external traffic enters through Traefik on ports 80 and 443. Traefik handles Let's Encrypt SSL automatically — certificates are provisioned on first request and renewed without manual intervention. It routes to the right service based on hostname labels on each container.
+
+Backend services communicate over internal overlay networks and have no ports exposed to the outside. The pattern is: Traefik is the only service on `proxy-net` that faces the internet. Everything else is on service-specific overlay networks and only joins `proxy-net` if it needs to be externally reachable. Services that don't need external exposure — databases, internal APIs — are never on `proxy-net` at all.
+
+This is the same segmentation principle as network microsegmentation: services can't reach each other unless there's an explicit path. If Firecrawl gets compromised, it can't directly reach n8n or the secrets store. They're on different networks.
+
+## Secrets management
+
+The first version of this setup used environment variables in Compose files. This is the common approach and also the wrong one: environment variables end up in Compose files, Compose files end up in git, and suddenly you're sanitizing git history.
+
+I replaced all of that with Infisical, which I self-host on the same server. Agents and services fetch credentials at runtime through the Infisical SDK or CLI. Nothing sensitive is in the Compose files. If I need to rotate a credential, I update it in Infisical and restart the affected service — no code changes, no Compose file edits.
+
+Infisical also gives me an audit trail: which service fetched which secret, when. For a homelab, this might sound excessive. It's not — knowing that a service fetched a credential at an unexpected time is useful signal.
+
+Docker Swarm also has native secrets (`docker secret`), which I use for a few things that Infisical can't easily inject (init scripts, bootstrap credentials for Infisical itself). Both live alongside each other without conflict.
+
+## What runs on it
+
+**Traefik** — Edge router and SSL termination. Service discovery is automatic via container labels. I define routes in each service's Compose file rather than in a central Traefik config, which means adding a new service doesn't require touching the router config.
+
+**Portainer** — Swarm management UI. Most things I do via CLI, but Portainer is useful for visualizing the current state of the stack, looking at service logs without SSHing in, and managing one-off tasks. It connects to the Docker socket and has full visibility into the Swarm.
+
+**Infisical** — Secrets store. Self-hosted with its own database. Services fetch credentials from Infisical at startup; nothing sensitive lives anywhere else in the stack.
+
+**n8n** — Workflow automation. This is the busiest service in the stack — it's connected to a handful of external APIs and runs scheduled and event-triggered automations. It persists state to a volume on the host. The workflow definitions are exported and version-controlled separately.
+
+**Firecrawl** — Documentation crawling for AI projects. I run this alongside Project Aegis and other AI tools that need to index documentation from web sources. Self-hosting it means I control the crawl rate and the data stays local.
+
+**SearXNG** — Self-hosted metasearch. Routes queries to multiple search engines without sending identifying information to any of them. Useful when Claude Code or local agents need to search the web without leaking query patterns.
+
+## The modular stack structure
+
+The first version of this setup was a single large Compose file. Everything was defined in one place, which felt clean until the stack had eight services and adding a ninth meant scrolling through 400 lines of YAML and hoping you didn't break something in the middle.
+
+More importantly: redeploying one service meant bringing the entire stack down or doing careful surgery on a monolithic file. It didn't scale.
+
+The current structure is one directory per service, each with its own Compose file:
+
+```
+homelab-swarm-stack/
+  traefik/
+    docker-compose.yml
+  portainer/
+    docker-compose.yml
+  infisical/
+    docker-compose.yml
+  n8n/
+    docker-compose.yml
+  ...
+```
+
+Each service connects to the shared `proxy-net` network for ingress (if it needs external exposure) and to service-specific networks for internal communication. The `proxy-net` network is created once and referenced as external in each Compose file.
+
+Deploying a new service: create its directory, write its Compose file, deploy with `docker stack deploy`. No other service is touched. Removing a service: `docker stack rm <service>`. The rest of the stack is unaffected.
+
+This is the same principle as microservices architecture applied to infrastructure config: each unit is independently deployable and changes to one don't risk breaking others.
+
+## What's required to maintain it
+
+The honest answer: almost nothing. Traefik renews certs automatically. Services restart on failure via Swarm health checks. I don't do manual updates — I have a process for pulling new images and redeploying, but it's not automated (I want to be intentional about when things update).
+
+What does require occasional attention:
+
+**Storage.** Volumes accumulate data. n8n's database grows. I check disk usage monthly and prune what's not needed.
+
+**Infisical.** The self-hosted version needs occasional updates. These are the updates I'm most careful about — Infisical holds credentials for everything else, so a botched update has cascading effects. I test updates on a snapshot before applying to the live instance.
+
+**Network connectivity.** Occasionally a service loses connectivity to `proxy-net` after a server restart. The fix is always `docker network connect proxy-net <container>` — it takes 10 seconds, but it's annoying enough that I documented it in the project's gotchas file.
+
+**Swarm state.** Single-node Swarm doesn't have the HA guarantees of a multi-node cluster. If the server loses power without a clean shutdown, Swarm state can get inconsistent. I keep a current export of all stack definitions so recovery is redeploy-from-scratch rather than debugging corrupted state.
+
+## What I'd do differently
+
+The secrets management was the biggest early mistake. Environment variables in Compose files feel convenient until they're not. Infisical from the start would have saved the work of migrating everything over.
+
+The second thing: start modular. A monolithic Compose file is tempting for the first three services because it's less overhead. By service six, you're paying for it. The directory-per-service structure takes five minutes to set up and saves hours later.
+
+Everything else, including the Swarm choice over Kubernetes, I'd make the same way.
+24:["$","$L22","homelab-docker-swarm",{"post":{"metadata":{"title":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","subtitle":"","publishedAt":"2026-03-02","summary":"A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.","image":"/images/blog/homelab-docker-swarm.png","images":[],"tag":"Infrastructure","team":[],"link":""},"slug":"homelab-docker-swarm","content":"$27"},"thumbnail":true,"direction":"column"}]
+25:["$","$L28",null,{}]
+26:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L29",null,{"fitHeight":true}]}]
+2a:I[811052,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"HeadingLink"]
+1e:[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"If you're preparing to migrate to Entra ID and a penetration test just flagged \"Netlogon not requiring RPC Sealing\" — this is how you close it properly."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you."}],"\n",["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-this-matters","children":"Why this matters"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Netlogon is the protocol domain-joined machines use to authenticate against Domain Controllers. Without RPC Sealing, that channel is unencrypted — a classic man-in-the-middle opportunity. Microsoft patched this with the Netlogon secure channel update (CVE-2020-1472 / Zerologon era), but enforcement is still opt-in. A lot of environments are patched but not enforced."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Before you flip enforcement on, you need to know what's still sending unencrypted traffic. That's the whole point of phases 1–3."}],"\n",["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L20",null,{"maxWidth":"40"}]}],"\n",["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"phase-1-infrastructure-preparation","children":"Phase 1: Infrastructure Preparation"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Target:"}]," All servers and endpoints — DCs, member servers, and clients."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Before any enforcement, the OS must actually support the RPC Sealing protocol. If you patch only your DCs and leave member servers behind, those servers will fail to authenticate once you enforce."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Action:"}]," Deploy the latest Cumulative Updates. Specifically confirm KB5062600 / KB5021130 are installed. Reboot everything. Check that OS builds are current across the board."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"This phase is boring. Do it anyway."}],"\n",["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L20",null,{"maxWidth":"40"}]}],"\n",["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"phase-2-discovery-the-listening-phase","children":"Phase 2: Discovery (The Listening Phase)"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Target:"}]," Domain Controllers only."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"At this stage, DCs are capable of RPC Sealing but won't block anything yet. They will, however, log every non-compliant connection. That's exactly what you want."}],"\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c"]
+4d:I[362844,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"InlineCode"]
+4e:I[597784,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"CodeBlock"]
+50:I[436122,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"List"]
+51:I[626935,["/resume/_next/static/chunks/601dc1a12bda3fda.js","/resume/_next/static/chunks/8a07e6fd7e614a7b.js","/resume/_next/static/chunks/9988c4a59e44ac76.js","/resume/_next/static/chunks/05424c1bbd401aee.js","/resume/_next/static/chunks/2079049d5abbbd3d.js","/resume/_next/static/chunks/b4d60b79b2dcf7b3.js"],"ListItem"]
+2b:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"step-1-mdi-reports","children":"Step 1 — MDI Reports"}]
+2c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Open Microsoft Defender for Identity. Pull the ",["$","strong",null,{"children":"\"Weak Ciphers\""}]," and ",["$","strong",null,{"children":"\"NTLM Authentication\""}]," reports. These give you a fast visual map of legacy devices: old NAS boxes, third-party applications, Linux/Samba servers, network appliances that predate NTLMv2."]}]
+2d:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"step-2-powershell-event-log-query","children":"Step 2 — PowerShell Event Log Query"}]
+2e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Event ID ",["$","$L4d",null,{"children":"5838"}]," = connection attempted without sealing. Event ID ",["$","$L4d",null,{"children":"5840"}]," = connection using weak cryptography. You want to find every machine generating these events across all your DCs."]}]
+4f:T53b,# Create a temp folder for the report
+$Path = "C:\temp"
+If (!(Test-Path $Path)) { New-Item -ItemType Directory -Force -Path $Path }
+
+# Get all Domain Controllers in the domain
+$DCs = Get-ADDomainController -Filter * | Select-Object -ExpandProperty Hostname
+
+$EventIDs = @(5838, 5840)
+$AllEvents = @()
+
+foreach ($DC in $DCs) {
+    Write-Host "Querying logs on DC: $DC..." -ForegroundColor Cyan
+    try {
+        $Events = Get-WinEvent -ComputerName $DC -FilterHashtable @{LogName='System'; ID=$EventIDs} -ErrorAction Stop
+
+        foreach ($Event in $Events) {
+            $AllEvents += [PSCustomObject]@{
+                DomainController = $DC
+                TimeCreated      = $Event.TimeCreated
+                EventID          = $Event.Id
+                Message          = $Event.Message.Split("`n")[0]
+            }
+        }
+    } catch {
+        Write-Warning "No matching events found on $DC, or access was denied."
+    }
+}
+
+# Export results
+if ($AllEvents.Count -gt 0) {
+    $ExportPath = "$Path\Netlogon_Vulnerable_Traffic.csv"
+    $AllEvents | Export-Csv -Path $ExportPath -NoTypeInformation -Encoding UTF8
+    Write-Host "Done! Found vulnerable traffic. Report saved to: $ExportPath" -ForegroundColor Yellow
+} else {
+    Write-Host "Excellent! No vulnerable Netlogon traffic detected across any DCs." -ForegroundColor Green
+}
+2f:["$","$L4e",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$4f","language":"powershell","label":"Powershell"}],"copyButton":true}]
+30:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Run this against all DCs. You'll get a CSV with timestamps, the DC that logged each event, and the message. That CSV is your remediation backlog."}]
+31:["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L20",null,{"maxWidth":"40"}]}]
+32:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"phase-3-remediation-the-go-no-go-gate","children":"Phase 3: Remediation (The Go/No-Go Gate)"}]
+33:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Target:"}]," Specific assets identified in Phase 2."]}]
+34:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"This is where most projects stall. The CSV output usually surfaces a few categories:"}]
+35:["$","$L50",null,{"as":"ul","children":["\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Legacy printers and scanners"}]," — firmware update or replace"]}],"\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Third-party applications"}]," — vendor update or configuration change"]}],"\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Linux/Samba servers"}]," — update Samba and configure ",["$","$L4d",null,{"children":"client use spnego = yes"}],", ",["$","$L4d",null,{"children":"ntlm auth = no"}]]}],"\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Network appliances"}]," — firmware update; sometimes the only option is replacement"]}],"\n"]}]
+36:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Work through each one. If something genuinely cannot be updated, you document why and decide whether a temporary exception is acceptable. In my experience, \"we can't update it\" is usually \"we haven't tried hard enough yet.\""}]
+37:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"The gate condition:"}]," Run the discovery script again after remediation. You must see ",["$","strong",null,{"children":"zero new 5838 or 5840 events across all DCs for at least a few days"}]," before moving to Phase 4. Not fewer events — zero."]}]
+38:["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L20",null,{"maxWidth":"40"}]}]
+39:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"phase-4-enforcement-and-hardening","children":"Phase 4: Enforcement & Hardening"}]
+3a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Target:"}]," DCs for Netlogon; all servers and clients for SMB/NTLM."]}]
+3b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Only run this phase when Phase 3 is clean."}]
+3c:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"step-4.1-enforce-rpc-sealing-on-dcs","children":"Step 4.1 — Enforce RPC Sealing on DCs"}]
+3d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Deploy via GPO targeting the Domain Controllers OU, or set the registry key directly via PowerShell:"}]
+3e:["$","pre",null,{"children":["$","$L4d",null,{"children":"Path:  HKLM\\System\\CurrentControlSet\\Services\\Netlogon\\Parameters\nKey:   RequireSeal\nType:  DWORD\nValue: 2\n"}]}]
+3f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Once ",["$","$L4d",null,{"children":"RequireSeal = 2"}],", any device that fails to use RPC sealing is blocked immediately. Blocked connections generate Event ID ",["$","$L4d",null,{"children":"5839"}]," — monitor for these after enforcement so you can catch anything you missed in Phase 3."]}]
+40:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"step-4.2-smb-signing-and-ntlm-hardening","children":"Step 4.2 — SMB Signing and NTLM Hardening"}]
+41:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Roll these GPOs out in rings. Don't push to all clients simultaneously."}]
+42:["$","$L50",null,{"as":"ul","children":["\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Ring 1:"}]," IT / test machines"]}],"\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Ring 2:"}]," Member servers"]}],"\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Ring 3:"}]," All clients"]}],"\n"]}]
+43:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"GPO settings to enforce:"}]
+44:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["| Setting | Value |\n|---|---|\n| ",["$","$L4d",null,{"children":"Microsoft network server: Digitally sign communications (always)"}]," | Enabled |\n| ",["$","$L4d",null,{"children":"Network security: LAN Manager authentication level"}]," | Send NTLMv2 response only. Refuse LM & NTLM |"]}]
+45:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The LAN Manager setting is the one that surprises people. Anything still using plain NTLM or LM will break when you enforce this. That's why the discovery phase exists."}]
+46:["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L20",null,{"maxWidth":"40"}]}]
+47:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-this-closes","children":"What this closes"}]
+48:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Done correctly, this playbook addresses:"}]
+49:["$","$L50",null,{"as":"ul","children":["\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Unencrypted Netlogon channel (pen test finding)"}],"\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Zerologon attack surface (CVE-2020-1472 enforcement)"}],"\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"NTLM downgrade attack vectors"}],"\n",["$","$L51",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"SMB relay opportunities on the internal network"}],"\n"]}]
+4a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"It also puts you in a much cleaner position for Entra ID migration — because the same legacy devices causing problems here will cause problems during hybrid join and Conditional Access rollout. You're finding them now instead of later."}]
+4b:["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L20",null,{"maxWidth":"40"}]}]
+4c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The script above is what I run before any enforcement conversation. If you're seeing 5838s you didn't expect, start there — the CSV usually tells you exactly what needs attention."}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+52:I[27201,["/resume/_next/static/chunks/d96012bcfc98706a.js","/resume/_next/static/chunks/73e3194f06db260e.js"],"IconMark"]
+8:null
+c:[["$","title","0",{"children":"Netlogon RPC Sealing: The Full Hardening Playbook"}],["$","meta","1",{"name":"description","content":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs."}],["$","meta","2",{"property":"og:title","content":"Netlogon RPC Sealing: The Full Hardening Playbook"}],["$","meta","3",{"property":"og:description","content":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs."}],["$","meta","4",{"property":"og:url","content":"https://rohirik.github.io/resume/blog/netlogon-rpc-sealing-playbook"}],["$","meta","5",{"property":"og:image","content":"https://rohirik.github.io/resume/images/blog/netlogon-rpc-sealing-playbook.png"}],["$","meta","6",{"property":"og:image:alt","content":"Netlogon RPC Sealing: The Full Hardening Playbook"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Netlogon RPC Sealing: The Full Hardening Playbook"}],["$","meta","10",{"name":"twitter:description","content":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs."}],["$","meta","11",{"name":"twitter:image","content":"https://rohirik.github.io/resume/images/blog/netlogon-rpc-sealing-playbook.png"}],["$","link","12",{"rel":"icon","href":"/resume/icon.png?icon.4f0888a0.png","sizes":"1532x1858","type":"image/png"}],["$","$L52","13",{}]]
