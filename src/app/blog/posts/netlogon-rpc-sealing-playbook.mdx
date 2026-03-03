@@ -133,10 +133,9 @@ Roll these GPOs out in rings. Don't push to all clients simultaneously.
 
 GPO settings to enforce:
 
-| Setting | Value |
-|---|---|
-| `Microsoft network server: Digitally sign communications (always)` | Enabled |
-| `Network security: LAN Manager authentication level` | Send NTLMv2 response only. Refuse LM & NTLM |
+**`Microsoft network server: Digitally sign communications (always)`** → Enabled
+
+**`Network security: LAN Manager authentication level`** → Send NTLMv2 response only. Refuse LM & NTLM
 
 The LAN Manager setting is the one that surprises people. Anything still using plain NTLM or LM will break when you enforce this. That's why the discovery phase exists.
 
