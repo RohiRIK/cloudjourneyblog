@@ -29,6 +29,9 @@ const RouteGuard: React.FC<RouteGuardProps> = ({ children }) => {
       const checkRouteEnabled = () => {
         if (!pathname) return false;
 
+        // Always allow individual work project pages even if /work listing is disabled
+        if (pathname.startsWith("/work/")) return true;
+
         if (pathname in routes) {
           return routes[pathname as keyof typeof routes];
         }

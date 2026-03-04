@@ -15,7 +15,7 @@
 - [x] 7. homelab-docker-swarm.png
 - [x] 8. claude-code-config.png
 - [x] 9. netlogon-rpc-sealing-playbook.png
-- [ ] 10. fleetwatch-from-script-to-system.png
+- [x] 10. fleetwatch-from-script-to-system.png
 
 ---
 

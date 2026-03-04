@@ -19,7 +19,7 @@ const baseURL: string = "https://CloudJourneyBlog.rohi-lab.org";
 const routes: RoutesConfig = {
   "/": true,
   "/blog": true,
-  "/work": true,
+  "/work": false,
   "/about": true,
   "/gallery": false,
 };
