@@ -1,44 +1,41 @@
-# Magic Portfolio
+# CloudJourneyBlog
 
-Magic Portfolio is a simple, clean, beginner-friendly portfolio template. It supports an MDX-based content system for projects and blog posts, an about / CV page and a gallery.
+Personal publishing platform by [Rohi Rikman](https://CloudJourneyBlog.rohi-lab.org) — writing on security, automation, and the infrastructure that connects them.
 
-View the demo [here](https://demo.magic-portfolio.com).
+**Live site: [CloudJourneyBlog.rohi-lab.org](https://CloudJourneyBlog.rohi-lab.org)**
 
-![Magic Portfolio](public/images/og/home.jpg)
+Built on [Once UI Magic Portfolio](https://once-ui.com) + Next.js 16, deployed to GitHub Pages via CI/CD.
 
-## Getting started
+## Local development
 
-**1. Clone the repository**
-```
-git clone https://github.com/once-ui-system/magic-portfolio.git
+**1. Clone**
+```bash
+git clone https://github.com/RohiRIK/CloudJourneyBlog.git
 ```
 
 **2. Install dependencies**
-```
-npm install
+```bash
+bun install
 ```
 
 **3. Run dev server**
-```
-npm run dev
-```
-
-**4. Edit config**
-```
-src/resources/once-ui.config.js
+```bash
+bun run dev
 ```
 
-**5. Edit content**
+**4. Edit config & content**
 ```
-src/resources/content.js
-```
-
-**6. Create blog posts / projects**
-```
-Add a new .mdx file to src/app/blog/posts or src/app/work/projects
+src/resources/once-ui.config.ts  — theme, routes, baseURL
+src/resources/content.tsx        — all text, personal info, nav
 ```
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+**5. Add a blog post or project**
+```
+src/app/blog/posts/<slug>.mdx
+src/app/work/projects/<slug>.mdx
+```
+
+Built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). Requires Node.js v18.17+ or Bun.
 
 ## Documentation
 
