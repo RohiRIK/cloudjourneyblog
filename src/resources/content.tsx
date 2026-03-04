@@ -13,9 +13,9 @@ const person: Person = {
 };
 
 const newsletter: Newsletter = {
-  display: false,
+  display: true,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>Updates on automation and cloud security</>,
+  description: <>Security, automation, and the systems that connect them — straight to your inbox.</>,
 };
 
 const social: Social = [
@@ -45,7 +45,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name} | Cloud Security Architect`,
   description: `Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems`,
-  headline: <>Security that runs itself.</>,
+  headline: <>Security, automation, and the systems that connect them.</>,
   featured: {
     display: true,
     title: (
@@ -295,8 +295,8 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about automation and security...",
-  description: `Read what ${person.name} has been up to recently`,
+  title: "Writing on security, automation, and infrastructure",
+  description: `Practical writing on cloud security, AI agents, and the systems that make them work — by ${person.name}`,
 };
 
 const work: Work = {

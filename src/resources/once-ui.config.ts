@@ -14,13 +14,13 @@ import {
 import { home } from "./index";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL: string = "https://rohirik.github.io/resume";
+const baseURL: string = "https://rohi-lab.org";
 
 const routes: RoutesConfig = {
   "/": true,
-  "/about": true,
-  "/work": true,
   "/blog": true,
+  "/work": true,
+  "/about": true,
   "/gallery": false,
 };
 
@@ -203,7 +203,7 @@ const socialSharing: SocialSharingConfig = {
   platforms: {
     x: true,
     linkedin: true,
-    facebook: false,
+    facebook: true,
     pinterest: false,
     whatsapp: false,
     reddit: false,

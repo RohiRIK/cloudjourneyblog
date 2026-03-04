@@ -170,6 +170,29 @@ function createHR() {
   );
 }
 
+function Outcome({ children }: { children: ReactNode }) {
+  return (
+    <Feedback
+      variant="success"
+      marginTop="8"
+      marginBottom="8"
+    >
+      {children}
+    </Feedback>
+  );
+}
+
+function Stack({ items }: { items: string }) {
+  const tags = items.split(",").map((t) => t.trim());
+  return (
+    <Row gap="8" wrap marginTop="8" marginBottom="16">
+      {tags.map((tag) => (
+        <InlineCode key={tag}>{tag}</InlineCode>
+      ))}
+    </Row>
+  );
+}
+
 const components = {
   p: createParagraph as any,
   h1: createHeading("h1") as any,
@@ -202,6 +225,8 @@ const components = {
   Icon,
   Media,
   SmartLink,
+  Outcome,
+  Stack,
 };
 
 type CustomMDXProps = MDXRemoteProps & {

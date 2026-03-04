@@ -22,6 +22,7 @@ import { Metadata } from "next";
 import React from "react";
 import { Posts } from "@/components/blog/Posts";
 import { ShareSection } from "@/components/blog/ShareSection";
+import { Comments } from "@/components/blog/Comments";
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
   const posts = getPosts(["src", "app", "blog", "posts"]);
@@ -138,10 +139,12 @@ export default async function Blog({ params }: { params: Promise<{ slug: string 
             <CustomMDX source={post.content} />
           </Column>
           
-          <ShareSection 
-            title={post.metadata.title} 
-            url={`${baseURL}${blog.path}/${post.slug}`} 
+          <ShareSection
+            title={post.metadata.title}
+            url={`${baseURL}${blog.path}/${post.slug}`}
           />
+
+          <Comments />
 
           <Column fillWidth gap="40" horizontal="center" marginTop="40">
             <Line maxWidth="40" />

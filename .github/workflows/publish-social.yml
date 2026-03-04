@@ -1,0 +1,62 @@
+name: Publish new blog post to social
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/app/blog/posts/**.mdx'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect new MDX posts
+        id: detect
+        uses: tj-actions/changed-files@v44
+        with:
+          files: src/app/blog/posts/**.mdx
+
+      - name: Set up Bun
+        if: steps.detect.outputs.added_files != ''
+        uses: oven-sh/setup-bun@v2
+
+      - name: Parse frontmatter and notify n8n
+        if: steps.detect.outputs.added_files != ''
+        env:
+          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
+          BASE_URL: https://rohi-lab.org
+          ADDED_FILES: ${{ steps.detect.outputs.added_files }}
+        run: |
+          for file in $ADDED_FILES; do
+            echo "Processing $file"
+            payload=$(bun .github/scripts/parse-frontmatter.ts "$file")
+            echo "Payload: $payload"
+            curl -s -X POST "$N8N_WEBHOOK_URL" \
+              -H "Content-Type: application/json" \
+              -d "$payload"
+          done
+
+      # Optional: direct Medium cross-post (bypasses n8n)
+      # Uncomment and add MEDIUM_INTEGRATION_TOKEN + MEDIUM_USER_ID to GitHub Secrets
+      # - name: Cross-post to Medium
+      #   if: steps.detect.outputs.added_files != ''
+      #   env:
+      #     MEDIUM_TOKEN: ${{ secrets.MEDIUM_INTEGRATION_TOKEN }}
+      #     MEDIUM_USER_ID: ${{ secrets.MEDIUM_USER_ID }}
+      #     BASE_URL: https://rohi-lab.org
+      #     ADDED_FILES: ${{ steps.detect.outputs.added_files }}
+      #   run: |
+      #     for file in $ADDED_FILES; do
+      #       meta=$(bun .github/scripts/parse-frontmatter.ts "$file")
+      #       title=$(echo "$meta" | bun -e "const d=JSON.parse(await Bun.stdin.text());console.log(d.title)")
+      #       canonical=$(echo "$meta" | bun -e "const d=JSON.parse(await Bun.stdin.text());console.log(d.url)")
+      #       body=$(tail -n +6 "$file")
+      #       curl -s -X POST "https://api.medium.com/v1/users/$MEDIUM_USER_ID/posts" \
+      #         -H "Authorization: Bearer $MEDIUM_TOKEN" \
+      #         -H "Content-Type: application/json" \
+      #         -d "{\"title\":\"$title\",\"contentFormat\":\"markdown\",\"content\":\"$body\",\"canonicalUrl\":\"$canonical\",\"publishStatus\":\"public\"}"
+      #     done

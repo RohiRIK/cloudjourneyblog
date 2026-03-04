@@ -129,7 +129,7 @@ export default function Home() {
               </Heading>
             </Row>
             <Row flex={3} paddingX="20">
-              <Posts range={[1, 2]} columns="2" />
+              <Posts range={[1, 3]} columns="2" />
             </Row>
           </Row>
           <Row fillWidth paddingLeft="64" horizontal="end">

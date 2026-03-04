@@ -37,4 +37,4 @@ next-env.d.ts
 
 # blog image generation docs (not needed in repo)
 /public/images/blog/GENERATE.md
-/public/images/blog/PROMPTS.md
+/public/images/blog/PROMPTS.mdBLOG_PIPELINE.md
