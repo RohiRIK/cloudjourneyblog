@@ -11,7 +11,7 @@ import {
   Meta,
   Line,
 } from "@once-ui-system/core";
-import { home, about, person, baseURL, routes } from "@/resources";
+import { home, about, blog, person, baseURL, routes } from "@/resources";
 import { withBasePath } from "@/utils/basePath";
 import { Mailchimp } from "@/components";
 import { Projects } from "@/components/work/Projects";
@@ -77,33 +77,68 @@ export default function Home() {
             </Text>
           </RevealFx>
           <RevealFx paddingTop="12" delay={0.4} horizontal="center" paddingLeft="12">
-            <Button
-              id="about"
-              data-border="rounded"
-              href={about.path}
-              variant="secondary"
-              size="m"
-              weight="default"
-              arrowIcon
-            >
-              <Row gap="8" vertical="center" paddingRight="4">
-                {about.avatar.display && (
-                  <Avatar
-                    marginRight="8"
-                    style={{ marginLeft: "-0.75rem" }}
-                    src={withBasePath(person.avatar)}
-                    size="m"
-                  />
-                )}
-                {about.title}
-              </Row>
-            </Button>
+            <Row gap="12" wrap horizontal="center">
+              <Button
+                id="about"
+                data-border="rounded"
+                href={about.path}
+                variant="secondary"
+                size="m"
+                weight="default"
+                arrowIcon
+              >
+                <Row gap="8" vertical="center" paddingRight="4">
+                  {about.avatar.display && (
+                    <Avatar
+                      marginRight="8"
+                      style={{ marginLeft: "-0.75rem" }}
+                      src={withBasePath(person.avatar)}
+                      size="m"
+                    />
+                  )}
+                  {about.title}
+                </Row>
+              </Button>
+              {routes["/blog"] && (
+                <Button
+                  id="blog"
+                  data-border="rounded"
+                  href={blog.path}
+                  variant="tertiary"
+                  size="m"
+                  weight="default"
+                  arrowIcon
+                >
+                  Read the blog
+                </Button>
+              )}
+            </Row>
           </RevealFx>
         </Column>
       </Column>
-      <RevealFx translateY="16" delay={0.6}>
+      {routes["/blog"] && (
+        <Column fillWidth gap="24" marginBottom="l">
+          <Row fillWidth paddingRight="64">
+            <Line maxWidth={48} />
+          </Row>
+          <Row fillWidth gap="24" marginTop="40" s={{ direction: "column" }}>
+            <Row flex={1} paddingLeft="l" paddingTop="24">
+              <Heading as="h2" variant="display-strong-xs" wrap="balance">
+                Latest writing
+              </Heading>
+            </Row>
+            <Row flex={3} paddingX="20">
+              <Posts range={[1, 3]} columns="2" />
+            </Row>
+          </Row>
+          <Row fillWidth paddingLeft="64" horizontal="end">
+            <Line maxWidth={48} />
+          </Row>
+        </Column>
+      )}
+      <RevealFx translateY="16">
         <Projects
-          range={[1, 1]}
+          range={[1, 4]}
           exclude={[
             "fleetwatch",
             "personal-coffeshop",
@@ -117,40 +152,6 @@ export default function Home() {
           ]}
         />
       </RevealFx>
-      {routes["/blog"] && (
-        <Column fillWidth gap="24" marginBottom="l">
-          <Row fillWidth paddingRight="64">
-            <Line maxWidth={48} />
-          </Row>
-          <Row fillWidth gap="24" marginTop="40" s={{ direction: "column" }}>
-            <Row flex={1} paddingLeft="l" paddingTop="24">
-              <Heading as="h2" variant="display-strong-xs" wrap="balance">
-                Latest from the blog
-              </Heading>
-            </Row>
-            <Row flex={3} paddingX="20">
-              <Posts range={[1, 3]} columns="2" />
-            </Row>
-          </Row>
-          <Row fillWidth paddingLeft="64" horizontal="end">
-            <Line maxWidth={48} />
-          </Row>
-        </Column>
-      )}
-      <Projects
-        range={[2, 4]}
-        exclude={[
-          "fleetwatch",
-          "personal-coffeshop",
-          "air-quality-automation",
-          "unix-update-automator",
-          "homelab-swarm-stack",
-          "dev-team",
-          "n8n-automation-workflows",
-          "device-inventory-analytics",
-          "doc-crawler-ai-organizer",
-        ]}
-      />
       <Mailchimp />
     </Column>
   );
