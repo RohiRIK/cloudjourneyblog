@@ -7,76 +7,13 @@
 7:I[311451,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Line"]
 8:I[691722,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Button"]
 9:I[145250,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Avatar"]
-a:I[474855,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ProjectCard"]
-11:I[89532,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
-12:I[814360,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
-1a:I[303847,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Mailchimp"]
-1b:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
-1c:"$Sreact.suspense"
-b:T10a2,
-## What it is
-
-A SOC assistant I built on my own time. The idea was simple: stop digging through documentation every time an alert fires and just ask a question in plain English.
-
-The core is a RAG pipeline — Pinecone as the vector store, LangChain managing the retrieval and chains, Gemini 1.5 Pro doing the reasoning. It ingests security documentation, playbooks, and telemetry context, and surfaces relevant answers in seconds instead of minutes of manual searching.
-
-It's not a product. It's a personal project that I run against real data and actually use.
-
-## Why I built it
-
-I work in security operations. A lot of the slow parts of alert triage aren't complex thinking — they're retrieval. Finding the right playbook, checking what a particular indicator means in this environment, confirming whether a behavior is expected for a given user. That's lookup work, and lookup work is exactly what RAG is good at.
-
-I wanted to see how much of that I could automate without the output becoming something you can't trust. That second part turned out to be the hard part.
-
-## How it works
-
-<Grid columns="2" gap="16">
-    <Card padding="16" radius="m">
-        <Icon name="search" size="s" marginBottom="8"/>
-        <Text weight="bold" marginBottom="4">Retrieval</Text>
-        <Text size="s" onBackground="neutral-medium">Security documentation and playbooks embedded into Pinecone. Queries pull the most relevant context before anything goes to the model.</Text>
-    </Card>
-    <Card padding="16" radius="m">
-        <Icon name="shield" size="s" marginBottom="8"/>
-        <Text weight="bold" marginBottom="4">Reasoning</Text>
-        <Text size="s" onBackground="neutral-medium">Gemini 1.5 Pro handles the actual analysis — big context window matters here when you're passing in multiple documents at once.</Text>
-    </Card>
-    <Card padding="16" radius="m">
-        <Icon name="terminal" size="s" marginBottom="8"/>
-        <Text weight="bold" marginBottom="4">Actions</Text>
-        <Text size="s" onBackground="neutral-medium">High-confidence responses can trigger Logic Apps integrations — account isolation, ticket creation, analyst notification.</Text>
-    </Card>
-    <Card padding="16" radius="m">
-        <Icon name="openai" size="s" marginBottom="8"/>
-        <Text weight="bold" marginBottom="4">Interface</Text>
-        <Text size="s" onBackground="neutral-medium">Plain English queries. Ask about an alert, a user, a behavior pattern — no structured query language needed.</Text>
-    </Card>
-</Grid>
-
-## Stack
-
-- **Orchestration**: LangChain — manages retrieval chains and the agentic loop
-- **Model**: Google Gemini 1.5 Pro — large context window was the deciding factor over GPT-4
-- **Vector store**: Pinecone — low-latency retrieval at scale
-- **Integrations**: Microsoft Sentinel, Defender XDR, Azure Logic Apps
-
-## What actually worked
-
-The retrieval speed was genuinely good from the start. Once the embeddings were in Pinecone, lookup latency was fast enough that the bottleneck shifted entirely to the model response time, which is what you want.
-
-The natural language interface worked better than I expected for well-defined questions — "what's the expected login behavior for this user?", "show me playbook steps for lateral movement detection" — that kind of thing.
-
-## What didn't
-
-Hallucination in forensic context is a real problem. Early versions would confidently answer questions that weren't well-represented in the retrieval results. I spent a significant amount of time tuning retrieval quality — chunk sizing, embedding strategy, score thresholds — before the answers were reliable enough to act on.
-
-I also initially tried to make it too autonomous. Fully automated playbook execution sounds useful until a false positive triggers an account lockdown at 2am. The current version flags high-confidence actions for one-click confirmation rather than running them silently.
-
-## Results (personal use)
-
-Triage time on familiar alert types dropped significantly — the lookup work that was eating 15-30 minutes now takes seconds. For novel or complex incidents I still do full manual investigation, which is the right call. The assistant is a first-pass filter, not a replacement for thinking.
-0:{"buildId":"kz1E_KK_k4zlU9y2C2_31","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L4",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L5",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/project-aegis","children":["$","$L6",null,{"paddingY":"2","children":["$","$L6",null,{"gap":"12","vertical":"center","children":[["$","strong",null,{"className":"ml-4","children":"Project Aegis"}]," ",["$","$L7",null,{"background":"brand-alpha-strong","vert":true,"height":"20"}],["$","span",null,{"className":"brand-on-background-medium mr-4","style":{},"children":"Featured project"}]]}]}]}]}],["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L6",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}]}]]}]}],["$","$L4",null,{"translateY":"16","delay":0.6,"children":["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$La","project-aegis",{"priority":true,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$b","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}]]}]}],"$Lc","$Ld","$Le"]}],["$Lf"],"$L10"]}],"loading":null,"isPartial":false}
-13:T1f74,
+a:I[89532,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
+b:I[814360,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
+16:I[474855,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ProjectCard"]
+1b:I[303847,["/_next/static/chunks/4229be1c600ccf6d.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/9988c4a59e44ac76.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Mailchimp"]
+1c:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+1d:"$Sreact.suspense"
+c:T1f74,
 The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?
 
 Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works.
@@ -161,66 +98,8 @@ But when the real problem is ongoing visibility — and when the solution needs 
 Building FleetWatch upfront was a harder conversation to have, but it was the right one. The client got a system that solves the problem they actually had — not the problem they knew how to articulate.
 
 The source is on GitHub at [RohiRIK/FleetWatch](https://github.com/RohiRIK/FleetWatch) if you want to see how it's put together.
-c:["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L6",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L7",null,{"maxWidth":48}]}],["$","$L6",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L6",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Latest from the blog"}]}],["$","$L6",null,{"flex":3,"paddingX":"20","children":["$","$L11",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L12","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$13"},"thumbnail":false}],"$L14","$L15"]}]}]]}],"$L16"]}]
-17:T749,
-## What this was
-
-A client running JumpCloud for MDM wanted to consolidate onto the Microsoft stack. Everything else was already in Microsoft — identity, email, security — but the device management gap meant correlating device state with identity required jumping between platforms.
-
-## What I built
-
-The main challenge with MDM migrations is the transition gap — the window where a device is unenrolled from one MDM and not yet in another. During that time you lose policy enforcement and visibility.
-
-I wrote PowerShell scripts to handle the transition in sequence: unenroll from JumpCloud, trigger Intune enrollment, verify the device showed up in Intune before moving to the next. Ran in batches with rollback checkpoints so we could pause if something broke mid-migration.
-
-**Windows Autopilot** — registered the Windows fleet into Autopilot for zero-touch future provisioning. Extracted hardware hashes, uploaded them, configured deployment profiles per user group.
-
-**macOS via Apple Business Manager** — set up ABM integration with Intune. More involved than Windows Autopilot — had to work through the MDM profile trust chain and handle devices that had supervision issues from the JumpCloud side.
-
-**Policy parity** — translated JumpCloud's Command Library into Intune Configuration Profiles and PowerShell scripts deployed via Intune. Some mapped cleanly, some needed rethinking.
-
-## What made it hard
-
-A subset of devices had been enrolled in JumpCloud via a method that left a persistent MDM profile the script couldn't cleanly remove. Those had to be handled manually. Also found several macOS devices enrolled by users personally rather than via ABM, which broke the supervision requirement for certain policies.
-
-## Stack
-
-- Microsoft Intune
-- JumpCloud
-- Windows Autopilot
-- Apple Business Manager
-- PowerShell & Microsoft Graph API
-18:T6db,
-## What this was
-
-A client at Oncloud decided to move their entire identity and collaboration stack from Google Workspace to Microsoft 365. I was the lead engineer on the migration — responsible for technical execution from discovery through cutover.
-
-## What the work looked like
-
-**Identity migration** — mapped thousands of Google identities into a clean Entra ID tenant, standardized naming conventions, consolidated accounts that had duplicated from acquisitions. Set up SSO from scratch with Entra ID as the new IdP.
-
-**Data migration via AvePoint Fly** — handled mailbox and Google Drive to SharePoint/OneDrive transfer. The hard part wasn't the tool — it was the permission mapping. Google Drive's sharing model doesn't translate cleanly to SharePoint. Spent significant time building mapping rules to preserve access rather than just moving data and leaving people unable to open their files.
-
-**Mail cutover** — ran split-delivery during the transition so mail kept flowing to both platforms while users moved over. Managed the DNS cutover window to avoid gaps.
-
-**SSO re-mapping** — the client had 50+ SaaS applications pointed at Google as IdP. Reconfigured each for SAML/OIDC against Entra ID. Most were straightforward; a few needed custom attribute mappings.
-
-## What made it hard
-
-The data migration took longer than scoped. The client's Google Drive was far messier than discovery suggested — deeply nested shared drives with complex permission inheritance, orphaned files, and accounts that no longer existed but still owned content. We had to build a pre-migration cleanup process that wasn't in the original plan.
-
-## Stack
-
-- AvePoint Fly
-- Microsoft Entra ID
-- Google Workspace APIs
-- Microsoft Graph API
-- PowerShell
-d:["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$La","jumpcloud-to-intune-migration",{"priority":true,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$17","avatars":[],"link":""}],["$","$La","gcp-to-entra-migration",{"priority":true,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$18","avatars":[],"link":""}],"$L19"]}]
-e:["$","$L1a",null,{}]
-f:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true}]
-10:["$","$L1b",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
-1e:T19b0,
+0:{"buildId":"tSway5zwA0H_3ZuLghWBe","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L4",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L5",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/project-aegis","children":["$","$L6",null,{"paddingY":"2","children":["$","$L6",null,{"gap":"12","vertical":"center","children":[["$","strong",null,{"className":"ml-4","children":"Project Aegis"}]," ",["$","$L7",null,{"background":"brand-alpha-strong","vert":true,"height":"20"}],["$","span",null,{"className":"brand-on-background-medium mr-4","style":{},"children":"Featured project"}]]}]}]}]}],["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L6",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L8",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L6",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L7",null,{"maxWidth":48}]}],["$","$L6",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L6",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Latest writing"}]}],["$","$L6",null,{"flex":3,"paddingX":"20","children":["$","$La",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$Lb","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$c"},"thumbnail":false}],"$Ld","$Le"]}]}]]}],"$Lf"]}],"$L10","$L11"]}],["$L12"],"$L13"]}],"loading":null,"isPartial":false}
+14:T19b0,
 If you're preparing to migrate to Entra ID and a penetration test just flagged "Netlogon not requiring RPC Sealing" — this is how you close it properly.
 
 This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you.
@@ -370,8 +249,8 @@ It also puts you in a much cleaner position for Entra ID migration — because t
 ---
 
 The script above is what I run before any enforcement conversation. If you're seeing 5838s you didn't expect, start there — the CSV usually tells you exactly what needs attention.
-14:["$","$L12","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$1e"},"thumbnail":false}]
-1f:T2296,
+d:["$","$Lb","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$14"},"thumbnail":false}]
+15:T2296,
 The default Claude Code installation does one thing poorly: it forgets everything. Every new session, you re-explain your stack, your preferences, the decisions you made last week. It compounds quickly on any project you're in for more than a few days.
 
 I spent a few months building a configuration layer on top of Claude Code that solves this. Here's what it does and how it works.
@@ -477,9 +356,131 @@ The skills mean the repetitive parts (planning, verifying, committing) have cons
 None of this is magic. It's structured configuration that enforces a workflow I decided I wanted. The alternative is relying on memory and discipline to apply that workflow manually every time. That doesn't scale.
 
 The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
-15:["$","$L12","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$1f"},"thumbnail":false}]
-16:["$","$L6",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$L7",null,{"maxWidth":48}]}]
-20:T9e2,
+e:["$","$Lb","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$15"},"thumbnail":false}]
+f:["$","$L6",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$L7",null,{"maxWidth":48}]}]
+17:T10a2,
+## What it is
+
+A SOC assistant I built on my own time. The idea was simple: stop digging through documentation every time an alert fires and just ask a question in plain English.
+
+The core is a RAG pipeline — Pinecone as the vector store, LangChain managing the retrieval and chains, Gemini 1.5 Pro doing the reasoning. It ingests security documentation, playbooks, and telemetry context, and surfaces relevant answers in seconds instead of minutes of manual searching.
+
+It's not a product. It's a personal project that I run against real data and actually use.
+
+## Why I built it
+
+I work in security operations. A lot of the slow parts of alert triage aren't complex thinking — they're retrieval. Finding the right playbook, checking what a particular indicator means in this environment, confirming whether a behavior is expected for a given user. That's lookup work, and lookup work is exactly what RAG is good at.
+
+I wanted to see how much of that I could automate without the output becoming something you can't trust. That second part turned out to be the hard part.
+
+## How it works
+
+<Grid columns="2" gap="16">
+    <Card padding="16" radius="m">
+        <Icon name="search" size="s" marginBottom="8"/>
+        <Text weight="bold" marginBottom="4">Retrieval</Text>
+        <Text size="s" onBackground="neutral-medium">Security documentation and playbooks embedded into Pinecone. Queries pull the most relevant context before anything goes to the model.</Text>
+    </Card>
+    <Card padding="16" radius="m">
+        <Icon name="shield" size="s" marginBottom="8"/>
+        <Text weight="bold" marginBottom="4">Reasoning</Text>
+        <Text size="s" onBackground="neutral-medium">Gemini 1.5 Pro handles the actual analysis — big context window matters here when you're passing in multiple documents at once.</Text>
+    </Card>
+    <Card padding="16" radius="m">
+        <Icon name="terminal" size="s" marginBottom="8"/>
+        <Text weight="bold" marginBottom="4">Actions</Text>
+        <Text size="s" onBackground="neutral-medium">High-confidence responses can trigger Logic Apps integrations — account isolation, ticket creation, analyst notification.</Text>
+    </Card>
+    <Card padding="16" radius="m">
+        <Icon name="openai" size="s" marginBottom="8"/>
+        <Text weight="bold" marginBottom="4">Interface</Text>
+        <Text size="s" onBackground="neutral-medium">Plain English queries. Ask about an alert, a user, a behavior pattern — no structured query language needed.</Text>
+    </Card>
+</Grid>
+
+## Stack
+
+- **Orchestration**: LangChain — manages retrieval chains and the agentic loop
+- **Model**: Google Gemini 1.5 Pro — large context window was the deciding factor over GPT-4
+- **Vector store**: Pinecone — low-latency retrieval at scale
+- **Integrations**: Microsoft Sentinel, Defender XDR, Azure Logic Apps
+
+## What actually worked
+
+The retrieval speed was genuinely good from the start. Once the embeddings were in Pinecone, lookup latency was fast enough that the bottleneck shifted entirely to the model response time, which is what you want.
+
+The natural language interface worked better than I expected for well-defined questions — "what's the expected login behavior for this user?", "show me playbook steps for lateral movement detection" — that kind of thing.
+
+## What didn't
+
+Hallucination in forensic context is a real problem. Early versions would confidently answer questions that weren't well-represented in the retrieval results. I spent a significant amount of time tuning retrieval quality — chunk sizing, embedding strategy, score thresholds — before the answers were reliable enough to act on.
+
+I also initially tried to make it too autonomous. Fully automated playbook execution sounds useful until a false positive triggers an account lockdown at 2am. The current version flags high-confidence actions for one-click confirmation rather than running them silently.
+
+## Results (personal use)
+
+Triage time on familiar alert types dropped significantly — the lookup work that was eating 15-30 minutes now takes seconds. For novel or complex incidents I still do full manual investigation, which is the right call. The assistant is a first-pass filter, not a replacement for thinking.
+10:["$","$L4",null,{"translateY":"16","children":["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L16","project-aegis",{"priority":true,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$17","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}],"$L18","$L19","$L1a"]}]}]
+11:["$","$L1b",null,{}]
+12:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true}]
+13:["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]
+1f:T749,
+## What this was
+
+A client running JumpCloud for MDM wanted to consolidate onto the Microsoft stack. Everything else was already in Microsoft — identity, email, security — but the device management gap meant correlating device state with identity required jumping between platforms.
+
+## What I built
+
+The main challenge with MDM migrations is the transition gap — the window where a device is unenrolled from one MDM and not yet in another. During that time you lose policy enforcement and visibility.
+
+I wrote PowerShell scripts to handle the transition in sequence: unenroll from JumpCloud, trigger Intune enrollment, verify the device showed up in Intune before moving to the next. Ran in batches with rollback checkpoints so we could pause if something broke mid-migration.
+
+**Windows Autopilot** — registered the Windows fleet into Autopilot for zero-touch future provisioning. Extracted hardware hashes, uploaded them, configured deployment profiles per user group.
+
+**macOS via Apple Business Manager** — set up ABM integration with Intune. More involved than Windows Autopilot — had to work through the MDM profile trust chain and handle devices that had supervision issues from the JumpCloud side.
+
+**Policy parity** — translated JumpCloud's Command Library into Intune Configuration Profiles and PowerShell scripts deployed via Intune. Some mapped cleanly, some needed rethinking.
+
+## What made it hard
+
+A subset of devices had been enrolled in JumpCloud via a method that left a persistent MDM profile the script couldn't cleanly remove. Those had to be handled manually. Also found several macOS devices enrolled by users personally rather than via ABM, which broke the supervision requirement for certain policies.
+
+## Stack
+
+- Microsoft Intune
+- JumpCloud
+- Windows Autopilot
+- Apple Business Manager
+- PowerShell & Microsoft Graph API
+18:["$","$L16","jumpcloud-to-intune-migration",{"priority":true,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$1f","avatars":[],"link":""}]
+20:T6db,
+## What this was
+
+A client at Oncloud decided to move their entire identity and collaboration stack from Google Workspace to Microsoft 365. I was the lead engineer on the migration — responsible for technical execution from discovery through cutover.
+
+## What the work looked like
+
+**Identity migration** — mapped thousands of Google identities into a clean Entra ID tenant, standardized naming conventions, consolidated accounts that had duplicated from acquisitions. Set up SSO from scratch with Entra ID as the new IdP.
+
+**Data migration via AvePoint Fly** — handled mailbox and Google Drive to SharePoint/OneDrive transfer. The hard part wasn't the tool — it was the permission mapping. Google Drive's sharing model doesn't translate cleanly to SharePoint. Spent significant time building mapping rules to preserve access rather than just moving data and leaving people unable to open their files.
+
+**Mail cutover** — ran split-delivery during the transition so mail kept flowing to both platforms while users moved over. Managed the DNS cutover window to avoid gaps.
+
+**SSO re-mapping** — the client had 50+ SaaS applications pointed at Google as IdP. Reconfigured each for SAML/OIDC against Entra ID. Most were straightforward; a few needed custom attribute mappings.
+
+## What made it hard
+
+The data migration took longer than scoped. The client's Google Drive was far messier than discovery suggested — deeply nested shared drives with complex permission inheritance, orphaned files, and accounts that no longer existed but still owned content. We had to build a pre-migration cleanup process that wasn't in the original plan.
+
+## Stack
+
+- AvePoint Fly
+- Microsoft Entra ID
+- Google Workspace APIs
+- Microsoft Graph API
+- PowerShell
+19:["$","$L16","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$20","avatars":[],"link":""}]
+21:T9e2,
 ## What this is
 
 My personal Claude Code configuration that I've been refining since I started using it heavily for both security automation and portfolio work. The default Claude Code setup is fine. This is what happens after you use it seriously for a few months and start fixing the parts that annoy you.
@@ -520,5 +521,5 @@ It's not magic — it's just configuration that enforces the workflow I actually
 - CLAUDE.md (global + per-project)
 - Session context (4 markdown files per project)
 - Custom agents + skills
-19:["$","$La","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$20","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config"}]
-1d:null
+1a:["$","$L16","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$21","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config"}]
+1e:null
