@@ -82,7 +82,7 @@ export default function Home() {
                 id="about"
                 data-border="rounded"
                 href={about.path}
-                variant="secondary"
+                variant="tertiary"
                 size="m"
                 weight="default"
                 arrowIcon
@@ -104,7 +104,7 @@ export default function Home() {
                   id="blog"
                   data-border="rounded"
                   href={blog.path}
-                  variant="tertiary"
+                  variant="secondary"
                   size="m"
                   weight="default"
                   arrowIcon
