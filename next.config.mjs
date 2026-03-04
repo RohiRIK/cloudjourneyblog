@@ -8,10 +8,10 @@ const withMDX = mdx({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/resume",
-  assetPrefix: "/resume",
+  basePath: "",
+  assetPrefix: "",
   env: {
-    NEXT_PUBLIC_BASE_PATH: "/resume",
+    NEXT_PUBLIC_BASE_PATH: "",
   },
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   transpilePackages: ["next-mdx-remote"],
