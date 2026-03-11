@@ -1,0 +1,86 @@
+---
+title: "Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph"
+summary: "The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows."
+image: "/images/blog/claude-code-config-v2.png"
+publishedAt: "2026-03-11"
+tag: "Engineering"
+---
+
+The first version of my Claude Code config replaced the default (no memory) with a structured 4-file system: goals, decisions, progress, gotchas. Markdown files, hooks that read and write them, a summary injected at session start. It worked. For a few months.
+
+The problem with flat markdown files isn't that they fail — it's that they don't scale. After a few hundred entries across a dozen projects, you start noticing the cracks. Duplicate decisions. Gotchas that contradict each other because the older one was never updated. Progress logs that grow faster than they get trimmed. No way to ask "what do I know about Supabase" without reading every file.
+
+The v2 config replaces all of it with SQLite.
+
+## The shift to SQLite LTM
+
+The new system lives at `~/.claude/memory/ltm.db`. Every memory, decision, gotcha, and progress item is a row. Projects are foreign-keyed. Relationships between memories are edges in a separate table.
+
+The hook system still works the same way from the outside — SessionStart injects context, PreCompact writes a snapshot, UpdateContext logs progress. What changed is what's underneath. Instead of appending to markdown files and hoping the trimming logic holds, everything goes to SQLite with indexed columns, typed categories, and a schema that can actually evolve.
+
+The immediate win is queries. You can now run:
+
+```bash
+bun -e "
+  const { getItems } = await import(process.env.HOME + '/.claude/memory/context.js');
+  const gotchas = getItems('project-name', 'gotcha');
+  console.log(JSON.stringify(gotchas));
+"
+```
+
+And get back a filtered, structured list — not a blob of markdown you have to parse mentally.
+
+New commands that came with it: `/learn`, `/recall`, `/forget`, `/relate`, `/check-context`, `/init-context`. The ones I use constantly are `/recall` (before starting any non-trivial task — surface past decisions before making new ones) and `/learn` (mid-session when something important comes up that shouldn't be lost to compaction).
+
+## The Janitor agent
+
+The memory problem I didn't anticipate: memories go stale. A decision made in February about one project's architecture has nothing to do with March, but it stays in the DB forever unless someone removes it. Duplicates accumulate. A gotcha from an early attempt at something gets superseded by a better approach but both entries survive.
+
+The Janitor is an autonomous sub-agent that runs inside `memory/server.ts`. It has four stages:
+
+**Decay** — memories that haven't been used get a confidence score that degrades over time. Below a configurable threshold (default 0.2), they get archived. Not deleted — archived. You can review them.
+
+**Auto-promote** — when the UpdateContext hook writes a `decision` or `gotcha` context item, the Janitor elevates it to a global memory automatically. No manual `/learn` required for things that come out of normal workflow.
+
+**Semantic dedup** — each memory gets an embedding vector. The Janitor runs cosine similarity across them. Anything above 0.85 similarity is flagged as a potential duplicate, and an LLM proposes a merge. The merge goes to a pending queue — you approve or reject, nothing changes automatically.
+
+**Supersedes** — when memories are merged, the old ones get marked `superseded` with a `supersedes` edge in the relations table. The knowledge graph stays consistent.
+
+The part I like most: nothing the Janitor proposes takes effect without confirmation. It generates a queue of pending actions and surfaces them in a UI. You review, approve what makes sense, reject what doesn't. The agent maintains the memory system; you stay in control of what it actually does.
+
+## The graph visualizer
+
+The SQLite backend enabled something that wasn't possible with markdown files: a knowledge graph.
+
+`memory/server.ts` runs a Bun server on port 7331. `memory/graph-app/` is a Next.js app on 7332 that reads from it via WebSocket. What you see is a D3 force graph: project nodes, memory nodes, context item nodes, edges representing relationships.
+
+The layout is intentionally organic — link strength varies by relationship type. `context_of` links are loose (0.04), so context items float near their projects. `project_scope` links are tighter (0.25). Memory-to-memory relations are strong (0.6). The simulation converges and you can see clusters.
+
+Practically useful features:
+
+- **⌘K spotlight search** — FTS5-powered, keyboard navigable, zooms the graph to the matching node on select
+- **Tag filter panel** — click a tag to dim everything that doesn't match
+- **Project drill-down** — click any project node to get a dedicated page with all its context, memories, and relations
+- **Pending actions page** — the Janitor's propose queue, one click to approve or reject
+
+The graph makes something visible that was always there but invisible: what the model actually knows about your projects, how those memories relate, and where the gaps or stale entries are.
+
+## Multi-provider embeddings
+
+Semantic dedup and the `/recall` search need embeddings. The system now supports six providers: Gemini, OpenAI, Anthropic, Cohere, OpenRouter, Ollama.
+
+The settings UI at `/settings` lets you pick your embed provider, verify the API key inline (paste → spinner → green/red), and select from a dropdown of available models for that provider. It doesn't matter which you use for the embeddings — what matters is consistency, since vectors from different models aren't comparable.
+
+I run Ollama locally for embeddings. No API key, no cost, fast enough for the volume of memories a single developer accumulates.
+
+## What actually changed day-to-day
+
+The hooks look the same from the outside. Session starts, context is injected, work happens, progress is logged. The difference is what happens underneath and over time.
+
+With markdown files, the system degraded slowly. Files got messy. Duplicates crept in. The 20-item trim on progress.md was a blunt instrument. You never really knew what was in the DB unless you opened the files.
+
+With SQLite, the system improves over time. Memories that matter get used, have their confidence reinforced, and survive. Memories that stop being relevant decay. The Janitor surfaces what needs attention instead of letting stale data accumulate silently.
+
+The graph visualizer isn't something I use every session — but when I do open it, it answers questions that were previously unanswerable: "what have I decided about this project?", "is there a gotcha about this library I logged a month ago?", "why does this memory exist?"
+
+The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).

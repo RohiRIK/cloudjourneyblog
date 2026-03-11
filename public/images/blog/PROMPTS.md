@@ -16,6 +16,7 @@
 - [x] 8. claude-code-config.png
 - [x] 9. netlogon-rpc-sealing-playbook.png
 - [x] 10. fleetwatch-from-script-to-system.png
+- [x] 11. claude-code-config-v2.png
 
 ---
 
@@ -408,3 +409,51 @@ Color palette: near-black background, left side in dim muted gray/blue/teal
 with red-orange warning accents, right side in electric blue/cyan/amber/gold
 neon, center divider in bright white. Left feels improvised; right feels
 built. Subjects fill the full frame.
+
+---
+
+## 11. claude-code-config-v2.png
+
+**Concept:** LIVING SYSTEM / TRANSFORMATION problem type.
+Static markdown files couldn't maintain themselves — duplicates, stale data,
+no way to query. The new system is alive: memories decay or strengthen over
+time, an autonomous Janitor agent prunes and merges, a D3 graph makes the
+whole thing visible. Memory as infrastructure that improves itself.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Center composition: a knowledge graph rendered as floating geometric nodes
+connected by crisp neon lines — an organic neural-network layout, not a
+grid. The nodes vary in brightness and size to show memory strength:
+
+- STRONG memory nodes (5-6 of them): large hexagons, glowing intensely in
+  electric cyan or neon amber — fully alive, recently used, important
+- FADING memory nodes (4-5 of them): smaller circles, dim gray-blue, low
+  opacity, outer glow barely visible — decaying, not recently accessed
+- A single DISTINCT Janitor node: octagonal, larger than the others, glowing
+  deep purple — positioned near the center-right, with thin clean lines
+  extending FROM it toward two fading nodes, suggesting it is actively
+  examining or pruning them. One line ends in a small geometric scissors/cut
+  symbol; another ends in a small merge/arrow symbol (two nodes converging
+  into one)
+
+Edges between nodes vary in intensity: bright cyan for strong active
+connections, dim dotted lines for weak or decaying relationships.
+
+In the background at low opacity: the faint outline of a database cylinder
+(SQLite) — dark steel, minimal, suggesting this graph lives in persistent
+storage. Not the focus, just the foundation.
+
+The composition reads as: a living graph that tends itself. Order from
+potential chaos. The Janitor works quietly while memories pulse at different
+intensities around it.
+
+Color palette: near-black background, strong memory nodes in electric cyan
+and amber, fading nodes in dim gray-blue, Janitor node in deep purple with
+warm magenta edge highlights, connection lines in cyan/gray by strength,
+SQLite silhouette in barely-visible dark steel. No bright background.
+Subjects fill the full frame. Minimal. Precise. Slightly alive.
