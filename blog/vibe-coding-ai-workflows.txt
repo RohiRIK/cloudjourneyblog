@@ -13,14 +13,14 @@ d:I[168027,[],"default"]
 :HL["/_next/static/chunks/b3a7f4834154c9dc.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"SSYPrm1UYeOCurGuREOE4","c":["","blog","vibe-coding-ai-workflows"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","vibe-coding-ai-workflows","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/e7db3d784b2d87a5.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/b7eb314575c07c5e.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/720d3f3cc420c663.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
-f:I[530824,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Providers"]
-10:I[273323,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
-11:I[621971,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RevealFx"]
-12:I[394412,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Background"]
-13:I[521247,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ClientFlex"]
-14:I[402971,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Header"]
-15:I[1166,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RouteGuard"]
+0:{"P":null,"b":"gLmJt0JLUXB2LGcNFd08a","c":["","blog","vibe-coding-ai-workflows"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","vibe-coding-ai-workflows","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6633d7a0fde019af.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+f:I[530824,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Providers"]
+10:I[273323,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
+11:I[621971,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RevealFx"]
+12:I[394412,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Background"]
+13:I[521247,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ClientFlex"]
+14:I[402971,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Header"]
+15:I[1166,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RouteGuard"]
 e:T771,
               (function() {
                 try {
@@ -62,20 +62,102 @@ e:T771,
                 }
               })();
             2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$e"}}]}],["$","$Lf",null,{"children":["$","$L10",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L11",null,{"fill":true,"position":"absolute","children":["$","$L12",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L13",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L14",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L15",null,{"children":"$L16"}]}]}],"$L17"]}]}]]}]
-18:I[778454,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
-19:I[298229,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"IconButton"]
-1a:I[479520,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
-1b:I[624379,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
-1c:I[145250,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
-1d:I[398382,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
-1f:I[448588,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
-20:I[992713,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
-21:I[311451,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
-22:I[89532,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
-23:I[814360,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
+18:I[778454,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
+19:I[298229,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"IconButton"]
+1a:I[479520,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
+1b:I[624379,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
+1c:I[145250,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
+1d:I[398382,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
+1f:I[448588,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
+20:I[992713,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
+21:I[311451,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
+22:I[89532,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
+23:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
 16:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
 17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-24:T1f74,
+24:T1a15,
+The first version of my Claude Code config replaced the default (no memory) with a structured 4-file system: goals, decisions, progress, gotchas. Markdown files, hooks that read and write them, a summary injected at session start. It worked. For a few months.
+
+The problem with flat markdown files isn't that they fail — it's that they don't scale. After a few hundred entries across a dozen projects, you start noticing the cracks. Duplicate decisions. Gotchas that contradict each other because the older one was never updated. Progress logs that grow faster than they get trimmed. No way to ask "what do I know about Supabase" without reading every file.
+
+The v2 config replaces all of it with SQLite.
+
+## The shift to SQLite LTM
+
+The new system lives at `~/.claude/memory/ltm.db`. Every memory, decision, gotcha, and progress item is a row. Projects are foreign-keyed. Relationships between memories are edges in a separate table.
+
+The hook system still works the same way from the outside — SessionStart injects context, PreCompact writes a snapshot, UpdateContext logs progress. What changed is what's underneath. Instead of appending to markdown files and hoping the trimming logic holds, everything goes to SQLite with indexed columns, typed categories, and a schema that can actually evolve.
+
+The immediate win is queries. You can now run:
+
+```bash
+bun -e "
+  const { getItems } = await import(process.env.HOME + '/.claude/memory/context.js');
+  const gotchas = getItems('project-name', 'gotcha');
+  console.log(JSON.stringify(gotchas));
+"
+```
+
+And get back a filtered, structured list — not a blob of markdown you have to parse mentally.
+
+New commands that came with it: `/learn`, `/recall`, `/forget`, `/relate`, `/check-context`, `/init-context`. The ones I use constantly are `/recall` (before starting any non-trivial task — surface past decisions before making new ones) and `/learn` (mid-session when something important comes up that shouldn't be lost to compaction).
+
+## The Janitor agent
+
+The memory problem I didn't anticipate: memories go stale. A decision made in February about one project's architecture has nothing to do with March, but it stays in the DB forever unless someone removes it. Duplicates accumulate. A gotcha from an early attempt at something gets superseded by a better approach but both entries survive.
+
+The Janitor is an autonomous sub-agent that runs inside `memory/server.ts`. It has four stages:
+
+**Decay** — memories that haven't been used get a confidence score that degrades over time. Below a configurable threshold (default 0.2), they get archived. Not deleted — archived. You can review them.
+
+**Auto-promote** — when the UpdateContext hook writes a `decision` or `gotcha` context item, the Janitor elevates it to a global memory automatically. No manual `/learn` required for things that come out of normal workflow.
+
+**Semantic dedup** — each memory gets an embedding vector. The Janitor runs cosine similarity across them. Anything above 0.85 similarity is flagged as a potential duplicate, and an LLM proposes a merge. The merge goes to a pending queue — you approve or reject, nothing changes automatically.
+
+**Supersedes** — when memories are merged, the old ones get marked `superseded` with a `supersedes` edge in the relations table. The knowledge graph stays consistent.
+
+The part I like most: nothing the Janitor proposes takes effect without confirmation. It generates a queue of pending actions and surfaces them in a UI. You review, approve what makes sense, reject what doesn't. The agent maintains the memory system; you stay in control of what it actually does.
+
+## The graph visualizer
+
+The SQLite backend enabled something that wasn't possible with markdown files: a knowledge graph.
+
+`memory/server.ts` runs a Bun server on port 7331. `memory/graph-app/` is a Next.js app on 7332 that reads from it via WebSocket. What you see is a D3 force graph: project nodes, memory nodes, context item nodes, edges representing relationships.
+
+The layout is intentionally organic — link strength varies by relationship type. `context_of` links are loose (0.04), so context items float near their projects. `project_scope` links are tighter (0.25). Memory-to-memory relations are strong (0.6). The simulation converges and you can see clusters.
+
+Practically useful features:
+
+- **⌘K spotlight search** — FTS5-powered, keyboard navigable, zooms the graph to the matching node on select
+- **Tag filter panel** — click a tag to dim everything that doesn't match
+- **Project drill-down** — click any project node to get a dedicated page with all its context, memories, and relations
+- **Pending actions page** — the Janitor's propose queue, one click to approve or reject
+
+The graph makes something visible that was always there but invisible: what the model actually knows about your projects, how those memories relate, and where the gaps or stale entries are.
+
+## Multi-provider embeddings
+
+Semantic dedup and the `/recall` search need embeddings. The system now supports six providers: Gemini, OpenAI, Anthropic, Cohere, OpenRouter, Ollama.
+
+The settings UI at `/settings` lets you pick your embed provider, verify the API key inline (paste → spinner → green/red), and select from a dropdown of available models for that provider. It doesn't matter which you use for the embeddings — what matters is consistency, since vectors from different models aren't comparable.
+
+I run Ollama locally for embeddings. No API key, no cost, fast enough for the volume of memories a single developer accumulates.
+
+## What actually changed day-to-day
+
+The hooks look the same from the outside. Session starts, context is injected, work happens, progress is logged. The difference is what happens underneath and over time.
+
+With markdown files, the system degraded slowly. Files got messy. Duplicates crept in. The 20-item trim on progress.md was a blunt instrument. You never really knew what was in the DB unless you opened the files.
+
+With SQLite, the system improves over time. Memories that matter get used, have their confidence reinforced, and survive. Memories that stop being relevant decay. The Janitor surfaces what needs attention instead of letting stale data accumulate silently.
+
+The graph visualizer isn't something I use every session — but when I do open it, it answers questions that were previously unanswerable: "what have I decided about this project?", "is there a gotcha about this library I logged a month ago?", "why does this memory exist?"
+
+The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
+5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/vibe-coding-ai-workflows","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/vibe-coding-ai-workflows\",\"sameAs\":[],\"headline\":\"What I Actually Learned from Vibe Coding with Claude Code\",\"description\":\"A year of building projects with AI: what the workflow looks like, how I keep context alive across sessions, which safety patterns actually work, and what breaks if you skip them.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/vibe-coding-ai-workflows.png\",\"datePublished\":\"2026-03-02\",\"dateModified\":\"2026-03-02\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"March 2, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"What I Actually Learned from Vibe Coding with Claude Code"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}]]}]}],["$","$L1d",null,{"src":"/images/blog/vibe-coding-ai-workflows.png","alt":"What I Actually Learned from Vibe Coding with Claude Code","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"What I Actually Learned from Vibe Coding with Claude Code","url":"https://CloudJourneyBlog.rohi-lab.org/blog/vibe-coding-ai-workflows"}],["$","$L20",null,{}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L21",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L22",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L23","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$24"},"thumbnail":true,"direction":"column"}],"$L25"]}]]}],"$L26"]}]}],"$L27"]}]
+29:I[988654,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+2a:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+28:T1f74,
 The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?
 
 Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works.
@@ -160,167 +242,14 @@ But when the real problem is ongoing visibility — and when the solution needs 
 Building FleetWatch upfront was a harder conversation to have, but it was the right one. The client got a system that solves the problem they actually had — not the problem they knew how to articulate.
 
 The source is on GitHub at [RohiRIK/FleetWatch](https://github.com/RohiRIK/FleetWatch) if you want to see how it's put together.
-5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/vibe-coding-ai-workflows","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/vibe-coding-ai-workflows\",\"sameAs\":[],\"headline\":\"What I Actually Learned from Vibe Coding with Claude Code\",\"description\":\"A year of building projects with AI: what the workflow looks like, how I keep context alive across sessions, which safety patterns actually work, and what breaks if you skip them.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/vibe-coding-ai-workflows.png\",\"datePublished\":\"2026-03-02\",\"dateModified\":\"2026-03-02\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"March 2, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"What I Actually Learned from Vibe Coding with Claude Code"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}]]}]}],["$","$L1d",null,{"src":"/images/blog/vibe-coding-ai-workflows.png","alt":"What I Actually Learned from Vibe Coding with Claude Code","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"What I Actually Learned from Vibe Coding with Claude Code","url":"https://CloudJourneyBlog.rohi-lab.org/blog/vibe-coding-ai-workflows"}],["$","$L20",null,{}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L21",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L22",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L23","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$24"},"thumbnail":true,"direction":"column"}],"$L25"]}]]}],"$L26"]}]}],"$L27"]}]
-29:I[988654,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
-2a:I[605649,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
-28:T19b0,
-If you're preparing to migrate to Entra ID and a penetration test just flagged "Netlogon not requiring RPC Sealing" — this is how you close it properly.
-
-This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you.
-
-## Why this matters
-
-Netlogon is the protocol domain-joined machines use to authenticate against Domain Controllers. Without RPC Sealing, that channel is unencrypted — a classic man-in-the-middle opportunity. Microsoft patched this with the Netlogon secure channel update (CVE-2020-1472 / Zerologon era), but enforcement is still opt-in. A lot of environments are patched but not enforced.
-
-Before you flip enforcement on, you need to know what's still sending unencrypted traffic. That's the whole point of phases 1–3.
-
----
-
-## Phase 1: Infrastructure Preparation
-
-**Target:** All servers and endpoints — DCs, member servers, and clients.
-
-Before any enforcement, the OS must actually support the RPC Sealing protocol. If you patch only your DCs and leave member servers behind, those servers will fail to authenticate once you enforce.
-
-**Action:** Deploy the latest Cumulative Updates. Specifically confirm KB5062600 / KB5021130 are installed. Reboot everything. Check that OS builds are current across the board.
-
-This phase is boring. Do it anyway.
-
----
-
-## Phase 2: Discovery (The Listening Phase)
-
-**Target:** Domain Controllers only.
-
-At this stage, DCs are capable of RPC Sealing but won't block anything yet. They will, however, log every non-compliant connection. That's exactly what you want.
-
-### Step 1 — MDI Reports
-
-Open Microsoft Defender for Identity. Pull the **"Weak Ciphers"** and **"NTLM Authentication"** reports. These give you a fast visual map of legacy devices: old NAS boxes, third-party applications, Linux/Samba servers, network appliances that predate NTLMv2.
-
-### Step 2 — PowerShell Event Log Query
-
-Event ID `5838` = connection attempted without sealing. Event ID `5840` = connection using weak cryptography. You want to find every machine generating these events across all your DCs.
-
-```powershell
-# Create a temp folder for the report
-$Path = "C:\temp"
-If (!(Test-Path $Path)) { New-Item -ItemType Directory -Force -Path $Path }
-
-# Get all Domain Controllers in the domain
-$DCs = Get-ADDomainController -Filter * | Select-Object -ExpandProperty Hostname
-
-$EventIDs = @(5838, 5840)
-$AllEvents = @()
-
-foreach ($DC in $DCs) {
-    Write-Host "Querying logs on DC: $DC..." -ForegroundColor Cyan
-    try {
-        $Events = Get-WinEvent -ComputerName $DC -FilterHashtable @{LogName='System'; ID=$EventIDs} -ErrorAction Stop
-
-        foreach ($Event in $Events) {
-            $AllEvents += [PSCustomObject]@{
-                DomainController = $DC
-                TimeCreated      = $Event.TimeCreated
-                EventID          = $Event.Id
-                Message          = $Event.Message.Split("`n")[0]
-            }
-        }
-    } catch {
-        Write-Warning "No matching events found on $DC, or access was denied."
-    }
-}
-
-# Export results
-if ($AllEvents.Count -gt 0) {
-    $ExportPath = "$Path\Netlogon_Vulnerable_Traffic.csv"
-    $AllEvents | Export-Csv -Path $ExportPath -NoTypeInformation -Encoding UTF8
-    Write-Host "Done! Found vulnerable traffic. Report saved to: $ExportPath" -ForegroundColor Yellow
-} else {
-    Write-Host "Excellent! No vulnerable Netlogon traffic detected across any DCs." -ForegroundColor Green
-}
-```
-
-Run this against all DCs. You'll get a CSV with timestamps, the DC that logged each event, and the message. That CSV is your remediation backlog.
-
----
-
-## Phase 3: Remediation (The Go/No-Go Gate)
-
-**Target:** Specific assets identified in Phase 2.
-
-This is where most projects stall. The CSV output usually surfaces a few categories:
-
-- **Legacy printers and scanners** — firmware update or replace
-- **Third-party applications** — vendor update or configuration change
-- **Linux/Samba servers** — update Samba and configure `client use spnego = yes`, `ntlm auth = no`
-- **Network appliances** — firmware update; sometimes the only option is replacement
-
-Work through each one. If something genuinely cannot be updated, you document why and decide whether a temporary exception is acceptable. In my experience, "we can't update it" is usually "we haven't tried hard enough yet."
-
-**The gate condition:** Run the discovery script again after remediation. You must see **zero new 5838 or 5840 events across all DCs for at least a few days** before moving to Phase 4. Not fewer events — zero.
-
----
-
-## Phase 4: Enforcement & Hardening
-
-**Target:** DCs for Netlogon; all servers and clients for SMB/NTLM.
-
-Only run this phase when Phase 3 is clean.
-
-### Step 4.1 — Enforce RPC Sealing on DCs
-
-Deploy via GPO targeting the Domain Controllers OU, or set the registry key directly via PowerShell:
-
-```
-Path:  HKLM\System\CurrentControlSet\Services\Netlogon\Parameters
-Key:   RequireSeal
-Type:  DWORD
-Value: 2
-```
-
-Once `RequireSeal = 2`, any device that fails to use RPC sealing is blocked immediately. Blocked connections generate Event ID `5839` — monitor for these after enforcement so you can catch anything you missed in Phase 3.
-
-### Step 4.2 — SMB Signing and NTLM Hardening
-
-Roll these GPOs out in rings. Don't push to all clients simultaneously.
-
-- **Ring 1:** IT / test machines
-- **Ring 2:** Member servers
-- **Ring 3:** All clients
-
-GPO settings to enforce:
-
-**`Microsoft network server: Digitally sign communications (always)`** → Enabled
-
-**`Network security: LAN Manager authentication level`** → Send NTLMv2 response only. Refuse LM & NTLM
-
-The LAN Manager setting is the one that surprises people. Anything still using plain NTLM or LM will break when you enforce this. That's why the discovery phase exists.
-
----
-
-## What this closes
-
-Done correctly, this playbook addresses:
-
-- Unencrypted Netlogon channel (pen test finding)
-- Zerologon attack surface (CVE-2020-1472 enforcement)
-- NTLM downgrade attack vectors
-- SMB relay opportunities on the internal network
-
-It also puts you in a much cleaner position for Entra ID migration — because the same legacy devices causing problems here will cause problems during hybrid join and Conditional Access rollout. You're finding them now instead of later.
-
----
-
-The script above is what I run before any enforcement conversation. If you're seeing 5838s you didn't expect, start there — the CSV usually tells you exactly what needs attention.
-25:["$","$L23","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$28"},"thumbnail":true,"direction":"column"}]
+25:["$","$L23","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$28"},"thumbnail":true,"direction":"column"}]
 26:["$","$L29",null,{}]
 27:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L2a",null,{"fitHeight":true}]}]
-2b:I[811052,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
-2c:I[362844,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
+2b:I[811052,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
+2c:I[362844,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
 1e:[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I've been building most of my personal projects with Claude Code for the past year. The tool works, but not in the way most people describe it. The narrative is usually \"just describe what you want and it builds it.\" That's not wrong, but it's missing the part where a bad description causes you to spend two hours steering the model away from the wrong implementation."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The shift that changed everything was treating AI as an analyst team, not a code generator."}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-planning-problem","children":"The planning problem"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Early on, I'd describe a feature and let Claude start coding immediately. Sometimes it went well. More often, I'd get 200 lines of code that solved the wrong problem — technically correct but not what I needed. Worse, fixing the direction mid-implementation is expensive. You've already loaded context, written partial code, maybe created files. Undoing that costs more than starting right."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The pattern I settled on: spend more time on the plan, less time on implementation. A well-scoped plan with clear constraints means near-zero steering during implementation. The model isn't smarter with a good plan, it's just pointed at the right target."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["My workflow now: ",["$","$L2c",null,{"children":"/plan"}]," → review and modify until it's right → auto-accept mode for implementation → ",["$","$L2c",null,{"children":"/simplify"}]," → ",["$","$L2c",null,{"children":"/verify"}]," → commit. The planning phase takes as long as it takes. Everything after it is fast."]}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-context-problem","children":"The context problem"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The second thing that broke early: context windows. You hit the limit mid-session, the model compacts, and suddenly it's lost track of decisions you made an hour ago. It suggests approaches you already ruled out. You repeat yourself. Progress slows."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I solved this with a 3-layer memory model."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Layer 1: Real-time context management."}]," A context-mode MCP server runs commands in isolated subprocesses and returns only summaries to the main context window. Running ",["$","$L2c",null,{"children":"bun test"}]," without this floods the window with output you don't need. With it, you get a two-line summary. This alone extended how long a focused session could run before things got noisy."]}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47"]
-48:I[436122,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
-49:I[626935,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
+48:I[436122,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
+49:I[626935,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
 2d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Layer 2: Per-session state."}]," Four markdown files per project, stored at ",["$","$L2c",null,{"children":"~/.claude/projects/<name>/"}],":"]}]
 2e:["$","$L48",null,{"as":"ul","children":["\n",["$","$L49",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","$L2c",null,{"children":"context-goals.md"}]," — what I'm working on right now (max 5 lines, rewritten when goals change)"]}],"\n",["$","$L49",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","$L2c",null,{"children":"context-decisions.md"}]," — architectural choices and why (permanent, never deleted)"]}],"\n",["$","$L49",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","$L2c",null,{"children":"context-progress.md"}]," — completed tasks and what's in flight (auto-trimmed to last 20)"]}],"\n",["$","$L49",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","$L2c",null,{"children":"context-gotchas.md"}]," — warnings, blockers, lessons (permanent, never deleted)"]}],"\n"]}]
 2f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"A pre-compaction hook assembles these into a summary that gets injected at the next session start. When I come back after a break, I'm not starting from scratch — the model knows where we left off, what decisions are locked in, and what to avoid."}]

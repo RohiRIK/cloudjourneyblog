@@ -1,25 +1,25 @@
 1:"$Sreact.fragment"
-2:I[778454,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
-3:I[273323,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
-4:I[479520,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
-5:I[624379,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
-6:I[145250,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
-7:I[398382,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
-8:I[811052,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
-3d:I[311451,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
-3e:I[362844,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
-3f:I[597784,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"CodeBlock"]
-41:I[436122,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
-42:I[626935,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
-43:I[448588,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
-44:I[992713,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
-45:I[89532,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
-46:I[814360,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
-49:I[988654,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
-4a:I[605649,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+2:I[778454,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
+3:I[273323,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
+4:I[479520,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
+5:I[624379,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
+6:I[145250,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
+7:I[398382,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
+8:I[811052,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
+3d:I[311451,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
+3e:I[362844,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
+3f:I[597784,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"CodeBlock"]
+41:I[436122,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
+42:I[626935,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
+43:I[448588,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
+44:I[992713,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
+45:I[89532,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
+46:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
+49:I[988654,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+4a:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
 4b:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 4c:"$Sreact.suspense"
-0:{"buildId":"SSYPrm1UYeOCurGuREOE4","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/netlogon-rpc-sealing-playbook","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/netlogon-rpc-sealing-playbook\",\"sameAs\":[],\"headline\":\"Netlogon RPC Sealing: The Full Hardening Playbook\",\"description\":\"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/netlogon-rpc-sealing-playbook.png\",\"datePublished\":\"2026-03-03\",\"dateModified\":\"2026-03-03\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 3, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Netlogon RPC Sealing: The Full Hardening Playbook"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/netlogon-rpc-sealing-playbook.png","alt":"Netlogon RPC Sealing: The Full Hardening Playbook","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"If you're preparing to migrate to Entra ID and a penetration test just flagged \"Netlogon not requiring RPC Sealing\" — this is how you close it properly."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-this-matters","children":"Why this matters"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Netlogon is the protocol domain-joined machines use to authenticate against Domain Controllers. Without RPC Sealing, that channel is unencrypted — a classic man-in-the-middle opportunity. Microsoft patched this with the Netlogon secure channel update (CVE-2020-1472 / Zerologon era), but enforcement is still opt-in. A lot of environments are patched but not enforced."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Before you flip enforcement on, you need to know what's still sending unencrypted traffic. That's the whole point of phases 1–3."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35"]}],"$L36","$L37","$L38","$L39"]}]}],"$L3a"]}],["$L3b"],"$L3c"]}],"loading":null,"isPartial":false}
+0:{"buildId":"gLmJt0JLUXB2LGcNFd08a","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/netlogon-rpc-sealing-playbook","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/netlogon-rpc-sealing-playbook\",\"sameAs\":[],\"headline\":\"Netlogon RPC Sealing: The Full Hardening Playbook\",\"description\":\"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/netlogon-rpc-sealing-playbook.png\",\"datePublished\":\"2026-03-03\",\"dateModified\":\"2026-03-03\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 3, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Netlogon RPC Sealing: The Full Hardening Playbook"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/netlogon-rpc-sealing-playbook.png","alt":"Netlogon RPC Sealing: The Full Hardening Playbook","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"If you're preparing to migrate to Entra ID and a penetration test just flagged \"Netlogon not requiring RPC Sealing\" — this is how you close it properly."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-this-matters","children":"Why this matters"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Netlogon is the protocol domain-joined machines use to authenticate against Domain Controllers. Without RPC Sealing, that channel is unencrypted — a classic man-in-the-middle opportunity. Microsoft patched this with the Netlogon secure channel update (CVE-2020-1472 / Zerologon era), but enforcement is still opt-in. A lot of environments are patched but not enforced."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Before you flip enforcement on, you need to know what's still sending unencrypted traffic. That's the whole point of phases 1–3."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35"]}],"$L36","$L37","$L38","$L39"]}]}],"$L3a"]}],["$L3b"],"$L3c"]}],"loading":null,"isPartial":false}
 9:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3d",null,{"maxWidth":"40"}]}]
 a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"phase-1-infrastructure-preparation","children":"Phase 1: Infrastructure Preparation"}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Target:"}]," All servers and endpoints — DCs, member servers, and clients."]}]
@@ -103,7 +103,91 @@ if ($AllEvents.Count -gt 0) {
 35:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The script above is what I run before any enforcement conversation. If you're seeing 5838s you didn't expect, start there — the CSV usually tells you exactly what needs attention."}]
 36:["$","$L43",null,{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","url":"https://CloudJourneyBlog.rohi-lab.org/blog/netlogon-rpc-sealing-playbook"}]
 37:["$","$L44",null,{}]
-47:T1f74,
+47:T1a15,
+The first version of my Claude Code config replaced the default (no memory) with a structured 4-file system: goals, decisions, progress, gotchas. Markdown files, hooks that read and write them, a summary injected at session start. It worked. For a few months.
+
+The problem with flat markdown files isn't that they fail — it's that they don't scale. After a few hundred entries across a dozen projects, you start noticing the cracks. Duplicate decisions. Gotchas that contradict each other because the older one was never updated. Progress logs that grow faster than they get trimmed. No way to ask "what do I know about Supabase" without reading every file.
+
+The v2 config replaces all of it with SQLite.
+
+## The shift to SQLite LTM
+
+The new system lives at `~/.claude/memory/ltm.db`. Every memory, decision, gotcha, and progress item is a row. Projects are foreign-keyed. Relationships between memories are edges in a separate table.
+
+The hook system still works the same way from the outside — SessionStart injects context, PreCompact writes a snapshot, UpdateContext logs progress. What changed is what's underneath. Instead of appending to markdown files and hoping the trimming logic holds, everything goes to SQLite with indexed columns, typed categories, and a schema that can actually evolve.
+
+The immediate win is queries. You can now run:
+
+```bash
+bun -e "
+  const { getItems } = await import(process.env.HOME + '/.claude/memory/context.js');
+  const gotchas = getItems('project-name', 'gotcha');
+  console.log(JSON.stringify(gotchas));
+"
+```
+
+And get back a filtered, structured list — not a blob of markdown you have to parse mentally.
+
+New commands that came with it: `/learn`, `/recall`, `/forget`, `/relate`, `/check-context`, `/init-context`. The ones I use constantly are `/recall` (before starting any non-trivial task — surface past decisions before making new ones) and `/learn` (mid-session when something important comes up that shouldn't be lost to compaction).
+
+## The Janitor agent
+
+The memory problem I didn't anticipate: memories go stale. A decision made in February about one project's architecture has nothing to do with March, but it stays in the DB forever unless someone removes it. Duplicates accumulate. A gotcha from an early attempt at something gets superseded by a better approach but both entries survive.
+
+The Janitor is an autonomous sub-agent that runs inside `memory/server.ts`. It has four stages:
+
+**Decay** — memories that haven't been used get a confidence score that degrades over time. Below a configurable threshold (default 0.2), they get archived. Not deleted — archived. You can review them.
+
+**Auto-promote** — when the UpdateContext hook writes a `decision` or `gotcha` context item, the Janitor elevates it to a global memory automatically. No manual `/learn` required for things that come out of normal workflow.
+
+**Semantic dedup** — each memory gets an embedding vector. The Janitor runs cosine similarity across them. Anything above 0.85 similarity is flagged as a potential duplicate, and an LLM proposes a merge. The merge goes to a pending queue — you approve or reject, nothing changes automatically.
+
+**Supersedes** — when memories are merged, the old ones get marked `superseded` with a `supersedes` edge in the relations table. The knowledge graph stays consistent.
+
+The part I like most: nothing the Janitor proposes takes effect without confirmation. It generates a queue of pending actions and surfaces them in a UI. You review, approve what makes sense, reject what doesn't. The agent maintains the memory system; you stay in control of what it actually does.
+
+## The graph visualizer
+
+The SQLite backend enabled something that wasn't possible with markdown files: a knowledge graph.
+
+`memory/server.ts` runs a Bun server on port 7331. `memory/graph-app/` is a Next.js app on 7332 that reads from it via WebSocket. What you see is a D3 force graph: project nodes, memory nodes, context item nodes, edges representing relationships.
+
+The layout is intentionally organic — link strength varies by relationship type. `context_of` links are loose (0.04), so context items float near their projects. `project_scope` links are tighter (0.25). Memory-to-memory relations are strong (0.6). The simulation converges and you can see clusters.
+
+Practically useful features:
+
+- **⌘K spotlight search** — FTS5-powered, keyboard navigable, zooms the graph to the matching node on select
+- **Tag filter panel** — click a tag to dim everything that doesn't match
+- **Project drill-down** — click any project node to get a dedicated page with all its context, memories, and relations
+- **Pending actions page** — the Janitor's propose queue, one click to approve or reject
+
+The graph makes something visible that was always there but invisible: what the model actually knows about your projects, how those memories relate, and where the gaps or stale entries are.
+
+## Multi-provider embeddings
+
+Semantic dedup and the `/recall` search need embeddings. The system now supports six providers: Gemini, OpenAI, Anthropic, Cohere, OpenRouter, Ollama.
+
+The settings UI at `/settings` lets you pick your embed provider, verify the API key inline (paste → spinner → green/red), and select from a dropdown of available models for that provider. It doesn't matter which you use for the embeddings — what matters is consistency, since vectors from different models aren't comparable.
+
+I run Ollama locally for embeddings. No API key, no cost, fast enough for the volume of memories a single developer accumulates.
+
+## What actually changed day-to-day
+
+The hooks look the same from the outside. Session starts, context is injected, work happens, progress is logged. The difference is what happens underneath and over time.
+
+With markdown files, the system degraded slowly. Files got messy. Duplicates crept in. The 20-item trim on progress.md was a blunt instrument. You never really knew what was in the DB unless you opened the files.
+
+With SQLite, the system improves over time. Memories that matter get used, have their confidence reinforced, and survive. Memories that stop being relevant decay. The Janitor surfaces what needs attention instead of letting stale data accumulate silently.
+
+The graph visualizer isn't something I use every session — but when I do open it, it answers questions that were previously unanswerable: "what have I decided about this project?", "is there a gotcha about this library I logged a month ago?", "why does this memory exist?"
+
+The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
+38:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L3d",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L45",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L46","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$47"},"thumbnail":true,"direction":"column"}],"$L48"]}]]}]
+39:["$","$L49",null,{}]
+3a:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L4a",null,{"fitHeight":true}]}]
+3b:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
+3c:["$","$L4b",null,{"children":["$","$4c",null,{"name":"Next.MetadataOutlet","children":"$@4d"}]}]
+4e:T1f74,
 The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?
 
 Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works.
@@ -188,116 +272,5 @@ But when the real problem is ongoing visibility — and when the solution needs 
 Building FleetWatch upfront was a harder conversation to have, but it was the right one. The client got a system that solves the problem they actually had — not the problem they knew how to articulate.
 
 The source is on GitHub at [RohiRIK/FleetWatch](https://github.com/RohiRIK/FleetWatch) if you want to see how it's put together.
-38:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L3d",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L45",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L46","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$47"},"thumbnail":true,"direction":"column"}],"$L48"]}]]}]
-39:["$","$L49",null,{}]
-3a:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L4a",null,{"fitHeight":true}]}]
-3b:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
-3c:["$","$L4b",null,{"children":["$","$4c",null,{"name":"Next.MetadataOutlet","children":"$@4d"}]}]
-4e:T2296,
-The default Claude Code installation does one thing poorly: it forgets everything. Every new session, you re-explain your stack, your preferences, the decisions you made last week. It compounds quickly on any project you're in for more than a few days.
-
-I spent a few months building a configuration layer on top of Claude Code that solves this. Here's what it does and how it works.
-
-## The memory problem
-
-Claude Code has no persistence by default. The context window holds your current session. When it compacts or you start a new one, that state is gone. You're not losing information in a database — you're losing it from the model's working memory.
-
-The fix isn't clever prompting. It's an explicit memory system with structured files and hooks that write to and read from those files automatically.
-
-## The 4-file context system
-
-Each project gets a directory at `~/.claude/projects/<name>/` with four files:
-
-**`context-goals.md`** — what I'm working on right now. Max 5 lines. Rewritten when the goal changes. Keeps the model from drifting into solving adjacent problems.
-
-**`context-decisions.md`** — architectural choices and why. Permanent, never deleted. If I decided to use Infisical instead of environment variables, that's in here with the reason. The model doesn't suggest what I've already ruled out.
-
-**`context-progress.md`** — completed tasks and what's in flight. Auto-trimmed to the last 20 items. Serves as a working log without growing unbounded.
-
-**`context-gotchas.md`** — warnings, blockers, and lessons. Also permanent. If something bit me once — a library quirk, an environment constraint, a mistake pattern — it lives here forever. The model reads it at session start and doesn't repeat the same mistakes.
-
-These files are plain markdown. They're updated manually after significant tasks, and automatically by hooks at session end.
-
-## The hooks
-
-Hooks are shell scripts or TypeScript files that Claude Code runs in response to lifecycle events. I have six:
-
-**SessionStart** — runs when a new session opens. Reads the project's context files and injects a summary (max 60 lines) as a system message. The model immediately knows what project it's in, what the current goal is, what decisions are locked, and what to avoid. No re-explaining needed.
-
-**PreCompact** — runs before Claude Code compacts the context window. Assembles all four context files into `context-summary.md` — a structured 60-line snapshot. This becomes what SessionStart injects next time. Without this, compaction destroys context. With it, compaction is just a checkpoint.
-
-**EvaluateSession** — runs when the session ends. Reads the transcript, extracts patterns — recurring mistakes, useful techniques, things that worked — and writes them to `~/.claude/skills/Learned/`. These are ephemeral: they roll off after a few sessions. For anything important enough to keep permanently, I promote it manually to `context-gotchas.md`.
-
-**SuggestCompact** — tracks a running count of tool calls per session. At 50, it suggests running `/compact`. This isn't mandatory, but the reminder is useful — context windows that run too long start producing lower-quality output.
-
-**UpdateContext** — PostToolUse hook that fires after Write, Edit, or MultiEdit operations. Logs modified files to context-progress and runs Prettier and tsc on changed files immediately. Type errors and formatting issues surface at edit time, not at build time.
-
-**Cleanup** — periodic maintenance. Trims context-progress.md to the last 20 items. Removes context directories for projects that haven't been touched in 30 days.
-
-## Skills and commands
-
-Skills are reusable prompts that expand into full instructions when invoked. I have these:
-
-**`/plan`** — invokes the planner agent before any implementation. Restates the requirement, breaks it into phases, identifies dependencies, flags risks. Produces a plan for review before any code is touched. I don't write code without running this first for anything non-trivial.
-
-**`/verify`** — runs a self-check loop: tsc → lint → tests → build, in order, stopping on first failure. The skill knows to skip steps that aren't configured for the project. Run before every commit.
-
-**`/simplify`** — post-implementation review. Looks at recently modified code for unnecessary abstraction, duplicated logic, or complexity that crept in during implementation. Runs after verify.
-
-**`/commit-push-pr`** — precomputes git context (status, diff, log, branch), generates a conventional commit message, stages relevant files, commits, and pushes. Skips the tedium of assembling git commands manually.
-
-**`/learn`** — manual trigger for pattern extraction. Same process as EvaluateSession but runs on demand mid-session when I want to capture something specific.
-
-**`/update-context`** — reads the current session and updates all four context files. Useful after completing a significant task when I want to flush progress immediately rather than waiting for the end-of-session hook.
-
-**`/tdd`** — enforces test-first workflow. Scaffolds the interface, writes the test, makes it fail, then implements the minimum code to pass. Blocks implementation until the test exists.
-
-**`/code-review`** — runs the code-reviewer agent on recently modified files. Returns severity-rated feedback: critical issues stop work, high issues get fixed, medium issues are noted.
-
-## Agents
-
-Agents are specialized sub-models with scoped roles. They run separately from the main session and have access to the codebase but only for their designated purpose.
-
-**planner** — for implementation planning. Doesn't write code. Only produces plans with phases, dependencies, and risk flags.
-
-**code-reviewer** — reviews code after it's written. Severity-based feedback. The reviewer doesn't have write access — it can't change files, only report.
-
-**security-reviewer** — OWASP Top 10 checks, secret detection, dependency auditing. Runs before commits on anything that touches auth, input handling, or external integrations.
-
-**tdd-guide** — enforces test-first. If I start implementing without a failing test, it redirects. Tracks coverage and flags when it drops below 80%.
-
-**architect** — for decisions that affect project structure. Invoked when I'm choosing between approaches that have lasting consequences, not for individual implementation decisions.
-
-**build-error-resolver** — when the build breaks, this agent diagnoses and makes the minimum change to get it green. Doesn't refactor, doesn't improve — just fixes the build.
-
-**refactor-cleaner** — dead code removal and consolidation. Runs tools like `knip` to find unused exports, then removes them. Used for maintenance, not mid-feature.
-
-The separation is intentional. A code reviewer that can also edit files is dangerous — it starts making "improvements" that weren't asked for. Each agent does one thing.
-
-## Global rules
-
-Rules are markdown files in `~/.claude/rules/` that load into every session. They cover:
-
-- **Coding style**: immutability-first (spread operators, never mutate), no `any` types, explicit return types on exports, functions under 50 lines
-- **Package manager**: bun not npm, uv not pip — enforced globally so I never get npm in a bun project
-- **Git workflow**: conventional commits (`feat|fix|refactor|docs|chore:`), no `Co-Authored-By` footers, PR descriptions that cover the full diff not just the latest commit
-- **Testing**: 80% minimum coverage, TDD workflow required for new features
-- **Security**: no hardcoded secrets, input validation at system boundaries only, rate limiting on all endpoints
-
-The model reads these rules at every session start. They're not suggestions — they're constraints that get checked during code review and verify.
-
-## What this actually changes day-to-day
-
-The memory system means I can leave a project for a week and come back without a re-orientation session. The model knows where I left off, what I decided, and what's broken.
-
-The hooks mean formatting and type errors surface immediately. I don't batch-discover problems at commit time.
-
-The agents mean review happens as a matter of course. I'm not remembering to run security checks — they're part of the workflow for anything touching auth or external data.
-
-The skills mean the repetitive parts (planning, verifying, committing) have consistent execution. I don't skip `/verify` because it's convenient — the skill is right there and running it takes two seconds.
-
-None of this is magic. It's structured configuration that enforces a workflow I decided I wanted. The alternative is relying on memory and discipline to apply that workflow manually every time. That doesn't scale.
-
-The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
-48:["$","$L46","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$4e"},"thumbnail":true,"direction":"column"}]
+48:["$","$L46","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$4e"},"thumbnail":true,"direction":"column"}]
 4d:null

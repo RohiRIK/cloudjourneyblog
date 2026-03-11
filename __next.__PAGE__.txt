@@ -1,19 +1,99 @@
 1:"$Sreact.fragment"
-2:I[273323,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Column"]
-3:I[479520,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],""]
-4:I[621971,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"RevealFx"]
-5:I[117899,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Badge"]
-6:I[778454,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Row"]
-7:I[311451,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Line"]
-8:I[691722,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Button"]
-9:I[145250,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Avatar"]
-a:I[89532,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
-b:I[814360,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
-16:I[474855,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ProjectCard"]
-1b:I[303847,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Mailchimp"]
+2:I[273323,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Column"]
+3:I[479520,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],""]
+4:I[621971,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"RevealFx"]
+5:I[117899,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Badge"]
+6:I[778454,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Row"]
+7:I[311451,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Line"]
+8:I[691722,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Button"]
+9:I[145250,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Avatar"]
+a:I[89532,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
+b:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
+16:I[474855,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ProjectCard"]
+1b:I[303847,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Mailchimp"]
 1c:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 1d:"$Sreact.suspense"
-c:T1f74,
+c:T1a15,
+The first version of my Claude Code config replaced the default (no memory) with a structured 4-file system: goals, decisions, progress, gotchas. Markdown files, hooks that read and write them, a summary injected at session start. It worked. For a few months.
+
+The problem with flat markdown files isn't that they fail — it's that they don't scale. After a few hundred entries across a dozen projects, you start noticing the cracks. Duplicate decisions. Gotchas that contradict each other because the older one was never updated. Progress logs that grow faster than they get trimmed. No way to ask "what do I know about Supabase" without reading every file.
+
+The v2 config replaces all of it with SQLite.
+
+## The shift to SQLite LTM
+
+The new system lives at `~/.claude/memory/ltm.db`. Every memory, decision, gotcha, and progress item is a row. Projects are foreign-keyed. Relationships between memories are edges in a separate table.
+
+The hook system still works the same way from the outside — SessionStart injects context, PreCompact writes a snapshot, UpdateContext logs progress. What changed is what's underneath. Instead of appending to markdown files and hoping the trimming logic holds, everything goes to SQLite with indexed columns, typed categories, and a schema that can actually evolve.
+
+The immediate win is queries. You can now run:
+
+```bash
+bun -e "
+  const { getItems } = await import(process.env.HOME + '/.claude/memory/context.js');
+  const gotchas = getItems('project-name', 'gotcha');
+  console.log(JSON.stringify(gotchas));
+"
+```
+
+And get back a filtered, structured list — not a blob of markdown you have to parse mentally.
+
+New commands that came with it: `/learn`, `/recall`, `/forget`, `/relate`, `/check-context`, `/init-context`. The ones I use constantly are `/recall` (before starting any non-trivial task — surface past decisions before making new ones) and `/learn` (mid-session when something important comes up that shouldn't be lost to compaction).
+
+## The Janitor agent
+
+The memory problem I didn't anticipate: memories go stale. A decision made in February about one project's architecture has nothing to do with March, but it stays in the DB forever unless someone removes it. Duplicates accumulate. A gotcha from an early attempt at something gets superseded by a better approach but both entries survive.
+
+The Janitor is an autonomous sub-agent that runs inside `memory/server.ts`. It has four stages:
+
+**Decay** — memories that haven't been used get a confidence score that degrades over time. Below a configurable threshold (default 0.2), they get archived. Not deleted — archived. You can review them.
+
+**Auto-promote** — when the UpdateContext hook writes a `decision` or `gotcha` context item, the Janitor elevates it to a global memory automatically. No manual `/learn` required for things that come out of normal workflow.
+
+**Semantic dedup** — each memory gets an embedding vector. The Janitor runs cosine similarity across them. Anything above 0.85 similarity is flagged as a potential duplicate, and an LLM proposes a merge. The merge goes to a pending queue — you approve or reject, nothing changes automatically.
+
+**Supersedes** — when memories are merged, the old ones get marked `superseded` with a `supersedes` edge in the relations table. The knowledge graph stays consistent.
+
+The part I like most: nothing the Janitor proposes takes effect without confirmation. It generates a queue of pending actions and surfaces them in a UI. You review, approve what makes sense, reject what doesn't. The agent maintains the memory system; you stay in control of what it actually does.
+
+## The graph visualizer
+
+The SQLite backend enabled something that wasn't possible with markdown files: a knowledge graph.
+
+`memory/server.ts` runs a Bun server on port 7331. `memory/graph-app/` is a Next.js app on 7332 that reads from it via WebSocket. What you see is a D3 force graph: project nodes, memory nodes, context item nodes, edges representing relationships.
+
+The layout is intentionally organic — link strength varies by relationship type. `context_of` links are loose (0.04), so context items float near their projects. `project_scope` links are tighter (0.25). Memory-to-memory relations are strong (0.6). The simulation converges and you can see clusters.
+
+Practically useful features:
+
+- **⌘K spotlight search** — FTS5-powered, keyboard navigable, zooms the graph to the matching node on select
+- **Tag filter panel** — click a tag to dim everything that doesn't match
+- **Project drill-down** — click any project node to get a dedicated page with all its context, memories, and relations
+- **Pending actions page** — the Janitor's propose queue, one click to approve or reject
+
+The graph makes something visible that was always there but invisible: what the model actually knows about your projects, how those memories relate, and where the gaps or stale entries are.
+
+## Multi-provider embeddings
+
+Semantic dedup and the `/recall` search need embeddings. The system now supports six providers: Gemini, OpenAI, Anthropic, Cohere, OpenRouter, Ollama.
+
+The settings UI at `/settings` lets you pick your embed provider, verify the API key inline (paste → spinner → green/red), and select from a dropdown of available models for that provider. It doesn't matter which you use for the embeddings — what matters is consistency, since vectors from different models aren't comparable.
+
+I run Ollama locally for embeddings. No API key, no cost, fast enough for the volume of memories a single developer accumulates.
+
+## What actually changed day-to-day
+
+The hooks look the same from the outside. Session starts, context is injected, work happens, progress is logged. The difference is what happens underneath and over time.
+
+With markdown files, the system degraded slowly. Files got messy. Duplicates crept in. The 20-item trim on progress.md was a blunt instrument. You never really knew what was in the DB unless you opened the files.
+
+With SQLite, the system improves over time. Memories that matter get used, have their confidence reinforced, and survive. Memories that stop being relevant decay. The Janitor surfaces what needs attention instead of letting stale data accumulate silently.
+
+The graph visualizer isn't something I use every session — but when I do open it, it answers questions that were previously unanswerable: "what have I decided about this project?", "is there a gotcha about this library I logged a month ago?", "why does this memory exist?"
+
+The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
+0:{"buildId":"gLmJt0JLUXB2LGcNFd08a","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L4",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L5",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/project-aegis","children":["$","$L6",null,{"paddingY":"2","children":["$","$L6",null,{"gap":"12","vertical":"center","children":[["$","strong",null,{"className":"ml-4","children":"Project Aegis"}]," ",["$","$L7",null,{"background":"brand-alpha-strong","vert":true,"height":"20"}],["$","span",null,{"className":"brand-on-background-medium mr-4","style":{},"children":"Featured project"}]]}]}]}]}],["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L6",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L8",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L6",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L7",null,{"maxWidth":48}]}],["$","$L6",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L6",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Latest writing"}]}],["$","$L6",null,{"flex":3,"paddingX":"20","children":["$","$La",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$Lb","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$c"},"thumbnail":false}],"$Ld","$Le"]}]}]]}],"$Lf"]}],"$L10","$L11"]}],["$L12"],"$L13"]}],"loading":null,"isPartial":false}
+14:T1f74,
 The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?
 
 Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works.
@@ -98,8 +178,8 @@ But when the real problem is ongoing visibility — and when the solution needs 
 Building FleetWatch upfront was a harder conversation to have, but it was the right one. The client got a system that solves the problem they actually had — not the problem they knew how to articulate.
 
 The source is on GitHub at [RohiRIK/FleetWatch](https://github.com/RohiRIK/FleetWatch) if you want to see how it's put together.
-0:{"buildId":"SSYPrm1UYeOCurGuREOE4","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L4",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L5",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/project-aegis","children":["$","$L6",null,{"paddingY":"2","children":["$","$L6",null,{"gap":"12","vertical":"center","children":[["$","strong",null,{"className":"ml-4","children":"Project Aegis"}]," ",["$","$L7",null,{"background":"brand-alpha-strong","vert":true,"height":"20"}],["$","span",null,{"className":"brand-on-background-medium mr-4","style":{},"children":"Featured project"}]]}]}]}]}],["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L6",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L8",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L6",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L7",null,{"maxWidth":48}]}],["$","$L6",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L6",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Latest writing"}]}],["$","$L6",null,{"flex":3,"paddingX":"20","children":["$","$La",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$Lb","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$c"},"thumbnail":false}],"$Ld","$Le"]}]}]]}],"$Lf"]}],"$L10","$L11"]}],["$L12"],"$L13"]}],"loading":null,"isPartial":false}
-14:T19b0,
+d:["$","$Lb","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$14"},"thumbnail":false}]
+15:T19b0,
 If you're preparing to migrate to Entra ID and a penetration test just flagged "Netlogon not requiring RPC Sealing" — this is how you close it properly.
 
 This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you.
@@ -249,114 +329,7 @@ It also puts you in a much cleaner position for Entra ID migration — because t
 ---
 
 The script above is what I run before any enforcement conversation. If you're seeing 5838s you didn't expect, start there — the CSV usually tells you exactly what needs attention.
-d:["$","$Lb","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$14"},"thumbnail":false}]
-15:T2296,
-The default Claude Code installation does one thing poorly: it forgets everything. Every new session, you re-explain your stack, your preferences, the decisions you made last week. It compounds quickly on any project you're in for more than a few days.
-
-I spent a few months building a configuration layer on top of Claude Code that solves this. Here's what it does and how it works.
-
-## The memory problem
-
-Claude Code has no persistence by default. The context window holds your current session. When it compacts or you start a new one, that state is gone. You're not losing information in a database — you're losing it from the model's working memory.
-
-The fix isn't clever prompting. It's an explicit memory system with structured files and hooks that write to and read from those files automatically.
-
-## The 4-file context system
-
-Each project gets a directory at `~/.claude/projects/<name>/` with four files:
-
-**`context-goals.md`** — what I'm working on right now. Max 5 lines. Rewritten when the goal changes. Keeps the model from drifting into solving adjacent problems.
-
-**`context-decisions.md`** — architectural choices and why. Permanent, never deleted. If I decided to use Infisical instead of environment variables, that's in here with the reason. The model doesn't suggest what I've already ruled out.
-
-**`context-progress.md`** — completed tasks and what's in flight. Auto-trimmed to the last 20 items. Serves as a working log without growing unbounded.
-
-**`context-gotchas.md`** — warnings, blockers, and lessons. Also permanent. If something bit me once — a library quirk, an environment constraint, a mistake pattern — it lives here forever. The model reads it at session start and doesn't repeat the same mistakes.
-
-These files are plain markdown. They're updated manually after significant tasks, and automatically by hooks at session end.
-
-## The hooks
-
-Hooks are shell scripts or TypeScript files that Claude Code runs in response to lifecycle events. I have six:
-
-**SessionStart** — runs when a new session opens. Reads the project's context files and injects a summary (max 60 lines) as a system message. The model immediately knows what project it's in, what the current goal is, what decisions are locked, and what to avoid. No re-explaining needed.
-
-**PreCompact** — runs before Claude Code compacts the context window. Assembles all four context files into `context-summary.md` — a structured 60-line snapshot. This becomes what SessionStart injects next time. Without this, compaction destroys context. With it, compaction is just a checkpoint.
-
-**EvaluateSession** — runs when the session ends. Reads the transcript, extracts patterns — recurring mistakes, useful techniques, things that worked — and writes them to `~/.claude/skills/Learned/`. These are ephemeral: they roll off after a few sessions. For anything important enough to keep permanently, I promote it manually to `context-gotchas.md`.
-
-**SuggestCompact** — tracks a running count of tool calls per session. At 50, it suggests running `/compact`. This isn't mandatory, but the reminder is useful — context windows that run too long start producing lower-quality output.
-
-**UpdateContext** — PostToolUse hook that fires after Write, Edit, or MultiEdit operations. Logs modified files to context-progress and runs Prettier and tsc on changed files immediately. Type errors and formatting issues surface at edit time, not at build time.
-
-**Cleanup** — periodic maintenance. Trims context-progress.md to the last 20 items. Removes context directories for projects that haven't been touched in 30 days.
-
-## Skills and commands
-
-Skills are reusable prompts that expand into full instructions when invoked. I have these:
-
-**`/plan`** — invokes the planner agent before any implementation. Restates the requirement, breaks it into phases, identifies dependencies, flags risks. Produces a plan for review before any code is touched. I don't write code without running this first for anything non-trivial.
-
-**`/verify`** — runs a self-check loop: tsc → lint → tests → build, in order, stopping on first failure. The skill knows to skip steps that aren't configured for the project. Run before every commit.
-
-**`/simplify`** — post-implementation review. Looks at recently modified code for unnecessary abstraction, duplicated logic, or complexity that crept in during implementation. Runs after verify.
-
-**`/commit-push-pr`** — precomputes git context (status, diff, log, branch), generates a conventional commit message, stages relevant files, commits, and pushes. Skips the tedium of assembling git commands manually.
-
-**`/learn`** — manual trigger for pattern extraction. Same process as EvaluateSession but runs on demand mid-session when I want to capture something specific.
-
-**`/update-context`** — reads the current session and updates all four context files. Useful after completing a significant task when I want to flush progress immediately rather than waiting for the end-of-session hook.
-
-**`/tdd`** — enforces test-first workflow. Scaffolds the interface, writes the test, makes it fail, then implements the minimum code to pass. Blocks implementation until the test exists.
-
-**`/code-review`** — runs the code-reviewer agent on recently modified files. Returns severity-rated feedback: critical issues stop work, high issues get fixed, medium issues are noted.
-
-## Agents
-
-Agents are specialized sub-models with scoped roles. They run separately from the main session and have access to the codebase but only for their designated purpose.
-
-**planner** — for implementation planning. Doesn't write code. Only produces plans with phases, dependencies, and risk flags.
-
-**code-reviewer** — reviews code after it's written. Severity-based feedback. The reviewer doesn't have write access — it can't change files, only report.
-
-**security-reviewer** — OWASP Top 10 checks, secret detection, dependency auditing. Runs before commits on anything that touches auth, input handling, or external integrations.
-
-**tdd-guide** — enforces test-first. If I start implementing without a failing test, it redirects. Tracks coverage and flags when it drops below 80%.
-
-**architect** — for decisions that affect project structure. Invoked when I'm choosing between approaches that have lasting consequences, not for individual implementation decisions.
-
-**build-error-resolver** — when the build breaks, this agent diagnoses and makes the minimum change to get it green. Doesn't refactor, doesn't improve — just fixes the build.
-
-**refactor-cleaner** — dead code removal and consolidation. Runs tools like `knip` to find unused exports, then removes them. Used for maintenance, not mid-feature.
-
-The separation is intentional. A code reviewer that can also edit files is dangerous — it starts making "improvements" that weren't asked for. Each agent does one thing.
-
-## Global rules
-
-Rules are markdown files in `~/.claude/rules/` that load into every session. They cover:
-
-- **Coding style**: immutability-first (spread operators, never mutate), no `any` types, explicit return types on exports, functions under 50 lines
-- **Package manager**: bun not npm, uv not pip — enforced globally so I never get npm in a bun project
-- **Git workflow**: conventional commits (`feat|fix|refactor|docs|chore:`), no `Co-Authored-By` footers, PR descriptions that cover the full diff not just the latest commit
-- **Testing**: 80% minimum coverage, TDD workflow required for new features
-- **Security**: no hardcoded secrets, input validation at system boundaries only, rate limiting on all endpoints
-
-The model reads these rules at every session start. They're not suggestions — they're constraints that get checked during code review and verify.
-
-## What this actually changes day-to-day
-
-The memory system means I can leave a project for a week and come back without a re-orientation session. The model knows where I left off, what I decided, and what's broken.
-
-The hooks mean formatting and type errors surface immediately. I don't batch-discover problems at commit time.
-
-The agents mean review happens as a matter of course. I'm not remembering to run security checks — they're part of the workflow for anything touching auth or external data.
-
-The skills mean the repetitive parts (planning, verifying, committing) have consistent execution. I don't skip `/verify` because it's convenient — the skill is right there and running it takes two seconds.
-
-None of this is magic. It's structured configuration that enforces a workflow I decided I wanted. The alternative is relying on memory and discipline to apply that workflow manually every time. That doesn't scale.
-
-The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
-e:["$","$Lb","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$15"},"thumbnail":false}]
+e:["$","$Lb","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$15"},"thumbnail":false}]
 f:["$","$L6",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$L7",null,{"maxWidth":48}]}]
 17:T10a2,
 ## What it is

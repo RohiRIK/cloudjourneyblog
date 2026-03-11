@@ -1,23 +1,23 @@
 1:"$Sreact.fragment"
-2:I[778454,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
-3:I[273323,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
-4:I[479520,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
-5:I[624379,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
-6:I[145250,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
-7:I[398382,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
-8:I[811052,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
-28:I[436122,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
-29:I[626935,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
-2a:I[311451,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
-2b:I[448588,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
-2c:I[992713,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
-2d:I[89532,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
-2e:I[814360,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
-31:I[988654,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
-32:I[605649,["/_next/static/chunks/e7db3d784b2d87a5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b7eb314575c07c5e.js","/_next/static/chunks/720d3f3cc420c663.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+2:I[778454,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
+3:I[273323,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
+4:I[479520,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
+5:I[624379,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
+6:I[145250,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
+7:I[398382,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
+8:I[811052,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
+28:I[436122,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
+29:I[626935,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
+2a:I[311451,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
+2b:I[448588,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
+2c:I[992713,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
+2d:I[89532,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
+2e:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
+31:I[988654,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+32:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
 33:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 34:"$Sreact.suspense"
-0:{"buildId":"SSYPrm1UYeOCurGuREOE4","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/identity-first-security","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/identity-first-security\",\"sameAs\":[],\"headline\":\"Identity-First Security\",\"description\":\"The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/identity-first-security.png\",\"datePublished\":\"2026-01-28\",\"dateModified\":\"2026-01-28\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"January 28, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Identity-First Security"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/identity-first-security.png","alt":"Identity-First Security","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"There's a version of security that's built around the network. The idea is: defend the boundary, and everything inside is safe. Keep attackers out with firewalls, VPNs, intrusion detection. Trust the inside."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"That model has been broken for a long time. Cloud services, remote work, SaaS, third-party integrations — the \"inside\" isn't a coherent concept anymore. Your users are authenticating from coffee shops. Your apps are in Azure. Your data is in SharePoint and Salesforce and a dozen other places. There's no perimeter to defend."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"What's left is identity. And identity-first security is what it sounds like: rebuild your controls around who is authenticating, rather than where they're connecting from."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-identity-first-means-operationally","children":"What identity-first means operationally"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The mental model shift is from \"is this request coming from our network?\" to \"is this principal authorized to take this action, given what I know about them right now?\""}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20"]}],"$L21","$L22","$L23","$L24"]}]}],"$L25"]}],["$L26"],"$L27"]}],"loading":null,"isPartial":false}
+0:{"buildId":"gLmJt0JLUXB2LGcNFd08a","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/identity-first-security","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/identity-first-security\",\"sameAs\":[],\"headline\":\"Identity-First Security\",\"description\":\"The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/identity-first-security.png\",\"datePublished\":\"2026-01-28\",\"dateModified\":\"2026-01-28\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"January 28, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Identity-First Security"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/identity-first-security.png","alt":"Identity-First Security","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"There's a version of security that's built around the network. The idea is: defend the boundary, and everything inside is safe. Keep attackers out with firewalls, VPNs, intrusion detection. Trust the inside."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"That model has been broken for a long time. Cloud services, remote work, SaaS, third-party integrations — the \"inside\" isn't a coherent concept anymore. Your users are authenticating from coffee shops. Your apps are in Azure. Your data is in SharePoint and Salesforce and a dozen other places. There's no perimeter to defend."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"What's left is identity. And identity-first security is what it sounds like: rebuild your controls around who is authenticating, rather than where they're connecting from."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-identity-first-means-operationally","children":"What identity-first means operationally"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The mental model shift is from \"is this request coming from our network?\" to \"is this principal authorized to take this action, given what I know about them right now?\""}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20"]}],"$L21","$L22","$L23","$L24"]}]}],"$L25"]}],["$L26"],"$L27"]}],"loading":null,"isPartial":false}
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"That second question is more complex, but it's the right question. It considers:"}]
 a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Authentication strength."}]," Is this a password? A TOTP code? A FIDO2 hardware key? Phishing-resistant MFA is different from SMS MFA, which is different from a password. Access to sensitive resources should require authentication strength proportional to their sensitivity."]}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Identity assurance."}]," Is this account in good standing? Has it shown anomalous behavior recently? Entra ID Protection gives you risk scores based on behavioral signals — leaked credentials, impossible travel, atypical location. A user with elevated risk should face stepped-up authentication or blocking, not the same access they'd get on a normal day."]}]
@@ -44,7 +44,91 @@ f:["$","span",null,{"className":"font-body font-default font-m neutral-on-backgr
 20:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Last post in this series will be practical: what a Zero Trust rollout actually looks like in a mid-size organization, what to do first, and where the first six months usually go wrong."}]
 21:["$","$L2b",null,{"title":"Identity-First Security","url":"https://CloudJourneyBlog.rohi-lab.org/blog/identity-first-security"}]
 22:["$","$L2c",null,{}]
-2f:T1f74,
+2f:T1a15,
+The first version of my Claude Code config replaced the default (no memory) with a structured 4-file system: goals, decisions, progress, gotchas. Markdown files, hooks that read and write them, a summary injected at session start. It worked. For a few months.
+
+The problem with flat markdown files isn't that they fail — it's that they don't scale. After a few hundred entries across a dozen projects, you start noticing the cracks. Duplicate decisions. Gotchas that contradict each other because the older one was never updated. Progress logs that grow faster than they get trimmed. No way to ask "what do I know about Supabase" without reading every file.
+
+The v2 config replaces all of it with SQLite.
+
+## The shift to SQLite LTM
+
+The new system lives at `~/.claude/memory/ltm.db`. Every memory, decision, gotcha, and progress item is a row. Projects are foreign-keyed. Relationships between memories are edges in a separate table.
+
+The hook system still works the same way from the outside — SessionStart injects context, PreCompact writes a snapshot, UpdateContext logs progress. What changed is what's underneath. Instead of appending to markdown files and hoping the trimming logic holds, everything goes to SQLite with indexed columns, typed categories, and a schema that can actually evolve.
+
+The immediate win is queries. You can now run:
+
+```bash
+bun -e "
+  const { getItems } = await import(process.env.HOME + '/.claude/memory/context.js');
+  const gotchas = getItems('project-name', 'gotcha');
+  console.log(JSON.stringify(gotchas));
+"
+```
+
+And get back a filtered, structured list — not a blob of markdown you have to parse mentally.
+
+New commands that came with it: `/learn`, `/recall`, `/forget`, `/relate`, `/check-context`, `/init-context`. The ones I use constantly are `/recall` (before starting any non-trivial task — surface past decisions before making new ones) and `/learn` (mid-session when something important comes up that shouldn't be lost to compaction).
+
+## The Janitor agent
+
+The memory problem I didn't anticipate: memories go stale. A decision made in February about one project's architecture has nothing to do with March, but it stays in the DB forever unless someone removes it. Duplicates accumulate. A gotcha from an early attempt at something gets superseded by a better approach but both entries survive.
+
+The Janitor is an autonomous sub-agent that runs inside `memory/server.ts`. It has four stages:
+
+**Decay** — memories that haven't been used get a confidence score that degrades over time. Below a configurable threshold (default 0.2), they get archived. Not deleted — archived. You can review them.
+
+**Auto-promote** — when the UpdateContext hook writes a `decision` or `gotcha` context item, the Janitor elevates it to a global memory automatically. No manual `/learn` required for things that come out of normal workflow.
+
+**Semantic dedup** — each memory gets an embedding vector. The Janitor runs cosine similarity across them. Anything above 0.85 similarity is flagged as a potential duplicate, and an LLM proposes a merge. The merge goes to a pending queue — you approve or reject, nothing changes automatically.
+
+**Supersedes** — when memories are merged, the old ones get marked `superseded` with a `supersedes` edge in the relations table. The knowledge graph stays consistent.
+
+The part I like most: nothing the Janitor proposes takes effect without confirmation. It generates a queue of pending actions and surfaces them in a UI. You review, approve what makes sense, reject what doesn't. The agent maintains the memory system; you stay in control of what it actually does.
+
+## The graph visualizer
+
+The SQLite backend enabled something that wasn't possible with markdown files: a knowledge graph.
+
+`memory/server.ts` runs a Bun server on port 7331. `memory/graph-app/` is a Next.js app on 7332 that reads from it via WebSocket. What you see is a D3 force graph: project nodes, memory nodes, context item nodes, edges representing relationships.
+
+The layout is intentionally organic — link strength varies by relationship type. `context_of` links are loose (0.04), so context items float near their projects. `project_scope` links are tighter (0.25). Memory-to-memory relations are strong (0.6). The simulation converges and you can see clusters.
+
+Practically useful features:
+
+- **⌘K spotlight search** — FTS5-powered, keyboard navigable, zooms the graph to the matching node on select
+- **Tag filter panel** — click a tag to dim everything that doesn't match
+- **Project drill-down** — click any project node to get a dedicated page with all its context, memories, and relations
+- **Pending actions page** — the Janitor's propose queue, one click to approve or reject
+
+The graph makes something visible that was always there but invisible: what the model actually knows about your projects, how those memories relate, and where the gaps or stale entries are.
+
+## Multi-provider embeddings
+
+Semantic dedup and the `/recall` search need embeddings. The system now supports six providers: Gemini, OpenAI, Anthropic, Cohere, OpenRouter, Ollama.
+
+The settings UI at `/settings` lets you pick your embed provider, verify the API key inline (paste → spinner → green/red), and select from a dropdown of available models for that provider. It doesn't matter which you use for the embeddings — what matters is consistency, since vectors from different models aren't comparable.
+
+I run Ollama locally for embeddings. No API key, no cost, fast enough for the volume of memories a single developer accumulates.
+
+## What actually changed day-to-day
+
+The hooks look the same from the outside. Session starts, context is injected, work happens, progress is logged. The difference is what happens underneath and over time.
+
+With markdown files, the system degraded slowly. Files got messy. Duplicates crept in. The 20-item trim on progress.md was a blunt instrument. You never really knew what was in the DB unless you opened the files.
+
+With SQLite, the system improves over time. Memories that matter get used, have their confidence reinforced, and survive. Memories that stop being relevant decay. The Janitor surfaces what needs attention instead of letting stale data accumulate silently.
+
+The graph visualizer isn't something I use every session — but when I do open it, it answers questions that were previously unanswerable: "what have I decided about this project?", "is there a gotcha about this library I logged a month ago?", "why does this memory exist?"
+
+The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
+23:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L2a",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L2d",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2e","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$2f"},"thumbnail":true,"direction":"column"}],"$L30"]}]]}]
+24:["$","$L31",null,{}]
+25:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L32",null,{"fitHeight":true}]}]
+26:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
+27:["$","$L33",null,{"children":["$","$34",null,{"name":"Next.MetadataOutlet","children":"$@35"}]}]
+36:T1f74,
 The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?
 
 Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works.
@@ -129,160 +213,5 @@ But when the real problem is ongoing visibility — and when the solution needs 
 Building FleetWatch upfront was a harder conversation to have, but it was the right one. The client got a system that solves the problem they actually had — not the problem they knew how to articulate.
 
 The source is on GitHub at [RohiRIK/FleetWatch](https://github.com/RohiRIK/FleetWatch) if you want to see how it's put together.
-23:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L2a",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L2d",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2e","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$2f"},"thumbnail":true,"direction":"column"}],"$L30"]}]]}]
-24:["$","$L31",null,{}]
-25:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L32",null,{"fitHeight":true}]}]
-26:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
-27:["$","$L33",null,{"children":["$","$34",null,{"name":"Next.MetadataOutlet","children":"$@35"}]}]
-36:T19b0,
-If you're preparing to migrate to Entra ID and a penetration test just flagged "Netlogon not requiring RPC Sealing" — this is how you close it properly.
-
-This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you.
-
-## Why this matters
-
-Netlogon is the protocol domain-joined machines use to authenticate against Domain Controllers. Without RPC Sealing, that channel is unencrypted — a classic man-in-the-middle opportunity. Microsoft patched this with the Netlogon secure channel update (CVE-2020-1472 / Zerologon era), but enforcement is still opt-in. A lot of environments are patched but not enforced.
-
-Before you flip enforcement on, you need to know what's still sending unencrypted traffic. That's the whole point of phases 1–3.
-
----
-
-## Phase 1: Infrastructure Preparation
-
-**Target:** All servers and endpoints — DCs, member servers, and clients.
-
-Before any enforcement, the OS must actually support the RPC Sealing protocol. If you patch only your DCs and leave member servers behind, those servers will fail to authenticate once you enforce.
-
-**Action:** Deploy the latest Cumulative Updates. Specifically confirm KB5062600 / KB5021130 are installed. Reboot everything. Check that OS builds are current across the board.
-
-This phase is boring. Do it anyway.
-
----
-
-## Phase 2: Discovery (The Listening Phase)
-
-**Target:** Domain Controllers only.
-
-At this stage, DCs are capable of RPC Sealing but won't block anything yet. They will, however, log every non-compliant connection. That's exactly what you want.
-
-### Step 1 — MDI Reports
-
-Open Microsoft Defender for Identity. Pull the **"Weak Ciphers"** and **"NTLM Authentication"** reports. These give you a fast visual map of legacy devices: old NAS boxes, third-party applications, Linux/Samba servers, network appliances that predate NTLMv2.
-
-### Step 2 — PowerShell Event Log Query
-
-Event ID `5838` = connection attempted without sealing. Event ID `5840` = connection using weak cryptography. You want to find every machine generating these events across all your DCs.
-
-```powershell
-# Create a temp folder for the report
-$Path = "C:\temp"
-If (!(Test-Path $Path)) { New-Item -ItemType Directory -Force -Path $Path }
-
-# Get all Domain Controllers in the domain
-$DCs = Get-ADDomainController -Filter * | Select-Object -ExpandProperty Hostname
-
-$EventIDs = @(5838, 5840)
-$AllEvents = @()
-
-foreach ($DC in $DCs) {
-    Write-Host "Querying logs on DC: $DC..." -ForegroundColor Cyan
-    try {
-        $Events = Get-WinEvent -ComputerName $DC -FilterHashtable @{LogName='System'; ID=$EventIDs} -ErrorAction Stop
-
-        foreach ($Event in $Events) {
-            $AllEvents += [PSCustomObject]@{
-                DomainController = $DC
-                TimeCreated      = $Event.TimeCreated
-                EventID          = $Event.Id
-                Message          = $Event.Message.Split("`n")[0]
-            }
-        }
-    } catch {
-        Write-Warning "No matching events found on $DC, or access was denied."
-    }
-}
-
-# Export results
-if ($AllEvents.Count -gt 0) {
-    $ExportPath = "$Path\Netlogon_Vulnerable_Traffic.csv"
-    $AllEvents | Export-Csv -Path $ExportPath -NoTypeInformation -Encoding UTF8
-    Write-Host "Done! Found vulnerable traffic. Report saved to: $ExportPath" -ForegroundColor Yellow
-} else {
-    Write-Host "Excellent! No vulnerable Netlogon traffic detected across any DCs." -ForegroundColor Green
-}
-```
-
-Run this against all DCs. You'll get a CSV with timestamps, the DC that logged each event, and the message. That CSV is your remediation backlog.
-
----
-
-## Phase 3: Remediation (The Go/No-Go Gate)
-
-**Target:** Specific assets identified in Phase 2.
-
-This is where most projects stall. The CSV output usually surfaces a few categories:
-
-- **Legacy printers and scanners** — firmware update or replace
-- **Third-party applications** — vendor update or configuration change
-- **Linux/Samba servers** — update Samba and configure `client use spnego = yes`, `ntlm auth = no`
-- **Network appliances** — firmware update; sometimes the only option is replacement
-
-Work through each one. If something genuinely cannot be updated, you document why and decide whether a temporary exception is acceptable. In my experience, "we can't update it" is usually "we haven't tried hard enough yet."
-
-**The gate condition:** Run the discovery script again after remediation. You must see **zero new 5838 or 5840 events across all DCs for at least a few days** before moving to Phase 4. Not fewer events — zero.
-
----
-
-## Phase 4: Enforcement & Hardening
-
-**Target:** DCs for Netlogon; all servers and clients for SMB/NTLM.
-
-Only run this phase when Phase 3 is clean.
-
-### Step 4.1 — Enforce RPC Sealing on DCs
-
-Deploy via GPO targeting the Domain Controllers OU, or set the registry key directly via PowerShell:
-
-```
-Path:  HKLM\System\CurrentControlSet\Services\Netlogon\Parameters
-Key:   RequireSeal
-Type:  DWORD
-Value: 2
-```
-
-Once `RequireSeal = 2`, any device that fails to use RPC sealing is blocked immediately. Blocked connections generate Event ID `5839` — monitor for these after enforcement so you can catch anything you missed in Phase 3.
-
-### Step 4.2 — SMB Signing and NTLM Hardening
-
-Roll these GPOs out in rings. Don't push to all clients simultaneously.
-
-- **Ring 1:** IT / test machines
-- **Ring 2:** Member servers
-- **Ring 3:** All clients
-
-GPO settings to enforce:
-
-**`Microsoft network server: Digitally sign communications (always)`** → Enabled
-
-**`Network security: LAN Manager authentication level`** → Send NTLMv2 response only. Refuse LM & NTLM
-
-The LAN Manager setting is the one that surprises people. Anything still using plain NTLM or LM will break when you enforce this. That's why the discovery phase exists.
-
----
-
-## What this closes
-
-Done correctly, this playbook addresses:
-
-- Unencrypted Netlogon channel (pen test finding)
-- Zerologon attack surface (CVE-2020-1472 enforcement)
-- NTLM downgrade attack vectors
-- SMB relay opportunities on the internal network
-
-It also puts you in a much cleaner position for Entra ID migration — because the same legacy devices causing problems here will cause problems during hybrid join and Conditional Access rollout. You're finding them now instead of later.
-
----
-
-The script above is what I run before any enforcement conversation. If you're seeing 5838s you didn't expect, start there — the CSV usually tells you exactly what needs attention.
-30:["$","$L2e","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$36"},"thumbnail":true,"direction":"column"}]
+30:["$","$L2e","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$36"},"thumbnail":true,"direction":"column"}]
 35:null
