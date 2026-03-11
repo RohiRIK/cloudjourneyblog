@@ -15,6 +15,8 @@ import {
   HiOutlineShieldCheck,
   HiOutlineCommandLine,
   HiOutlineCog6Tooth,
+  HiOutlineCpuChip,
+  HiOutlineWrenchScrewdriver,
 } from "react-icons/hi2";
 
 import {
@@ -60,6 +62,8 @@ export const iconLibrary: Record<string, IconType> = {
   shield: HiOutlineShieldCheck,
   terminal: HiOutlineCommandLine,
   cog: HiOutlineCog6Tooth,
+  cpu: HiOutlineCpuChip,
+  wrench: HiOutlineWrenchScrewdriver,
   javascript: SiJavascript,
   nextjs: SiNextdotjs,
   supabase: SiSupabase,

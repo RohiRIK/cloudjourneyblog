@@ -1,5 +1,5 @@
 import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
-import { Line, Row, Text } from "@once-ui-system/core";
+import { Column, Line, Row, Tag, Text } from "@once-ui-system/core";
 
 const person: Person = {
   firstName: "Rohi",
@@ -85,21 +85,50 @@ const about: About = {
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "About",
     description: (
-      <>
-        I’m a Cloud Security Architect and Automation Engineer based in Israel. Most of my work
-        sits at the intersection of Microsoft security infrastructure and AI — building the agents,
-        pipelines, and Zero-Trust frameworks that let security teams operate at a scale that manual
-        work can’t sustain. I’ve run migrations for tens of thousands of users, built RAG systems
-        that actually get used in production, and written more KQL than I’d like to admit. Outside
-        of work I’m usually prototyping something in my home lab, pulling shots on my ECM Mechanika,
-        or out hiking with my dog.
-      </>
+      <Column fillWidth gap="m">
+        <Text>
+          I’m a cloud security engineer based in Israel. I came into the field and stayed —
+          because security never sits still, and neither do I. The environment changes, the threats
+          change, the tools change. Treating that as the job rather than fighting it is what keeps
+          the work interesting. If I’m not uncomfortable about something technical, I’m probably
+          behind.
+        </Text>
+        <Text>
+          So I pick things up. Docker Swarm one month, Raspberry Pi clusters the next, RAG
+          pipelines after that. Not to collect technologies — to understand the systems well enough
+          to secure them, automate them, or know when they’re going to fail.
+        </Text>
+        <Text>
+          In practice: I migrate enterprises off legacy Active Directory, design Conditional Access
+          architectures that don’t lock users out at 2am, write KQL that surfaces what matters, and
+          build AI agents that handle the tier-1 work that used to eat half a team’s week. I work
+          primarily in the Microsoft ecosystem — Entra ID, Intune, Defender, Azure — but the
+          curiosity doesn’t stay there.
+        </Text>
+        <Row wrap gap="8" paddingTop="4" paddingBottom="4">
+          {[
+            { icon: "shield", label: "Cloud Security" },
+            { icon: "eye", label: "Security Operations" },
+            { icon: "cpu", label: "AI & Automation" },
+            { icon: "terminal", label: "Infrastructure" },
+          ].map((d) => (
+            <Tag key={d.label} size="l" prefixIcon={d.icon}>
+              {d.label}
+            </Tag>
+          ))}
+        </Row>
+        <Text>
+          I write because explaining something forces you to actually understand it. The blog is
+          where I work things out in public — security architecture, automation patterns, whatever
+          I’m currently pulling apart and putting back together.
+        </Text>
+      </Column>
     ),
   },
   work: {
-    display: true,
+    display: false,
     title: "Work Experience",
     experiences: [
       {
@@ -162,128 +191,86 @@ const about: About = {
   },
   technical: {
     display: true,
-    title: "Technical Skills",
+    title: "How I Think",
     skills: [
       {
-        title: "AI Agents & Agentic Systems",
+        title: "Automation should be boring",
         description: (
           <>
-            Building multi-step AI agents that operate autonomously in production — RAG pipelines,
-            tool-use patterns, memory and context management, agent orchestration with LangChain and
-            Claude. Experience running agentic workflows on real security data, not just demos.
-          </>
-        ),
-        icon: "rocket",
-        tags: [
-          { name: "LangChain", icon: "python" },
-          { name: "Claude API", icon: "openai" },
-          { name: "RAG", icon: "search" },
-          { name: "n8n", icon: "cog" },
-        ],
-        images: [],
-      },
-      {
-        title: "Cloud Security & Identity",
-        description: (
-          <>
-            Microsoft Entra ID, Conditional Access policy design, Zero Trust architecture,
-            Azure Sentinel (SIEM), Defender XDR, Privileged Identity Management.
-            Hands-on with large-scale enterprise tenants, not just theory.
-          </>
-        ),
-        icon: "shield",
-        tags: [
-          { name: "Azure", icon: "azure" },
-          { name: "Entra ID", icon: "microsoft" },
-          { name: "Zero Trust", icon: "shield" },
-          { name: "Defender XDR", icon: "microsoft" },
-        ],
-        images: [],
-      },
-      {
-        title: "Security Operations",
-        description: (
-          <>
-            KQL threat hunting, incident response (DFIR), SOAR automation, digital forensics.
-            Built hunting queries for APT TTPs and managed live IR cases end-to-end.
-          </>
-        ),
-        icon: "eye",
-        tags: [
-          { name: "KQL", icon: "search" },
-          { name: "Sentinel", icon: "microsoft" },
-          { name: "DFIR", icon: "shield" },
-        ],
-        images: [],
-      },
-      {
-        title: "Automation & Scripting",
-        description: (
-          <>
-            PowerShell, Python, TypeScript. Logic Apps, n8n for workflow orchestration.
-            Bun for CLI tooling. Most automation I write is meant to run unattended — reliability matters more than cleverness.
-          </>
-        ),
-        icon: "terminal",
-        tags: [
-          { name: "PowerShell", icon: "terminal" },
-          { name: "Python", icon: "python" },
-          { name: "TypeScript", icon: "javascript" },
-          { name: "Logic Apps", icon: "microsoft" },
-        ],
-        images: [],
-      },
-      {
-        title: "Infrastructure & DevOps",
-        description: (
-          <>
-            Docker Swarm, Linux administration, Cloudflare Workers, Git. Run a self-hosted
-            home lab on Orange Pi with Traefik, Infisical for secrets, and a handful of
-            services that keep me honest about uptime.
+            If an agent surprises you, something is wrong. Good automation is invisible — it does
+            what it's supposed to do, fails loudly when it can't, and never makes a decision it
+            wasn't designed to make.
           </>
         ),
         icon: "cog",
-        tags: [
-          { name: "Docker", icon: "docker" },
-          { name: "Linux", icon: "terminal" },
-          { name: "Cloudflare", icon: "globe" },
-        ],
+        tags: [],
+        images: [],
+      },
+      {
+        title: "Security is a UX problem",
+        description: (
+          <>
+            The more friction you add, the more workarounds people find. The job isn't just to lock
+            things down — it's to make the secure path the easy path.
+          </>
+        ),
+        icon: "shield",
+        tags: [],
+        images: [],
+      },
+      {
+        title: "The best way to understand a system is to break it yourself",
+        description: (
+          <>
+            That's what the home lab is for. Controlled failure teaches more than documentation.
+          </>
+        ),
+        icon: "wrench",
+        tags: [],
         images: [],
       },
     ],
   },
   interests: {
     display: true,
-    title: "Interests",
+    title: "Outside the Terminal",
     items: [
       {
-        title: "Home Lab",
+        title: "Coffee",
         description: (
           <>
-            I run a small but serious home lab on Orange Pi hardware — Docker Swarm, self-hosted
-            services, secret management with Infisical. Most of my side projects start here before
-            they're worth deploying anywhere else. It's also where I break things without consequences.
+            I pull shots on an ECM Mechanika with the same obsessiveness I bring to query tuning —
+            small adjustments, immediate feedback, trying to understand what changed and why. I've
+            been chasing a specific extraction for months. It's a good problem.
+          </>
+        ),
+        icon: "cog",
+      },
+      {
+        title: "Training",
+        description: (
+          <>
+            I lift and do jiu-jitsu. Both teach the same lesson: you can't shortcut the
+            fundamentals. Technique compounds. Skipping the boring parts costs you later.
           </>
         ),
         icon: "rocket",
       },
       {
-        title: "Espresso",
+        title: "Home Lab",
         description: (
           <>
-            I pull shots on an ECM Mechanika VI Slim. It took me embarrassingly long to dial in
-            a consistent extraction, which is probably why I ended up enjoying it — the feedback
-            loop is tight and the variables are real.
+            Docker Swarm cluster on three nodes — Traefik, Infisical, a growing list of
+            self-hosted services. Where I break things on purpose. Most of my blog posts start here.
           </>
         ),
-        icon: "home",
+        icon: "wrench",
       },
       {
-        title: "Hiking & Kettlebells",
+        title: "Hiking",
         description: (
           <>
-            Long hikes with my dog are the best way I know to think through a hard problem.
-            Kettlebell training fills the rest — simple, effective, and honest about effort.
+            Usually with my dog. No agenda.
           </>
         ),
         icon: "globe",
