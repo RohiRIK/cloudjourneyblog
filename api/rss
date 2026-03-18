@@ -5,7 +5,7 @@
     <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     <description>Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Mar 2026 08:22:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 08:46:49 GMT</lastBuildDate>
     <atom:link href="https://CloudJourneyBlog.rohi-lab.org/api/rss" rel="self" type="application/rss+xml" />
     <managingEditor>rohi@rohirikman.dev (Rohi Rikman)</managingEditor>
     <webMaster>rohi@rohirikman.dev (Rohi Rikman)</webMaster>
@@ -21,7 +21,7 @@
       <guid>https://CloudJourneyBlog.rohi-lab.org/blog/claude-code-daily-workflow</guid>
       <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch.]]></description>
-      
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/claude-code-daily-workflow.png" type="image/jpeg" />
       <category>Engineering</category>
       <author>rohi@rohirikman.dev (Rohi Rikman)</author>
     </item>
