@@ -3,9 +3,104 @@
 3:I[479520,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],""]
 4:I[89532,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
 5:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
-16:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
-17:"$Sreact.suspense"
-6:T1a15,
+17:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+18:"$Sreact.suspense"
+6:T179d,
+Most people use Claude Code like a fancy autocomplete. Type a request, read the output, copy-paste, repeat. That works. But it leaves a lot on the table.
+
+When I started seriously using Claude Code, I didn't invent my own system. I borrowed one — specifically, the pattern that Boris Cherny (one of Claude Code's creators) uses himself:
+
+```
+/plan → implement → /simplify → /verify → /commit-push-pr
+```
+
+Four steps. No magic. But the discipline of following them consistently changed how I work.
+
+## Why structure matters more than prompts
+
+The common advice for AI tools is "better prompts = better results." That's not wrong, but it's incomplete. The real lever is *process*, not prompts.
+
+Without a process, you're improvising every session. You start coding before the plan is solid, then steer Claude mid-implementation when it drifts. You skip the cleanup because you're tired. You commit without reviewing the diff because it *probably* looks fine. Each shortcut is small. Over time, they compound.
+
+A structured loop closes those gaps. Not because it makes Claude smarter — it doesn't. It makes *you* more consistent.
+
+## The starting loop
+
+Here's what the Boris Cherny pattern looks like in practice:
+
+**`/plan`** — Before writing a single line of code, enter Plan Mode (Shift+Tab twice). Describe the task. Refine the plan until it's specific enough that you'd feel confident handing it to a junior engineer. Then say yes.
+
+The rule I follow: if I'm still steering Claude during implementation, the plan wasn't good enough. A solid plan means near-zero mid-session corrections.
+
+**`implement`** — Switch to auto-accept and let it run. Hooks fire on every edit: Prettier auto-formats, tsc checks TypeScript after every `.ts` change, a guard warns if console.log sneaks in. The machine runs itself. You watch.
+
+**`/simplify`** — After implementation, before touching git. This step reviews the changed code for unnecessary abstraction, deep nesting, premature generalization. It finds the things you stopped noticing because you were heads-down building. It removes them.
+
+This is the step most people skip. It's also the step that keeps codebases readable three months later.
+
+**`/verify`** — The gate before committing. Runs tsc → lint → tests → build → security check → git diff review. If something breaks here, it's cheap to fix. If it breaks after the PR merges, it's expensive.
+
+**`/commit-push-pr`** — Pre-computes the full git context, writes a conventional commit message, pushes, opens a PR with a summary and test plan. Not a one-liner. A real commit with context.
+
+That's the base loop. I ran it for a few months and got the best results I'd had from any AI coding tool.
+
+## What I added — and why
+
+The Boris Cherny loop is complete for *execution*. What it doesn't cover is *memory*.
+
+After a week of sessions, I noticed something: Claude was re-learning the same things. Decisions I'd made three sessions ago. Patterns that kept coming up. Architecture choices I'd explained twice already. Every new session started cold.
+
+The fix was one new step between `implement` and `/simplify`:
+
+```
+/plan → implement → /capture → /simplify → /verify → /commit-push-pr
+```
+
+**`/capture`** runs after implementation. It snapshots what just happened — saves context and fires `/learn` in one shot. Progress gets logged to SQLite. Non-obvious patterns get stored as memories. Decisions get written down before they evaporate.
+
+The practical effect: next session, Claude already knows what was decided and why. You spend zero time re-explaining context you've already explained. The work builds forward instead of resetting.
+
+## The rule that made it work
+
+The temptation when you have a system is to optimize it too early. Add more steps. Build more hooks. Make it more sophisticated.
+
+I resisted that. For the first few months, I ran the simple 4-step loop exactly as described. I didn't modify it until I hit a real problem — the memory gap — and the fix was minimal: one command, one specific purpose.
+
+That's the principle behind both loops: **start with structure, extend based on what actually breaks**.
+
+Not what might break. Not what you imagine could be better. What concretely broke in real sessions.
+
+The Boris Cherny pattern is a good starting point because it covers the core failure modes: no plan, no cleanup, no verification, no context on the commit. Once those are handled, you'll discover your own gaps. The `/capture` step solved mine. Yours might be different.
+
+## What this looks like day to day
+
+Most sessions: `/plan`, implement, `/capture`, `/simplify`, `/verify`, `/commit-push-pr`. About 20-30 minutes per feature or fix, depending on complexity. The loop doesn't take longer — it replaces the time I used to spend cleaning up mistakes and re-explaining context.
+
+The hooks handle the mechanical parts. Auto-formatting, type checking, console.log warnings — none of that requires my attention. I review the diff at `/verify` and almost always find it clean.
+
+The commit at the end has a real message. The PR has context. Future-me can read the history and understand what happened.
+
+## Where to start
+
+If you're new to Claude Code: run the 4-step loop for a month before changing anything.
+
+```
+/plan → implement → /simplify → /verify → /commit-push-pr
+```
+
+Don't add `/capture` yet. Don't set up hooks. Don't configure anything. Just follow the loop. Get consistent with it. Learn where it helps and where it doesn't.
+
+Then extend — only where the base loop actually falls short.
+
+That's how you build a workflow that sticks instead of one you abandon after two weeks because it got too complicated.
+
+---
+
+The full command reference and hook setup is in my [Claude Code config repo](https://github.com/RohiRIK/claude-code-config/blob/main/docs/workflow-daily.md) if you want to dig deeper.
+
+What does your Claude Code workflow look like? I'm curious whether others have hit the same memory gap or found different failure modes. Let me know.
+0:{"buildId":"dFM29RODc1X_pmmGYExde","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"sameAs\":[],\"headline\":\"Writing on security, automation, and infrastructure\",\"description\":\"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing on security, automation, and infrastructure"}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","claude-code-daily-workflow",{"post":{"metadata":{"title":"The Claude Code Workflow That Actually Stuck","subtitle":"","publishedAt":"2026-03-18","summary":"I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch.","image":"","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-daily-workflow","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9"]}]]}],["$La"],"$Lb"]}],"loading":null,"isPartial":false}
+c:T1a15,
 The first version of my Claude Code config replaced the default (no memory) with a structured 4-file system: goals, decisions, progress, gotchas. Markdown files, hooks that read and write them, a summary injected at session start. It worked. For a few months.
 
 The problem with flat markdown files isn't that they fail — it's that they don't scale. After a few hundred entries across a dozen projects, you start noticing the cracks. Duplicate decisions. Gotchas that contradict each other because the older one was never updated. Progress logs that grow faster than they get trimmed. No way to ask "what do I know about Supabase" without reading every file.
@@ -84,204 +179,9 @@ With SQLite, the system improves over time. Memories that matter get used, have 
 The graph visualizer isn't something I use every session — but when I do open it, it answers questions that were previously unanswerable: "what have I decided about this project?", "is there a gotcha about this library I logged a month ago?", "why does this memory exist?"
 
 The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
-0:{"buildId":"37n-fGHrSwYmIGEL9mSGG","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"sameAs\":[],\"headline\":\"Writing on security, automation, and infrastructure\",\"description\":\"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing on security, automation, and infrastructure"}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9"]}]]}],["$La"],"$Lb"]}],"loading":null,"isPartial":false}
-c:T1f74,
-The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?
-
-Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works.
-
-It's a reasonable ask. It's how a lot of IT shops solve this problem. They've got the pieces — Intune, SharePoint, Power BI — and they want to wire them together. The request made sense for where they were.
-
-I said I'd get back to them with a proposal.
-
-## The Ceiling
-
-I spent a day mapping out the pipeline they'd asked for. And the more I built it in my head, the more I saw where it would break.
-
-**SharePoint as a database** is the first problem. SharePoint lists have a 5,000-item view threshold — not a hard limit, but enough to start causing issues at scale. There's no real schema enforcement, no foreign keys, no joins. You end up denormalizing everything and hoping the refresh writes are idempotent. When they're not, you get stale rows and duplicate entries that Power BI dutifully surfaces as real data.
-
-**Jenkins as a scheduler** is infra for infra's sake. You're running a CI/CD system to run a cron job. That means maintaining an agent, managing credentials, monitoring for failed runs, building retry logic from scratch. When the sync breaks at 2am, nobody knows until someone notices the dashboards haven't updated.
-
-**Power BI on a schedule** means the data is stale by definition. If your refresh runs every four hours and a device falls out of compliance at 9am, your dashboard won't show it until 1pm. For a compliance and security use case, that gap matters.
-
-And there was no RBAC anywhere in this design. Anyone with SharePoint access could see everything — all devices, all users, all compliance states. Helpdesk techs, managers, contractors. No audit trail of who looked at what.
-
-But the deepest problem wasn't architectural. The client didn't actually want a pipeline. They wanted **device visibility**. They wanted to know what was out there and whether it was healthy. The pipeline was just the closest solution shape they knew how to ask for.
-
-## The Pitch
-
-I came back with a counter-proposal.
-
-Instead of a pipeline, I pitched a purpose-built web app: FleetWatch. The sell was simple — you'll stop asking "is this data current?" because it always will be.
-
-Specifically:
-- Real-time sync via Microsoft Graph API delta queries, pulling only changed devices instead of exporting everything on a schedule
-- Postgres as the data store — real schema, real queries, real relational data
-- RBAC built in from day one: admins see everything, helpdesk sees their assigned devices
-- Full audit logs of who accessed what and when
-- A proper UI instead of a Power BI dashboard that takes 30 seconds to load and can't drill into a single device
-
-The client said yes. Partly because the technical argument was sound, and partly because I had mocked up what the device detail page would look like. It's easier to approve something you can see.
-
-## The Architecture
-
-The core of FleetWatch is the Microsoft Graph API integration.
-
-Authentication uses a Service Principal with Client Certificate auth — no client secrets that expire. The key endpoint is `/deviceManagement/managedDevices/delta`, which supports delta queries: on first run you get all devices, on subsequent runs you only get devices that changed since your last sync token. Instead of exporting 800 devices every four hours, you're processing 12 changed devices every 30 minutes.
-
-The sync runs on Vercel Cron jobs. No Jenkins, no agents, no infra to maintain. The cron endpoint is protected with a shared secret header — simple, effective. Failed syncs surface in application logs, not in a Jenkins console that nobody checks.
-
-The data layer is Postgres on Vercel with Drizzle ORM. The schema models the actual domain: a `devices` table, a `users` table, `compliance_policies`, `app_inventory`, `security_hardware`. When you need to answer "which devices have BitLocker disabled and are assigned to users in the Finance department," that's a join, not a SharePoint list crawl.
-
-The frontend is Next.js 15 with the App Router. Server Components handle the heavy lifting — device lists, compliance views, filtered queries all render server-side. The device detail page has six tabs: Overview, Compliance, Configuration, Security, Hardware, and Network. Each tab queries only the data it needs.
-
-```
-Before (proposed):
-Jenkins → PowerShell → SharePoint Lists → Power BI (scheduled refresh)
-
-After (FleetWatch):
-Vercel Cron → Microsoft Graph API → Postgres → Next.js (real-time)
-```
-
-Auth is NextAuth with role-based access enforced at the API layer. The middleware checks roles before any data query runs — not just in the UI, where it's trivial to bypass. Admin and read-only roles are stored per-user in the database, not inferred from SharePoint group membership.
-
-Monitoring is a `/api/health` endpoint that checks database connectivity and last successful sync time, plus a `/api/metrics` endpoint for the operational stats I actually care about: sync duration, devices processed, error rate. Redis is wired in as an optional cache layer for the dashboard aggregate queries.
-
-## What It Enables
-
-The gap between the pipeline and the app isn't cosmetic — it's functional.
-
-Search and filter across all 800 devices returns results in under 100ms. You can filter by compliance state, OS version, last sync time, assigned user, or any combination. In Power BI with a scheduled refresh, you're waiting for a report to load and hoping it reflects reality.
-
-The device detail page shows everything in one place: BitLocker status, TPM chip version, Secure Boot state, assigned compliance policies, installed applications, network adapters. That level of detail doesn't exist in the SharePoint list model — you'd need separate lists for each entity and a Power BI data model to join them, which you'd then need to maintain.
-
-RBAC means helpdesk techs can look up devices without needing SharePoint permissions across the entire tenant. No permissions sprawl, no "just give them read access to the list." You grant a role in FleetWatch and that's it.
-
-The export function lets you pull filtered device lists to CSV — useful for compliance reporting, vendor audits, or just sending a list of non-compliant devices to the right team. It works on whatever filter you've currently applied, so you're exporting exactly what you're looking at.
-
-Compliance trend graphs show state over time from the sync history, not from a Power BI snapshot that was current when the report was built. When a device falls out of compliance and comes back, you can see when both events happened.
-
-## The Lesson
-
-Scripts are the right first tool when scope is unclear. If the client had wanted a one-time export to audit their device inventory, the PowerShell approach would have been exactly right. Fast to build, no ongoing maintenance, done.
-
-But when the real problem is ongoing visibility — and when the solution needs RBAC, audit logs, freshness guarantees, and drill-down — the pipeline approach has a ceiling. It would have worked for three months. Then the IT team would have been back asking for user lookup, filtered exports, freshness indicators, device-level detail. The pipeline would have been extended with more scripts, more SharePoint lists, more Power BI datasets. Each addition would have made the system more fragile and harder to reason about.
-
-Building FleetWatch upfront was a harder conversation to have, but it was the right one. The client got a system that solves the problem they actually had — not the problem they knew how to articulate.
-
-The source is on GitHub at [RohiRIK/FleetWatch](https://github.com/RohiRIK/FleetWatch) if you want to see how it's put together.
-7:["$","$L4",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$c"},"thumbnail":true,"direction":"column"}],"$Ld"]}]
+7:["$","$L4",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$c"},"thumbnail":true,"direction":"column"}],"$Ld"]}]
 8:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textWrap":"balance"},"children":"Earlier posts"}]
-e:T2296,
-The default Claude Code installation does one thing poorly: it forgets everything. Every new session, you re-explain your stack, your preferences, the decisions you made last week. It compounds quickly on any project you're in for more than a few days.
-
-I spent a few months building a configuration layer on top of Claude Code that solves this. Here's what it does and how it works.
-
-## The memory problem
-
-Claude Code has no persistence by default. The context window holds your current session. When it compacts or you start a new one, that state is gone. You're not losing information in a database — you're losing it from the model's working memory.
-
-The fix isn't clever prompting. It's an explicit memory system with structured files and hooks that write to and read from those files automatically.
-
-## The 4-file context system
-
-Each project gets a directory at `~/.claude/projects/<name>/` with four files:
-
-**`context-goals.md`** — what I'm working on right now. Max 5 lines. Rewritten when the goal changes. Keeps the model from drifting into solving adjacent problems.
-
-**`context-decisions.md`** — architectural choices and why. Permanent, never deleted. If I decided to use Infisical instead of environment variables, that's in here with the reason. The model doesn't suggest what I've already ruled out.
-
-**`context-progress.md`** — completed tasks and what's in flight. Auto-trimmed to the last 20 items. Serves as a working log without growing unbounded.
-
-**`context-gotchas.md`** — warnings, blockers, and lessons. Also permanent. If something bit me once — a library quirk, an environment constraint, a mistake pattern — it lives here forever. The model reads it at session start and doesn't repeat the same mistakes.
-
-These files are plain markdown. They're updated manually after significant tasks, and automatically by hooks at session end.
-
-## The hooks
-
-Hooks are shell scripts or TypeScript files that Claude Code runs in response to lifecycle events. I have six:
-
-**SessionStart** — runs when a new session opens. Reads the project's context files and injects a summary (max 60 lines) as a system message. The model immediately knows what project it's in, what the current goal is, what decisions are locked, and what to avoid. No re-explaining needed.
-
-**PreCompact** — runs before Claude Code compacts the context window. Assembles all four context files into `context-summary.md` — a structured 60-line snapshot. This becomes what SessionStart injects next time. Without this, compaction destroys context. With it, compaction is just a checkpoint.
-
-**EvaluateSession** — runs when the session ends. Reads the transcript, extracts patterns — recurring mistakes, useful techniques, things that worked — and writes them to `~/.claude/skills/Learned/`. These are ephemeral: they roll off after a few sessions. For anything important enough to keep permanently, I promote it manually to `context-gotchas.md`.
-
-**SuggestCompact** — tracks a running count of tool calls per session. At 50, it suggests running `/compact`. This isn't mandatory, but the reminder is useful — context windows that run too long start producing lower-quality output.
-
-**UpdateContext** — PostToolUse hook that fires after Write, Edit, or MultiEdit operations. Logs modified files to context-progress and runs Prettier and tsc on changed files immediately. Type errors and formatting issues surface at edit time, not at build time.
-
-**Cleanup** — periodic maintenance. Trims context-progress.md to the last 20 items. Removes context directories for projects that haven't been touched in 30 days.
-
-## Skills and commands
-
-Skills are reusable prompts that expand into full instructions when invoked. I have these:
-
-**`/plan`** — invokes the planner agent before any implementation. Restates the requirement, breaks it into phases, identifies dependencies, flags risks. Produces a plan for review before any code is touched. I don't write code without running this first for anything non-trivial.
-
-**`/verify`** — runs a self-check loop: tsc → lint → tests → build, in order, stopping on first failure. The skill knows to skip steps that aren't configured for the project. Run before every commit.
-
-**`/simplify`** — post-implementation review. Looks at recently modified code for unnecessary abstraction, duplicated logic, or complexity that crept in during implementation. Runs after verify.
-
-**`/commit-push-pr`** — precomputes git context (status, diff, log, branch), generates a conventional commit message, stages relevant files, commits, and pushes. Skips the tedium of assembling git commands manually.
-
-**`/learn`** — manual trigger for pattern extraction. Same process as EvaluateSession but runs on demand mid-session when I want to capture something specific.
-
-**`/update-context`** — reads the current session and updates all four context files. Useful after completing a significant task when I want to flush progress immediately rather than waiting for the end-of-session hook.
-
-**`/tdd`** — enforces test-first workflow. Scaffolds the interface, writes the test, makes it fail, then implements the minimum code to pass. Blocks implementation until the test exists.
-
-**`/code-review`** — runs the code-reviewer agent on recently modified files. Returns severity-rated feedback: critical issues stop work, high issues get fixed, medium issues are noted.
-
-## Agents
-
-Agents are specialized sub-models with scoped roles. They run separately from the main session and have access to the codebase but only for their designated purpose.
-
-**planner** — for implementation planning. Doesn't write code. Only produces plans with phases, dependencies, and risk flags.
-
-**code-reviewer** — reviews code after it's written. Severity-based feedback. The reviewer doesn't have write access — it can't change files, only report.
-
-**security-reviewer** — OWASP Top 10 checks, secret detection, dependency auditing. Runs before commits on anything that touches auth, input handling, or external integrations.
-
-**tdd-guide** — enforces test-first. If I start implementing without a failing test, it redirects. Tracks coverage and flags when it drops below 80%.
-
-**architect** — for decisions that affect project structure. Invoked when I'm choosing between approaches that have lasting consequences, not for individual implementation decisions.
-
-**build-error-resolver** — when the build breaks, this agent diagnoses and makes the minimum change to get it green. Doesn't refactor, doesn't improve — just fixes the build.
-
-**refactor-cleaner** — dead code removal and consolidation. Runs tools like `knip` to find unused exports, then removes them. Used for maintenance, not mid-feature.
-
-The separation is intentional. A code reviewer that can also edit files is dangerous — it starts making "improvements" that weren't asked for. Each agent does one thing.
-
-## Global rules
-
-Rules are markdown files in `~/.claude/rules/` that load into every session. They cover:
-
-- **Coding style**: immutability-first (spread operators, never mutate), no `any` types, explicit return types on exports, functions under 50 lines
-- **Package manager**: bun not npm, uv not pip — enforced globally so I never get npm in a bun project
-- **Git workflow**: conventional commits (`feat|fix|refactor|docs|chore:`), no `Co-Authored-By` footers, PR descriptions that cover the full diff not just the latest commit
-- **Testing**: 80% minimum coverage, TDD workflow required for new features
-- **Security**: no hardcoded secrets, input validation at system boundaries only, rate limiting on all endpoints
-
-The model reads these rules at every session start. They're not suggestions — they're constraints that get checked during code review and verify.
-
-## What this actually changes day-to-day
-
-The memory system means I can leave a project for a week and come back without a re-orientation session. The model knows where I left off, what I decided, and what's broken.
-
-The hooks mean formatting and type errors surface immediately. I don't batch-discover problems at commit time.
-
-The agents mean review happens as a matter of course. I'm not remembering to run security checks — they're part of the workflow for anything touching auth or external data.
-
-The skills mean the repetitive parts (planning, verifying, committing) have consistent execution. I don't skip `/verify` because it's convenient — the skill is right there and running it takes two seconds.
-
-None of this is magic. It's structured configuration that enforces a workflow I decided I wanted. The alternative is relying on memory and discipline to apply that workflow manually every time. That doesn't scale.
-
-The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
-9:["$","$L4",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$e"},"thumbnail":true,"direction":"column"}],"$Lf","$L10","$L11","$L12","$L13","$L14","$L15"]}]
-a:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true}]
-b:["$","$L16",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
-19:T19b0,
+e:T19b0,
 If you're preparing to migrate to Entra ID and a penetration test just flagged "Netlogon not requiring RPC Sealing" — this is how you close it properly.
 
 This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you.
@@ -431,8 +331,203 @@ It also puts you in a much cleaner position for Entra ID migration — because t
 ---
 
 The script above is what I run before any enforcement conversation. If you're seeing 5838s you didn't expect, start there — the CSV usually tells you exactly what needs attention.
-d:["$","$L5","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$19"},"thumbnail":true,"direction":"column"}]
-1a:T1f79,
+9:["$","$L4",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$e"},"thumbnail":true,"direction":"column"}],"$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16"]}]
+a:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true}]
+b:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+1a:T1f74,
+The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?
+
+Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works.
+
+It's a reasonable ask. It's how a lot of IT shops solve this problem. They've got the pieces — Intune, SharePoint, Power BI — and they want to wire them together. The request made sense for where they were.
+
+I said I'd get back to them with a proposal.
+
+## The Ceiling
+
+I spent a day mapping out the pipeline they'd asked for. And the more I built it in my head, the more I saw where it would break.
+
+**SharePoint as a database** is the first problem. SharePoint lists have a 5,000-item view threshold — not a hard limit, but enough to start causing issues at scale. There's no real schema enforcement, no foreign keys, no joins. You end up denormalizing everything and hoping the refresh writes are idempotent. When they're not, you get stale rows and duplicate entries that Power BI dutifully surfaces as real data.
+
+**Jenkins as a scheduler** is infra for infra's sake. You're running a CI/CD system to run a cron job. That means maintaining an agent, managing credentials, monitoring for failed runs, building retry logic from scratch. When the sync breaks at 2am, nobody knows until someone notices the dashboards haven't updated.
+
+**Power BI on a schedule** means the data is stale by definition. If your refresh runs every four hours and a device falls out of compliance at 9am, your dashboard won't show it until 1pm. For a compliance and security use case, that gap matters.
+
+And there was no RBAC anywhere in this design. Anyone with SharePoint access could see everything — all devices, all users, all compliance states. Helpdesk techs, managers, contractors. No audit trail of who looked at what.
+
+But the deepest problem wasn't architectural. The client didn't actually want a pipeline. They wanted **device visibility**. They wanted to know what was out there and whether it was healthy. The pipeline was just the closest solution shape they knew how to ask for.
+
+## The Pitch
+
+I came back with a counter-proposal.
+
+Instead of a pipeline, I pitched a purpose-built web app: FleetWatch. The sell was simple — you'll stop asking "is this data current?" because it always will be.
+
+Specifically:
+- Real-time sync via Microsoft Graph API delta queries, pulling only changed devices instead of exporting everything on a schedule
+- Postgres as the data store — real schema, real queries, real relational data
+- RBAC built in from day one: admins see everything, helpdesk sees their assigned devices
+- Full audit logs of who accessed what and when
+- A proper UI instead of a Power BI dashboard that takes 30 seconds to load and can't drill into a single device
+
+The client said yes. Partly because the technical argument was sound, and partly because I had mocked up what the device detail page would look like. It's easier to approve something you can see.
+
+## The Architecture
+
+The core of FleetWatch is the Microsoft Graph API integration.
+
+Authentication uses a Service Principal with Client Certificate auth — no client secrets that expire. The key endpoint is `/deviceManagement/managedDevices/delta`, which supports delta queries: on first run you get all devices, on subsequent runs you only get devices that changed since your last sync token. Instead of exporting 800 devices every four hours, you're processing 12 changed devices every 30 minutes.
+
+The sync runs on Vercel Cron jobs. No Jenkins, no agents, no infra to maintain. The cron endpoint is protected with a shared secret header — simple, effective. Failed syncs surface in application logs, not in a Jenkins console that nobody checks.
+
+The data layer is Postgres on Vercel with Drizzle ORM. The schema models the actual domain: a `devices` table, a `users` table, `compliance_policies`, `app_inventory`, `security_hardware`. When you need to answer "which devices have BitLocker disabled and are assigned to users in the Finance department," that's a join, not a SharePoint list crawl.
+
+The frontend is Next.js 15 with the App Router. Server Components handle the heavy lifting — device lists, compliance views, filtered queries all render server-side. The device detail page has six tabs: Overview, Compliance, Configuration, Security, Hardware, and Network. Each tab queries only the data it needs.
+
+```
+Before (proposed):
+Jenkins → PowerShell → SharePoint Lists → Power BI (scheduled refresh)
+
+After (FleetWatch):
+Vercel Cron → Microsoft Graph API → Postgres → Next.js (real-time)
+```
+
+Auth is NextAuth with role-based access enforced at the API layer. The middleware checks roles before any data query runs — not just in the UI, where it's trivial to bypass. Admin and read-only roles are stored per-user in the database, not inferred from SharePoint group membership.
+
+Monitoring is a `/api/health` endpoint that checks database connectivity and last successful sync time, plus a `/api/metrics` endpoint for the operational stats I actually care about: sync duration, devices processed, error rate. Redis is wired in as an optional cache layer for the dashboard aggregate queries.
+
+## What It Enables
+
+The gap between the pipeline and the app isn't cosmetic — it's functional.
+
+Search and filter across all 800 devices returns results in under 100ms. You can filter by compliance state, OS version, last sync time, assigned user, or any combination. In Power BI with a scheduled refresh, you're waiting for a report to load and hoping it reflects reality.
+
+The device detail page shows everything in one place: BitLocker status, TPM chip version, Secure Boot state, assigned compliance policies, installed applications, network adapters. That level of detail doesn't exist in the SharePoint list model — you'd need separate lists for each entity and a Power BI data model to join them, which you'd then need to maintain.
+
+RBAC means helpdesk techs can look up devices without needing SharePoint permissions across the entire tenant. No permissions sprawl, no "just give them read access to the list." You grant a role in FleetWatch and that's it.
+
+The export function lets you pull filtered device lists to CSV — useful for compliance reporting, vendor audits, or just sending a list of non-compliant devices to the right team. It works on whatever filter you've currently applied, so you're exporting exactly what you're looking at.
+
+Compliance trend graphs show state over time from the sync history, not from a Power BI snapshot that was current when the report was built. When a device falls out of compliance and comes back, you can see when both events happened.
+
+## The Lesson
+
+Scripts are the right first tool when scope is unclear. If the client had wanted a one-time export to audit their device inventory, the PowerShell approach would have been exactly right. Fast to build, no ongoing maintenance, done.
+
+But when the real problem is ongoing visibility — and when the solution needs RBAC, audit logs, freshness guarantees, and drill-down — the pipeline approach has a ceiling. It would have worked for three months. Then the IT team would have been back asking for user lookup, filtered exports, freshness indicators, device-level detail. The pipeline would have been extended with more scripts, more SharePoint lists, more Power BI datasets. Each addition would have made the system more fragile and harder to reason about.
+
+Building FleetWatch upfront was a harder conversation to have, but it was the right one. The client got a system that solves the problem they actually had — not the problem they knew how to articulate.
+
+The source is on GitHub at [RohiRIK/FleetWatch](https://github.com/RohiRIK/FleetWatch) if you want to see how it's put together.
+d:["$","$L5","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$1a"},"thumbnail":true,"direction":"column"}]
+1b:T2296,
+The default Claude Code installation does one thing poorly: it forgets everything. Every new session, you re-explain your stack, your preferences, the decisions you made last week. It compounds quickly on any project you're in for more than a few days.
+
+I spent a few months building a configuration layer on top of Claude Code that solves this. Here's what it does and how it works.
+
+## The memory problem
+
+Claude Code has no persistence by default. The context window holds your current session. When it compacts or you start a new one, that state is gone. You're not losing information in a database — you're losing it from the model's working memory.
+
+The fix isn't clever prompting. It's an explicit memory system with structured files and hooks that write to and read from those files automatically.
+
+## The 4-file context system
+
+Each project gets a directory at `~/.claude/projects/<name>/` with four files:
+
+**`context-goals.md`** — what I'm working on right now. Max 5 lines. Rewritten when the goal changes. Keeps the model from drifting into solving adjacent problems.
+
+**`context-decisions.md`** — architectural choices and why. Permanent, never deleted. If I decided to use Infisical instead of environment variables, that's in here with the reason. The model doesn't suggest what I've already ruled out.
+
+**`context-progress.md`** — completed tasks and what's in flight. Auto-trimmed to the last 20 items. Serves as a working log without growing unbounded.
+
+**`context-gotchas.md`** — warnings, blockers, and lessons. Also permanent. If something bit me once — a library quirk, an environment constraint, a mistake pattern — it lives here forever. The model reads it at session start and doesn't repeat the same mistakes.
+
+These files are plain markdown. They're updated manually after significant tasks, and automatically by hooks at session end.
+
+## The hooks
+
+Hooks are shell scripts or TypeScript files that Claude Code runs in response to lifecycle events. I have six:
+
+**SessionStart** — runs when a new session opens. Reads the project's context files and injects a summary (max 60 lines) as a system message. The model immediately knows what project it's in, what the current goal is, what decisions are locked, and what to avoid. No re-explaining needed.
+
+**PreCompact** — runs before Claude Code compacts the context window. Assembles all four context files into `context-summary.md` — a structured 60-line snapshot. This becomes what SessionStart injects next time. Without this, compaction destroys context. With it, compaction is just a checkpoint.
+
+**EvaluateSession** — runs when the session ends. Reads the transcript, extracts patterns — recurring mistakes, useful techniques, things that worked — and writes them to `~/.claude/skills/Learned/`. These are ephemeral: they roll off after a few sessions. For anything important enough to keep permanently, I promote it manually to `context-gotchas.md`.
+
+**SuggestCompact** — tracks a running count of tool calls per session. At 50, it suggests running `/compact`. This isn't mandatory, but the reminder is useful — context windows that run too long start producing lower-quality output.
+
+**UpdateContext** — PostToolUse hook that fires after Write, Edit, or MultiEdit operations. Logs modified files to context-progress and runs Prettier and tsc on changed files immediately. Type errors and formatting issues surface at edit time, not at build time.
+
+**Cleanup** — periodic maintenance. Trims context-progress.md to the last 20 items. Removes context directories for projects that haven't been touched in 30 days.
+
+## Skills and commands
+
+Skills are reusable prompts that expand into full instructions when invoked. I have these:
+
+**`/plan`** — invokes the planner agent before any implementation. Restates the requirement, breaks it into phases, identifies dependencies, flags risks. Produces a plan for review before any code is touched. I don't write code without running this first for anything non-trivial.
+
+**`/verify`** — runs a self-check loop: tsc → lint → tests → build, in order, stopping on first failure. The skill knows to skip steps that aren't configured for the project. Run before every commit.
+
+**`/simplify`** — post-implementation review. Looks at recently modified code for unnecessary abstraction, duplicated logic, or complexity that crept in during implementation. Runs after verify.
+
+**`/commit-push-pr`** — precomputes git context (status, diff, log, branch), generates a conventional commit message, stages relevant files, commits, and pushes. Skips the tedium of assembling git commands manually.
+
+**`/learn`** — manual trigger for pattern extraction. Same process as EvaluateSession but runs on demand mid-session when I want to capture something specific.
+
+**`/update-context`** — reads the current session and updates all four context files. Useful after completing a significant task when I want to flush progress immediately rather than waiting for the end-of-session hook.
+
+**`/tdd`** — enforces test-first workflow. Scaffolds the interface, writes the test, makes it fail, then implements the minimum code to pass. Blocks implementation until the test exists.
+
+**`/code-review`** — runs the code-reviewer agent on recently modified files. Returns severity-rated feedback: critical issues stop work, high issues get fixed, medium issues are noted.
+
+## Agents
+
+Agents are specialized sub-models with scoped roles. They run separately from the main session and have access to the codebase but only for their designated purpose.
+
+**planner** — for implementation planning. Doesn't write code. Only produces plans with phases, dependencies, and risk flags.
+
+**code-reviewer** — reviews code after it's written. Severity-based feedback. The reviewer doesn't have write access — it can't change files, only report.
+
+**security-reviewer** — OWASP Top 10 checks, secret detection, dependency auditing. Runs before commits on anything that touches auth, input handling, or external integrations.
+
+**tdd-guide** — enforces test-first. If I start implementing without a failing test, it redirects. Tracks coverage and flags when it drops below 80%.
+
+**architect** — for decisions that affect project structure. Invoked when I'm choosing between approaches that have lasting consequences, not for individual implementation decisions.
+
+**build-error-resolver** — when the build breaks, this agent diagnoses and makes the minimum change to get it green. Doesn't refactor, doesn't improve — just fixes the build.
+
+**refactor-cleaner** — dead code removal and consolidation. Runs tools like `knip` to find unused exports, then removes them. Used for maintenance, not mid-feature.
+
+The separation is intentional. A code reviewer that can also edit files is dangerous — it starts making "improvements" that weren't asked for. Each agent does one thing.
+
+## Global rules
+
+Rules are markdown files in `~/.claude/rules/` that load into every session. They cover:
+
+- **Coding style**: immutability-first (spread operators, never mutate), no `any` types, explicit return types on exports, functions under 50 lines
+- **Package manager**: bun not npm, uv not pip — enforced globally so I never get npm in a bun project
+- **Git workflow**: conventional commits (`feat|fix|refactor|docs|chore:`), no `Co-Authored-By` footers, PR descriptions that cover the full diff not just the latest commit
+- **Testing**: 80% minimum coverage, TDD workflow required for new features
+- **Security**: no hardcoded secrets, input validation at system boundaries only, rate limiting on all endpoints
+
+The model reads these rules at every session start. They're not suggestions — they're constraints that get checked during code review and verify.
+
+## What this actually changes day-to-day
+
+The memory system means I can leave a project for a week and come back without a re-orientation session. The model knows where I left off, what I decided, and what's broken.
+
+The hooks mean formatting and type errors surface immediately. I don't batch-discover problems at commit time.
+
+The agents mean review happens as a matter of course. I'm not remembering to run security checks — they're part of the workflow for anything touching auth or external data.
+
+The skills mean the repetitive parts (planning, verifying, committing) have consistent execution. I don't skip `/verify` because it's convenient — the skill is right there and running it takes two seconds.
+
+None of this is magic. It's structured configuration that enforces a workflow I decided I wanted. The alternative is relying on memory and discipline to apply that workflow manually every time. That doesn't scale.
+
+The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
+f:["$","$L5","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$1b"},"thumbnail":true,"direction":"column"}]
+1c:T1f79,
 My homelab runs on a dedicated server, not a cloud VPS. Everything is version-controlled, documented, and designed to run without me touching it. It's been doing that for over a year.
 
 This is what's running, how it's wired together, and what went wrong the first time.
@@ -527,8 +622,8 @@ The secrets management was the biggest early mistake. Environment variables in C
 The second thing: start modular. A monolithic Compose file is tempting for the first three services because it's less overhead. By service six, you're paying for it. The directory-per-service structure takes five minutes to set up and saves hours later.
 
 Everything else, including the Swarm choice over Kubernetes, I'd make the same way.
-f:["$","$L5","homelab-docker-swarm",{"post":{"metadata":{"title":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","subtitle":"","publishedAt":"2026-03-02","summary":"A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.","image":"/images/blog/homelab-docker-swarm.png","images":[],"tag":"Infrastructure","team":[],"link":""},"slug":"homelab-docker-swarm","content":"$1a"},"thumbnail":true,"direction":"column"}]
-1b:T1eda,
+10:["$","$L5","homelab-docker-swarm",{"post":{"metadata":{"title":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","subtitle":"","publishedAt":"2026-03-02","summary":"A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.","image":"/images/blog/homelab-docker-swarm.png","images":[],"tag":"Infrastructure","team":[],"link":""},"slug":"homelab-docker-swarm","content":"$1c"},"thumbnail":true,"direction":"column"}]
+1d:T1eda,
 I've been building most of my personal projects with Claude Code for the past year. The tool works, but not in the way most people describe it. The narrative is usually "just describe what you want and it builds it." That's not wrong, but it's missing the part where a bad description causes you to spend two hours steering the model away from the wrong implementation.
 
 The shift that changed everything was treating AI as an analyst team, not a code generator.
@@ -610,8 +705,8 @@ I've run the experiment. Skipping `/plan` and going straight to implementation f
 The planning phase doesn't write code, so it feels unproductive. It's the opposite. A 20-minute planning session that surfaces a wrong assumption saves two hours of implementation. Every time.
 
 The model isn't the bottleneck. The bottleneck is clarity about what you're building.
-10:["$","$L5","vibe-coding-ai-workflows",{"post":{"metadata":{"title":"What I Actually Learned from Vibe Coding with Claude Code","subtitle":"","publishedAt":"2026-03-02","summary":"A year of building projects with AI: what the workflow looks like, how I keep context alive across sessions, which safety patterns actually work, and what breaks if you skip them.","image":"/images/blog/vibe-coding-ai-workflows.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"vibe-coding-ai-workflows","content":"$1b"},"thumbnail":true,"direction":"column"}]
-1c:Tdcb,
+11:["$","$L5","vibe-coding-ai-workflows",{"post":{"metadata":{"title":"What I Actually Learned from Vibe Coding with Claude Code","subtitle":"","publishedAt":"2026-03-02","summary":"A year of building projects with AI: what the workflow looks like, how I keep context alive across sessions, which safety patterns actually work, and what breaks if you skip them.","image":"/images/blog/vibe-coding-ai-workflows.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"vibe-coding-ai-workflows","content":"$1d"},"thumbnail":true,"direction":"column"}]
+1e:Tdcb,
 I work in IT security. I've sat through a lot of vendor calls. And somewhere around the third time someone told me their network appliance was "a Zero Trust solution," I started keeping count.
 
 It's not a product. It never was. Here's what it actually is.
@@ -655,8 +750,8 @@ None of that is a product. All of it is work.
 ---
 
 This is the first of a few posts I'm planning on Zero Trust — what it actually means, how I've implemented pieces of it in real environments, and where the hard parts are. Next up: Conditional Access, which is where most of the practical implementation lives.
-11:["$","$L5","zero-trust-is-not-a-product",{"post":{"metadata":{"title":"Zero Trust Is Not a Product","subtitle":"","publishedAt":"2026-02-20","summary":"Every vendor sells 'Zero Trust.' Most of what they're selling is a marketing label on a firewall. Here's what the model actually means and why it matters.","image":"/images/blog/zero-trust-is-not-a-product.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-is-not-a-product","content":"$1c"},"thumbnail":true,"direction":"column"}]
-1d:T15a9,
+12:["$","$L5","zero-trust-is-not-a-product",{"post":{"metadata":{"title":"Zero Trust Is Not a Product","subtitle":"","publishedAt":"2026-02-20","summary":"Every vendor sells 'Zero Trust.' Most of what they're selling is a marketing label on a firewall. Here's what the model actually means and why it matters.","image":"/images/blog/zero-trust-is-not-a-product.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-is-not-a-product","content":"$1e"},"thumbnail":true,"direction":"column"}]
+1f:T15a9,
 If you're running Microsoft 365 and you're serious about Zero Trust, Conditional Access is where most of the actual work happens. It's the enforcement layer that sits between your users and your apps — evaluating identity, device health, location, and risk signals before granting access.
 
 I've built Conditional Access policies for several client environments. Here's what I've learned.
@@ -728,8 +823,8 @@ KQL queries against the sign-in logs in Log Analytics give you more flexibility 
 ---
 
 Next post: endpoint hardening as a Zero Trust control — because Conditional Access requiring a "compliant device" is only as good as what your compliance policies actually check.
-12:["$","$L5","conditional-access-in-practice",{"post":{"metadata":{"title":"Conditional Access in Practice","subtitle":"","publishedAt":"2026-02-15","summary":"Conditional Access is where Zero Trust principles actually land in a Microsoft environment. Here's how to think about it, what to get right, and where I've seen it go wrong.","image":"/images/blog/conditional-access-in-practice.png","images":[],"tag":"Security","team":[],"link":""},"slug":"conditional-access-in-practice","content":"$1d"},"thumbnail":true,"direction":"column"}]
-1e:T15f3,
+13:["$","$L5","conditional-access-in-practice",{"post":{"metadata":{"title":"Conditional Access in Practice","subtitle":"","publishedAt":"2026-02-15","summary":"Conditional Access is where Zero Trust principles actually land in a Microsoft environment. Here's how to think about it, what to get right, and where I've seen it go wrong.","image":"/images/blog/conditional-access-in-practice.png","images":[],"tag":"Security","team":[],"link":""},"slug":"conditional-access-in-practice","content":"$1f"},"thumbnail":true,"direction":"column"}]
+20:T15f3,
 In the last post I talked about Conditional Access requiring device compliance as a gate for accessing sensitive resources. That's a good control — but it's only as strong as what your compliance policies actually check.
 
 A compliance policy that requires Windows 10 or later and nothing else isn't doing much. Here's what meaningful endpoint hardening looks like and how to enforce it at scale.
@@ -800,8 +895,8 @@ If you can answer those from Intune and DfE dashboards in under 5 minutes, your 
 ---
 
 Next: why I built Project Aegis — an AI agent system for security operations — and how the same Zero Trust principles apply to agentic systems that have access to sensitive tools.
-13:["$","$L5","endpoint-hardening-zero-trust-control",{"post":{"metadata":{"title":"Endpoint Hardening as a Zero Trust Control","subtitle":"","publishedAt":"2026-02-10","summary":"A compliant device in Conditional Access is only meaningful if your compliance policies check things that actually matter. Here's what to harden and how to measure it.","image":"/images/blog/endpoint-hardening-zero-trust-control.png","images":[],"tag":"Security","team":[],"link":""},"slug":"endpoint-hardening-zero-trust-control","content":"$1e"},"thumbnail":true,"direction":"column"}]
-1f:T1747,
+14:["$","$L5","endpoint-hardening-zero-trust-control",{"post":{"metadata":{"title":"Endpoint Hardening as a Zero Trust Control","subtitle":"","publishedAt":"2026-02-10","summary":"A compliant device in Conditional Access is only meaningful if your compliance policies check things that actually matter. Here's what to harden and how to measure it.","image":"/images/blog/endpoint-hardening-zero-trust-control.png","images":[],"tag":"Security","team":[],"link":""},"slug":"endpoint-hardening-zero-trust-control","content":"$20"},"thumbnail":true,"direction":"column"}]
+21:T1747,
 I've spent the last year building Project Aegis — an AI agent system that automates security operations work. Threat intel ingestion, alert triage, compliance checks, incident drafts. The agents have access to APIs, can query databases, can interact with ticketing systems.
 
 While I was building it, I kept running into the same realization: agentic systems need Zero Trust applied to them too. Most don't have it.
@@ -873,8 +968,8 @@ The core shift is treating your AI agents as principals that need the same secur
 Identity, least privilege, logging, continuous monitoring, assume breach. The principles are the same. The implementation is different but not dramatically so if you're already doing it for your users and services.
 
 The hard part is the culture: most agentic development moves fast and treats security as something to add later. Later usually doesn't happen. Better to bake it in from the start.
-14:["$","$L5","zero-trust-for-ai-agents",{"post":{"metadata":{"title":"Zero Trust for AI Agents","subtitle":"","publishedAt":"2026-02-05","summary":"AI agents have access to real tools — APIs, databases, shell execution. The same principles that apply to human users apply here, and most agentic systems ignore them.","image":"/images/blog/zero-trust-for-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-for-ai-agents","content":"$1f"},"thumbnail":true,"direction":"column"}]
-20:T16b6,
+15:["$","$L5","zero-trust-for-ai-agents",{"post":{"metadata":{"title":"Zero Trust for AI Agents","subtitle":"","publishedAt":"2026-02-05","summary":"AI agents have access to real tools — APIs, databases, shell execution. The same principles that apply to human users apply here, and most agentic systems ignore them.","image":"/images/blog/zero-trust-for-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-for-ai-agents","content":"$21"},"thumbnail":true,"direction":"column"}]
+22:T16b6,
 There's a version of security that's built around the network. The idea is: defend the boundary, and everything inside is safe. Keep attackers out with firewalls, VPNs, intrusion detection. Trust the inside.
 
 That model has been broken for a long time. Cloud services, remote work, SaaS, third-party integrations — the "inside" isn't a coherent concept anymore. Your users are authenticating from coffee shops. Your apps are in Azure. Your data is in SharePoint and Salesforce and a dozen other places. There's no perimeter to defend.
@@ -935,5 +1030,5 @@ The conversation shifts from "security is making our lives harder" to "we're bui
 ---
 
 Last post in this series will be practical: what a Zero Trust rollout actually looks like in a mid-size organization, what to do first, and where the first six months usually go wrong.
-15:["$","$L5","identity-first-security",{"post":{"metadata":{"title":"Identity-First Security","subtitle":"","publishedAt":"2026-01-28","summary":"The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.","image":"/images/blog/identity-first-security.png","images":[],"tag":"Security","team":[],"link":""},"slug":"identity-first-security","content":"$20"},"thumbnail":true,"direction":"column"}]
-18:null
+16:["$","$L5","identity-first-security",{"post":{"metadata":{"title":"Identity-First Security","subtitle":"","publishedAt":"2026-01-28","summary":"The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.","image":"/images/blog/identity-first-security.png","images":[],"tag":"Security","team":[],"link":""},"slug":"identity-first-security","content":"$22"},"thumbnail":true,"direction":"column"}]
+19:null

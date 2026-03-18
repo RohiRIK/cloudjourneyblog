@@ -17,6 +17,7 @@
 - [x] 9. netlogon-rpc-sealing-playbook.png
 - [x] 10. fleetwatch-from-script-to-system.png
 - [x] 11. claude-code-config-v2.png
+- [x] 12. claude-code-daily-workflow.png
 
 ---
 
@@ -457,3 +458,49 @@ and amber, fading nodes in dim gray-blue, Janitor node in deep purple with
 warm magenta edge highlights, connection lines in cyan/gray by strength,
 SQLite silhouette in barely-visible dark steel. No bright background.
 Subjects fill the full frame. Minimal. Precise. Slightly alive.
+
+---
+
+## 12. claude-code-daily-workflow.png
+
+**Concept:** LOOP / RITUAL problem type.
+A disciplined workflow is not a one-shot pipeline — it's a loop that repeats
+and improves. Each cycle: plan solidly, implement cleanly, capture memory,
+simplify ruthlessly, verify before shipping. The image should feel like a
+precision machine in steady motion — not hectic, not rushed. Calm repetition
+as the foundation of good engineering.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Center composition: a circular loop pipeline — rendered as a clean geometric
+ring, slightly angular (octagonal rather than perfectly round), glowing with
+low-intensity neon-cyan. Along the ring, five distinct hexagonal station nodes
+are evenly spaced, each a different neon color:
+
+- Node 1 (warm amber): Plan — a small geometric compass/direction icon inside
+- Node 2 (electric blue): Implement — circuit-trace lines, code brackets inside
+- Node 3 (soft magenta): Capture — a small geometric memory/db cylinder icon inside
+- Node 4 (neon green): Simplify — a clean downward-funnel or compression icon inside
+- Node 5 (cool cyan): Verify + Ship — a checkmark and arrow-right combined, gate icon
+
+Between nodes 2 and 3, a small upward branch diverges from the ring — a thin
+neon-magenta line curving away from the loop and connecting to a small floating
+SQLite database node (dark amber, solid, slightly larger than the branch tip).
+This represents /capture feeding memory back to a persistent store. The branch
+reconnects cleanly — memory feeds back into the loop.
+
+The ring has a subtle directional flow: small chevron arrows along the neon-cyan
+ring between each node indicate clockwise motion. The loop is continuous, precise,
+and self-contained.
+
+The overall feeling: a machine that runs cleanly, session after session. Not
+exciting. Reliable. The discipline is the feature.
+
+Color palette: near-black background, ring in neon-cyan, Plan node in warm amber,
+Implement node in electric blue, Capture node in soft magenta, Simplify node in
+neon green, Verify/Ship node in cool cyan, memory branch in magenta, SQLite node
+in dark amber. Subjects fill the full frame. Minimal. Precise.

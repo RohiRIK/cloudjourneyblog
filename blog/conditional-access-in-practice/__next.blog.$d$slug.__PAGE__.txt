@@ -17,7 +17,7 @@ a:I[626935,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a0
 37:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
 38:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 39:"$Sreact.suspense"
-0:{"buildId":"37n-fGHrSwYmIGEL9mSGG","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/conditional-access-in-practice","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/conditional-access-in-practice\",\"sameAs\":[],\"headline\":\"Conditional Access in Practice\",\"description\":\"Conditional Access is where Zero Trust principles actually land in a Microsoft environment. Here's how to think about it, what to get right, and where I've seen it go wrong.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/conditional-access-in-practice.png\",\"datePublished\":\"2026-02-15\",\"dateModified\":\"2026-02-15\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"February 15, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Conditional Access in Practice"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/conditional-access-in-practice.png","alt":"Conditional Access in Practice","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"If you're running Microsoft 365 and you're serious about Zero Trust, Conditional Access is where most of the actual work happens. It's the enforcement layer that sits between your users and your apps — evaluating identity, device health, location, and risk signals before granting access."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I've built Conditional Access policies for several client environments. Here's what I've learned."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-conditional-access-actually-does","children":"What Conditional Access actually does"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Every time a user or service authenticates to an Entra ID-protected resource, a Conditional Access evaluation runs. The policy engine looks at:"}],"\n",["$","$L9",null,{"as":"ul","children":["\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Who"}]," is authenticating (user, group, service principal)"]}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"What"}]," they're trying to access (specific app, all apps, admin portals)"]}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"What device"}]," they're on (managed/unmanaged, compliant/non-compliant, platform)"]}],"\n","$Lb","\n","$Lc","\n"]}],"\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27"]}],"$L28","$L29","$L2a","$L2b"]}]}],"$L2c"]}],["$L2d"],"$L2e"]}],"loading":null,"isPartial":false}
+0:{"buildId":"dFM29RODc1X_pmmGYExde","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/conditional-access-in-practice","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/conditional-access-in-practice\",\"sameAs\":[],\"headline\":\"Conditional Access in Practice\",\"description\":\"Conditional Access is where Zero Trust principles actually land in a Microsoft environment. Here's how to think about it, what to get right, and where I've seen it go wrong.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/conditional-access-in-practice.png\",\"datePublished\":\"2026-02-15\",\"dateModified\":\"2026-02-15\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"February 15, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Conditional Access in Practice"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/conditional-access-in-practice.png","alt":"Conditional Access in Practice","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"If you're running Microsoft 365 and you're serious about Zero Trust, Conditional Access is where most of the actual work happens. It's the enforcement layer that sits between your users and your apps — evaluating identity, device health, location, and risk signals before granting access."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I've built Conditional Access policies for several client environments. Here's what I've learned."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-conditional-access-actually-does","children":"What Conditional Access actually does"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Every time a user or service authenticates to an Entra ID-protected resource, a Conditional Access evaluation runs. The policy engine looks at:"}],"\n",["$","$L9",null,{"as":"ul","children":["\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Who"}]," is authenticating (user, group, service principal)"]}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"What"}]," they're trying to access (specific app, all apps, admin portals)"]}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"What device"}]," they're on (managed/unmanaged, compliant/non-compliant, platform)"]}],"\n","$Lb","\n","$Lc","\n"]}],"\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27"]}],"$L28","$L29","$L2a","$L2b"]}]}],"$L2c"]}],["$L2d"],"$L2e"]}],"loading":null,"isPartial":false}
 b:["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Where"}]," they're coming from (location, named network, country)"]}]
 c:["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"What risk signals"}]," are active (Entra ID Protection scores for sign-in risk and user risk)"]}]
 d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Based on those signals, the policy either grants access, blocks it, or grants it conditionally — requiring MFA, a compliant device, a specific authentication strength, or a terms of use agreement."}]
@@ -49,7 +49,106 @@ f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-base
 27:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Next post: endpoint hardening as a Zero Trust control — because Conditional Access requiring a \"compliant device\" is only as good as what your compliance policies actually check."}]
 28:["$","$L30",null,{"title":"Conditional Access in Practice","url":"https://CloudJourneyBlog.rohi-lab.org/blog/conditional-access-in-practice"}]
 29:["$","$L31",null,{}]
-34:T1a15,
+34:T179d,
+Most people use Claude Code like a fancy autocomplete. Type a request, read the output, copy-paste, repeat. That works. But it leaves a lot on the table.
+
+When I started seriously using Claude Code, I didn't invent my own system. I borrowed one — specifically, the pattern that Boris Cherny (one of Claude Code's creators) uses himself:
+
+```
+/plan → implement → /simplify → /verify → /commit-push-pr
+```
+
+Four steps. No magic. But the discipline of following them consistently changed how I work.
+
+## Why structure matters more than prompts
+
+The common advice for AI tools is "better prompts = better results." That's not wrong, but it's incomplete. The real lever is *process*, not prompts.
+
+Without a process, you're improvising every session. You start coding before the plan is solid, then steer Claude mid-implementation when it drifts. You skip the cleanup because you're tired. You commit without reviewing the diff because it *probably* looks fine. Each shortcut is small. Over time, they compound.
+
+A structured loop closes those gaps. Not because it makes Claude smarter — it doesn't. It makes *you* more consistent.
+
+## The starting loop
+
+Here's what the Boris Cherny pattern looks like in practice:
+
+**`/plan`** — Before writing a single line of code, enter Plan Mode (Shift+Tab twice). Describe the task. Refine the plan until it's specific enough that you'd feel confident handing it to a junior engineer. Then say yes.
+
+The rule I follow: if I'm still steering Claude during implementation, the plan wasn't good enough. A solid plan means near-zero mid-session corrections.
+
+**`implement`** — Switch to auto-accept and let it run. Hooks fire on every edit: Prettier auto-formats, tsc checks TypeScript after every `.ts` change, a guard warns if console.log sneaks in. The machine runs itself. You watch.
+
+**`/simplify`** — After implementation, before touching git. This step reviews the changed code for unnecessary abstraction, deep nesting, premature generalization. It finds the things you stopped noticing because you were heads-down building. It removes them.
+
+This is the step most people skip. It's also the step that keeps codebases readable three months later.
+
+**`/verify`** — The gate before committing. Runs tsc → lint → tests → build → security check → git diff review. If something breaks here, it's cheap to fix. If it breaks after the PR merges, it's expensive.
+
+**`/commit-push-pr`** — Pre-computes the full git context, writes a conventional commit message, pushes, opens a PR with a summary and test plan. Not a one-liner. A real commit with context.
+
+That's the base loop. I ran it for a few months and got the best results I'd had from any AI coding tool.
+
+## What I added — and why
+
+The Boris Cherny loop is complete for *execution*. What it doesn't cover is *memory*.
+
+After a week of sessions, I noticed something: Claude was re-learning the same things. Decisions I'd made three sessions ago. Patterns that kept coming up. Architecture choices I'd explained twice already. Every new session started cold.
+
+The fix was one new step between `implement` and `/simplify`:
+
+```
+/plan → implement → /capture → /simplify → /verify → /commit-push-pr
+```
+
+**`/capture`** runs after implementation. It snapshots what just happened — saves context and fires `/learn` in one shot. Progress gets logged to SQLite. Non-obvious patterns get stored as memories. Decisions get written down before they evaporate.
+
+The practical effect: next session, Claude already knows what was decided and why. You spend zero time re-explaining context you've already explained. The work builds forward instead of resetting.
+
+## The rule that made it work
+
+The temptation when you have a system is to optimize it too early. Add more steps. Build more hooks. Make it more sophisticated.
+
+I resisted that. For the first few months, I ran the simple 4-step loop exactly as described. I didn't modify it until I hit a real problem — the memory gap — and the fix was minimal: one command, one specific purpose.
+
+That's the principle behind both loops: **start with structure, extend based on what actually breaks**.
+
+Not what might break. Not what you imagine could be better. What concretely broke in real sessions.
+
+The Boris Cherny pattern is a good starting point because it covers the core failure modes: no plan, no cleanup, no verification, no context on the commit. Once those are handled, you'll discover your own gaps. The `/capture` step solved mine. Yours might be different.
+
+## What this looks like day to day
+
+Most sessions: `/plan`, implement, `/capture`, `/simplify`, `/verify`, `/commit-push-pr`. About 20-30 minutes per feature or fix, depending on complexity. The loop doesn't take longer — it replaces the time I used to spend cleaning up mistakes and re-explaining context.
+
+The hooks handle the mechanical parts. Auto-formatting, type checking, console.log warnings — none of that requires my attention. I review the diff at `/verify` and almost always find it clean.
+
+The commit at the end has a real message. The PR has context. Future-me can read the history and understand what happened.
+
+## Where to start
+
+If you're new to Claude Code: run the 4-step loop for a month before changing anything.
+
+```
+/plan → implement → /simplify → /verify → /commit-push-pr
+```
+
+Don't add `/capture` yet. Don't set up hooks. Don't configure anything. Just follow the loop. Get consistent with it. Learn where it helps and where it doesn't.
+
+Then extend — only where the base loop actually falls short.
+
+That's how you build a workflow that sticks instead of one you abandon after two weeks because it got too complicated.
+
+---
+
+The full command reference and hook setup is in my [Claude Code config repo](https://github.com/RohiRIK/claude-code-config/blob/main/docs/workflow-daily.md) if you want to dig deeper.
+
+What does your Claude Code workflow look like? I'm curious whether others have hit the same memory gap or found different failure modes. Let me know.
+2a:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L2f",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L32",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L33","claude-code-daily-workflow",{"post":{"metadata":{"title":"The Claude Code Workflow That Actually Stuck","subtitle":"","publishedAt":"2026-03-18","summary":"I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch.","image":"","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-daily-workflow","content":"$34"},"thumbnail":true,"direction":"column"}],"$L35"]}]]}]
+2b:["$","$L36",null,{}]
+2c:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L37",null,{"fitHeight":true}]}]
+2d:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
+2e:["$","$L38",null,{"children":["$","$39",null,{"name":"Next.MetadataOutlet","children":"$@3a"}]}]
+3b:T1a15,
 The first version of my Claude Code config replaced the default (no memory) with a structured 4-file system: goals, decisions, progress, gotchas. Markdown files, hooks that read and write them, a summary injected at session start. It worked. For a few months.
 
 The problem with flat markdown files isn't that they fail — it's that they don't scale. After a few hundred entries across a dozen projects, you start noticing the cracks. Duplicate decisions. Gotchas that contradict each other because the older one was never updated. Progress logs that grow faster than they get trimmed. No way to ask "what do I know about Supabase" without reading every file.
@@ -128,95 +227,5 @@ With SQLite, the system improves over time. Memories that matter get used, have 
 The graph visualizer isn't something I use every session — but when I do open it, it answers questions that were previously unanswerable: "what have I decided about this project?", "is there a gotcha about this library I logged a month ago?", "why does this memory exist?"
 
 The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
-2a:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L2f",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L32",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L33","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$34"},"thumbnail":true,"direction":"column"}],"$L35"]}]]}]
-2b:["$","$L36",null,{}]
-2c:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L37",null,{"fitHeight":true}]}]
-2d:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
-2e:["$","$L38",null,{"children":["$","$39",null,{"name":"Next.MetadataOutlet","children":"$@3a"}]}]
-3b:T1f74,
-The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?
-
-Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works.
-
-It's a reasonable ask. It's how a lot of IT shops solve this problem. They've got the pieces — Intune, SharePoint, Power BI — and they want to wire them together. The request made sense for where they were.
-
-I said I'd get back to them with a proposal.
-
-## The Ceiling
-
-I spent a day mapping out the pipeline they'd asked for. And the more I built it in my head, the more I saw where it would break.
-
-**SharePoint as a database** is the first problem. SharePoint lists have a 5,000-item view threshold — not a hard limit, but enough to start causing issues at scale. There's no real schema enforcement, no foreign keys, no joins. You end up denormalizing everything and hoping the refresh writes are idempotent. When they're not, you get stale rows and duplicate entries that Power BI dutifully surfaces as real data.
-
-**Jenkins as a scheduler** is infra for infra's sake. You're running a CI/CD system to run a cron job. That means maintaining an agent, managing credentials, monitoring for failed runs, building retry logic from scratch. When the sync breaks at 2am, nobody knows until someone notices the dashboards haven't updated.
-
-**Power BI on a schedule** means the data is stale by definition. If your refresh runs every four hours and a device falls out of compliance at 9am, your dashboard won't show it until 1pm. For a compliance and security use case, that gap matters.
-
-And there was no RBAC anywhere in this design. Anyone with SharePoint access could see everything — all devices, all users, all compliance states. Helpdesk techs, managers, contractors. No audit trail of who looked at what.
-
-But the deepest problem wasn't architectural. The client didn't actually want a pipeline. They wanted **device visibility**. They wanted to know what was out there and whether it was healthy. The pipeline was just the closest solution shape they knew how to ask for.
-
-## The Pitch
-
-I came back with a counter-proposal.
-
-Instead of a pipeline, I pitched a purpose-built web app: FleetWatch. The sell was simple — you'll stop asking "is this data current?" because it always will be.
-
-Specifically:
-- Real-time sync via Microsoft Graph API delta queries, pulling only changed devices instead of exporting everything on a schedule
-- Postgres as the data store — real schema, real queries, real relational data
-- RBAC built in from day one: admins see everything, helpdesk sees their assigned devices
-- Full audit logs of who accessed what and when
-- A proper UI instead of a Power BI dashboard that takes 30 seconds to load and can't drill into a single device
-
-The client said yes. Partly because the technical argument was sound, and partly because I had mocked up what the device detail page would look like. It's easier to approve something you can see.
-
-## The Architecture
-
-The core of FleetWatch is the Microsoft Graph API integration.
-
-Authentication uses a Service Principal with Client Certificate auth — no client secrets that expire. The key endpoint is `/deviceManagement/managedDevices/delta`, which supports delta queries: on first run you get all devices, on subsequent runs you only get devices that changed since your last sync token. Instead of exporting 800 devices every four hours, you're processing 12 changed devices every 30 minutes.
-
-The sync runs on Vercel Cron jobs. No Jenkins, no agents, no infra to maintain. The cron endpoint is protected with a shared secret header — simple, effective. Failed syncs surface in application logs, not in a Jenkins console that nobody checks.
-
-The data layer is Postgres on Vercel with Drizzle ORM. The schema models the actual domain: a `devices` table, a `users` table, `compliance_policies`, `app_inventory`, `security_hardware`. When you need to answer "which devices have BitLocker disabled and are assigned to users in the Finance department," that's a join, not a SharePoint list crawl.
-
-The frontend is Next.js 15 with the App Router. Server Components handle the heavy lifting — device lists, compliance views, filtered queries all render server-side. The device detail page has six tabs: Overview, Compliance, Configuration, Security, Hardware, and Network. Each tab queries only the data it needs.
-
-```
-Before (proposed):
-Jenkins → PowerShell → SharePoint Lists → Power BI (scheduled refresh)
-
-After (FleetWatch):
-Vercel Cron → Microsoft Graph API → Postgres → Next.js (real-time)
-```
-
-Auth is NextAuth with role-based access enforced at the API layer. The middleware checks roles before any data query runs — not just in the UI, where it's trivial to bypass. Admin and read-only roles are stored per-user in the database, not inferred from SharePoint group membership.
-
-Monitoring is a `/api/health` endpoint that checks database connectivity and last successful sync time, plus a `/api/metrics` endpoint for the operational stats I actually care about: sync duration, devices processed, error rate. Redis is wired in as an optional cache layer for the dashboard aggregate queries.
-
-## What It Enables
-
-The gap between the pipeline and the app isn't cosmetic — it's functional.
-
-Search and filter across all 800 devices returns results in under 100ms. You can filter by compliance state, OS version, last sync time, assigned user, or any combination. In Power BI with a scheduled refresh, you're waiting for a report to load and hoping it reflects reality.
-
-The device detail page shows everything in one place: BitLocker status, TPM chip version, Secure Boot state, assigned compliance policies, installed applications, network adapters. That level of detail doesn't exist in the SharePoint list model — you'd need separate lists for each entity and a Power BI data model to join them, which you'd then need to maintain.
-
-RBAC means helpdesk techs can look up devices without needing SharePoint permissions across the entire tenant. No permissions sprawl, no "just give them read access to the list." You grant a role in FleetWatch and that's it.
-
-The export function lets you pull filtered device lists to CSV — useful for compliance reporting, vendor audits, or just sending a list of non-compliant devices to the right team. It works on whatever filter you've currently applied, so you're exporting exactly what you're looking at.
-
-Compliance trend graphs show state over time from the sync history, not from a Power BI snapshot that was current when the report was built. When a device falls out of compliance and comes back, you can see when both events happened.
-
-## The Lesson
-
-Scripts are the right first tool when scope is unclear. If the client had wanted a one-time export to audit their device inventory, the PowerShell approach would have been exactly right. Fast to build, no ongoing maintenance, done.
-
-But when the real problem is ongoing visibility — and when the solution needs RBAC, audit logs, freshness guarantees, and drill-down — the pipeline approach has a ceiling. It would have worked for three months. Then the IT team would have been back asking for user lookup, filtered exports, freshness indicators, device-level detail. The pipeline would have been extended with more scripts, more SharePoint lists, more Power BI datasets. Each addition would have made the system more fragile and harder to reason about.
-
-Building FleetWatch upfront was a harder conversation to have, but it was the right one. The client got a system that solves the problem they actually had — not the problem they knew how to articulate.
-
-The source is on GitHub at [RohiRIK/FleetWatch](https://github.com/RohiRIK/FleetWatch) if you want to see how it's put together.
-35:["$","$L33","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$3b"},"thumbnail":true,"direction":"column"}]
+35:["$","$L33","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$3b"},"thumbnail":true,"direction":"column"}]
 3a:null

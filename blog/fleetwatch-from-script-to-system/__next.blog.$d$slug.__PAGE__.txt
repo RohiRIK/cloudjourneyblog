@@ -18,7 +18,7 @@
 3b:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
 3c:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 3d:"$Sreact.suspense"
-0:{"buildId":"37n-fGHrSwYmIGEL9mSGG","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/fleetwatch-from-script-to-system","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/fleetwatch-from-script-to-system\",\"sameAs\":[],\"headline\":\"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch\",\"description\":\"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/fleetwatch-from-script-to-system.png\",\"datePublished\":\"2026-03-04\",\"dateModified\":\"2026-03-04\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 4, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/fleetwatch-from-script-to-system.png","alt":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"It's a reasonable ask. It's how a lot of IT shops solve this problem. They've got the pieces — Intune, SharePoint, Power BI — and they want to wire them together. The request made sense for where they were."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I said I'd get back to them with a proposal."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-ceiling","children":"The Ceiling"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I spent a day mapping out the pipeline they'd asked for. And the more I built it in my head, the more I saw where it would break."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28"]}],"$L29","$L2a","$L2b","$L2c"]}]}],"$L2d"]}],["$L2e"],"$L2f"]}],"loading":null,"isPartial":false}
+0:{"buildId":"dFM29RODc1X_pmmGYExde","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/fleetwatch-from-script-to-system","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/fleetwatch-from-script-to-system\",\"sameAs\":[],\"headline\":\"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch\",\"description\":\"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/fleetwatch-from-script-to-system.png\",\"datePublished\":\"2026-03-04\",\"dateModified\":\"2026-03-04\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 4, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/fleetwatch-from-script-to-system.png","alt":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"It's a reasonable ask. It's how a lot of IT shops solve this problem. They've got the pieces — Intune, SharePoint, Power BI — and they want to wire them together. The request made sense for where they were."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I said I'd get back to them with a proposal."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-ceiling","children":"The Ceiling"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I spent a day mapping out the pipeline they'd asked for. And the more I built it in my head, the more I saw where it would break."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28"]}],"$L29","$L2a","$L2b","$L2c"]}]}],"$L2d"]}],["$L2e"],"$L2f"]}],"loading":null,"isPartial":false}
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"SharePoint as a database"}]," is the first problem. SharePoint lists have a 5,000-item view threshold — not a hard limit, but enough to start causing issues at scale. There's no real schema enforcement, no foreign keys, no joins. You end up denormalizing everything and hoping the refresh writes are idempotent. When they're not, you get stale rows and duplicate entries that Power BI dutifully surfaces as real data."]}]
 a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Jenkins as a scheduler"}]," is infra for infra's sake. You're running a CI/CD system to run a cron job. That means maintaining an agent, managing credentials, monitoring for failed runs, building retry logic from scratch. When the sync breaks at 2am, nobody knows until someone notices the dashboards haven't updated."]}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Power BI on a schedule"}]," means the data is stale by definition. If your refresh runs every four hours and a device falls out of compliance at 9am, your dashboard won't show it until 1pm. For a compliance and security use case, that gap matters."]}]
@@ -53,7 +53,106 @@ f:["$","span",null,{"className":"font-body font-default font-m neutral-on-backgr
 28:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["The source is on GitHub at ",["$","a",null,{"href":"https://github.com/RohiRIK/FleetWatch","target":"_blank","rel":"noopener noreferrer","children":"RohiRIK/FleetWatch"}]," if you want to see how it's put together."]}]
 29:["$","$L33",null,{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","url":"https://CloudJourneyBlog.rohi-lab.org/blog/fleetwatch-from-script-to-system"}]
 2a:["$","$L34",null,{}]
-38:T1a15,
+38:T179d,
+Most people use Claude Code like a fancy autocomplete. Type a request, read the output, copy-paste, repeat. That works. But it leaves a lot on the table.
+
+When I started seriously using Claude Code, I didn't invent my own system. I borrowed one — specifically, the pattern that Boris Cherny (one of Claude Code's creators) uses himself:
+
+```
+/plan → implement → /simplify → /verify → /commit-push-pr
+```
+
+Four steps. No magic. But the discipline of following them consistently changed how I work.
+
+## Why structure matters more than prompts
+
+The common advice for AI tools is "better prompts = better results." That's not wrong, but it's incomplete. The real lever is *process*, not prompts.
+
+Without a process, you're improvising every session. You start coding before the plan is solid, then steer Claude mid-implementation when it drifts. You skip the cleanup because you're tired. You commit without reviewing the diff because it *probably* looks fine. Each shortcut is small. Over time, they compound.
+
+A structured loop closes those gaps. Not because it makes Claude smarter — it doesn't. It makes *you* more consistent.
+
+## The starting loop
+
+Here's what the Boris Cherny pattern looks like in practice:
+
+**`/plan`** — Before writing a single line of code, enter Plan Mode (Shift+Tab twice). Describe the task. Refine the plan until it's specific enough that you'd feel confident handing it to a junior engineer. Then say yes.
+
+The rule I follow: if I'm still steering Claude during implementation, the plan wasn't good enough. A solid plan means near-zero mid-session corrections.
+
+**`implement`** — Switch to auto-accept and let it run. Hooks fire on every edit: Prettier auto-formats, tsc checks TypeScript after every `.ts` change, a guard warns if console.log sneaks in. The machine runs itself. You watch.
+
+**`/simplify`** — After implementation, before touching git. This step reviews the changed code for unnecessary abstraction, deep nesting, premature generalization. It finds the things you stopped noticing because you were heads-down building. It removes them.
+
+This is the step most people skip. It's also the step that keeps codebases readable three months later.
+
+**`/verify`** — The gate before committing. Runs tsc → lint → tests → build → security check → git diff review. If something breaks here, it's cheap to fix. If it breaks after the PR merges, it's expensive.
+
+**`/commit-push-pr`** — Pre-computes the full git context, writes a conventional commit message, pushes, opens a PR with a summary and test plan. Not a one-liner. A real commit with context.
+
+That's the base loop. I ran it for a few months and got the best results I'd had from any AI coding tool.
+
+## What I added — and why
+
+The Boris Cherny loop is complete for *execution*. What it doesn't cover is *memory*.
+
+After a week of sessions, I noticed something: Claude was re-learning the same things. Decisions I'd made three sessions ago. Patterns that kept coming up. Architecture choices I'd explained twice already. Every new session started cold.
+
+The fix was one new step between `implement` and `/simplify`:
+
+```
+/plan → implement → /capture → /simplify → /verify → /commit-push-pr
+```
+
+**`/capture`** runs after implementation. It snapshots what just happened — saves context and fires `/learn` in one shot. Progress gets logged to SQLite. Non-obvious patterns get stored as memories. Decisions get written down before they evaporate.
+
+The practical effect: next session, Claude already knows what was decided and why. You spend zero time re-explaining context you've already explained. The work builds forward instead of resetting.
+
+## The rule that made it work
+
+The temptation when you have a system is to optimize it too early. Add more steps. Build more hooks. Make it more sophisticated.
+
+I resisted that. For the first few months, I ran the simple 4-step loop exactly as described. I didn't modify it until I hit a real problem — the memory gap — and the fix was minimal: one command, one specific purpose.
+
+That's the principle behind both loops: **start with structure, extend based on what actually breaks**.
+
+Not what might break. Not what you imagine could be better. What concretely broke in real sessions.
+
+The Boris Cherny pattern is a good starting point because it covers the core failure modes: no plan, no cleanup, no verification, no context on the commit. Once those are handled, you'll discover your own gaps. The `/capture` step solved mine. Yours might be different.
+
+## What this looks like day to day
+
+Most sessions: `/plan`, implement, `/capture`, `/simplify`, `/verify`, `/commit-push-pr`. About 20-30 minutes per feature or fix, depending on complexity. The loop doesn't take longer — it replaces the time I used to spend cleaning up mistakes and re-explaining context.
+
+The hooks handle the mechanical parts. Auto-formatting, type checking, console.log warnings — none of that requires my attention. I review the diff at `/verify` and almost always find it clean.
+
+The commit at the end has a real message. The PR has context. Future-me can read the history and understand what happened.
+
+## Where to start
+
+If you're new to Claude Code: run the 4-step loop for a month before changing anything.
+
+```
+/plan → implement → /simplify → /verify → /commit-push-pr
+```
+
+Don't add `/capture` yet. Don't set up hooks. Don't configure anything. Just follow the loop. Get consistent with it. Learn where it helps and where it doesn't.
+
+Then extend — only where the base loop actually falls short.
+
+That's how you build a workflow that sticks instead of one you abandon after two weeks because it got too complicated.
+
+---
+
+The full command reference and hook setup is in my [Claude Code config repo](https://github.com/RohiRIK/claude-code-config/blob/main/docs/workflow-daily.md) if you want to dig deeper.
+
+What does your Claude Code workflow look like? I'm curious whether others have hit the same memory gap or found different failure modes. Let me know.
+2b:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L35",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L36",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L37","claude-code-daily-workflow",{"post":{"metadata":{"title":"The Claude Code Workflow That Actually Stuck","subtitle":"","publishedAt":"2026-03-18","summary":"I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch.","image":"","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-daily-workflow","content":"$38"},"thumbnail":true,"direction":"column"}],"$L39"]}]]}]
+2c:["$","$L3a",null,{}]
+2d:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L3b",null,{"fitHeight":true}]}]
+2e:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
+2f:["$","$L3c",null,{"children":["$","$3d",null,{"name":"Next.MetadataOutlet","children":"$@3e"}]}]
+3f:T1a15,
 The first version of my Claude Code config replaced the default (no memory) with a structured 4-file system: goals, decisions, progress, gotchas. Markdown files, hooks that read and write them, a summary injected at session start. It worked. For a few months.
 
 The problem with flat markdown files isn't that they fail — it's that they don't scale. After a few hundred entries across a dozen projects, you start noticing the cracks. Duplicate decisions. Gotchas that contradict each other because the older one was never updated. Progress logs that grow faster than they get trimmed. No way to ask "what do I know about Supabase" without reading every file.
@@ -132,160 +231,5 @@ With SQLite, the system improves over time. Memories that matter get used, have 
 The graph visualizer isn't something I use every session — but when I do open it, it answers questions that were previously unanswerable: "what have I decided about this project?", "is there a gotcha about this library I logged a month ago?", "why does this memory exist?"
 
 The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
-2b:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L35",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L36",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L37","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$38"},"thumbnail":true,"direction":"column"}],"$L39"]}]]}]
-2c:["$","$L3a",null,{}]
-2d:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L3b",null,{"fitHeight":true}]}]
-2e:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
-2f:["$","$L3c",null,{"children":["$","$3d",null,{"name":"Next.MetadataOutlet","children":"$@3e"}]}]
-3f:T19b0,
-If you're preparing to migrate to Entra ID and a penetration test just flagged "Netlogon not requiring RPC Sealing" — this is how you close it properly.
-
-This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you.
-
-## Why this matters
-
-Netlogon is the protocol domain-joined machines use to authenticate against Domain Controllers. Without RPC Sealing, that channel is unencrypted — a classic man-in-the-middle opportunity. Microsoft patched this with the Netlogon secure channel update (CVE-2020-1472 / Zerologon era), but enforcement is still opt-in. A lot of environments are patched but not enforced.
-
-Before you flip enforcement on, you need to know what's still sending unencrypted traffic. That's the whole point of phases 1–3.
-
----
-
-## Phase 1: Infrastructure Preparation
-
-**Target:** All servers and endpoints — DCs, member servers, and clients.
-
-Before any enforcement, the OS must actually support the RPC Sealing protocol. If you patch only your DCs and leave member servers behind, those servers will fail to authenticate once you enforce.
-
-**Action:** Deploy the latest Cumulative Updates. Specifically confirm KB5062600 / KB5021130 are installed. Reboot everything. Check that OS builds are current across the board.
-
-This phase is boring. Do it anyway.
-
----
-
-## Phase 2: Discovery (The Listening Phase)
-
-**Target:** Domain Controllers only.
-
-At this stage, DCs are capable of RPC Sealing but won't block anything yet. They will, however, log every non-compliant connection. That's exactly what you want.
-
-### Step 1 — MDI Reports
-
-Open Microsoft Defender for Identity. Pull the **"Weak Ciphers"** and **"NTLM Authentication"** reports. These give you a fast visual map of legacy devices: old NAS boxes, third-party applications, Linux/Samba servers, network appliances that predate NTLMv2.
-
-### Step 2 — PowerShell Event Log Query
-
-Event ID `5838` = connection attempted without sealing. Event ID `5840` = connection using weak cryptography. You want to find every machine generating these events across all your DCs.
-
-```powershell
-# Create a temp folder for the report
-$Path = "C:\temp"
-If (!(Test-Path $Path)) { New-Item -ItemType Directory -Force -Path $Path }
-
-# Get all Domain Controllers in the domain
-$DCs = Get-ADDomainController -Filter * | Select-Object -ExpandProperty Hostname
-
-$EventIDs = @(5838, 5840)
-$AllEvents = @()
-
-foreach ($DC in $DCs) {
-    Write-Host "Querying logs on DC: $DC..." -ForegroundColor Cyan
-    try {
-        $Events = Get-WinEvent -ComputerName $DC -FilterHashtable @{LogName='System'; ID=$EventIDs} -ErrorAction Stop
-
-        foreach ($Event in $Events) {
-            $AllEvents += [PSCustomObject]@{
-                DomainController = $DC
-                TimeCreated      = $Event.TimeCreated
-                EventID          = $Event.Id
-                Message          = $Event.Message.Split("`n")[0]
-            }
-        }
-    } catch {
-        Write-Warning "No matching events found on $DC, or access was denied."
-    }
-}
-
-# Export results
-if ($AllEvents.Count -gt 0) {
-    $ExportPath = "$Path\Netlogon_Vulnerable_Traffic.csv"
-    $AllEvents | Export-Csv -Path $ExportPath -NoTypeInformation -Encoding UTF8
-    Write-Host "Done! Found vulnerable traffic. Report saved to: $ExportPath" -ForegroundColor Yellow
-} else {
-    Write-Host "Excellent! No vulnerable Netlogon traffic detected across any DCs." -ForegroundColor Green
-}
-```
-
-Run this against all DCs. You'll get a CSV with timestamps, the DC that logged each event, and the message. That CSV is your remediation backlog.
-
----
-
-## Phase 3: Remediation (The Go/No-Go Gate)
-
-**Target:** Specific assets identified in Phase 2.
-
-This is where most projects stall. The CSV output usually surfaces a few categories:
-
-- **Legacy printers and scanners** — firmware update or replace
-- **Third-party applications** — vendor update or configuration change
-- **Linux/Samba servers** — update Samba and configure `client use spnego = yes`, `ntlm auth = no`
-- **Network appliances** — firmware update; sometimes the only option is replacement
-
-Work through each one. If something genuinely cannot be updated, you document why and decide whether a temporary exception is acceptable. In my experience, "we can't update it" is usually "we haven't tried hard enough yet."
-
-**The gate condition:** Run the discovery script again after remediation. You must see **zero new 5838 or 5840 events across all DCs for at least a few days** before moving to Phase 4. Not fewer events — zero.
-
----
-
-## Phase 4: Enforcement & Hardening
-
-**Target:** DCs for Netlogon; all servers and clients for SMB/NTLM.
-
-Only run this phase when Phase 3 is clean.
-
-### Step 4.1 — Enforce RPC Sealing on DCs
-
-Deploy via GPO targeting the Domain Controllers OU, or set the registry key directly via PowerShell:
-
-```
-Path:  HKLM\System\CurrentControlSet\Services\Netlogon\Parameters
-Key:   RequireSeal
-Type:  DWORD
-Value: 2
-```
-
-Once `RequireSeal = 2`, any device that fails to use RPC sealing is blocked immediately. Blocked connections generate Event ID `5839` — monitor for these after enforcement so you can catch anything you missed in Phase 3.
-
-### Step 4.2 — SMB Signing and NTLM Hardening
-
-Roll these GPOs out in rings. Don't push to all clients simultaneously.
-
-- **Ring 1:** IT / test machines
-- **Ring 2:** Member servers
-- **Ring 3:** All clients
-
-GPO settings to enforce:
-
-**`Microsoft network server: Digitally sign communications (always)`** → Enabled
-
-**`Network security: LAN Manager authentication level`** → Send NTLMv2 response only. Refuse LM & NTLM
-
-The LAN Manager setting is the one that surprises people. Anything still using plain NTLM or LM will break when you enforce this. That's why the discovery phase exists.
-
----
-
-## What this closes
-
-Done correctly, this playbook addresses:
-
-- Unencrypted Netlogon channel (pen test finding)
-- Zerologon attack surface (CVE-2020-1472 enforcement)
-- NTLM downgrade attack vectors
-- SMB relay opportunities on the internal network
-
-It also puts you in a much cleaner position for Entra ID migration — because the same legacy devices causing problems here will cause problems during hybrid join and Conditional Access rollout. You're finding them now instead of later.
-
----
-
-The script above is what I run before any enforcement conversation. If you're seeing 5838s you didn't expect, start there — the CSV usually tells you exactly what needs attention.
-39:["$","$L37","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$3f"},"thumbnail":true,"direction":"column"}]
+39:["$","$L37","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$3f"},"thumbnail":true,"direction":"column"}]
 3e:null

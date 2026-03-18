@@ -1,0 +1,285 @@
+1:"$Sreact.fragment"
+3:I[339756,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
+4:I[837457,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
+6:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"ViewportBoundary"]
+b:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"MetadataBoundary"]
+d:I[168027,[],"default"]
+:HL["/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
+:HL["/_next/static/chunks/d20e0f0702cef329.css","style"]
+:HL["/_next/static/chunks/3a1b43107ae24619.css","style"]
+:HL["/_next/static/chunks/eef662fdc50843a7.css","style"]
+:HL["/_next/static/chunks/b3a7f4834154c9dc.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"dFM29RODc1X_pmmGYExde","c":["","blog","claude-code-daily-workflow"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","claude-code-daily-workflow","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6633d7a0fde019af.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+f:I[530824,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Providers"]
+10:I[273323,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
+11:I[621971,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RevealFx"]
+12:I[394412,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Background"]
+13:I[521247,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ClientFlex"]
+14:I[402971,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Header"]
+15:I[1166,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RouteGuard"]
+e:T771,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"violet","accent":"emerald","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$e"}}]}],["$","$Lf",null,{"children":["$","$L10",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L11",null,{"fill":true,"position":"absolute","children":["$","$L12",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L13",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L14",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L15",null,{"children":"$L16"}]}]}],"$L17"]}]}]]}]
+18:I[778454,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
+19:I[298229,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"IconButton"]
+1a:I[479520,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
+1b:I[624379,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
+1c:I[145250,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
+1e:I[448588,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
+1f:I[992713,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
+20:I[311451,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
+21:I[89532,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
+22:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
+16:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+23:T1a15,
+The first version of my Claude Code config replaced the default (no memory) with a structured 4-file system: goals, decisions, progress, gotchas. Markdown files, hooks that read and write them, a summary injected at session start. It worked. For a few months.
+
+The problem with flat markdown files isn't that they fail — it's that they don't scale. After a few hundred entries across a dozen projects, you start noticing the cracks. Duplicate decisions. Gotchas that contradict each other because the older one was never updated. Progress logs that grow faster than they get trimmed. No way to ask "what do I know about Supabase" without reading every file.
+
+The v2 config replaces all of it with SQLite.
+
+## The shift to SQLite LTM
+
+The new system lives at `~/.claude/memory/ltm.db`. Every memory, decision, gotcha, and progress item is a row. Projects are foreign-keyed. Relationships between memories are edges in a separate table.
+
+The hook system still works the same way from the outside — SessionStart injects context, PreCompact writes a snapshot, UpdateContext logs progress. What changed is what's underneath. Instead of appending to markdown files and hoping the trimming logic holds, everything goes to SQLite with indexed columns, typed categories, and a schema that can actually evolve.
+
+The immediate win is queries. You can now run:
+
+```bash
+bun -e "
+  const { getItems } = await import(process.env.HOME + '/.claude/memory/context.js');
+  const gotchas = getItems('project-name', 'gotcha');
+  console.log(JSON.stringify(gotchas));
+"
+```
+
+And get back a filtered, structured list — not a blob of markdown you have to parse mentally.
+
+New commands that came with it: `/learn`, `/recall`, `/forget`, `/relate`, `/check-context`, `/init-context`. The ones I use constantly are `/recall` (before starting any non-trivial task — surface past decisions before making new ones) and `/learn` (mid-session when something important comes up that shouldn't be lost to compaction).
+
+## The Janitor agent
+
+The memory problem I didn't anticipate: memories go stale. A decision made in February about one project's architecture has nothing to do with March, but it stays in the DB forever unless someone removes it. Duplicates accumulate. A gotcha from an early attempt at something gets superseded by a better approach but both entries survive.
+
+The Janitor is an autonomous sub-agent that runs inside `memory/server.ts`. It has four stages:
+
+**Decay** — memories that haven't been used get a confidence score that degrades over time. Below a configurable threshold (default 0.2), they get archived. Not deleted — archived. You can review them.
+
+**Auto-promote** — when the UpdateContext hook writes a `decision` or `gotcha` context item, the Janitor elevates it to a global memory automatically. No manual `/learn` required for things that come out of normal workflow.
+
+**Semantic dedup** — each memory gets an embedding vector. The Janitor runs cosine similarity across them. Anything above 0.85 similarity is flagged as a potential duplicate, and an LLM proposes a merge. The merge goes to a pending queue — you approve or reject, nothing changes automatically.
+
+**Supersedes** — when memories are merged, the old ones get marked `superseded` with a `supersedes` edge in the relations table. The knowledge graph stays consistent.
+
+The part I like most: nothing the Janitor proposes takes effect without confirmation. It generates a queue of pending actions and surfaces them in a UI. You review, approve what makes sense, reject what doesn't. The agent maintains the memory system; you stay in control of what it actually does.
+
+## The graph visualizer
+
+The SQLite backend enabled something that wasn't possible with markdown files: a knowledge graph.
+
+`memory/server.ts` runs a Bun server on port 7331. `memory/graph-app/` is a Next.js app on 7332 that reads from it via WebSocket. What you see is a D3 force graph: project nodes, memory nodes, context item nodes, edges representing relationships.
+
+The layout is intentionally organic — link strength varies by relationship type. `context_of` links are loose (0.04), so context items float near their projects. `project_scope` links are tighter (0.25). Memory-to-memory relations are strong (0.6). The simulation converges and you can see clusters.
+
+Practically useful features:
+
+- **⌘K spotlight search** — FTS5-powered, keyboard navigable, zooms the graph to the matching node on select
+- **Tag filter panel** — click a tag to dim everything that doesn't match
+- **Project drill-down** — click any project node to get a dedicated page with all its context, memories, and relations
+- **Pending actions page** — the Janitor's propose queue, one click to approve or reject
+
+The graph makes something visible that was always there but invisible: what the model actually knows about your projects, how those memories relate, and where the gaps or stale entries are.
+
+## Multi-provider embeddings
+
+Semantic dedup and the `/recall` search need embeddings. The system now supports six providers: Gemini, OpenAI, Anthropic, Cohere, OpenRouter, Ollama.
+
+The settings UI at `/settings` lets you pick your embed provider, verify the API key inline (paste → spinner → green/red), and select from a dropdown of available models for that provider. It doesn't matter which you use for the embeddings — what matters is consistency, since vectors from different models aren't comparable.
+
+I run Ollama locally for embeddings. No API key, no cost, fast enough for the volume of memories a single developer accumulates.
+
+## What actually changed day-to-day
+
+The hooks look the same from the outside. Session starts, context is injected, work happens, progress is logged. The difference is what happens underneath and over time.
+
+With markdown files, the system degraded slowly. Files got messy. Duplicates crept in. The 20-item trim on progress.md was a blunt instrument. You never really knew what was in the DB unless you opened the files.
+
+With SQLite, the system improves over time. Memories that matter get used, have their confidence reinforced, and survive. Memories that stop being relevant decay. The Janitor surfaces what needs attention instead of letting stale data accumulate silently.
+
+The graph visualizer isn't something I use every session — but when I do open it, it answers questions that were previously unanswerable: "what have I decided about this project?", "is there a gotcha about this library I logged a month ago?", "why does this memory exist?"
+
+The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
+5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/claude-code-daily-workflow","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/claude-code-daily-workflow\",\"sameAs\":[],\"headline\":\"The Claude Code Workflow That Actually Stuck\",\"description\":\"I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"datePublished\":\"2026-03-18\",\"dateModified\":\"2026-03-18\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"March 18, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"The Claude Code Workflow That Actually Stuck"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}]]}]}],"",["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1d"}],["$","$L1e",null,{"title":"The Claude Code Workflow That Actually Stuck","url":"https://CloudJourneyBlog.rohi-lab.org/blog/claude-code-daily-workflow"}],["$","$L1f",null,{}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L20",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L21",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L22","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$23"},"thumbnail":true,"direction":"column"}],"$L24"]}]]}],"$L25"]}]}],"$L26"]}]
+28:I[988654,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+29:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+27:T1f74,
+The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?
+
+Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works.
+
+It's a reasonable ask. It's how a lot of IT shops solve this problem. They've got the pieces — Intune, SharePoint, Power BI — and they want to wire them together. The request made sense for where they were.
+
+I said I'd get back to them with a proposal.
+
+## The Ceiling
+
+I spent a day mapping out the pipeline they'd asked for. And the more I built it in my head, the more I saw where it would break.
+
+**SharePoint as a database** is the first problem. SharePoint lists have a 5,000-item view threshold — not a hard limit, but enough to start causing issues at scale. There's no real schema enforcement, no foreign keys, no joins. You end up denormalizing everything and hoping the refresh writes are idempotent. When they're not, you get stale rows and duplicate entries that Power BI dutifully surfaces as real data.
+
+**Jenkins as a scheduler** is infra for infra's sake. You're running a CI/CD system to run a cron job. That means maintaining an agent, managing credentials, monitoring for failed runs, building retry logic from scratch. When the sync breaks at 2am, nobody knows until someone notices the dashboards haven't updated.
+
+**Power BI on a schedule** means the data is stale by definition. If your refresh runs every four hours and a device falls out of compliance at 9am, your dashboard won't show it until 1pm. For a compliance and security use case, that gap matters.
+
+And there was no RBAC anywhere in this design. Anyone with SharePoint access could see everything — all devices, all users, all compliance states. Helpdesk techs, managers, contractors. No audit trail of who looked at what.
+
+But the deepest problem wasn't architectural. The client didn't actually want a pipeline. They wanted **device visibility**. They wanted to know what was out there and whether it was healthy. The pipeline was just the closest solution shape they knew how to ask for.
+
+## The Pitch
+
+I came back with a counter-proposal.
+
+Instead of a pipeline, I pitched a purpose-built web app: FleetWatch. The sell was simple — you'll stop asking "is this data current?" because it always will be.
+
+Specifically:
+- Real-time sync via Microsoft Graph API delta queries, pulling only changed devices instead of exporting everything on a schedule
+- Postgres as the data store — real schema, real queries, real relational data
+- RBAC built in from day one: admins see everything, helpdesk sees their assigned devices
+- Full audit logs of who accessed what and when
+- A proper UI instead of a Power BI dashboard that takes 30 seconds to load and can't drill into a single device
+
+The client said yes. Partly because the technical argument was sound, and partly because I had mocked up what the device detail page would look like. It's easier to approve something you can see.
+
+## The Architecture
+
+The core of FleetWatch is the Microsoft Graph API integration.
+
+Authentication uses a Service Principal with Client Certificate auth — no client secrets that expire. The key endpoint is `/deviceManagement/managedDevices/delta`, which supports delta queries: on first run you get all devices, on subsequent runs you only get devices that changed since your last sync token. Instead of exporting 800 devices every four hours, you're processing 12 changed devices every 30 minutes.
+
+The sync runs on Vercel Cron jobs. No Jenkins, no agents, no infra to maintain. The cron endpoint is protected with a shared secret header — simple, effective. Failed syncs surface in application logs, not in a Jenkins console that nobody checks.
+
+The data layer is Postgres on Vercel with Drizzle ORM. The schema models the actual domain: a `devices` table, a `users` table, `compliance_policies`, `app_inventory`, `security_hardware`. When you need to answer "which devices have BitLocker disabled and are assigned to users in the Finance department," that's a join, not a SharePoint list crawl.
+
+The frontend is Next.js 15 with the App Router. Server Components handle the heavy lifting — device lists, compliance views, filtered queries all render server-side. The device detail page has six tabs: Overview, Compliance, Configuration, Security, Hardware, and Network. Each tab queries only the data it needs.
+
+```
+Before (proposed):
+Jenkins → PowerShell → SharePoint Lists → Power BI (scheduled refresh)
+
+After (FleetWatch):
+Vercel Cron → Microsoft Graph API → Postgres → Next.js (real-time)
+```
+
+Auth is NextAuth with role-based access enforced at the API layer. The middleware checks roles before any data query runs — not just in the UI, where it's trivial to bypass. Admin and read-only roles are stored per-user in the database, not inferred from SharePoint group membership.
+
+Monitoring is a `/api/health` endpoint that checks database connectivity and last successful sync time, plus a `/api/metrics` endpoint for the operational stats I actually care about: sync duration, devices processed, error rate. Redis is wired in as an optional cache layer for the dashboard aggregate queries.
+
+## What It Enables
+
+The gap between the pipeline and the app isn't cosmetic — it's functional.
+
+Search and filter across all 800 devices returns results in under 100ms. You can filter by compliance state, OS version, last sync time, assigned user, or any combination. In Power BI with a scheduled refresh, you're waiting for a report to load and hoping it reflects reality.
+
+The device detail page shows everything in one place: BitLocker status, TPM chip version, Secure Boot state, assigned compliance policies, installed applications, network adapters. That level of detail doesn't exist in the SharePoint list model — you'd need separate lists for each entity and a Power BI data model to join them, which you'd then need to maintain.
+
+RBAC means helpdesk techs can look up devices without needing SharePoint permissions across the entire tenant. No permissions sprawl, no "just give them read access to the list." You grant a role in FleetWatch and that's it.
+
+The export function lets you pull filtered device lists to CSV — useful for compliance reporting, vendor audits, or just sending a list of non-compliant devices to the right team. It works on whatever filter you've currently applied, so you're exporting exactly what you're looking at.
+
+Compliance trend graphs show state over time from the sync history, not from a Power BI snapshot that was current when the report was built. When a device falls out of compliance and comes back, you can see when both events happened.
+
+## The Lesson
+
+Scripts are the right first tool when scope is unclear. If the client had wanted a one-time export to audit their device inventory, the PowerShell approach would have been exactly right. Fast to build, no ongoing maintenance, done.
+
+But when the real problem is ongoing visibility — and when the solution needs RBAC, audit logs, freshness guarantees, and drill-down — the pipeline approach has a ceiling. It would have worked for three months. Then the IT team would have been back asking for user lookup, filtered exports, freshness indicators, device-level detail. The pipeline would have been extended with more scripts, more SharePoint lists, more Power BI datasets. Each addition would have made the system more fragile and harder to reason about.
+
+Building FleetWatch upfront was a harder conversation to have, but it was the right one. The client got a system that solves the problem they actually had — not the problem they knew how to articulate.
+
+The source is on GitHub at [RohiRIK/FleetWatch](https://github.com/RohiRIK/FleetWatch) if you want to see how it's put together.
+24:["$","$L22","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$27"},"thumbnail":true,"direction":"column"}]
+25:["$","$L28",null,{}]
+26:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L29",null,{"fitHeight":true}]}]
+2a:I[362844,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
+2b:I[811052,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
+1d:[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Most people use Claude Code like a fancy autocomplete. Type a request, read the output, copy-paste, repeat. That works. But it leaves a lot on the table."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"When I started seriously using Claude Code, I didn't invent my own system. I borrowed one — specifically, the pattern that Boris Cherny (one of Claude Code's creators) uses himself:"}],"\n",["$","pre",null,{"children":["$","$L2a",null,{"children":"/plan → implement → /simplify → /verify → /commit-push-pr\n"}]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Four steps. No magic. But the discipline of following them consistently changed how I work."}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-structure-matters-more-than-prompts","children":"Why structure matters more than prompts"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["The common advice for AI tools is \"better prompts = better results.\" That's not wrong, but it's incomplete. The real lever is ",["$","em",null,{"children":"process"}],", not prompts."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Without a process, you're improvising every session. You start coding before the plan is solid, then steer Claude mid-implementation when it drifts. You skip the cleanup because you're tired. You commit without reviewing the diff because it ",["$","em",null,{"children":"probably"}]," looks fine. Each shortcut is small. Over time, they compound."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["A structured loop closes those gaps. Not because it makes Claude smarter — it doesn't. It makes ",["$","em",null,{"children":"you"}]," more consistent."]}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-starting-loop","children":"The starting loop"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Here's what the Boris Cherny pattern looks like in practice:"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":["$","$L2a",null,{"children":"/plan"}]}]," — Before writing a single line of code, enter Plan Mode (Shift+Tab twice). Describe the task. Refine the plan until it's specific enough that you'd feel confident handing it to a junior engineer. Then say yes."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The rule I follow: if I'm still steering Claude during implementation, the plan wasn't good enough. A solid plan means near-zero mid-session corrections."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":["$","$L2a",null,{"children":"implement"}]}]," — Switch to auto-accept and let it run. Hooks fire on every edit: Prettier auto-formats, tsc checks TypeScript after every ","$L2c"," change, a guard warns if console.log sneaks in. The machine runs itself. You watch."]}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b"]
+2c:["$","$L2a",null,{"children":".ts"}]
+2d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":["$","$L2a",null,{"children":"/simplify"}]}]," — After implementation, before touching git. This step reviews the changed code for unnecessary abstraction, deep nesting, premature generalization. It finds the things you stopped noticing because you were heads-down building. It removes them."]}]
+2e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"This is the step most people skip. It's also the step that keeps codebases readable three months later."}]
+2f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":["$","$L2a",null,{"children":"/verify"}]}]," — The gate before committing. Runs tsc → lint → tests → build → security check → git diff review. If something breaks here, it's cheap to fix. If it breaks after the PR merges, it's expensive."]}]
+30:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":["$","$L2a",null,{"children":"/commit-push-pr"}]}]," — Pre-computes the full git context, writes a conventional commit message, pushes, opens a PR with a summary and test plan. Not a one-liner. A real commit with context."]}]
+31:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"That's the base loop. I ran it for a few months and got the best results I'd had from any AI coding tool."}]
+32:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-i-added-and-why","children":"What I added — and why"}]
+33:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["The Boris Cherny loop is complete for ",["$","em",null,{"children":"execution"}],". What it doesn't cover is ",["$","em",null,{"children":"memory"}],"."]}]
+34:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"After a week of sessions, I noticed something: Claude was re-learning the same things. Decisions I'd made three sessions ago. Patterns that kept coming up. Architecture choices I'd explained twice already. Every new session started cold."}]
+35:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["The fix was one new step between ",["$","$L2a",null,{"children":"implement"}]," and ",["$","$L2a",null,{"children":"/simplify"}],":"]}]
+36:["$","pre",null,{"children":["$","$L2a",null,{"children":"/plan → implement → /capture → /simplify → /verify → /commit-push-pr\n"}]}]
+37:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":["$","$L2a",null,{"children":"/capture"}]}]," runs after implementation. It snapshots what just happened — saves context and fires ",["$","$L2a",null,{"children":"/learn"}]," in one shot. Progress gets logged to SQLite. Non-obvious patterns get stored as memories. Decisions get written down before they evaporate."]}]
+38:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The practical effect: next session, Claude already knows what was decided and why. You spend zero time re-explaining context you've already explained. The work builds forward instead of resetting."}]
+39:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-rule-that-made-it-work","children":"The rule that made it work"}]
+3a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The temptation when you have a system is to optimize it too early. Add more steps. Build more hooks. Make it more sophisticated."}]
+3b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I resisted that. For the first few months, I ran the simple 4-step loop exactly as described. I didn't modify it until I hit a real problem — the memory gap — and the fix was minimal: one command, one specific purpose."}]
+3c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["That's the principle behind both loops: ",["$","strong",null,{"children":"start with structure, extend based on what actually breaks"}],"."]}]
+3d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Not what might break. Not what you imagine could be better. What concretely broke in real sessions."}]
+3e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["The Boris Cherny pattern is a good starting point because it covers the core failure modes: no plan, no cleanup, no verification, no context on the commit. Once those are handled, you'll discover your own gaps. The ",["$","$L2a",null,{"children":"/capture"}]," step solved mine. Yours might be different."]}]
+3f:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-this-looks-like-day-to-day","children":"What this looks like day to day"}]
+40:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Most sessions: ",["$","$L2a",null,{"children":"/plan"}],", implement, ",["$","$L2a",null,{"children":"/capture"}],", ",["$","$L2a",null,{"children":"/simplify"}],", ",["$","$L2a",null,{"children":"/verify"}],", ",["$","$L2a",null,{"children":"/commit-push-pr"}],". About 20-30 minutes per feature or fix, depending on complexity. The loop doesn't take longer — it replaces the time I used to spend cleaning up mistakes and re-explaining context."]}]
+41:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["The hooks handle the mechanical parts. Auto-formatting, type checking, console.log warnings — none of that requires my attention. I review the diff at ",["$","$L2a",null,{"children":"/verify"}]," and almost always find it clean."]}]
+42:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The commit at the end has a real message. The PR has context. Future-me can read the history and understand what happened."}]
+43:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"where-to-start","children":"Where to start"}]
+44:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"If you're new to Claude Code: run the 4-step loop for a month before changing anything."}]
+45:["$","pre",null,{"children":["$","$L2a",null,{"children":"/plan → implement → /simplify → /verify → /commit-push-pr\n"}]}]
+46:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Don't add ",["$","$L2a",null,{"children":"/capture"}]," yet. Don't set up hooks. Don't configure anything. Just follow the loop. Get consistent with it. Learn where it helps and where it doesn't."]}]
+47:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Then extend — only where the base loop actually falls short."}]
+48:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"That's how you build a workflow that sticks instead of one you abandon after two weeks because it got too complicated."}]
+49:["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L20",null,{"maxWidth":"40"}]}]
+4a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["The full command reference and hook setup is in my ",["$","a",null,{"href":"https://github.com/RohiRIK/claude-code-config/blob/main/docs/workflow-daily.md","target":"_blank","rel":"noopener noreferrer","children":"Claude Code config repo"}]," if you want to dig deeper."]}]
+4b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"What does your Claude Code workflow look like? I'm curious whether others have hit the same memory gap or found different failure modes. Let me know."}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+4c:I[27201,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"IconMark"]
+8:null
+c:[["$","title","0",{"children":"The Claude Code Workflow That Actually Stuck"}],["$","meta","1",{"name":"description","content":"I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch."}],["$","meta","2",{"property":"og:title","content":"The Claude Code Workflow That Actually Stuck"}],["$","meta","3",{"property":"og:description","content":"I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch."}],["$","meta","4",{"property":"og:url","content":"https://cloudjourneyblog.rohi-lab.org/blog/claude-code-daily-workflow"}],["$","meta","5",{"property":"og:image","content":"https://cloudjourneyblog.rohi-lab.org/images/avatar.png"}],["$","meta","6",{"property":"og:image:alt","content":"The Claude Code Workflow That Actually Stuck"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"The Claude Code Workflow That Actually Stuck"}],["$","meta","10",{"name":"twitter:description","content":"I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch."}],["$","meta","11",{"name":"twitter:image","content":"https://cloudjourneyblog.rohi-lab.org/images/avatar.png"}],["$","link","12",{"rel":"icon","href":"/icon.png?icon.4f0888a0.png","sizes":"1532x1858","type":"image/png"}],["$","$L4c","13",{}]]
