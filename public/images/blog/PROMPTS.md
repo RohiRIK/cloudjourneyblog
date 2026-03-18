@@ -21,6 +21,12 @@
 
 ---
 
+## Site Assets
+
+- [x] favicon — src/app/icon.png
+
+---
+
 ## 1. zero-trust-is-not-a-product.png
 
 **Concept:** MISDIRECTION problem type.
@@ -504,3 +510,54 @@ Color palette: near-black background, ring in neon-cyan, Plan node in warm amber
 Implement node in electric blue, Capture node in soft magenta, Simplify node in
 neon green, Verify/Ship node in cool cyan, memory branch in magenta, SQLite node
 in dark amber. Subjects fill the full frame. Minimal. Precise.
+
+---
+
+## Favicon — src/app/icon.png
+
+**Concept:** IDENTITY / MARK problem type.
+A favicon is a logo in a 16×16px prison. Most favicons fail because they're too
+complex — they collapse into noise at small sizes. This one must work at 16px,
+32px, and 512px equally. Two shapes. No more.
+
+**Technical requirements:**
+- Save as: `src/app/icon.png` (replaces existing file — Next.js auto-uses it as favicon)
+- Generate at: 512×512 px
+- Format: PNG, square, dark background (#0D0D0D)
+- Must pass the 32px test: shrink mentally — still readable?
+
+**32px test (MANDATORY before accepting):**
+Mentally squint at the result. Can you still see two distinct shapes? If the
+shapes merge into a blob → reject and simplify further.
+
+**Prompt:**
+
+Nano Banana style icon design. Near-black background (#0D0D0D). Bold flat neon
+geometry. No text. No gradients. No glow-blur. Hard edges only.
+
+EXACTLY TWO SHAPES — nothing else:
+
+Shape 1 — CHEVRON: A bold upward-pointing chevron (like ›› rotated 90°),
+rendered in electric cyan (#00E5FF). Thick strokes — minimum 40px wide at
+512px resolution. Centered in the frame. Points upward.
+
+Shape 2 — HORIZON LINE: A single horizontal bar in warm amber (#FFB300),
+positioned below the chevron base. Width = same as chevron's total width.
+Thin but solid — 20px height at 512px resolution.
+
+COMPOSITION RULES (CRITICAL):
+- Both shapes FILL the center 70% of the frame — not tiny, not floating
+- Equal left/right padding. Equal top/bottom breathing room.
+- The chevron tip points toward the top 20% of the frame
+- The amber line sits in the bottom 30% of the frame
+- Negative space between chevron and line = exactly one line's height
+- NO circles, borders, containers, or decorative elements
+
+COLOR:
+- Background: #0D0D0D (near-black)
+- Chevron: #00E5FF (electric cyan) — bold, saturated
+- Horizon: #FFB300 (amber) — bold, saturated
+- Nothing else
+
+The result should look like a ↑ mark hovering above a horizon.
+Two shapes. Two colors. Maximum clarity at minimum size.
