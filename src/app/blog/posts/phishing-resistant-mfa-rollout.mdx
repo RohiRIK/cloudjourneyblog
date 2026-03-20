@@ -1,0 +1,108 @@
+---
+title: "Phishing-Resistant MFA Rollout"
+summary: "Standard MFA is no longer enough. Here's how we designed a gradual Conditional Access rollout to enforce FIDO2, Windows Hello for Business, and Platform SSO across a security-conscious OT environment."
+image: "/images/blog/phishing-resistant-mfa-rollout.png"
+publishedAt: "2026-03-20"
+tag: "Security"
+---
+
+Most Microsoft 365 environments have MFA. Most of them are still vulnerable to phishing.
+
+The gap is the method. Push notifications can be MFA-fatigue'd. TOTP codes can be intercepted mid-session. SMS is trivially bypassed. None of these protect against an adversary-in-the-middle proxy sitting between your user and your identity provider — and those attacks are increasingly automated, accessible, and effective.
+
+Phishing-resistant MFA changes the equation. FIDO2 hardware keys and Windows Hello for Business bind the authentication ceremony to the legitimate origin, so there's nothing to intercept. The credential never leaves the device in a form that can be replayed.
+
+Here's how I rolled it out for a security-conscious OT Security client, without locking anyone out.
+
+## Why standard MFA isn't enough anymore
+
+The Microsoft Authenticator push approval flow is convenient, but it's also the attack surface. Evilginx and similar tools run transparent proxies that present a legitimate-looking login page, relay credentials upstream, capture the session token, and forward the real Microsoft 2FA challenge to the user. The user approves what looks like a normal push notification. The attacker gets a valid session.
+
+Number matching and additional context in Authenticator reduce the friction for this attack, but they don't eliminate it. Phishing-resistant methods do — because authentication is cryptographically tied to the relying party's domain. A FIDO2 credential issued for `login.microsoftonline.com` cannot be used against `evil-proxy.attackerinfra.com`.
+
+## The client context
+
+The OT Security client already had standard MFA enforced across the tenant and a working Conditional Access baseline. The ask was to harden further — specifically to require phishing-resistant MFA for privileged access, key applications, and high-value users, without a hard cutover that disrupted operations.
+
+The environment was mostly managed Windows devices (Intune-joined), a mix of FIDO2 keys already in use by IT, and a broader user population comfortable with Authenticator but unfamiliar with passkeys.
+
+## Authentication strengths: the mechanism
+
+Entra ID has a concept called Authentication Strengths — a named set of allowed authentication method combinations that can be referenced directly in Conditional Access grant controls. Instead of a binary "require MFA" control, you specify a strength: built-in options like MFA, Passwordless MFA, and Phishing-Resistant MFA, or custom combinations you define.
+
+Phishing-Resistant MFA maps to FIDO2 security keys, Windows Hello for Business, and certificate-based authentication. Nothing else.
+
+This is the right abstraction for a gradual rollout. You can apply the phishing-resistant strength to specific user groups, specific apps, or specific roles — without changing your existing baseline policies for everyone else.
+
+## The rollout policy design
+
+We structured the rollout in three phases, each building on the last.
+
+**Phase 1 — Privileged roles.**
+Start with Global Admins, Privileged Role Administrators, Exchange Admins, and Security Admins. These accounts are high-value targets and should have been using phishing-resistant methods already. The blast radius of a compromised admin account justifies the friction.
+
+Policy target: all users assigned Entra ID privileged directory roles. Grant: require authentication strength — Phishing-Resistant MFA. Enforced immediately.
+
+**Phase 2 — Sensitive applications.**
+Extend to the apps with the most exposure: Azure portal, Intune admin center, Exchange admin, and any internal apps handling sensitive OT asset data. This catches users who aren't admins but have elevated access to critical systems.
+
+Policy target: specific cloud apps (Azure Management, Microsoft Intune, plus named enterprise apps). Grant: require authentication strength — Phishing-Resistant MFA. Deployed in report-only for two weeks, then enforced.
+
+**Phase 3 — Broad user population (graduated).**
+For the general user base, we didn't mandate immediate hardware key adoption. Instead, we:
+
+1. Created a named group: `sg-phishing-resistant-mfa-enrolled`
+2. Deployed a policy requiring phishing-resistant MFA for all apps — scoped to that group only
+3. Enrolled users in batches: IT first, then team leads, then department by department
+4. As each batch completed enrollment, they were added to the group and the policy applied
+
+This gave us a controlled rollout with a clear enrolment signal, clean audit logs, and a path to full enforcement without a big-bang cutover.
+
+## Hardware keys vs. Windows Hello for Business
+
+For most users, Windows Hello for Business is the easier path. It's already provisioned on compliant Intune-managed devices, uses biometric or PIN, and requires no additional hardware. The onboarding experience is familiar — users who already log into Windows that way don't notice a difference.
+
+FIDO2 hardware keys are better for shared workstations, kiosk scenarios, privileged users who operate from multiple devices, and anyone without a dedicated Windows endpoint. We issued YubiKey 5 series keys to the IT team and specific high-privilege users. For everyone else, Windows Hello for Business was the default.
+
+One thing to verify before enforcing: Windows Hello for Business requires devices to be Hybrid Entra Joined or Entra Joined and the Hello provisioning policy to be deployed in Intune. Devices that are only domain-joined with no Entra ID registration can't use WHfB and will be blocked if you enforce phishing-resistant before resolving this.
+
+## Platform SSO: extending phishing resistance beyond Windows
+
+Windows Hello for Business solves the problem neatly on Windows, but most environments aren't Windows-only. macOS users, Linux workstations, and iOS/Android devices all need a path to phishing-resistant authentication.
+
+Platform SSO is Microsoft's answer for macOS. It's a native macOS extension (deployed via Intune as an MDM profile) that integrates Entra ID authentication directly into the macOS login experience. Instead of the browser-based SSO flow that Authenticator handles today, Platform SSO uses a system-level credential that participates in the OS authentication ceremony — the same model as Windows Hello for Business on Windows.
+
+From an Authentication Strengths perspective, Platform SSO using the hardware-bound key method qualifies as phishing-resistant. The key is generated in the macOS Secure Enclave, bound to the device, and used for WebAuthn assertions against Entra ID. It satisfies the same Conditional Access grant as a FIDO2 hardware key or Windows Hello for Business credential.
+
+The setup requires:
+
+1. **Deploy the Microsoft Enterprise SSO plug-in** via Intune — this is the MDM profile that registers the extension with macOS.
+2. **Configure Platform SSO settings** in the profile: set `AuthenticationMethod` to `UserSecureEnclaveKey` for the hardware-bound phishing-resistant variant, or `Password` if you only want SSO without the phishing-resistant step-up.
+3. **Users register on first login** — after the profile deploys, the next macOS login prompts the user to register the Platform SSO credential with Entra ID. This is the enrolment step. It requires a valid MFA method to bootstrap.
+4. **Verify the token type** in sign-in logs — once registered, sign-ins through Platform SSO show `deviceId` in the token claims and a `hwk` (hardware key) credential type. This is what Entra ID uses to classify the authentication as phishing-resistant.
+
+The Platform SSO credential also enables Single Sign-On to all Entra ID-protected apps from macOS without re-authenticating. Once the credential is registered, Safari, Chrome, and native apps that use the SSO extension get tokens silently. This is a meaningful UX improvement over the current model where every app triggers a browser redirect.
+
+One gotcha: Platform SSO on macOS requires Intune MDM enrollment and macOS 13 (Ventura) or later. Devices on older macOS versions fall back to the standard Authenticator flow. If you're enforcing phishing-resistant for a group that includes Mac users, verify macOS version compliance before adding them to the enforcement group.
+
+## Report-only first — always
+
+Every policy went through report-only before enforcement. The sign-in logs under report-only show exactly who would have been blocked, which authentication method they used, and whether the policy would have applied. Filter on "Report-only: Would have failed" and work through the results before switching to enforce.
+
+The most common surprise at this client: service accounts with interactive sign-ins that looked like users. They would have been blocked. We excluded the relevant service account identities explicitly and flagged them for certificate-based auth migration.
+
+## What we didn't do
+
+We didn't create a single policy requiring phishing-resistant MFA for all users from day one. That's the right eventual state but the wrong rollout order. Enrolment has to come before enforcement. Users need time to register a FIDO2 key or confirm WHfB is working before the policy applies to them — otherwise you're locking out the people you need to help most.
+
+We also didn't deprecate the existing MFA policies. They stayed in place. Phishing-resistant policies add stricter requirements on top; they don't replace the baseline. Belt and suspenders — the existing policies catch anything the new ones don't target yet.
+
+## The end state
+
+At full rollout, every privileged role assignment and every access attempt to a sensitive application requires a method that can't be phished. The broader user base is being enrolled in batches with a clear target of full coverage inside six months.
+
+The Conditional Access policy count went from 12 to 19 during this engagement. Each new policy has a clear owner, a documented scope, and a known enforcement date. That's the other half of making this sustainable — the policies themselves are managed as configuration, not improvised after the fact.
+
+---
+
+Phishing-resistant MFA isn't difficult to deploy in a Microsoft environment. The Authentication Strengths model makes it composable with your existing CA policies. The hard part is the change management and the enrolment order — getting users registered before the policy enforces, and not treating "our users have MFA" as meaning "our users are protected."

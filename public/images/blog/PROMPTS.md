@@ -18,6 +18,12 @@
 - [x] 10. fleetwatch-from-script-to-system.png
 - [x] 11. claude-code-config-v2.png
 - [x] 12. claude-code-daily-workflow.png
+- [x] 13. phishing-resistant-mfa-rollout.png
+- [x] 14. smart-offboarding-orchestration.png
+- [x] 15. jumpcloud-to-intune-migration.png
+- [x] 16. device-inventory-pipeline.png
+- [x] 17. hibob-hr-automation.png
+- [x] 18. claude-code-config-v3.png
 
 ---
 
@@ -561,3 +567,309 @@ COLOR:
 
 The result should look like a ↑ mark hovering above a horizon.
 Two shapes. Two colors. Maximum clarity at minimum size.
+
+---
+
+## 13. phishing-resistant-mfa-rollout.png
+
+**Concept:** MISDIRECTION / FALSE SECURITY problem type.
+Standard MFA looks like protection but isn't — it's a shield with a hidden gap.
+The real protection is hardware-bound: a credential locked in silicon that
+can't be stolen, proxied, or replayed. The image should show two layers of
+"security" — the visible-but-compromised layer and the true hardware-anchored
+layer beneath it.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Center composition: two concentric geometric shield shapes, one in front of
+the other, clearly distinct.
+
+OUTER SHIELD (the false protection — standard MFA):
+A large hexagonal shield outline in dim red-orange, rendered with a clean
+geometric notch cut into its upper-right edge — a gap, a structural weakness.
+From the gap, a thin red arrow curves outward and away, representing the
+adversary-in-the-middle proxy bypassing the credential. The shield surface is
+slightly desaturated, muted — it looks strong from a distance but the gap is
+visible. Small geometric icons float near the shield's surface: a push
+notification bell, a six-digit code block — the phishable methods.
+
+INNER SHIELD (the real protection — hardware-bound):
+A smaller, more solid pentagon shape behind and slightly below the outer
+shield, rendered in intense electric cyan with no gaps, no notches, no
+weaknesses. Its outline is thicker, harder, completely closed. A small
+geometric chip icon (Secure Enclave / hardware key) sits at its center —
+a square with circuit traces, glowing warm amber. Two thin neon-white lines
+extend from the chip to the shield edges, indicating the binding between
+credential and hardware.
+
+Between the two shields: a thin neon-white gap of negative space separates
+them — making the layering explicit.
+
+The red arrow from the outer shield's gap curves away to the left and
+terminates at an abstract proxy node (small, dark, dim red — hostile geometry)
+floating outside the composition. The arrow does NOT reach the inner shield —
+it is stopped by the negative space between them.
+
+Color palette: near-black background, outer shield in dim red-orange, inner
+shield in electric cyan, hardware chip in warm amber, gap arrow and proxy node
+in muted red, binding lines in neon-white. The contrast between the dim outer
+and the vivid inner is the point. Subjects fill the center of the frame.
+Minimal. Precise. The gap tells the whole story.
+
+---
+
+## 14. smart-offboarding-orchestration.png
+
+**Concept:** RACE AGAINST TIME / AUTOMATION problem type.
+Manual offboarding leaves doors open for hours while IT works a checklist.
+Automation closes every door in minutes. The image should show a cascade
+of sequential steps completing with precision — not chaos, not urgency,
+just a machine doing its job exactly right.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Vertical pipeline composition — a clean central column running top to bottom,
+representing the automated workflow. Fifteen small geometric step nodes are
+evenly spaced along the column, each a flat square with a minimal icon inside.
+The column is the workflow. It flows downward.
+
+The top of the column: a webhook trigger node — hexagonal, electric cyan,
+slightly larger than the step nodes. A thin horizontal arrow enters it from
+the left — the HR system signal.
+
+Along the column: each step node glows neon-green (complete). The icons inside
+are minimal geometric representations: a broken chain link (session revoke), a
+padlock-off (account disable), a shield with an X (MDE wipe), a document with
+checkmark (license removal), a folder-closed (mailbox archive). Spacing is
+equal — 15 nodes total, top to bottom.
+
+At the bottom: a completion node — pentagonal, larger, warm amber, solid
+outline. Four thin lines branch outward from it to small notification icons
+(two Teams bubbles, one document/audit icon, one checkmark) — the completion
+notifications and audit trail.
+
+On the right side: a thin vertical timeline bar, parallel to the main column,
+with a small clock icon at the top. A neon-white progress indicator fills
+from top to bottom, nearly complete — representing elapsed time. The number
+of nodes vs. the timeline communicates: all 15 steps, very little time.
+
+Color palette: near-black background, trigger node in electric cyan, step
+nodes in neon-green (complete), completion node in warm amber, timeline bar
+in cool white, completion branches in dim cyan. Everything is sequential,
+precise, automated. No chaos. No human hands.
+
+---
+
+## 15. jumpcloud-to-intune-migration.png
+
+**Concept:** MIGRATION / BRIDGE problem type.
+Two MDM platforms, one migration path. The old system has to be fully crossed
+before the new one takes over. The image should show a clean transit from one
+platform to another — a bridge architecture with a clear before and after.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Horizontal composition: two platform nodes on either side with a geometric
+bridge structure spanning between them.
+
+LEFT NODE (JumpCloud — the origin):
+A large octagonal node, dim amber-brown, slightly desaturated — fading, not
+the future. Inside: a simplified open-padlock icon (cross-platform but
+independent). A faint dotted border suggests managed devices leaving it.
+Small device icons (square tablets, rectangular laptops) cluster near the
+left node — devices that haven't migrated yet. They are dim.
+
+THE BRIDGE:
+A bold geometric bridge structure connecting both nodes — two parallel neon-
+cyan rails with small perpendicular rungs, like a circuit ladder. Along the
+bridge, three device icons (same geometric squares and rectangles) are
+mid-transit, each slightly brighter than the left cluster — these are
+in-progress migrations. They get progressively brighter left to right.
+
+RIGHT NODE (Intune + Entra ID — the destination):
+A large pentagonal node, vivid electric blue, solidly glowing. Inside: a
+closed-padlock icon, fully locked. Connected to it: two smaller secondary
+nodes in warm gold (MDE sensor) and electric cyan (Conditional Access policy)
+— representing the integrated stack. Small device icons cluster near the
+right node, all bright neon-green — these are enrolled, compliant, done.
+
+Above the bridge: a small chevron arrow pointing right — the direction of
+migration. It is neon-white, minimal, centered above the midpoint.
+
+Color palette: near-black background, JumpCloud node in dim amber-brown,
+bridge rails in neon-cyan, in-progress devices in transitional teal,
+Intune node in electric blue, secondary nodes in warm gold and cyan,
+enrolled devices in neon-green, direction arrow in neon-white. The color
+temperature gradient tells the story: warm/dim left → vivid/cool right.
+
+---
+
+## 16. device-inventory-pipeline.png
+
+**Concept:** CONVERGENCE / UNIFICATION problem type.
+Four data sources, each telling part of the story — none telling the whole
+story. The pipeline pulls from all four and produces one unified record.
+The image should show multiple streams converging into a single clean output.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Converging pipeline composition: four input streams from the corners flowing
+into a central merge node, then out to a single output.
+
+FOUR INPUT STREAMS (from the four corners):
+- Top-left (dim blue): AD stream — a small directory tree icon, branching
+  downward. Line color: steel blue.
+- Top-right (electric cyan): Intune stream — a small device-management grid
+  icon. Line color: electric cyan.
+- Bottom-left (warm amber): MDE stream — a small shield sensor icon.
+  Line color: amber.
+- Bottom-right (cool purple): Azure VM stream — a small cloud-VM icon.
+  Line color: violet.
+
+Each stream is a bold geometric line (not curved — angular, with a 45°
+bend) flowing toward the center from its corner. The lines converge on:
+
+CENTER MERGE NODE:
+A large hexagonal node, glowing neon-white, at exact center. Inside: a
+geometric merge symbol — four thin lines entering, one bold line exiting
+rightward. This is the PowerShell merge script. The node is the brightest
+element in the composition.
+
+RIGHT SIDE — THE PIPELINE OUTPUT:
+From the merge node, one clean horizontal line flows right to a rectangular
+SharePoint-list node (clean grid icon, cool teal). From the SharePoint node,
+a line continues right to a Power BI dashboard node (bar chart icon, warm
+gold). The output chain reads left to right: merge → store → visualize.
+
+Below the pipeline: a small gear icon (dim gray) at the far left, connected
+by a dotted line to the AD input corner — representing Jenkins triggering
+the run. Minimal, not the focus.
+
+Color palette: near-black background, input lines in their source colors
+(steel blue / cyan / amber / violet), merge node in neon-white, SharePoint
+node in cool teal, Power BI node in warm gold, Jenkins trigger in dim gray.
+The four streams and their colors are equal — none dominates. The merge
+node is the brightest point.
+
+---
+
+## 17. hibob-hr-automation.png
+
+**Concept:** SOURCE OF TRUTH / SYNC problem type.
+The HR system knows the real org. The IdP doesn't — it's stale, drifted,
+disconnected from reality. The sync bridge fixes this: HR is upstream,
+IdP is downstream, data flows one direction. The image should feel like
+a clean authoritative signal flowing into a receiving system.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Two-node composition with a directional flow bridge between them.
+
+LEFT NODE (HiBob HR system — the source):
+A large pentagon node, glowing warm amber — the authority, the source of
+truth. Inside: a small geometric org-chart icon — three rectangles connected
+by lines in a hierarchy. The outer border of this node is thicker than the
+right node — it carries more weight. Small data-attribute dots float around
+it in a tight orbit: small geometric squares labeled implicitly by color —
+amber for department, cyan for title, green for manager, pink for employment
+type. They orbit like electrons.
+
+THE SYNC BRIDGE:
+A bold horizontal channel connecting both nodes — not a line, but a wide
+geometric conduit (two parallel rails with a colored interior). Inside the
+conduit, small rectangular data packets flow left to right, each in a
+different neon color (matching the attribute dots). The flow is directional
+— all packets move right, none go left. The conduit is neon-cyan.
+
+RIGHT NODE (Entra ID / Active Directory — the destination):
+A slightly smaller hexagonal node, electric blue, clean and receptive.
+Inside: a simple directory/user icon — a circle (head) above a rectangle
+(body), geometric. Around its outer edge, the same colored attribute dots
+from the left node are arriving and docking — the sync completing. A few
+dots are already docked (bright), a few still in transit (mid-channel).
+
+Below the conduit, a small clock icon with a circular arrow — the scheduled
+sync cadence. Dim gray, minimal.
+
+Color palette: near-black background, HiBob node in warm amber, Entra ID
+node in electric blue, sync conduit in neon-cyan, data packets in varied
+neon (amber/cyan/green/pink), schedule icon in dim gray. The direction of
+flow (left to right, HR to IdP) tells the entire story.
+
+---
+
+## 18. claude-code-config-v3.png
+
+**Concept:** LIVING SYSTEM / EVOLUTION problem type.
+The config evolved from static markdown files to a self-maintaining knowledge
+infrastructure: SQLite memory, MCP primitives, semantic search, graph
+traversal, automatic extraction at session end. The image should feel like
+a neural architecture that grows, prunes, and reasons — not a static diagram.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Center composition: a complex but clean knowledge graph — floating geometric
+nodes connected by crisp neon lines. The graph fills the frame organically,
+not in a grid.
+
+NODE TYPES (each visually distinct):
+- STRONG memory nodes (4-5): large hexagons, intensely glowing electric cyan
+  — important, recently accessed, pulsing brightness
+- FADING memory nodes (3-4): smaller circles, dim steel-blue, slightly
+  transparent — decaying, old, low importance
+- SEMANTIC CLUSTER nodes (2-3): diamond shapes, warm amber, mid-size —
+  memories grouped by embedding similarity
+- MCP INTERFACE node: a single larger octagon, neon-white with a bold
+  border, positioned upper-center — the MCP server, the access point
+  Claude uses. Thin lines radiate from it outward to strong memory nodes,
+  showing the recall pattern.
+- EVALUATE node: a small pentagon, soft magenta, positioned at the top-right
+  corner — the EvaluateSession hook. A thin magenta arrow flows INTO the
+  graph from this node, depositing new small bright-green nodes (newly
+  extracted memories) along its path.
+- JANITOR node: a small octagon, deep purple, positioned center-left — with
+  thin lines reaching toward two fading nodes: one ends in a scissors-cut
+  symbol (pruning), one ends in a merge-arrow symbol (deduplication).
+
+EDGES:
+- Bright cyan for strong active connections
+- Dim dotted lines for decaying or weak connections
+- Magenta dotted line from EvaluateSession to new nodes
+- Purple lines from Janitor to its targets
+
+BACKGROUND ELEMENT (very subtle, low opacity):
+A faint SQLite database cylinder silhouette — dark steel, barely visible,
+at the bottom center — the foundation the graph lives in.
+
+Color palette: near-black background, strong memories in electric cyan,
+fading memories in dim steel-blue, semantic clusters in warm amber, MCP
+node in neon-white, EvaluateSession in soft magenta, Janitor in deep
+purple, new memories in bright green, SQLite silhouette in barely-visible
+dark steel. The graph breathes — some nodes vivid, some fading, the system
+tending itself.
+
+---

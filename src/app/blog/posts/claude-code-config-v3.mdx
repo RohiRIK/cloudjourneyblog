@@ -1,0 +1,122 @@
+---
+title: "Claude Code Config v3: LTM as Infrastructure"
+summary: "The config got a significant overhaul: SQLite-backed long-term memory, a dedicated MCP server exposing LTM primitives, semantic recall with embedding fallback, graph-based reasoning, and an EvaluateSession hook that extracts decisions automatically."
+image: "/images/blog/claude-code-config-v3.png"
+publishedAt: "2026-03-20"
+tag: "Dev Tools"
+---
+
+The previous version of my Claude Code config introduced structured context files — goals, decisions, progress, gotchas — persisted as markdown and injected at session start. That worked. But markdown has limits: no querying, no deduplication, no concept of importance or decay, no semantic search, and no way to surface related memories across projects.
+
+This version replaces the markdown context files with a SQLite-backed long-term memory system, a dedicated MCP server that exposes LTM primitives to Claude directly, semantic recall with embedding fallback, a graph reasoning layer, and an EvaluateSession hook that extracts decisions and patterns automatically at session end.
+
+Here's what changed and why.
+
+## From markdown files to SQLite
+
+The old system: four `.md` files per project (`context-goals.md`, `context-decisions.md`, `context-progress.md`, `context-gotchas.md`). Hooks read and wrote them. They worked until they didn't — duplicates accumulated, stale entries couldn't be cleaned up automatically, and there was no way to query across them.
+
+The new system: a single SQLite database at `~/.claude/memory/ltm.db`. Two main tables:
+
+- `memories` — long-term insights, patterns, and decisions. Each row has content, category (`preference | architecture | gotcha | pattern | workflow | constraint`), importance score (1–5), project scope (nullable for globals), tags, and a decay counter.
+- `context_items` — short-term session context. Goals, decisions, progress, and gotchas per project. These expire if a project is inactive for 14 days.
+
+The schema separation is deliberate. `context_items` are the working memory for an active project — things you need right now. `memories` are the durable knowledge base — things you want to remember across all future sessions.
+
+## The LTM MCP server
+
+The previous config had Claude calling shell scripts to read and write memory. That worked but was brittle and required careful prompt engineering to get Claude to use it consistently.
+
+The new approach: a dedicated MCP server (`ltm` server in `settings.json`) that exposes LTM as first-class MCP tools. Claude has native access to:
+
+- `ltm_recall` — FTS5 full-text search across memories with semantic fallback
+- `ltm_learn` — store a new memory or reinforce an existing one
+- `ltm_relate` — create typed relationships between memories
+- `ltm_forget` — delete a memory by ID
+- `ltm_context` — get merged context (globals + project-scoped memories)
+- `ltm_graph` — traverse the memory graph from seed nodes
+- `ltm_context_items` — get context items (goals, decisions, progress, gotchas) for a project
+
+With the MCP server active, Claude uses these tools directly without me having to orchestrate shell calls. The pattern in `CLAUDE.md` is now explicit: call `mcp__ltm__ltm_recall` before any non-trivial task, call `mcp__ltm__ltm_learn` after discovering a non-obvious pattern.
+
+## Semantic recall with embedding fallback
+
+`ltm_recall` does FTS5 full-text search first. If the FTS5 results are below a threshold, it triggers a semantic fallback: it calls an embedding API, generates a vector for the query, and does cosine similarity search against stored embeddings.
+
+The implementation in `memory/db.ts`:
+
+```typescript
+export async function recall(query: string, limit = 10): Promise<Memory[]> {
+  const ftsResults = searchFts(query, limit);
+  if (ftsResults.length >= limit * 0.6) return ftsResults;
+
+  // Semantic fallback
+  if (config.ltm.semanticFallback) {
+    const similar = await getSimilarMemories(query, limit);
+    return deduplicateMerge(ftsResults, similar);
+  }
+  return ftsResults;
+}
+```
+
+The graceful degradation is important: if the embedding API fails, the FTS5 results are still returned. Semantic search is an enhancement, not a dependency.
+
+## Graph-based reasoning
+
+Memories can have typed relationships: `supports`, `contradicts`, `refines`, `depends_on`, `related_to`, `supersedes`. These are stored in a `memory_relations` table.
+
+The `ltm_graph` tool does BFS traversal from seed nodes up to a configurable depth. The `getContextMergeWithGraph` function in `db.ts` uses this to build a richer context injection at session start — rather than just listing top memories, it traverses the graph from the most important ones and includes related memories that would otherwise rank below the injection cutoff.
+
+In practice this surfaces things like: "This pattern (memory 88) supports this architectural decision (memory 44) which was made in the context of this constraint (memory 31)." The chain gives Claude more context than any individual memory provides alone.
+
+Graph reasoning is gated behind `config.ltm.graphReasoning = true` — it's off by default because it increases session start time and token usage.
+
+## The EvaluateSession hook
+
+The most significant behavioral change: a `SessionEnd` / `EvaluateSession` hook that runs an LLM call at session end to extract decisions, patterns, and gotchas from the session transcript and write them to LTM automatically.
+
+Previously, learning required a manual `/learn` call. Most things worth remembering never got learned because they were discovered mid-task and I didn't stop to capture them.
+
+The EvaluateSession hook:
+1. Gets a compressed summary of the session (the existing PreCompact summary if available, or a fresh one)
+2. Sends it to Claude with a structured extraction prompt asking for: decisions made, patterns discovered, gotchas encountered, progress achieved
+3. Writes each extracted item to `ltm_learn` with appropriate category and importance
+4. Also updates `context_items` for the project with any progress or decisions
+
+The hook is gated behind `config.ltm.evaluateSessionLlm = true`. When enabled, every session that produces non-trivial work automatically contributes to the knowledge base.
+
+## Memory decay and the Janitor
+
+Memories have an importance score (1–5). Memories at importance 5 never decay — these are the global rules and constraints that must always be in context. Lower-importance memories decay over time if not accessed or reinforced.
+
+A Janitor agent runs periodically to:
+- Decay memories that haven't been accessed recently
+- Identify near-duplicate memories (via embedding similarity) and merge them
+- Flag memories that haven't been accessed in 90+ days for review
+- Prune memories that have decayed below a minimum threshold
+
+The Janitor runs as a standalone script (`memory/janitor.ts`) triggered by a cron-like scheduler in the background. It's not a hook — it runs independently of sessions.
+
+The D3 graph visualization app (from the previous post) makes this visible: strong memories glow, decaying ones dim, and the Janitor's merge/prune operations leave a visible trail.
+
+## What the config looks like now
+
+The `CLAUDE.md` instruction for LTM is explicit:
+
+> Before any non-trivial task: call `mcp__ltm__ltm_recall` with the topic as query.
+> After discovering a non-obvious pattern or gotcha: call `mcp__ltm__ltm_learn`.
+> When making an architectural decision: call `mcp__ltm__ltm_learn` with `category=architecture`.
+
+The hooks (`SessionStart`, `EvaluateSession`, `PreCompact`) do the background work. The MCP tools give Claude direct access. The decay and Janitor processes keep the database clean without manual curation.
+
+## What's still rough
+
+The semantic fallback adds latency to recall — a few hundred milliseconds on a fast connection, more if the embedding API is cold. FTS5 is fast enough that most recalls don't trigger it, but it's noticeable when it does.
+
+The EvaluateSession extraction isn't perfect. The LLM sometimes over-extracts (trivial things get stored as memories) and occasionally misses important architectural decisions. The category classification is roughly right but imprecise. These are prompt engineering problems that improve over time as the extraction prompt gets tuned.
+
+The Janitor's duplicate detection via embedding similarity occasionally merges things that shouldn't be merged. Conservative threshold is better — set the similarity cutoff high enough that only near-identical memories get merged.
+
+---
+
+The overall shift is from "context files I remember to maintain" to "a knowledge base that maintains itself." Sessions contribute to it automatically, the Janitor keeps it clean, and recall surfaces relevant history before I start any significant work. The manual hygiene work that v1 and v2 required is mostly gone.

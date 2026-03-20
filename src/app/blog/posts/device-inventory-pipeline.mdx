@@ -1,0 +1,96 @@
+---
+title: "Building a Device Inventory Pipeline"
+summary: "When your MDM doesn't tell the full story, build the pipeline yourself. Here's the Jenkins → PowerShell → SharePoint → Power BI architecture I built to unify device data across AD and Intune for a FinTech client."
+image: "/images/blog/device-inventory-pipeline.png"
+publishedAt: "2026-03-20"
+tag: "Automation"
+---
+
+Every IT team has some version of the same problem: the MDM says one thing, Active Directory says another, and the spreadsheet someone maintains manually is a third opinion. Nobody knows the real device count. Nobody knows which machines are stale. Asset reviews are a manual reconciliation exercise that takes days and is wrong before it's finished.
+
+For a FinTech client, I built a pipeline that pulls from every authoritative source — AD, Intune, Azure, MDE — and produces a single unified inventory that's always current. Here's the architecture.
+
+## The data problem
+
+The client had devices across three categories:
+- **Windows workstations**: domain-joined, Intune-enrolled, some hybrid Entra joined
+- **Azure VMs**: not domain-joined, sometimes Intune-enrolled, MDE-onboarded
+- **Legacy machines**: domain-joined only, no Intune, no MDE
+
+No single system had the full picture. Intune knew about enrolled devices but didn't know about the legacy machines. AD knew about everything domain-joined but didn't know about Azure VMs or compliance state. MDE knew about onboarded endpoints but didn't map cleanly to AD objects.
+
+The goal: a unified record per device with attributes from all sources — last seen, OS version, compliance state, MDE sensor status, assigned user, department, location.
+
+## The architecture
+
+Four components:
+
+**1. Jenkins** — scheduler and orchestrator. A pipeline job runs nightly and on-demand. It calls the PowerShell scripts in sequence, handles retries, and sends a completion notification.
+
+**2. PowerShell scripts** — data collection and normalization. One script per source, plus a merge script. Each script outputs structured JSON to a staging directory on the Jenkins agent.
+
+**3. SharePoint List** — the inventory store and intermediate layer. PowerShell writes the merged records to a SharePoint list via the SharePoint REST API or PnP PowerShell. The list is the single source of truth that other systems can query.
+
+**4. Power BI** — visualization layer. A Power BI report connects directly to the SharePoint list and refreshes on a schedule. This is the dashboard the IT team and management use.
+
+## The data collection scripts
+
+**AD collector**: Uses `Get-ADComputer` with `-Properties *` to pull all computer objects. Captures name, distinguished name, last logon timestamp, OS version, description, and organizational unit. Filters out disabled objects and objects not seen in 90 days.
+
+```powershell
+Get-ADComputer -Filter * -Properties LastLogonDate, OperatingSystem, Description |
+  Where-Object { $_.LastLogonDate -gt (Get-Date).AddDays(-90) } |
+  Select-Object Name, DistinguishedName, LastLogonDate, OperatingSystem, Description |
+  ConvertTo-Json | Out-File "$stagingPath\ad-devices.json"
+```
+
+**Intune collector**: Uses the Microsoft Graph PowerShell SDK. Calls `Get-MgDeviceManagementManagedDevice` to get all enrolled devices with compliance state, last sync time, enrolled user, and device category.
+
+**MDE collector**: Uses the Defender for Endpoint API (via a service principal with `Machine.Read.All`). Gets onboarding status, sensor health, last seen timestamp, and risk level for every endpoint.
+
+**Azure VM collector**: Uses `Get-AzVM` across all subscriptions the service principal has access to. Gets VM name, resource group, location, OS, running state, and any tags with owner/department information.
+
+## The merge script
+
+The merge script is where the real work happens. It loads all four JSON files and joins them on device name. The join logic:
+
+1. AD is the primary key source — every AD computer object gets a record
+2. Intune records are matched to AD by device name (normalized to uppercase)
+3. MDE records are matched by hostname
+4. Azure VMs get their own records (no AD object)
+
+For each merged record, the script calculates derived fields:
+- `managementState`: `fully-managed` (Intune + MDE), `partially-managed` (Intune only or MDE only), `unmanaged` (AD only)
+- `staleness`: days since last seen across all sources
+- `complianceGap`: boolean — in Intune but not compliant
+
+The merged output is an array of device objects written to `merged-inventory.json`.
+
+## Writing to SharePoint
+
+PnP PowerShell handles the SharePoint write. The script compares the merged inventory against the current SharePoint list state (pulled at the start of the run) and does a delta update: new devices are added, existing devices are updated, devices not seen in 90 days are flagged as stale.
+
+Doing a delta update rather than a full replace matters for performance (the list had 2,000+ items) and for preserving any manual annotations added by the IT team directly in the list.
+
+## Power BI on top
+
+The Power BI report connects to the SharePoint list as a data source and refreshes daily. Key views:
+
+- **Management coverage**: pie/bar showing how many devices are fully managed vs. partially managed vs. unmanaged
+- **Stale devices**: list of devices not seen in 30+ days, sorted by staleness
+- **Compliance gaps**: devices enrolled in Intune but not passing compliance policy
+- **MDE coverage**: which devices have an active sensor vs. not
+
+The report is embedded in a Teams tab so the IT team has it in their daily context without going to Power BI directly.
+
+## What it replaced
+
+Before this pipeline: a manually-maintained Excel spreadsheet updated every quarter. It was always wrong. MDE coverage reports were run manually when someone asked. Compliance gaps were invisible until a CA policy blocked a user.
+
+After: a nightly automated run, a SharePoint list the IT team trusts, and a Power BI dashboard the security team uses in their weekly review.
+
+The pipeline has run without manual intervention for over a year. When a new device shows up as unmanaged, the report flags it. When a compliance gap appears, the security team sees it the next morning.
+
+---
+
+The architecture is not complicated. Jenkins, PowerShell, SharePoint, Power BI are tools every Microsoft-focused IT team already has. The value is in putting them together deliberately and removing the manual reconciliation step entirely.

@@ -1,0 +1,108 @@
+---
+title: "The JumpCloud Exit Playbook"
+summary: "Migrating 200+ Windows and macOS devices from JumpCloud to Microsoft Intune without breaking MDM coverage, compliance posture, or user productivity."
+image: "/images/blog/jumpcloud-to-intune-migration.png"
+publishedAt: "2026-03-20"
+tag: "Security"
+---
+
+JumpCloud is a reasonable MDM choice for early-stage companies. It's cross-platform, handles basic device management, and works without a Microsoft stack. But at some point, most orgs that run on Microsoft 365 hit the ceiling: JumpCloud doesn't integrate cleanly with Conditional Access, Defender for Endpoint, Microsoft Purview, or Entra ID — and you end up managing two parallel identity and device stacks that are increasingly hard to reconcile.
+
+For a Trading Platform client, that moment came when they needed to enforce Conditional Access requiring Intune-compliant devices and couldn't do it cleanly while still running JumpCloud as the MDM authority. The decision was to exit JumpCloud fully and migrate to the Microsoft stack: Intune + Entra ID + MDE. 200+ devices, Windows and macOS, in active use.
+
+Here's what the migration actually looked like.
+
+## Pre-migration: mapping what you have
+
+Before touching a single device, you need a complete inventory. JumpCloud has an API and an export — use it. Every device, every user assignment, every policy.
+
+The questions that matter:
+- Which devices are corporate-owned vs. BYOD?
+- Which are Entra ID joined, hybrid joined, or just AD domain-joined?
+- What JumpCloud policies are active and what do they enforce?
+- What software is deployed via JumpCloud?
+- Are there any devices running macOS versions below your Intune minimum?
+
+This mapping takes time and it's worth it. Every surprise you find now is one you don't hit mid-migration with a user locked out.
+
+## The enrollment approach: hybrid vs. clean
+
+The most important decision before you start: do you migrate devices in-place (install Intune agent while JumpCloud is still running) or do you wipe and re-enroll?
+
+For most Windows devices at this client, we did in-place migration:
+1. Deploy the Intune management extension via a JumpCloud script
+2. Complete Entra ID registration (Hybrid Join or Entra Join depending on whether AD was still in scope)
+3. Verify Intune enrollment and compliance
+4. Remove JumpCloud agent
+
+For macOS, in-place MDM migration is not reliably supported. The MDM profile can only be removed and replaced cleanly if the device is wiped or if the user is an admin. For corporate macOS machines, we did wipe-and-enroll through Autopilot for Windows equivalents, and ADE (Apple Device Enrollment) for macOS via Apple Business Manager.
+
+A small number of edge-case machines — old hardware, non-standard configurations, machines where the JumpCloud agent was broken — got clean wipes.
+
+## Windows: the Hybrid Join question
+
+Most of the Windows devices were domain-joined (on-prem AD) and JumpCloud-managed. For Intune, you need devices to be at minimum Entra ID registered, and ideally Hybrid Entra Joined (domain-joined + Entra ID joined) or pure Entra Joined.
+
+Hybrid Join was the right call here because the client still had on-prem AD in active use. We configured the Hybrid Join process via Entra Connect and deployed the Intune enrollment policy to the domain via GPO.
+
+The sequence per device:
+1. Entra Connect syncs the computer object
+2. Device completes Hybrid Join (takes up to a sync cycle — 30 minutes typically)
+3. Intune auto-enrollment triggers via GPO
+4. MDE onboarding completes
+5. Compliance policy evaluates — device either passes or gets a grace period
+
+The most common failure mode: time sync issues preventing the device from completing Kerberos-based Hybrid Join. Fix NTP before you start.
+
+## macOS: Apple Business Manager and ADE
+
+For macOS, we onboarded the org to Apple Business Manager, linked ABM to Intune, and created an ADE enrollment profile. This gives you MDM-supervised devices with the highest management capability — no user-removable MDM profile, full app management, FileVault key escrow.
+
+The catch: ADE applies to new-to-Intune devices. Devices already in ABM from a previous enrollment can be reassigned. Devices that were never in ABM can't be retrofitted into supervised ADE without a wipe and re-enrollment through Apple Configurator.
+
+For the macOS fleet at this client, about 40% were already in ABM from prior management. Those were reassigned to the Intune enrollment profile. The rest were wiped and re-enrolled, with users scheduled for migration days with IT on-site.
+
+## Compliance: don't enforce before enrollment is complete
+
+Conditional Access requiring Intune compliance was the end goal, but it cannot be the starting state. If you enable the CA policy before your devices are enrolled and passing compliance, you lock out every user on a device that hasn't completed migration.
+
+The rollout order:
+1. Build compliance policies (OS version, encryption, MDE sensor active, no jailbreak/rooted)
+2. Deploy compliance policies to devices as they enroll — in report-only initially
+3. Set a grace period (we used 7 days) during which non-compliant devices get access with a compliance notification
+4. Once >90% of devices are enrolled and compliant, enable the CA policy in report-only
+5. Review report-only logs for unexpected blocks
+6. Enable enforcement
+
+The 7-day grace period is important. It means a device that's being migrated this week doesn't block the user today.
+
+## Decommissioning JumpCloud
+
+Once all devices were verified enrolled in Intune and passing compliance, we removed the JumpCloud agent. The sequence:
+1. Verify Intune enrollment and compliance status for the device
+2. Confirm all software previously deployed via JumpCloud is now deployed via Intune (app deployments migrated to Intune Win32 apps and Managed App Store apps)
+3. Uninstall JumpCloud agent via Intune script
+4. Remove device from JumpCloud console
+5. Cancel JumpCloud license
+
+The license cancellation was the milestone. At that point, Intune was the single MDM authority.
+
+## What broke
+
+A few things caught us mid-migration:
+
+**JumpCloud FileVault keys.** JumpCloud escrows FileVault recovery keys separately. Once JumpCloud was removed from macOS, those keys were gone. We rotated FileVault before removing JumpCloud, escrowing the new key to Intune. Any device where we missed this step required on-site recovery.
+
+**App deployments tied to JumpCloud.** Several internal tools were deployed and configured via JumpCloud scripts. We had to rebuild those as Intune Win32 app packages before migrating those devices. The inventory step at the start should catch these — ours caught most but not all.
+
+**Devices in shared-use scenarios.** Shared lab workstations with multiple user accounts needed special handling for Intune enrollment since enrollment ties to a primary user in Intune's model.
+
+## The result
+
+80+ tasks over about four months. At the end: 200+ devices enrolled in Intune, MDE sensors active on all of them, Conditional Access enforcing compliance as a gate, and JumpCloud fully off the books.
+
+The bigger win was architectural: one identity stack (Entra ID), one MDM authority (Intune), one endpoint security platform (MDE), all integrated. Conditional Access can now see device compliance state and make real-time access decisions — something that wasn't possible while JumpCloud was in the picture.
+
+---
+
+If you're planning a JumpCloud exit, the pre-migration inventory and the compliance grace period are the two things that will determine whether the migration is smooth. Get the inventory right, and don't enforce before you enroll.

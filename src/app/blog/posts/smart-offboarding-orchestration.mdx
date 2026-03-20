@@ -1,0 +1,86 @@
+---
+title: "Smart Offboarding Orchestration"
+summary: "Manual offboarding leaves doors open — sometimes for days. Here's how I automated a 15-step enterprise offboarding workflow using Azure Logic Apps and Automation Runbooks triggered by an HR webhook."
+image: "/images/blog/smart-offboarding-orchestration.png"
+publishedAt: "2026-03-20"
+tag: "Security"
+---
+
+Manual offboarding is a security incident waiting to happen. The typical process: HR tells IT someone is leaving, IT opens a ticket, someone works through a checklist over the next few hours or days. During that window, the departing employee still has active sessions, valid credentials, and potentially a company device with full access to everything they could reach before they left.
+
+I've seen this gap exploited — not always maliciously, but the risk is real. I've also seen the fix: full automation triggered the moment HR closes the case.
+
+Here's the architecture I built for an Energy Sector client, automating a 15-step offboarding workflow with no manual steps after the trigger.
+
+## The trigger: HR webhook
+
+The workflow starts in the HR system. When a manager marks a termination as processed, the HR platform fires a webhook containing the employee's user ID, termination type (voluntary/involuntary), and effective date.
+
+The webhook hits an Azure Logic App HTTP trigger endpoint. That's the starting gun.
+
+Using the HR system as the trigger source is deliberate. IT doesn't have to remember to act — the process starts automatically. The HR system is also the authoritative record for who is employed, so tying automation to its state means the offboarding reflects reality.
+
+## The 15-step workflow
+
+The Logic App orchestrates the full sequence. Each step is either a direct Logic App action or a call out to an Azure Automation Runbook for anything requiring PowerShell.
+
+**Step 1 — Revoke all active sessions.**
+The first action, always. Before anything else, invalidate all tokens and force re-authentication. This is a single Graph API call: `POST /users/{id}/revokeSignInSessions`. Done in the Logic App directly, no Runbook needed. The employee is signed out of everything immediately.
+
+**Step 2 — Disable the Entra ID account.**
+Set `accountEnabled: false` via Graph API. Prevents new sign-ins. Happens within seconds of the trigger.
+
+**Step 3 — Reset the account password.**
+Generate a random 32-character password and set it. This prevents any cached credential from being useful and ensures nobody can re-enable the account without a deliberate reset.
+
+**Step 4 — Remove from all groups and dynamic membership.**
+Strip group memberships that grant access to resources — removing SharePoint sites, Teams, distribution lists, and any app role assignments tied to group membership. Dynamic groups update automatically once Entra ID reflects the account state, but explicit memberships are removed here.
+
+**Step 5 — Revoke all active MFA methods.**
+Delete registered authentication methods. This prevents the account being recovered via MFA registration if somehow re-enabled.
+
+**Step 6 — Wipe the managed device (MDE).**
+If the employee has a managed device enrolled in Microsoft Defender for Endpoint, trigger a remote wipe via the MDE API. For corporate-owned devices: full wipe. For BYOD: selective wipe of corporate data only.
+
+**Step 7 — Remove licenses.**
+Strip all Microsoft 365 license assignments. This releases the license back to the pool and closes access to any service that gates on license assignment (Exchange, Teams, SharePoint, etc.).
+
+**Step 8 — Offboard from Intune.**
+Retire the device from Intune management. This removes the management profile, company portal, and any app-based conditional access certificates.
+
+**Step 9 — Remove from Entra ID.**
+After all access is revoked, delete or disable the Entra ID object depending on policy. Some clients soft-delete (disable + move to disabled OU) for 30 days before permanent deletion to support HR investigations.
+
+**Step 10 — Disable the on-premises AD account.**
+For hybrid environments: disable the AD object. This propagates to Entra ID via sync, but we act on both sides simultaneously rather than waiting for the sync cycle.
+
+**Step 11 — Move the AD object to a disabled OU.**
+Organizational policy: disabled accounts move to a dedicated OU that is excluded from GPO application and group policy inheritance.
+
+**Step 12 — Archive the mailbox.**
+Place the mailbox on litigation hold, convert to shared, and assign delegate access to the manager for 30 days. This preserves business continuity without maintaining an active licensed mailbox.
+
+**Step 13 — Transfer OneDrive.**
+Grant the manager access to the departing employee's OneDrive for 30 days. Microsoft's data retention policy handles deletion after that window.
+
+**Step 14 — Notify IT and HR.**
+Send a completion notification to the IT helpdesk and HR via Teams/email with a summary of all actions taken and their status. If any step failed, the notification flags it for manual review.
+
+**Step 15 — Write the audit trail.**
+Log the full workflow execution — user ID, timestamp of each step, success/failure status, triggering event — to a Log Analytics workspace. This is the audit record that demonstrates compliance with offboarding policy.
+
+## Error handling
+
+Not every step succeeds cleanly. The device might already be wiped. The account might have no licenses. The Logic App uses scope-level error handling: each major step runs in a scope block, and failures are caught and logged without stopping the rest of the workflow.
+
+The notification step at the end includes a failure summary so IT can handle any exceptions manually. The goal is that the automation handles 95% of cases cleanly; the edge cases go to a human with context.
+
+## What this replaced
+
+Before this: a manually-worked Jira ticket with a 23-item checklist. Average completion time: 4–6 hours. Frequent missed steps (usually license removal and OneDrive transfer). No audit trail.
+
+After: 12-minute average end-to-end execution time. Zero missed steps. Full audit log. HR closes the case; everything else happens automatically.
+
+---
+
+The residual risk in any offboarding process is the time between the employee's last day and when IT acts. Automation doesn't eliminate that risk — it eliminates the gap between the HR decision and the IT action. Once the trigger fires, the window is minutes, not hours.
