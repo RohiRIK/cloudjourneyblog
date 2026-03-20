@@ -25,12 +25,16 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Parse frontmatter and notify n8n
-        if: steps.detect.outputs.added_files != ''
+        if: steps.detect.outputs.added_files != '' && secrets.N8N_WEBHOOK_URL != ''
         env:
           N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
           BASE_URL: https://rohi-lab.org
           ADDED_FILES: ${{ steps.detect.outputs.added_files }}
         run: |
+          if [ -z "$N8N_WEBHOOK_URL" ]; then
+            echo "N8N_WEBHOOK_URL not set — skipping social notify"
+            exit 0
+          fi
           for file in $ADDED_FILES; do
             echo "Processing $file"
             payload=$(bun .github/scripts/parse-frontmatter.ts "$file")
