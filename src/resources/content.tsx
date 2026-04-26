@@ -47,9 +47,9 @@ const home: Home = {
   description: `Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems`,
   headline: <>Security, automation, and the systems that connect them.</>,
   featured: {
-    display: false,
-    title: <></>,
-    href: "",
+    display: true,
+    title: <>End of Day Mac</>,
+    href: "/work/end-of-day-mac",
   },
   subline: (
     <>
