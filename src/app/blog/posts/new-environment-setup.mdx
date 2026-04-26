@@ -1,0 +1,134 @@
+---
+title: "Spinning Up a Client's Production Environment: Azure WAF + VPS"
+summary: "Setting up a new hosting environment from scratch — the decisions, trade-offs, and lessons from provisioning infrastructure for a client website on Azure."
+image: "/images/blog/new-environment-setup.png"
+publishedAt: "2026-04-26"
+tag: "Infrastructure"
+---
+
+Every client project eventually reaches the same moment: you need to move from a staging URL to a real production environment. That means real infrastructure, real domains, real security posture — the works.
+
+This is the story of one of those moments. I'll walk through what I built, why I made the decisions I did, and what I'd do differently.
+
+## The Starting Point
+
+The client needed a new hosting environment for their website. They'd been running on a shared hosting plan that was showing its age — slow response times, no SSL automation, no ability to customize headers, and zero visibility into traffic patterns. It was fine for a prototype. It wasn't acceptable for a live product.
+
+The brief was simple: something fast, secure, and maintainable. Not overengineered — just solid.
+
+## Why Azure
+
+I standardise on Azure for client infrastructure for a few reasons:
+
+- The portal is well-designed and clients can actually see what they're paying for
+- WAF (Web Application Firewall) is first-party and integrates with Application Gateway
+- I already have the tooling — ARM templates, scripting, monitoring dashboards
+- Microsoft support is available if things go wrong at 2 AM
+
+The alternative was AWS (too complex for a straightforward website), GCP (great, but I have less operational depth), or a managed platform like Netlify/Vercel (not flexible enough for the custom requirements).
+
+## The Architecture
+
+Here's what I built:
+
+| Layer | Service | Purpose |
+|-------|---------|---------|
+| Edge | Azure Application Gateway + WAF | SSL termination, DDoS protection, path routing |
+| Compute | Azure VPS (B2s) | Web server host |
+| DNS | Azure DNS | Zone management |
+| CDN | Azure CDN (optional) | Static asset acceleration |
+| Monitoring | Azure Monitor + Log Analytics | Traffic visibility |
+
+That's it. No Kubernetes, no containers, no Terraform. A plain Linux VPS behind a WAF. Sometimes simple is the right answer.
+
+## Step 1 — Azure Application Gateway + WAF
+
+I started at the edge. The Application Gateway is the front door — it's what the outside world hits first.
+
+I configured it with:
+- **WAF mode**: Prevention (not detection — we block, not just alert)
+- **OWASP rule set 3.2**: Covers the standard exploits — SQLi, XSS, Local File Inclusion, remote code execution attempts
+- **Custom rules**: Blocked a handful of known-bad ASNs and geographies outside the client's primary markets
+- **SSL offloading**: One wildcard cert via Let's Encrypt, terminated at the gateway
+
+The WAF gets a bad reputation for being hard to tune. It can be — but for a straightforward website, the default OWASP rule set is a good baseline. I spend about an hour reviewing the logs after go-live to tune out false positives, and it's been quiet ever since.
+
+```bash
+# Quick check on blocked requests (first week)
+az network application-gateway waf-log-analytics \
+  --gateway-name $GW_NAME \
+  --resource-group $RG \
+  --query "where Action == 'Block' | summarize count() by RequestUri, UserAgent"
+```
+
+## Step 2 — The VPS
+
+The web server runs on an Azure B2s VPS — 2 vCPUs, 4 GB RAM, Ubuntu 22.04 LTS. It's not going to win any benchmark contests, but it's plenty for a website that isn't serving video or large file downloads.
+
+I keep the footprint minimal:
+
+```bash
+# Only what's needed
+apt install nginx certbot python3-certbot-nginx ufw
+```
+
+No cPanel. No Plesk. Just nginx and the ability to read a config file.
+
+I automate the provisioning with a small bash script that:
+1. Spins up the VM via Azure CLI
+2. Opens only the required ports (80, 443, SSH)
+3. Installs nginx and certbot
+4. Applies a baseline hardening script (SSH key only, fail2ban, unattended-upgrades)
+
+The script lives in a private repo and gets run once per new environment. It's not infrastructure-as-code in the formal sense, but it's reproducible and documented.
+
+## Step 3 — DNS and Routing
+
+The Application Gateway gets a public IP. I pointed the domain's A record at it, added a CNAME for `www`, and set up an Azure DNS zone to manage everything in one place.
+
+Routing on the gateway is simple:
+
+- `/` → backend pool (VPS nginx)
+- `/api/*` → backend pool (same VPS, different nginx location block)
+- Everything else → standard nginx rewrite rules
+
+I considered adding Azure CDN for static asset caching, but the site is mostly server-rendered HTML with small assets. CDN adds complexity — DNS propagation, cache invalidation, additional costs — and the marginal benefit wasn't there. I'll revisit if traffic grows.
+
+## Step 4 — Monitoring
+
+One thing I always add: Azure Monitor on day one, not as an afterthought.
+
+I set up:
+- **Metric alerts**: CPU > 80%, disk > 85%, nginx 5xx rate > 10/min
+- **Log Analytics workspace**: nginx access and error logs piped in via the OMS agent
+- **Application Gateway metrics**: request count, backend latency, WAF blocked requests
+
+The client has a dashboard link. They can see traffic patterns, blocked attacks, and server health. It's not Datadog, but it costs $3/month and covers the basics.
+
+## What I'd Do Differently
+
+**Add a staging environment earlier.** I initially deployed straight to production, which meant any config mistake was a real problem. Even a single additional VM behind the same Application Gateway as a staging slot would have made the go-live smoother.
+
+**Automate SSL renewal monitoring.** Certbot renews the cert, but I don't have an alert if the renewal fails silently. I added that after the first 90 days — better late than never.
+
+**Pre-configure the WAF in "Detection" mode for two weeks before switching to "Prevention."** I did this manually, but it should have been in the provisioning script as a flag. Live rule tuning is easier when you have two weeks of logs to review.
+
+## The Bill
+
+A rough breakdown for a single environment:
+
+| Service | Monthly Cost |
+|---------|-------------|
+| Application Gateway (WAF) | ~$45 |
+| VPS B2s | ~$30 |
+| Azure DNS | ~$1 |
+| Log Analytics (basic) | ~$3 |
+| **Total** | **~$79/month** |
+
+That's for a production-grade environment with WAF protection and visibility. The old shared hosting was $15/month but came with none of this.
+
+## Lessons
+
+Infrastructure for client projects doesn't need to be complex. A WAF front, a clean VM, basic monitoring — that's the baseline. Everything else is optional and should be added when there's a reason.
+
+The trap is either over-engineering (k8s for a static site) or under-engineering (shared hosting for a production product). The right answer is boring and works.

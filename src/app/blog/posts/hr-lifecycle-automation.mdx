@@ -1,0 +1,206 @@
+---
+title: "Automating HR Lifecycle Events for a Growing Veterinary Marketplace"
+summary: "Building a set of automated HR-driven workflows for a fast-growing client — onboarding, role changes, and offboarding orchestrated through HiBob and a custom middleware layer."
+image: "/images/blog/hr-lifecycle-automation.png"
+publishedAt: "2026-04-26"
+tag: "Automation"
+---
+
+When a company goes from 20 to 120 employees in 18 months, HR processes break in predictable ways. New hires show up on Monday and don't have access to the tools they need. Role changes happen in the HR system but nowhere else. Offboarded employees retain access to systems for weeks because no one remembered to tell IT.
+
+This is the story of automating those lifecycle events for a veterinary marketplace client — what we built, why, and what it looks like in practice.
+
+## The Context
+
+The client runs a two-sided marketplace connecting pet owners with veterinarians. They're growing fast, which means:
+- Frequent hiring (new vets, engineers, sales, ops)
+- Regular promotions and role changes
+- High turnover in certain roles
+- A distributed team across three time zones
+
+Their HR system of record is HiBob. Their IT provisioning is partially manual — a mix of manual account creation in Google Workspace, Azure AD, and various SaaS tools.
+
+The manual process had three failure modes:
+1. **New hire misses** — someone starts and doesn't get Slack access until three days later
+2. **Offboarding gaps** — departing employees retain access to Stripe, AWS, and customer data
+3. **Role change drift** — someone gets promoted but their permissions don't update
+
+We were brought in to automate the lifecycle events.
+
+## The Architecture
+
+The solution has three layers:
+
+| Layer | Technology | Role |
+|-------|-----------|------|
+| Source of Truth | HiBob (via API) | HR events trigger here |
+| Orchestration | n8n | Workflow engine, event routing |
+| Targets | Google Workspace, Entra ID, Slack, Jira, 1Password | Provisioned/updated/deprovisioned |
+
+n8n listens to HiBob webhooks and routes events to the appropriate workflows. No polling — webhooks fire when something changes in HiBob.
+
+## The Workflows
+
+### 1. New Hire Onboarding
+
+When HiBob fires a `employee.hired` event, n8n runs the onboarding workflow:
+
+```typescript
+// Simplified flow
+onboarding({
+  employee: HireData
+}) {
+  // Step 1: Create Google Workspace account
+  await createGoogleAccount({
+    firstName: employee.firstName,
+    lastName: employee.lastName,
+    department: employee.department,
+    manager: employee.manager.email
+  });
+
+  // Step 2: Add to Entra ID with appropriate role
+  await addToEntraGroup({
+    email: employee.workEmail,
+    role: mapDepartmentToGroup(employee.department)
+  });
+
+  // Step 3: Invite to Slack workspace
+  await inviteSlackUser({
+    email: employee.workEmail,
+    channels: getDefaultChannels(employee.department)
+  });
+
+  // Step 4: Create Jira access + default project
+  await jiraProvision({
+    accountId: employee.employeeId,
+    projectRole: mapToJiraRole(employee.jobTitle)
+  });
+
+  // Step 5: Add to 1Password with team vault
+  await addTo1PasswordVault({
+    email: employee.workEmail,
+    vault: getTeamVault(employee.department)
+  });
+
+  // Step 6: Notify IT and manager via Slack DM
+  await sendSlackMessage({
+    to: employee.manager.email,
+    message: `${employee.firstName} ${employee.lastName} provisioned. Systems: GWS ✓, Entra ✓, Slack ✓, Jira ✓, 1P ✓`
+  });
+}
+```
+
+The workflow runs in parallel where dependencies don't exist. A full onboarding now takes under 2 minutes from HiBob event to all systems configured. Previously, IT was spending 30-45 minutes per new hire doing this manually.
+
+### 2. Role Changes
+
+When an employee's job title, department, or manager changes in HiBob, the role change workflow fires:
+
+```typescript
+roleChange({
+  employee: Employee,
+  changes: RoleChange[]
+}) {
+  // For each system affected by the change
+  for (const change of changes) {
+    if (change.field === 'department') {
+      // Update Entra group membership
+      await removeFromEntraGroup(employee.email, getOldGroup(change.from));
+      await addToEntraGroup(employee.email, getNewGroup(change.to));
+
+      // Update Slack channels (leave old, join new)
+      await slack.leaveChannels(employee.email, getOldChannels(change.from));
+      await slack.joinChannels(employee.email, getNewChannels(change.to));
+
+      // Update Jira project access
+      await updateJiraGroups(employee.accountId, change.to);
+    }
+
+    if (change.field === 'manager') {
+      // Update reporting chain in Entra
+      await updateEntraManager(employee.email, change.newManager.email);
+
+      // Update 1Password vault access
+      await moveToNewVault(employee.email, change.newManager.vault);
+    }
+  }
+
+  // Notify new manager
+  await sendSlackMessage({
+    to: change.newManager.email,
+    message: `${employee.fullName} now reports to you. Access updated.`
+  });
+}
+```
+
+The hardest part of role changes is knowing what to do with historical data — old Slack channels, old Jira projects, old 1Password vaults. We made the call to archive rather than delete: employees keep read access to their old team data for 30 days, then it gets removed automatically.
+
+### 3. Offboarding
+
+Offboarding is the highest-risk workflow. When HiBob fires a `employee.offboarding.started` event, we have a 14-day window before the last day to get this right:
+
+```typescript
+offboarding({
+  employee: OffboardingData,
+  scheduledDate: Date
+}) {
+  // Day 1: First notification
+  // - IT gets Slack notification with full inventory of employee access
+  // - Manager confirms expected equipment return list
+
+  // Day 7: Midpoint check
+  // - Audit that access changes have been applied
+  // - Send reminders for anything not confirmed
+
+  // Day 13: One day before
+  // - Final audit pass — all systems confirmed deprovisioned
+  // - IT gets final checklist
+
+  // Day 14 (last day): Hard deprovisioning
+  await suspendGoogleAccount(employee.email);
+  await disableEntraAccount(employee.email);
+  await.removeSlackMembership(employee.email);
+  await.revokeJiraAccess(employee.accountId);
+  await.removeFrom1Password(employee.email);
+
+  // Final confirmation sent to IT and HR
+  await sendSlackMessage({
+    channel: '#it-operations',
+    message: `${employee.fullName} fully offboarded. All systems deprovisioned as of ${today}.`
+  });
+}
+```
+
+The staggered approach matters. Offboarding isn't a one-time event — it's a process with a timeline. We catch cases where HR marks someone as leaving but IT doesn't act for two weeks because they didn't see the notification.
+
+## Error Handling
+
+Every workflow has a dead-letter queue. If any step fails, n8n:
+1. Retries 3 times with exponential backoff
+2. If still failing, posts to `#it-alerts` with the failure details
+3. Creates a follow-up task in a tracking system so nothing falls through
+
+Common failure modes:
+- HiBob webhook arrives before the employee's email is fully provisioned (race condition on first day) — handled with a 5-minute delay on the initial sync
+- SaaS API rate limits — handled with built-in rate limiting in n8n
+- Concurrent events for the same employee (e.g., hire + role change on same day) — handled with idempotency keys
+
+## What It Looks Like After 6 Months
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Avg time to provision new hire | 45 min (IT manual) | 2 min (automated) |
+| Offboarding completion rate | 72% within 1 week | 94% within 1 day |
+| Offboarding gaps (access retained after last day) | 8-10 per month | 1-2 per month |
+| Role change accuracy | Manual, spotty | Automated, consistent |
+| IT hours spent on provisioning per month | ~20 hours | ~2 hours |
+
+## What I'd Add Next
+
+The current system covers the main SaaS tools. Two gaps I'd close next:
+
+**SSO audit trail.** We know when someone logs in, but not which apps they actually used. Defender for Cloud Apps gives us that visibility — we should integrate it.
+
+**Manager self-service.** Right now HR triggers everything via HiBob. A manager-facing portal for things like equipment requests and access reviews would reduce the HR ticket load further.
+
+The workflow infrastructure is there. Adding new integrations is a matter of hours, not days.

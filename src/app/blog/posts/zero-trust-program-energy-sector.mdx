@@ -1,0 +1,149 @@
+---
+title: "Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment"
+summary: "What we actually did — and what broke — rolling out a full Zero Trust program across a large energy sector organization with 57 tasks across the full stack."
+image: "/images/blog/zero-trust-program-energy-sector.png"
+publishedAt: "2026-04-26"
+tag: "Security"
+---
+
+Zero Trust is one of those frameworks that everyone talks about and few people have actually implemented end-to-end. It's easy to describe the principle — never trust, always verify — and hard to execute it across an estate that spans legacy OT systems, hybrid Active Directory, cloud workloads, and thousands of endpoints.
+
+This is a retrospective on a 57-task Zero Trust program I ran for an energy sector client over 18 months. I'll cover what we did, what we got wrong, and what I'd do differently next time.
+
+## The Starting Point
+
+The organization had a traditional perimeter security model: a corporate firewall, AD-joined workstations, and a VPN for remote access. It worked — until it didn't.
+
+The triggering events were a phishing campaign that got as far as a finance workstation, a VPN breach via a contractor whose credentials had been reused on an breached external service, and a regulatory audit that flagged the lack of endpoint visibility as a finding.
+
+The board approved a Zero Trust program. 18 months. 57 tasks. Full scope.
+
+## What We Built
+
+The program broke down into six workstreams:
+
+| Workstream | Scope | Duration |
+|-----------|-------|---------|
+| Identity & Access | Entra ID, Conditional Access, phishing-resistant MFA | Months 1-6 |
+| Endpoint Management | MDE deployment, Intune, security baselines | Months 3-9 |
+| Network Segmentation | Microsegmentation, 802.1X wired/wireless, VLAN restructuring | Months 4-12 |
+| Device Intelligence | MDI deployment, device compliance policies | Months 6-12 |
+| Cloud Security | Defender for Cloud Apps, CASB, workload identities | Months 8-15 |
+| Monitoring & Response | Sentinel, SOC integration, alert triage playbooks | Months 10-18 |
+
+The workstreams ran in parallel where dependencies allowed and sequentially where they didn't. Identity was always first — you can't do Zero Trust without identity as the control plane.
+
+## Identity: The Foundation
+
+We started with Entra ID and Conditional Access. The goal was simple: every access request — regardless of where it originates — gets evaluated against identity, device compliance, and risk signals.
+
+The first six months were brutal. The Conditional Access policy surface grew from nothing to 40+ policies covering:
+- All cloud apps require compliant device
+- Legacy authentication blocked (Basic auth, SOAP, ADAL)
+- High-privilege role holders require phishing-resistant MFA
+- Guest access limited to specific apps with data loss prevention applied
+- Sign-in risk-based policies that step up auth on anomalous behavior
+
+The hardest part wasn't technical — it was organizational. Convincing business unit leads to accept that their device needed to be compliant before accessing SharePoint took longer than writing the policies.
+
+**What broke:** We wrote a policy that blocked legacy authentication globally, which took down a SCADA reporting tool that only supported Basic auth over HTTPS. We had to carve out an exception, add the application to a roadmap for upgrade, and monitor that carveout until it was retired. Exception management became a full-time task.
+
+## Endpoint: MDE + Intune
+
+Months 3-9 covered endpoint deployment. We enrolled all endpoints into Intune, deployed MDE for endpoint detection and response, and applied security baselines.
+
+The deployment order was deliberate:
+1. **Pilot group** — IT and security team first (50 machines)
+2. **VIP group** — executives and finance (100 machines)
+3. **Engineering** — software teams with developer workstations (300 machines)
+4. **General workforce** — the remaining 2,000 machines
+
+Each ring had a two-week observation window before unlocking the next. This let us catch policy conflicts (we had three application compatibility issues that required baseline adjustments) before they hit the whole organization.
+
+**What broke:** The Intune security baseline for Windows blocked a legacy ERP client that used an unsigned DLL loader. We had to relax the block, document the exception, and escalate to the application owner for a remediation timeline. Three other exceptions followed a similar pattern.
+
+## Network: 802.1X and Microsegmentation
+
+This was the most disruptive workstream. 802.1X for wired and wireless access requires every device — including IoT and OT systems — to authenticate before getting network access.
+
+The challenge: the organization had 15 years of flat network architecture. Printers, badge readers, SCADA interfaces, and HVAC systems all sat on the same VLANs as user workstations.
+
+We couldn't onboard everything to 802.1X immediately. So we used a phased approach:
+
+```bash
+# Phase 1: Supplicant deployment (months 4-6)
+# Push 802.1X supplicant config to all domain-joined devices via Intune
+# Devices get provisioning packages, IT validates in pilot
+
+# Phase 2: Switch configuration (months 6-9)
+# Reconfigure access switches for 802.1X with fallback to MAB
+# MAC Authentication Bypass for devices that can't do 802.1X
+
+# Phase 3: VLAN isolation (months 9-12)
+# Move non-compliant devices to quarantine VLAN
+# Isolate OT/IoT on dedicated segments with gateway controls
+```
+
+**What broke:** A building management system that couldn't authenticate to 802.1X and had no fallback configured went dark during a switch firmware upgrade. The BMS vendor took two weeks to provide updated firmware. The building had no HVAC control for that period. It was not a quiet two weeks.
+
+## Device Intelligence: MDI
+
+MDI (Microsoft Defender for Identity) came in at month 6, after enough Entra ID and endpoint coverage was in place to give it meaningful data. The integration with Sentinel gave the SOC a unified view of identity-based attacks.
+
+The MDI deployment surface included:
+- Domain controllers (all 12)
+- AD FS servers (4)
+- ADFS proxy servers (2)
+- Entra ID Connect servers (2)
+
+Within 48 hours of activation, MDI flagged a password spray attack that had been running against the ADFS proxy for three days — below the threshold to trigger alerts but visible in the timeline view. We'd have missed it without MDI.
+
+## Cloud Security: Defender for Cloud Apps
+
+Months 8-15 covered the cloud security workstream. The organization had moved significant workloads to Azure and Microsoft 365, but had no CASB visibility or data loss prevention.
+
+We deployed Defender for Cloud Apps with:
+- App discovery for Shadow IT (found 47 unauthorized SaaS apps in use)
+- OAuth app consent policies
+- DLP policies for sensitive data classification
+- Session policies for high-risk OAuth apps
+
+The app discovery finding was the surprise of the program. 47 unauthorized apps included three cloud storage services, two project management tools, and one social media management platform — all in use by various teams without IT approval. The legal risk of that exposure would have been significant without MDI alerting us.
+
+## Monitoring: Sentinel Integration
+
+The final workstream was SOC integration — getting all the signals into Sentinel and writing playbooks that actually reduced alert fatigue.
+
+We had 340 alerts at program start. After tuning, we got to 45 actionable alerts with defined playbooks. The key was ruthless prioritization: anything that couldn't result in a decision within 5 minutes went to the "monitor and review" bucket, not the "SOC immediate" bucket.
+
+Playbook highlights:
+- **Lateral movement detection**: MDI + Sentinel correlation for NTLM relay patterns
+- **Ransomware precursor detection**: flagged mass file deletion + anomalous process launch
+- **Insider risk indicators**: unusual SharePoint download patterns triggering DLP escalation
+- **Entra sign-in anomaly response**: automated block for high-risk sign-ins with SOC notification
+
+## What I'd Do Differently
+
+**Start with identity regardless.** If I could redo the program, I'd have pushed Entra ID governance and CA policies even earlier. The identity signal is the most reliable indicator across all the other workstreams — you can do microsegmentation, device compliance, and cloud access all faster if you have strong identity controls as the foundation.
+
+**Build the exception management process before writing policies.** We invented the process as we went, which meant inconsistent handling of exceptions early on. A formal exception register with SLAs for remediation would have been cleaner.
+
+**Get OT/IoT onboarded to network monitoring earlier.** We waited until months 9-12 for OT segmentation because we thought we needed all the identity and endpoint work done first. We were wrong. We had blind spots in OT that we didn't know about until a passive OT monitoring tool showed up in month 8.
+
+**Include a tabletop exercise for the SOC before deploying MDE.** We tuned the alerts in isolation but didn't test the response playbooks until after deployment. Some of the playbook logic had gaps that would have caused delays in a real incident.
+
+## The Numbers
+
+| Metric | Start | End |
+|--------|-------|-----|
+| Endpoints with MDE | 0% | 96% |
+| Devices Intune-compliant | 12% | 89% |
+| Conditional Access policies | 0 | 47 |
+| Legacy auth attempts blocked | — | 14,000/month |
+| Unauthorized SaaS apps discovered | 47 | 0 (quarantined) |
+| MDI alerts in SOC queue | 340 | 45 |
+| Time to detect lateral movement | Unknown | < 4 hours |
+
+Eighteen months. 57 tasks. A meaningful reduction in attack surface.
+
+Zero Trust isn't a product you buy. It's a program you build, incrementally, one control at a time.

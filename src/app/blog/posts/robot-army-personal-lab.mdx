@@ -1,0 +1,121 @@
+---
+title: "The Robot Army: My Personal Lab on Azure"
+summary: "How I built a personal automation platform on Azure — a VPS behind a WAF, Docker Swarm for orchestration, and n8n as the brain that ties everything together."
+image: "/images/blog/robot-army.png"
+publishedAt: "2026-04-26"
+tag: "Infrastructure"
+---
+
+Every serious engineer has a lab. Not the certifications-and-home-lab kind — the kind where you test ideas before they hit production, where your side projects run on actual infrastructure instead of your laptop fan doing pushups at 3 AM.
+
+Mine lives on Azure. A single VPS, a WAF in front of it, Docker Swarm underneath, and n8n doing the thinking. Here's how it all fits together and what I learned putting it together over the past year.
+
+## The Starting Point
+
+I needed somewhere to run automation workflows without spinning up a new cloud service every time. Things like:
+
+- AI blogger automation — draft posts, check them, publish them
+- Stock market data ETL — pull prices, enrich them, store them
+- GitHub activity monitoring — notify me when something interesting happens
+- Web scraping pipelines for client research
+
+All of this was running either locally or across half a dozen separate services. I wanted one home for it all.
+
+## The Architecture
+
+The stack is intentionally simple:
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| Network | Azure WAF v2 | Front door, DDoS + filtering |
+| Compute | Azure VPS (B2s) | The actual machine |
+| Orchestration | Docker Swarm | Container management |
+| Automation | n8n | Workflow brain |
+| Storage | Local volumes + backups | Data persistence |
+
+No Kubernetes. No Terraform. No monthly bill that makes you wince. Just a $40/month VPS doing honest work.
+
+## Docker Swarm — Why Not Kubernetes
+
+I went with Swarm instead of k8s for one reason: **simplicity**. Swarm does what I need — multi-container orchestration, rolling updates, service discovery — without the yak shaving that comes with running k8s on a single node.
+
+My stack file looks roughly like this:
+
+```yaml
+version: "3.9"
+services:
+  n8n:
+    image: n8nio/n8n
+    ports:
+      - "5678:5678"
+    volumes:
+      - n8n_data:/home/node/.n8n
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_HOST=${N8N_HOST}
+      - WEBHOOK_URL=${WEBHOOK_URL}
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+
+  postgres:
+    image: postgres:16
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=n8n
+      - POSTGRES_USER=n8n
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+
+volumes:
+  n8n_data:
+  postgres_data:
+```
+
+That's it. `docker stack deploy -c stack.yml lab` and everything is up.
+
+## The WAF — Azure Application Gateway
+
+The Application Gateway sits in front of the VPS. It's doing:
+
+- **DDoS protection** (WAF tier)
+- **Path-based routing** — `/n8n` goes to the container, `/blog` to another
+- **SSL termination** — one cert, clean URLs
+- **Geo-blocking** — I blocked everything outside Europe and the US
+
+Yes, it's overkill for a single VPS. But I already had it running for client work, and there's no reason to run a public-facing service without at least one layer of perimeter defense.
+
+## n8n as the Brain
+
+n8n is where all the automation lives. It's the thing that wakes up in the morning, checks my RSS feeds, scrapes a few sites, sends me a summary, and files it all away in Notion.
+
+Some of the workflows I have running:
+
+### AI Blogger Automation
+
+Triggered by a daily cron — pulls topics from a notion database, generates a draft with an AI call, reviews it, and if it passes some basic quality checks, posts it to the blog. The human-in-the-loop is still there: I review before anything goes live.
+
+### Stock ETL Pipeline
+
+Connects to a broker API, pulls end-of-day prices, enriches them with news sentiment from an external service, and writes everything to a Postgres database. Runs after market close.
+
+### GitHub Monitoring
+
+Watches a handful of repositories for new releases and issues matching specific labels. Sends a notification to my phone via a simple webhook when something relevant pops up.
+
+## What I Learned
+
+**Single-node Swarm is fine for homelabs.** The "Swarm is deprecated" discourse online is for people running multi-node clusters. On one machine, it just works.
+
+**Azure VPS networking is finicky.** The default NSG rules will block everything. I had to spend an embarrassing amount of time figuring out why my ports weren't forwarding. The answer: Azure's NSG is separate from the machine's firewall. Both matter.
+
+**n8n's Postgres integration is more reliable than the built-in SQLite.** I started with the default SQLite setup and lost data twice to container restart issues. Moved to Postgres and never looked back.
+
+**Backups are boring and necessary.** I run a daily cron that snapshots the volume to an Azure Blob Storage container. It's $3/month and has saved me once already.
+
+## What's Next
+
+The lab has been running reliably for about 8 months now. The next thing I want to add is a proper monitoring stack — Grafana + Prometheus — to actually see what's happening under the hood instead of guessing.
+
+If you have a homelab or personal automation setup, I'd love to hear what you're running. Drop a comment or reach out.
