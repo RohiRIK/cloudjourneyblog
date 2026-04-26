@@ -13,6 +13,23 @@ bun run biome-write # Auto-format with Biome
 
 Use `bun` (not npm/npx) for all package operations.
 
+## 🚨 Image Generation — EXTERNAL ONLY
+
+**NEVER generate images internally.** All blog post header images are generated via external services.
+
+**Workflow:**
+1. Write the image prompt and add it to `public/images/blog/PROMPTS.md`
+2. Tell the user to generate the image externally via Gemini (Imagen 3) using the prompt in PROMPTS.md
+3. User saves the image to `public/images/blog/<slug>.png`
+4. Verify `image` field in MDX frontmatter matches the filename
+5. Run `bun run build` to confirm
+6. Commit only after image exists on disk
+
+**Never call:**
+- `~/.claude/skills/Art/Tools/Generate.ts`
+- Any Art skill image generation tool
+- Internal image generation APIs
+
 ## Architecture
 
 This is a **Next.js 16 portfolio site** built on the [Once UI Magic Portfolio](https://once-ui.com) template.
