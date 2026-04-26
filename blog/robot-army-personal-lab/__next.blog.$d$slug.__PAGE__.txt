@@ -1,0 +1,301 @@
+1:"$Sreact.fragment"
+2:I[778454,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
+3:I[273323,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
+4:I[479520,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
+5:I[624379,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
+6:I[145250,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
+7:I[398382,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
+8:I[811052,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
+9:I[436122,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
+a:I[626935,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
+31:I[597784,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"CodeBlock"]
+32:I[362844,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
+33:I[448588,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
+34:I[992713,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
+35:I[311451,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
+36:I[89532,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
+37:I[814360,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
+3a:I[988654,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+3b:I[605649,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+3c:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+3d:"$Sreact.suspense"
+0:{"buildId":"C5KnbyyYe9BCJwWHOCLLh","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/robot-army-personal-lab","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/robot-army-personal-lab\",\"sameAs\":[],\"headline\":\"The Robot Army: My Personal Lab on Azure\",\"description\":\"How I built a personal automation platform on Azure — a VPS behind a WAF, Docker Swarm for orchestration, and n8n as the brain that ties everything together.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/robot-army.png\",\"datePublished\":\"2026-04-26\",\"dateModified\":\"2026-04-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 26, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"The Robot Army: My Personal Lab on Azure"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/robot-army.png","alt":"The Robot Army: My Personal Lab on Azure","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Every serious engineer has a lab. Not the certifications-and-home-lab kind — the kind where you test ideas before they hit production, where your side projects run on actual infrastructure instead of your laptop fan doing pushups at 3 AM."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Mine lives on Azure. A single VPS, a WAF in front of it, Docker Swarm underneath, and n8n doing the thinking. Here's how it all fits together and what I learned putting it together over the past year."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-starting-point","children":"The Starting Point"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I needed somewhere to run automation workflows without spinning up a new cloud service every time. Things like:"}],"\n",["$","$L9",null,{"as":"ul","children":["\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"AI blogger automation — draft posts, check them, publish them"}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Stock market data ETL — pull prices, enrich them, store them"}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"GitHub activity monitoring — notify me when something interesting happens"}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Web scraping pipelines for client research"}],"\n"]}],"\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29"]}],"$L2a","$L2b","$L2c","$L2d"]}]}],"$L2e"]}],["$L2f"],"$L30"]}],"loading":null,"isPartial":false}
+b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"All of this was running either locally or across half a dozen separate services. I wanted one home for it all."}]
+c:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-architecture","children":"The Architecture"}]
+d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The stack is intentionally simple:"}]
+e:["$","table",null,{"marginTop":"12","marginBottom":"12","style":{"width":"100%","borderCollapse":"collapse","fontSize":"0.875rem","lineHeight":"1.75"},"children":[["$","thead",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-medium)","backgroundColor":"var(--neutral-alpha-soft)"},"children":["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Layer"}],["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Technology"}],["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Purpose"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Network"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Azure WAF v2"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Front door, DDoS + filtering"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Compute"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Azure VPS (B2s)"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"The actual machine"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Orchestration"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Docker Swarm"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Container management"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Automation"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"n8n"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Workflow brain"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Storage"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Local volumes + backups"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Data persistence"}]]}]]}]]}]
+f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"No Kubernetes. No Terraform. No monthly bill that makes you wince. Just a $40/month VPS doing honest work."}]
+10:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"docker-swarm-why-not-kubernetes","children":"Docker Swarm — Why Not Kubernetes"}]
+11:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["I went with Swarm instead of k8s for one reason: ",["$","strong",null,{"children":"simplicity"}],". Swarm does what I need — multi-container orchestration, rolling updates, service discovery — without the yak shaving that comes with running k8s on a single node."]}]
+12:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"My stack file looks roughly like this:"}]
+13:["$","$L31",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"version: \"3.9\"\nservices:\n  n8n:\n    image: n8nio/n8n\n    ports:\n      - \"5678:5678\"\n    volumes:\n      - n8n_data:/home/node/.n8n\n    environment:\n      - N8N_BASIC_AUTH_ACTIVE=true\n      - N8N_HOST=${N8N_HOST}\n      - WEBHOOK_URL=${WEBHOOK_URL}\n    deploy:\n      replicas: 1\n      restart_policy:\n        condition: on-failure\n\n  postgres:\n    image: postgres:16\n    volumes:\n      - postgres_data:/var/lib/postgresql/data\n    environment:\n      - POSTGRES_DB=n8n\n      - POSTGRES_USER=n8n\n      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}\n\nvolumes:\n  n8n_data:\n  postgres_data:\n","language":"yaml","label":"Yaml"}],"copyButton":true}]
+14:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["That's it. ",["$","$L32",null,{"children":"docker stack deploy -c stack.yml lab"}]," and everything is up."]}]
+15:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-waf-azure-application-gateway","children":"The WAF — Azure Application Gateway"}]
+16:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The Application Gateway sits in front of the VPS. It's doing:"}]
+17:["$","$L9",null,{"as":"ul","children":["\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"DDoS protection"}]," (WAF tier)"]}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Path-based routing"}]," — ",["$","$L32",null,{"children":"/n8n"}]," goes to the container, ",["$","$L32",null,{"children":"/blog"}]," to another"]}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"SSL termination"}]," — one cert, clean URLs"]}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Geo-blocking"}]," — I blocked everything outside Europe and the US"]}],"\n"]}]
+18:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Yes, it's overkill for a single VPS. But I already had it running for client work, and there's no reason to run a public-facing service without at least one layer of perimeter defense."}]
+19:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"n8n-as-the-brain","children":"n8n as the Brain"}]
+1a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"n8n is where all the automation lives. It's the thing that wakes up in the morning, checks my RSS feeds, scrapes a few sites, sends me a summary, and files it all away in Notion."}]
+1b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Some of the workflows I have running:"}]
+1c:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"ai-blogger-automation","children":"AI Blogger Automation"}]
+1d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Triggered by a daily cron — pulls topics from a notion database, generates a draft with an AI call, reviews it, and if it passes some basic quality checks, posts it to the blog. The human-in-the-loop is still there: I review before anything goes live."}]
+1e:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"stock-etl-pipeline","children":"Stock ETL Pipeline"}]
+1f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Connects to a broker API, pulls end-of-day prices, enriches them with news sentiment from an external service, and writes everything to a Postgres database. Runs after market close."}]
+20:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"github-monitoring","children":"GitHub Monitoring"}]
+21:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Watches a handful of repositories for new releases and issues matching specific labels. Sends a notification to my phone via a simple webhook when something relevant pops up."}]
+22:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-i-learned","children":"What I Learned"}]
+23:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Single-node Swarm is fine for homelabs."}]," The \"Swarm is deprecated\" discourse online is for people running multi-node clusters. On one machine, it just works."]}]
+24:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Azure VPS networking is finicky."}]," The default NSG rules will block everything. I had to spend an embarrassing amount of time figuring out why my ports weren't forwarding. The answer: Azure's NSG is separate from the machine's firewall. Both matter."]}]
+25:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"n8n's Postgres integration is more reliable than the built-in SQLite."}]," I started with the default SQLite setup and lost data twice to container restart issues. Moved to Postgres and never looked back."]}]
+26:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Backups are boring and necessary."}]," I run a daily cron that snapshots the volume to an Azure Blob Storage container. It's $3/month and has saved me once already."]}]
+27:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-s-next","children":"What's Next"}]
+28:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The lab has been running reliably for about 8 months now. The next thing I want to add is a proper monitoring stack — Grafana + Prometheus — to actually see what's happening under the hood instead of guessing."}]
+29:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"If you have a homelab or personal automation setup, I'd love to hear what you're running. Drop a comment or reach out."}]
+2a:["$","$L33",null,{"title":"The Robot Army: My Personal Lab on Azure","url":"https://CloudJourneyBlog.rohi-lab.org/blog/robot-army-personal-lab"}]
+2b:["$","$L34",null,{}]
+38:T1842,
+We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
+
+## The Implementation Sequence
+
+Zero Trust isn't a product you buy. It's a sequence of controls you enforce, in order, with each phase creating the foundation for the next.
+
+### Phase 1: Emergency Access & Monitoring Foundation
+
+Before touching anything else, you need:
+
+- **Breakglass accounts** — Named emergency accounts that bypass all Conditional Access. Don't use these daily. Test them quarterly.
+- **Alerting baseline** — What does normal look like? Capture login patterns, device health, app usage before you start blocking.
+
+This is the unsexy phase that saves you when Phase 3 locks everyone out.
+
+### Phase 2: Security Info Registration
+
+Before enforcing MFA, users need to register authentication methods. Set this up first:
+- **Auth methods policy** — Enable Microsoft Authenticator, FIDO2, Windows Hello for Business
+- **Temporary Access Pass** — One-time codes for users who lose hardware keys
+- **Report-only mode** — Test CA policies before enforcing
+
+### Phase 3: Block Legacy Authentication
+
+Legacy auth (SMTP auth, basic auth, POP/IMAP) is the attack surface. Block it:
+
+```
+Conditional Access > Assignments > Cloud apps > All apps
+Conditions > Client apps > Select Exchange ActiveSync clients and Other clients
+Controls > Grant > Block access
+```
+
+Block legacy auth too early and you'll break:
+- Legacy application integrations
+- Service accounts with password auth only
+- Old MFA integrations that sit behind legacy protocols
+
+**What broke first:** SMTP-authenticated printer scanning and IoT device integrations. Both used basic auth with no modern auth path.
+
+### Phase 3: MFA Enforcement
+
+Phishing-resistant MFA is the goal. FIDO2 hardware keys. But hardware keys have procurement and onboarding friction:
+
+- Procurement: Buy 50 keys, distribute to Tier-1 roles (privileged users, admins)
+- Onboarding: Users need to register in-browser with Chrome/Edge (Firefox support is spotty)
+- Policy: Require phishing-resistant MFA for admin roles; offer standard MFA as fallback for general users
+
+**What broke first:** Users who lost their hardware keys. Registration flow required a new key + backup key, and the process times out fast.
+
+### Phase 4: Device Compliance (Intune Baselines)
+
+Intune security baselines + Conditional Access is where device trust lives:
+
+- **Windows baseline** — BitLocker, Windows Defender, firewall rules
+- **Device compliance policy** — Require Microsoft Entra hybrid joined OR compliant device
+- **MDE integration** — Device risk from Defender feeds CA decisions
+
+**What broke first:** Microsoft Entra hybrid join fails when:
+- Stale device objects in on-prem AD aren't cleaned up
+- Line-of-business apps still query on-prem AD only (no cloud auth path)
+- Users are co-managed (Intune + SCCM) and the policy boundary isn't clear
+
+### Phase 5: Session Controls
+
+Sign-in frequency and device restrictions for existing sessions:
+- **Sign-in frequency** — Re-authenticate after X hours or when device state changes
+- **Persistent browser** — Block to prevent session cookie replay
+- **App-enforced restrictions** — Disable clipboard/file copy for unmanaged devices
+
+### Phase 6: Risk-Based Conditional Access
+
+Identity Protection risk signals drive dynamic policies:
+
+- **High-risk sign-in** — Block or require MFA
+- **Risky user** — Force password reset
+- **Microsoft Defender for Identity** — Detect lateral movement, privilege escalation, and domain escalation attacks
+
+**What broke first:** False positives. Risky sign-in policies flagged VPN users on corporate devices because the sign-in location didn't match.
+
+### Phase 7: Network Segmentation (802.1X)
+
+WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
+
+- **EAP method** — EAP-TLS with certificate-based auth (vs. EAP-PEAP/MSCHAPv2)
+- **Certificate lifecycle** — SCEP or PKCS certificate profile from Intune
+- **Fallback** — WPA2-PSK for legacy devices that can't do 802.1X
+
+**What broke first:** EAP negotiation failures. Root causes:
+- Wrong EAP type configured on client vs. RADIUS
+- Server certificate missing trusted root on client
+- Server name validation mismatch (certificate SAN doesn't match RADIUS hostname)
+- Expired or revoked client/server certificates
+
+## What Actually Broke First
+
+After three years, here's the friction ranking:
+
+| Friction Point | Phase | Symptom |
+|---|---|---|
+| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
+| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM and Intune |
+| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
+| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
+| Hardware key loss | MFA | Users lose keys, no backup, lockout |
+| Breakglass account lockout | Foundation | Breakglass account passwords expire or are not tested |
+
+## The Hard Lessons
+
+1. **Don't start with blocking.** Start with alerting and monitoring. Baseline normal before you break normal.
+
+2. **Phased enforcement, not big bang.** Each phase enables the next. Block legacy auth → enforce MFA → require device compliance → apply risk-based access.
+
+3. **802.1X is the hardest network control.** Budget double the time for 802.1X pilot. EAP-TLS certificate validation is where it fails.
+
+4. **Device trust requires clear ownership.** If you're co-managed (SCCM + Intune), define the boundary. We used Intune for cloud-native devices, SCCM for remaining on-prem managed.
+
+5. **Governance is the bottleneck.** Zero Trust fails when cross-team ownership isn't clear. Identity owns CA policies. Endpoint owns device baselines. Network owns 802.1X. Security owns MDI.
+
+## The Takeaway
+
+Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
+
+The only thing that broke irreparably was when we tried to skip Phase 1.2c:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L35",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L36",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L37","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$38"},"thumbnail":true,"direction":"column"}],"$L39"]}]]}]
+2d:["$","$L3a",null,{}]
+2e:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L3b",null,{"fitHeight":true}]}]
+2f:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
+30:["$","$L3c",null,{"children":["$","$3d",null,{"name":"Next.MetadataOutlet","children":"$@3e"}]}]
+3f:T1e4d,
+Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
+
+This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
+
+## The Problem: Shadow IT in Google Workspace
+
+Every organization has it: users who default to personal accounts for convenience. Personal Gmail on work devices. Personal Drive for sharing. Personal Calendar for everything.
+
+The risks:
+- **No DLP** — Company data leaves to personal accounts with no controls
+- **No audit trail** — You can't investigate a data leak if you don't know it happened
+- **No lifecycle** — When they leave, access to work data persists in their personal account
+- **Compliance risk** — Often noncompliant with internal policy and regulated data-handling requirements
+
+The goal: make personal Gmail unusable for work purposes without breaking legitimate personal use on personal devices.
+
+## How CASB Fits In
+
+CASB (Cloud Access Security Broker) sits between your users and cloud services, providing:
+- **Visibility** — What cloud apps are being used?
+- **Data protection** — DLP policies applied to cloud traffic
+- **Threat protection** — Anomaly detection for cloud usage
+- **Access control** — Block or restrict based on context
+
+Google Workspace integrates with CASB via API, not inline proxy. Google explicitly recommends API/offline CASB patterns over inline proxies — inline CASBs exist but aren't the preferred path. For most orgs, Google-native controls (DLP, Reports API, App Access Management) cover much of what you need before considering third-party CASB.
+
+### Shadow IT Discovery
+
+Before you can block, you need to know what you're dealing with. The CASB (or Google Workspace audit logs) reveals:
+
+- **OAuth token inventory** — Which third-party apps have user-authorized access to their Google data
+- **Login activity** — Where are users authenticating from?
+- **Drive sharing** — What's being shared externally?
+- **App usage** — Which apps are accessing Google Workspace data?
+
+In Google Workspace Admin console, go to Security > API controls > Access management. Review OAuth app entries — check ownership (Google-owned/internal/third-party), requested scopes, and user count. The CASB dashboard often surfaces this more visually.
+
+Apps are categorized as **Trusted** (full access), **Limited** (specific Google data only), **Blocked** (no access), or the default for unconfigured apps. Mark unknown third-party apps as Blocked after reviewing scope and ownership.
+
+## The Migration Strategy
+
+### Phase 1: Discover and Categorize
+
+List every external app accessing your users' Google data. Categorize:
+- **Approved** — IT-sanctioned, security reviewed
+- **Tolerated** — Not ideal but not blocked yet
+- **Blocked** — Shadow IT, must go
+
+The CASB dashboard usually provides this. If not, export audit logs and pivot in Excel.
+
+### Phase 2: Offer a Better Alternative
+
+Users go to personal Gmail because the sanctioned option isn't convenient. Fix that:
+
+- **Google Workspace** — If you don't have it, get it. Every user gets company @company.com account.
+- **Shared drives** — Centralize file storage so personal Drive isn't needed
+- **SSO** — Single sign-on from Entra ID to Google Workspace removes the password burden
+
+### Phase 3: Enforce with Policy
+
+Now block. The enforcement stack, in order of impact:
+
+**1. Block personal Google accounts** — This is what actually makes personal Gmail unusable on managed devices. Configure via proxy: `X-GoogApps-Allowed-Domains: yourdomain.com`, or in Google Admin console > Security > Managed browser > Restrict sign-in to managed accounts. This stops users from adding their personal @gmail.com account to Chrome or signing into personal Gmail on managed machines.
+
+**2. App Access Control** — In Security > API controls > Access management, configure apps as Trusted / Limited / Specific Google data / Blocked. This controls OAuth grants, not browser access. Set default to Blocked for unconfigured apps if you want zero tolerance.
+
+**3. Context-Aware Access** — Verify managed device before granting access to Workspace apps. Requires Endpoint Verification on desktop; mobile uses Google endpoint management (Intune, Jamf, etc.) for device signals.
+
+### Phase 4: Data Migration
+
+For users with existing personal Gmail data that needs to come over:
+
+1. **Data import** — Admin imports personal Gmail to corporate account via Security > Data export and management > Data migration. Requires user authorization — they authorize their personal Gmail access. This isn't the "Google Workspace Migrate" tool (that's for Exchange migrations).
+2. **Takeout** — User exports personal Drive, admin migrates to Shared Drive
+3. **Calendar migration** — User exports from personal calendar, imports to corporate or shares calendar with corporate account
+
+This takes time. Give users 30 days to migrate, then enforce.
+
+## The Enforcement Checklist
+
+| Control | Implementation | Effect |
+|---|---|---|
+| Consumer account block | X-GoogApps-Allowed-Domains header or managed browser sign-in restriction | Personal Gmail can't sign in on managed devices |
+| App Access Control | Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
+| Context-Aware Access | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
+| Drive external sharing | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
+| SSO | Entra ID to Google Workspace | One identity, one credential |
+
+**CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
+
+## What Actually Breaks First
+
+In practice, this enforcement breaks these workflows:
+
+1. **User's personal phone** — They can't check corporate email on their personal Android/iOS without management installed. Solution: offer MDM enrollment or accept the limitation.
+
+2. **Third-party tools** — Users who authorized random SaaS apps lose access. Solution: pre-approve the most common ones (Zoom, Slack, etc.).
+
+3. **Contractors** — External users without managed devices. Solution: dedicated contractor accounts with limited access, or accept unmanaged access with increased monitoring.
+
+4. **Endpoint Verification sync delays** — Compliant desktops get blocked before they sync device status. Google's docs explicitly warn about this. Run in monitor mode first.
+
+5. **OAuth restrictions break integrations fast** — Zoom, Slack, calendaring add-ons, scanners, backup tools — all need explicit app access configuration or users lose functionality.
+
+6. **Delegated mailbox access** — Consumer account blocking with `X-GoogApps-Allowed-Domains` can break delegated mailbox access if the delegate's domain isn't in allowed headers.
+
+## The Takeaway
+
+You can't uninvent personal Gmail. Your users will always have personal accounts. What you can do is make it operationally useless for work:
+
+- DLP policies block data exfiltration
+- Context-Aware Access restricts access to managed devices
+- SSO removes the password management burden
+- Structured migration moves existing data to corporate
+
+The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.39:["$","$L37","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$3f"},"thumbnail":true,"direction":"column"}]
+3e:null

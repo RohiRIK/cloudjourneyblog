@@ -1,10 +1,10 @@
 1:"$Sreact.fragment"
 3:I[339756,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
 4:I[837457,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
-5:I[273323,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Column"]
-6:I[479520,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],""]
-7:I[89532,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
-8:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
+5:I[273323,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Column"]
+6:I[479520,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],""]
+7:I[89532,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
+8:I[814360,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
 10:I[168027,[],"default"]
 :HL["/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
 :HL["/_next/static/chunks/d20e0f0702cef329.css","style"]
@@ -136,17 +136,17 @@ After three years, here's the friction ranking:
 
 Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
 
-The only thing that broke irreparably was when we tried to skip Phase 1.0:{"P":null,"b":"coWCwecpXUeTMBdVsAQ2J","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6633d7a0fde019af.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"sameAs\":[],\"headline\":\"Writing on security, automation, and infrastructure\",\"description\":\"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing on security, automation, and infrastructure"}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc"]}]]}],["$Ld"],"$Le"]}],{},null,false,false]},null,false,false]},null,false,false],"$Lf",false]],"m":"$undefined","G":["$10",[]],"S":true}
-28:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
-29:"$Sreact.suspense"
-2b:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"ViewportBoundary"]
-2d:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"MetadataBoundary"]
-30:I[530824,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Providers"]
-31:I[621971,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"RevealFx"]
-32:I[394412,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Background"]
-33:I[521247,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ClientFlex"]
-34:I[402971,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Header"]
-35:I[1166,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"RouteGuard"]
+The only thing that broke irreparably was when we tried to skip Phase 1.0:{"P":null,"b":"C5KnbyyYe9BCJwWHOCLLh","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/2ffb35f14b0942d3.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"sameAs\":[],\"headline\":\"Writing on security, automation, and infrastructure\",\"description\":\"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing on security, automation, and infrastructure"}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc"]}]]}],["$Ld"],"$Le"]}],{},null,false,false]},null,false,false]},null,false,false],"$Lf",false]],"m":"$undefined","G":["$10",[]],"S":true}
+2c:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+2d:"$Sreact.suspense"
+2f:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"ViewportBoundary"]
+31:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"MetadataBoundary"]
+34:I[530824,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Providers"]
+35:I[621971,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"RevealFx"]
+36:I[394412,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Background"]
+37:I[521247,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ClientFlex"]
+38:I[402971,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Header"]
+39:I[1166,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"RouteGuard"]
 11:T1e4d,
 Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
 
@@ -443,11 +443,11 @@ The migration fails not because Entra join is complicated — it fails because l
 
 If your org is fine with a fresh profile, wipe-and-load via Autopilot is cleaner than in-place. If users have too much local state, in-place works — but test everything twice.
 
-The checklist above isn't optional. Skip it, and migration week becomes incident response.c:["$","$L7",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","entra-join-readiness-checklist",{"post":{"metadata":{"title":"The Entra Join Readiness Checklist: Everything You Must Resolve Before Cutting the Domain Cord","subtitle":"","publishedAt":"2026-04-26","summary":"Moving from hybrid Azure AD join to Entra-only join isn't a flip-a-switch decision. Here's the practical checklist of what to resolve before you cut the domain cord — and the decision framework for wipe-and-reload versus in-place migration.","image":"/images/blog/entra-join-readiness-checklist.png","images":[],"tag":"Security","team":[],"link":""},"slug":"entra-join-readiness-checklist","content":"$13"},"thumbnail":true,"direction":"column"}],"$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27"]}]
+The checklist above isn't optional. Skip it, and migration week becomes incident response.c:["$","$L7",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","entra-join-readiness-checklist",{"post":{"metadata":{"title":"The Entra Join Readiness Checklist: Everything You Must Resolve Before Cutting the Domain Cord","subtitle":"","publishedAt":"2026-04-26","summary":"Moving from hybrid Azure AD join to Entra-only join isn't a flip-a-switch decision. Here's the practical checklist of what to resolve before you cut the domain cord — and the decision framework for wipe-and-reload versus in-place migration.","image":"/images/blog/entra-join-readiness-checklist.png","images":[],"tag":"Security","team":[],"link":""},"slug":"entra-join-readiness-checklist","content":"$13"},"thumbnail":true,"direction":"column"}],"$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b"]}]
 d:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true,"nonce":"$undefined"}]
-e:["$","$L28",null,{"children":["$","$29",null,{"name":"Next.MetadataOutlet","children":"$@2a"}]}]
-f:["$","$1","h",{"children":[null,["$","$L2b",null,{"children":"$L2c"}],["$","div",null,{"hidden":true,"children":["$","$L2d",null,{"children":["$","$29",null,{"name":"Next.Metadata","children":"$L2e"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-2f:T771,
+e:["$","$L2c",null,{"children":["$","$2d",null,{"name":"Next.MetadataOutlet","children":"$@2e"}]}]
+f:["$","$1","h",{"children":[null,["$","$L2f",null,{"children":"$L30"}],["$","div",null,{"hidden":true,"children":["$","$L31",null,{"children":["$","$2d",null,{"name":"Next.Metadata","children":"$L32"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+33:T771,
               (function() {
                 try {
                   const root = document.documentElement;
@@ -487,10 +487,10 @@ f:["$","$1","h",{"children":[null,["$","$L2b",null,{"children":"$L2c"}],["$","di
                   document.documentElement.setAttribute('data-theme', 'dark');
                 }
               })();
-            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$2f"}}]}],["$","$L30",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L31",null,{"fill":true,"position":"absolute","children":["$","$L32",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L33",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L34",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L35",null,{"children":"$L36"}]}]}],"$L37"]}]}]]}]
-4d:I[778454,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Row"]
-4e:I[298229,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"IconButton"]
-38:T1816,
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$33"}}]}],["$","$L34",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L35",null,{"fill":true,"position":"absolute","children":["$","$L36",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L37",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L38",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L39",null,{"children":"$L3a"}]}]}],"$L3b"]}]}]]}]
+55:I[778454,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Row"]
+56:I[298229,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"IconButton"]
+3c:T1816,
 Federating Google Workspace to Entra ID sounds straightforward — flip the switch in the admin console and suddenly your users sign in with Entra credentials. The reality is more nuanced. Here's what actually happens and how to get it right.
 
 ## Why Federate at All
@@ -636,8 +636,590 @@ The key insight: the user never enters a Google password. Entra owns the credent
 
 The setup isn't hard — it's exacting. Get the SAML metadata right, map ImmutableId correctly, enable provisioning, and test both SP and IdP flows. Once federated, you've moved the authentication authority to Entra and consolidated your identity stack.
 
-Don't skip the test phase. Try it with one pilot user before rolling it out domain-wide.12:["$","$L8","google-workspace-entra-federation",{"post":{"metadata":{"title":"Google Workspace to Entra ID Federation: The SSO Setup That Actually Works","subtitle":"","publishedAt":"2026-04-27","summary":"Setting up Google Workspace to use Entra ID as the Identity Provider isn't just checking a box. Here's the practical walkthrough of SAML federation, claims mapping, and what breaks when you get it wrong.","image":"/images/blog/google-workspace-entra-federation.png","images":[],"tag":"Identity","team":[],"link":""},"slug":"google-workspace-entra-federation","content":"$38"},"thumbnail":true,"direction":"column"}]
-39:T2657,
+Don't skip the test phase. Try it with one pilot user before rolling it out domain-wide.12:["$","$L8","google-workspace-entra-federation",{"post":{"metadata":{"title":"Google Workspace to Entra ID Federation: The SSO Setup That Actually Works","subtitle":"","publishedAt":"2026-04-27","summary":"Setting up Google Workspace to use Entra ID as the Identity Provider isn't just checking a box. Here's the practical walkthrough of SAML federation, claims mapping, and what breaks when you get it wrong.","image":"/images/blog/google-workspace-entra-federation.png","images":[],"tag":"Identity","team":[],"link":""},"slug":"google-workspace-entra-federation","content":"$3c"},"thumbnail":true,"direction":"column"}]
+3d:T1ef5,
+When a company goes from 20 to 120 employees in 18 months, HR processes break in predictable ways. New hires show up on Monday and don't have access to the tools they need. Role changes happen in the HR system but nowhere else. Offboarded employees retain access to systems for weeks because no one remembered to tell IT.
+
+This is the story of automating those lifecycle events for a veterinary marketplace client — what we built, why, and what it looks like in practice.
+
+## The Context
+
+The client runs a two-sided marketplace connecting pet owners with veterinarians. They're growing fast, which means:
+- Frequent hiring (new vets, engineers, sales, ops)
+- Regular promotions and role changes
+- High turnover in certain roles
+- A distributed team across three time zones
+
+Their HR system of record is HiBob. Their IT provisioning is partially manual — a mix of manual account creation in Google Workspace, Azure AD, and various SaaS tools.
+
+The manual process had three failure modes:
+1. **New hire misses** — someone starts and doesn't get Slack access until three days later
+2. **Offboarding gaps** — departing employees retain access to Stripe, AWS, and customer data
+3. **Role change drift** — someone gets promoted but their permissions don't update
+
+We were brought in to automate the lifecycle events.
+
+## The Architecture
+
+The solution has three layers:
+
+| Layer | Technology | Role |
+|-------|-----------|------|
+| Source of Truth | HiBob (via API) | HR events trigger here |
+| Orchestration | n8n | Workflow engine, event routing |
+| Targets | Google Workspace, Entra ID, Slack, Jira, 1Password | Provisioned/updated/deprovisioned |
+
+n8n listens to HiBob webhooks and routes events to the appropriate workflows. No polling — webhooks fire when something changes in HiBob.
+
+## The Workflows
+
+### 1. New Hire Onboarding
+
+When HiBob fires a `employee.hired` event, n8n runs the onboarding workflow:
+
+```typescript
+// Simplified flow
+onboarding({
+  employee: HireData
+}) {
+  // Step 1: Create Google Workspace account
+  await createGoogleAccount({
+    firstName: employee.firstName,
+    lastName: employee.lastName,
+    department: employee.department,
+    manager: employee.manager.email
+  });
+
+  // Step 2: Add to Entra ID with appropriate role
+  await addToEntraGroup({
+    email: employee.workEmail,
+    role: mapDepartmentToGroup(employee.department)
+  });
+
+  // Step 3: Invite to Slack workspace
+  await inviteSlackUser({
+    email: employee.workEmail,
+    channels: getDefaultChannels(employee.department)
+  });
+
+  // Step 4: Create Jira access + default project
+  await jiraProvision({
+    accountId: employee.employeeId,
+    projectRole: mapToJiraRole(employee.jobTitle)
+  });
+
+  // Step 5: Add to 1Password with team vault
+  await addTo1PasswordVault({
+    email: employee.workEmail,
+    vault: getTeamVault(employee.department)
+  });
+
+  // Step 6: Notify IT and manager via Slack DM
+  await sendSlackMessage({
+    to: employee.manager.email,
+    message: `${employee.firstName} ${employee.lastName} provisioned. Systems: GWS ✓, Entra ✓, Slack ✓, Jira ✓, 1P ✓`
+  });
+}
+```
+
+The workflow runs in parallel where dependencies don't exist. A full onboarding now takes under 2 minutes from HiBob event to all systems configured. Previously, IT was spending 30-45 minutes per new hire doing this manually.
+
+### 2. Role Changes
+
+When an employee's job title, department, or manager changes in HiBob, the role change workflow fires:
+
+```typescript
+roleChange({
+  employee: Employee,
+  changes: RoleChange[]
+}) {
+  // For each system affected by the change
+  for (const change of changes) {
+    if (change.field === 'department') {
+      // Update Entra group membership
+      await removeFromEntraGroup(employee.email, getOldGroup(change.from));
+      await addToEntraGroup(employee.email, getNewGroup(change.to));
+
+      // Update Slack channels (leave old, join new)
+      await slack.leaveChannels(employee.email, getOldChannels(change.from));
+      await slack.joinChannels(employee.email, getNewChannels(change.to));
+
+      // Update Jira project access
+      await updateJiraGroups(employee.accountId, change.to);
+    }
+
+    if (change.field === 'manager') {
+      // Update reporting chain in Entra
+      await updateEntraManager(employee.email, change.newManager.email);
+
+      // Update 1Password vault access
+      await moveToNewVault(employee.email, change.newManager.vault);
+    }
+  }
+
+  // Notify new manager
+  await sendSlackMessage({
+    to: change.newManager.email,
+    message: `${employee.fullName} now reports to you. Access updated.`
+  });
+}
+```
+
+The hardest part of role changes is knowing what to do with historical data — old Slack channels, old Jira projects, old 1Password vaults. We made the call to archive rather than delete: employees keep read access to their old team data for 30 days, then it gets removed automatically.
+
+### 3. Offboarding
+
+Offboarding is the highest-risk workflow. When HiBob fires a `employee.offboarding.started` event, we have a 14-day window before the last day to get this right:
+
+```typescript
+offboarding({
+  employee: OffboardingData,
+  scheduledDate: Date
+}) {
+  // Day 1: First notification
+  // - IT gets Slack notification with full inventory of employee access
+  // - Manager confirms expected equipment return list
+
+  // Day 7: Midpoint check
+  // - Audit that access changes have been applied
+  // - Send reminders for anything not confirmed
+
+  // Day 13: One day before
+  // - Final audit pass — all systems confirmed deprovisioned
+  // - IT gets final checklist
+
+  // Day 14 (last day): Hard deprovisioning
+  await suspendGoogleAccount(employee.email);
+  await disableEntraAccount(employee.email);
+  await.removeSlackMembership(employee.email);
+  await.revokeJiraAccess(employee.accountId);
+  await.removeFrom1Password(employee.email);
+
+  // Final confirmation sent to IT and HR
+  await sendSlackMessage({
+    channel: '#it-operations',
+    message: `${employee.fullName} fully offboarded. All systems deprovisioned as of ${today}.`
+  });
+}
+```
+
+The staggered approach matters. Offboarding isn't a one-time event — it's a process with a timeline. We catch cases where HR marks someone as leaving but IT doesn't act for two weeks because they didn't see the notification.
+
+## Error Handling
+
+Every workflow has a dead-letter queue. If any step fails, n8n:
+1. Retries 3 times with exponential backoff
+2. If still failing, posts to `#it-alerts` with the failure details
+3. Creates a follow-up task in a tracking system so nothing falls through
+
+Common failure modes:
+- HiBob webhook arrives before the employee's email is fully provisioned (race condition on first day) — handled with a 5-minute delay on the initial sync
+- SaaS API rate limits — handled with built-in rate limiting in n8n
+- Concurrent events for the same employee (e.g., hire + role change on same day) — handled with idempotency keys
+
+## What It Looks Like After 6 Months
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Avg time to provision new hire | 45 min (IT manual) | 2 min (automated) |
+| Offboarding completion rate | 72% within 1 week | 94% within 1 day |
+| Offboarding gaps (access retained after last day) | 8-10 per month | 1-2 per month |
+| Role change accuracy | Manual, spotty | Automated, consistent |
+| IT hours spent on provisioning per month | ~20 hours | ~2 hours |
+
+## What I'd Add Next
+
+The current system covers the main SaaS tools. Two gaps I'd close next:
+
+**SSO audit trail.** We know when someone logs in, but not which apps they actually used. Defender for Cloud Apps gives us that visibility — we should integrate it.
+
+**Manager self-service.** Right now HR triggers everything via HiBob. A manager-facing portal for things like equipment requests and access reviews would reduce the HR ticket load further.
+
+The workflow infrastructure is there. Adding new integrations is a matter of hours, not days.14:["$","$L8","hr-lifecycle-automation",{"post":{"metadata":{"title":"Automating HR Lifecycle Events for a Growing Veterinary Marketplace","subtitle":"","publishedAt":"2026-04-26","summary":"Building a set of automated HR-driven workflows for a fast-growing client — onboarding, role changes, and offboarding orchestrated through HiBob and a custom middleware layer.","image":"/images/blog/hr-lifecycle-automation.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"hr-lifecycle-automation","content":"$3d"},"thumbnail":true,"direction":"column"}]
+3e:T1985,
+Every client project eventually reaches the same moment: you need to move from a staging URL to a real production environment. That means real infrastructure, real domains, real security posture — the works.
+
+This is the story of one of those moments. I'll walk through what I built, why I made the decisions I did, and what I'd do differently.
+
+## The Starting Point
+
+The client needed a new hosting environment for their website. They'd been running on a shared hosting plan that was showing its age — slow response times, no SSL automation, no ability to customize headers, and zero visibility into traffic patterns. It was fine for a prototype. It wasn't acceptable for a live product.
+
+The brief was simple: something fast, secure, and maintainable. Not overengineered — just solid.
+
+## Why Azure
+
+I standardise on Azure for client infrastructure for a few reasons:
+
+- The portal is well-designed and clients can actually see what they're paying for
+- WAF (Web Application Firewall) is first-party and integrates with Application Gateway
+- I already have the tooling — ARM templates, scripting, monitoring dashboards
+- Microsoft support is available if things go wrong at 2 AM
+
+The alternative was AWS (too complex for a straightforward website), GCP (great, but I have less operational depth), or a managed platform like Netlify/Vercel (not flexible enough for the custom requirements).
+
+## The Architecture
+
+Here's what I built:
+
+| Layer | Service | Purpose |
+|-------|---------|---------|
+| Edge | Azure Application Gateway + WAF | SSL termination, DDoS protection, path routing |
+| Compute | Azure VPS (B2s) | Web server host |
+| DNS | Azure DNS | Zone management |
+| CDN | Azure CDN (optional) | Static asset acceleration |
+| Monitoring | Azure Monitor + Log Analytics | Traffic visibility |
+
+That's it. No Kubernetes, no containers, no Terraform. A plain Linux VPS behind a WAF. Sometimes simple is the right answer.
+
+## Step 1 — Azure Application Gateway + WAF
+
+I started at the edge. The Application Gateway is the front door — it's what the outside world hits first.
+
+I configured it with:
+- **WAF mode**: Prevention (not detection — we block, not just alert)
+- **OWASP rule set 3.2**: Covers the standard exploits — SQLi, XSS, Local File Inclusion, remote code execution attempts
+- **Custom rules**: Blocked a handful of known-bad ASNs and geographies outside the client's primary markets
+- **SSL offloading**: One wildcard cert via Let's Encrypt, terminated at the gateway
+
+The WAF gets a bad reputation for being hard to tune. It can be — but for a straightforward website, the default OWASP rule set is a good baseline. I spend about an hour reviewing the logs after go-live to tune out false positives, and it's been quiet ever since.
+
+```bash
+# Quick check on blocked requests (first week)
+az network application-gateway waf-log-analytics \
+  --gateway-name $GW_NAME \
+  --resource-group $RG \
+  --query "where Action == 'Block' | summarize count() by RequestUri, UserAgent"
+```
+
+## Step 2 — The VPS
+
+The web server runs on an Azure B2s VPS — 2 vCPUs, 4 GB RAM, Ubuntu 22.04 LTS. It's not going to win any benchmark contests, but it's plenty for a website that isn't serving video or large file downloads.
+
+I keep the footprint minimal:
+
+```bash
+# Only what's needed
+apt install nginx certbot python3-certbot-nginx ufw
+```
+
+No cPanel. No Plesk. Just nginx and the ability to read a config file.
+
+I automate the provisioning with a small bash script that:
+1. Spins up the VM via Azure CLI
+2. Opens only the required ports (80, 443, SSH)
+3. Installs nginx and certbot
+4. Applies a baseline hardening script (SSH key only, fail2ban, unattended-upgrades)
+
+The script lives in a private repo and gets run once per new environment. It's not infrastructure-as-code in the formal sense, but it's reproducible and documented.
+
+## Step 3 — DNS and Routing
+
+The Application Gateway gets a public IP. I pointed the domain's A record at it, added a CNAME for `www`, and set up an Azure DNS zone to manage everything in one place.
+
+Routing on the gateway is simple:
+
+- `/` → backend pool (VPS nginx)
+- `/api/*` → backend pool (same VPS, different nginx location block)
+- Everything else → standard nginx rewrite rules
+
+I considered adding Azure CDN for static asset caching, but the site is mostly server-rendered HTML with small assets. CDN adds complexity — DNS propagation, cache invalidation, additional costs — and the marginal benefit wasn't there. I'll revisit if traffic grows.
+
+## Step 4 — Monitoring
+
+One thing I always add: Azure Monitor on day one, not as an afterthought.
+
+I set up:
+- **Metric alerts**: CPU > 80%, disk > 85%, nginx 5xx rate > 10/min
+- **Log Analytics workspace**: nginx access and error logs piped in via the OMS agent
+- **Application Gateway metrics**: request count, backend latency, WAF blocked requests
+
+The client has a dashboard link. They can see traffic patterns, blocked attacks, and server health. It's not Datadog, but it costs $3/month and covers the basics.
+
+## What I'd Do Differently
+
+**Add a staging environment earlier.** I initially deployed straight to production, which meant any config mistake was a real problem. Even a single additional VM behind the same Application Gateway as a staging slot would have made the go-live smoother.
+
+**Automate SSL renewal monitoring.** Certbot renews the cert, but I don't have an alert if the renewal fails silently. I added that after the first 90 days — better late than never.
+
+**Pre-configure the WAF in "Detection" mode for two weeks before switching to "Prevention."** I did this manually, but it should have been in the provisioning script as a flag. Live rule tuning is easier when you have two weeks of logs to review.
+
+## The Bill
+
+A rough breakdown for a single environment:
+
+| Service | Monthly Cost |
+|---------|-------------|
+| Application Gateway (WAF) | ~$45 |
+| VPS B2s | ~$30 |
+| Azure DNS | ~$1 |
+| Log Analytics (basic) | ~$3 |
+| **Total** | **~$79/month** |
+
+That's for a production-grade environment with WAF protection and visibility. The old shared hosting was $15/month but came with none of this.
+
+## Lessons
+
+Infrastructure for client projects doesn't need to be complex. A WAF front, a clean VM, basic monitoring — that's the baseline. Everything else is optional and should be added when there's a reason.
+
+The trap is either over-engineering (k8s for a static site) or under-engineering (shared hosting for a production product). The right answer is boring and works.15:["$","$L8","new-environment-setup",{"post":{"metadata":{"title":"Spinning Up a Client's Production Environment: Azure WAF + VPS","subtitle":"","publishedAt":"2026-04-26","summary":"Setting up a new hosting environment from scratch — the decisions, trade-offs, and lessons from provisioning infrastructure for a client website on Azure.","image":"/images/blog/new-environment-setup.png","images":[],"tag":"Infrastructure","team":[],"link":""},"slug":"new-environment-setup","content":"$3e"},"thumbnail":true,"direction":"column"}]
+3f:T1398,
+Every serious engineer has a lab. Not the certifications-and-home-lab kind — the kind where you test ideas before they hit production, where your side projects run on actual infrastructure instead of your laptop fan doing pushups at 3 AM.
+
+Mine lives on Azure. A single VPS, a WAF in front of it, Docker Swarm underneath, and n8n doing the thinking. Here's how it all fits together and what I learned putting it together over the past year.
+
+## The Starting Point
+
+I needed somewhere to run automation workflows without spinning up a new cloud service every time. Things like:
+
+- AI blogger automation — draft posts, check them, publish them
+- Stock market data ETL — pull prices, enrich them, store them
+- GitHub activity monitoring — notify me when something interesting happens
+- Web scraping pipelines for client research
+
+All of this was running either locally or across half a dozen separate services. I wanted one home for it all.
+
+## The Architecture
+
+The stack is intentionally simple:
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| Network | Azure WAF v2 | Front door, DDoS + filtering |
+| Compute | Azure VPS (B2s) | The actual machine |
+| Orchestration | Docker Swarm | Container management |
+| Automation | n8n | Workflow brain |
+| Storage | Local volumes + backups | Data persistence |
+
+No Kubernetes. No Terraform. No monthly bill that makes you wince. Just a $40/month VPS doing honest work.
+
+## Docker Swarm — Why Not Kubernetes
+
+I went with Swarm instead of k8s for one reason: **simplicity**. Swarm does what I need — multi-container orchestration, rolling updates, service discovery — without the yak shaving that comes with running k8s on a single node.
+
+My stack file looks roughly like this:
+
+```yaml
+version: "3.9"
+services:
+  n8n:
+    image: n8nio/n8n
+    ports:
+      - "5678:5678"
+    volumes:
+      - n8n_data:/home/node/.n8n
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_HOST=${N8N_HOST}
+      - WEBHOOK_URL=${WEBHOOK_URL}
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+
+  postgres:
+    image: postgres:16
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=n8n
+      - POSTGRES_USER=n8n
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+
+volumes:
+  n8n_data:
+  postgres_data:
+```
+
+That's it. `docker stack deploy -c stack.yml lab` and everything is up.
+
+## The WAF — Azure Application Gateway
+
+The Application Gateway sits in front of the VPS. It's doing:
+
+- **DDoS protection** (WAF tier)
+- **Path-based routing** — `/n8n` goes to the container, `/blog` to another
+- **SSL termination** — one cert, clean URLs
+- **Geo-blocking** — I blocked everything outside Europe and the US
+
+Yes, it's overkill for a single VPS. But I already had it running for client work, and there's no reason to run a public-facing service without at least one layer of perimeter defense.
+
+## n8n as the Brain
+
+n8n is where all the automation lives. It's the thing that wakes up in the morning, checks my RSS feeds, scrapes a few sites, sends me a summary, and files it all away in Notion.
+
+Some of the workflows I have running:
+
+### AI Blogger Automation
+
+Triggered by a daily cron — pulls topics from a notion database, generates a draft with an AI call, reviews it, and if it passes some basic quality checks, posts it to the blog. The human-in-the-loop is still there: I review before anything goes live.
+
+### Stock ETL Pipeline
+
+Connects to a broker API, pulls end-of-day prices, enriches them with news sentiment from an external service, and writes everything to a Postgres database. Runs after market close.
+
+### GitHub Monitoring
+
+Watches a handful of repositories for new releases and issues matching specific labels. Sends a notification to my phone via a simple webhook when something relevant pops up.
+
+## What I Learned
+
+**Single-node Swarm is fine for homelabs.** The "Swarm is deprecated" discourse online is for people running multi-node clusters. On one machine, it just works.
+
+**Azure VPS networking is finicky.** The default NSG rules will block everything. I had to spend an embarrassing amount of time figuring out why my ports weren't forwarding. The answer: Azure's NSG is separate from the machine's firewall. Both matter.
+
+**n8n's Postgres integration is more reliable than the built-in SQLite.** I started with the default SQLite setup and lost data twice to container restart issues. Moved to Postgres and never looked back.
+
+**Backups are boring and necessary.** I run a daily cron that snapshots the volume to an Azure Blob Storage container. It's $3/month and has saved me once already.
+
+## What's Next
+
+The lab has been running reliably for about 8 months now. The next thing I want to add is a proper monitoring stack — Grafana + Prometheus — to actually see what's happening under the hood instead of guessing.
+
+If you have a homelab or personal automation setup, I'd love to hear what you're running. Drop a comment or reach out.16:["$","$L8","robot-army-personal-lab",{"post":{"metadata":{"title":"The Robot Army: My Personal Lab on Azure","subtitle":"","publishedAt":"2026-04-26","summary":"How I built a personal automation platform on Azure — a VPS behind a WAF, Docker Swarm for orchestration, and n8n as the brain that ties everything together.","image":"/images/blog/robot-army.png","images":[],"tag":"Infrastructure","team":[],"link":""},"slug":"robot-army-personal-lab","content":"$3f"},"thumbnail":true,"direction":"column"}]
+40:T24de,
+Zero Trust is one of those frameworks that everyone talks about and few people have actually implemented end-to-end. It's easy to describe the principle — never trust, always verify — and hard to execute it across an estate that spans legacy OT systems, hybrid Active Directory, cloud workloads, and thousands of endpoints.
+
+This is a retrospective on a 57-task Zero Trust program I ran for an energy sector client over 18 months. I'll cover what we did, what we got wrong, and what I'd do differently next time.
+
+## The Starting Point
+
+The organization had a traditional perimeter security model: a corporate firewall, AD-joined workstations, and a VPN for remote access. It worked — until it didn't.
+
+The triggering events were a phishing campaign that got as far as a finance workstation, a VPN breach via a contractor whose credentials had been reused on an breached external service, and a regulatory audit that flagged the lack of endpoint visibility as a finding.
+
+The board approved a Zero Trust program. 18 months. 57 tasks. Full scope.
+
+## What We Built
+
+The program broke down into six workstreams:
+
+| Workstream | Scope | Duration |
+|-----------|-------|---------|
+| Identity & Access | Entra ID, Conditional Access, phishing-resistant MFA | Months 1-6 |
+| Endpoint Management | MDE deployment, Intune, security baselines | Months 3-9 |
+| Network Segmentation | Microsegmentation, 802.1X wired/wireless, VLAN restructuring | Months 4-12 |
+| Device Intelligence | MDI deployment, device compliance policies | Months 6-12 |
+| Cloud Security | Defender for Cloud Apps, CASB, workload identities | Months 8-15 |
+| Monitoring & Response | Sentinel, SOC integration, alert triage playbooks | Months 10-18 |
+
+The workstreams ran in parallel where dependencies allowed and sequentially where they didn't. Identity was always first — you can't do Zero Trust without identity as the control plane.
+
+## Identity: The Foundation
+
+We started with Entra ID and Conditional Access. The goal was simple: every access request — regardless of where it originates — gets evaluated against identity, device compliance, and risk signals.
+
+The first six months were brutal. The Conditional Access policy surface grew from nothing to 40+ policies covering:
+- All cloud apps require compliant device
+- Legacy authentication blocked (Basic auth, SOAP, ADAL)
+- High-privilege role holders require phishing-resistant MFA
+- Guest access limited to specific apps with data loss prevention applied
+- Sign-in risk-based policies that step up auth on anomalous behavior
+
+The hardest part wasn't technical — it was organizational. Convincing business unit leads to accept that their device needed to be compliant before accessing SharePoint took longer than writing the policies.
+
+**What broke:** We wrote a policy that blocked legacy authentication globally, which took down a SCADA reporting tool that only supported Basic auth over HTTPS. We had to carve out an exception, add the application to a roadmap for upgrade, and monitor that carveout until it was retired. Exception management became a full-time task.
+
+## Endpoint: MDE + Intune
+
+Months 3-9 covered endpoint deployment. We enrolled all endpoints into Intune, deployed MDE for endpoint detection and response, and applied security baselines.
+
+The deployment order was deliberate:
+1. **Pilot group** — IT and security team first (50 machines)
+2. **VIP group** — executives and finance (100 machines)
+3. **Engineering** — software teams with developer workstations (300 machines)
+4. **General workforce** — the remaining 2,000 machines
+
+Each ring had a two-week observation window before unlocking the next. This let us catch policy conflicts (we had three application compatibility issues that required baseline adjustments) before they hit the whole organization.
+
+**What broke:** The Intune security baseline for Windows blocked a legacy ERP client that used an unsigned DLL loader. We had to relax the block, document the exception, and escalate to the application owner for a remediation timeline. Three other exceptions followed a similar pattern.
+
+## Network: 802.1X and Microsegmentation
+
+This was the most disruptive workstream. 802.1X for wired and wireless access requires every device — including IoT and OT systems — to authenticate before getting network access.
+
+The challenge: the organization had 15 years of flat network architecture. Printers, badge readers, SCADA interfaces, and HVAC systems all sat on the same VLANs as user workstations.
+
+We couldn't onboard everything to 802.1X immediately. So we used a phased approach:
+
+```bash
+# Phase 1: Supplicant deployment (months 4-6)
+# Push 802.1X supplicant config to all domain-joined devices via Intune
+# Devices get provisioning packages, IT validates in pilot
+
+# Phase 2: Switch configuration (months 6-9)
+# Reconfigure access switches for 802.1X with fallback to MAB
+# MAC Authentication Bypass for devices that can't do 802.1X
+
+# Phase 3: VLAN isolation (months 9-12)
+# Move non-compliant devices to quarantine VLAN
+# Isolate OT/IoT on dedicated segments with gateway controls
+```
+
+**What broke:** A building management system that couldn't authenticate to 802.1X and had no fallback configured went dark during a switch firmware upgrade. The BMS vendor took two weeks to provide updated firmware. The building had no HVAC control for that period. It was not a quiet two weeks.
+
+## Device Intelligence: MDI
+
+MDI (Microsoft Defender for Identity) came in at month 6, after enough Entra ID and endpoint coverage was in place to give it meaningful data. The integration with Sentinel gave the SOC a unified view of identity-based attacks.
+
+The MDI deployment surface included:
+- Domain controllers (all 12)
+- AD FS servers (4)
+- ADFS proxy servers (2)
+- Entra ID Connect servers (2)
+
+Within 48 hours of activation, MDI flagged a password spray attack that had been running against the ADFS proxy for three days — below the threshold to trigger alerts but visible in the timeline view. We'd have missed it without MDI.
+
+## Cloud Security: Defender for Cloud Apps
+
+Months 8-15 covered the cloud security workstream. The organization had moved significant workloads to Azure and Microsoft 365, but had no CASB visibility or data loss prevention.
+
+We deployed Defender for Cloud Apps with:
+- App discovery for Shadow IT (found 47 unauthorized SaaS apps in use)
+- OAuth app consent policies
+- DLP policies for sensitive data classification
+- Session policies for high-risk OAuth apps
+
+The app discovery finding was the surprise of the program. 47 unauthorized apps included three cloud storage services, two project management tools, and one social media management platform — all in use by various teams without IT approval. The legal risk of that exposure would have been significant without MDI alerting us.
+
+## Monitoring: Sentinel Integration
+
+The final workstream was SOC integration — getting all the signals into Sentinel and writing playbooks that actually reduced alert fatigue.
+
+We had 340 alerts at program start. After tuning, we got to 45 actionable alerts with defined playbooks. The key was ruthless prioritization: anything that couldn't result in a decision within 5 minutes went to the "monitor and review" bucket, not the "SOC immediate" bucket.
+
+Playbook highlights:
+- **Lateral movement detection**: MDI + Sentinel correlation for NTLM relay patterns
+- **Ransomware precursor detection**: flagged mass file deletion + anomalous process launch
+- **Insider risk indicators**: unusual SharePoint download patterns triggering DLP escalation
+- **Entra sign-in anomaly response**: automated block for high-risk sign-ins with SOC notification
+
+## What I'd Do Differently
+
+**Start with identity regardless.** If I could redo the program, I'd have pushed Entra ID governance and CA policies even earlier. The identity signal is the most reliable indicator across all the other workstreams — you can do microsegmentation, device compliance, and cloud access all faster if you have strong identity controls as the foundation.
+
+**Build the exception management process before writing policies.** We invented the process as we went, which meant inconsistent handling of exceptions early on. A formal exception register with SLAs for remediation would have been cleaner.
+
+**Get OT/IoT onboarded to network monitoring earlier.** We waited until months 9-12 for OT segmentation because we thought we needed all the identity and endpoint work done first. We were wrong. We had blind spots in OT that we didn't know about until a passive OT monitoring tool showed up in month 8.
+
+**Include a tabletop exercise for the SOC before deploying MDE.** We tuned the alerts in isolation but didn't test the response playbooks until after deployment. Some of the playbook logic had gaps that would have caused delays in a real incident.
+
+## The Numbers
+
+| Metric | Start | End |
+|--------|-------|-----|
+| Endpoints with MDE | 0% | 96% |
+| Devices Intune-compliant | 12% | 89% |
+| Conditional Access policies | 0 | 47 |
+| Legacy auth attempts blocked | — | 14,000/month |
+| Unauthorized SaaS apps discovered | 47 | 0 (quarantined) |
+| MDI alerts in SOC queue | 340 | 45 |
+| Time to detect lateral movement | Unknown | < 4 hours |
+
+Eighteen months. 57 tasks. A meaningful reduction in attack surface.
+
+Zero Trust isn't a product you buy. It's a program you build, incrementally, one control at a time.17:["$","$L8","zero-trust-program-energy-sector",{"post":{"metadata":{"title":"Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment","subtitle":"","publishedAt":"2026-04-26","summary":"What we actually did — and what broke — rolling out a full Zero Trust program across a large energy sector organization with 57 tasks across the full stack.","image":"/images/blog/zero-trust-program-energy-sector.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-program-energy-sector","content":"$40"},"thumbnail":true,"direction":"column"}]
+41:T2657,
 Your SOC is not as under-equipped as it feels. You probably have Wazuh collecting logs, Microsoft Defender for Endpoint running on endpoints, and some kind of ticketing system. The problem isn't tooling — it's that those tools don't talk to each other intelligently, and your analysts spend too much time switching between them to do real security work.
 
 The fix isn't buying a new platform. It's wiring what you have into a system that can pre-triage alerts, enrich them with context, and route the right ones to the right people automatically.
@@ -792,8 +1374,8 @@ That's not a software cost. It's a process cost. And it's the part that most tea
 
 Keep detections deterministic. Keep high-impact actions gated behind human approval. Use AI to compress the time your analysts spend context-switching — not to replace their judgment.
 
-The teams that get this right start small, measure everything, and expand only when the previous step is working.14:["$","$L8","ai-driven-soc-assistant",{"post":{"metadata":{"title":"AI-Driven SOC: Layering Intelligence on Top of What You Already Own","subtitle":"","publishedAt":"2026-04-25","summary":"Most SOC teams don't need a new platform — they need the tools they already have to work together smarter. Here's how to build an AI-assisted security operations capability using Wazuh, Microsoft Defender, and lightweight automation.","image":"/images/blog/ai-driven-soc-assistant.png","images":[],"tag":"Security","team":[],"link":""},"slug":"ai-driven-soc-assistant","content":"$39"},"thumbnail":true,"direction":"column"}]
-3a:T400a,
+The teams that get this right start small, measure everything, and expand only when the previous step is working.18:["$","$L8","ai-driven-soc-assistant",{"post":{"metadata":{"title":"AI-Driven SOC: Layering Intelligence on Top of What You Already Own","subtitle":"","publishedAt":"2026-04-25","summary":"Most SOC teams don't need a new platform — they need the tools they already have to work together smarter. Here's how to build an AI-assisted security operations capability using Wazuh, Microsoft Defender, and lightweight automation.","image":"/images/blog/ai-driven-soc-assistant.png","images":[],"tag":"Security","team":[],"link":""},"slug":"ai-driven-soc-assistant","content":"$41"},"thumbnail":true,"direction":"column"}]
+42:T400a,
 When your compliance posture has to span Windows, macOS, and Linux, most teams end up with fragmented tooling, inconsistent logic, and no real enforcement teeth. They check a box on Monday and pretend the problem is solved.
 
 The OT Security Client needed something different. They had a zero trust compliance requirement that actually had to land — across engineering workstations, OT operator stations, and back-office servers — with enforcement that could trigger automatically, not just report that something was wrong.
@@ -1038,8 +1620,8 @@ Remove the exemption list. All devices subject to the same enforcement model. OT
 Cross-platform compliance enforcement is less about the individual platform tooling and more about the unified policy model that sits above it. The OS-specific details (PowerShell scripts, Kandji blueprints, bash checks) are implementation details. The enforcement logic — what happens when a device goes non-compliant, how quickly, and with what escalation path — that's the architecture that matters.
 
 Build that model first. Then wire each platform into it.
-15:["$","$L8","cross-platform-compliance-architecture",{"post":{"metadata":{"title":"Cross-Platform Compliance Architecture: Building a Kill-Switch Enforcement System","subtitle":"","publishedAt":"2026-04-24","summary":"Most compliance frameworks treat enforcement as a checkbox. Here's how to build an actual cross-platform enforcement system that can kill access the moment a device goes non-compliant — Windows, macOS, and Linux.","image":"/images/blog/cross-platform-compliance-architecture.png","images":[],"tag":"Security","team":[],"link":""},"slug":"cross-platform-compliance-architecture","content":"$3a"},"thumbnail":true,"direction":"column"}]
-3b:T20fe,
+19:["$","$L8","cross-platform-compliance-architecture",{"post":{"metadata":{"title":"Cross-Platform Compliance Architecture: Building a Kill-Switch Enforcement System","subtitle":"","publishedAt":"2026-04-24","summary":"Most compliance frameworks treat enforcement as a checkbox. Here's how to build an actual cross-platform enforcement system that can kill access the moment a device goes non-compliant — Windows, macOS, and Linux.","image":"/images/blog/cross-platform-compliance-architecture.png","images":[],"tag":"Security","team":[],"link":""},"slug":"cross-platform-compliance-architecture","content":"$42"},"thumbnail":true,"direction":"column"}]
+43:T20fe,
 The previous version of my Claude Code config introduced structured context files — goals, decisions, progress, gotchas — persisted as markdown and injected at session start. That worked. But markdown has limits: no querying, no deduplication, no concept of importance or decay, no semantic search, and no way to surface related memories across projects.
 
 This version replaces the markdown context files with a SQLite-backed long-term memory system, a dedicated MCP server that exposes LTM primitives to Claude directly, semantic recall with embedding fallback, a graph reasoning layer, and an EvaluateSession hook that extracts decisions and patterns automatically at session end.
@@ -1154,8 +1736,8 @@ The Janitor's duplicate detection via embedding similarity occasionally merges t
 ---
 
 The overall shift is from "context files I remember to maintain" to "a knowledge base that maintains itself." Sessions contribute to it automatically, the Janitor keeps it clean, and recall surfaces relevant history before I start any significant work. The manual hygiene work that v1 and v2 required is mostly gone.
-16:["$","$L8","claude-code-config-v3",{"post":{"metadata":{"title":"Claude Code Config v3: LTM as Infrastructure","subtitle":"","publishedAt":"2026-03-20","summary":"The config got a significant overhaul: SQLite-backed long-term memory, a dedicated MCP server exposing LTM primitives, semantic recall with embedding fallback, graph-based reasoning, and an EvaluateSession hook that extracts decisions automatically.","image":"/images/blog/claude-code-config-v3.png","images":[],"tag":"Dev Tools","team":[],"link":""},"slug":"claude-code-config-v3","content":"$3b"},"thumbnail":true,"direction":"column"}]
-3c:T17c7,
+1a:["$","$L8","claude-code-config-v3",{"post":{"metadata":{"title":"Claude Code Config v3: LTM as Infrastructure","subtitle":"","publishedAt":"2026-03-20","summary":"The config got a significant overhaul: SQLite-backed long-term memory, a dedicated MCP server exposing LTM primitives, semantic recall with embedding fallback, graph-based reasoning, and an EvaluateSession hook that extracts decisions automatically.","image":"/images/blog/claude-code-config-v3.png","images":[],"tag":"Dev Tools","team":[],"link":""},"slug":"claude-code-config-v3","content":"$43"},"thumbnail":true,"direction":"column"}]
+44:T17c7,
 Every IT team has some version of the same problem: the MDM says one thing, Active Directory says another, and the spreadsheet someone maintains manually is a third opinion. Nobody knows the real device count. Nobody knows which machines are stale. Asset reviews are a manual reconciliation exercise that takes days and is wrong before it's finished.
 
 For a FinTech client, I built a pipeline that pulls from every authoritative source — AD, Intune, Azure, MDE — and produces a single unified inventory that's always current. Here's the architecture.
@@ -1244,8 +1826,8 @@ The pipeline has run without manual intervention for over a year. When a new dev
 ---
 
 The architecture is not complicated. Jenkins, PowerShell, SharePoint, Power BI are tools every Microsoft-focused IT team already has. The value is in putting them together deliberately and removing the manual reconciliation step entirely.
-17:["$","$L8","device-inventory-pipeline",{"post":{"metadata":{"title":"Building a Device Inventory Pipeline","subtitle":"","publishedAt":"2026-03-20","summary":"When your MDM doesn't tell the full story, build the pipeline yourself. Here's the Jenkins → PowerShell → SharePoint → Power BI architecture I built to unify device data across AD and Intune for a FinTech client.","image":"/images/blog/device-inventory-pipeline.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"device-inventory-pipeline","content":"$3c"},"thumbnail":true,"direction":"column"}]
-3d:T1a33,
+1b:["$","$L8","device-inventory-pipeline",{"post":{"metadata":{"title":"Building a Device Inventory Pipeline","subtitle":"","publishedAt":"2026-03-20","summary":"When your MDM doesn't tell the full story, build the pipeline yourself. Here's the Jenkins → PowerShell → SharePoint → Power BI architecture I built to unify device data across AD and Intune for a FinTech client.","image":"/images/blog/device-inventory-pipeline.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"device-inventory-pipeline","content":"$44"},"thumbnail":true,"direction":"column"}]
+45:T1a33,
 Most identity platforms are configured once and then drift. The IdP has the org chart from six months ago. The HR system has been updated 50 times since then — new hires, promotions, reorgs, contractor conversions — and none of it flowed downstream.
 
 The result: Active Directory has the wrong department for half the engineering team, Entra ID shows reporting lines from two restructures ago, and the extension attributes that should drive Conditional Access logic are either empty or stale. The HR system has clean data. The IdP does not.
@@ -1342,8 +1924,8 @@ This runbook has been running for over 18 months at this client. It has processe
 ---
 
 The pattern generalises to any HRIS. Workday, BambooHR, Personio — if it has an API and you have Entra ID, you can build this sync. The core principle is the same: the HR system is the source of truth for people data. The IdP should be downstream of it, not a separate silo that drifts.
-18:["$","$L8","hibob-hr-automation",{"post":{"metadata":{"title":"When HiBob Is Your Source of Truth","subtitle":"","publishedAt":"2026-03-20","summary":"Your HR system knows the org better than your IdP does. Here's how I built a bi-directional HiBob ↔ Entra ID sync that keeps departments, titles, managers, and 15 other attributes in sync — automatically.","image":"/images/blog/hibob-hr-automation.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"hibob-hr-automation","content":"$3d"},"thumbnail":true,"direction":"column"}]
-3e:T1cbd,
+1c:["$","$L8","hibob-hr-automation",{"post":{"metadata":{"title":"When HiBob Is Your Source of Truth","subtitle":"","publishedAt":"2026-03-20","summary":"Your HR system knows the org better than your IdP does. Here's how I built a bi-directional HiBob ↔ Entra ID sync that keeps departments, titles, managers, and 15 other attributes in sync — automatically.","image":"/images/blog/hibob-hr-automation.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"hibob-hr-automation","content":"$45"},"thumbnail":true,"direction":"column"}]
+46:T1cbd,
 JumpCloud is a reasonable MDM choice for early-stage companies. It's cross-platform, handles basic device management, and works without a Microsoft stack. But at some point, most orgs that run on Microsoft 365 hit the ceiling: JumpCloud doesn't integrate cleanly with Conditional Access, Defender for Endpoint, Microsoft Purview, or Entra ID — and you end up managing two parallel identity and device stacks that are increasingly hard to reconcile.
 
 For a Trading Platform client, that moment came when they needed to enforce Conditional Access requiring Intune-compliant devices and couldn't do it cleanly while still running JumpCloud as the MDM authority. The decision was to exit JumpCloud fully and migrate to the Microsoft stack: Intune + Entra ID + MDE. 200+ devices, Windows and macOS, in active use.
@@ -1444,8 +2026,8 @@ The bigger win was architectural: one identity stack (Entra ID), one MDM authori
 ---
 
 If you're planning a JumpCloud exit, the pre-migration inventory and the compliance grace period are the two things that will determine whether the migration is smooth. Get the inventory right, and don't enforce before you enroll.
-19:["$","$L8","jumpcloud-to-intune-migration",{"post":{"metadata":{"title":"The JumpCloud Exit Playbook","subtitle":"","publishedAt":"2026-03-20","summary":"Migrating 200+ Windows and macOS devices from JumpCloud to Microsoft Intune without breaking MDM coverage, compliance posture, or user productivity.","image":"/images/blog/jumpcloud-to-intune-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"jumpcloud-to-intune-migration","content":"$3e"},"thumbnail":true,"direction":"column"}]
-3f:T28a7,
+1d:["$","$L8","jumpcloud-to-intune-migration",{"post":{"metadata":{"title":"The JumpCloud Exit Playbook","subtitle":"","publishedAt":"2026-03-20","summary":"Migrating 200+ Windows and macOS devices from JumpCloud to Microsoft Intune without breaking MDM coverage, compliance posture, or user productivity.","image":"/images/blog/jumpcloud-to-intune-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"jumpcloud-to-intune-migration","content":"$46"},"thumbnail":true,"direction":"column"}]
+47:T28a7,
 Most Microsoft 365 environments have MFA. Most of them are still vulnerable to phishing.
 
 The gap is the method. Push notifications can be MFA-fatigue'd. TOTP codes can be intercepted mid-session. SMS is trivially bypassed. None of these protect against an adversary-in-the-middle proxy sitting between your user and your identity provider — and those attacks are increasingly automated, accessible, and effective.
@@ -1546,8 +2128,8 @@ The Conditional Access policy count went from 12 to 19 during this engagement. E
 ---
 
 Phishing-resistant MFA isn't difficult to deploy in a Microsoft environment. The Authentication Strengths model makes it composable with your existing CA policies. The hard part is the change management and the enrolment order — getting users registered before the policy enforces, and not treating "our users have MFA" as meaning "our users are protected."
-1a:["$","$L8","phishing-resistant-mfa-rollout",{"post":{"metadata":{"title":"Phishing-Resistant MFA Rollout","subtitle":"","publishedAt":"2026-03-20","summary":"Standard MFA is no longer enough. Here's how we designed a gradual Conditional Access rollout to enforce FIDO2, Windows Hello for Business, and Platform SSO across a security-conscious OT environment.","image":"/images/blog/phishing-resistant-mfa-rollout.png","images":[],"tag":"Security","team":[],"link":""},"slug":"phishing-resistant-mfa-rollout","content":"$3f"},"thumbnail":true,"direction":"column"}]
-40:T17c2,
+1e:["$","$L8","phishing-resistant-mfa-rollout",{"post":{"metadata":{"title":"Phishing-Resistant MFA Rollout","subtitle":"","publishedAt":"2026-03-20","summary":"Standard MFA is no longer enough. Here's how we designed a gradual Conditional Access rollout to enforce FIDO2, Windows Hello for Business, and Platform SSO across a security-conscious OT environment.","image":"/images/blog/phishing-resistant-mfa-rollout.png","images":[],"tag":"Security","team":[],"link":""},"slug":"phishing-resistant-mfa-rollout","content":"$47"},"thumbnail":true,"direction":"column"}]
+48:T17c2,
 Manual offboarding is a security incident waiting to happen. The typical process: HR tells IT someone is leaving, IT opens a ticket, someone works through a checklist over the next few hours or days. During that window, the departing employee still has active sessions, valid credentials, and potentially a company device with full access to everything they could reach before they left.
 
 I've seen this gap exploited — not always maliciously, but the risk is real. I've also seen the fix: full automation triggered the moment HR closes the case.
@@ -1626,8 +2208,8 @@ After: 12-minute average end-to-end execution time. Zero missed steps. Full audi
 ---
 
 The residual risk in any offboarding process is the time between the employee's last day and when IT acts. Automation doesn't eliminate that risk — it eliminates the gap between the HR decision and the IT action. Once the trigger fires, the window is minutes, not hours.
-1b:["$","$L8","smart-offboarding-orchestration",{"post":{"metadata":{"title":"Smart Offboarding Orchestration","subtitle":"","publishedAt":"2026-03-20","summary":"Manual offboarding leaves doors open — sometimes for days. Here's how I automated a 15-step enterprise offboarding workflow using Azure Logic Apps and Automation Runbooks triggered by an HR webhook.","image":"/images/blog/smart-offboarding-orchestration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"smart-offboarding-orchestration","content":"$40"},"thumbnail":true,"direction":"column"}]
-41:T179d,
+1f:["$","$L8","smart-offboarding-orchestration",{"post":{"metadata":{"title":"Smart Offboarding Orchestration","subtitle":"","publishedAt":"2026-03-20","summary":"Manual offboarding leaves doors open — sometimes for days. Here's how I automated a 15-step enterprise offboarding workflow using Azure Logic Apps and Automation Runbooks triggered by an HR webhook.","image":"/images/blog/smart-offboarding-orchestration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"smart-offboarding-orchestration","content":"$48"},"thumbnail":true,"direction":"column"}]
+49:T179d,
 Most people use Claude Code like a fancy autocomplete. Type a request, read the output, copy-paste, repeat. That works. But it leaves a lot on the table.
 
 When I started seriously using Claude Code, I didn't invent my own system. I borrowed one — specifically, the pattern that Boris Cherny (one of Claude Code's creators) uses himself:
@@ -1721,8 +2303,8 @@ That's how you build a workflow that sticks instead of one you abandon after two
 The full command reference and hook setup is in my [Claude Code config repo](https://github.com/RohiRIK/claude-code-config/blob/main/docs/workflow-daily.md) if you want to dig deeper.
 
 What does your Claude Code workflow look like? I'm curious whether others have hit the same memory gap or found different failure modes. Let me know.
-1c:["$","$L8","claude-code-daily-workflow",{"post":{"metadata":{"title":"The Claude Code Workflow That Actually Stuck","subtitle":"","publishedAt":"2026-03-18","summary":"I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch.","image":"/images/blog/claude-code-daily-workflow.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-daily-workflow","content":"$41"},"thumbnail":true,"direction":"column"}]
-42:T1a15,
+20:["$","$L8","claude-code-daily-workflow",{"post":{"metadata":{"title":"The Claude Code Workflow That Actually Stuck","subtitle":"","publishedAt":"2026-03-18","summary":"I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch.","image":"/images/blog/claude-code-daily-workflow.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-daily-workflow","content":"$49"},"thumbnail":true,"direction":"column"}]
+4a:T1a15,
 The first version of my Claude Code config replaced the default (no memory) with a structured 4-file system: goals, decisions, progress, gotchas. Markdown files, hooks that read and write them, a summary injected at session start. It worked. For a few months.
 
 The problem with flat markdown files isn't that they fail — it's that they don't scale. After a few hundred entries across a dozen projects, you start noticing the cracks. Duplicate decisions. Gotchas that contradict each other because the older one was never updated. Progress logs that grow faster than they get trimmed. No way to ask "what do I know about Supabase" without reading every file.
@@ -1801,8 +2383,8 @@ With SQLite, the system improves over time. Memories that matter get used, have 
 The graph visualizer isn't something I use every session — but when I do open it, it answers questions that were previously unanswerable: "what have I decided about this project?", "is there a gotcha about this library I logged a month ago?", "why does this memory exist?"
 
 The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
-1d:["$","$L8","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$42"},"thumbnail":true,"direction":"column"}]
-43:T1f74,
+21:["$","$L8","claude-code-config-v2",{"post":{"metadata":{"title":"Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph","subtitle":"","publishedAt":"2026-03-11","summary":"The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.","image":"/images/blog/claude-code-config-v2.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config-v2","content":"$4a"},"thumbnail":true,"direction":"column"}]
+4b:T1f74,
 The brief arrived in a Teams message. The IT team was managing hundreds of Windows devices through Microsoft Intune and they had no good way to answer a simple question: what's actually out there, and what state is it in?
 
 Their proposed solution: a PowerShell script triggered by Jenkins, pulling device data from the Intune API and writing it to SharePoint lists. Power BI would sit on top and refresh on a schedule. Dashboards, filters, the works.
@@ -1887,8 +2469,8 @@ But when the real problem is ongoing visibility — and when the solution needs 
 Building FleetWatch upfront was a harder conversation to have, but it was the right one. The client got a system that solves the problem they actually had — not the problem they knew how to articulate.
 
 The source is on GitHub at [RohiRIK/FleetWatch](https://github.com/RohiRIK/FleetWatch) if you want to see how it's put together.
-1e:["$","$L8","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$43"},"thumbnail":true,"direction":"column"}]
-44:T19b0,
+22:["$","$L8","fleetwatch-from-script-to-system",{"post":{"metadata":{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","subtitle":"","publishedAt":"2026-03-04","summary":"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.","image":"/images/blog/fleetwatch-from-script-to-system.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"fleetwatch-from-script-to-system","content":"$4b"},"thumbnail":true,"direction":"column"}]
+4c:T19b0,
 If you're preparing to migrate to Entra ID and a penetration test just flagged "Netlogon not requiring RPC Sealing" — this is how you close it properly.
 
 This isn't a theoretical hardening checklist. It's the actual playbook I follow: four phases, a hard go/no-go gate between discovery and enforcement, and a PowerShell script to do the discovery work for you.
@@ -2038,8 +2620,8 @@ It also puts you in a much cleaner position for Entra ID migration — because t
 ---
 
 The script above is what I run before any enforcement conversation. If you're seeing 5838s you didn't expect, start there — the CSV usually tells you exactly what needs attention.
-1f:["$","$L8","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$44"},"thumbnail":true,"direction":"column"}]
-45:T2296,
+23:["$","$L8","netlogon-rpc-sealing-playbook",{"post":{"metadata":{"title":"Netlogon RPC Sealing: The Full Hardening Playbook","subtitle":"","publishedAt":"2026-03-03","summary":"A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.","image":"/images/blog/netlogon-rpc-sealing-playbook.png","images":[],"tag":"Security","team":[],"link":""},"slug":"netlogon-rpc-sealing-playbook","content":"$4c"},"thumbnail":true,"direction":"column"}]
+4d:T2296,
 The default Claude Code installation does one thing poorly: it forgets everything. Every new session, you re-explain your stack, your preferences, the decisions you made last week. It compounds quickly on any project you're in for more than a few days.
 
 I spent a few months building a configuration layer on top of Claude Code that solves this. Here's what it does and how it works.
@@ -2145,8 +2727,8 @@ The skills mean the repetitive parts (planning, verifying, committing) have cons
 None of this is magic. It's structured configuration that enforces a workflow I decided I wanted. The alternative is relying on memory and discipline to apply that workflow manually every time. That doesn't scale.
 
 The config is version-controlled at [github.com/RohiRIK/claude-code-config](https://github.com/RohiRIK/claude-code-config).
-20:["$","$L8","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$45"},"thumbnail":true,"direction":"column"}]
-46:T1f79,
+24:["$","$L8","claude-code-config",{"post":{"metadata":{"title":"How I Configured Claude Code to Actually Remember Things","subtitle":"","publishedAt":"2026-03-02","summary":"The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.","image":"/images/blog/claude-code-config.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"claude-code-config","content":"$4d"},"thumbnail":true,"direction":"column"}]
+4e:T1f79,
 My homelab runs on a dedicated server, not a cloud VPS. Everything is version-controlled, documented, and designed to run without me touching it. It's been doing that for over a year.
 
 This is what's running, how it's wired together, and what went wrong the first time.
@@ -2241,8 +2823,8 @@ The secrets management was the biggest early mistake. Environment variables in C
 The second thing: start modular. A monolithic Compose file is tempting for the first three services because it's less overhead. By service six, you're paying for it. The directory-per-service structure takes five minutes to set up and saves hours later.
 
 Everything else, including the Swarm choice over Kubernetes, I'd make the same way.
-21:["$","$L8","homelab-docker-swarm",{"post":{"metadata":{"title":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","subtitle":"","publishedAt":"2026-03-02","summary":"A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.","image":"/images/blog/homelab-docker-swarm.png","images":[],"tag":"Infrastructure","team":[],"link":""},"slug":"homelab-docker-swarm","content":"$46"},"thumbnail":true,"direction":"column"}]
-47:T1eda,
+25:["$","$L8","homelab-docker-swarm",{"post":{"metadata":{"title":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","subtitle":"","publishedAt":"2026-03-02","summary":"A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.","image":"/images/blog/homelab-docker-swarm.png","images":[],"tag":"Infrastructure","team":[],"link":""},"slug":"homelab-docker-swarm","content":"$4e"},"thumbnail":true,"direction":"column"}]
+4f:T1eda,
 I've been building most of my personal projects with Claude Code for the past year. The tool works, but not in the way most people describe it. The narrative is usually "just describe what you want and it builds it." That's not wrong, but it's missing the part where a bad description causes you to spend two hours steering the model away from the wrong implementation.
 
 The shift that changed everything was treating AI as an analyst team, not a code generator.
@@ -2324,8 +2906,8 @@ I've run the experiment. Skipping `/plan` and going straight to implementation f
 The planning phase doesn't write code, so it feels unproductive. It's the opposite. A 20-minute planning session that surfaces a wrong assumption saves two hours of implementation. Every time.
 
 The model isn't the bottleneck. The bottleneck is clarity about what you're building.
-22:["$","$L8","vibe-coding-ai-workflows",{"post":{"metadata":{"title":"What I Actually Learned from Vibe Coding with Claude Code","subtitle":"","publishedAt":"2026-03-02","summary":"A year of building projects with AI: what the workflow looks like, how I keep context alive across sessions, which safety patterns actually work, and what breaks if you skip them.","image":"/images/blog/vibe-coding-ai-workflows.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"vibe-coding-ai-workflows","content":"$47"},"thumbnail":true,"direction":"column"}]
-48:Tdcb,
+26:["$","$L8","vibe-coding-ai-workflows",{"post":{"metadata":{"title":"What I Actually Learned from Vibe Coding with Claude Code","subtitle":"","publishedAt":"2026-03-02","summary":"A year of building projects with AI: what the workflow looks like, how I keep context alive across sessions, which safety patterns actually work, and what breaks if you skip them.","image":"/images/blog/vibe-coding-ai-workflows.png","images":[],"tag":"Engineering","team":[],"link":""},"slug":"vibe-coding-ai-workflows","content":"$4f"},"thumbnail":true,"direction":"column"}]
+50:Tdcb,
 I work in IT security. I've sat through a lot of vendor calls. And somewhere around the third time someone told me their network appliance was "a Zero Trust solution," I started keeping count.
 
 It's not a product. It never was. Here's what it actually is.
@@ -2369,8 +2951,8 @@ None of that is a product. All of it is work.
 ---
 
 This is the first of a few posts I'm planning on Zero Trust — what it actually means, how I've implemented pieces of it in real environments, and where the hard parts are. Next up: Conditional Access, which is where most of the practical implementation lives.
-23:["$","$L8","zero-trust-is-not-a-product",{"post":{"metadata":{"title":"Zero Trust Is Not a Product","subtitle":"","publishedAt":"2026-02-20","summary":"Every vendor sells 'Zero Trust.' Most of what they're selling is a marketing label on a firewall. Here's what the model actually means and why it matters.","image":"/images/blog/zero-trust-is-not-a-product.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-is-not-a-product","content":"$48"},"thumbnail":true,"direction":"column"}]
-49:T15a9,
+27:["$","$L8","zero-trust-is-not-a-product",{"post":{"metadata":{"title":"Zero Trust Is Not a Product","subtitle":"","publishedAt":"2026-02-20","summary":"Every vendor sells 'Zero Trust.' Most of what they're selling is a marketing label on a firewall. Here's what the model actually means and why it matters.","image":"/images/blog/zero-trust-is-not-a-product.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-is-not-a-product","content":"$50"},"thumbnail":true,"direction":"column"}]
+51:T15a9,
 If you're running Microsoft 365 and you're serious about Zero Trust, Conditional Access is where most of the actual work happens. It's the enforcement layer that sits between your users and your apps — evaluating identity, device health, location, and risk signals before granting access.
 
 I've built Conditional Access policies for several client environments. Here's what I've learned.
@@ -2442,8 +3024,8 @@ KQL queries against the sign-in logs in Log Analytics give you more flexibility 
 ---
 
 Next post: endpoint hardening as a Zero Trust control — because Conditional Access requiring a "compliant device" is only as good as what your compliance policies actually check.
-24:["$","$L8","conditional-access-in-practice",{"post":{"metadata":{"title":"Conditional Access in Practice","subtitle":"","publishedAt":"2026-02-15","summary":"Conditional Access is where Zero Trust principles actually land in a Microsoft environment. Here's how to think about it, what to get right, and where I've seen it go wrong.","image":"/images/blog/conditional-access-in-practice.png","images":[],"tag":"Security","team":[],"link":""},"slug":"conditional-access-in-practice","content":"$49"},"thumbnail":true,"direction":"column"}]
-4a:T15f3,
+28:["$","$L8","conditional-access-in-practice",{"post":{"metadata":{"title":"Conditional Access in Practice","subtitle":"","publishedAt":"2026-02-15","summary":"Conditional Access is where Zero Trust principles actually land in a Microsoft environment. Here's how to think about it, what to get right, and where I've seen it go wrong.","image":"/images/blog/conditional-access-in-practice.png","images":[],"tag":"Security","team":[],"link":""},"slug":"conditional-access-in-practice","content":"$51"},"thumbnail":true,"direction":"column"}]
+52:T15f3,
 In the last post I talked about Conditional Access requiring device compliance as a gate for accessing sensitive resources. That's a good control — but it's only as strong as what your compliance policies actually check.
 
 A compliance policy that requires Windows 10 or later and nothing else isn't doing much. Here's what meaningful endpoint hardening looks like and how to enforce it at scale.
@@ -2514,8 +3096,8 @@ If you can answer those from Intune and DfE dashboards in under 5 minutes, your 
 ---
 
 Next: why I built Project Aegis — an AI agent system for security operations — and how the same Zero Trust principles apply to agentic systems that have access to sensitive tools.
-25:["$","$L8","endpoint-hardening-zero-trust-control",{"post":{"metadata":{"title":"Endpoint Hardening as a Zero Trust Control","subtitle":"","publishedAt":"2026-02-10","summary":"A compliant device in Conditional Access is only meaningful if your compliance policies check things that actually matter. Here's what to harden and how to measure it.","image":"/images/blog/endpoint-hardening-zero-trust-control.png","images":[],"tag":"Security","team":[],"link":""},"slug":"endpoint-hardening-zero-trust-control","content":"$4a"},"thumbnail":true,"direction":"column"}]
-4b:T1747,
+29:["$","$L8","endpoint-hardening-zero-trust-control",{"post":{"metadata":{"title":"Endpoint Hardening as a Zero Trust Control","subtitle":"","publishedAt":"2026-02-10","summary":"A compliant device in Conditional Access is only meaningful if your compliance policies check things that actually matter. Here's what to harden and how to measure it.","image":"/images/blog/endpoint-hardening-zero-trust-control.png","images":[],"tag":"Security","team":[],"link":""},"slug":"endpoint-hardening-zero-trust-control","content":"$52"},"thumbnail":true,"direction":"column"}]
+53:T1747,
 I've spent the last year building Project Aegis — an AI agent system that automates security operations work. Threat intel ingestion, alert triage, compliance checks, incident drafts. The agents have access to APIs, can query databases, can interact with ticketing systems.
 
 While I was building it, I kept running into the same realization: agentic systems need Zero Trust applied to them too. Most don't have it.
@@ -2587,8 +3169,8 @@ The core shift is treating your AI agents as principals that need the same secur
 Identity, least privilege, logging, continuous monitoring, assume breach. The principles are the same. The implementation is different but not dramatically so if you're already doing it for your users and services.
 
 The hard part is the culture: most agentic development moves fast and treats security as something to add later. Later usually doesn't happen. Better to bake it in from the start.
-26:["$","$L8","zero-trust-for-ai-agents",{"post":{"metadata":{"title":"Zero Trust for AI Agents","subtitle":"","publishedAt":"2026-02-05","summary":"AI agents have access to real tools — APIs, databases, shell execution. The same principles that apply to human users apply here, and most agentic systems ignore them.","image":"/images/blog/zero-trust-for-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-for-ai-agents","content":"$4b"},"thumbnail":true,"direction":"column"}]
-4c:T16b6,
+2a:["$","$L8","zero-trust-for-ai-agents",{"post":{"metadata":{"title":"Zero Trust for AI Agents","subtitle":"","publishedAt":"2026-02-05","summary":"AI agents have access to real tools — APIs, databases, shell execution. The same principles that apply to human users apply here, and most agentic systems ignore them.","image":"/images/blog/zero-trust-for-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-for-ai-agents","content":"$53"},"thumbnail":true,"direction":"column"}]
+54:T16b6,
 There's a version of security that's built around the network. The idea is: defend the boundary, and everything inside is safe. Keep attackers out with firewalls, VPNs, intrusion detection. Trust the inside.
 
 That model has been broken for a long time. Cloud services, remote work, SaaS, third-party integrations — the "inside" isn't a coherent concept anymore. Your users are authenticating from coffee shops. Your apps are in Azure. Your data is in SharePoint and Salesforce and a dozen other places. There's no perimeter to defend.
@@ -2649,10 +3231,10 @@ The conversation shifts from "security is making our lives harder" to "we're bui
 ---
 
 Last post in this series will be practical: what a Zero Trust rollout actually looks like in a mid-size organization, what to do first, and where the first six months usually go wrong.
-27:["$","$L8","identity-first-security",{"post":{"metadata":{"title":"Identity-First Security","subtitle":"","publishedAt":"2026-01-28","summary":"The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.","image":"/images/blog/identity-first-security.png","images":[],"tag":"Security","team":[],"link":""},"slug":"identity-first-security","content":"$4c"},"thumbnail":true,"direction":"column"}]
-36:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
-37:["$","$L4d",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L4d",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L4d",null,{"gap":"16","children":[["$","$L4e","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L4e","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L4e","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L4d",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-2c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-4f:I[27201,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"IconMark"]
-2a:null
-2e:[["$","title","0",{"children":"Writing on security, automation, and infrastructure"}],["$","meta","1",{"name":"description","content":"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman"}],["$","meta","2",{"property":"og:title","content":"Writing on security, automation, and infrastructure"}],["$","meta","3",{"property":"og:description","content":"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman"}],["$","meta","4",{"property":"og:url","content":"https://cloudjourneyblog.rohi-lab.org/blog"}],["$","meta","5",{"property":"og:image","content":"https://cloudjourneyblog.rohi-lab.org/images/avatar.png"}],["$","meta","6",{"property":"og:image:alt","content":"Writing on security, automation, and infrastructure"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing on security, automation, and infrastructure"}],["$","meta","10",{"name":"twitter:description","content":"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman"}],["$","meta","11",{"name":"twitter:image","content":"https://cloudjourneyblog.rohi-lab.org/images/avatar.png"}],["$","link","12",{"rel":"icon","href":"/icon.png?icon.c8434fe5.png","sizes":"640x640","type":"image/png"}],["$","$L4f","13",{}]]
+2b:["$","$L8","identity-first-security",{"post":{"metadata":{"title":"Identity-First Security","subtitle":"","publishedAt":"2026-01-28","summary":"The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.","image":"/images/blog/identity-first-security.png","images":[],"tag":"Security","team":[],"link":""},"slug":"identity-first-security","content":"$54"},"thumbnail":true,"direction":"column"}]
+3a:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+3b:["$","$L55",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L55",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L55",null,{"gap":"16","children":[["$","$L56","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L56","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L56","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L55",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+30:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+57:I[27201,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"IconMark"]
+2e:null
+32:[["$","title","0",{"children":"Writing on security, automation, and infrastructure"}],["$","meta","1",{"name":"description","content":"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman"}],["$","meta","2",{"property":"og:title","content":"Writing on security, automation, and infrastructure"}],["$","meta","3",{"property":"og:description","content":"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman"}],["$","meta","4",{"property":"og:url","content":"https://cloudjourneyblog.rohi-lab.org/blog"}],["$","meta","5",{"property":"og:image","content":"https://cloudjourneyblog.rohi-lab.org/images/avatar.png"}],["$","meta","6",{"property":"og:image:alt","content":"Writing on security, automation, and infrastructure"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing on security, automation, and infrastructure"}],["$","meta","10",{"name":"twitter:description","content":"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman"}],["$","meta","11",{"name":"twitter:image","content":"https://cloudjourneyblog.rohi-lab.org/images/avatar.png"}],["$","link","12",{"rel":"icon","href":"/icon.png?icon.c8434fe5.png","sizes":"640x640","type":"image/png"}],["$","$L57","13",{}]]

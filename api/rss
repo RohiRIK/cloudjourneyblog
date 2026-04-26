@@ -5,7 +5,7 @@
     <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     <description>Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman</description>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Apr 2026 08:56:27 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 09:06:21 GMT</lastBuildDate>
     <atom:link href="https://CloudJourneyBlog.rohi-lab.org/api/rss" rel="self" type="application/rss+xml" />
     <managingEditor>rohi@rohirikman.dev (Rohi Rikman)</managingEditor>
     <webMaster>rohi@rohirikman.dev (Rohi Rikman)</webMaster>
@@ -52,6 +52,46 @@
       <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Moving from hybrid Azure AD join to Entra-only join isn't a flip-a-switch decision. Here's the practical checklist of what to resolve before you cut the domain cord — and the decision framework for wipe-and-reload versus in-place migration.]]></description>
       <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/entra-join-readiness-checklist.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>Automating HR Lifecycle Events for a Growing Veterinary Marketplace</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/hr-lifecycle-automation</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/hr-lifecycle-automation</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Building a set of automated HR-driven workflows for a fast-growing client — onboarding, role changes, and offboarding orchestrated through HiBob and a custom middleware layer.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/hr-lifecycle-automation.png" type="image/jpeg" />
+      <category>Automation</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>Spinning Up a Client's Production Environment: Azure WAF + VPS</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/new-environment-setup</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/new-environment-setup</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Setting up a new hosting environment from scratch — the decisions, trade-offs, and lessons from provisioning infrastructure for a client website on Azure.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/new-environment-setup.png" type="image/jpeg" />
+      <category>Infrastructure</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>The Robot Army: My Personal Lab on Azure</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/robot-army-personal-lab</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/robot-army-personal-lab</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How I built a personal automation platform on Azure — a VPS behind a WAF, Docker Swarm for orchestration, and n8n as the brain that ties everything together.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/robot-army.png" type="image/jpeg" />
+      <category>Infrastructure</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-program-energy-sector</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-program-energy-sector</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[What we actually did — and what broke — rolling out a full Zero Trust program across a large energy sector organization with 57 tasks across the full stack.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/zero-trust-program-energy-sector.png" type="image/jpeg" />
       <category>Security</category>
       <author>rohi@rohirikman.dev (Rohi Rikman)</author>
     </item>

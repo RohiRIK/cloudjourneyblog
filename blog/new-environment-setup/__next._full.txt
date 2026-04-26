@@ -1,0 +1,369 @@
+1:"$Sreact.fragment"
+3:I[339756,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
+4:I[837457,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
+6:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"ViewportBoundary"]
+b:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"MetadataBoundary"]
+d:I[168027,[],"default"]
+:HL["/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
+:HL["/_next/static/chunks/d20e0f0702cef329.css","style"]
+:HL["/_next/static/chunks/3a1b43107ae24619.css","style"]
+:HL["/_next/static/chunks/eef662fdc50843a7.css","style"]
+:HL["/_next/static/chunks/b3a7f4834154c9dc.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"C5KnbyyYe9BCJwWHOCLLh","c":["","blog","new-environment-setup"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","new-environment-setup","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/2ffb35f14b0942d3.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+f:I[530824,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Providers"]
+10:I[273323,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
+11:I[621971,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RevealFx"]
+12:I[394412,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Background"]
+13:I[521247,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ClientFlex"]
+14:I[402971,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Header"]
+15:I[1166,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RouteGuard"]
+e:T771,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"violet","accent":"emerald","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$e"}}]}],["$","$Lf",null,{"children":["$","$L10",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L11",null,{"fill":true,"position":"absolute","children":["$","$L12",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L13",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L14",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L15",null,{"children":"$L16"}]}]}],"$L17"]}]}]]}]
+18:I[778454,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
+19:I[298229,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"IconButton"]
+1a:I[479520,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
+1b:I[624379,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
+1c:I[145250,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
+1d:I[398382,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
+1f:I[448588,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
+20:I[992713,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
+21:I[311451,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
+22:I[89532,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
+23:I[814360,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
+16:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+24:T1842,
+We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
+
+## The Implementation Sequence
+
+Zero Trust isn't a product you buy. It's a sequence of controls you enforce, in order, with each phase creating the foundation for the next.
+
+### Phase 1: Emergency Access & Monitoring Foundation
+
+Before touching anything else, you need:
+
+- **Breakglass accounts** — Named emergency accounts that bypass all Conditional Access. Don't use these daily. Test them quarterly.
+- **Alerting baseline** — What does normal look like? Capture login patterns, device health, app usage before you start blocking.
+
+This is the unsexy phase that saves you when Phase 3 locks everyone out.
+
+### Phase 2: Security Info Registration
+
+Before enforcing MFA, users need to register authentication methods. Set this up first:
+- **Auth methods policy** — Enable Microsoft Authenticator, FIDO2, Windows Hello for Business
+- **Temporary Access Pass** — One-time codes for users who lose hardware keys
+- **Report-only mode** — Test CA policies before enforcing
+
+### Phase 3: Block Legacy Authentication
+
+Legacy auth (SMTP auth, basic auth, POP/IMAP) is the attack surface. Block it:
+
+```
+Conditional Access > Assignments > Cloud apps > All apps
+Conditions > Client apps > Select Exchange ActiveSync clients and Other clients
+Controls > Grant > Block access
+```
+
+Block legacy auth too early and you'll break:
+- Legacy application integrations
+- Service accounts with password auth only
+- Old MFA integrations that sit behind legacy protocols
+
+**What broke first:** SMTP-authenticated printer scanning and IoT device integrations. Both used basic auth with no modern auth path.
+
+### Phase 3: MFA Enforcement
+
+Phishing-resistant MFA is the goal. FIDO2 hardware keys. But hardware keys have procurement and onboarding friction:
+
+- Procurement: Buy 50 keys, distribute to Tier-1 roles (privileged users, admins)
+- Onboarding: Users need to register in-browser with Chrome/Edge (Firefox support is spotty)
+- Policy: Require phishing-resistant MFA for admin roles; offer standard MFA as fallback for general users
+
+**What broke first:** Users who lost their hardware keys. Registration flow required a new key + backup key, and the process times out fast.
+
+### Phase 4: Device Compliance (Intune Baselines)
+
+Intune security baselines + Conditional Access is where device trust lives:
+
+- **Windows baseline** — BitLocker, Windows Defender, firewall rules
+- **Device compliance policy** — Require Microsoft Entra hybrid joined OR compliant device
+- **MDE integration** — Device risk from Defender feeds CA decisions
+
+**What broke first:** Microsoft Entra hybrid join fails when:
+- Stale device objects in on-prem AD aren't cleaned up
+- Line-of-business apps still query on-prem AD only (no cloud auth path)
+- Users are co-managed (Intune + SCCM) and the policy boundary isn't clear
+
+### Phase 5: Session Controls
+
+Sign-in frequency and device restrictions for existing sessions:
+- **Sign-in frequency** — Re-authenticate after X hours or when device state changes
+- **Persistent browser** — Block to prevent session cookie replay
+- **App-enforced restrictions** — Disable clipboard/file copy for unmanaged devices
+
+### Phase 6: Risk-Based Conditional Access
+
+Identity Protection risk signals drive dynamic policies:
+
+- **High-risk sign-in** — Block or require MFA
+- **Risky user** — Force password reset
+- **Microsoft Defender for Identity** — Detect lateral movement, privilege escalation, and domain escalation attacks
+
+**What broke first:** False positives. Risky sign-in policies flagged VPN users on corporate devices because the sign-in location didn't match.
+
+### Phase 7: Network Segmentation (802.1X)
+
+WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
+
+- **EAP method** — EAP-TLS with certificate-based auth (vs. EAP-PEAP/MSCHAPv2)
+- **Certificate lifecycle** — SCEP or PKCS certificate profile from Intune
+- **Fallback** — WPA2-PSK for legacy devices that can't do 802.1X
+
+**What broke first:** EAP negotiation failures. Root causes:
+- Wrong EAP type configured on client vs. RADIUS
+- Server certificate missing trusted root on client
+- Server name validation mismatch (certificate SAN doesn't match RADIUS hostname)
+- Expired or revoked client/server certificates
+
+## What Actually Broke First
+
+After three years, here's the friction ranking:
+
+| Friction Point | Phase | Symptom |
+|---|---|---|
+| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
+| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM and Intune |
+| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
+| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
+| Hardware key loss | MFA | Users lose keys, no backup, lockout |
+| Breakglass account lockout | Foundation | Breakglass account passwords expire or are not tested |
+
+## The Hard Lessons
+
+1. **Don't start with blocking.** Start with alerting and monitoring. Baseline normal before you break normal.
+
+2. **Phased enforcement, not big bang.** Each phase enables the next. Block legacy auth → enforce MFA → require device compliance → apply risk-based access.
+
+3. **802.1X is the hardest network control.** Budget double the time for 802.1X pilot. EAP-TLS certificate validation is where it fails.
+
+4. **Device trust requires clear ownership.** If you're co-managed (SCCM + Intune), define the boundary. We used Intune for cloud-native devices, SCCM for remaining on-prem managed.
+
+5. **Governance is the bottleneck.** Zero Trust fails when cross-team ownership isn't clear. Identity owns CA policies. Endpoint owns device baselines. Network owns 802.1X. Security owns MDI.
+
+## The Takeaway
+
+Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
+
+The only thing that broke irreparably was when we tried to skip Phase 1.5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/new-environment-setup","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/new-environment-setup\",\"sameAs\":[],\"headline\":\"Spinning Up a Client's Production Environment: Azure WAF + VPS\",\"description\":\"Setting up a new hosting environment from scratch — the decisions, trade-offs, and lessons from provisioning infrastructure for a client website on Azure.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/new-environment-setup.png\",\"datePublished\":\"2026-04-26\",\"dateModified\":\"2026-04-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"April 26, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Spinning Up a Client's Production Environment: Azure WAF + VPS"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}]]}]}],["$","$L1d",null,{"src":"/images/blog/new-environment-setup.png","alt":"Spinning Up a Client's Production Environment: Azure WAF + VPS","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"Spinning Up a Client's Production Environment: Azure WAF + VPS","url":"https://CloudJourneyBlog.rohi-lab.org/blog/new-environment-setup"}],["$","$L20",null,{}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L21",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L22",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L23","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$24"},"thumbnail":true,"direction":"column"}],"$L25"]}]]}],"$L26"]}]}],"$L27"]}]
+29:I[988654,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+2a:I[605649,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+28:T1e4d,
+Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
+
+This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
+
+## The Problem: Shadow IT in Google Workspace
+
+Every organization has it: users who default to personal accounts for convenience. Personal Gmail on work devices. Personal Drive for sharing. Personal Calendar for everything.
+
+The risks:
+- **No DLP** — Company data leaves to personal accounts with no controls
+- **No audit trail** — You can't investigate a data leak if you don't know it happened
+- **No lifecycle** — When they leave, access to work data persists in their personal account
+- **Compliance risk** — Often noncompliant with internal policy and regulated data-handling requirements
+
+The goal: make personal Gmail unusable for work purposes without breaking legitimate personal use on personal devices.
+
+## How CASB Fits In
+
+CASB (Cloud Access Security Broker) sits between your users and cloud services, providing:
+- **Visibility** — What cloud apps are being used?
+- **Data protection** — DLP policies applied to cloud traffic
+- **Threat protection** — Anomaly detection for cloud usage
+- **Access control** — Block or restrict based on context
+
+Google Workspace integrates with CASB via API, not inline proxy. Google explicitly recommends API/offline CASB patterns over inline proxies — inline CASBs exist but aren't the preferred path. For most orgs, Google-native controls (DLP, Reports API, App Access Management) cover much of what you need before considering third-party CASB.
+
+### Shadow IT Discovery
+
+Before you can block, you need to know what you're dealing with. The CASB (or Google Workspace audit logs) reveals:
+
+- **OAuth token inventory** — Which third-party apps have user-authorized access to their Google data
+- **Login activity** — Where are users authenticating from?
+- **Drive sharing** — What's being shared externally?
+- **App usage** — Which apps are accessing Google Workspace data?
+
+In Google Workspace Admin console, go to Security > API controls > Access management. Review OAuth app entries — check ownership (Google-owned/internal/third-party), requested scopes, and user count. The CASB dashboard often surfaces this more visually.
+
+Apps are categorized as **Trusted** (full access), **Limited** (specific Google data only), **Blocked** (no access), or the default for unconfigured apps. Mark unknown third-party apps as Blocked after reviewing scope and ownership.
+
+## The Migration Strategy
+
+### Phase 1: Discover and Categorize
+
+List every external app accessing your users' Google data. Categorize:
+- **Approved** — IT-sanctioned, security reviewed
+- **Tolerated** — Not ideal but not blocked yet
+- **Blocked** — Shadow IT, must go
+
+The CASB dashboard usually provides this. If not, export audit logs and pivot in Excel.
+
+### Phase 2: Offer a Better Alternative
+
+Users go to personal Gmail because the sanctioned option isn't convenient. Fix that:
+
+- **Google Workspace** — If you don't have it, get it. Every user gets company @company.com account.
+- **Shared drives** — Centralize file storage so personal Drive isn't needed
+- **SSO** — Single sign-on from Entra ID to Google Workspace removes the password burden
+
+### Phase 3: Enforce with Policy
+
+Now block. The enforcement stack, in order of impact:
+
+**1. Block personal Google accounts** — This is what actually makes personal Gmail unusable on managed devices. Configure via proxy: `X-GoogApps-Allowed-Domains: yourdomain.com`, or in Google Admin console > Security > Managed browser > Restrict sign-in to managed accounts. This stops users from adding their personal @gmail.com account to Chrome or signing into personal Gmail on managed machines.
+
+**2. App Access Control** — In Security > API controls > Access management, configure apps as Trusted / Limited / Specific Google data / Blocked. This controls OAuth grants, not browser access. Set default to Blocked for unconfigured apps if you want zero tolerance.
+
+**3. Context-Aware Access** — Verify managed device before granting access to Workspace apps. Requires Endpoint Verification on desktop; mobile uses Google endpoint management (Intune, Jamf, etc.) for device signals.
+
+### Phase 4: Data Migration
+
+For users with existing personal Gmail data that needs to come over:
+
+1. **Data import** — Admin imports personal Gmail to corporate account via Security > Data export and management > Data migration. Requires user authorization — they authorize their personal Gmail access. This isn't the "Google Workspace Migrate" tool (that's for Exchange migrations).
+2. **Takeout** — User exports personal Drive, admin migrates to Shared Drive
+3. **Calendar migration** — User exports from personal calendar, imports to corporate or shares calendar with corporate account
+
+This takes time. Give users 30 days to migrate, then enforce.
+
+## The Enforcement Checklist
+
+| Control | Implementation | Effect |
+|---|---|---|
+| Consumer account block | X-GoogApps-Allowed-Domains header or managed browser sign-in restriction | Personal Gmail can't sign in on managed devices |
+| App Access Control | Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
+| Context-Aware Access | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
+| Drive external sharing | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
+| SSO | Entra ID to Google Workspace | One identity, one credential |
+
+**CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
+
+## What Actually Breaks First
+
+In practice, this enforcement breaks these workflows:
+
+1. **User's personal phone** — They can't check corporate email on their personal Android/iOS without management installed. Solution: offer MDM enrollment or accept the limitation.
+
+2. **Third-party tools** — Users who authorized random SaaS apps lose access. Solution: pre-approve the most common ones (Zoom, Slack, etc.).
+
+3. **Contractors** — External users without managed devices. Solution: dedicated contractor accounts with limited access, or accept unmanaged access with increased monitoring.
+
+4. **Endpoint Verification sync delays** — Compliant desktops get blocked before they sync device status. Google's docs explicitly warn about this. Run in monitor mode first.
+
+5. **OAuth restrictions break integrations fast** — Zoom, Slack, calendaring add-ons, scanners, backup tools — all need explicit app access configuration or users lose functionality.
+
+6. **Delegated mailbox access** — Consumer account blocking with `X-GoogApps-Allowed-Domains` can break delegated mailbox access if the delegate's domain isn't in allowed headers.
+
+## The Takeaway
+
+You can't uninvent personal Gmail. Your users will always have personal accounts. What you can do is make it operationally useless for work:
+
+- DLP policies block data exfiltration
+- Context-Aware Access restricts access to managed devices
+- SSO removes the password management burden
+- Structured migration moves existing data to corporate
+
+The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.25:["$","$L23","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$28"},"thumbnail":true,"direction":"column"}]
+26:["$","$L29",null,{}]
+27:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L2a",null,{"fitHeight":true}]}]
+2b:I[811052,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
+2c:I[436122,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
+2d:I[626935,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
+1e:[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Every client project eventually reaches the same moment: you need to move from a staging URL to a real production environment. That means real infrastructure, real domains, real security posture — the works."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"This is the story of one of those moments. I'll walk through what I built, why I made the decisions I did, and what I'd do differently."}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-starting-point","children":"The Starting Point"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The client needed a new hosting environment for their website. They'd been running on a shared hosting plan that was showing its age — slow response times, no SSL automation, no ability to customize headers, and zero visibility into traffic patterns. It was fine for a prototype. It wasn't acceptable for a live product."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The brief was simple: something fast, secure, and maintainable. Not overengineered — just solid."}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-azure","children":"Why Azure"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I standardise on Azure for client infrastructure for a few reasons:"}],"\n",["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"The portal is well-designed and clients can actually see what they're paying for"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"WAF (Web Application Firewall) is first-party and integrates with Application Gateway"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"I already have the tooling — ARM templates, scripting, monitoring dashboards"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Microsoft support is available if things go wrong at 2 AM"}],"\n"]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The alternative was AWS (too complex for a straightforward website), GCP (great, but I have less operational depth), or a managed platform like Netlify/Vercel (not flexible enough for the custom requirements)."}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-architecture","children":"The Architecture"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Here's what I built:"}],"\n",["$","table",null,{"marginTop":"12","marginBottom":"12","style":{"width":"100%","borderCollapse":"collapse","fontSize":"0.875rem","lineHeight":"1.75"},"children":[["$","thead",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-medium)","backgroundColor":"var(--neutral-alpha-soft)"},"children":["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Layer"}],["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Service"}],["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Purpose"}]]}]}],"$L2e"]}],"\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","\n","$L51","\n","$L52"]
+53:I[597784,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"CodeBlock"]
+54:I[362844,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
+2e:["$","tbody",null,{"children":[["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Edge"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Azure Application Gateway + WAF"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"SSL termination, DDoS protection, path routing"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Compute"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Azure VPS (B2s)"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Web server host"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"DNS"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Azure DNS"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Zone management"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"CDN"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Azure CDN (optional)"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Static asset acceleration"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Monitoring"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Azure Monitor + Log Analytics"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Traffic visibility"}]]}]]}]
+2f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"That's it. No Kubernetes, no containers, no Terraform. A plain Linux VPS behind a WAF. Sometimes simple is the right answer."}]
+30:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"step-1-azure-application-gateway-waf","children":"Step 1 — Azure Application Gateway + WAF"}]
+31:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I started at the edge. The Application Gateway is the front door — it's what the outside world hits first."}]
+32:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I configured it with:"}]
+33:["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"WAF mode"}],": Prevention (not detection — we block, not just alert)"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"OWASP rule set 3.2"}],": Covers the standard exploits — SQLi, XSS, Local File Inclusion, remote code execution attempts"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Custom rules"}],": Blocked a handful of known-bad ASNs and geographies outside the client's primary markets"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"SSL offloading"}],": One wildcard cert via Let's Encrypt, terminated at the gateway"]}],"\n"]}]
+34:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The WAF gets a bad reputation for being hard to tune. It can be — but for a straightforward website, the default OWASP rule set is a good baseline. I spend about an hour reviewing the logs after go-live to tune out false positives, and it's been quiet ever since."}]
+35:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"# Quick check on blocked requests (first week)\naz network application-gateway waf-log-analytics \\\n  --gateway-name $GW_NAME \\\n  --resource-group $RG \\\n  --query \"where Action == 'Block' | summarize count() by RequestUri, UserAgent\"\n","language":"bash","label":"Bash"}],"copyButton":true}]
+36:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"step-2-the-vps","children":"Step 2 — The VPS"}]
+37:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The web server runs on an Azure B2s VPS — 2 vCPUs, 4 GB RAM, Ubuntu 22.04 LTS. It's not going to win any benchmark contests, but it's plenty for a website that isn't serving video or large file downloads."}]
+38:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I keep the footprint minimal:"}]
+39:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"# Only what's needed\napt install nginx certbot python3-certbot-nginx ufw\n","language":"bash","label":"Bash"}],"copyButton":true}]
+3a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"No cPanel. No Plesk. Just nginx and the ability to read a config file."}]
+3b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I automate the provisioning with a small bash script that:"}]
+3c:["$","$L2c",null,{"as":"ol","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Spins up the VM via Azure CLI"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Opens only the required ports (80, 443, SSH)"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Installs nginx and certbot"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Applies a baseline hardening script (SSH key only, fail2ban, unattended-upgrades)"}],"\n"]}]
+3d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The script lives in a private repo and gets run once per new environment. It's not infrastructure-as-code in the formal sense, but it's reproducible and documented."}]
+3e:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"step-3-dns-and-routing","children":"Step 3 — DNS and Routing"}]
+3f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["The Application Gateway gets a public IP. I pointed the domain's A record at it, added a CNAME for ",["$","$L54",null,{"children":"www"}],", and set up an Azure DNS zone to manage everything in one place."]}]
+40:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Routing on the gateway is simple:"}]
+41:["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","$L54",null,{"children":"/"}]," → backend pool (VPS nginx)"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","$L54",null,{"children":"/api/*"}]," → backend pool (same VPS, different nginx location block)"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Everything else → standard nginx rewrite rules"}],"\n"]}]
+42:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I considered adding Azure CDN for static asset caching, but the site is mostly server-rendered HTML with small assets. CDN adds complexity — DNS propagation, cache invalidation, additional costs — and the marginal benefit wasn't there. I'll revisit if traffic grows."}]
+43:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"step-4-monitoring","children":"Step 4 — Monitoring"}]
+44:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"One thing I always add: Azure Monitor on day one, not as an afterthought."}]
+45:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I set up:"}]
+46:["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Metric alerts"}],": CPU > 80%, disk > 85%, nginx 5xx rate > 10/min"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Log Analytics workspace"}],": nginx access and error logs piped in via the OMS agent"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Application Gateway metrics"}],": request count, backend latency, WAF blocked requests"]}],"\n"]}]
+47:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The client has a dashboard link. They can see traffic patterns, blocked attacks, and server health. It's not Datadog, but it costs $3/month and covers the basics."}]
+48:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-i-d-do-differently","children":"What I'd Do Differently"}]
+49:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Add a staging environment earlier."}]," I initially deployed straight to production, which meant any config mistake was a real problem. Even a single additional VM behind the same Application Gateway as a staging slot would have made the go-live smoother."]}]
+4a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Automate SSL renewal monitoring."}]," Certbot renews the cert, but I don't have an alert if the renewal fails silently. I added that after the first 90 days — better late than never."]}]
+4b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Pre-configure the WAF in \"Detection\" mode for two weeks before switching to \"Prevention.\""}]," I did this manually, but it should have been in the provisioning script as a flag. Live rule tuning is easier when you have two weeks of logs to review."]}]
+4c:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-bill","children":"The Bill"}]
+4d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"A rough breakdown for a single environment:"}]
+4e:["$","table",null,{"marginTop":"12","marginBottom":"12","style":{"width":"100%","borderCollapse":"collapse","fontSize":"0.875rem","lineHeight":"1.75"},"children":[["$","thead",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-medium)","backgroundColor":"var(--neutral-alpha-soft)"},"children":["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Service"}],["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Monthly Cost"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Application Gateway (WAF)"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"~$45"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"VPS B2s"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"~$30"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Azure DNS"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"~$1"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Log Analytics (basic)"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"~$3"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":["$","strong",null,{"children":"Total"}]}],["$","td",null,{"style":{"padding":"8px 12px"},"children":["$","strong",null,{"children":"~$79/month"}]}]]}]]}]]}]
+4f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"That's for a production-grade environment with WAF protection and visibility. The old shared hosting was $15/month but came with none of this."}]
+50:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"lessons","children":"Lessons"}]
+51:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Infrastructure for client projects doesn't need to be complex. A WAF front, a clean VM, basic monitoring — that's the baseline. Everything else is optional and should be added when there's a reason."}]
+52:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The trap is either over-engineering (k8s for a static site) or under-engineering (shared hosting for a production product). The right answer is boring and works."}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+55:I[27201,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"IconMark"]
+8:null
+c:[["$","title","0",{"children":"Spinning Up a Client's Production Environment: Azure WAF + VPS"}],["$","meta","1",{"name":"description","content":"Setting up a new hosting environment from scratch — the decisions, trade-offs, and lessons from provisioning infrastructure for a client website on Azure."}],["$","meta","2",{"property":"og:title","content":"Spinning Up a Client's Production Environment: Azure WAF + VPS"}],["$","meta","3",{"property":"og:description","content":"Setting up a new hosting environment from scratch — the decisions, trade-offs, and lessons from provisioning infrastructure for a client website on Azure."}],["$","meta","4",{"property":"og:url","content":"https://cloudjourneyblog.rohi-lab.org/blog/new-environment-setup"}],["$","meta","5",{"property":"og:image","content":"https://cloudjourneyblog.rohi-lab.org/images/blog/new-environment-setup.png"}],["$","meta","6",{"property":"og:image:alt","content":"Spinning Up a Client's Production Environment: Azure WAF + VPS"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Spinning Up a Client's Production Environment: Azure WAF + VPS"}],["$","meta","10",{"name":"twitter:description","content":"Setting up a new hosting environment from scratch — the decisions, trade-offs, and lessons from provisioning infrastructure for a client website on Azure."}],["$","meta","11",{"name":"twitter:image","content":"https://cloudjourneyblog.rohi-lab.org/images/blog/new-environment-setup.png"}],["$","link","12",{"rel":"icon","href":"/icon.png?icon.c8434fe5.png","sizes":"640x640","type":"image/png"}],["$","$L55","13",{}]]

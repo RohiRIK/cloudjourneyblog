@@ -1,0 +1,380 @@
+1:"$Sreact.fragment"
+2:I[778454,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
+3:I[273323,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
+4:I[479520,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
+5:I[624379,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
+6:I[145250,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
+7:I[398382,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
+8:I[811052,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
+9:I[436122,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
+a:I[626935,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
+34:I[362844,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
+35:I[597784,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"CodeBlock"]
+38:I[448588,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
+39:I[992713,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
+3a:I[311451,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
+3b:I[89532,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
+3c:I[814360,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
+3f:I[988654,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+40:I[605649,["/_next/static/chunks/2ffb35f14b0942d3.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+41:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+42:"$Sreact.suspense"
+0:{"buildId":"C5KnbyyYe9BCJwWHOCLLh","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/hr-lifecycle-automation","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/hr-lifecycle-automation\",\"sameAs\":[],\"headline\":\"Automating HR Lifecycle Events for a Growing Veterinary Marketplace\",\"description\":\"Building a set of automated HR-driven workflows for a fast-growing client — onboarding, role changes, and offboarding orchestrated through HiBob and a custom middleware layer.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/hr-lifecycle-automation.png\",\"datePublished\":\"2026-04-26\",\"dateModified\":\"2026-04-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 26, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Automating HR Lifecycle Events for a Growing Veterinary Marketplace"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/hr-lifecycle-automation.png","alt":"Automating HR Lifecycle Events for a Growing Veterinary Marketplace","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"When a company goes from 20 to 120 employees in 18 months, HR processes break in predictable ways. New hires show up on Monday and don't have access to the tools they need. Role changes happen in the HR system but nowhere else. Offboarded employees retain access to systems for weeks because no one remembered to tell IT."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is the story of automating those lifecycle events for a veterinary marketplace client — what we built, why, and what it looks like in practice."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-context","children":"The Context"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The client runs a two-sided marketplace connecting pet owners with veterinarians. They're growing fast, which means:"}],"\n",["$","$L9",null,{"as":"ul","children":["\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Frequent hiring (new vets, engineers, sales, ops)"}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Regular promotions and role changes"}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"High turnover in certain roles"}],"\n","$Lb","\n"]}],"\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c"]}],"$L2d","$L2e","$L2f","$L30"]}]}],"$L31"]}],["$L32"],"$L33"]}],"loading":null,"isPartial":false}
+b:["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"A distributed team across three time zones"}]
+c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Their HR system of record is HiBob. Their IT provisioning is partially manual — a mix of manual account creation in Google Workspace, Azure AD, and various SaaS tools."}]
+d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The manual process had three failure modes:"}]
+e:["$","$L9",null,{"as":"ol","children":["\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"New hire misses"}]," — someone starts and doesn't get Slack access until three days later"]}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Offboarding gaps"}]," — departing employees retain access to Stripe, AWS, and customer data"]}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Role change drift"}]," — someone gets promoted but their permissions don't update"]}],"\n"]}]
+f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"We were brought in to automate the lifecycle events."}]
+10:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-architecture","children":"The Architecture"}]
+11:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The solution has three layers:"}]
+12:["$","table",null,{"marginTop":"12","marginBottom":"12","style":{"width":"100%","borderCollapse":"collapse","fontSize":"0.875rem","lineHeight":"1.75"},"children":[["$","thead",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-medium)","backgroundColor":"var(--neutral-alpha-soft)"},"children":["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Layer"}],["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Technology"}],["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Role"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Source of Truth"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"HiBob (via API)"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"HR events trigger here"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Orchestration"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"n8n"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Workflow engine, event routing"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Targets"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Google Workspace, Entra ID, Slack, Jira, 1Password"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Provisioned/updated/deprovisioned"}]]}]]}]]}]
+13:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"n8n listens to HiBob webhooks and routes events to the appropriate workflows. No polling — webhooks fire when something changes in HiBob."}]
+14:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-workflows","children":"The Workflows"}]
+15:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"1.-new-hire-onboarding","children":"1. New Hire Onboarding"}]
+16:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["When HiBob fires a ",["$","$L34",null,{"children":"employee.hired"}]," event, n8n runs the onboarding workflow:"]}]
+36:T496,// Simplified flow
+onboarding({
+  employee: HireData
+}) {
+  // Step 1: Create Google Workspace account
+  await createGoogleAccount({
+    firstName: employee.firstName,
+    lastName: employee.lastName,
+    department: employee.department,
+    manager: employee.manager.email
+  });
+
+  // Step 2: Add to Entra ID with appropriate role
+  await addToEntraGroup({
+    email: employee.workEmail,
+    role: mapDepartmentToGroup(employee.department)
+  });
+
+  // Step 3: Invite to Slack workspace
+  await inviteSlackUser({
+    email: employee.workEmail,
+    channels: getDefaultChannels(employee.department)
+  });
+
+  // Step 4: Create Jira access + default project
+  await jiraProvision({
+    accountId: employee.employeeId,
+    projectRole: mapToJiraRole(employee.jobTitle)
+  });
+
+  // Step 5: Add to 1Password with team vault
+  await addTo1PasswordVault({
+    email: employee.workEmail,
+    vault: getTeamVault(employee.department)
+  });
+
+  // Step 6: Notify IT and manager via Slack DM
+  await sendSlackMessage({
+    to: employee.manager.email,
+    message: `${employee.firstName} ${employee.lastName} provisioned. Systems: GWS ✓, Entra ✓, Slack ✓, Jira ✓, 1P ✓`
+  });
+}
+17:["$","$L35",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$36","language":"typescript","label":"Typescript"}],"copyButton":true}]
+18:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The workflow runs in parallel where dependencies don't exist. A full onboarding now takes under 2 minutes from HiBob event to all systems configured. Previously, IT was spending 30-45 minutes per new hire doing this manually."}]
+19:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"2.-role-changes","children":"2. Role Changes"}]
+1a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"When an employee's job title, department, or manager changes in HiBob, the role change workflow fires:"}]
+37:T45b,roleChange({
+  employee: Employee,
+  changes: RoleChange[]
+}) {
+  // For each system affected by the change
+  for (const change of changes) {
+    if (change.field === 'department') {
+      // Update Entra group membership
+      await removeFromEntraGroup(employee.email, getOldGroup(change.from));
+      await addToEntraGroup(employee.email, getNewGroup(change.to));
+
+      // Update Slack channels (leave old, join new)
+      await slack.leaveChannels(employee.email, getOldChannels(change.from));
+      await slack.joinChannels(employee.email, getNewChannels(change.to));
+
+      // Update Jira project access
+      await updateJiraGroups(employee.accountId, change.to);
+    }
+
+    if (change.field === 'manager') {
+      // Update reporting chain in Entra
+      await updateEntraManager(employee.email, change.newManager.email);
+
+      // Update 1Password vault access
+      await moveToNewVault(employee.email, change.newManager.vault);
+    }
+  }
+
+  // Notify new manager
+  await sendSlackMessage({
+    to: change.newManager.email,
+    message: `${employee.fullName} now reports to you. Access updated.`
+  });
+}
+1b:["$","$L35",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$37","language":"typescript","label":"Typescript"}],"copyButton":true}]
+1c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The hardest part of role changes is knowing what to do with historical data — old Slack channels, old Jira projects, old 1Password vaults. We made the call to archive rather than delete: employees keep read access to their old team data for 30 days, then it gets removed automatically."}]
+1d:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"3.-offboarding","children":"3. Offboarding"}]
+1e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Offboarding is the highest-risk workflow. When HiBob fires a ",["$","$L34",null,{"children":"employee.offboarding.started"}]," event, we have a 14-day window before the last day to get this right:"]}]
+1f:["$","$L35",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"offboarding({\n  employee: OffboardingData,\n  scheduledDate: Date\n}) {\n  // Day 1: First notification\n  // - IT gets Slack notification with full inventory of employee access\n  // - Manager confirms expected equipment return list\n\n  // Day 7: Midpoint check\n  // - Audit that access changes have been applied\n  // - Send reminders for anything not confirmed\n\n  // Day 13: One day before\n  // - Final audit pass — all systems confirmed deprovisioned\n  // - IT gets final checklist\n\n  // Day 14 (last day): Hard deprovisioning\n  await suspendGoogleAccount(employee.email);\n  await disableEntraAccount(employee.email);\n  await.removeSlackMembership(employee.email);\n  await.revokeJiraAccess(employee.accountId);\n  await.removeFrom1Password(employee.email);\n\n  // Final confirmation sent to IT and HR\n  await sendSlackMessage({\n    channel: '#it-operations',\n    message: `${employee.fullName} fully offboarded. All systems deprovisioned as of ${today}.`\n  });\n}\n","language":"typescript","label":"Typescript"}],"copyButton":true}]
+20:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The staggered approach matters. Offboarding isn't a one-time event — it's a process with a timeline. We catch cases where HR marks someone as leaving but IT doesn't act for two weeks because they didn't see the notification."}]
+21:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"error-handling","children":"Error Handling"}]
+22:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Every workflow has a dead-letter queue. If any step fails, n8n:"}]
+23:["$","$L9",null,{"as":"ol","children":["\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Retries 3 times with exponential backoff"}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["If still failing, posts to ",["$","$L34",null,{"children":"#it-alerts"}]," with the failure details"]}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Creates a follow-up task in a tracking system so nothing falls through"}],"\n"]}]
+24:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Common failure modes:"}]
+25:["$","$L9",null,{"as":"ul","children":["\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"HiBob webhook arrives before the employee's email is fully provisioned (race condition on first day) — handled with a 5-minute delay on the initial sync"}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"SaaS API rate limits — handled with built-in rate limiting in n8n"}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Concurrent events for the same employee (e.g., hire + role change on same day) — handled with idempotency keys"}],"\n"]}]
+26:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-it-looks-like-after-6-months","children":"What It Looks Like After 6 Months"}]
+27:["$","table",null,{"marginTop":"12","marginBottom":"12","style":{"width":"100%","borderCollapse":"collapse","fontSize":"0.875rem","lineHeight":"1.75"},"children":[["$","thead",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-medium)","backgroundColor":"var(--neutral-alpha-soft)"},"children":["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Metric"}],["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"Before"}],["$","th",null,{"style":{"padding":"8px 12px","textAlign":"left","fontWeight":"600"},"children":"After"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Avg time to provision new hire"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"45 min (IT manual)"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"2 min (automated)"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Offboarding completion rate"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"72% within 1 week"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"94% within 1 day"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Offboarding gaps (access retained after last day)"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"8-10 per month"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"1-2 per month"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"Role change accuracy"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Manual, spotty"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"Automated, consistent"}]]}],["$","tr",null,{"style":{"borderBottom":"1px solid var(--neutral-alpha-small)"},"children":[["$","td",null,{"style":{"padding":"8px 12px"},"children":"IT hours spent on provisioning per month"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"~20 hours"}],["$","td",null,{"style":{"padding":"8px 12px"},"children":"~2 hours"}]]}]]}]]}]
+28:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-i-d-add-next","children":"What I'd Add Next"}]
+29:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The current system covers the main SaaS tools. Two gaps I'd close next:"}]
+2a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"SSO audit trail."}]," We know when someone logs in, but not which apps they actually used. Defender for Cloud Apps gives us that visibility — we should integrate it."]}]
+2b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Manager self-service."}]," Right now HR triggers everything via HiBob. A manager-facing portal for things like equipment requests and access reviews would reduce the HR ticket load further."]}]
+2c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The workflow infrastructure is there. Adding new integrations is a matter of hours, not days."}]
+2d:["$","$L38",null,{"title":"Automating HR Lifecycle Events for a Growing Veterinary Marketplace","url":"https://CloudJourneyBlog.rohi-lab.org/blog/hr-lifecycle-automation"}]
+2e:["$","$L39",null,{}]
+3d:T1842,
+We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
+
+## The Implementation Sequence
+
+Zero Trust isn't a product you buy. It's a sequence of controls you enforce, in order, with each phase creating the foundation for the next.
+
+### Phase 1: Emergency Access & Monitoring Foundation
+
+Before touching anything else, you need:
+
+- **Breakglass accounts** — Named emergency accounts that bypass all Conditional Access. Don't use these daily. Test them quarterly.
+- **Alerting baseline** — What does normal look like? Capture login patterns, device health, app usage before you start blocking.
+
+This is the unsexy phase that saves you when Phase 3 locks everyone out.
+
+### Phase 2: Security Info Registration
+
+Before enforcing MFA, users need to register authentication methods. Set this up first:
+- **Auth methods policy** — Enable Microsoft Authenticator, FIDO2, Windows Hello for Business
+- **Temporary Access Pass** — One-time codes for users who lose hardware keys
+- **Report-only mode** — Test CA policies before enforcing
+
+### Phase 3: Block Legacy Authentication
+
+Legacy auth (SMTP auth, basic auth, POP/IMAP) is the attack surface. Block it:
+
+```
+Conditional Access > Assignments > Cloud apps > All apps
+Conditions > Client apps > Select Exchange ActiveSync clients and Other clients
+Controls > Grant > Block access
+```
+
+Block legacy auth too early and you'll break:
+- Legacy application integrations
+- Service accounts with password auth only
+- Old MFA integrations that sit behind legacy protocols
+
+**What broke first:** SMTP-authenticated printer scanning and IoT device integrations. Both used basic auth with no modern auth path.
+
+### Phase 3: MFA Enforcement
+
+Phishing-resistant MFA is the goal. FIDO2 hardware keys. But hardware keys have procurement and onboarding friction:
+
+- Procurement: Buy 50 keys, distribute to Tier-1 roles (privileged users, admins)
+- Onboarding: Users need to register in-browser with Chrome/Edge (Firefox support is spotty)
+- Policy: Require phishing-resistant MFA for admin roles; offer standard MFA as fallback for general users
+
+**What broke first:** Users who lost their hardware keys. Registration flow required a new key + backup key, and the process times out fast.
+
+### Phase 4: Device Compliance (Intune Baselines)
+
+Intune security baselines + Conditional Access is where device trust lives:
+
+- **Windows baseline** — BitLocker, Windows Defender, firewall rules
+- **Device compliance policy** — Require Microsoft Entra hybrid joined OR compliant device
+- **MDE integration** — Device risk from Defender feeds CA decisions
+
+**What broke first:** Microsoft Entra hybrid join fails when:
+- Stale device objects in on-prem AD aren't cleaned up
+- Line-of-business apps still query on-prem AD only (no cloud auth path)
+- Users are co-managed (Intune + SCCM) and the policy boundary isn't clear
+
+### Phase 5: Session Controls
+
+Sign-in frequency and device restrictions for existing sessions:
+- **Sign-in frequency** — Re-authenticate after X hours or when device state changes
+- **Persistent browser** — Block to prevent session cookie replay
+- **App-enforced restrictions** — Disable clipboard/file copy for unmanaged devices
+
+### Phase 6: Risk-Based Conditional Access
+
+Identity Protection risk signals drive dynamic policies:
+
+- **High-risk sign-in** — Block or require MFA
+- **Risky user** — Force password reset
+- **Microsoft Defender for Identity** — Detect lateral movement, privilege escalation, and domain escalation attacks
+
+**What broke first:** False positives. Risky sign-in policies flagged VPN users on corporate devices because the sign-in location didn't match.
+
+### Phase 7: Network Segmentation (802.1X)
+
+WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
+
+- **EAP method** — EAP-TLS with certificate-based auth (vs. EAP-PEAP/MSCHAPv2)
+- **Certificate lifecycle** — SCEP or PKCS certificate profile from Intune
+- **Fallback** — WPA2-PSK for legacy devices that can't do 802.1X
+
+**What broke first:** EAP negotiation failures. Root causes:
+- Wrong EAP type configured on client vs. RADIUS
+- Server certificate missing trusted root on client
+- Server name validation mismatch (certificate SAN doesn't match RADIUS hostname)
+- Expired or revoked client/server certificates
+
+## What Actually Broke First
+
+After three years, here's the friction ranking:
+
+| Friction Point | Phase | Symptom |
+|---|---|---|
+| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
+| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM and Intune |
+| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
+| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
+| Hardware key loss | MFA | Users lose keys, no backup, lockout |
+| Breakglass account lockout | Foundation | Breakglass account passwords expire or are not tested |
+
+## The Hard Lessons
+
+1. **Don't start with blocking.** Start with alerting and monitoring. Baseline normal before you break normal.
+
+2. **Phased enforcement, not big bang.** Each phase enables the next. Block legacy auth → enforce MFA → require device compliance → apply risk-based access.
+
+3. **802.1X is the hardest network control.** Budget double the time for 802.1X pilot. EAP-TLS certificate validation is where it fails.
+
+4. **Device trust requires clear ownership.** If you're co-managed (SCCM + Intune), define the boundary. We used Intune for cloud-native devices, SCCM for remaining on-prem managed.
+
+5. **Governance is the bottleneck.** Zero Trust fails when cross-team ownership isn't clear. Identity owns CA policies. Endpoint owns device baselines. Network owns 802.1X. Security owns MDI.
+
+## The Takeaway
+
+Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
+
+The only thing that broke irreparably was when we tried to skip Phase 1.2f:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L3a",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L3b",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L3c","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$3d"},"thumbnail":true,"direction":"column"}],"$L3e"]}]]}]
+30:["$","$L3f",null,{}]
+31:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L40",null,{"fitHeight":true}]}]
+32:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
+33:["$","$L41",null,{"children":["$","$42",null,{"name":"Next.MetadataOutlet","children":"$@43"}]}]
+44:T1e4d,
+Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
+
+This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
+
+## The Problem: Shadow IT in Google Workspace
+
+Every organization has it: users who default to personal accounts for convenience. Personal Gmail on work devices. Personal Drive for sharing. Personal Calendar for everything.
+
+The risks:
+- **No DLP** — Company data leaves to personal accounts with no controls
+- **No audit trail** — You can't investigate a data leak if you don't know it happened
+- **No lifecycle** — When they leave, access to work data persists in their personal account
+- **Compliance risk** — Often noncompliant with internal policy and regulated data-handling requirements
+
+The goal: make personal Gmail unusable for work purposes without breaking legitimate personal use on personal devices.
+
+## How CASB Fits In
+
+CASB (Cloud Access Security Broker) sits between your users and cloud services, providing:
+- **Visibility** — What cloud apps are being used?
+- **Data protection** — DLP policies applied to cloud traffic
+- **Threat protection** — Anomaly detection for cloud usage
+- **Access control** — Block or restrict based on context
+
+Google Workspace integrates with CASB via API, not inline proxy. Google explicitly recommends API/offline CASB patterns over inline proxies — inline CASBs exist but aren't the preferred path. For most orgs, Google-native controls (DLP, Reports API, App Access Management) cover much of what you need before considering third-party CASB.
+
+### Shadow IT Discovery
+
+Before you can block, you need to know what you're dealing with. The CASB (or Google Workspace audit logs) reveals:
+
+- **OAuth token inventory** — Which third-party apps have user-authorized access to their Google data
+- **Login activity** — Where are users authenticating from?
+- **Drive sharing** — What's being shared externally?
+- **App usage** — Which apps are accessing Google Workspace data?
+
+In Google Workspace Admin console, go to Security > API controls > Access management. Review OAuth app entries — check ownership (Google-owned/internal/third-party), requested scopes, and user count. The CASB dashboard often surfaces this more visually.
+
+Apps are categorized as **Trusted** (full access), **Limited** (specific Google data only), **Blocked** (no access), or the default for unconfigured apps. Mark unknown third-party apps as Blocked after reviewing scope and ownership.
+
+## The Migration Strategy
+
+### Phase 1: Discover and Categorize
+
+List every external app accessing your users' Google data. Categorize:
+- **Approved** — IT-sanctioned, security reviewed
+- **Tolerated** — Not ideal but not blocked yet
+- **Blocked** — Shadow IT, must go
+
+The CASB dashboard usually provides this. If not, export audit logs and pivot in Excel.
+
+### Phase 2: Offer a Better Alternative
+
+Users go to personal Gmail because the sanctioned option isn't convenient. Fix that:
+
+- **Google Workspace** — If you don't have it, get it. Every user gets company @company.com account.
+- **Shared drives** — Centralize file storage so personal Drive isn't needed
+- **SSO** — Single sign-on from Entra ID to Google Workspace removes the password burden
+
+### Phase 3: Enforce with Policy
+
+Now block. The enforcement stack, in order of impact:
+
+**1. Block personal Google accounts** — This is what actually makes personal Gmail unusable on managed devices. Configure via proxy: `X-GoogApps-Allowed-Domains: yourdomain.com`, or in Google Admin console > Security > Managed browser > Restrict sign-in to managed accounts. This stops users from adding their personal @gmail.com account to Chrome or signing into personal Gmail on managed machines.
+
+**2. App Access Control** — In Security > API controls > Access management, configure apps as Trusted / Limited / Specific Google data / Blocked. This controls OAuth grants, not browser access. Set default to Blocked for unconfigured apps if you want zero tolerance.
+
+**3. Context-Aware Access** — Verify managed device before granting access to Workspace apps. Requires Endpoint Verification on desktop; mobile uses Google endpoint management (Intune, Jamf, etc.) for device signals.
+
+### Phase 4: Data Migration
+
+For users with existing personal Gmail data that needs to come over:
+
+1. **Data import** — Admin imports personal Gmail to corporate account via Security > Data export and management > Data migration. Requires user authorization — they authorize their personal Gmail access. This isn't the "Google Workspace Migrate" tool (that's for Exchange migrations).
+2. **Takeout** — User exports personal Drive, admin migrates to Shared Drive
+3. **Calendar migration** — User exports from personal calendar, imports to corporate or shares calendar with corporate account
+
+This takes time. Give users 30 days to migrate, then enforce.
+
+## The Enforcement Checklist
+
+| Control | Implementation | Effect |
+|---|---|---|
+| Consumer account block | X-GoogApps-Allowed-Domains header or managed browser sign-in restriction | Personal Gmail can't sign in on managed devices |
+| App Access Control | Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
+| Context-Aware Access | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
+| Drive external sharing | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
+| SSO | Entra ID to Google Workspace | One identity, one credential |
+
+**CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
+
+## What Actually Breaks First
+
+In practice, this enforcement breaks these workflows:
+
+1. **User's personal phone** — They can't check corporate email on their personal Android/iOS without management installed. Solution: offer MDM enrollment or accept the limitation.
+
+2. **Third-party tools** — Users who authorized random SaaS apps lose access. Solution: pre-approve the most common ones (Zoom, Slack, etc.).
+
+3. **Contractors** — External users without managed devices. Solution: dedicated contractor accounts with limited access, or accept unmanaged access with increased monitoring.
+
+4. **Endpoint Verification sync delays** — Compliant desktops get blocked before they sync device status. Google's docs explicitly warn about this. Run in monitor mode first.
+
+5. **OAuth restrictions break integrations fast** — Zoom, Slack, calendaring add-ons, scanners, backup tools — all need explicit app access configuration or users lose functionality.
+
+6. **Delegated mailbox access** — Consumer account blocking with `X-GoogApps-Allowed-Domains` can break delegated mailbox access if the delegate's domain isn't in allowed headers.
+
+## The Takeaway
+
+You can't uninvent personal Gmail. Your users will always have personal accounts. What you can do is make it operationally useless for work:
+
+- DLP policies block data exfiltration
+- Context-Aware Access restricts access to managed devices
+- SSO removes the password management burden
+- Structured migration moves existing data to corporate
+
+The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.3e:["$","$L3c","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$44"},"thumbnail":true,"direction":"column"}]
+43:null
