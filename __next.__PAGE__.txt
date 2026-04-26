@@ -9,9 +9,9 @@
 9:I[89532,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
 a:I[814360,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
 15:I[474855,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ProjectCard"]
-1a:I[303847,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Mailchimp"]
-1b:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
-1c:"$Sreact.suspense"
+17:I[303847,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Mailchimp"]
+18:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+19:"$Sreact.suspense"
 b:T1842,
 We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
 
@@ -135,7 +135,7 @@ After three years, here's the friction ranking:
 
 Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
 
-The only thing that broke irreparably was when we tried to skip Phase 1.0:{"buildId":"vXX6gUHmDKLk1IvCBUYTK","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[false,["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L5",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L6",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L5",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L7",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L6",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L5",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L8",null,{"maxWidth":48}]}],["$","$L5",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L5",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Latest writing"}]}],["$","$L5",null,{"flex":3,"paddingX":"20","children":["$","$L9",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$La","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$b"},"thumbnail":false}],"$Lc","$Ld"]}]}]]}],"$Le"]}],"$Lf","$L10"]}],["$L11"],"$L12"]}],"loading":null,"isPartial":false}
+The only thing that broke irreparably was when we tried to skip Phase 1.0:{"buildId":"PBsCGsdTtQYKK6urCB2qF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[false,["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L5",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L6",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L5",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L7",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L6",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L5",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L8",null,{"maxWidth":48}]}],["$","$L5",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L5",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Latest writing"}]}],["$","$L5",null,{"flex":3,"paddingX":"20","children":["$","$L9",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$La","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$b"},"thumbnail":false}],"$Lc","$Ld"]}]}]]}],"$Le"]}],"$Lf","$L10"]}],["$L11"],"$L12"]}],"loading":null,"isPartial":false}
 13:T1e4d,
 Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
 
@@ -401,127 +401,9 @@ The setup isn't hard — it's exacting. Get the SAML metadata right, map Immutab
 
 Don't skip the test phase. Try it with one pilot user before rolling it out domain-wide.d:["$","$La","google-workspace-entra-federation",{"post":{"metadata":{"title":"Google Workspace to Entra ID Federation: The SSO Setup That Actually Works","subtitle":"","publishedAt":"2026-04-27","summary":"Setting up Google Workspace to use Entra ID as the Identity Provider isn't just checking a box. Here's the practical walkthrough of SAML federation, claims mapping, and what breaks when you get it wrong.","image":"/images/blog/google-workspace-entra-federation.png","images":[],"tag":"Identity","team":[],"link":""},"slug":"google-workspace-entra-federation","content":"$14"},"thumbnail":false}]
 e:["$","$L5",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$L8",null,{"maxWidth":48}]}]
-16:T10a2,
-## What it is
-
-A SOC assistant I built on my own time. The idea was simple: stop digging through documentation every time an alert fires and just ask a question in plain English.
-
-The core is a RAG pipeline — Pinecone as the vector store, LangChain managing the retrieval and chains, Gemini 1.5 Pro doing the reasoning. It ingests security documentation, playbooks, and telemetry context, and surfaces relevant answers in seconds instead of minutes of manual searching.
-
-It's not a product. It's a personal project that I run against real data and actually use.
-
-## Why I built it
-
-I work in security operations. A lot of the slow parts of alert triage aren't complex thinking — they're retrieval. Finding the right playbook, checking what a particular indicator means in this environment, confirming whether a behavior is expected for a given user. That's lookup work, and lookup work is exactly what RAG is good at.
-
-I wanted to see how much of that I could automate without the output becoming something you can't trust. That second part turned out to be the hard part.
-
-## How it works
-
-<Grid columns="2" gap="16">
-    <Card padding="16" radius="m">
-        <Icon name="search" size="s" marginBottom="8"/>
-        <Text weight="bold" marginBottom="4">Retrieval</Text>
-        <Text size="s" onBackground="neutral-medium">Security documentation and playbooks embedded into Pinecone. Queries pull the most relevant context before anything goes to the model.</Text>
-    </Card>
-    <Card padding="16" radius="m">
-        <Icon name="shield" size="s" marginBottom="8"/>
-        <Text weight="bold" marginBottom="4">Reasoning</Text>
-        <Text size="s" onBackground="neutral-medium">Gemini 1.5 Pro handles the actual analysis — big context window matters here when you're passing in multiple documents at once.</Text>
-    </Card>
-    <Card padding="16" radius="m">
-        <Icon name="terminal" size="s" marginBottom="8"/>
-        <Text weight="bold" marginBottom="4">Actions</Text>
-        <Text size="s" onBackground="neutral-medium">High-confidence responses can trigger Logic Apps integrations — account isolation, ticket creation, analyst notification.</Text>
-    </Card>
-    <Card padding="16" radius="m">
-        <Icon name="openai" size="s" marginBottom="8"/>
-        <Text weight="bold" marginBottom="4">Interface</Text>
-        <Text size="s" onBackground="neutral-medium">Plain English queries. Ask about an alert, a user, a behavior pattern — no structured query language needed.</Text>
-    </Card>
-</Grid>
-
-## Stack
-
-- **Orchestration**: LangChain — manages retrieval chains and the agentic loop
-- **Model**: Google Gemini 1.5 Pro — large context window was the deciding factor over GPT-4
-- **Vector store**: Pinecone — low-latency retrieval at scale
-- **Integrations**: Microsoft Sentinel, Defender XDR, Azure Logic Apps
-
-## What actually worked
-
-The retrieval speed was genuinely good from the start. Once the embeddings were in Pinecone, lookup latency was fast enough that the bottleneck shifted entirely to the model response time, which is what you want.
-
-The natural language interface worked better than I expected for well-defined questions — "what's the expected login behavior for this user?", "show me playbook steps for lateral movement detection" — that kind of thing.
-
-## What didn't
-
-Hallucination in forensic context is a real problem. Early versions would confidently answer questions that weren't well-represented in the retrieval results. I spent a significant amount of time tuning retrieval quality — chunk sizing, embedding strategy, score thresholds — before the answers were reliable enough to act on.
-
-I also initially tried to make it too autonomous. Fully automated playbook execution sounds useful until a false positive triggers an account lockdown at 2am. The current version flags high-confidence actions for one-click confirmation rather than running them silently.
-
-## Results (personal use)
-
-Triage time on familiar alert types dropped significantly — the lookup work that was eating 15-30 minutes now takes seconds. For novel or complex incidents I still do full manual investigation, which is the right call. The assistant is a first-pass filter, not a replacement for thinking.
-f:["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L5",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L8",null,{"maxWidth":48}]}],["$","$L5",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L5",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Things I've built"}]}],["$","$L5",null,{"flex":3,"paddingX":"20","children":["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L15","project-aegis",{"priority":true,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$16","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}],"$L17","$L18"]}]}]]}],"$L19"]}]
-10:["$","$L1a",null,{}]
+f:["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L5",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L8",null,{"maxWidth":48}]}],["$","$L5",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L5",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Things I've built"}]}],["$","$L5",null,{"flex":3,"paddingX":"20","children":["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L15","copilot-agent-playbook",{"priority":true,"href":"/work/copilot-agent-playbook","images":[],"title":"Copilot Agent Playbook","description":"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.","content":"\n## What this is\n\nA collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations.\n\n## What's in it\n\n- **Knowledge base agents** — Search, summarize, and surface information from SharePoint, Teams, and external sources\n- **Security agents** — Monitor for threats, enrich alerts, automate incident response\n- **IT ops agents** — Handle password resets, license requests, device triage\n- **Sales enablement** — Customer intelligence, meeting prep, proposal assistance\n- **HR agents** — Onboarding, policy Q&A, benefits navigation\n\n## Why it matters\n\nCopilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible.\n\n## Stack\n\n- Microsoft 365 Copilot\n- Microsoft Graph API\n- Azure AI Studio","avatars":[],"link":"https://github.com/RohiRIK/copilot-agent-playbook"}],["$","$L15","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics and a custom day picker to match your schedule.","content":"\n## What this is\n\nA menu bar app that runs in the background and closes your configured work apps when you tell it the day is done. No more manually quitting Slack, Chrome, VS Code, and the rest.\n\n## What's in it\n\n- **Menu bar residence** — Runs quietly in your macOS menu bar\n- **Configurable apps** — Choose which apps to close at end of day\n- **Custom day picker** — Set your specific work days (not every day is a work day)\n- **Analytics** — Track how often you end the day, which days you work late\n- **Launch at login** — Starts automatically when you log in\n\n## Why it matters\n\nThe goal isn't to stop working — it's to create a boundary. Having a physical ritual (clicking \"end of day\" in the menu bar) makes it easier to actually walk away.\n\n## Stack\n\n- Swift / SwiftUI\n- AppKit for menu bar integration\n- UserDefaults for local persistence","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac"}],["$","$L15","m365-cli",{"priority":false,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}]]}]}]]}],"$L16"]}]
+10:["$","$L17",null,{}]
 11:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true}]
-12:["$","$L1b",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
-1e:T749,
-## What this was
-
-A client running JumpCloud for MDM wanted to consolidate onto the Microsoft stack. Everything else was already in Microsoft — identity, email, security — but the device management gap meant correlating device state with identity required jumping between platforms.
-
-## What I built
-
-The main challenge with MDM migrations is the transition gap — the window where a device is unenrolled from one MDM and not yet in another. During that time you lose policy enforcement and visibility.
-
-I wrote PowerShell scripts to handle the transition in sequence: unenroll from JumpCloud, trigger Intune enrollment, verify the device showed up in Intune before moving to the next. Ran in batches with rollback checkpoints so we could pause if something broke mid-migration.
-
-**Windows Autopilot** — registered the Windows fleet into Autopilot for zero-touch future provisioning. Extracted hardware hashes, uploaded them, configured deployment profiles per user group.
-
-**macOS via Apple Business Manager** — set up ABM integration with Intune. More involved than Windows Autopilot — had to work through the MDM profile trust chain and handle devices that had supervision issues from the JumpCloud side.
-
-**Policy parity** — translated JumpCloud's Command Library into Intune Configuration Profiles and PowerShell scripts deployed via Intune. Some mapped cleanly, some needed rethinking.
-
-## What made it hard
-
-A subset of devices had been enrolled in JumpCloud via a method that left a persistent MDM profile the script couldn't cleanly remove. Those had to be handled manually. Also found several macOS devices enrolled by users personally rather than via ABM, which broke the supervision requirement for certain policies.
-
-## Stack
-
-- Microsoft Intune
-- JumpCloud
-- Windows Autopilot
-- Apple Business Manager
-- PowerShell & Microsoft Graph API
-17:["$","$L15","jumpcloud-to-intune-migration",{"priority":true,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$1e","avatars":[],"link":""}]
-1f:T6db,
-## What this was
-
-A client at Oncloud decided to move their entire identity and collaboration stack from Google Workspace to Microsoft 365. I was the lead engineer on the migration — responsible for technical execution from discovery through cutover.
-
-## What the work looked like
-
-**Identity migration** — mapped thousands of Google identities into a clean Entra ID tenant, standardized naming conventions, consolidated accounts that had duplicated from acquisitions. Set up SSO from scratch with Entra ID as the new IdP.
-
-**Data migration via AvePoint Fly** — handled mailbox and Google Drive to SharePoint/OneDrive transfer. The hard part wasn't the tool — it was the permission mapping. Google Drive's sharing model doesn't translate cleanly to SharePoint. Spent significant time building mapping rules to preserve access rather than just moving data and leaving people unable to open their files.
-
-**Mail cutover** — ran split-delivery during the transition so mail kept flowing to both platforms while users moved over. Managed the DNS cutover window to avoid gaps.
-
-**SSO re-mapping** — the client had 50+ SaaS applications pointed at Google as IdP. Reconfigured each for SAML/OIDC against Entra ID. Most were straightforward; a few needed custom attribute mappings.
-
-## What made it hard
-
-The data migration took longer than scoped. The client's Google Drive was far messier than discovery suggested — deeply nested shared drives with complex permission inheritance, orphaned files, and accounts that no longer existed but still owned content. We had to build a pre-migration cleanup process that wasn't in the original plan.
-
-## Stack
-
-- AvePoint Fly
-- Microsoft Entra ID
-- Google Workspace APIs
-- Microsoft Graph API
-- PowerShell
-18:["$","$L15","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$1f","avatars":[],"link":""}]
-19:["$","$L5",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$L8",null,{"maxWidth":48}]}]
-1d:null
+12:["$","$L18",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]
+16:["$","$L5",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$L8",null,{"maxWidth":48}]}]
+1a:null
