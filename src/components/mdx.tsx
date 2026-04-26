@@ -210,12 +210,44 @@ const components = {
   ul: createList("ul") as any,
   li: createListItem as any,
   hr: createHR as any,
-  table: (props: any) => <Table marginTop="12" marginBottom="12" {...props} />,
-  thead: (props: any) => <thead {...props} />,
+  table: (props: any) => (
+    <table
+      marginTop="12"
+      marginBottom="12"
+      style={{
+        width: "100%",
+        borderCollapse: "collapse",
+        fontSize: "0.875rem",
+        lineHeight: "1.75",
+      }}
+      {...props}
+    />
+  ),
+  thead: (props: any) => (
+    <thead
+      style={{
+        borderBottom: "1px solid var(--neutral-alpha-medium)",
+        backgroundColor: "var(--neutral-alpha-soft)",
+      }}
+      {...props}
+    />
+  ),
   tbody: (props: any) => <tbody {...props} />,
-  tr: (props: any) => <tr {...props} />,
-  th: (props: any) => <th {...props} />,
-  td: (props: any) => <td {...props} />,
+  tr: (props: any) => (
+    <tr
+      style={{ borderBottom: "1px solid var(--neutral-alpha-small)" }}
+      {...props}
+    />
+  ),
+  th: (props: any) => (
+    <th
+      style={{ padding: "8px 12px", textAlign: "left", fontWeight: "600" }}
+      {...props}
+    />
+  ),
+  td: (props: any) => (
+    <td style={{ padding: "8px 12px" }} {...props} />
+  ),
   Heading,
   Text,
   CodeBlock,
