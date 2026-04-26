@@ -22,6 +22,7 @@ const routes: RoutesConfig = {
   "/work": false,
   "/about": true,
   "/gallery": false,
+  "/feeds": true,
 };
 
 const display: DisplayConfig = {
