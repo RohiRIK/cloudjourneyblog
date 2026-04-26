@@ -19,7 +19,7 @@
 49:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
 4a:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 4b:"$Sreact.suspense"
-0:{"buildId":"Te95fBFlgi-AYBEyx30P5","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/claude-code-config-v3","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/claude-code-config-v3\",\"sameAs\":[],\"headline\":\"Claude Code Config v3: LTM as Infrastructure\",\"description\":\"The config got a significant overhaul: SQLite-backed long-term memory, a dedicated MCP server exposing LTM primitives, semantic recall with embedding fallback, graph-based reasoning, and an EvaluateSession hook that extracts decisions automatically.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/claude-code-config-v3.png\",\"datePublished\":\"2026-03-20\",\"dateModified\":\"2026-03-20\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 20, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Claude Code Config v3: LTM as Infrastructure"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/claude-code-config-v3.png","alt":"Claude Code Config v3: LTM as Infrastructure","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The previous version of my Claude Code config introduced structured context files — goals, decisions, progress, gotchas — persisted as markdown and injected at session start. That worked. But markdown has limits: no querying, no deduplication, no concept of importance or decay, no semantic search, and no way to surface related memories across projects."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This version replaces the markdown context files with a SQLite-backed long-term memory system, a dedicated MCP server that exposes LTM primitives to Claude directly, semantic recall with embedding fallback, a graph reasoning layer, and an EvaluateSession hook that extracts decisions and patterns automatically at session end."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Here's what changed and why."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"from-markdown-files-to-sqlite","children":"From markdown files to SQLite"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["The old system: four ","$L9"," files per project (","$La",", ","$Lb",", ","$Lc",", ","$Ld","). Hooks read and wrote them. They worked until they didn't — duplicates accumulated, stale entries couldn't be cleaned up automatically, and there was no way to query across them."]}],"\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35"]}],"$L36","$L37","$L38","$L39"]}]}],"$L3a"]}],["$L3b"],"$L3c"]}],"loading":null,"isPartial":false}
+0:{"buildId":"oW7r9KRdqwPrLXzfZfiS5","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/claude-code-config-v3","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/claude-code-config-v3\",\"sameAs\":[],\"headline\":\"Claude Code Config v3: LTM as Infrastructure\",\"description\":\"The config got a significant overhaul: SQLite-backed long-term memory, a dedicated MCP server exposing LTM primitives, semantic recall with embedding fallback, graph-based reasoning, and an EvaluateSession hook that extracts decisions automatically.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/claude-code-config-v3.png\",\"datePublished\":\"2026-03-20\",\"dateModified\":\"2026-03-20\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 20, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Claude Code Config v3: LTM as Infrastructure"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/claude-code-config-v3.png","alt":"Claude Code Config v3: LTM as Infrastructure","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The previous version of my Claude Code config introduced structured context files — goals, decisions, progress, gotchas — persisted as markdown and injected at session start. That worked. But markdown has limits: no querying, no deduplication, no concept of importance or decay, no semantic search, and no way to surface related memories across projects."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This version replaces the markdown context files with a SQLite-backed long-term memory system, a dedicated MCP server that exposes LTM primitives to Claude directly, semantic recall with embedding fallback, a graph reasoning layer, and an EvaluateSession hook that extracts decisions and patterns automatically at session end."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Here's what changed and why."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"from-markdown-files-to-sqlite","children":"From markdown files to SQLite"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["The old system: four ","$L9"," files per project (","$La",", ","$Lb",", ","$Lc",", ","$Ld","). Hooks read and wrote them. They worked until they didn't — duplicates accumulated, stale entries couldn't be cleaned up automatically, and there was no way to query across them."]}],"\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35"]}],"$L36","$L37","$L38","$L39"]}]}],"$L3a"]}],["$L3b"],"$L3c"]}],"loading":null,"isPartial":false}
 9:["$","$L3d",null,{"children":".md"}]
 a:["$","$L3d",null,{"children":"context-goals.md"}]
 b:["$","$L3d",null,{"children":"context-decisions.md"}]
@@ -67,196 +67,249 @@ f:["$","$L3e",null,{"as":"ul","children":["\n",["$","$L3f",null,{"marginTop":"4"
 35:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The overall shift is from \"context files I remember to maintain\" to \"a knowledge base that maintains itself.\" Sessions contribute to it automatically, the Janitor keeps it clean, and recall surfaces relevant history before I start any significant work. The manual hygiene work that v1 and v2 required is mostly gone."}]
 36:["$","$L42",null,{"title":"Claude Code Config v3: LTM as Infrastructure","url":"https://CloudJourneyBlog.rohi-lab.org/blog/claude-code-config-v3"}]
 37:["$","$L43",null,{}]
-46:T17c7,
-Every IT team has some version of the same problem: the MDM says one thing, Active Directory says another, and the spreadsheet someone maintains manually is a third opinion. Nobody knows the real device count. Nobody knows which machines are stale. Asset reviews are a manual reconciliation exercise that takes days and is wrong before it's finished.
+46:T183f,
+We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
 
-For a FinTech client, I built a pipeline that pulls from every authoritative source — AD, Intune, Azure, MDE — and produces a single unified inventory that's always current. Here's the architecture.
+## The Implementation Sequence
 
-## The data problem
+Zero Trust isn't a product you buy. It's a sequence of controls you enforce, in order, with each phase creating the foundation for the next.
 
-The client had devices across three categories:
-- **Windows workstations**: domain-joined, Intune-enrolled, some hybrid Entra joined
-- **Azure VMs**: not domain-joined, sometimes Intune-enrolled, MDE-onboarded
-- **Legacy machines**: domain-joined only, no Intune, no MDE
+### Phase 1: Emergency Access & Monitoring Foundation
 
-No single system had the full picture. Intune knew about enrolled devices but didn't know about the legacy machines. AD knew about everything domain-joined but didn't know about Azure VMs or compliance state. MDE knew about onboarded endpoints but didn't map cleanly to AD objects.
+Before touching anything else, you need:
 
-The goal: a unified record per device with attributes from all sources — last seen, OS version, compliance state, MDE sensor status, assigned user, department, location.
+- **Breakglass accounts** — Named emergency accounts that bypass all Conditional Access. Don't use these daily. Test them quarterly.
+- **Alerting baseline** — What does normal look like? Capture login patterns, device health, app usage before you start blocking.
 
-## The architecture
+This is the unsexy phase that saves you when Phase 3 locks everyone out.
 
-Four components:
+### Phase 2: Security Info Registration
 
-**1. Jenkins** — scheduler and orchestrator. A pipeline job runs nightly and on-demand. It calls the PowerShell scripts in sequence, handles retries, and sends a completion notification.
+Before enforcing MFA, users need to register authentication methods. Set this up first:
+- **Auth methods policy** — Enable Microsoft Authenticator, FIDO2, Windows Hello for Business
+- **Temporary Access Pass** — One-time codes for users who lose hardware keys
+- **Report-only mode** — Test CA policies before enforcing
 
-**2. PowerShell scripts** — data collection and normalization. One script per source, plus a merge script. Each script outputs structured JSON to a staging directory on the Jenkins agent.
+### Phase 3: Block Legacy Authentication
 
-**3. SharePoint List** — the inventory store and intermediate layer. PowerShell writes the merged records to a SharePoint list via the SharePoint REST API or PnP PowerShell. The list is the single source of truth that other systems can query.
+Legacy auth (SMTP auth, basic auth, POP/IMAP) is the attack surface. Block it:
 
-**4. Power BI** — visualization layer. A Power BI report connects directly to the SharePoint list and refreshes on a schedule. This is the dashboard the IT team and management use.
-
-## The data collection scripts
-
-**AD collector**: Uses `Get-ADComputer` with `-Properties *` to pull all computer objects. Captures name, distinguished name, last logon timestamp, OS version, description, and organizational unit. Filters out disabled objects and objects not seen in 90 days.
-
-```powershell
-Get-ADComputer -Filter * -Properties LastLogonDate, OperatingSystem, Description |
-  Where-Object { $_.LastLogonDate -gt (Get-Date).AddDays(-90) } |
-  Select-Object Name, DistinguishedName, LastLogonDate, OperatingSystem, Description |
-  ConvertTo-Json | Out-File "$stagingPath\ad-devices.json"
+```
+Conditional Access > Assignments > Cloud apps > All apps
+Conditions > Client apps > Select Exchange ActiveSync clients and Other clients
+Controls > Grant > Block access
 ```
 
-**Intune collector**: Uses the Microsoft Graph PowerShell SDK. Calls `Get-MgDeviceManagementManagedDevice` to get all enrolled devices with compliance state, last sync time, enrolled user, and device category.
+Block legacy auth too early and you'll break:
+- Legacy application integrations
+- Service accounts with password auth only
+- Old MFA integrations that sit behind legacy protocols
 
-**MDE collector**: Uses the Defender for Endpoint API (via a service principal with `Machine.Read.All`). Gets onboarding status, sensor health, last seen timestamp, and risk level for every endpoint.
+**What broke first:** SMTP-authenticated printer scanning and IoT device integrations. Both used basic auth with no modern auth path.
 
-**Azure VM collector**: Uses `Get-AzVM` across all subscriptions the service principal has access to. Gets VM name, resource group, location, OS, running state, and any tags with owner/department information.
+### Phase 3: MFA Enforcement
 
-## The merge script
+Phishing-resistant MFA is the goal. FIDO2 hardware keys. But hardware keys have procurement and onboarding friction:
 
-The merge script is where the real work happens. It loads all four JSON files and joins them on device name. The join logic:
+- Procurement: Buy 50 keys, distribute to Tier-1 roles (privileged users, admins)
+- Onboarding: Users need to register in-browser with Chrome/Edge (Firefox support is spotty)
+- Policy: Require phishing-resistant MFA for admin roles; offer standard MFA as fallback for general users
 
-1. AD is the primary key source — every AD computer object gets a record
-2. Intune records are matched to AD by device name (normalized to uppercase)
-3. MDE records are matched by hostname
-4. Azure VMs get their own records (no AD object)
+**What broke first:** Users who lost their hardware keys. Registration flow required a new key + backup key, and the process times out fast.
 
-For each merged record, the script calculates derived fields:
-- `managementState`: `fully-managed` (Intune + MDE), `partially-managed` (Intune only or MDE only), `unmanaged` (AD only)
-- `staleness`: days since last seen across all sources
-- `complianceGap`: boolean — in Intune but not compliant
+### Phase 4: Device Compliance (Intune Baselines)
 
-The merged output is an array of device objects written to `merged-inventory.json`.
+Intune security baselines + Conditional Access is where device trust lives:
 
-## Writing to SharePoint
+- **Windows baseline** — BitLocker, Windows Defender, firewall rules
+- **Device compliance policy** — Require Microsoft Entra hybrid joined OR compliant device
+- **MDE integration** — Device risk from Defender feeds CA decisions
 
-PnP PowerShell handles the SharePoint write. The script compares the merged inventory against the current SharePoint list state (pulled at the start of the run) and does a delta update: new devices are added, existing devices are updated, devices not seen in 90 days are flagged as stale.
+**What broke first:** Microsoft Entra hybrid join fails when:
+- Stale device objects in on-prem AD aren't cleaned up
+- Line-of-business apps still query on-prem AD only (no cloud auth path)
+- Users are co-managed (Intune + SCCM) and the policy boundary isn't clear
 
-Doing a delta update rather than a full replace matters for performance (the list had 2,000+ items) and for preserving any manual annotations added by the IT team directly in the list.
+### Phase 5: Session Controls
 
-## Power BI on top
+Sign-in frequency and device restrictions for existing sessions:
+- **Sign-in frequency** — Re-authenticate after X hours or when device state changes
+- **Persistent browser** — Block to prevent session cookie replay
+- **App-enforced restrictions** — Disable clipboard/file copy for unmanaged devices
 
-The Power BI report connects to the SharePoint list as a data source and refreshes daily. Key views:
+### Phase 6: Risk-Based Conditional Access
 
-- **Management coverage**: pie/bar showing how many devices are fully managed vs. partially managed vs. unmanaged
-- **Stale devices**: list of devices not seen in 30+ days, sorted by staleness
-- **Compliance gaps**: devices enrolled in Intune but not passing compliance policy
-- **MDE coverage**: which devices have an active sensor vs. not
+Identity Protection risk signals drive dynamic policies:
 
-The report is embedded in a Teams tab so the IT team has it in their daily context without going to Power BI directly.
+- **High-risk sign-in** — Block or require MFA
+- **Risky user** — Force password reset
+- **Microsoft Defender for Identity** — Detect lateral movement, privilege escalation, and domain escalation attacks
 
-## What it replaced
+**What broke first:** False positives. Risky sign-in policies flagged VPN users on corporate devices because the sign-in location didn't match.
 
-Before this pipeline: a manually-maintained Excel spreadsheet updated every quarter. It was always wrong. MDE coverage reports were run manually when someone asked. Compliance gaps were invisible until a CA policy blocked a user.
+### Phase 7: Network Segmentation (802.1X)
 
-After: a nightly automated run, a SharePoint list the IT team trusts, and a Power BI dashboard the security team uses in their weekly review.
+WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
 
-The pipeline has run without manual intervention for over a year. When a new device shows up as unmanaged, the report flags it. When a compliance gap appears, the security team sees it the next morning.
+- **EAP method** — EAP-TLS with certificate-based auth (vs. EAP-PEAP/MSCHAPv2)
+- **Certificate lifecycle** — SCEP or PKCS certificate profile from Intune
+- **Fallback** — WPA2-PSK for legacy devices that can't do 802.1X
 
----
+**What broke first:** EAP negotiation failures. Root causes:
+- Wrong EAP type configured on client vs. RADIUS
+- Server certificate missing trusted root on client
+- Server name validation mismatch (certificate SAN doesn't match RADIUS hostname)
+- Expired or revoked client/server certificates
 
-The architecture is not complicated. Jenkins, PowerShell, SharePoint, Power BI are tools every Microsoft-focused IT team already has. The value is in putting them together deliberately and removing the manual reconciliation step entirely.
-38:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L41",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L44",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L45","device-inventory-pipeline",{"post":{"metadata":{"title":"Building a Device Inventory Pipeline","subtitle":"","publishedAt":"2026-03-20","summary":"When your MDM doesn't tell the full story, build the pipeline yourself. Here's the Jenkins → PowerShell → SharePoint → Power BI architecture I built to unify device data across AD and Intune for a FinTech client.","image":"/images/blog/device-inventory-pipeline.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"device-inventory-pipeline","content":"$46"},"thumbnail":true,"direction":"column"}],"$L47"]}]]}]
+## What Actually Broke First
+
+After three years, here's the friction ranking:
+
+| Friction Point | Phase | Symptom |
+|---|---|---|
+| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
+| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM + Intune |
+| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
+| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
+| Hardware key loss | MFA | Users lose keys, no backup, lockout |
+| Breakglass account lockout | Foundation | Breakglass account passwords expire or aren't tested |
+
+## The Hard Lessons
+
+1. **Don't start with blocking.** Start with alerting and monitoring. Baseline normal before you break normal.
+
+2. **Phased enforcement, not big bang.** Each phase enables the next. Block legacy auth → enforce MFA → require device compliance → apply risk-based access.
+
+3. **802.1X is the hardest network control.** Budget double the time for 802.1X pilot. EAP-TLS certificate validation is where it fails.
+
+4. **Device trust requires clear ownership.** If you're co-managed (SCCM + Intune), define the boundary. We used Intune for cloud-native devices, SCCM for remaining on-prem managed.
+
+5. **Governance is the bottleneck.** Zero Trust fails when cross-team ownership isn't clear. Identity owns CA policies. Endpoint owns device baselines. Network owns 802.1X. Security owns MDI.
+
+## The Takeaway
+
+Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
+
+The only thing that broke irreparably was when we tried to skip Phase 1.38:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L41",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L44",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L45","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$46"},"thumbnail":true,"direction":"column"}],"$L47"]}]]}]
 39:["$","$L48",null,{}]
 3a:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L49",null,{"fitHeight":true}]}]
 3b:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
 3c:["$","$L4a",null,{"children":["$","$4b",null,{"name":"Next.MetadataOutlet","children":"$@4c"}]}]
-4d:T1a33,
-Most identity platforms are configured once and then drift. The IdP has the org chart from six months ago. The HR system has been updated 50 times since then — new hires, promotions, reorgs, contractor conversions — and none of it flowed downstream.
+4d:T1e75,
+Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
 
-The result: Active Directory has the wrong department for half the engineering team, Entra ID shows reporting lines from two restructures ago, and the extension attributes that should drive Conditional Access logic are either empty or stale. The HR system has clean data. The IdP does not.
+This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
 
-For an OT Security client, I built a sync between HiBob (their HRIS) and Entra ID / on-premises AD that runs on a schedule and keeps 18 attributes current. Here's how it works.
+## The Problem: Shadow IT in Google Workspace
 
-## What HiBob knows that Entra doesn't
+Every organization has it: users who default to personal accounts for convenience. Personal Gmail on work devices. Personal Drive for sharing. Personal Calendar for everything.
 
-HiBob is the HR system of record. It owns:
-- Department and sub-department
-- Job title and job level
-- Manager (reporting line)
-- Employment type (full-time, part-time, contractor)
-- Start date and tenure
-- Site/office location
-- Cost center
-- Custom fields: clearance level, team function, contractor company
+The risks:
+- **No DLP** — Company data leaves to personal accounts with no controls
+- **No audit trail** — You can't investigate a data leak if you don't know it happened
+- **No lifecycle** — When they leave, access to work data persists in their personal account
+- **Compliance risk** — Often noncompliant with internal policy and regulated data-handling requirements
 
-Entra ID has fields that map to most of these — `department`, `jobTitle`, `manager`, `employeeType`, `extensionAttribute1–15` — but they're only as current as the last time someone manually updated them. At most clients, that's "not recently."
+The goal: make personal Gmail unusable for work purposes without breaking legitimate personal use on personal devices.
 
-## The architecture
+## How CASB Fits In
 
-Three components:
+CASB (Cloud Access Security Broker) sits between your users and cloud services, providing:
+- **Visibility** — What cloud apps are being used?
+- **Data protection** — DLP policies applied to cloud traffic
+- **Threat protection** — Anomaly detection for cloud usage
+- **Access control** — Block or restrict based on context
 
-**HiBob API** — the source. HiBob has a REST API with token-based auth. The key endpoints are `/v1/people` (list all employees) and `/v1/people/{id}` (get individual profile). The API returns rich profile data including all custom fields.
+Google Workspace integrates with CASB via API, not inline proxy. Google explicitly recommends API/offline CASB patterns over inline proxies — inline CASBs exist but aren't the preferred path. For most orgs, Google-native controls (DLP, Reports API, App Access Management) cover much of what you need before considering third-party CASB.
 
-**Azure Automation Runbook** — the sync engine. A PowerShell runbook runs on a schedule (nightly + on-demand for urgent updates). It calls the HiBob API, normalizes the data, and writes changes to Entra ID via Microsoft Graph and to on-premises AD via the AD module.
+### Shadow IT Discovery
 
-**Entra ID + on-premises AD** — the targets. The runbook writes to both. For most attributes, Entra ID is updated via Graph API and the change propagates to AD via Entra Connect sync. For attributes that only exist on-prem (like certain extension attributes not synced to Entra), the runbook writes directly to AD.
+Before you can block, you need to know what you're dealing with. The CASB (or Google Workspace audit logs) reveals:
 
-## The sync logic
+- **OAuth token inventory** — Which third-party apps have user-authorized access to their Google data
+- **Login activity** — Where are users authenticating from?
+- **Drive sharing** — What's being shared externally?
+- **App usage** — Which apps are accessing Google Workspace data?
 
-The runbook follows a compare-then-write pattern to avoid unnecessary writes:
+In Google Workspace Admin console, go to Security > API controls > Access management. Review OAuth app entries — check ownership (Google-owned/internal/third-party), requested scopes, and user count. The CASB dashboard often surfaces this more visually.
 
-1. Pull all active employee records from HiBob API
-2. For each employee, look up the corresponding Entra ID user (matched by email or employee ID stored in `employeeId` attribute)
-3. Compare the HiBob values against current Entra ID attribute values
-4. If any value differs, write the update via Graph API
-5. Log every change with before/after values to a Log Analytics workspace
+Apps are categorized as **Trusted** (full access), **Limited** (specific Google data only), **Blocked** (no access), or the default for unconfigured apps. Mark unknown third-party apps as Blocked after reviewing scope and ownership.
 
-This means the runbook only writes when there's an actual difference — not on every run, not for every user. This keeps the audit log clean (changes are meaningful) and avoids triggering unnecessary sync cycles in Entra Connect.
+## The Migration Strategy
 
-## What gets synced
+### Phase 1: Discover and Categorize
 
-The 18 attributes synced in this implementation:
+List every external app accessing your users' Google data. Categorize:
+- **Approved** — IT-sanctioned, security reviewed
+- **Tolerated** — Not ideal but not blocked yet
+- **Blocked** — Shadow IT, must go
 
-| HiBob Field | Entra ID Attribute |
-| --- | --- |
-| Department | `department` |
-| Job Title | `jobTitle` |
-| Manager | `manager` (reference) |
-| Employment Type | `employeeType` |
-| Office Location | `officeLocation` |
-| Cost Center | `extension_attribute_1` |
-| Contractor Flag | `extension_attribute_2` |
-| Clearance Level | `extension_attribute_3` |
-| Team Function | `extension_attribute_4` |
-| Contractor Company | `extension_attribute_5` |
-| Start Date | `employeeHireDate` |
-| Display Name | `displayName` |
-| Preferred Name | (custom) |
-| Site | `usageLocation` |
-| Employee ID | `employeeId` |
-| Sub-Department | `extension_attribute_6` |
-| Job Level | `extension_attribute_7` |
-| Profile Picture | (via separate process) |
+The CASB dashboard usually provides this. If not, export audit logs and pivot in Excel.
 
-The manager sync is the most complex. HiBob stores the manager as an employee ID reference. The runbook resolves this to an Entra ID object ID and sets the `manager` attribute as a directory reference — not just a display name string.
+### Phase 2: Offer a Better Alternative
 
-## Profile picture sync
+Users go to personal Gmail because the sanctioned option isn't convenient. Fix that:
 
-Profile pictures are handled separately. HiBob stores profile photos accessible via the API. The runbook downloads the photo, resizes it to the Microsoft 365 preferred size (648×648), and uploads it via the Graph API (`/users/{id}/photo/$value`). This keeps profile pictures in M365, Teams, and Outlook current — which matters more than it sounds for a distributed team.
+- **Google Workspace** — If you don't have it, get it. Every user gets company @company.com account.
+- **Shared drives** — Centralize file storage so personal Drive isn't needed
+- **SSO** — Single sign-on from Entra ID to Google Workspace removes the password burden
 
-## Contractor detection and Conditional Access
+### Phase 3: Enforce with Policy
 
-One of the higher-value outcomes of this sync is accurate contractor flagging. HiBob has an employment type field that distinguishes full-time employees from contractors. The runbook sets `extension_attribute_2` to `contractor` or `employee` accordingly.
+Now block. The enforcement stack, in order of impact:
 
-This attribute drives Conditional Access policies. Contractors get a stricter policy set: phishing-resistant MFA required for all apps, no persistent browser sessions, stricter sign-in frequency. Full-time employees get the standard policy set with SSO and longer session lifetimes.
+**1. Block personal Google accounts** — This is what actually makes personal Gmail unusable on managed devices. Configure via proxy: `X-GoogApps-Allowed-Domains: yourdomain.com`, or in Google Admin console > Security > Managed browser > Restrict sign-in to managed accounts. This stops users from adding their personal @gmail.com account to Chrome or signing into personal Gmail on managed machines.
 
-Without the sync, this distinction was manually maintained and frequently wrong — contractors who converted to FTE still had contractor-tier policies, and new contractors started with FTE-tier access until someone noticed.
+**2. App Access Control** — In Security > API controls > Access management, configure apps as Trusted / Limited / Specific Google data / Blocked. This controls OAuth grants, not browser access. Set default to Blocked for unconfigured apps if you want zero tolerance.
 
-## What breaks
+**3. Context-Aware Access** — Verify managed device before granting access to Workspace apps. Requires Endpoint Verification on desktop; mobile uses Google endpoint management (Intune, Jamf, etc.) for device signals.
 
-**Employee ID mismatches.** If HiBob and Entra ID have inconsistent employee IDs (which happens during migrations, acquisitions, or manual ID assignment), the sync can't match records. We built a reconciliation report that flags unmatched HiBob employees weekly so the IT team can fix the mapping manually.
+### Phase 4: Data Migration
 
-**Manager chains with circular references.** A misconfigured org chart in HiBob can create circular manager references that break the Graph API call. The runbook catches these and logs them rather than failing.
+For users with existing personal Gmail data that needs to come over:
 
-**API rate limits.** HiBob's API has rate limits. For orgs with 500+ employees, a naive implementation that calls `/v1/people/{id}` for every employee will hit them. Use `/v1/people` with field expansion to pull all employees in one call.
+1. **Data import** — Admin imports personal Gmail to corporate account via Security > Data export and management > Data migration. Requires user authorization — they authorize their personal Gmail access. This isn't the "Google Workspace Migrate" tool (that's for Exchange migrations).
+2. **Takeout** — User exports personal Drive, admin migrates to Shared Drive
+3. **Calendar migration** — User exports from personal calendar, imports to corporate or shares calendar with corporate account
 
-## 1.5 years of runtime
+This takes time. Give users 30 days to migrate, then enforce.
 
-This runbook has been running for over 18 months at this client. It has processed thousands of attribute updates — reorgs, promotions, contractor conversions, new hires, terminations (though terminations have their own dedicated workflow). The Entra ID directory now reflects HiBob accurately. Conditional Access policies that depend on employment type work correctly. The IT team no longer gets support tickets about wrong department values.
+## The Enforcement Checklist
 
----
+| Control | Implementation | Effect |
+|---------|---------------|--------|
+| **Consumer account block** | `X-GoogApps-Allowed-Domains` or managed browser sign-in restriction | Personal @gmail.com can't sign in on managed devices |
+| **App Access Control** | Set apps to Trusted/Limited/Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
+| **Context-Aware Access** | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
+| **Drive external sharing** | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
+| **SSO** | Entra ID → Google Workspace | One identity, one credential |
 
-The pattern generalises to any HRIS. Workday, BambooHR, Personio — if it has an API and you have Entra ID, you can build this sync. The core principle is the same: the HR system is the source of truth for people data. The IdP should be downstream of it, not a separate silo that drifts.
-47:["$","$L45","hibob-hr-automation",{"post":{"metadata":{"title":"When HiBob Is Your Source of Truth","subtitle":"","publishedAt":"2026-03-20","summary":"Your HR system knows the org better than your IdP does. Here's how I built a bi-directional HiBob ↔ Entra ID sync that keeps departments, titles, managers, and 15 other attributes in sync — automatically.","image":"/images/blog/hibob-hr-automation.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"hibob-hr-automation","content":"$4d"},"thumbnail":true,"direction":"column"}]
+**CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
+
+## What Actually Breaks First
+
+In practice, this enforcement breaks these workflows:
+
+1. **User's personal phone** — They can't check corporate email on their personal Android/iOS without management installed. Solution: offer MDM enrollment or accept the limitation.
+
+2. **Third-party tools** — Users who authorized random SaaS apps lose access. Solution: pre-approve the most common ones (Zoom, Slack, etc.).
+
+3. **Contractors** — External users without managed devices. Solution: dedicated contractor accounts with limited access, or accept unmanaged access with increased monitoring.
+
+4. **Endpoint Verification sync delays** — Compliant desktops get blocked before they sync device status. Google's docs explicitly warn about this. Run in monitor mode first.
+
+5. **OAuth restrictions break integrations fast** — Zoom, Slack, calendaring add-ons, scanners, backup tools — all need explicit app access configuration or users lose functionality.
+
+6. **Delegated mailbox access** — Consumer account blocking with `X-GoogApps-Allowed-Domains` can break delegated mailbox access if the delegate's domain isn't in allowed headers.
+
+## The Takeaway
+
+You can't uninvent personal Gmail. Your users will always have personal accounts. What you can do is make it operationally useless for work:
+
+- DLP policies block data exfiltration
+- Context-Aware Access restricts access to managed devices
+- SSO removes the password management burden
+- Structured migration moves existing data to corporate
+
+The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.47:["$","$L45","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$4d"},"thumbnail":true,"direction":"column"}]
 4c:null

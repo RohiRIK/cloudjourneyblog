@@ -24,12 +24,253 @@
 - [x] 16. device-inventory-pipeline.png
 - [x] 17. hibob-hr-automation.png
 - [x] 18. claude-code-config-v3.png
+- [x] 19. cross-platform-compliance-architecture.png
+- [x] 20. ai-driven-soc-assistant.png
+- [x] 21. entra-join-readiness-checklist.png
+- [x] 22. google-workspace-entra-federation.png
+- [x] 23. gcp-casb-shadow-it-migration.png
+- [x] 24. zero-trust-retrospective.png
 
 ---
 
-## Site Assets
+## 19. cross-platform-compliance-architecture.png
 
-- [x] favicon — src/app/icon.png
+**Concept:** ENFORCEMENT / KILL-SWITCH problem type.
+Most compliance tooling only reports problems — it doesn't enforce them. Devices go non-compliant and nothing happens. The essay argues for an automatic kill-switch: Conditional Access policies that block non-compliant devices from corporate resources across Windows, macOS, and Linux platforms.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No text in image.
+
+Center composition: A large industrial kill-switch lever, heavy and mechanical, dominant in the frame. Three stylized device icons — a Windows box (left), an Apple Mac (center-top), and a Linux penguin Tux (right) — each connected to the kill-switch by thick cables/conduits. The Linux penguin is rendered in a red warning state — non-compliant — with a visible red glow/accent. The kill-switch lever is actively pulled/engaged, tilted to one side, with a red indicator light glowing at its base. A faint Conditional Access shield icon overlays the top of the composition, minimal, in dim cyan.
+
+The enforcement mechanism is triggered. One platform (Linux) is non-compliant, and the kill-switch has responded. The lever communicates real, automatic, physical enforcement — not a report, not a warning, but action.
+
+Color palette: near-black background, kill-switch mechanism in deep purple (#4A148C) and dark steel, cables in dim cyan, Windows icon in electric blue, Mac icon in cool white/silver, Linux penguin in sienna-red (#8B4513) for the non-compliant state, indicator light in hot red, Conditional Access shield in dim cyan. The sienna on the penguin communicates urgency/alert. The purple on the enforcement mechanism communicates cold automated power. Subjects fill the full frame. Minimal. Gallery-worthy.
+
+---
+
+## 20. ai-driven-soc-assistant.png
+
+**Concept:** AUGMENTATION / INTELLIGENCE LAYER problem type.
+Security operations isn't replaced by AI — it's layered with AI-assisted
+triage, alert correlation, and automated response. The image should show
+a human analyst enhanced by AI, not replaced by it.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Center composition: A central human analyst figure (geometric, minimalist,
+warm amber outline) sits at a control interface — a curved console with
+geometric buttons. From the analyst, two distinct data streams flow
+outward:
+
+Stream 1 (left): Raw alert chaos — dozens of small flat triangles in varied
+dim colors (gray, muted red, muted yellow) flowing toward the analyst.
+Unstructured, overwhelming, the "before" signal.
+
+Stream 2 (right): Processed insights — a clean stream of geometric
+checkmarks and warning triangles in neon colors (green, amber, red) flowing
+outward from the analyst to three small target icons: a document (report),
+a shield (auto-response), and a play button (automated playbook trigger).
+
+The AI augmentation is shown as a subtle neural-network pattern overlaying the
+analyst's outline — thin geometric circuit lines in electric cyan, suggesting
+the AI layer is part of the analyst, not separate.
+
+Below the console: a small Wazuh logo icon (simplified, geometric) in dim
+cyan and a small MDI icon (simplified, geometric) in magenta — the integration
+stack that makes the augmentation possible.
+
+Color palette: near-black background, analyst in warm amber, raw alerts in
+muted colors, processed stream in neon green/amber/red, circuit overlay in
+electric cyan, Wazuh icon in dim cyan, MDI icon in magenta. The analyst
+is the focus — AI enhances, doesn't replace.
+
+---
+
+## 21. entra-join-readiness-checklist.png
+
+**Concept:** PREPAREDNESS / DEPENDENCY MAPPING problem type.
+Entra Join isn't a flip of a switch — it's the resolution of dependencies:
+GPOs translated to Intune, 802.1X certificates provisioned, legacy auth
+removed. The image should show a checklist of resolved dependencies, not the
+join itself.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Center composition: A large geometric clipboard — the readiness checklist
+— rendered as a flat rectangular frame in dark steel with neon-white edges.
+Inside: five checkbox positions, each with a distinct icon and status:
+
+Checkbox 1 (top, checked): A small geometric laptop with a circular arrow —
+device management migrated. Checkbox glows neon-green.
+Checkbox 2 (upper-mid, checked): A certificate icon with branching lines —
+802.1X certificates provisioned. Checkbox glows neon-green.
+Checkbox 3 (center, checked): A broken chain link icon — legacy auth removed. Checkbox glows neon-green.
+Checkbox 4 (lower-mid, checked): A cloud-sync icon — conditional access aligned. Checkbox glows neon-green.
+Checkbox 5 (bottom, checked): A shield with a check — security baselines applied. Checkbox glows neon-green.
+
+Behind the clipboard: a faint geometric tower outline — the on-prem domain controller
+— in dim gray, fading. Its outline is broken, pieces dissolving, representing
+the legacy being retired. The clipboard obscures it.
+
+Above the clipboard: a small Entra icon (simplified octagon, electric cyan)
+and a small Intune icon (rectangle with corner brackets, cyan) connected
+by a neon-white line — the joined destination.
+
+Color palette: near-black background, clipboard in dark steel with neon-white
+edges, checkboxes in neon-green, icons in varied neon colors, dissolving
+domain controller in dim gray, Entra/Intune icons in cyan. The checklist
+is complete and solid.
+
+---
+
+## 22. google-workspace-entra-federation.png
+
+**Concept:** FEDERATION / CROSS-DOMAIN TRUST problem type.
+Google Workspace logging into Entra ID — the federation trust that makes
+one identity work across both. The image should show two distinct identity
+domains connected by a trust bridge, with credentials flowing cleanly.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Horizontal composition: Two identity domains on either side, connected by a
+central trust bridge.
+
+LEFT DOMAIN (Google Workspace): A large hexagonal node, electric blue.
+Inside: a simplified G-Suite icon — four squares in a grid, white. Around it:
+small icons floating — a Mail icon (envelope), a Drive icon (folder), a Calendar
+icon (calendar grid), a Meet icon (video camera). All in cool white/cyan tones.
+The node glows: its border is thick, confident.
+
+RIGHT DOMAIN (Microsoft Entra ID): A smaller pentagonal node, warm amber.
+Inside: a simplified Azure/Entra icon — a geometric 'A' or shield shape.
+Around it: small icons — a Teams bubble, a SharePoint grid, a Windows logo.
+All in warm amber/gold tones. The node is solid, established.
+
+THE TRUST BRIDGE: A bold horizontal connection between the two domains — not a line,
+but a wide conduit. Inside the conduit: small credential packets flow left to right,
+rendered as small glowing key icons in neon-white. The flow is directional:
+Google user → Entra validates → access granted. The conduit glows with faint cyan,
+the trust is active.
+
+Above the bridge: a small SAML assertion icon (geometric XML brackets) in
+neon-cyan — the protocol making this work.
+
+Below: faint geometric dotted lines connect to small resource icons on both sides —
+the shared apps, Drive files, Teams channels — the destination of the access.
+
+Color palette: near-black background, Google node in electric blue, Entra node
+in warm amber, bridge conduit in neon-cyan, credential packets in neon-white,
+SAML icon in cyan, resource connections in dim gray. The two
+domains are equal but distinct, connected cleanly.
+
+---
+
+## 23. gcp-casb-shadow-it-migration.png
+
+**Concept:** ENFORCEMENT / KILL-SWITCH problem type.
+Personal Gmail can't be blocked at the network level — but CASB policies
+can make it operationally useless: DLP blocks data exfiltration, Context-
+Aware Access restricts to managed devices, OAuth allowlists close the gate.
+The image should show the enforcement mechanism — not the block itself, but the
+switch being flipped.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients.
+No text in image.
+
+Center composition: A large industrial enforcement dashboard —
+geometric, angular, rendered in dark steel with cyan circuit traces.
+The dashboard surface has three distinct control switches, each flipped
+to "ENFORCE":
+
+SWITCH 1 (left): DLP enforcement — a geometric shield with a downward
+block arrow. Glowing hard red. Below it: small envelope and file icons in red —
+personal email and drive files being blocked.
+
+SWITCH 2 (center): Context-Aware Access — a geometric device-trust icon
+(small laptop with a checkmark). Glowing neon-green. Below it: three device
+icons — a laptop (compliant, green), a tablet (partial, amber), a personal
+phone (non-compliant, red).
+
+SWITCH 3 (right): OAuth allowlist — a geometric lock with a keyhole.
+Glowing neon-cyan. Below it: app icons — some with green checkmarks
+(allowed), some with red X (blocked).
+
+Behind the dashboard: a faint personal Gmail icon (geometric "G" with
+envelope) in dim red — the target, being controlled but not destroyed.
+The icon shows cracks but isn't shattered — disabled, not deleted.
+
+A thin neon-white line runs from each switch into the background,
+connecting to an abstract "corporate resources" zone (dim grid, cyan)
+at the top of the composition.
+
+Color palette: near-black background, dashboard in dark steel with cyan traces,
+DLP switch in hard red, CAA switch in neon-green, OAuth switch in neon-cyan,
+device icons in red/amber/green, personal Gmail ghost in dim red with
+cracks, resource zone in dim cyan. The three switches enforce; personal
+use becomes friction.
+
+---
+
+## 24. zero-trust-retrospective.png
+
+**Concept:** SEQUENCE / EXECUTION ORDER problem type.
+Zero Trust isn't a big bang — it's phases: emergency access → block legacy auth →
+MFA → device compliance → risk-based CA → 802.1X. Each builds the next.
+The image should show the sequence as a staircase — each step enabling the next,
+not skipping any.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients.
+No text in image.
+
+Center composition: A geometric staircase running left to right, ascending.
+Six distinct steps, each a flat platform in a different neon color:
+
+STEP 1 (left, lowest): Emergency Access — a small hexagon, warm amber.
+Icon inside: a breakglass/emergency key.
+STEP 2: Legacy Auth Block — a small square, dim red. Icon: a broken chain.
+STEP 3: MFA Enforcement — a small pentagon, electric blue. Icon: a shield.
+STEP 4: Device Compliance — a small rectangle, neon green. Icon: a checkmark.
+STEP 5: Risk-Based CA — a small circle, soft magenta. Icon: a warning triangle.
+STEP 6 (right, highest): 802.1X Network — a small octagon, cold cyan.
+Icon: a WiFi signal.
+
+Each step connects to the next by a thin neon-white line, forming an ascending
+path. The staircase is clean, intentional, no gaps.
+
+Above the staircase: a faint cloud outline (representing cloud resources) in dim
+gray, connected to the top step by thin lines. The ascent leads there.
+
+Behind/below the staircase: a faint layer of failed attempts — small dim
+geometric shapes in red/orange that didn't make the climb. They're separate,
+below, a reminder of what breaking the sequence costs.
+
+At the base (far left): a small "Phase 1" flag in dim cyan. At the
+top (far right): a small "Secure" checkmark in bright neon-green.
+
+Color palette: near-black background, steps in amber/blue/green/magenta/cyan,
+connecting lines in neon-white, failed attempts in dim red/orange, cloud
+in dim gray, Phase 1 flag in dim cyan, final checkmark in neon-green.
+The sequence is the point — no skipping.
 
 ---
 

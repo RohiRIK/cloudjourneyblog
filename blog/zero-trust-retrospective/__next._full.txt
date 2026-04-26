@@ -1,0 +1,386 @@
+1:"$Sreact.fragment"
+3:I[339756,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
+4:I[837457,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
+6:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"ViewportBoundary"]
+b:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"MetadataBoundary"]
+d:I[168027,[],"default"]
+:HL["/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
+:HL["/_next/static/chunks/d20e0f0702cef329.css","style"]
+:HL["/_next/static/chunks/3a1b43107ae24619.css","style"]
+:HL["/_next/static/chunks/eef662fdc50843a7.css","style"]
+:HL["/_next/static/chunks/b3a7f4834154c9dc.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"oW7r9KRdqwPrLXzfZfiS5","c":["","blog","zero-trust-retrospective"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","zero-trust-retrospective","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6633d7a0fde019af.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+f:I[530824,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Providers"]
+10:I[273323,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
+11:I[621971,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RevealFx"]
+12:I[394412,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Background"]
+13:I[521247,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ClientFlex"]
+14:I[402971,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Header"]
+15:I[1166,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RouteGuard"]
+e:T771,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"violet","accent":"emerald","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$e"}}]}],["$","$Lf",null,{"children":["$","$L10",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L11",null,{"fill":true,"position":"absolute","children":["$","$L12",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L13",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L14",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L15",null,{"children":"$L16"}]}]}],"$L17"]}]}]]}]
+18:I[778454,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
+19:I[298229,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"IconButton"]
+1a:I[479520,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
+1b:I[624379,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
+1c:I[145250,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
+1d:I[398382,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
+1f:I[448588,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
+20:I[992713,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
+21:I[311451,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
+22:I[89532,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
+23:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
+16:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+24:T1e75,
+Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
+
+This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
+
+## The Problem: Shadow IT in Google Workspace
+
+Every organization has it: users who default to personal accounts for convenience. Personal Gmail on work devices. Personal Drive for sharing. Personal Calendar for everything.
+
+The risks:
+- **No DLP** — Company data leaves to personal accounts with no controls
+- **No audit trail** — You can't investigate a data leak if you don't know it happened
+- **No lifecycle** — When they leave, access to work data persists in their personal account
+- **Compliance risk** — Often noncompliant with internal policy and regulated data-handling requirements
+
+The goal: make personal Gmail unusable for work purposes without breaking legitimate personal use on personal devices.
+
+## How CASB Fits In
+
+CASB (Cloud Access Security Broker) sits between your users and cloud services, providing:
+- **Visibility** — What cloud apps are being used?
+- **Data protection** — DLP policies applied to cloud traffic
+- **Threat protection** — Anomaly detection for cloud usage
+- **Access control** — Block or restrict based on context
+
+Google Workspace integrates with CASB via API, not inline proxy. Google explicitly recommends API/offline CASB patterns over inline proxies — inline CASBs exist but aren't the preferred path. For most orgs, Google-native controls (DLP, Reports API, App Access Management) cover much of what you need before considering third-party CASB.
+
+### Shadow IT Discovery
+
+Before you can block, you need to know what you're dealing with. The CASB (or Google Workspace audit logs) reveals:
+
+- **OAuth token inventory** — Which third-party apps have user-authorized access to their Google data
+- **Login activity** — Where are users authenticating from?
+- **Drive sharing** — What's being shared externally?
+- **App usage** — Which apps are accessing Google Workspace data?
+
+In Google Workspace Admin console, go to Security > API controls > Access management. Review OAuth app entries — check ownership (Google-owned/internal/third-party), requested scopes, and user count. The CASB dashboard often surfaces this more visually.
+
+Apps are categorized as **Trusted** (full access), **Limited** (specific Google data only), **Blocked** (no access), or the default for unconfigured apps. Mark unknown third-party apps as Blocked after reviewing scope and ownership.
+
+## The Migration Strategy
+
+### Phase 1: Discover and Categorize
+
+List every external app accessing your users' Google data. Categorize:
+- **Approved** — IT-sanctioned, security reviewed
+- **Tolerated** — Not ideal but not blocked yet
+- **Blocked** — Shadow IT, must go
+
+The CASB dashboard usually provides this. If not, export audit logs and pivot in Excel.
+
+### Phase 2: Offer a Better Alternative
+
+Users go to personal Gmail because the sanctioned option isn't convenient. Fix that:
+
+- **Google Workspace** — If you don't have it, get it. Every user gets company @company.com account.
+- **Shared drives** — Centralize file storage so personal Drive isn't needed
+- **SSO** — Single sign-on from Entra ID to Google Workspace removes the password burden
+
+### Phase 3: Enforce with Policy
+
+Now block. The enforcement stack, in order of impact:
+
+**1. Block personal Google accounts** — This is what actually makes personal Gmail unusable on managed devices. Configure via proxy: `X-GoogApps-Allowed-Domains: yourdomain.com`, or in Google Admin console > Security > Managed browser > Restrict sign-in to managed accounts. This stops users from adding their personal @gmail.com account to Chrome or signing into personal Gmail on managed machines.
+
+**2. App Access Control** — In Security > API controls > Access management, configure apps as Trusted / Limited / Specific Google data / Blocked. This controls OAuth grants, not browser access. Set default to Blocked for unconfigured apps if you want zero tolerance.
+
+**3. Context-Aware Access** — Verify managed device before granting access to Workspace apps. Requires Endpoint Verification on desktop; mobile uses Google endpoint management (Intune, Jamf, etc.) for device signals.
+
+### Phase 4: Data Migration
+
+For users with existing personal Gmail data that needs to come over:
+
+1. **Data import** — Admin imports personal Gmail to corporate account via Security > Data export and management > Data migration. Requires user authorization — they authorize their personal Gmail access. This isn't the "Google Workspace Migrate" tool (that's for Exchange migrations).
+2. **Takeout** — User exports personal Drive, admin migrates to Shared Drive
+3. **Calendar migration** — User exports from personal calendar, imports to corporate or shares calendar with corporate account
+
+This takes time. Give users 30 days to migrate, then enforce.
+
+## The Enforcement Checklist
+
+| Control | Implementation | Effect |
+|---------|---------------|--------|
+| **Consumer account block** | `X-GoogApps-Allowed-Domains` or managed browser sign-in restriction | Personal @gmail.com can't sign in on managed devices |
+| **App Access Control** | Set apps to Trusted/Limited/Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
+| **Context-Aware Access** | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
+| **Drive external sharing** | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
+| **SSO** | Entra ID → Google Workspace | One identity, one credential |
+
+**CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
+
+## What Actually Breaks First
+
+In practice, this enforcement breaks these workflows:
+
+1. **User's personal phone** — They can't check corporate email on their personal Android/iOS without management installed. Solution: offer MDM enrollment or accept the limitation.
+
+2. **Third-party tools** — Users who authorized random SaaS apps lose access. Solution: pre-approve the most common ones (Zoom, Slack, etc.).
+
+3. **Contractors** — External users without managed devices. Solution: dedicated contractor accounts with limited access, or accept unmanaged access with increased monitoring.
+
+4. **Endpoint Verification sync delays** — Compliant desktops get blocked before they sync device status. Google's docs explicitly warn about this. Run in monitor mode first.
+
+5. **OAuth restrictions break integrations fast** — Zoom, Slack, calendaring add-ons, scanners, backup tools — all need explicit app access configuration or users lose functionality.
+
+6. **Delegated mailbox access** — Consumer account blocking with `X-GoogApps-Allowed-Domains` can break delegated mailbox access if the delegate's domain isn't in allowed headers.
+
+## The Takeaway
+
+You can't uninvent personal Gmail. Your users will always have personal accounts. What you can do is make it operationally useless for work:
+
+- DLP policies block data exfiltration
+- Context-Aware Access restricts access to managed devices
+- SSO removes the password management burden
+- Structured migration moves existing data to corporate
+
+The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/zero-trust-retrospective","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-retrospective\",\"sameAs\":[],\"headline\":\"Zero Trust Rollout Retrospective: What Actually Broke\",\"description\":\"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/zero-trust-retrospective.png\",\"datePublished\":\"2026-04-29\",\"dateModified\":\"2026-04-29\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"April 29, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Zero Trust Rollout Retrospective: What Actually Broke"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}]]}]}],["$","$L1d",null,{"src":"/images/blog/zero-trust-retrospective.png","alt":"Zero Trust Rollout Retrospective: What Actually Broke","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"Zero Trust Rollout Retrospective: What Actually Broke","url":"https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-retrospective"}],["$","$L20",null,{}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L21",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L22",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L23","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$24"},"thumbnail":true,"direction":"column"}],"$L25"]}]]}],"$L26"]}]}],"$L27"]}]
+29:I[988654,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+2a:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+28:T183c,
+Federating Google Workspace to Entra ID sounds straightforward — flip the switch in the admin console and suddenly your users sign in with Entra credentials. The reality is more nuanced. Here's what actually happens and how to get it right.
+
+## Why Federate at All
+
+The value isn't just SSO. It's consolidating your identity authority. When Entra is the IdP:
+
+- **One identity** — Users exist in Entra, authenticate to Entra, access Google Workspace. No separate Google password to manage.
+- **Conditional Access** — You can apply Entra CA policies before letting users into Google. MFA requirements, session limits, risk-based access — all enforced before Google sees the request.
+- **Lifecycle** — When a user leaves Entra, they can't access Google. No orphaned accounts.
+
+The alternative — local Google passwords with no Entra visibility — is the risk you're removing.
+
+## The Architecture
+
+Two systems, one federation contract:
+
+```
+User → Google Workspace (SP) → Entra ID (IdP) → SAML Response → User in Google
+```
+
+- **Entra ID** acts as the SAML Identity Provider
+- **Google Workspace** acts as the Service Consumer (via Federated Directory)
+- The glue is SAML 2.0 — standard, well-documented, but picky about configuration
+
+The flow:
+
+1. User visits `mail.google.com` or any Google property
+2. Google detects federated domain, redirects to Entra with SAML AuthnRequest
+3. Entra prompts for authentication (password + MFA if configured)
+4. Entra returns SAML Assertion with user identity claims
+5. Google validates assertion, creates session, user lands in Google Workspace
+
+Two flows exist: SP-initiated (user starts at Google) and IdP-initiated (user starts at Entra, gets redirected to Google). Both work post-setup.
+
+## The Setup Steps
+
+### 1. Prepare Your Domains
+
+Confirm both domains are verified in their respective consoles:
+- In Entra, your primary domain must be verified
+- In Google Admin, your domain must be listed
+
+### 2. Create the Enterprise App in Entra
+
+In Entra ID admin center:
+- Add app > Google Workspace (from the gallery)
+- Set up SSO > SAML
+- **Important**: You'll populate this with values from Google in the next step — don't guess the endpoints.
+
+### 3. Configure Google SSO Profile
+
+In Google Admin > Security > Authentication > SSO with third-party IdP:
+- Create a new SSO profile (or use the preconfigured Microsoft Entra profile if available)
+- Copy these values from Google to Entra:
+  - **Entity ID** (from Google)
+  - **ACS URL** (from Google)
+- Then populate Entra with:
+  - **IdP Login URL**: Your Entra SSO URL
+  - **IdP Logout URL**: Your Entra logout URL
+  - **IdP Certificate**: Upload the Entra signing certificate
+
+Assign the app to pilot users/groups.
+
+### 4. Claims Mapping
+
+Entra sends these claims to Google:
+
+| Entra Claim | Google Field |
+|-----------|-------------|
+| email | Primary email |
+| givenName | First name |
+| surname | Last name |
+| NameID | Must match Google user's primary email |
+
+The critical mapping: **NameID must match the user's primary email address in Google**. If it doesn't, sign-in fails.
+
+### 5. Provisioning (Optional But Recommended)
+
+Federation handles **authentication** — it doesn't create Google accounts. Users must exist in Google Workspace to sign in.
+
+Two paths:
+- **Manual**: Pre-create users in Google before they authenticate
+- **Automatic**: Enable Entra provisioning to Google (via Entra ID > Google app > Provisioning). This syncs users from Entra to Google — create, update, disable — on a regular schedule.
+
+Most production deployments enable automatic provisioning to keep Google accounts in sync with Entra. Without it, you must manually create users in Google before they can sign in.
+
+## What Breaks First
+
+### NameID/Email Mismatch
+
+The most common error post-setup: authentication fails at Google because the NameID claim doesn't match the user's primary email in Google.
+
+Fix: Ensure the email claim from Entra matches exactly what's in the Google user's profile.
+
+### Wrong ACS or Entity ID
+
+If the SAML endpoints are mismatched between Entra and Google, the assertion gets rejected.
+
+Fix: Verify Google provides the correct ACS URL and Entity ID, and those are exactly what's configured in Entra.
+
+### Certificate Expiration
+
+Entra's SAML signing certificate expires Yearly (check your app's certificate expiry). Put a calendar reminder 30 days before. When it expires, users can't sign in until you update the certificate in Google admin.
+
+### User Not Provisioned
+
+If a user exists in Entra but not in Google, and provisioning is disabled, authentication fails.
+
+Fix: Enable automatic provisioning, or manually create users in Google before they attempt to sign in.
+
+### Not Assigned to App
+
+Sometimes forgotten: the user or their group isn't assigned to the Google app in Entra.
+
+Fix: Assign the app to the pilot group in Entra > Enterprise App > Assignments.
+
+## The Auth Flow in Plain English
+
+```
+Browser starts at mail.google.com 
+    ↓
+Google sees federated domain, redirects (SAML AuthnRequest) to Entra
+    ↓
+User enters credentials at Entra (MFA triggers here if enabled)
+    ↓
+Entra validates, issues SAML Assertion with email + name + ImmutableId
+    ↓
+Google receives assertion, matches ImmutableId to Google user, logs in
+```
+
+The key insight: the user never enters a Google password. Entra owns the credential entry, password complexity, MFA enforcement. Google just trusts Entra's assertion.
+
+## What You Gain
+
+| Before Federation | After Federation |
+|---------------|---------------|
+| Users manage Google passwords separately | Single Entra password |
+| No Entra visibility into Google access | CA policies apply before Google |
+| Orphaned Google accounts on leavers | Access cuts off when Entra disables |
+| No unified session policy | Entra controls session lifetime |
+
+## The Takeaway
+
+The setup isn't hard — it's exacting. Get the SAML metadata right, map ImmutableId correctly, enable provisioning, and test both SP and IdP flows. Once federated, you've moved the authentication authority to Entra and consolidated your identity stack.
+
+Don't skip the test phase. Try it with one pilot user before rolling it out domain-wide.25:["$","$L23","google-workspace-entra-federation",{"post":{"metadata":{"title":"Google Workspace to Entra ID Federation: The SSO Setup That Actually Works","subtitle":"","publishedAt":"2026-04-27","summary":"Setting up Google Workspace to use Entra ID as the Identity Provider isn't just checking a box. Here's the practical walkthrough of SAML federation, claims mapping, and what breaks when you get it wrong.","image":"/images/blog/google-workspace-entra-federation.png","images":[],"tag":"Identity","team":[],"link":""},"slug":"google-workspace-entra-federation","content":"$28"},"thumbnail":true,"direction":"column"}]
+26:["$","$L29",null,{}]
+27:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L2a",null,{"fitHeight":true}]}]
+2b:I[811052,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
+2c:I[436122,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
+2d:I[626935,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
+2e:I[362844,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
+1e:[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production."}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-implementation-sequence","children":"The Implementation Sequence"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Zero Trust isn't a product you buy. It's a sequence of controls you enforce, in order, with each phase creating the foundation for the next."}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-1-emergency-access-and-monitoring-foundation","children":"Phase 1: Emergency Access & Monitoring Foundation"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Before touching anything else, you need:"}],"\n",["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Breakglass accounts"}]," — Named emergency accounts that bypass all Conditional Access. Don't use these daily. Test them quarterly."]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Alerting baseline"}]," — What does normal look like? Capture login patterns, device health, app usage before you start blocking."]}],"\n"]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"This is the unsexy phase that saves you when Phase 3 locks everyone out."}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-2-security-info-registration","children":"Phase 2: Security Info Registration"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Before enforcing MFA, users need to register authentication methods. Set this up first:"}],"\n",["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Auth methods policy"}]," — Enable Microsoft Authenticator, FIDO2, Windows Hello for Business"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Temporary Access Pass"}]," — One-time codes for users who lose hardware keys"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Report-only mode"}]," — Test CA policies before enforcing"]}],"\n"]}],"\n",["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-3-block-legacy-authentication","children":"Phase 3: Block Legacy Authentication"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Legacy auth (SMTP auth, basic auth, POP/IMAP) is the attack surface. Block it:"}],"\n",["$","pre",null,{"children":["$","$L2e",null,{"children":"Conditional Access > Assignments > Cloud apps > All apps\nConditions > Client apps > Select Exchange ActiveSync clients and Other clients\nControls > Grant > Block access\n"}]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Block legacy auth too early and you'll break:"}],"\n",["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Legacy application integrations"}],"\n","$L2f","\n","$L30","\n"]}],"\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e"]
+2f:["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Service accounts with password auth only"}]
+30:["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Old MFA integrations that sit behind legacy protocols"}]
+31:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"What broke first:"}]," SMTP-authenticated printer scanning and IoT device integrations. Both used basic auth with no modern auth path."]}]
+32:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-3-mfa-enforcement","children":"Phase 3: MFA Enforcement"}]
+33:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Phishing-resistant MFA is the goal. FIDO2 hardware keys. But hardware keys have procurement and onboarding friction:"}]
+34:["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Procurement: Buy 50 keys, distribute to Tier-1 roles (privileged users, admins)"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Onboarding: Users need to register in-browser with Chrome/Edge (Firefox support is spotty)"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Policy: Require phishing-resistant MFA for admin roles; offer standard MFA as fallback for general users"}],"\n"]}]
+35:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"What broke first:"}]," Users who lost their hardware keys. Registration flow required a new key + backup key, and the process times out fast."]}]
+36:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-4-device-compliance-intune-baselines","children":"Phase 4: Device Compliance (Intune Baselines)"}]
+37:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Intune security baselines + Conditional Access is where device trust lives:"}]
+38:["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Windows baseline"}]," — BitLocker, Windows Defender, firewall rules"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Device compliance policy"}]," — Require Microsoft Entra hybrid joined OR compliant device"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"MDE integration"}]," — Device risk from Defender feeds CA decisions"]}],"\n"]}]
+39:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"What broke first:"}]," Microsoft Entra hybrid join fails when:"]}]
+3a:["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Stale device objects in on-prem AD aren't cleaned up"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Line-of-business apps still query on-prem AD only (no cloud auth path)"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Users are co-managed (Intune + SCCM) and the policy boundary isn't clear"}],"\n"]}]
+3b:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-5-session-controls","children":"Phase 5: Session Controls"}]
+3c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Sign-in frequency and device restrictions for existing sessions:"}]
+3d:["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Sign-in frequency"}]," — Re-authenticate after X hours or when device state changes"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Persistent browser"}]," — Block to prevent session cookie replay"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"App-enforced restrictions"}]," — Disable clipboard/file copy for unmanaged devices"]}],"\n"]}]
+3e:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-6-risk-based-conditional-access","children":"Phase 6: Risk-Based Conditional Access"}]
+3f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Identity Protection risk signals drive dynamic policies:"}]
+40:["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"High-risk sign-in"}]," — Block or require MFA"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Risky user"}]," — Force password reset"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Microsoft Defender for Identity"}]," — Detect lateral movement, privilege escalation, and domain escalation attacks"]}],"\n"]}]
+41:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"What broke first:"}]," False positives. Risky sign-in policies flagged VPN users on corporate devices because the sign-in location didn't match."]}]
+42:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-7-network-segmentation-802.1x","children":"Phase 7: Network Segmentation (802.1X)"}]
+43:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:"}]
+44:["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"EAP method"}]," — EAP-TLS with certificate-based auth (vs. EAP-PEAP/MSCHAPv2)"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Certificate lifecycle"}]," — SCEP or PKCS certificate profile from Intune"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Fallback"}]," — WPA2-PSK for legacy devices that can't do 802.1X"]}],"\n"]}]
+45:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"What broke first:"}]," EAP negotiation failures. Root causes:"]}]
+46:["$","$L2c",null,{"as":"ul","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Wrong EAP type configured on client vs. RADIUS"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Server certificate missing trusted root on client"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Server name validation mismatch (certificate SAN doesn't match RADIUS hostname)"}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Expired or revoked client/server certificates"}],"\n"]}]
+47:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-actually-broke-first","children":"What Actually Broke First"}]
+48:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"After three years, here's the friction ranking:"}]
+49:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"| Friction Point | Phase | Symptom |\n|---|---|---|\n| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |\n| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM + Intune |\n| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |\n| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |\n| Hardware key loss | MFA | Users lose keys, no backup, lockout |\n| Breakglass account lockout | Foundation | Breakglass account passwords expire or aren't tested |"}]
+4a:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-hard-lessons","children":"The Hard Lessons"}]
+4b:["$","$L2c",null,{"as":"ol","children":["\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Don't start with blocking."}]," Start with alerting and monitoring. Baseline normal before you break normal."]}],"\n"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Phased enforcement, not big bang."}]," Each phase enables the next. Block legacy auth → enforce MFA → require device compliance → apply risk-based access."]}],"\n"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"802.1X is the hardest network control."}]," Budget double the time for 802.1X pilot. EAP-TLS certificate validation is where it fails."]}],"\n"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Device trust requires clear ownership."}]," If you're co-managed (SCCM + Intune), define the boundary. We used Intune for cloud-native devices, SCCM for remaining on-prem managed."]}],"\n"]}],"\n",["$","$L2d",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Governance is the bottleneck."}]," Zero Trust fails when cross-team ownership isn't clear. Identity owns CA policies. Endpoint owns device baselines. Network owns 802.1X. Security owns MDI."]}],"\n"]}],"\n"]}]
+4c:["$","$L2b",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-takeaway","children":"The Takeaway"}]
+4d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X."}]
+4e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The only thing that broke irreparably was when we tried to skip Phase 1."}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+4f:I[27201,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"IconMark"]
+8:null
+c:[["$","title","0",{"children":"Zero Trust Rollout Retrospective: What Actually Broke"}],["$","meta","1",{"name":"description","content":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first."}],["$","meta","2",{"property":"og:title","content":"Zero Trust Rollout Retrospective: What Actually Broke"}],["$","meta","3",{"property":"og:description","content":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first."}],["$","meta","4",{"property":"og:url","content":"https://cloudjourneyblog.rohi-lab.org/blog/zero-trust-retrospective"}],["$","meta","5",{"property":"og:image","content":"https://cloudjourneyblog.rohi-lab.org/images/blog/zero-trust-retrospective.png"}],["$","meta","6",{"property":"og:image:alt","content":"Zero Trust Rollout Retrospective: What Actually Broke"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Zero Trust Rollout Retrospective: What Actually Broke"}],["$","meta","10",{"name":"twitter:description","content":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first."}],["$","meta","11",{"name":"twitter:image","content":"https://cloudjourneyblog.rohi-lab.org/images/blog/zero-trust-retrospective.png"}],["$","link","12",{"rel":"icon","href":"/icon.png?icon.c8434fe5.png","sizes":"640x640","type":"image/png"}],["$","$L4f","13",{}]]

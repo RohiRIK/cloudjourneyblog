@@ -1,0 +1,337 @@
+1:"$Sreact.fragment"
+2:I[778454,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
+3:I[273323,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
+4:I[479520,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
+5:I[624379,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
+6:I[145250,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
+7:I[398382,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
+8:I[811052,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
+36:I[436122,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
+37:I[626935,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
+38:I[362844,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
+39:I[448588,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
+3a:I[992713,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
+3b:I[311451,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
+3c:I[89532,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
+3d:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
+40:I[988654,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+41:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+42:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+43:"$Sreact.suspense"
+0:{"buildId":"oW7r9KRdqwPrLXzfZfiS5","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/gcp-casb-shadow-it-migration","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/gcp-casb-shadow-it-migration\",\"sameAs\":[],\"headline\":\"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network\",\"description\":\"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/gcp-casb-shadow-it-migration.png\",\"datePublished\":\"2026-04-28\",\"dateModified\":\"2026-04-28\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 28, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/gcp-casb-shadow-it-migration.png","alt":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-problem-shadow-it-in-google-workspace","children":"The Problem: Shadow IT in Google Workspace"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Every organization has it: users who default to personal accounts for convenience. Personal Gmail on work devices. Personal Drive for sharing. Personal Calendar for everything."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The risks:"}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e"]}],"$L2f","$L30","$L31","$L32"]}]}],"$L33"]}],["$L34"],"$L35"]}],"loading":null,"isPartial":false}
+9:["$","$L36",null,{"as":"ul","children":["\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"No DLP"}]," — Company data leaves to personal accounts with no controls"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"No audit trail"}]," — You can't investigate a data leak if you don't know it happened"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"No lifecycle"}]," — When they leave, access to work data persists in their personal account"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Compliance risk"}]," — Often noncompliant with internal policy and regulated data-handling requirements"]}],"\n"]}]
+a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The goal: make personal Gmail unusable for work purposes without breaking legitimate personal use on personal devices."}]
+b:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"how-casb-fits-in","children":"How CASB Fits In"}]
+c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"CASB (Cloud Access Security Broker) sits between your users and cloud services, providing:"}]
+d:["$","$L36",null,{"as":"ul","children":["\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Visibility"}]," — What cloud apps are being used?"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Data protection"}]," — DLP policies applied to cloud traffic"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Threat protection"}]," — Anomaly detection for cloud usage"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Access control"}]," — Block or restrict based on context"]}],"\n"]}]
+e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Google Workspace integrates with CASB via API, not inline proxy. Google explicitly recommends API/offline CASB patterns over inline proxies — inline CASBs exist but aren't the preferred path. For most orgs, Google-native controls (DLP, Reports API, App Access Management) cover much of what you need before considering third-party CASB."}]
+f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"shadow-it-discovery","children":"Shadow IT Discovery"}]
+10:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Before you can block, you need to know what you're dealing with. The CASB (or Google Workspace audit logs) reveals:"}]
+11:["$","$L36",null,{"as":"ul","children":["\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"OAuth token inventory"}]," — Which third-party apps have user-authorized access to their Google data"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Login activity"}]," — Where are users authenticating from?"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Drive sharing"}]," — What's being shared externally?"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"App usage"}]," — Which apps are accessing Google Workspace data?"]}],"\n"]}]
+12:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"In Google Workspace Admin console, go to Security > API controls > Access management. Review OAuth app entries — check ownership (Google-owned/internal/third-party), requested scopes, and user count. The CASB dashboard often surfaces this more visually."}]
+13:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Apps are categorized as ",["$","strong",null,{"children":"Trusted"}]," (full access), ",["$","strong",null,{"children":"Limited"}]," (specific Google data only), ",["$","strong",null,{"children":"Blocked"}]," (no access), or the default for unconfigured apps. Mark unknown third-party apps as Blocked after reviewing scope and ownership."]}]
+14:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-migration-strategy","children":"The Migration Strategy"}]
+15:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-1-discover-and-categorize","children":"Phase 1: Discover and Categorize"}]
+16:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"List every external app accessing your users' Google data. Categorize:"}]
+17:["$","$L36",null,{"as":"ul","children":["\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Approved"}]," — IT-sanctioned, security reviewed"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Tolerated"}]," — Not ideal but not blocked yet"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Blocked"}]," — Shadow IT, must go"]}],"\n"]}]
+18:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The CASB dashboard usually provides this. If not, export audit logs and pivot in Excel."}]
+19:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-2-offer-a-better-alternative","children":"Phase 2: Offer a Better Alternative"}]
+1a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Users go to personal Gmail because the sanctioned option isn't convenient. Fix that:"}]
+1b:["$","$L36",null,{"as":"ul","children":["\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Google Workspace"}]," — If you don't have it, get it. Every user gets company @company.com account."]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Shared drives"}]," — Centralize file storage so personal Drive isn't needed"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"SSO"}]," — Single sign-on from Entra ID to Google Workspace removes the password burden"]}],"\n"]}]
+1c:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-3-enforce-with-policy","children":"Phase 3: Enforce with Policy"}]
+1d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Now block. The enforcement stack, in order of impact:"}]
+1e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"1. Block personal Google accounts"}]," — This is what actually makes personal Gmail unusable on managed devices. Configure via proxy: ",["$","$L38",null,{"children":"X-GoogApps-Allowed-Domains: yourdomain.com"}],", or in Google Admin console > Security > Managed browser > Restrict sign-in to managed accounts. This stops users from adding their personal @gmail.com account to Chrome or signing into personal Gmail on managed machines."]}]
+1f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"2. App Access Control"}]," — In Security > API controls > Access management, configure apps as Trusted / Limited / Specific Google data / Blocked. This controls OAuth grants, not browser access. Set default to Blocked for unconfigured apps if you want zero tolerance."]}]
+20:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"3. Context-Aware Access"}]," — Verify managed device before granting access to Workspace apps. Requires Endpoint Verification on desktop; mobile uses Google endpoint management (Intune, Jamf, etc.) for device signals."]}]
+21:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"phase-4-data-migration","children":"Phase 4: Data Migration"}]
+22:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"For users with existing personal Gmail data that needs to come over:"}]
+23:["$","$L36",null,{"as":"ol","children":["\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Data import"}]," — Admin imports personal Gmail to corporate account via Security > Data export and management > Data migration. Requires user authorization — they authorize their personal Gmail access. This isn't the \"Google Workspace Migrate\" tool (that's for Exchange migrations)."]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Takeout"}]," — User exports personal Drive, admin migrates to Shared Drive"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Calendar migration"}]," — User exports from personal calendar, imports to corporate or shares calendar with corporate account"]}],"\n"]}]
+24:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This takes time. Give users 30 days to migrate, then enforce."}]
+25:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-enforcement-checklist","children":"The Enforcement Checklist"}]
+26:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["| Control | Implementation | Effect |\n|---------|---------------|--------|\n| ",["$","strong",null,{"children":"Consumer account block"}]," | ",["$","$L38",null,{"children":"X-GoogApps-Allowed-Domains"}]," or managed browser sign-in restriction | Personal @gmail.com can't sign in on managed devices |\n| ",["$","strong",null,{"children":"App Access Control"}]," | Set apps to Trusted/Limited/Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |\n| ",["$","strong",null,{"children":"Context-Aware Access"}]," | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |\n| ",["$","strong",null,{"children":"Drive external sharing"}]," | Allowlist or trust rules for external sharing | No uncontrolled file sharing |\n| ",["$","strong",null,{"children":"SSO"}]," | Entra ID → Google Workspace | One identity, one credential |"]}]
+27:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"CAA rollout tip:"}]," Start in ",["$","strong",null,{"children":"monitor mode"}]," first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops."]}]
+28:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-actually-breaks-first","children":"What Actually Breaks First"}]
+29:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"In practice, this enforcement breaks these workflows:"}]
+2a:["$","$L36",null,{"as":"ol","children":["\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"User's personal phone"}]," — They can't check corporate email on their personal Android/iOS without management installed. Solution: offer MDM enrollment or accept the limitation."]}],"\n"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Third-party tools"}]," — Users who authorized random SaaS apps lose access. Solution: pre-approve the most common ones (Zoom, Slack, etc.)."]}],"\n"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Contractors"}]," — External users without managed devices. Solution: dedicated contractor accounts with limited access, or accept unmanaged access with increased monitoring."]}],"\n"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Endpoint Verification sync delays"}]," — Compliant desktops get blocked before they sync device status. Google's docs explicitly warn about this. Run in monitor mode first."]}],"\n"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"OAuth restrictions break integrations fast"}]," — Zoom, Slack, calendaring add-ons, scanners, backup tools — all need explicit app access configuration or users lose functionality."]}],"\n"]}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Delegated mailbox access"}]," — Consumer account blocking with ",["$","$L38",null,{"children":"X-GoogApps-Allowed-Domains"}]," can break delegated mailbox access if the delegate's domain isn't in allowed headers."]}],"\n"]}],"\n"]}]
+2b:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-takeaway","children":"The Takeaway"}]
+2c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"You can't uninvent personal Gmail. Your users will always have personal accounts. What you can do is make it operationally useless for work:"}]
+2d:["$","$L36",null,{"as":"ul","children":["\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"DLP policies block data exfiltration"}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Context-Aware Access restricts access to managed devices"}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"SSO removes the password management burden"}],"\n",["$","$L37",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Structured migration moves existing data to corporate"}],"\n"]}]
+2e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around."}]
+2f:["$","$L39",null,{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","url":"https://CloudJourneyBlog.rohi-lab.org/blog/gcp-casb-shadow-it-migration"}]
+30:["$","$L3a",null,{}]
+3e:T183f,
+We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
+
+## The Implementation Sequence
+
+Zero Trust isn't a product you buy. It's a sequence of controls you enforce, in order, with each phase creating the foundation for the next.
+
+### Phase 1: Emergency Access & Monitoring Foundation
+
+Before touching anything else, you need:
+
+- **Breakglass accounts** — Named emergency accounts that bypass all Conditional Access. Don't use these daily. Test them quarterly.
+- **Alerting baseline** — What does normal look like? Capture login patterns, device health, app usage before you start blocking.
+
+This is the unsexy phase that saves you when Phase 3 locks everyone out.
+
+### Phase 2: Security Info Registration
+
+Before enforcing MFA, users need to register authentication methods. Set this up first:
+- **Auth methods policy** — Enable Microsoft Authenticator, FIDO2, Windows Hello for Business
+- **Temporary Access Pass** — One-time codes for users who lose hardware keys
+- **Report-only mode** — Test CA policies before enforcing
+
+### Phase 3: Block Legacy Authentication
+
+Legacy auth (SMTP auth, basic auth, POP/IMAP) is the attack surface. Block it:
+
+```
+Conditional Access > Assignments > Cloud apps > All apps
+Conditions > Client apps > Select Exchange ActiveSync clients and Other clients
+Controls > Grant > Block access
+```
+
+Block legacy auth too early and you'll break:
+- Legacy application integrations
+- Service accounts with password auth only
+- Old MFA integrations that sit behind legacy protocols
+
+**What broke first:** SMTP-authenticated printer scanning and IoT device integrations. Both used basic auth with no modern auth path.
+
+### Phase 3: MFA Enforcement
+
+Phishing-resistant MFA is the goal. FIDO2 hardware keys. But hardware keys have procurement and onboarding friction:
+
+- Procurement: Buy 50 keys, distribute to Tier-1 roles (privileged users, admins)
+- Onboarding: Users need to register in-browser with Chrome/Edge (Firefox support is spotty)
+- Policy: Require phishing-resistant MFA for admin roles; offer standard MFA as fallback for general users
+
+**What broke first:** Users who lost their hardware keys. Registration flow required a new key + backup key, and the process times out fast.
+
+### Phase 4: Device Compliance (Intune Baselines)
+
+Intune security baselines + Conditional Access is where device trust lives:
+
+- **Windows baseline** — BitLocker, Windows Defender, firewall rules
+- **Device compliance policy** — Require Microsoft Entra hybrid joined OR compliant device
+- **MDE integration** — Device risk from Defender feeds CA decisions
+
+**What broke first:** Microsoft Entra hybrid join fails when:
+- Stale device objects in on-prem AD aren't cleaned up
+- Line-of-business apps still query on-prem AD only (no cloud auth path)
+- Users are co-managed (Intune + SCCM) and the policy boundary isn't clear
+
+### Phase 5: Session Controls
+
+Sign-in frequency and device restrictions for existing sessions:
+- **Sign-in frequency** — Re-authenticate after X hours or when device state changes
+- **Persistent browser** — Block to prevent session cookie replay
+- **App-enforced restrictions** — Disable clipboard/file copy for unmanaged devices
+
+### Phase 6: Risk-Based Conditional Access
+
+Identity Protection risk signals drive dynamic policies:
+
+- **High-risk sign-in** — Block or require MFA
+- **Risky user** — Force password reset
+- **Microsoft Defender for Identity** — Detect lateral movement, privilege escalation, and domain escalation attacks
+
+**What broke first:** False positives. Risky sign-in policies flagged VPN users on corporate devices because the sign-in location didn't match.
+
+### Phase 7: Network Segmentation (802.1X)
+
+WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
+
+- **EAP method** — EAP-TLS with certificate-based auth (vs. EAP-PEAP/MSCHAPv2)
+- **Certificate lifecycle** — SCEP or PKCS certificate profile from Intune
+- **Fallback** — WPA2-PSK for legacy devices that can't do 802.1X
+
+**What broke first:** EAP negotiation failures. Root causes:
+- Wrong EAP type configured on client vs. RADIUS
+- Server certificate missing trusted root on client
+- Server name validation mismatch (certificate SAN doesn't match RADIUS hostname)
+- Expired or revoked client/server certificates
+
+## What Actually Broke First
+
+After three years, here's the friction ranking:
+
+| Friction Point | Phase | Symptom |
+|---|---|---|
+| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
+| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM + Intune |
+| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
+| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
+| Hardware key loss | MFA | Users lose keys, no backup, lockout |
+| Breakglass account lockout | Foundation | Breakglass account passwords expire or aren't tested |
+
+## The Hard Lessons
+
+1. **Don't start with blocking.** Start with alerting and monitoring. Baseline normal before you break normal.
+
+2. **Phased enforcement, not big bang.** Each phase enables the next. Block legacy auth → enforce MFA → require device compliance → apply risk-based access.
+
+3. **802.1X is the hardest network control.** Budget double the time for 802.1X pilot. EAP-TLS certificate validation is where it fails.
+
+4. **Device trust requires clear ownership.** If you're co-managed (SCCM + Intune), define the boundary. We used Intune for cloud-native devices, SCCM for remaining on-prem managed.
+
+5. **Governance is the bottleneck.** Zero Trust fails when cross-team ownership isn't clear. Identity owns CA policies. Endpoint owns device baselines. Network owns 802.1X. Security owns MDI.
+
+## The Takeaway
+
+Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
+
+The only thing that broke irreparably was when we tried to skip Phase 1.31:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L3b",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L3c",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L3d","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$3e"},"thumbnail":true,"direction":"column"}],"$L3f"]}]]}]
+32:["$","$L40",null,{}]
+33:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L41",null,{"fitHeight":true}]}]
+34:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
+35:["$","$L42",null,{"children":["$","$43",null,{"name":"Next.MetadataOutlet","children":"$@44"}]}]
+45:T183c,
+Federating Google Workspace to Entra ID sounds straightforward — flip the switch in the admin console and suddenly your users sign in with Entra credentials. The reality is more nuanced. Here's what actually happens and how to get it right.
+
+## Why Federate at All
+
+The value isn't just SSO. It's consolidating your identity authority. When Entra is the IdP:
+
+- **One identity** — Users exist in Entra, authenticate to Entra, access Google Workspace. No separate Google password to manage.
+- **Conditional Access** — You can apply Entra CA policies before letting users into Google. MFA requirements, session limits, risk-based access — all enforced before Google sees the request.
+- **Lifecycle** — When a user leaves Entra, they can't access Google. No orphaned accounts.
+
+The alternative — local Google passwords with no Entra visibility — is the risk you're removing.
+
+## The Architecture
+
+Two systems, one federation contract:
+
+```
+User → Google Workspace (SP) → Entra ID (IdP) → SAML Response → User in Google
+```
+
+- **Entra ID** acts as the SAML Identity Provider
+- **Google Workspace** acts as the Service Consumer (via Federated Directory)
+- The glue is SAML 2.0 — standard, well-documented, but picky about configuration
+
+The flow:
+
+1. User visits `mail.google.com` or any Google property
+2. Google detects federated domain, redirects to Entra with SAML AuthnRequest
+3. Entra prompts for authentication (password + MFA if configured)
+4. Entra returns SAML Assertion with user identity claims
+5. Google validates assertion, creates session, user lands in Google Workspace
+
+Two flows exist: SP-initiated (user starts at Google) and IdP-initiated (user starts at Entra, gets redirected to Google). Both work post-setup.
+
+## The Setup Steps
+
+### 1. Prepare Your Domains
+
+Confirm both domains are verified in their respective consoles:
+- In Entra, your primary domain must be verified
+- In Google Admin, your domain must be listed
+
+### 2. Create the Enterprise App in Entra
+
+In Entra ID admin center:
+- Add app > Google Workspace (from the gallery)
+- Set up SSO > SAML
+- **Important**: You'll populate this with values from Google in the next step — don't guess the endpoints.
+
+### 3. Configure Google SSO Profile
+
+In Google Admin > Security > Authentication > SSO with third-party IdP:
+- Create a new SSO profile (or use the preconfigured Microsoft Entra profile if available)
+- Copy these values from Google to Entra:
+  - **Entity ID** (from Google)
+  - **ACS URL** (from Google)
+- Then populate Entra with:
+  - **IdP Login URL**: Your Entra SSO URL
+  - **IdP Logout URL**: Your Entra logout URL
+  - **IdP Certificate**: Upload the Entra signing certificate
+
+Assign the app to pilot users/groups.
+
+### 4. Claims Mapping
+
+Entra sends these claims to Google:
+
+| Entra Claim | Google Field |
+|-----------|-------------|
+| email | Primary email |
+| givenName | First name |
+| surname | Last name |
+| NameID | Must match Google user's primary email |
+
+The critical mapping: **NameID must match the user's primary email address in Google**. If it doesn't, sign-in fails.
+
+### 5. Provisioning (Optional But Recommended)
+
+Federation handles **authentication** — it doesn't create Google accounts. Users must exist in Google Workspace to sign in.
+
+Two paths:
+- **Manual**: Pre-create users in Google before they authenticate
+- **Automatic**: Enable Entra provisioning to Google (via Entra ID > Google app > Provisioning). This syncs users from Entra to Google — create, update, disable — on a regular schedule.
+
+Most production deployments enable automatic provisioning to keep Google accounts in sync with Entra. Without it, you must manually create users in Google before they can sign in.
+
+## What Breaks First
+
+### NameID/Email Mismatch
+
+The most common error post-setup: authentication fails at Google because the NameID claim doesn't match the user's primary email in Google.
+
+Fix: Ensure the email claim from Entra matches exactly what's in the Google user's profile.
+
+### Wrong ACS or Entity ID
+
+If the SAML endpoints are mismatched between Entra and Google, the assertion gets rejected.
+
+Fix: Verify Google provides the correct ACS URL and Entity ID, and those are exactly what's configured in Entra.
+
+### Certificate Expiration
+
+Entra's SAML signing certificate expires Yearly (check your app's certificate expiry). Put a calendar reminder 30 days before. When it expires, users can't sign in until you update the certificate in Google admin.
+
+### User Not Provisioned
+
+If a user exists in Entra but not in Google, and provisioning is disabled, authentication fails.
+
+Fix: Enable automatic provisioning, or manually create users in Google before they attempt to sign in.
+
+### Not Assigned to App
+
+Sometimes forgotten: the user or their group isn't assigned to the Google app in Entra.
+
+Fix: Assign the app to the pilot group in Entra > Enterprise App > Assignments.
+
+## The Auth Flow in Plain English
+
+```
+Browser starts at mail.google.com 
+    ↓
+Google sees federated domain, redirects (SAML AuthnRequest) to Entra
+    ↓
+User enters credentials at Entra (MFA triggers here if enabled)
+    ↓
+Entra validates, issues SAML Assertion with email + name + ImmutableId
+    ↓
+Google receives assertion, matches ImmutableId to Google user, logs in
+```
+
+The key insight: the user never enters a Google password. Entra owns the credential entry, password complexity, MFA enforcement. Google just trusts Entra's assertion.
+
+## What You Gain
+
+| Before Federation | After Federation |
+|---------------|---------------|
+| Users manage Google passwords separately | Single Entra password |
+| No Entra visibility into Google access | CA policies apply before Google |
+| Orphaned Google accounts on leavers | Access cuts off when Entra disables |
+| No unified session policy | Entra controls session lifetime |
+
+## The Takeaway
+
+The setup isn't hard — it's exacting. Get the SAML metadata right, map ImmutableId correctly, enable provisioning, and test both SP and IdP flows. Once federated, you've moved the authentication authority to Entra and consolidated your identity stack.
+
+Don't skip the test phase. Try it with one pilot user before rolling it out domain-wide.3f:["$","$L3d","google-workspace-entra-federation",{"post":{"metadata":{"title":"Google Workspace to Entra ID Federation: The SSO Setup That Actually Works","subtitle":"","publishedAt":"2026-04-27","summary":"Setting up Google Workspace to use Entra ID as the Identity Provider isn't just checking a box. Here's the practical walkthrough of SAML federation, claims mapping, and what breaks when you get it wrong.","image":"/images/blog/google-workspace-entra-federation.png","images":[],"tag":"Identity","team":[],"link":""},"slug":"google-workspace-entra-federation","content":"$45"},"thumbnail":true,"direction":"column"}]
+44:null

@@ -1,0 +1,359 @@
+1:"$Sreact.fragment"
+2:I[778454,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Row"]
+3:I[273323,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
+4:I[479520,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],""]
+5:I[624379,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"SmartLink"]
+6:I[145250,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Avatar"]
+7:I[398382,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Media"]
+8:I[811052,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]
+4d:I[436122,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"List"]
+4e:I[626935,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ListItem"]
+4f:I[597784,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"CodeBlock"]
+51:I[362844,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"InlineCode"]
+52:I[448588,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ShareSection"]
+53:I[992713,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Comments"]
+54:I[311451,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Line"]
+55:I[89532,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Grid"]
+56:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
+59:I[988654,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+5a:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+5b:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+5c:"$Sreact.suspense"
+0:{"buildId":"oW7r9KRdqwPrLXzfZfiS5","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/cross-platform-compliance-architecture","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/cross-platform-compliance-architecture\",\"sameAs\":[],\"headline\":\"Cross-Platform Compliance Architecture: Building a Kill-Switch Enforcement System\",\"description\":\"Most compliance frameworks treat enforcement as a checkbox. Here's how to build an actual cross-platform enforcement system that can kill access the moment a device goes non-compliant — Windows, macOS, and Linux.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/cross-platform-compliance-architecture.png\",\"datePublished\":\"2026-04-24\",\"dateModified\":\"2026-04-24\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 24, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Cross-Platform Compliance Architecture: Building a Kill-Switch Enforcement System"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/cross-platform-compliance-architecture.png","alt":"Cross-Platform Compliance Architecture: Building a Kill-Switch Enforcement System","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"When your compliance posture has to span Windows, macOS, and Linux, most teams end up with fragmented tooling, inconsistent logic, and no real enforcement teeth. They check a box on Monday and pretend the problem is solved."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The OT Security Client needed something different. They had a zero trust compliance requirement that actually had to land — across engineering workstations, OT operator stations, and back-office servers — with enforcement that could trigger automatically, not just report that something was wrong."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is how we built that system."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-problem-with-compliance-as-documentation","children":"The Problem with Compliance as Documentation"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Most compliance tooling is retrospective. You run a scan, you get a report, someone reviews it, and maybe — weeks later — something gets remediated. In fast-moving OT environments, that lag is unacceptable. A non-compliant workstation on the production floor isn't an audit finding. It's a potential safety incident."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45"]}],"$L46","$L47","$L48","$L49"]}]}],"$L4a"]}],["$L4b"],"$L4c"]}],"loading":null,"isPartial":false}
+9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["The requirement was explicit: ",["$","strong",null,{"children":"compliance enforcement, not compliance reporting"}],". Devices that don't meet the baseline shouldn't be able to access corporate resources. And \"corporate resources\" here meant everything from SharePoint to engineering tooling to the OT network segments themselves."]}]
+a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The stack we were working with:"}]
+b:["$","$L4d",null,{"as":"ul","children":["\n",["$","$L4e",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Windows"}]," — Intune + custom PowerShell compliance scripts"]}],"\n",["$","$L4e",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"macOS"}]," — Kandji blueprint compliance connector"]}],"\n",["$","$L4e",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Linux"}]," — custom bash compliance checks"]}],"\n",["$","$L4e",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Security stack"}]," — CrowdStrike Falcon (all platforms) + Netskope (all platforms)"]}],"\n"]}]
+c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The goal was a single enforcement model that could apply across all three OS families, with a tiered response: grace period with warnings first, then hard blocks."}]
+d:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"windows-intune-custom-compliance-scripts","children":"Windows: Intune Custom Compliance Scripts"}]
+e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"On Windows, the enforcement mechanism is Intune's custom compliance policy. Microsoft gives you the policy framework; you supply the discovery logic."}]
+f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"For CrowdStrike Falcon, we needed to verify two things: that the agent was installed and running, and that it was configured for the correct CID (CrowdStrike Customer ID). Just checking for the service isn't enough — a disabled or misconfigured agent still shows as \"installed.\" Note that this checks tenant binding, not active cloud reporting or recent heartbeat; for full telemetry validation you'd need vendor API-side checks."}]
+10:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Here's the discovery script pattern we used:"}]
+50:T474,# Get Falcon sensor status
+$FalconService = Get-Service -Name CSFalconService -ErrorAction SilentlyContinue
+$FalconRunning = $null -ne $FalconService -and $FalconService.Status -eq 'Running'
+
+# Get Falcon sensor CID — path and method vary by Falcon version;
+# validate in your environment. Example using falconctl if available:
+try {
+    $FalconCID = & "C:\Program Files\CrowdStrike\falconctl.exe" get --cid 2>$null
+    if (-not $FalconCID) {
+        # Fallback: read from registry (verify path in your Falcon version)
+        $FalconRegistry = Get-ItemProperty -Path 'HKLM:\SYSTEM\CrowdStrike\{9b03c1d8-50a6-4c0a-a2b0-9d0e36b6c0d}' -ErrorAction SilentlyContinue
+        if ($FalconRegistry) {
+            $FalconCID = $FalconRegistry.DefaultPivotTenantCID
+        }
+    }
+} catch {}
+$FalconCID = $FalconCID | Where-Object { $_ -ne $null } | Select-Object -First 1
+
+# Expected CID for this tenant
+$ExpectedCID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
+$Compliant = $FalconRunning -and $FalconCID -eq $ExpectedCID
+
+return @{
+    FalconRunning = $FalconRunning
+    FalconCID = $FalconCID
+    Compliant = $Compliant
+} | ConvertTo-Json -Compress
+11:["$","$L4f",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$50","language":"powershell","label":"Powershell"}],"copyButton":true}]
+12:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The JSON definition that pairs with this script defines what \"compliant\" means for Intune's evaluation engine:"}]
+13:["$","$L4f",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"{\n  \"Rules\": [\n    {\n      \"SettingName\": \"Compliant\",\n      \"Operator\": \"IsEquals\",\n      \"DataType\": \"Boolean\",\n      \"Operand\": true,\n      \"MoreInfoUrl\": \"https://claroty.com\",\n      \"RemediationStrings\": [\n        {\n          \"Language\": \"en_US\",\n          \"Title\": \"CrowdStrike Falcon Not Compliant\",\n          \"Description\": \"This device is not running Falcon or is not bound to the correct tenant. Contact IT.\"\n        }\n      ]\n    }\n  ]\n}\n","language":"json","label":"Json"}],"copyButton":true}]
+14:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"For Netskope, the pattern is similar — check that the Netskope Client service is running and that the tenant URL is configured correctly. We combined both into a single compliance script per platform to minimize policy overhead."}]
+15:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"macos-kandji-blueprint-compliance-connector","children":"macOS: Kandji Blueprint Compliance Connector"}]
+16:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Kandji is the Mac MDM of choice for this environment. Unlike Intune's custom script model, Kandji has a built-in compliance connector that maps directly to its blueprint system. You define compliance items as part of a blueprint, assign the blueprint to devices, and Kandji handles the evaluation loop — no custom scripts required for native checks."}]
+17:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"the-compliance-item-stack","children":"The Compliance Item Stack"}]
+18:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The key compliance items for this deployment:"}]
+19:["$","$L4d",null,{"as":"ul","children":["\n",["$","$L4e",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"CrowdStrike Falcon for macOS"}]," — Kandji's library includes a built-in device compliance check for Falcon, which verifies the sensor is installed and running. But like Windows, we needed to validate that it was reporting to the correct CID. Kandji calls this a ",["$","strong",null,{"children":"custom compliance item"}]," — you write a shell script that returns a pass/fail, Kandji evaluates it on-device, and the result becomes a compliance signal you can use in assignment logic."]}],"\n",["$","$L4e",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Netskope Client"}]," — Custom compliance item, same pattern as Falcon: script checks that the Netskope service is running and the tenant URL is configured correctly."]}],"\n",["$","$L4e",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"FileVault encryption"}]," — Built-in Kandji library item. Enable it, set the recovery key escrow to Kandji (not Jamf or a local escrow), and you're done."]}],"\n",["$","$L4e",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Screen lock policy"}]," — Built-in: 5-minute timeout, require password after sleep or screen saver."]}],"\n"]}]
+1a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"custom-compliance-item-falcon-cid-validation","children":"Custom Compliance Item: Falcon CID Validation"}]
+1b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The Kandji custom compliance item is a shell script. Here's the pattern:"}]
+1c:["$","$L4f",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"#!/bin/bash\n\n# Check if Falcon sensor is running — use pgrep, more reliable than launchctl parsing\nif pgrep -x \"Falcon\" > /dev/null 2>&1; then\n    FALCON_RUNNING=1\nelse\n    FALCON_RUNNING=0\nfi\n\nif [[ \"$FALCON_RUNNING\" -eq 0 ]]; then\n    echo \"FalconNotInstalled\"\n    exit 1\nfi\n\n# Get Falcon CID — parse falconctl output with awk, avoiding GNU-specific grep flags\nFALCON_CID=$(/Applications/Falcon.app/Contents/Mac/Falcon.app/Contents/Resources/falconctl stats 2>/dev/null | awk '/Customer ID:/ {print $NF}')\nEXPECTED_CID=\"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"\n\nif [[ \"$FALCON_CID\" == \"$EXPECTED_CID\" ]]; then\n    echo \"Compliant\"\n    exit 0\nelse\n    echo \"WrongCID: $FALCON_CID\"\n    exit 1\nfi\n","language":"bash","label":"Bash"}],"copyButton":true}]
+1d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Kandji evaluates this script via exit code — ",["$","$L51",null,{"children":"exit 0"}]," means compliant, ",["$","$L51",null,{"children":"exit 1"}]," means non-compliant. The output string surfaces in Kandji's device inventory under the compliance item result, so IT can see exactly which Macs are misconfigured and why."]}]
+1e:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"the-kandji-intune-integration","children":"The Kandji-Intune Integration"}]
+1f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is where the architecture comes together. Kandji has a native integration with Microsoft Intune that pushes compliance state directly — no middleware, no manual export. When a Mac evaluates its blueprint in Kandji, the result (compliant or non-compliant) flows automatically into Intune as a device compliance state."}]
+20:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Concretely: Kandji is the MDM and compliance authority for all Macs. Intune owns the Conditional Access policy that enforces access. The integration bridge connects them. A non-compliant Mac in Kandji becomes a non-compliant device in Intune, which triggers the same Conditional Access block policy that applies to Windows and Linux."}]
+21:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["The configuration lives in the Kandji admin portal under ",["$","strong",null,{"children":"Integrations → Microsoft Device Compliance"}],". Kandji authenticates via an OAuth flow to the Microsoft Device Compliance partner app — not a manually created app registration. Once connected, Kandji pushes compliance state to Intune automatically."]}]
+22:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"apple-silicon-system-extensions-not-kernel-extensions","children":"Apple Silicon: System Extensions, Not Kernel Extensions"}]
+23:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["One structural difference between Intel and Apple Silicon Macs that drove real engineering work: CrowdStrike on Intel Macs uses a Kernel Extension (KExt) for certain legacy capabilities. On Apple Silicon, Apple deprecated KExts — CrowdStrike uses ",["$","strong",null,{"children":"System Extensions"}]," instead, which require a different approval profile. Whether Intel deployments also need System Extension approval depends on the sensor version and OS — the CrowdStrike deployment guides for your specific versions clarify which profile type applies."]}]
+24:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"In practice, this meant we needed two separate Kandji blueprints — one for Intel Macs, one for Apple Silicon — or conditional logic within a single blueprint that detects the chip architecture and applies the right profile. We went with separate blueprints to keep the logic clean:"}]
+25:["$","$L4d",null,{"as":"ul","children":["\n",["$","$L4e",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Intel blueprint"}],": KExt approval profile pointing to CrowdStrike's kernel extension bundle ID"]}],"\n",["$","$L4e",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Apple Silicon blueprint"}],": System Extension approval profile pointing to CrowdStrike's system extension bundle IDs"]}],"\n"]}]
+26:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Both blueprints include the same compliance items (Falcon CID, Netskope, FileVault, screen lock). The only difference is the extension approval profile. Assign devices to the right blueprint based on hardware model — Kandji's smart groups handle this automatically based on hardware type."}]
+27:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"If you skip the Apple Silicon profile, Falcon installs but the sensor won't load — the Mac will show as non-compliant because the service never starts. You'll see it in the Kandji device inventory as \"Falcon installed but not running\" with no obvious explanation. The System Extension approval is the missing piece."}]
+28:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"linux-bash-compliance-checks","children":"Linux: Bash Compliance Checks"}]
+29:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Linux is the outlier in most Microsoft-first compliance designs. There's no native MDM comparable to Kandji for macOS, and the Intune compliance story for Linux is narrower than for Windows. Intune does support Linux device compliance via the Microsoft Intune app on ",["$","a",null,{"href":"https://learn.microsoft.com/en-us/mem/intune/enrollment/linux-support","target":"_blank","rel":"noopener noreferrer","children":"a limited set of distros"}]," — confirm your distro is in scope before designing around it."]}]
+2a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"We used a POSIX-compliant shell script deployed as a custom compliance discovery script in Intune, paired with the same JSON schema that Windows uses. On supported distros, the Microsoft Intune app handles compliance check-in and runs the discovery script."}]
+2b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The script pattern:"}]
+2c:["$","$L4f",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"#!/bin/bash\n\n# Check CrowdStrike Falcon sensor — try both known service names\nFALCON_RUNNING=0\nif systemctl is-active --quiet falcon-sensor 2>/dev/null; then\n    FALCON_RUNNING=1\nelif systemctl is-active --quiet csFalconService 2>/dev/null; then\n    FALCON_RUNNING=1\nfi\n\n# Get Falcon CID — parse falconctl.toml with awk to avoid GNU-specific grep\nFALCON_CID=$(awk -F'=' '/^customer_id/ {gsub(/[[:space:]]/,\"\",$2); print $2}' /etc/crowdstrike/falconctl.toml 2>/dev/null || echo \"none\")\nEXPECTED_CID=\"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"\n\n# Check Netskope\nNETSKOPE_RUNNING=0\nif systemctl is-active --quiet netskope 2>/dev/null; then\n    NETSKOPE_RUNNING=1\nfi\n\n# Compliance result — emit booleans to match Intune JSON datatype\nif [[ \"$FALCON_RUNNING\" -eq 1 ]] && [[ \"$FALCON_CID\" == \"$EXPECTED_CID\" ]] && [[ \"$NETSKOPE_RUNNING\" -eq 1 ]]; then\n    COMPLIANT=true\nelse\n    COMPLIANT=false\nfi\n\necho \"{\\\"FalconRunning\\\":$FALCON_RUNNING,\\\"FalconCID\\\":\\\"$FALCON_CID\\\",\\\"NetskopeRunning\\\":$NETSKOPE_RUNNING,\\\"Compliant\\\":$COMPLIANT}\"\n","language":"bash","label":"Bash"}],"copyButton":true}]
+2d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Intune runs this on an 8-hour cycle by default. Devices that have been offline check in when they reconnect to the network, so OT devices that aren't always on will trigger a compliance re-evaluation on startup."}]
+2e:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-tiered-enforcement-model","children":"The Tiered Enforcement Model"}]
+2f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Having compliance data flow into Intune is only half the battle. You need an enforcement response that matches the risk."}]
+30:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"We designed a two-tier model:"}]
+31:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","strong",null,{"children":"Tier 1 — Nudge (Grace Period)"}]}]
+32:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"When a device first goes non-compliant, the user gets a notification and a grace period. On Windows, this flows through the Company Portal app. On macOS, Kandji's built-in notification system. On Linux, we used a custom script that posts to a webhook (which routes to a Teams channel)."}]
+33:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Grace period: 24 hours for most issues, 4 hours for critical items like a missing endpoint protection agent."}]
+34:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","strong",null,{"children":"Tier 2 — Kill Switch"}]}]
+35:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"If the device is still non-compliant after the grace period, Conditional Access blocks access to all corporate resources. The device can no longer authenticate to Entra ID-protected apps. SharePoint, Teams, engineering tooling — all blocked."}]
+36:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["One important boundary: ",["$","strong",null,{"children":"Conditional Access only enforces the identity plane."}]," It blocks access to apps and resources that authenticate through Entra ID — including SAML SSO applications that use Entra as their IdP. What it doesn't cover: OT network segments, internal tools with their own auth (local credentials, LDAP binds, etc.), and SaaS apps with no Entra integration. Those still need enforcement at the network layer — Netskope ZTNA policies, VPN posture checks, or NAC. The kill switch handles the Entra side. Don't assume it covers your entire attack surface."]}]
+37:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The kill switch is implemented as a separate Conditional Access policy with a device compliance requirement. Non-compliant devices match the block condition."}]
+38:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The graceful part: the kill switch targets the device, not the user. If someone has two devices and one goes non-compliant, the other is unaffected. This matters in OT environments where a single user might have multiple devices for different roles."}]
+39:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-4-phase-rollout","children":"The 4-Phase Rollout"}]
+3a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Rolling this out across an organization with mixed OS types, multiple site locations, and OT operator stations that can't be disrupted arbitrarily required a phased approach."}]
+3b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Phase 1 — Discovery (Weeks 1-2)"}],"\nDeploy all compliance policies in report-only mode. No enforcement, just visibility. Use this to establish the baseline: how many devices are already compliant, which compliance items are most frequently failing, which sites have the worst posture."]}]
+3c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Phase 2 — Nudge Only (Weeks 3-4)"}],"\nEnable grace period notifications. No blocks yet. Let the help desk and device owners get ahead of the compliance issues before anything blocks access. This is also when you tune the grace period durations — some sites may need longer windows based on shift schedules."]}]
+3d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Phase 3 — Kill Switch with Exemptions (Weeks 5-8)"}],"\nEnable Conditional Access enforcement but maintain an exemption list for OT stations that can't tolerate unexpected access loss. These stations get a separate policy with extended grace periods and a manual review cycle. Goal is to have everything under enforcement within 8 weeks."]}]
+3e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Phase 4 — Full Enforcement (Week 9+)"}],"\nRemove the exemption list. All devices subject to the same enforcement model. OT stations that were on the exemption list get additional monitoring to ensure they stay compliant, since they no longer have a safety net."]}]
+3f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-we-d-do-differently","children":"What We'd Do Differently"}]
+40:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Start with a pilot cohort, then build exemptions reactively."}]," The instinct to pre-list every device that might break is tempting in OT environments. It results in a long exemption list built on speculation. A better approach: enable the kill switch for a narrow pilot group first (say, IT-managed engineering workstations), let real failures surface, and create exemptions for those specific devices. You'll end up with fewer exemptions and a more defensible rationale for each one."]}]
+41:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Test the Linux script on every distribution you'll encounter."}]," The script above works on systemd-based distros. If you have devices running older init systems or non-systemd distros (some embedded Linux variants), you'll need alternate service detection logic. We found three distinct Linux environments that needed custom script variants."]}]
+42:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Automate the exemption renewal process."}]," Exemptions that require manual renewal tend to expire silently and then cause confusion when devices suddenly block. We ended up building a small automation that tracks exemption expiration dates and sends warnings before they lapse. Don't skip this."]}]
+43:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-takeaway","children":"The Takeaway"}]
+44:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Cross-platform compliance enforcement is less about the individual platform tooling and more about the unified policy model that sits above it. The OS-specific details (PowerShell scripts, Kandji blueprints, bash checks) are implementation details. The enforcement logic — what happens when a device goes non-compliant, how quickly, and with what escalation path — that's the architecture that matters."}]
+45:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Build that model first. Then wire each platform into it."}]
+46:["$","$L52",null,{"title":"Cross-Platform Compliance Architecture: Building a Kill-Switch Enforcement System","url":"https://CloudJourneyBlog.rohi-lab.org/blog/cross-platform-compliance-architecture"}]
+47:["$","$L53",null,{}]
+57:T183f,
+We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
+
+## The Implementation Sequence
+
+Zero Trust isn't a product you buy. It's a sequence of controls you enforce, in order, with each phase creating the foundation for the next.
+
+### Phase 1: Emergency Access & Monitoring Foundation
+
+Before touching anything else, you need:
+
+- **Breakglass accounts** — Named emergency accounts that bypass all Conditional Access. Don't use these daily. Test them quarterly.
+- **Alerting baseline** — What does normal look like? Capture login patterns, device health, app usage before you start blocking.
+
+This is the unsexy phase that saves you when Phase 3 locks everyone out.
+
+### Phase 2: Security Info Registration
+
+Before enforcing MFA, users need to register authentication methods. Set this up first:
+- **Auth methods policy** — Enable Microsoft Authenticator, FIDO2, Windows Hello for Business
+- **Temporary Access Pass** — One-time codes for users who lose hardware keys
+- **Report-only mode** — Test CA policies before enforcing
+
+### Phase 3: Block Legacy Authentication
+
+Legacy auth (SMTP auth, basic auth, POP/IMAP) is the attack surface. Block it:
+
+```
+Conditional Access > Assignments > Cloud apps > All apps
+Conditions > Client apps > Select Exchange ActiveSync clients and Other clients
+Controls > Grant > Block access
+```
+
+Block legacy auth too early and you'll break:
+- Legacy application integrations
+- Service accounts with password auth only
+- Old MFA integrations that sit behind legacy protocols
+
+**What broke first:** SMTP-authenticated printer scanning and IoT device integrations. Both used basic auth with no modern auth path.
+
+### Phase 3: MFA Enforcement
+
+Phishing-resistant MFA is the goal. FIDO2 hardware keys. But hardware keys have procurement and onboarding friction:
+
+- Procurement: Buy 50 keys, distribute to Tier-1 roles (privileged users, admins)
+- Onboarding: Users need to register in-browser with Chrome/Edge (Firefox support is spotty)
+- Policy: Require phishing-resistant MFA for admin roles; offer standard MFA as fallback for general users
+
+**What broke first:** Users who lost their hardware keys. Registration flow required a new key + backup key, and the process times out fast.
+
+### Phase 4: Device Compliance (Intune Baselines)
+
+Intune security baselines + Conditional Access is where device trust lives:
+
+- **Windows baseline** — BitLocker, Windows Defender, firewall rules
+- **Device compliance policy** — Require Microsoft Entra hybrid joined OR compliant device
+- **MDE integration** — Device risk from Defender feeds CA decisions
+
+**What broke first:** Microsoft Entra hybrid join fails when:
+- Stale device objects in on-prem AD aren't cleaned up
+- Line-of-business apps still query on-prem AD only (no cloud auth path)
+- Users are co-managed (Intune + SCCM) and the policy boundary isn't clear
+
+### Phase 5: Session Controls
+
+Sign-in frequency and device restrictions for existing sessions:
+- **Sign-in frequency** — Re-authenticate after X hours or when device state changes
+- **Persistent browser** — Block to prevent session cookie replay
+- **App-enforced restrictions** — Disable clipboard/file copy for unmanaged devices
+
+### Phase 6: Risk-Based Conditional Access
+
+Identity Protection risk signals drive dynamic policies:
+
+- **High-risk sign-in** — Block or require MFA
+- **Risky user** — Force password reset
+- **Microsoft Defender for Identity** — Detect lateral movement, privilege escalation, and domain escalation attacks
+
+**What broke first:** False positives. Risky sign-in policies flagged VPN users on corporate devices because the sign-in location didn't match.
+
+### Phase 7: Network Segmentation (802.1X)
+
+WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
+
+- **EAP method** — EAP-TLS with certificate-based auth (vs. EAP-PEAP/MSCHAPv2)
+- **Certificate lifecycle** — SCEP or PKCS certificate profile from Intune
+- **Fallback** — WPA2-PSK for legacy devices that can't do 802.1X
+
+**What broke first:** EAP negotiation failures. Root causes:
+- Wrong EAP type configured on client vs. RADIUS
+- Server certificate missing trusted root on client
+- Server name validation mismatch (certificate SAN doesn't match RADIUS hostname)
+- Expired or revoked client/server certificates
+
+## What Actually Broke First
+
+After three years, here's the friction ranking:
+
+| Friction Point | Phase | Symptom |
+|---|---|---|
+| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
+| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM + Intune |
+| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
+| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
+| Hardware key loss | MFA | Users lose keys, no backup, lockout |
+| Breakglass account lockout | Foundation | Breakglass account passwords expire or aren't tested |
+
+## The Hard Lessons
+
+1. **Don't start with blocking.** Start with alerting and monitoring. Baseline normal before you break normal.
+
+2. **Phased enforcement, not big bang.** Each phase enables the next. Block legacy auth → enforce MFA → require device compliance → apply risk-based access.
+
+3. **802.1X is the hardest network control.** Budget double the time for 802.1X pilot. EAP-TLS certificate validation is where it fails.
+
+4. **Device trust requires clear ownership.** If you're co-managed (SCCM + Intune), define the boundary. We used Intune for cloud-native devices, SCCM for remaining on-prem managed.
+
+5. **Governance is the bottleneck.** Zero Trust fails when cross-team ownership isn't clear. Identity owns CA policies. Endpoint owns device baselines. Network owns 802.1X. Security owns MDI.
+
+## The Takeaway
+
+Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
+
+The only thing that broke irreparably was when we tried to skip Phase 1.48:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L54",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L55",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L56","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$57"},"thumbnail":true,"direction":"column"}],"$L58"]}]]}]
+49:["$","$L59",null,{}]
+4a:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L5a",null,{"fitHeight":true}]}]
+4b:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
+4c:["$","$L5b",null,{"children":["$","$5c",null,{"name":"Next.MetadataOutlet","children":"$@5d"}]}]
+5e:T1e75,
+Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
+
+This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
+
+## The Problem: Shadow IT in Google Workspace
+
+Every organization has it: users who default to personal accounts for convenience. Personal Gmail on work devices. Personal Drive for sharing. Personal Calendar for everything.
+
+The risks:
+- **No DLP** — Company data leaves to personal accounts with no controls
+- **No audit trail** — You can't investigate a data leak if you don't know it happened
+- **No lifecycle** — When they leave, access to work data persists in their personal account
+- **Compliance risk** — Often noncompliant with internal policy and regulated data-handling requirements
+
+The goal: make personal Gmail unusable for work purposes without breaking legitimate personal use on personal devices.
+
+## How CASB Fits In
+
+CASB (Cloud Access Security Broker) sits between your users and cloud services, providing:
+- **Visibility** — What cloud apps are being used?
+- **Data protection** — DLP policies applied to cloud traffic
+- **Threat protection** — Anomaly detection for cloud usage
+- **Access control** — Block or restrict based on context
+
+Google Workspace integrates with CASB via API, not inline proxy. Google explicitly recommends API/offline CASB patterns over inline proxies — inline CASBs exist but aren't the preferred path. For most orgs, Google-native controls (DLP, Reports API, App Access Management) cover much of what you need before considering third-party CASB.
+
+### Shadow IT Discovery
+
+Before you can block, you need to know what you're dealing with. The CASB (or Google Workspace audit logs) reveals:
+
+- **OAuth token inventory** — Which third-party apps have user-authorized access to their Google data
+- **Login activity** — Where are users authenticating from?
+- **Drive sharing** — What's being shared externally?
+- **App usage** — Which apps are accessing Google Workspace data?
+
+In Google Workspace Admin console, go to Security > API controls > Access management. Review OAuth app entries — check ownership (Google-owned/internal/third-party), requested scopes, and user count. The CASB dashboard often surfaces this more visually.
+
+Apps are categorized as **Trusted** (full access), **Limited** (specific Google data only), **Blocked** (no access), or the default for unconfigured apps. Mark unknown third-party apps as Blocked after reviewing scope and ownership.
+
+## The Migration Strategy
+
+### Phase 1: Discover and Categorize
+
+List every external app accessing your users' Google data. Categorize:
+- **Approved** — IT-sanctioned, security reviewed
+- **Tolerated** — Not ideal but not blocked yet
+- **Blocked** — Shadow IT, must go
+
+The CASB dashboard usually provides this. If not, export audit logs and pivot in Excel.
+
+### Phase 2: Offer a Better Alternative
+
+Users go to personal Gmail because the sanctioned option isn't convenient. Fix that:
+
+- **Google Workspace** — If you don't have it, get it. Every user gets company @company.com account.
+- **Shared drives** — Centralize file storage so personal Drive isn't needed
+- **SSO** — Single sign-on from Entra ID to Google Workspace removes the password burden
+
+### Phase 3: Enforce with Policy
+
+Now block. The enforcement stack, in order of impact:
+
+**1. Block personal Google accounts** — This is what actually makes personal Gmail unusable on managed devices. Configure via proxy: `X-GoogApps-Allowed-Domains: yourdomain.com`, or in Google Admin console > Security > Managed browser > Restrict sign-in to managed accounts. This stops users from adding their personal @gmail.com account to Chrome or signing into personal Gmail on managed machines.
+
+**2. App Access Control** — In Security > API controls > Access management, configure apps as Trusted / Limited / Specific Google data / Blocked. This controls OAuth grants, not browser access. Set default to Blocked for unconfigured apps if you want zero tolerance.
+
+**3. Context-Aware Access** — Verify managed device before granting access to Workspace apps. Requires Endpoint Verification on desktop; mobile uses Google endpoint management (Intune, Jamf, etc.) for device signals.
+
+### Phase 4: Data Migration
+
+For users with existing personal Gmail data that needs to come over:
+
+1. **Data import** — Admin imports personal Gmail to corporate account via Security > Data export and management > Data migration. Requires user authorization — they authorize their personal Gmail access. This isn't the "Google Workspace Migrate" tool (that's for Exchange migrations).
+2. **Takeout** — User exports personal Drive, admin migrates to Shared Drive
+3. **Calendar migration** — User exports from personal calendar, imports to corporate or shares calendar with corporate account
+
+This takes time. Give users 30 days to migrate, then enforce.
+
+## The Enforcement Checklist
+
+| Control | Implementation | Effect |
+|---------|---------------|--------|
+| **Consumer account block** | `X-GoogApps-Allowed-Domains` or managed browser sign-in restriction | Personal @gmail.com can't sign in on managed devices |
+| **App Access Control** | Set apps to Trusted/Limited/Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
+| **Context-Aware Access** | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
+| **Drive external sharing** | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
+| **SSO** | Entra ID → Google Workspace | One identity, one credential |
+
+**CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
+
+## What Actually Breaks First
+
+In practice, this enforcement breaks these workflows:
+
+1. **User's personal phone** — They can't check corporate email on their personal Android/iOS without management installed. Solution: offer MDM enrollment or accept the limitation.
+
+2. **Third-party tools** — Users who authorized random SaaS apps lose access. Solution: pre-approve the most common ones (Zoom, Slack, etc.).
+
+3. **Contractors** — External users without managed devices. Solution: dedicated contractor accounts with limited access, or accept unmanaged access with increased monitoring.
+
+4. **Endpoint Verification sync delays** — Compliant desktops get blocked before they sync device status. Google's docs explicitly warn about this. Run in monitor mode first.
+
+5. **OAuth restrictions break integrations fast** — Zoom, Slack, calendaring add-ons, scanners, backup tools — all need explicit app access configuration or users lose functionality.
+
+6. **Delegated mailbox access** — Consumer account blocking with `X-GoogApps-Allowed-Domains` can break delegated mailbox access if the delegate's domain isn't in allowed headers.
+
+## The Takeaway
+
+You can't uninvent personal Gmail. Your users will always have personal accounts. What you can do is make it operationally useless for work:
+
+- DLP policies block data exfiltration
+- Context-Aware Access restricts access to managed devices
+- SSO removes the password management burden
+- Structured migration moves existing data to corporate
+
+The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.58:["$","$L56","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$5e"},"thumbnail":true,"direction":"column"}]
+5d:null

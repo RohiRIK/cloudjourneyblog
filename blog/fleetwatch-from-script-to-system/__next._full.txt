@@ -13,7 +13,7 @@ d:I[168027,[],"default"]
 :HL["/_next/static/chunks/b3a7f4834154c9dc.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"Te95fBFlgi-AYBEyx30P5","c":["","blog","fleetwatch-from-script-to-system"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","fleetwatch-from-script-to-system","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6633d7a0fde019af.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"oW7r9KRdqwPrLXzfZfiS5","c":["","blog","fleetwatch-from-script-to-system"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","fleetwatch-from-script-to-system","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6633d7a0fde019af.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
 f:I[530824,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Providers"]
 10:I[273323,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
 11:I[621971,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RevealFx"]
@@ -75,214 +75,249 @@ e:T771,
 23:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
 16:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
 17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-24:T20fe,
-The previous version of my Claude Code config introduced structured context files — goals, decisions, progress, gotchas — persisted as markdown and injected at session start. That worked. But markdown has limits: no querying, no deduplication, no concept of importance or decay, no semantic search, and no way to surface related memories across projects.
+24:T183f,
+We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
 
-This version replaces the markdown context files with a SQLite-backed long-term memory system, a dedicated MCP server that exposes LTM primitives to Claude directly, semantic recall with embedding fallback, a graph reasoning layer, and an EvaluateSession hook that extracts decisions and patterns automatically at session end.
+## The Implementation Sequence
 
-Here's what changed and why.
+Zero Trust isn't a product you buy. It's a sequence of controls you enforce, in order, with each phase creating the foundation for the next.
 
-## From markdown files to SQLite
+### Phase 1: Emergency Access & Monitoring Foundation
 
-The old system: four `.md` files per project (`context-goals.md`, `context-decisions.md`, `context-progress.md`, `context-gotchas.md`). Hooks read and wrote them. They worked until they didn't — duplicates accumulated, stale entries couldn't be cleaned up automatically, and there was no way to query across them.
+Before touching anything else, you need:
 
-The new system: a single SQLite database at `~/.claude/memory/ltm.db`. Two main tables:
+- **Breakglass accounts** — Named emergency accounts that bypass all Conditional Access. Don't use these daily. Test them quarterly.
+- **Alerting baseline** — What does normal look like? Capture login patterns, device health, app usage before you start blocking.
 
-- `memories` — long-term insights, patterns, and decisions. Each row has content, category (`preference | architecture | gotcha | pattern | workflow | constraint`), importance score (1–5), project scope (nullable for globals), tags, and a decay counter.
-- `context_items` — short-term session context. Goals, decisions, progress, and gotchas per project. These expire if a project is inactive for 14 days.
+This is the unsexy phase that saves you when Phase 3 locks everyone out.
 
-The schema separation is deliberate. `context_items` are the working memory for an active project — things you need right now. `memories` are the durable knowledge base — things you want to remember across all future sessions.
+### Phase 2: Security Info Registration
 
-## The LTM MCP server
+Before enforcing MFA, users need to register authentication methods. Set this up first:
+- **Auth methods policy** — Enable Microsoft Authenticator, FIDO2, Windows Hello for Business
+- **Temporary Access Pass** — One-time codes for users who lose hardware keys
+- **Report-only mode** — Test CA policies before enforcing
 
-The previous config had Claude calling shell scripts to read and write memory. That worked but was brittle and required careful prompt engineering to get Claude to use it consistently.
+### Phase 3: Block Legacy Authentication
 
-The new approach: a dedicated MCP server (`ltm` server in `settings.json`) that exposes LTM as first-class MCP tools. Claude has native access to:
+Legacy auth (SMTP auth, basic auth, POP/IMAP) is the attack surface. Block it:
 
-- `ltm_recall` — FTS5 full-text search across memories with semantic fallback
-- `ltm_learn` — store a new memory or reinforce an existing one
-- `ltm_relate` — create typed relationships between memories
-- `ltm_forget` — delete a memory by ID
-- `ltm_context` — get merged context (globals + project-scoped memories)
-- `ltm_graph` — traverse the memory graph from seed nodes
-- `ltm_context_items` — get context items (goals, decisions, progress, gotchas) for a project
-
-With the MCP server active, Claude uses these tools directly without me having to orchestrate shell calls. The pattern in `CLAUDE.md` is now explicit: call `mcp__ltm__ltm_recall` before any non-trivial task, call `mcp__ltm__ltm_learn` after discovering a non-obvious pattern.
-
-## Semantic recall with embedding fallback
-
-`ltm_recall` does FTS5 full-text search first. If the FTS5 results are below a threshold, it triggers a semantic fallback: it calls an embedding API, generates a vector for the query, and does cosine similarity search against stored embeddings.
-
-The implementation in `memory/db.ts`:
-
-```typescript
-export async function recall(query: string, limit = 10): Promise<Memory[]> {
-  const ftsResults = searchFts(query, limit);
-  if (ftsResults.length >= limit * 0.6) return ftsResults;
-
-  // Semantic fallback
-  if (config.ltm.semanticFallback) {
-    const similar = await getSimilarMemories(query, limit);
-    return deduplicateMerge(ftsResults, similar);
-  }
-  return ftsResults;
-}
+```
+Conditional Access > Assignments > Cloud apps > All apps
+Conditions > Client apps > Select Exchange ActiveSync clients and Other clients
+Controls > Grant > Block access
 ```
 
-The graceful degradation is important: if the embedding API fails, the FTS5 results are still returned. Semantic search is an enhancement, not a dependency.
+Block legacy auth too early and you'll break:
+- Legacy application integrations
+- Service accounts with password auth only
+- Old MFA integrations that sit behind legacy protocols
 
-## Graph-based reasoning
+**What broke first:** SMTP-authenticated printer scanning and IoT device integrations. Both used basic auth with no modern auth path.
 
-Memories can have typed relationships: `supports`, `contradicts`, `refines`, `depends_on`, `related_to`, `supersedes`. These are stored in a `memory_relations` table.
+### Phase 3: MFA Enforcement
 
-The `ltm_graph` tool does BFS traversal from seed nodes up to a configurable depth. The `getContextMergeWithGraph` function in `db.ts` uses this to build a richer context injection at session start — rather than just listing top memories, it traverses the graph from the most important ones and includes related memories that would otherwise rank below the injection cutoff.
+Phishing-resistant MFA is the goal. FIDO2 hardware keys. But hardware keys have procurement and onboarding friction:
 
-In practice this surfaces things like: "This pattern (memory 88) supports this architectural decision (memory 44) which was made in the context of this constraint (memory 31)." The chain gives Claude more context than any individual memory provides alone.
+- Procurement: Buy 50 keys, distribute to Tier-1 roles (privileged users, admins)
+- Onboarding: Users need to register in-browser with Chrome/Edge (Firefox support is spotty)
+- Policy: Require phishing-resistant MFA for admin roles; offer standard MFA as fallback for general users
 
-Graph reasoning is gated behind `config.ltm.graphReasoning = true` — it's off by default because it increases session start time and token usage.
+**What broke first:** Users who lost their hardware keys. Registration flow required a new key + backup key, and the process times out fast.
 
-## The EvaluateSession hook
+### Phase 4: Device Compliance (Intune Baselines)
 
-The most significant behavioral change: a `SessionEnd` / `EvaluateSession` hook that runs an LLM call at session end to extract decisions, patterns, and gotchas from the session transcript and write them to LTM automatically.
+Intune security baselines + Conditional Access is where device trust lives:
 
-Previously, learning required a manual `/learn` call. Most things worth remembering never got learned because they were discovered mid-task and I didn't stop to capture them.
+- **Windows baseline** — BitLocker, Windows Defender, firewall rules
+- **Device compliance policy** — Require Microsoft Entra hybrid joined OR compliant device
+- **MDE integration** — Device risk from Defender feeds CA decisions
 
-The EvaluateSession hook:
-1. Gets a compressed summary of the session (the existing PreCompact summary if available, or a fresh one)
-2. Sends it to Claude with a structured extraction prompt asking for: decisions made, patterns discovered, gotchas encountered, progress achieved
-3. Writes each extracted item to `ltm_learn` with appropriate category and importance
-4. Also updates `context_items` for the project with any progress or decisions
+**What broke first:** Microsoft Entra hybrid join fails when:
+- Stale device objects in on-prem AD aren't cleaned up
+- Line-of-business apps still query on-prem AD only (no cloud auth path)
+- Users are co-managed (Intune + SCCM) and the policy boundary isn't clear
 
-The hook is gated behind `config.ltm.evaluateSessionLlm = true`. When enabled, every session that produces non-trivial work automatically contributes to the knowledge base.
+### Phase 5: Session Controls
 
-## Memory decay and the Janitor
+Sign-in frequency and device restrictions for existing sessions:
+- **Sign-in frequency** — Re-authenticate after X hours or when device state changes
+- **Persistent browser** — Block to prevent session cookie replay
+- **App-enforced restrictions** — Disable clipboard/file copy for unmanaged devices
 
-Memories have an importance score (1–5). Memories at importance 5 never decay — these are the global rules and constraints that must always be in context. Lower-importance memories decay over time if not accessed or reinforced.
+### Phase 6: Risk-Based Conditional Access
 
-A Janitor agent runs periodically to:
-- Decay memories that haven't been accessed recently
-- Identify near-duplicate memories (via embedding similarity) and merge them
-- Flag memories that haven't been accessed in 90+ days for review
-- Prune memories that have decayed below a minimum threshold
+Identity Protection risk signals drive dynamic policies:
 
-The Janitor runs as a standalone script (`memory/janitor.ts`) triggered by a cron-like scheduler in the background. It's not a hook — it runs independently of sessions.
+- **High-risk sign-in** — Block or require MFA
+- **Risky user** — Force password reset
+- **Microsoft Defender for Identity** — Detect lateral movement, privilege escalation, and domain escalation attacks
 
-The D3 graph visualization app (from the previous post) makes this visible: strong memories glow, decaying ones dim, and the Janitor's merge/prune operations leave a visible trail.
+**What broke first:** False positives. Risky sign-in policies flagged VPN users on corporate devices because the sign-in location didn't match.
 
-## What the config looks like now
+### Phase 7: Network Segmentation (802.1X)
 
-The `CLAUDE.md` instruction for LTM is explicit:
+WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
 
-> Before any non-trivial task: call `mcp__ltm__ltm_recall` with the topic as query.
-> After discovering a non-obvious pattern or gotcha: call `mcp__ltm__ltm_learn`.
-> When making an architectural decision: call `mcp__ltm__ltm_learn` with `category=architecture`.
+- **EAP method** — EAP-TLS with certificate-based auth (vs. EAP-PEAP/MSCHAPv2)
+- **Certificate lifecycle** — SCEP or PKCS certificate profile from Intune
+- **Fallback** — WPA2-PSK for legacy devices that can't do 802.1X
 
-The hooks (`SessionStart`, `EvaluateSession`, `PreCompact`) do the background work. The MCP tools give Claude direct access. The decay and Janitor processes keep the database clean without manual curation.
+**What broke first:** EAP negotiation failures. Root causes:
+- Wrong EAP type configured on client vs. RADIUS
+- Server certificate missing trusted root on client
+- Server name validation mismatch (certificate SAN doesn't match RADIUS hostname)
+- Expired or revoked client/server certificates
 
-## What's still rough
+## What Actually Broke First
 
-The semantic fallback adds latency to recall — a few hundred milliseconds on a fast connection, more if the embedding API is cold. FTS5 is fast enough that most recalls don't trigger it, but it's noticeable when it does.
+After three years, here's the friction ranking:
 
-The EvaluateSession extraction isn't perfect. The LLM sometimes over-extracts (trivial things get stored as memories) and occasionally misses important architectural decisions. The category classification is roughly right but imprecise. These are prompt engineering problems that improve over time as the extraction prompt gets tuned.
+| Friction Point | Phase | Symptom |
+|---|---|---|
+| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
+| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM + Intune |
+| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
+| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
+| Hardware key loss | MFA | Users lose keys, no backup, lockout |
+| Breakglass account lockout | Foundation | Breakglass account passwords expire or aren't tested |
 
-The Janitor's duplicate detection via embedding similarity occasionally merges things that shouldn't be merged. Conservative threshold is better — set the similarity cutoff high enough that only near-identical memories get merged.
+## The Hard Lessons
 
----
+1. **Don't start with blocking.** Start with alerting and monitoring. Baseline normal before you break normal.
 
-The overall shift is from "context files I remember to maintain" to "a knowledge base that maintains itself." Sessions contribute to it automatically, the Janitor keeps it clean, and recall surfaces relevant history before I start any significant work. The manual hygiene work that v1 and v2 required is mostly gone.
-5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/fleetwatch-from-script-to-system","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/fleetwatch-from-script-to-system\",\"sameAs\":[],\"headline\":\"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch\",\"description\":\"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/fleetwatch-from-script-to-system.png\",\"datePublished\":\"2026-03-04\",\"dateModified\":\"2026-03-04\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"March 4, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}]]}]}],["$","$L1d",null,{"src":"/images/blog/fleetwatch-from-script-to-system.png","alt":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","url":"https://CloudJourneyBlog.rohi-lab.org/blog/fleetwatch-from-script-to-system"}],["$","$L20",null,{}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L21",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L22",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L23","claude-code-config-v3",{"post":{"metadata":{"title":"Claude Code Config v3: LTM as Infrastructure","subtitle":"","publishedAt":"2026-03-20","summary":"The config got a significant overhaul: SQLite-backed long-term memory, a dedicated MCP server exposing LTM primitives, semantic recall with embedding fallback, graph-based reasoning, and an EvaluateSession hook that extracts decisions automatically.","image":"/images/blog/claude-code-config-v3.png","images":[],"tag":"Dev Tools","team":[],"link":""},"slug":"claude-code-config-v3","content":"$24"},"thumbnail":true,"direction":"column"}],"$L25"]}]]}],"$L26"]}]}],"$L27"]}]
+2. **Phased enforcement, not big bang.** Each phase enables the next. Block legacy auth → enforce MFA → require device compliance → apply risk-based access.
+
+3. **802.1X is the hardest network control.** Budget double the time for 802.1X pilot. EAP-TLS certificate validation is where it fails.
+
+4. **Device trust requires clear ownership.** If you're co-managed (SCCM + Intune), define the boundary. We used Intune for cloud-native devices, SCCM for remaining on-prem managed.
+
+5. **Governance is the bottleneck.** Zero Trust fails when cross-team ownership isn't clear. Identity owns CA policies. Endpoint owns device baselines. Network owns 802.1X. Security owns MDI.
+
+## The Takeaway
+
+Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
+
+The only thing that broke irreparably was when we tried to skip Phase 1.5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/fleetwatch-from-script-to-system","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/fleetwatch-from-script-to-system\",\"sameAs\":[],\"headline\":\"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch\",\"description\":\"My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/fleetwatch-from-script-to-system.png\",\"datePublished\":\"2026-03-04\",\"dateModified\":\"2026-03-04\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"March 4, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}]]}]}],["$","$L1d",null,{"src":"/images/blog/fleetwatch-from-script-to-system.png","alt":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"From Script to System: How I Turned a Jenkins Pipeline into FleetWatch","url":"https://CloudJourneyBlog.rohi-lab.org/blog/fleetwatch-from-script-to-system"}],["$","$L20",null,{}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L21",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L22",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L23","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$24"},"thumbnail":true,"direction":"column"}],"$L25"]}]]}],"$L26"]}]}],"$L27"]}]
 29:I[988654,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
 2a:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
-28:T17c7,
-Every IT team has some version of the same problem: the MDM says one thing, Active Directory says another, and the spreadsheet someone maintains manually is a third opinion. Nobody knows the real device count. Nobody knows which machines are stale. Asset reviews are a manual reconciliation exercise that takes days and is wrong before it's finished.
+28:T1e75,
+Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
 
-For a FinTech client, I built a pipeline that pulls from every authoritative source — AD, Intune, Azure, MDE — and produces a single unified inventory that's always current. Here's the architecture.
+This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
 
-## The data problem
+## The Problem: Shadow IT in Google Workspace
 
-The client had devices across three categories:
-- **Windows workstations**: domain-joined, Intune-enrolled, some hybrid Entra joined
-- **Azure VMs**: not domain-joined, sometimes Intune-enrolled, MDE-onboarded
-- **Legacy machines**: domain-joined only, no Intune, no MDE
+Every organization has it: users who default to personal accounts for convenience. Personal Gmail on work devices. Personal Drive for sharing. Personal Calendar for everything.
 
-No single system had the full picture. Intune knew about enrolled devices but didn't know about the legacy machines. AD knew about everything domain-joined but didn't know about Azure VMs or compliance state. MDE knew about onboarded endpoints but didn't map cleanly to AD objects.
+The risks:
+- **No DLP** — Company data leaves to personal accounts with no controls
+- **No audit trail** — You can't investigate a data leak if you don't know it happened
+- **No lifecycle** — When they leave, access to work data persists in their personal account
+- **Compliance risk** — Often noncompliant with internal policy and regulated data-handling requirements
 
-The goal: a unified record per device with attributes from all sources — last seen, OS version, compliance state, MDE sensor status, assigned user, department, location.
+The goal: make personal Gmail unusable for work purposes without breaking legitimate personal use on personal devices.
 
-## The architecture
+## How CASB Fits In
 
-Four components:
+CASB (Cloud Access Security Broker) sits between your users and cloud services, providing:
+- **Visibility** — What cloud apps are being used?
+- **Data protection** — DLP policies applied to cloud traffic
+- **Threat protection** — Anomaly detection for cloud usage
+- **Access control** — Block or restrict based on context
 
-**1. Jenkins** — scheduler and orchestrator. A pipeline job runs nightly and on-demand. It calls the PowerShell scripts in sequence, handles retries, and sends a completion notification.
+Google Workspace integrates with CASB via API, not inline proxy. Google explicitly recommends API/offline CASB patterns over inline proxies — inline CASBs exist but aren't the preferred path. For most orgs, Google-native controls (DLP, Reports API, App Access Management) cover much of what you need before considering third-party CASB.
 
-**2. PowerShell scripts** — data collection and normalization. One script per source, plus a merge script. Each script outputs structured JSON to a staging directory on the Jenkins agent.
+### Shadow IT Discovery
 
-**3. SharePoint List** — the inventory store and intermediate layer. PowerShell writes the merged records to a SharePoint list via the SharePoint REST API or PnP PowerShell. The list is the single source of truth that other systems can query.
+Before you can block, you need to know what you're dealing with. The CASB (or Google Workspace audit logs) reveals:
 
-**4. Power BI** — visualization layer. A Power BI report connects directly to the SharePoint list and refreshes on a schedule. This is the dashboard the IT team and management use.
+- **OAuth token inventory** — Which third-party apps have user-authorized access to their Google data
+- **Login activity** — Where are users authenticating from?
+- **Drive sharing** — What's being shared externally?
+- **App usage** — Which apps are accessing Google Workspace data?
 
-## The data collection scripts
+In Google Workspace Admin console, go to Security > API controls > Access management. Review OAuth app entries — check ownership (Google-owned/internal/third-party), requested scopes, and user count. The CASB dashboard often surfaces this more visually.
 
-**AD collector**: Uses `Get-ADComputer` with `-Properties *` to pull all computer objects. Captures name, distinguished name, last logon timestamp, OS version, description, and organizational unit. Filters out disabled objects and objects not seen in 90 days.
+Apps are categorized as **Trusted** (full access), **Limited** (specific Google data only), **Blocked** (no access), or the default for unconfigured apps. Mark unknown third-party apps as Blocked after reviewing scope and ownership.
 
-```powershell
-Get-ADComputer -Filter * -Properties LastLogonDate, OperatingSystem, Description |
-  Where-Object { $_.LastLogonDate -gt (Get-Date).AddDays(-90) } |
-  Select-Object Name, DistinguishedName, LastLogonDate, OperatingSystem, Description |
-  ConvertTo-Json | Out-File "$stagingPath\ad-devices.json"
-```
+## The Migration Strategy
 
-**Intune collector**: Uses the Microsoft Graph PowerShell SDK. Calls `Get-MgDeviceManagementManagedDevice` to get all enrolled devices with compliance state, last sync time, enrolled user, and device category.
+### Phase 1: Discover and Categorize
 
-**MDE collector**: Uses the Defender for Endpoint API (via a service principal with `Machine.Read.All`). Gets onboarding status, sensor health, last seen timestamp, and risk level for every endpoint.
+List every external app accessing your users' Google data. Categorize:
+- **Approved** — IT-sanctioned, security reviewed
+- **Tolerated** — Not ideal but not blocked yet
+- **Blocked** — Shadow IT, must go
 
-**Azure VM collector**: Uses `Get-AzVM` across all subscriptions the service principal has access to. Gets VM name, resource group, location, OS, running state, and any tags with owner/department information.
+The CASB dashboard usually provides this. If not, export audit logs and pivot in Excel.
 
-## The merge script
+### Phase 2: Offer a Better Alternative
 
-The merge script is where the real work happens. It loads all four JSON files and joins them on device name. The join logic:
+Users go to personal Gmail because the sanctioned option isn't convenient. Fix that:
 
-1. AD is the primary key source — every AD computer object gets a record
-2. Intune records are matched to AD by device name (normalized to uppercase)
-3. MDE records are matched by hostname
-4. Azure VMs get their own records (no AD object)
+- **Google Workspace** — If you don't have it, get it. Every user gets company @company.com account.
+- **Shared drives** — Centralize file storage so personal Drive isn't needed
+- **SSO** — Single sign-on from Entra ID to Google Workspace removes the password burden
 
-For each merged record, the script calculates derived fields:
-- `managementState`: `fully-managed` (Intune + MDE), `partially-managed` (Intune only or MDE only), `unmanaged` (AD only)
-- `staleness`: days since last seen across all sources
-- `complianceGap`: boolean — in Intune but not compliant
+### Phase 3: Enforce with Policy
 
-The merged output is an array of device objects written to `merged-inventory.json`.
+Now block. The enforcement stack, in order of impact:
 
-## Writing to SharePoint
+**1. Block personal Google accounts** — This is what actually makes personal Gmail unusable on managed devices. Configure via proxy: `X-GoogApps-Allowed-Domains: yourdomain.com`, or in Google Admin console > Security > Managed browser > Restrict sign-in to managed accounts. This stops users from adding their personal @gmail.com account to Chrome or signing into personal Gmail on managed machines.
 
-PnP PowerShell handles the SharePoint write. The script compares the merged inventory against the current SharePoint list state (pulled at the start of the run) and does a delta update: new devices are added, existing devices are updated, devices not seen in 90 days are flagged as stale.
+**2. App Access Control** — In Security > API controls > Access management, configure apps as Trusted / Limited / Specific Google data / Blocked. This controls OAuth grants, not browser access. Set default to Blocked for unconfigured apps if you want zero tolerance.
 
-Doing a delta update rather than a full replace matters for performance (the list had 2,000+ items) and for preserving any manual annotations added by the IT team directly in the list.
+**3. Context-Aware Access** — Verify managed device before granting access to Workspace apps. Requires Endpoint Verification on desktop; mobile uses Google endpoint management (Intune, Jamf, etc.) for device signals.
 
-## Power BI on top
+### Phase 4: Data Migration
 
-The Power BI report connects to the SharePoint list as a data source and refreshes daily. Key views:
+For users with existing personal Gmail data that needs to come over:
 
-- **Management coverage**: pie/bar showing how many devices are fully managed vs. partially managed vs. unmanaged
-- **Stale devices**: list of devices not seen in 30+ days, sorted by staleness
-- **Compliance gaps**: devices enrolled in Intune but not passing compliance policy
-- **MDE coverage**: which devices have an active sensor vs. not
+1. **Data import** — Admin imports personal Gmail to corporate account via Security > Data export and management > Data migration. Requires user authorization — they authorize their personal Gmail access. This isn't the "Google Workspace Migrate" tool (that's for Exchange migrations).
+2. **Takeout** — User exports personal Drive, admin migrates to Shared Drive
+3. **Calendar migration** — User exports from personal calendar, imports to corporate or shares calendar with corporate account
 
-The report is embedded in a Teams tab so the IT team has it in their daily context without going to Power BI directly.
+This takes time. Give users 30 days to migrate, then enforce.
 
-## What it replaced
+## The Enforcement Checklist
 
-Before this pipeline: a manually-maintained Excel spreadsheet updated every quarter. It was always wrong. MDE coverage reports were run manually when someone asked. Compliance gaps were invisible until a CA policy blocked a user.
+| Control | Implementation | Effect |
+|---------|---------------|--------|
+| **Consumer account block** | `X-GoogApps-Allowed-Domains` or managed browser sign-in restriction | Personal @gmail.com can't sign in on managed devices |
+| **App Access Control** | Set apps to Trusted/Limited/Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
+| **Context-Aware Access** | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
+| **Drive external sharing** | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
+| **SSO** | Entra ID → Google Workspace | One identity, one credential |
 
-After: a nightly automated run, a SharePoint list the IT team trusts, and a Power BI dashboard the security team uses in their weekly review.
+**CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
 
-The pipeline has run without manual intervention for over a year. When a new device shows up as unmanaged, the report flags it. When a compliance gap appears, the security team sees it the next morning.
+## What Actually Breaks First
 
----
+In practice, this enforcement breaks these workflows:
 
-The architecture is not complicated. Jenkins, PowerShell, SharePoint, Power BI are tools every Microsoft-focused IT team already has. The value is in putting them together deliberately and removing the manual reconciliation step entirely.
-25:["$","$L23","device-inventory-pipeline",{"post":{"metadata":{"title":"Building a Device Inventory Pipeline","subtitle":"","publishedAt":"2026-03-20","summary":"When your MDM doesn't tell the full story, build the pipeline yourself. Here's the Jenkins → PowerShell → SharePoint → Power BI architecture I built to unify device data across AD and Intune for a FinTech client.","image":"/images/blog/device-inventory-pipeline.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"device-inventory-pipeline","content":"$28"},"thumbnail":true,"direction":"column"}]
+1. **User's personal phone** — They can't check corporate email on their personal Android/iOS without management installed. Solution: offer MDM enrollment or accept the limitation.
+
+2. **Third-party tools** — Users who authorized random SaaS apps lose access. Solution: pre-approve the most common ones (Zoom, Slack, etc.).
+
+3. **Contractors** — External users without managed devices. Solution: dedicated contractor accounts with limited access, or accept unmanaged access with increased monitoring.
+
+4. **Endpoint Verification sync delays** — Compliant desktops get blocked before they sync device status. Google's docs explicitly warn about this. Run in monitor mode first.
+
+5. **OAuth restrictions break integrations fast** — Zoom, Slack, calendaring add-ons, scanners, backup tools — all need explicit app access configuration or users lose functionality.
+
+6. **Delegated mailbox access** — Consumer account blocking with `X-GoogApps-Allowed-Domains` can break delegated mailbox access if the delegate's domain isn't in allowed headers.
+
+## The Takeaway
+
+You can't uninvent personal Gmail. Your users will always have personal accounts. What you can do is make it operationally useless for work:
+
+- DLP policies block data exfiltration
+- Context-Aware Access restricts access to managed devices
+- SSO removes the password management burden
+- Structured migration moves existing data to corporate
+
+The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.25:["$","$L23","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$28"},"thumbnail":true,"direction":"column"}]
 26:["$","$L29",null,{}]
 27:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L2a",null,{"fitHeight":true}]}]
 2b:I[811052,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]

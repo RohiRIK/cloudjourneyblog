@@ -5,7 +5,7 @@
     <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     <description>Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Mar 2026 15:53:08 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 07:02:43 GMT</lastBuildDate>
     <atom:link href="https://CloudJourneyBlog.rohi-lab.org/api/rss" rel="self" type="application/rss+xml" />
     <managingEditor>rohi@rohirikman.dev (Rohi Rikman)</managingEditor>
     <webMaster>rohi@rohirikman.dev (Rohi Rikman)</webMaster>
@@ -15,6 +15,66 @@
       <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     </image>
     
+    <item>
+      <title>Zero Trust Rollout Retrospective: What Actually Broke</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-retrospective</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-retrospective</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/zero-trust-retrospective.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/gcp-casb-shadow-it-migration</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/gcp-casb-shadow-it-migration</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/gcp-casb-shadow-it-migration.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>Google Workspace to Entra ID Federation: The SSO Setup That Actually Works</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/google-workspace-entra-federation</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/google-workspace-entra-federation</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Setting up Google Workspace to use Entra ID as the Identity Provider isn't just checking a box. Here's the practical walkthrough of SAML federation, claims mapping, and what breaks when you get it wrong.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/google-workspace-entra-federation.png" type="image/jpeg" />
+      <category>Identity</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>The Entra Join Readiness Checklist: Everything You Must Resolve Before Cutting the Domain Cord</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/entra-join-readiness-checklist</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/entra-join-readiness-checklist</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Moving from hybrid Azure AD join to Entra-only join isn't a flip-a-switch decision. Here's the practical checklist of what to resolve before you cut the domain cord — and the decision framework for wipe-and-reload versus in-place migration.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/entra-join-readiness-checklist.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>AI-Driven SOC: Layering Intelligence on Top of What You Already Own</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/ai-driven-soc-assistant</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/ai-driven-soc-assistant</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Most SOC teams don't need a new platform — they need the tools they already have to work together smarter. Here's how to build an AI-assisted security operations capability using Wazuh, Microsoft Defender, and lightweight automation.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/ai-driven-soc-assistant.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>Cross-Platform Compliance Architecture: Building a Kill-Switch Enforcement System</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/cross-platform-compliance-architecture</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/cross-platform-compliance-architecture</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Most compliance frameworks treat enforcement as a checkbox. Here's how to build an actual cross-platform enforcement system that can kill access the moment a device goes non-compliant — Windows, macOS, and Linux.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/cross-platform-compliance-architecture.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
     <item>
       <title>Claude Code Config v3: LTM as Infrastructure</title>
       <link>https://CloudJourneyBlog.rohi-lab.org/blog/claude-code-config-v3</link>
