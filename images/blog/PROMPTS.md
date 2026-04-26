@@ -30,10 +30,10 @@
 - [x] 22. google-workspace-entra-federation.png
 - [x] 23. gcp-casb-shadow-it-migration.png
 - [x] 24. zero-trust-retrospective.png
-- [ ] 25. robot-army-personal-lab.png
-- [ ] 26. new-environment-setup.png
-- [ ] 27. zero-trust-program-energy-sector.png
-- [ ] 28. hr-lifecycle-automation.png
+- [x] 25. robot-army-personal-lab.png
+- [x] 26. new-environment-setup.png
+- [x] 27. zero-trust-program-energy-sector.png
+- [x] 28. hr-lifecycle-automation.png
 
 ---
 
