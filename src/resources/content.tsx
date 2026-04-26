@@ -242,8 +242,9 @@ const about: About = {
         title: "Training",
         description: (
           <>
-            I lift and do jiu-jitsu. Both teach the same lesson: you can't shortcut the
-            fundamentals. Technique compounds. Skipping the boring parts costs you later.
+            Kettlebells and mace. Slow, deliberate work with heavy objects. Both teach the same
+            lesson: you can't shortcut the fundamentals. Technique compounds. Skipping the boring
+            parts costs you later.
           </>
         ),
         icon: "rocket",
