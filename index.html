@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohi Rikman | Cloud Security Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f8fafc; }
+        .bento-card {
+            background: white;
+            border-radius: 1.5rem;
+            border: 1px solid rgba(226, 232, 240, 0.8);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+            display: flex; flex-direction: column;
+        }
+        .bento-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.01);
+            border-color: rgba(59, 130, 246, 0.3);
+        }
+        .custom-scroll::-webkit-scrollbar { width: 4px; }
+        .custom-scroll::-webkit-scrollbar-track { background: transparent; }
+        .custom-scroll::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        
+        .tech-badge {
+            display: inline-flex; align-items: center; gap: 0.375rem; padding: 0.25rem 0.625rem;
+            border-radius: 0.375rem; font-size: 0.75rem; font-weight: 700; border: 1px solid;
+            transition: all 0.2s; white-space: nowrap;
+        }
+        .tech-badge:hover { transform: scale(1.05); }
+        .project-link {
+            display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem;
+            color: #475569; transition: color 0.2s;
+        }
+        .project-link:hover { color: #2563eb; }
+    </style>
+</head>
+<body class="text-slate-800 min-h-screen p-4 md:p-8 selection:bg-indigo-500 selection:text-white">
+
+    <div class="max-w-7xl mx-auto">
+        
+        <!-- Header -->
+        <header class="mb-8 flex flex-col justify-center">
+            <h1 class="text-3xl font-bold text-slate-900">Rohi Rikman</h1>
+            <p class="text-slate-500 font-medium">Cloud Security Architect & Automation Engineer</p>
+            <div class="mt-4 flex gap-3">
+                <a href="assets/pdf/ROHI-RIKMAN-Cloud-Security-Architect&Automation-Engineer-EUR.pdf" download class="group flex items-center gap-2 bg-slate-900 text-white px-5 py-2.5 rounded-full font-medium hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/20 text-sm">
+                    <i class="fas fa-file-arrow-down"></i> Download Resume
+                </a>
+                <div class="flex gap-2">
+                    <a href="https://linkedin.com/in/rohi-rikman-48831b239" target="_blank" aria-label="LinkedIn Profile" class="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:text-blue-600 hover:border-blue-200 transition-all"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/RohiRIK" target="_blank" aria-label="GitHub Profile" class="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:text-slate-900 hover:border-slate-400 transition-all"><i class="fab fa-github"></i></a>
+                    <a href="mailto:Rohi5054@gmail.com" class="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:text-red-500 hover:border-red-200 transition-all"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN LAYOUT: 2 Columns on Large Screens -->
+        <main class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+
+            <!-- LEFT COLUMN (Profile + Experience) -->
+            <div class="flex flex-col gap-6">
+                
+                <!-- Profile / "Eliminating..." -->
+                <section class="bento-card p-8 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-6 opacity-5"><i class="fas fa-fingerprint text-9xl"></i></div>
+                    
+                    <div class="flex items-start gap-6 mb-6 relative z-10">
+                        <div class="w-20 h-20 rounded-2xl overflow-hidden border-2 border-slate-100 shadow-lg flex-shrink-0">
+                             <img src="assets/main.png" alt="Rohi Rikman - Professional Portrait" onerror="this.src='https://api.dicebear.com/7.x/avataaars/svg?seed=Rohi&backgroundColor=transparent'" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div>
+                            <div class="flex flex-wrap gap-2 mb-3">
+                                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Zero-Trust</span>
+                                <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Autonomous SOC</span>
+                            </div>
+                            <h2 class="text-2xl font-bold text-slate-900 leading-tight">Architecting Autonomous Security & Zero-Trust Infrastructure.</h2>
+                        </div>
+                    </div>
+                    
+                    <p class="text-slate-600 leading-relaxed text-sm relative z-10 mb-4">
+                        I specialize in modernizing Microsoft security postures (Azure/Entra ID) and engineering Generative AI frameworks to eliminate manual SOC toil. I build autonomous security systems that scale to handle global enterprise demands.
+                    </p>
+
+                    <div class="mt-auto pt-6 border-t border-slate-100 grid grid-cols-3 gap-2">
+                        <div class="text-center">
+                            <div class="text-xs font-bold text-slate-400 uppercase">Identity</div>
+                            <div class="font-bold text-slate-800 text-sm">Entra ID / IAM</div>
+                        </div>
+                        <div class="text-center border-l border-slate-100">
+                            <div class="text-xs font-bold text-slate-400 uppercase">AI Ops</div>
+                            <div class="font-bold text-slate-800 text-sm">RAG / LLMs</div>
+                        </div>
+                        <div class="text-center border-l border-slate-100">
+                            <div class="text-xs font-bold text-slate-400 uppercase">SecOps</div>
+                            <div class="font-bold text-slate-800 text-sm">Sentinel / XDR</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Experience -->
+                <section class="bento-card p-8 flex-1">
+                    <h3 class="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2">
+                        <i class="fas fa-briefcase text-slate-400"></i> Experience
+                    </h3>
+                    <div class="relative border-l-2 border-slate-100 ml-3 space-y-8">
+                        <div class="relative pl-6">
+                            <div class="absolute -left-[7px] top-1.5 w-3 h-3 rounded-full bg-blue-500 ring-4 ring-white"></div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-slate-900">Cloud Security & Auto. Eng.</h4>
+                                <span class="text-xs font-bold text-slate-400 bg-slate-100 px-2 py-1 rounded">2022 - Present</span>
+                            </div>
+                            <div class="text-sm font-semibold text-blue-600 mb-3">Enterprise</div>
+                            
+                            <ul class="space-y-3">
+                                <li class="flex gap-3 text-sm text-slate-600">
+                                    <i class="fas fa-check mt-1 text-green-500 text-xs flex-shrink-0"></i>
+                                    <span>Architected and deployed a scalable <span class="font-semibold text-slate-800">RAG framework (Project Aegis)</span> supporting <span class="font-semibold text-slate-800">500+ users</span> and <span class="font-semibold text-slate-800">10TB of data</span>, slashing ticket resolution times by 40%.</span>
+                                </li>
+                                <li class="flex gap-3 text-sm text-slate-600">
+                                    <i class="fas fa-check mt-1 text-green-500 text-xs flex-shrink-0"></i>
+                                    <span>Orchestrated zero-downtime migration of <span class="font-semibold text-slate-800">10,000+ global identities</span> to <span class="font-semibold text-slate-800">Cloud-Native Entra ID</span>, enforcing granular Zero-Trust policies.</span>
+                                </li>
+                                <li class="flex gap-3 text-sm text-slate-600">
+                                    <i class="fas fa-check mt-1 text-green-500 text-xs flex-shrink-0"></i>
+                                    <span>Led incident response for <span class="font-semibold text-slate-800">APT and ransomware campaigns</span>, leveraging <span class="font-semibold text-slate-800">KQL threat hunting</span> for 100% containment within SLAs.</span>
+                                </li>
+                                <li class="flex gap-3 text-sm text-slate-600">
+                                    <i class="fas fa-check mt-1 text-green-500 text-xs flex-shrink-0"></i>
+                                    <span>Automated 20+ SOC workflows using <span class="font-semibold text-slate-800">n8n & Logic Apps</span>, recovering <span class="font-semibold text-slate-800">1,800 engineering hours annually</span> ($180k+ savings).</span>
+                                </li>
+                                <li class="flex gap-3 text-sm text-slate-600">
+                                    <i class="fas fa-check mt-1 text-green-500 text-xs flex-shrink-0"></i>
+                                    <span>Spearheaded forensic analysis using KQL for <span class="font-semibold text-slate-800">advanced threat hunting</span> and memory forensics to improve global security posture.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- RIGHT COLUMN (Side Cards) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 h-full content-start">
+                
+                <!-- Stack (Tall Card) -->
+                <section class="bento-card row-span-2 p-6">
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4"><i class="fas fa-layer-group"></i> Stack</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="text-[10px] font-extrabold text-purple-600 mb-2 uppercase"><i class="fas fa-brain"></i> AI & Auto</div>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span class="tech-badge bg-fuchsia-50 text-fuchsia-800 border-fuchsia-200">RAG</span>
+                                <span class="tech-badge bg-fuchsia-50 text-fuchsia-800 border-fuchsia-200">LangChain</span>
+                                <span class="tech-badge bg-orange-50 text-orange-700 border-orange-200">n8n</span>
+                                <span class="tech-badge bg-orange-50 text-orange-700 border-orange-200">PowerShell</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-[10px] font-extrabold text-blue-600 mb-2 uppercase"><i class="fab fa-microsoft"></i> Microsoft</div>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span class="tech-badge bg-blue-50 text-blue-700 border-blue-200">Sentinel</span>
+                                <span class="tech-badge bg-blue-50 text-blue-700 border-blue-200">Entra ID</span>
+                                <span class="tech-badge bg-blue-50 text-blue-700 border-blue-200">KQL</span>
+                                <span class="tech-badge bg-blue-50 text-blue-700 border-blue-200">Graph API</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-[10px] font-extrabold text-emerald-600 mb-2 uppercase"><i class="fas fa-terminal"></i> DevOps</div>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span class="tech-badge bg-emerald-50 text-emerald-700 border-emerald-200">Docker</span>
+                                <span class="tech-badge bg-emerald-50 text-emerald-700 border-emerald-200">Bun</span>
+                                <span class="tech-badge bg-emerald-50 text-emerald-700 border-emerald-200">Git</span>
+                                <span class="tech-badge bg-emerald-50 text-emerald-700 border-emerald-200">Next.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 40% Stat -->
+                <div class="bento-card p-6 flex flex-col justify-center items-center text-center bg-blue-600 text-white border-blue-500">
+                    <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center mb-3">
+                        <i class="fas fa-bolt text-white"></i>
+                    </div>
+                    <div class="text-4xl font-extrabold mb-1">40%</div>
+                    <p class="text-[10px] font-bold text-blue-100 uppercase tracking-wide">Faster Resolution</p>
+                    <p class="text-xs text-blue-200 mt-1">Reduced ticket time</p>
+                </div>
+
+                <!-- Status Card (Square) -->
+                <div class="bento-card p-4 bg-slate-900 text-white relative overflow-hidden flex flex-col justify-center items-start gap-2">
+                    <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#6366f1 1px, transparent 1px); background-size: 12px 12px;"></div>
+                    <div class="relative z-10 w-full flex justify-between items-start">
+                        <div>
+                            <div class="flex items-center gap-2 mb-1">
+                                <span class="relative flex h-2 w-2">
+                                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                                </span>
+                                <span class="text-[10px] font-bold text-emerald-400 tracking-wider">ONLINE</span>
+                            </div>
+                            <div class="text-sm font-bold text-slate-300">Tel Aviv, Israel</div>
+                        </div>
+                        <i class="fas fa-globe-asia text-slate-700 text-3xl"></i>
+                    </div>
+                    <div id="clockDisplay" class="relative z-10 text-3xl font-mono font-bold text-white tracking-widest mt-2">--:--</div>
+                </div>
+
+                <!-- Offline / Personal (Wide at bottom of side col) -->
+                <section class="bento-card col-span-1 sm:col-span-2 p-6 relative overflow-hidden group">
+                    <div class="absolute inset-0 bg-orange-50 opacity-50 group-hover:bg-orange-100 transition-colors"></div>
+                    <div class="relative z-10">
+                        <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4 flex items-center gap-2">
+                            <i class="fas fa-coffee text-orange-500"></i> Offline
+                        </h3>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-sm text-slate-700 text-xs"><i class="fas fa-server"></i></div>
+                                <div>
+                                    <p class="text-xs font-bold text-slate-800">Home Lab</p>
+                                    <p class="text-[10px] text-slate-500">Prototyping</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-sm text-slate-700 text-xs"><i class="fas fa-mug-hot"></i></div>
+                                <div>
+                                    <p class="text-xs font-bold text-slate-800">Barista</p>
+                                    <p class="text-[10px] text-slate-500">ECM Mechanika VI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Military Service -->
+                <section class="bento-card p-6 bg-slate-900 text-white flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-4 opacity-10"><i class="fas fa-shield-alt text-6xl"></i></div>
+                    <div class="relative z-10">
+                        <h3 class="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-4 flex items-center gap-2">
+                            <i class="fas fa-medal"></i> Military Service
+                        </h3>
+                        <div>
+                            <p class="text-sm font-bold">Staff Sergeant, Combat Unit</p>
+                            <p class="text-[10px] text-slate-400">IDF • 2014 – 2017</p>
+                        </div>
+                    </div>
+                    <div class="relative z-10 text-xs text-slate-300 mt-4 leading-relaxed border-t border-slate-800 pt-4">
+                        <p>Full combat service in a high-demand unit. Developed exceptional <span class="font-semibold text-white">resilience</span> and <span class="font-semibold text-white">leadership</span> skills while performing critical tasks under extreme pressure.</p>
+                    </div>
+                </section>
+
+                <!-- Projects (Full Width in Right Column) -->
+                <section id="projects" class="bento-card col-span-1 sm:col-span-2 p-8">
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2">
+                            <i class="fas fa-laptop-code text-slate-400"></i> Featured Projects
+                        </h3>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <a href="https://github.com/RohiRIK/Project-Aegis" target="_blank" class="group block project-card">
+                            <div class="bg-slate-50 rounded-xl p-5 border border-slate-100 group-hover:border-blue-300 transition-all h-full">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h4 class="font-bold text-slate-900 group-hover:text-blue-600 transition-colors">Project Aegis</h4>
+                                    <span class="bg-blue-100 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded-full">New</span>
+                                </div>
+                                <p class="text-slate-600 text-xs mb-3">AI-Driven SOC Assistant for autonomous threat prevention and response. Built with <span class="font-semibold text-slate-800">LangChain and Gemini</span> for RAG-based analysis.</p>
+                                <div class="flex gap-2">
+                                    <span class="text-[10px] font-mono bg-white border px-1.5 rounded text-slate-500">AI</span>
+                                    <span class="text-[10px] font-mono bg-white border px-1.5 rounded text-slate-500">Python</span>
+                                    <span class="text-[10px] font-mono bg-white border px-1.5 rounded text-slate-500">SOC</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/RohiRIK/fleetwatch" target="_blank" class="group block project-card">
+                            <div class="bg-slate-50 rounded-xl p-5 border border-slate-100 group-hover:border-blue-300 transition-all h-full">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h4 class="font-bold text-slate-900 group-hover:text-blue-600 transition-colors">FleetWatch</h4>
+                                    <span class="bg-green-100 text-green-700 text-[10px] font-bold px-2 py-0.5 rounded-full">Live</span>
+                                </div>
+                                <p class="text-slate-600 text-xs mb-3">Next-generation Intune device management platform. Features real-time indexing of <span class="font-semibold text-slate-800">50k+ devices</span> using <span class="font-semibold text-slate-800">Next.js 15 & PostgreSQL</span>.</p>
+                                <div class="flex gap-2">
+                                    <span class="text-[10px] font-mono bg-white border px-1.5 rounded text-slate-500">Next.js 15</span>
+                                    <span class="text-[10px] font-mono bg-white border px-1.5 rounded text-slate-500">PostgreSQL</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/RohiRIK/doc-crawler-ai-organizer" target="_blank" class="group block project-card">
+                            <div class="bg-slate-50 rounded-xl p-5 border border-slate-100 group-hover:border-blue-300 transition-all h-full">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h4 class="font-bold text-slate-900 group-hover:text-blue-600 transition-colors">Doc-Crawler AI</h4>
+                                    <span class="bg-purple-100 text-purple-700 text-[10px] font-bold px-2 py-0.5 rounded-full">Tool</span>
+                                </div>
+                                <p class="text-slate-600 text-xs mb-3">Enterprise-grade automation for crawling docs and organizing them into <span class="font-semibold text-slate-800">AI-ready markdown</span> for RAG workflows.</p>
+                                <div class="flex gap-2">
+                                    <span class="text-[10px] font-mono bg-white border px-1.5 rounded text-slate-500">Bash</span>
+                                    <span class="text-[10px] font-mono bg-white border px-1.5 rounded text-slate-500">AI Data</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/RohiRIK/o365-cli" target="_blank" class="group block project-card">
+                            <div class="bg-slate-50 rounded-xl p-5 border border-slate-100 group-hover:border-blue-300 transition-all h-full">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h4 class="font-bold text-slate-900 group-hover:text-blue-600 transition-colors">o365-cli</h4>
+                                    <span class="bg-orange-100 text-orange-700 text-[10px] font-bold px-2 py-0.5 rounded-full">v2.0</span>
+                                </div>
+                                <p class="text-slate-600 text-xs mb-3">Management suite powered by <span class="font-semibold text-slate-800">Rust & Bun</span>. Streamlines Entra ID and Security governance for global tenants.</p>
+                                <div class="flex gap-2">
+                                    <span class="text-[10px] font-mono bg-white border px-1.5 rounded text-slate-500">Rust</span>
+                                    <span class="text-[10px] font-mono bg-white border px-1.5 rounded text-slate-500">Bun</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="mt-6 pt-6 border-t border-slate-100">
+                        <p class="text-xs font-bold text-slate-400 uppercase mb-3">Other Experiments</p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                            <a href="https://github.com/RohiRIK/HiBob-Teams-Sync" target="_blank" class="project-link">
+                                <i class="fab fa-github opacity-50"></i> HiBob Teams Sync
+                            </a>
+                            <a href="https://github.com/RohiRIK/homelab-swarm-stack" target="_blank" class="project-link">
+                                <i class="fab fa-github opacity-50"></i> Homelab Swarm
+                            </a>
+                            <a href="https://github.com/RohiRIK/Project-Aegis" target="_blank" class="project-link">
+                                <i class="fab fa-github opacity-50"></i> Project Aegis
+                            </a>
+                            <a href="https://github.com/RohiRIK/doc-crawler-ai-organizer" target="_blank" class="project-link">
+                                <i class="fab fa-github opacity-50"></i> Doc Crawler
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+        </div>
+
+        <footer class="mt-12 text-center text-slate-400 text-xs py-4">
+            <p>© 2025 Rohi Rikman • Built with Tailwind CSS</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const options = { timeZone: 'Asia/Jerusalem', hour: '2-digit', minute: '2-digit', hour12: false };
+            const timeString = now.toLocaleTimeString('en-GB', options);
+            const display = document.getElementById('clockDisplay');
+            if(display) display.textContent = timeString;
+        }
+        setInterval(updateClock, 1000);
+        updateClock(); 
+    </script>
+</body>
+</html>

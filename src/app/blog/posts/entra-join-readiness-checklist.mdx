@@ -22,17 +22,12 @@ Two paths exist:
 
 The decision framework:
 
-**Wipe and Load (Supported)**
-- User tolerance: Fresh profile = disruption
-- App compatibility: Fresh device tests apps
-- Timeline: Faster to production
-- Help desk load: Spikes then normal
-
-**Workaround (Not Supported)**
-- User tolerance: Profile persists = less drama
-- App compatibility: Existing profile tests your apps
-- Timeline: Slower, more testing
-- Help desk load: Steady, then resolve
+| Factor | Wipe and Load (Supported) | Workaround (Not Supported) |
+|---|---|---|
+| User tolerance | Fresh profile = disruption | Profile persists = less drama |
+| App compatibility | Fresh device tests apps | Existing profile tests your apps |
+| Timeline | Faster to production | Slower, more testing |
+| Help desk load | Spikes then normal | Steady, then resolve |
 
 My rule of thumb: if your user population is comfortable with a fresh profile (or has OneDrive/Box sync), go wipe-and-load. If they have local data, custom app configs, or developer tooling that doesn't sync, test in-place first.
 
@@ -92,11 +87,13 @@ The question to ask: "Does this app work if the machine has no on-prem domain co
 
 Group Policy objects (GPOs) won't apply after Entra join. You need to convert them:
 
-**Security settings** → Intune Security Baselines (start there)
-**Firewall rules** → Settings Catalog > Firewall (lots of rules = messy)
-**Software installation** → App assign Intune (Win32 apps, not MSI)
-**Registry tweaks** → Settings Catalog > Registry (painful — minimize)
-**Startup scripts** → Intune Scripts (run as SYSTEM)
+| GPO Category | Intune Equivalent | Notes |
+|---|---|---|
+| Security settings | Intune Security Baselines | Start there |
+| Firewall rules | Settings Catalog > Firewall | Lots of rules = messy |
+| Software installation | App assign Intune | Win32 apps, not MSI |
+| Registry tweaks | Settings Catalog > Registry | Painful — minimize |
+| Startup scripts | Intune Scripts | Run as SYSTEM |
 
 Start with Microsoft's Intune Security Baselines. They're the fastest path to equivalent security posture.
 

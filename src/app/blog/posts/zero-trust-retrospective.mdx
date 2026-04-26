@@ -103,23 +103,14 @@ WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
 
 After three years, here's the friction ranking:
 
-**802.1X EAP failures** — Network phase
-Users can't connect to WiFi; RADIUS shows method mismatch
-
-**Device baseline conflicts** — Device phase
-Co-managed devices have conflicting policies from SCCM and Intune
-
-**Legacy app breakage** — Identity phase
-LOB apps fail when legacy auth is blocked
-
-**False-positive risky sign-ins** — Identity phase
-VPN users flagged as risky based on location
-
-**Hardware key loss** — MFA phase
-Users lose keys, no backup, lockout
-
-**Breakglass account lockout** — Foundation phase
-Breakglass account passwords expire or are not tested
+| Friction Point | Phase | Symptom |
+|---|---|---|
+| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
+| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM and Intune |
+| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
+| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
+| Hardware key loss | MFA | Users lose keys, no backup, lockout |
+| Breakglass account lockout | Foundation | Breakglass account passwords expire or are not tested |
 
 ## The Hard Lessons
 

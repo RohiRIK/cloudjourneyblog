@@ -73,10 +73,12 @@ Assign the app to pilot users/groups.
 
 Entra sends these claims to Google:
 
-**email** → Primary email
-**givenName** → First name
-**surname** → Last name
-**NameID** → Must match Google user's primary email
+| Entra Claim | Google Field |
+|---|---|
+| email | Primary email |
+| givenName | First name |
+| surname | Last name |
+| NameID | Must match Google user's primary email |
 
 The critical mapping: **NameID must match the user's primary email address in Google**. If it doesn't, sign-in fails.
 
@@ -138,17 +140,12 @@ The key insight: the user never enters a Google password. Entra owns the credent
 
 ## What You Gain
 
-**Before:** Users manage Google passwords separately
-**After:** Single Entra password
-
-**Before:** No Entra visibility into Google access
-**After:** CA policies apply before Google
-
-**Before:** Orphaned Google accounts on leavers
-**After:** Access cuts off when Entra disables
-
-**Before:** No unified session policy
-**After:** Entra controls session lifetime
+| Before Federation | After Federation |
+|---|---|---|
+| Users manage Google passwords separately | Single Entra password |
+| No Entra visibility into Google access | CA policies apply before Google |
+| Orphaned Google accounts on leavers | Access cuts off when Entra disables |
+| No unified session policy | Entra controls session lifetime |
 
 ## The Takeaway
 

@@ -86,25 +86,13 @@ This takes time. Give users 30 days to migrate, then enforce.
 
 ## The Enforcement Checklist
 
-**Consumer account block**
-How: `X-GoogApps-Allowed-Domains` header or managed browser sign-in restriction
-Effect: Personal Gmail can't sign in on managed devices
-
-**App Access Control**
-How: Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured
-Effect: No unapproved OAuth apps
-
-**Context-Aware Access**
-How: Require managed device (desktop: Endpoint Verification; mobile: endpoint management)
-Effect: Unmanaged devices blocked
-
-**Drive external sharing**
-How: Allowlist or trust rules for external sharing
-Effect: No uncontrolled file sharing
-
-**SSO**
-How: Entra ID to Google Workspace
-Effect: One identity, one credential
+| Control | Implementation | Effect |
+|---|---|---|
+| Consumer account block | X-GoogApps-Allowed-Domains header or managed browser sign-in restriction | Personal Gmail can't sign in on managed devices |
+| App Access Control | Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
+| Context-Aware Access | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
+| Drive external sharing | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
+| SSO | Entra ID to Google Workspace | One identity, one credential |
 
 **CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
 
