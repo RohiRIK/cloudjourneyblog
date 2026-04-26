@@ -1,30 +1,64 @@
 ---
 title: "End of Day Mac"
-summary: "macOS menu bar app that closes your work apps at the end of each day — with analytics and a custom day picker to match your schedule."
+summary: "macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits."
 image: "/images/avatar.png"
 tag: "Tool"
 publishedAt: "2026-04-26"
-link: "https://github.com/RohiRIK/end-of-day-mac"
+link: "https://github.com/RohiRIK/end-of-day-mac/releases/latest"
 ---
 
 ## What this is
 
-A menu bar app that runs in the background and closes your configured work apps when you tell it the day is done. No more manually quitting Slack, Chrome, VS Code, and the rest.
-
-## What's in it
-
-- **Menu bar residence** — Runs quietly in your macOS menu bar
-- **Configurable apps** — Choose which apps to close at end of day
-- **Custom day picker** — Set your specific work days (not every day is a work day)
-- **Analytics** — Track how often you end the day, which days you work late
-- **Launch at login** — Starts automatically when you log in
-
-## Why it matters
+A macOS menu bar app that closes your work apps at the end of each day — automatically or on demand. No more manually quitting Slack, Chrome, VS Code, and the rest.
 
 The goal isn't to stop working — it's to create a boundary. Having a physical ritual (clicking "end of day" in the menu bar) makes it easier to actually walk away.
+
+## Features
+
+- **Menu bar residence** — Runs quietly in your macOS menu bar, no Dock icon
+- **Custom day picker** — Choose exactly which days to run (Mon, Tue, Wed, Thu, Fri)
+- **Configurable apps** — Pick which apps to close — Slack, Chrome, VS Code, anything
+- **Per-app delay** — Stagger closes so apps have time to save (0-10 seconds per app)
+- **Countdown alert** — 30-second warning before apps close
+- **Pause Today** — Skip tonight without changing your schedule
+- **Snooze 30 min** — Delay the close from the alert or tray menu
+- **Analytics** — Track your streaks, total runs, apps closed, 7-day history
+- **Launch at login** — Starts automatically when you log in
+- **Uninstall** — Clean removal from within the app
+
+## How it works
+
+1. Double-click the app to open setup
+2. Pick a trigger time (e.g., 6:00 PM)
+3. Select which apps to close
+4. Choose which days to run
+5. The app runs in the menu bar all day
+6. At trigger time → 30s countdown → apps close → logged
+
+## Installation
+
+**Download:** Get `EndOfDay.app.zip` from the [latest release](https://github.com/RohiRIK/end-of-day-mac/releases/latest)
+
+**Or build from source:**
+```bash
+git clone https://github.com/RohiRIK/end-of-day-mac
+cd end-of-day-mac
+bash install.sh
+```
+
+Requires macOS 12+ and Xcode Command Line Tools.
+
+## Why I built it
+
+I used to manually quit every app every night. Then I'd check Slack one more time, then check GitHub one more time, and suddenly 20 minutes vanished.
+
+Now I click "End of Day" in the menu bar and walk away. The apps close themselves. The streak counter gives me a reason to actually use it.
+
+It's not about working less — it's about knowing when you're done.
 
 ## Stack
 
 - Swift / SwiftUI
 - AppKit for menu bar integration
+- launchd for background scheduling
 - UserDefaults for local persistence
