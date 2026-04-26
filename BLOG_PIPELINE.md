@@ -22,15 +22,13 @@
 | Building a Device Inventory Pipeline | Automation |
 | When HiBob Is Your Source of Truth | Automation |
 | Claude Code Config v3: LTM as Infrastructure | Dev Tools |
+| Cross-Platform Compliance Architecture | Security |
 
 ---
 
 ## 🔥 Tier 1 — Write Next (High Value, Ready Now)
 
-### 1. Compliance Architecture (OT Security Client)
-**What it is:** Zero Trust compliance enforcement across Windows, macOS, and Linux. Windows via Intune custom PowerShell scripts checking CrowdStrike Falcon CID + Netskope tenant. macOS via Kandji blueprint compliance connector. Linux custom bash compliance checks. 4-phase rollout with Gantt, tiered compliance model (kill switch vs nudge), grace period workflow.
-**Blog angle:** How to build a cross-platform compliance enforcement system — the full architecture for Windows + macOS + Linux with real kill-switch logic.
-**Tag:** Security / Infrastructure
+*No items — all Tier 1 topics are published. Check Tier 2 for queued topics.*
 
 ---
 
@@ -40,7 +38,7 @@
 **What it is:** Wazuh + MDI integration, AI-assisted alert triage, automated response playbooks.
 **Blog angle:** Building a lean AI-assisted SOC — how to layer intelligence on top of what you already own.
 **Tag:** Security / AI
-**Status:** Not Started — research needed
+**Status:** ✅ Completed — Drafts written, Oracle-reviewed, Build passes
 
 ### 7. The Robot Army (Personal Lab)
 **What it is:** VPS on Azure behind Azure WAF. Docker Swarm. n8n automation workflows. AI blogger automation, stock ETL pipeline, personal infra.
@@ -59,7 +57,7 @@
 **What it is:** Full hybrid → Entra-only migration. GPO → Intune Config Profiles. 802.1X SCEP cert-based WiFi auth. Legacy auth (LDAP/NTLM/Kerberos) dependency mapping. Wipe & Load vs Profwiz decision.
 **Blog angle:** The Entra Join readiness checklist — everything you must resolve before you can cut the domain cord.
 **Tag:** Infrastructure / Security
-**Status:** Not Started (planning in progress)
+**Status:** ✅ Completed — Drafts written, Oracle-reviewed, Build passes
 
 ### 11. New Environment for Their Website (Startup Client)
 **What it is:** Spinning up a new hosting environment for a client website — Azure WAF, VPS, infrastructure setup.
@@ -71,7 +69,7 @@
 **What it is:** Federated Google Workspace → Entra ID SSO. 28 completed tasks.
 **Blog angle:** How to federate Google Workspace to Entra ID — the SSO setup that lets you use Entra as the IdP for GWS.
 **Tag:** Identity / Infrastructure
-**Status:** Completed — needs writeup
+**Status:** ✅ Completed — Drafts written, Oracle-reviewed, Build passes
 
 ### 13. Zero Trust Program (Energy Sector Client)
 **What it is:** Zero Trust program for a large org. 57 tasks, in progress.
@@ -83,7 +81,7 @@
 **What it is:** CASB integration with Google Workspace for a university. Shadow IT elimination — migrating researchers from personal Gmail to managed GCP/GWS accounts. 9 tasks.
 **Blog angle:** Using CASB to force-migrate shadow IT — how to make personal Gmail unusable inside a managed network.
 **Tag:** Security / Infrastructure
-**Status:** In Progress
+**Status:** ✅ Completed — Drafts written, Oracle-reviewed, Build passes
 
 ---
 
@@ -98,6 +96,7 @@
 **What it is:** Full Zero Trust program: MDE deployment, Intune security baselines, Conditional Access, phishing-resistant MFA, 802.1X, MDI. Multi-year engagement.
 **Blog angle:** A Zero Trust program retrospective — what we actually implemented, in what order, and what broke.
 **Tag:** Security
+**Status:** ✅ Completed — Drafts written, Oracle-reviewed, Build passes
 
 ### 17. Zero Trust Program (Academic Sector Client)
 **What it is:** Zero Trust program for a university environment.

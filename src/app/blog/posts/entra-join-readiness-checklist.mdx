@@ -1,0 +1,186 @@
+---
+title: "The Entra Join Readiness Checklist: Everything You Must Resolve Before Cutting the Domain Cord"
+summary: "Moving from hybrid Azure AD join to Entra-only join isn't a flip-a-switch decision. Here's the practical checklist of what to resolve before you cut the domain cord — and the decision framework for wipe-and-reload versus in-place migration."
+image: "/images/blog/entra-join-readiness-checklist.png"
+publishedAt: "2026-04-26"
+tag: "Security"
+---
+
+If you're running a hybrid environment — devices joined to both on-premises AD and Entra ID — you've been living in a transition state. The common wisdom is "just migrate to Entra join" but the reality is messier than that.
+
+The moment you cut the hybrid link, every legacy dependency — group policy, LDAP auth, NTLM, certificate-based WiFi — becomes a blocker. You don't discover these until the migration is in progress.
+
+This is the checklist I've built from three Entra join migrations. Resolve these before you flip the switch.
+
+## The Core Decision: Supported Path vs. Unsupported Workaround
+
+Two paths exist:
+
+**Reset and reprovision (supported)** — Autopilot wipes the device, re-enrolls it fresh as Entra-joined. User gets a clean profile. This is Microsoft's recommended path.
+
+**In-place (unsupported workaround)** — Some teams attempt to preserve user profile by manually disconnecting from AD and registering to Entra without wiping. This is NOT a fully supported conversion path and carries risk. Profile migration tools may help, but there's no official wizard for this.
+
+The decision framework:
+
+| Factor | Wipe and Load (Supported) | Workaround (Not Supported) |
+|--------|--------------|----------|
+| User tolerance | Fresh profile = disruption | Profile persists = less drama |
+| App compatibility | Fresh device tests apps | Existing profile tests your apps |
+| Timeline | Faster to production | Slower, more testing |
+| Help desk load | Spikes then normal | Steady, then resolve |
+
+My rule of thumb: if your user population is comfortable with a fresh profile (or has OneDrive/Box sync), go wipe-and-load. If they have local data, custom app configs, or developer tooling that doesn't sync, test in-place first.
+
+## The Readiness Checklist
+
+### 1. Device Inventory
+
+Before anything, know what you're working with:
+
+- **Join state** — Which devices are hybrid, which are already Entra-joined, which are still plain domain-joined
+- **OS version** — Entra join requires Windows 10 20H2+ or Windows 11. Older versions need patching or replacing
+- ** TPM version** — 2.0 required for Windows Hello for Business. Check via `Get-Tpm`
+- **BitLocker status** — Encryption keys must be escrowed to Intune or AD. Unencrypted machines block post-migration
+- **Last check-in** — Devices that haven't checked in for 30+ days are stale. Handle before migration
+
+Pull this from Intune: Device > Monitor > Enrollment status. Cross-reference with AD DS computer objects.
+
+### 2. Licensing and Entra ID Readiness
+
+Entra join requires one of the following licensing combinations:
+- **Microsoft 365 E3/E5** — includes Entra ID P1 and Intune
+- **Business Premium** — includes Intune
+- **Entra ID P1/P2 + Intune** — standalone combinations work
+- **EMS E3/E5** — includes Intune
+
+Check your existing tenant subscriptions. Also ensure:
+- **MDM enrollment** is scoped for your user population
+- Users have permission to join devices to Entra ID (default is all users can join; restrict via Entra ID > Devices > Device settings if needed)
+
+### 3. Network and Authentication
+
+These network endpoints must be reachable from devices post-migration. Validate against the official Intune and Autopilot endpoint documentation — don't hardcode a partial list:
+
+- **Entra ID authentication**: `login.microsoftonline.com`, `login.windows.net`
+- **Device enrollment**: `enterpriseenrollment.manage.microsoft.com`, `enterpriseenrollment-s.manage.microsoft.com`
+- **Intune push and management**: `*.manage.microsoft.com`, `*.dm.microsoft.com`
+- **Windows services**: `time.windows.com`, `settings-win.data.microsoft.com`
+- **Autopilot services**: `ztd.dds.microsoft.com`, `cs.dds.microsoft.com`
+- **Windows Update**: various, per official docs
+
+Test network connectivity from an external machine before migration day.
+
+### 4. Application Dependencies
+
+This is where most migrations die. Map your LOB apps:
+
+- **Legacy Win32 apps** — Anything installers from a file share, or that runs as a Windows service — test on the Entra-joined device first
+- **Network share access** — `\\server\share` paths require either:
+  - Line-of-sight to on-prem (not always possible)
+  - Azure Files with Entra ID authentication
+  - VPN for occasional access
+- **LDAP-dependent apps** — Line-of-business apps authenticating to AD DS directly. Either cloud-enable them or accept VPN-only access
+
+The question to ask: "Does this app work if the machine has no on-prem domain controller contact?"
+
+### 5. Group Policy to Intune Migration
+
+Group Policy objects (GPOs) won't apply after Entra join. You need to convert them:
+
+| GPO Category | Intune Equivalent | Notes |
+|--------------|-------------------|-------|
+| Security settings | Intune Security Baselines | Start there |
+| Firewall rules | Settings Catalog > Firewall | Lots of rules = messy |
+| Software installation | App assign Intune | Win32 apps, not MSI |
+| Registry tweaks | Settings Catalog > Registry | Painful — minimize |
+| Startup scripts | Intune Scripts | Run as SYSTEM |
+
+Start with Microsoft's Intune Security Baselines. They're the fastest path to equivalent security posture.
+
+What won't convert: drive mappings, logon scripts, folder redirection. Handle those via:
+- Intune Startup Scripts
+- PowerShell scripts via Proactive Remediation
+- Or accept they're gone post-migration
+
+### 6. Conditional Access Triage
+
+Your existing CA policies probably reference "Hybrid joined" or "Domain joined." Post-migration, those devices are neither. Recategorize:
+
+- **Compliant device** — The new baseline. If Intune sees it compliant = grant.
+- **Entra joined** — Specific to cloud-only devices.
+- **Managed** — Hybrid + MDM enrolled. Keep both categories during transition.
+
+During migration, use a temporary policy:
+```
+Grant access IF: Device is compliant OR MFA is completed
+```
+Then lock down post-migration to:
+```
+Grant access IF: Device is compliant
+```
+
+Maintain a break-glass account — a tenant-wide admin that bypasses CA. Store credentials offline. If CA breaks your admin out, you need recovery.
+
+### 7. Legacy Auth Detection
+
+Find what still uses legacy auth (NTLM, LDAP simple bind):
+
+Run this in your DC:
+```
+Get-WinEvent -LogName Security | Where-Object {$_.Message -match "NTLM"} | Select -First 50
+```
+
+In Entra ID Protection reports:
+- Sign-ins using legacy auth (brute-force target)
+- Non-compliant device auth attempts
+
+Target these apps first for replacement or retirement.
+
+### 8. Data and Profile Protection
+
+Before migration day:
+
+- **OneDrive Known Folder Move** — If users store documents locally, enable and verify that Desktop/Documents/Pictures sync to OneDrive. Otherwise they lose data when the profile wipes.
+- **Local admin recovery** — Post-Entra, domain admin access is removed. Ensure Windows LAPS is configured (either cloud-managed or via Intune) so help desk can recover local admin password if needed.
+
+### 9. Pre-Sign-In Network
+
+Entra-joined devices authenticate to the cloud before desktop loads. For remote workers:
+- WiFi needs to authenticate via user Entra credentials, not machine certificates
+- VPN needs to allow traffic to `login.microsoftonline.com` and related endpoints pre-logon
+
+### 10. Post-Migration Validation
+
+After migration, validate:
+
+- Device shows as "Entra joined" in Intune device inventory
+- Intune enrollment active
+- BitLocker recovery keys accessible (Intune > Device > BitLocker)
+- User can sign in with Entra ID (SSO flows correctly)
+- Conditional Access grants access based on compliance
+- Network shares — if required, accessible via VPN or Azure Files
+
+## The Rollout Sequence
+
+1. **Audit** — Inventory devices, licenses, apps, network dependencies (2 weeks)
+2. **Pilot** — Wipe-and-load 5-10 users in IT, validate everything (1 week)
+3. **Wave 1** — Department-by-department migration, watch help desk (1-2 weeks)
+4. **Wave 2** — Remaining users, disable hybrid enrollment (1 week)
+5. **Post-migration** — Disable hybrid join in Entra Connect, clean up legacy auth
+
+## What Breaks First
+
+In my experience, in this order:
+
+1. **Line-of-business apps** — The app that won't launch because it wants AD. Test every app.
+2. **Mapped drives** — `\\server\share` that doesn't work post-migration. Fix Azure Files or accept VPN.
+3. **Certificate-based WiFi** — certs from on-prem CA expire. Need SCEP or cloud PKI renewal.
+4. **Printer mapping** — On-prem print servers. Fix via Universal Print or accept local-only.
+
+## The Takeaway
+
+The migration fails not because Entra join is complicated — it fails because legacy dependencies weren't mapped. Do the audit. Test the apps. Convert GPOs before migration day.
+
+If your org is fine with a fresh profile, wipe-and-load via Autopilot is cleaner than in-place. If users have too much local state, in-place works — but test everything twice.
+
+The checklist above isn't optional. Skip it, and migration week becomes incident response.

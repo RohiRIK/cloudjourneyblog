@@ -1,0 +1,163 @@
+---
+title: "AI-Driven SOC: Layering Intelligence on Top of What You Already Own"
+summary: "Most SOC teams don't need a new platform — they need the tools they already have to work together smarter. Here's how to build an AI-assisted security operations capability using Wazuh, Microsoft Defender, and lightweight automation."
+image: "/images/blog/ai-driven-soc-assistant.png"
+publishedAt: "2026-04-25"
+tag: "Security"
+---
+
+Your SOC is not as under-equipped as it feels. You probably have Wazuh collecting logs, Microsoft Defender for Endpoint running on endpoints, and some kind of ticketing system. The problem isn't tooling — it's that those tools don't talk to each other intelligently, and your analysts spend too much time switching between them to do real security work.
+
+The fix isn't buying a new platform. It's wiring what you have into a system that can pre-triage alerts, enrich them with context, and route the right ones to the right people automatically.
+
+This is how to build a lean AI-assisted SOC.
+
+## The Core Problem: Alert Volume vs. Analyst Time
+
+A mid-size organization's security stack generates hundreds of alerts per day. Most of them are noise — known tooling, routine scans, misconfigured services. Your analysts know this, but they have to check every alert to know that. The result: fatigue, slow MTTR on real incidents, and talented people spending their time on things that don't matter.
+
+AI-assisted triage addresses this directly. The goal isn't to replace analysts — it's to handle the 60-80% of alerts that are obvious false positives, leaving analysts to focus on the alerts that actually require human reasoning.
+
+## How the Three Layers Fit Together
+
+Think of your SOC stack as three functional layers:
+
+- **Detection layer** — Wazuh, collecting and correlating logs from across your environment
+- **Enrichment layer** — AI reasoning over alert context to score and classify
+- **Response layer** — SOAR playbooks that execute automatically or on approval
+
+Each layer handles what it's good at. Wazuh is good at volume log collection and rule-based detection. LLMs are good at synthesizing context and scoring ambiguity. Playbooks are good at executing repetitive response actions without error.
+
+The logical data flow is detection → enrichment → response. The typical rollout order is: first wire the integration, then add one deterministic playbook, then layer AI-generated summaries and confidence scoring on top.
+
+```
+Wazuh (log aggregation + rule detection)
+    │
+    │ ← Microsoft Defender alerts via ms-graph module
+    ▼
+AI Pre-Triage (classify + score + enrich)
+    │
+    ├── Low confidence → auto-close with audit log
+    ├── Medium → analyst queue with AI-generated summary
+    └── High → escalate with Living Response Plan
+    │
+    ▼
+SOAR Playbook (automated response, human approval gate)
+```
+
+## Layer 1: Wazuh + Microsoft Defender Integration
+
+Wazuh has a built-in `ms-graph` module (Wazuh 4.6+) that polls Microsoft Graph API for security alerts from Microsoft 365 Defender. The `security/alerts_v2` and `security/incidents` relationships deliver the enriched Graph alert schema — MITRE ATT&CK technique mapping, related file hashes, evidence details, IOC context. This is significantly richer than the legacy `alerts` endpoint.
+
+One thing to know: this is pull, not push. Wazuh polls every 5 minutes by default. If MDI generates an alert at 10:00 and Wazuh doesn't poll until 10:05, you have a 5-minute detection delay. For most SOCs this is fine. If you need sub-minute latency on critical alerts, you'd need a different architecture.
+
+Microsoft Graph sign-in logs have a documented ingestion delay of up to 15 minutes. If you're pulling `auditLogs/signIns`, set a longer `time_delay` value (e.g., `15m`) or you'll silently skip sign-in events that exist but haven't been indexed yet.
+
+The OAuth app registration uses app-only permissions (client credentials flow) with admin consent. Create the app registration in Microsoft Entra — not in the Defender portal. The minimum permissions depend on what you're ingesting:
+- `SecurityAlert.Read.All` — for `alerts_v2`
+- `SecurityIncident.Read.All` — for `incidents`
+- `AuditLog.Read.All` — if you're also pulling `auditLogs/signIns`
+
+An abridged ms-graph configuration (Wazuh 4.6+) looks like this — full working config will vary by version and tenant:
+
+```xml
+<ms-graph>
+    <enabled>yes</enabled>
+    <run_on_start>yes</run_on_start>
+    <interval>5m</interval>
+    <api_auth>
+        <client_id>your_app_id</client_id>
+        <tenant_id>your_tenant_id</tenant_id>
+        <secret_value>your_secret_value</secret_value>
+    </api_auth>
+    <resource>
+        <name>security</name>
+        <relationship>alerts_v2</relationship>
+        <relationship>incidents</relationship>
+    </resource>
+</ms-graph>
+```
+
+One thing to know: this is a pull model. End-to-end visibility depends on polling interval plus Microsoft-side event availability. For sign-in logs in particular, add `time_delay` to reduce the risk of querying before events are indexed.
+
+## Layer 2: AI-Assisted Alert Triage
+
+AI triage answers four questions for every incoming alert:
+
+1. What happened?
+2. Why does it matter relative to our environment?
+3. What evidence supports it?
+4. What do I do next?
+
+The practical implementation uses a RAG (Retrieval Augmented Generation) pattern. When an alert fires, the system:
+1. Collects related telemetry — endpoint events around the same time window, identity signals, network logs
+2. Correlates with asset criticality — is this a Tier 1 server or a build server?
+3. Checks threat intelligence — VirusTotal, AbuseIPDB, AlienVault OTX
+4. Generates a confidence score and a pre-built investigation summary (the "Living Response Plan")
+
+The output that reaches the analyst isn't a raw alert — it's a structured brief: here's what fired, here's the asset, here's the context, here's the recommended action.
+
+What I've found in practice: the biggest win is usually collapsing five consoles into one triage view. Rather than context-switching between Wazuh, Defender, the email gateway, and the ticketing system, the analyst gets one summary that pulls the relevant signals from each. That's what moves MTTR, not the model being smarter than a human.
+
+The critical thing to understand: LLMs don't "understand" attacks. They pattern-match against training data and synthesize context. They excel at noise reduction and bringing related signals together. On novel attack patterns, they fail. Human analysts are still required for anything that genuinely breaks the pattern.
+
+In practice, the model writes the summary and rationale, but the confidence score should come from deterministic features — alert severity, asset criticality, IOC hits, user risk level, campaign clustering. Log the prompt context, model output, and analyst disposition for auditability and tuning.
+
+**What to let AI handle:**
+- Phishing email analysis (URL parsing, domain reputation, attachment hash lookups)
+- Failed login clustering (aggregate 50 failed logins into one grouped alert)
+- Password spray detection triage
+- Routine vulnerability scan alert enrichment
+- Shift handover summaries
+
+**What to keep human-only:**
+- Ransomware containment (irreversible)
+- Account deletion
+- Domain blocking
+- Anything requiring legal evidence preservation
+
+## Layer 3: SOAR Playbooks
+
+The playbook layer handles repetitive response actions. The minimum viable playbook — the kind you can build in an afternoon with Shuffle or even a Python script — handles the phishing response workflow:
+
+```
+1. Extract: sender email, subject, URLs, attachments, headers
+2. Enrich: VirusTotal hash check, domain reputation, sender domain age, SPF/DKIM/DMARC status
+3. Classify:
+   - High confidence (all indicators bad) → auto-quarantine matching messages, hold sender/domain blocking for analyst approval
+   - Medium confidence (mixed signals) → queue for Tier 1 review
+   - Low confidence (nothing conclusive) → generate analyst brief, no action
+4. Notify: Slack/Teams alert with verdict + IOCs
+5. Document: audit trail entry (what, when, outcome)
+```
+
+The key distinction: message-scoped actions (quarantine a specific email, tag a ticket) are automatable because their blast radius is contained. Sender/domain blocking and user suspension affect the entire tenant — those always go through the approval gate.
+
+The enrichment phase is where most playbook value comes from. A VirusTotal check that would take an analyst 3 minutes happens in 200ms. A domain reputation lookup that requires context-switching to a different tool happens automatically.
+
+Every playbook needs an approval gate for high-impact actions. The playbook shouldn't auto-disable a user account or block a domain without a human confirming first. Build it like this:
+
+```
+IF action == "disable_user" OR action == "block_domain":
+    PAUSE
+    SEND_APPROVAL_REQUEST(analyst, action_details)
+    IF analyst APPROVES:
+        EXECUTE
+    ELSE:
+        LOG("action denied by analyst")
+        ESCALATE
+```
+
+The best teams measure playbook success with: alert volume reduction over time, MTTR for critical alerts, and false positive rate. If your false positive rate isn't dropping as you tune, your detection rules need work — not more automation.
+
+## What This Actually Costs
+
+The tooling stack above — Wazuh, Microsoft Defender, Shuffle (self-hosted, open-source) — is either free or already in your existing Microsoft licensing. The real cost is detection engineering time: writing the rules, tuning the thresholds, building the playbooks, and training the analysts to work with AI-generated briefs instead of raw alerts.
+
+That's not a software cost. It's a process cost. And it's the part that most teams underestimate when they buy a SOAR platform and expect it to solve their alert fatigue.
+
+## The Takeaway
+
+Keep detections deterministic. Keep high-impact actions gated behind human approval. Use AI to compress the time your analysts spend context-switching — not to replace their judgment.
+
+The teams that get this right start small, measure everything, and expand only when the previous step is working.

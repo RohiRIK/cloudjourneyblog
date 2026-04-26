@@ -1,0 +1,154 @@
+---
+title: "Google Workspace to Entra ID Federation: The SSO Setup That Actually Works"
+summary: "Setting up Google Workspace to use Entra ID as the Identity Provider isn't just checking a box. Here's the practical walkthrough of SAML federation, claims mapping, and what breaks when you get it wrong."
+image: "/images/blog/google-workspace-entra-federation.png"
+publishedAt: "2026-04-27"
+tag: "Identity"
+---
+
+Federating Google Workspace to Entra ID sounds straightforward — flip the switch in the admin console and suddenly your users sign in with Entra credentials. The reality is more nuanced. Here's what actually happens and how to get it right.
+
+## Why Federate at All
+
+The value isn't just SSO. It's consolidating your identity authority. When Entra is the IdP:
+
+- **One identity** — Users exist in Entra, authenticate to Entra, access Google Workspace. No separate Google password to manage.
+- **Conditional Access** — You can apply Entra CA policies before letting users into Google. MFA requirements, session limits, risk-based access — all enforced before Google sees the request.
+- **Lifecycle** — When a user leaves Entra, they can't access Google. No orphaned accounts.
+
+The alternative — local Google passwords with no Entra visibility — is the risk you're removing.
+
+## The Architecture
+
+Two systems, one federation contract:
+
+```
+User → Google Workspace (SP) → Entra ID (IdP) → SAML Response → User in Google
+```
+
+- **Entra ID** acts as the SAML Identity Provider
+- **Google Workspace** acts as the Service Consumer (via Federated Directory)
+- The glue is SAML 2.0 — standard, well-documented, but picky about configuration
+
+The flow:
+
+1. User visits `mail.google.com` or any Google property
+2. Google detects federated domain, redirects to Entra with SAML AuthnRequest
+3. Entra prompts for authentication (password + MFA if configured)
+4. Entra returns SAML Assertion with user identity claims
+5. Google validates assertion, creates session, user lands in Google Workspace
+
+Two flows exist: SP-initiated (user starts at Google) and IdP-initiated (user starts at Entra, gets redirected to Google). Both work post-setup.
+
+## The Setup Steps
+
+### 1. Prepare Your Domains
+
+Confirm both domains are verified in their respective consoles:
+- In Entra, your primary domain must be verified
+- In Google Admin, your domain must be listed
+
+### 2. Create the Enterprise App in Entra
+
+In Entra ID admin center:
+- Add app > Google Workspace (from the gallery)
+- Set up SSO > SAML
+- **Important**: You'll populate this with values from Google in the next step — don't guess the endpoints.
+
+### 3. Configure Google SSO Profile
+
+In Google Admin > Security > Authentication > SSO with third-party IdP:
+- Create a new SSO profile (or use the preconfigured Microsoft Entra profile if available)
+- Copy these values from Google to Entra:
+  - **Entity ID** (from Google)
+  - **ACS URL** (from Google)
+- Then populate Entra with:
+  - **IdP Login URL**: Your Entra SSO URL
+  - **IdP Logout URL**: Your Entra logout URL
+  - **IdP Certificate**: Upload the Entra signing certificate
+
+Assign the app to pilot users/groups.
+
+### 4. Claims Mapping
+
+Entra sends these claims to Google:
+
+| Entra Claim | Google Field |
+|-----------|-------------|
+| email | Primary email |
+| givenName | First name |
+| surname | Last name |
+| NameID | Must match Google user's primary email |
+
+The critical mapping: **NameID must match the user's primary email address in Google**. If it doesn't, sign-in fails.
+
+### 5. Provisioning (Optional But Recommended)
+
+Federation handles **authentication** — it doesn't create Google accounts. Users must exist in Google Workspace to sign in.
+
+Two paths:
+- **Manual**: Pre-create users in Google before they authenticate
+- **Automatic**: Enable Entra provisioning to Google (via Entra ID > Google app > Provisioning). This syncs users from Entra to Google — create, update, disable — on a regular schedule.
+
+Most production deployments enable automatic provisioning to keep Google accounts in sync with Entra. Without it, you must manually create users in Google before they can sign in.
+
+## What Breaks First
+
+### NameID/Email Mismatch
+
+The most common error post-setup: authentication fails at Google because the NameID claim doesn't match the user's primary email in Google.
+
+Fix: Ensure the email claim from Entra matches exactly what's in the Google user's profile.
+
+### Wrong ACS or Entity ID
+
+If the SAML endpoints are mismatched between Entra and Google, the assertion gets rejected.
+
+Fix: Verify Google provides the correct ACS URL and Entity ID, and those are exactly what's configured in Entra.
+
+### Certificate Expiration
+
+Entra's SAML signing certificate expires Yearly (check your app's certificate expiry). Put a calendar reminder 30 days before. When it expires, users can't sign in until you update the certificate in Google admin.
+
+### User Not Provisioned
+
+If a user exists in Entra but not in Google, and provisioning is disabled, authentication fails.
+
+Fix: Enable automatic provisioning, or manually create users in Google before they attempt to sign in.
+
+### Not Assigned to App
+
+Sometimes forgotten: the user or their group isn't assigned to the Google app in Entra.
+
+Fix: Assign the app to the pilot group in Entra > Enterprise App > Assignments.
+
+## The Auth Flow in Plain English
+
+```
+Browser starts at mail.google.com 
+    ↓
+Google sees federated domain, redirects (SAML AuthnRequest) to Entra
+    ↓
+User enters credentials at Entra (MFA triggers here if enabled)
+    ↓
+Entra validates, issues SAML Assertion with email + name + ImmutableId
+    ↓
+Google receives assertion, matches ImmutableId to Google user, logs in
+```
+
+The key insight: the user never enters a Google password. Entra owns the credential entry, password complexity, MFA enforcement. Google just trusts Entra's assertion.
+
+## What You Gain
+
+| Before Federation | After Federation |
+|---------------|---------------|
+| Users manage Google passwords separately | Single Entra password |
+| No Entra visibility into Google access | CA policies apply before Google |
+| Orphaned Google accounts on leavers | Access cuts off when Entra disables |
+| No unified session policy | Entra controls session lifetime |
+
+## The Takeaway
+
+The setup isn't hard — it's exacting. Get the SAML metadata right, map ImmutableId correctly, enable provisioning, and test both SP and IdP flows. Once federated, you've moved the authentication authority to Entra and consolidated your identity stack.
+
+Don't skip the test phase. Try it with one pilot user before rolling it out domain-wide.

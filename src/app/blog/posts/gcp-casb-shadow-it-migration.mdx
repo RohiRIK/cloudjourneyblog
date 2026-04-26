@@ -1,0 +1,124 @@
+---
+title: "Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network"
+summary: "Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable."
+image: "/images/blog/gcp-casb-shadow-it-migration.png"
+publishedAt: "2026-04-28"
+tag: "Security"
+---
+
+Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
+
+This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
+
+## The Problem: Shadow IT in Google Workspace
+
+Every organization has it: users who default to personal accounts for convenience. Personal Gmail on work devices. Personal Drive for sharing. Personal Calendar for everything.
+
+The risks:
+- **No DLP** — Company data leaves to personal accounts with no controls
+- **No audit trail** — You can't investigate a data leak if you don't know it happened
+- **No lifecycle** — When they leave, access to work data persists in their personal account
+- **Compliance risk** — Often noncompliant with internal policy and regulated data-handling requirements
+
+The goal: make personal Gmail unusable for work purposes without breaking legitimate personal use on personal devices.
+
+## How CASB Fits In
+
+CASB (Cloud Access Security Broker) sits between your users and cloud services, providing:
+- **Visibility** — What cloud apps are being used?
+- **Data protection** — DLP policies applied to cloud traffic
+- **Threat protection** — Anomaly detection for cloud usage
+- **Access control** — Block or restrict based on context
+
+Google Workspace integrates with CASB via API, not inline proxy. Google explicitly recommends API/offline CASB patterns over inline proxies — inline CASBs exist but aren't the preferred path. For most orgs, Google-native controls (DLP, Reports API, App Access Management) cover much of what you need before considering third-party CASB.
+
+### Shadow IT Discovery
+
+Before you can block, you need to know what you're dealing with. The CASB (or Google Workspace audit logs) reveals:
+
+- **OAuth token inventory** — Which third-party apps have user-authorized access to their Google data
+- **Login activity** — Where are users authenticating from?
+- **Drive sharing** — What's being shared externally?
+- **App usage** — Which apps are accessing Google Workspace data?
+
+In Google Workspace Admin console, go to Security > API controls > Access management. Review OAuth app entries — check ownership (Google-owned/internal/third-party), requested scopes, and user count. The CASB dashboard often surfaces this more visually.
+
+Apps are categorized as **Trusted** (full access), **Limited** (specific Google data only), **Blocked** (no access), or the default for unconfigured apps. Mark unknown third-party apps as Blocked after reviewing scope and ownership.
+
+## The Migration Strategy
+
+### Phase 1: Discover and Categorize
+
+List every external app accessing your users' Google data. Categorize:
+- **Approved** — IT-sanctioned, security reviewed
+- **Tolerated** — Not ideal but not blocked yet
+- **Blocked** — Shadow IT, must go
+
+The CASB dashboard usually provides this. If not, export audit logs and pivot in Excel.
+
+### Phase 2: Offer a Better Alternative
+
+Users go to personal Gmail because the sanctioned option isn't convenient. Fix that:
+
+- **Google Workspace** — If you don't have it, get it. Every user gets company @company.com account.
+- **Shared drives** — Centralize file storage so personal Drive isn't needed
+- **SSO** — Single sign-on from Entra ID to Google Workspace removes the password burden
+
+### Phase 3: Enforce with Policy
+
+Now block. The enforcement stack, in order of impact:
+
+**1. Block personal Google accounts** — This is what actually makes personal Gmail unusable on managed devices. Configure via proxy: `X-GoogApps-Allowed-Domains: yourdomain.com`, or in Google Admin console > Security > Managed browser > Restrict sign-in to managed accounts. This stops users from adding their personal @gmail.com account to Chrome or signing into personal Gmail on managed machines.
+
+**2. App Access Control** — In Security > API controls > Access management, configure apps as Trusted / Limited / Specific Google data / Blocked. This controls OAuth grants, not browser access. Set default to Blocked for unconfigured apps if you want zero tolerance.
+
+**3. Context-Aware Access** — Verify managed device before granting access to Workspace apps. Requires Endpoint Verification on desktop; mobile uses Google endpoint management (Intune, Jamf, etc.) for device signals.
+
+### Phase 4: Data Migration
+
+For users with existing personal Gmail data that needs to come over:
+
+1. **Data import** — Admin imports personal Gmail to corporate account via Security > Data export and management > Data migration. Requires user authorization — they authorize their personal Gmail access. This isn't the "Google Workspace Migrate" tool (that's for Exchange migrations).
+2. **Takeout** — User exports personal Drive, admin migrates to Shared Drive
+3. **Calendar migration** — User exports from personal calendar, imports to corporate or shares calendar with corporate account
+
+This takes time. Give users 30 days to migrate, then enforce.
+
+## The Enforcement Checklist
+
+| Control | Implementation | Effect |
+|---------|---------------|--------|
+| **Consumer account block** | `X-GoogApps-Allowed-Domains` or managed browser sign-in restriction | Personal @gmail.com can't sign in on managed devices |
+| **App Access Control** | Set apps to Trusted/Limited/Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
+| **Context-Aware Access** | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
+| **Drive external sharing** | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
+| **SSO** | Entra ID → Google Workspace | One identity, one credential |
+
+**CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
+
+## What Actually Breaks First
+
+In practice, this enforcement breaks these workflows:
+
+1. **User's personal phone** — They can't check corporate email on their personal Android/iOS without management installed. Solution: offer MDM enrollment or accept the limitation.
+
+2. **Third-party tools** — Users who authorized random SaaS apps lose access. Solution: pre-approve the most common ones (Zoom, Slack, etc.).
+
+3. **Contractors** — External users without managed devices. Solution: dedicated contractor accounts with limited access, or accept unmanaged access with increased monitoring.
+
+4. **Endpoint Verification sync delays** — Compliant desktops get blocked before they sync device status. Google's docs explicitly warn about this. Run in monitor mode first.
+
+5. **OAuth restrictions break integrations fast** — Zoom, Slack, calendaring add-ons, scanners, backup tools — all need explicit app access configuration or users lose functionality.
+
+6. **Delegated mailbox access** — Consumer account blocking with `X-GoogApps-Allowed-Domains` can break delegated mailbox access if the delegate's domain isn't in allowed headers.
+
+## The Takeaway
+
+You can't uninvent personal Gmail. Your users will always have personal accounts. What you can do is make it operationally useless for work:
+
+- DLP policies block data exfiltration
+- Context-Aware Access restricts access to managed devices
+- SSO removes the password management burden
+- Structured migration moves existing data to corporate
+
+The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.

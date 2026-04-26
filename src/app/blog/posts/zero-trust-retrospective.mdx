@@ -1,0 +1,131 @@
+---
+title: "Zero Trust Rollout Retrospective: What Actually Broke"
+summary: "A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first."
+image: "/images/blog/zero-trust-retrospective.png"
+publishedAt: "2026-04-29"
+tag: "Security"
+---
+
+We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
+
+## The Implementation Sequence
+
+Zero Trust isn't a product you buy. It's a sequence of controls you enforce, in order, with each phase creating the foundation for the next.
+
+### Phase 1: Emergency Access & Monitoring Foundation
+
+Before touching anything else, you need:
+
+- **Breakglass accounts** — Named emergency accounts that bypass all Conditional Access. Don't use these daily. Test them quarterly.
+- **Alerting baseline** — What does normal look like? Capture login patterns, device health, app usage before you start blocking.
+
+This is the unsexy phase that saves you when Phase 3 locks everyone out.
+
+### Phase 2: Security Info Registration
+
+Before enforcing MFA, users need to register authentication methods. Set this up first:
+- **Auth methods policy** — Enable Microsoft Authenticator, FIDO2, Windows Hello for Business
+- **Temporary Access Pass** — One-time codes for users who lose hardware keys
+- **Report-only mode** — Test CA policies before enforcing
+
+### Phase 3: Block Legacy Authentication
+
+Legacy auth (SMTP auth, basic auth, POP/IMAP) is the attack surface. Block it:
+
+```
+Conditional Access > Assignments > Cloud apps > All apps
+Conditions > Client apps > Select Exchange ActiveSync clients and Other clients
+Controls > Grant > Block access
+```
+
+Block legacy auth too early and you'll break:
+- Legacy application integrations
+- Service accounts with password auth only
+- Old MFA integrations that sit behind legacy protocols
+
+**What broke first:** SMTP-authenticated printer scanning and IoT device integrations. Both used basic auth with no modern auth path.
+
+### Phase 3: MFA Enforcement
+
+Phishing-resistant MFA is the goal. FIDO2 hardware keys. But hardware keys have procurement and onboarding friction:
+
+- Procurement: Buy 50 keys, distribute to Tier-1 roles (privileged users, admins)
+- Onboarding: Users need to register in-browser with Chrome/Edge (Firefox support is spotty)
+- Policy: Require phishing-resistant MFA for admin roles; offer standard MFA as fallback for general users
+
+**What broke first:** Users who lost their hardware keys. Registration flow required a new key + backup key, and the process times out fast.
+
+### Phase 4: Device Compliance (Intune Baselines)
+
+Intune security baselines + Conditional Access is where device trust lives:
+
+- **Windows baseline** — BitLocker, Windows Defender, firewall rules
+- **Device compliance policy** — Require Microsoft Entra hybrid joined OR compliant device
+- **MDE integration** — Device risk from Defender feeds CA decisions
+
+**What broke first:** Microsoft Entra hybrid join fails when:
+- Stale device objects in on-prem AD aren't cleaned up
+- Line-of-business apps still query on-prem AD only (no cloud auth path)
+- Users are co-managed (Intune + SCCM) and the policy boundary isn't clear
+
+### Phase 5: Session Controls
+
+Sign-in frequency and device restrictions for existing sessions:
+- **Sign-in frequency** — Re-authenticate after X hours or when device state changes
+- **Persistent browser** — Block to prevent session cookie replay
+- **App-enforced restrictions** — Disable clipboard/file copy for unmanaged devices
+
+### Phase 6: Risk-Based Conditional Access
+
+Identity Protection risk signals drive dynamic policies:
+
+- **High-risk sign-in** — Block or require MFA
+- **Risky user** — Force password reset
+- **Microsoft Defender for Identity** — Detect lateral movement, privilege escalation, and domain escalation attacks
+
+**What broke first:** False positives. Risky sign-in policies flagged VPN users on corporate devices because the sign-in location didn't match.
+
+### Phase 7: Network Segmentation (802.1X)
+
+WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
+
+- **EAP method** — EAP-TLS with certificate-based auth (vs. EAP-PEAP/MSCHAPv2)
+- **Certificate lifecycle** — SCEP or PKCS certificate profile from Intune
+- **Fallback** — WPA2-PSK for legacy devices that can't do 802.1X
+
+**What broke first:** EAP negotiation failures. Root causes:
+- Wrong EAP type configured on client vs. RADIUS
+- Server certificate missing trusted root on client
+- Server name validation mismatch (certificate SAN doesn't match RADIUS hostname)
+- Expired or revoked client/server certificates
+
+## What Actually Broke First
+
+After three years, here's the friction ranking:
+
+| Friction Point | Phase | Symptom |
+|---|---|---|
+| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
+| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM + Intune |
+| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
+| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
+| Hardware key loss | MFA | Users lose keys, no backup, lockout |
+| Breakglass account lockout | Foundation | Breakglass account passwords expire or aren't tested |
+
+## The Hard Lessons
+
+1. **Don't start with blocking.** Start with alerting and monitoring. Baseline normal before you break normal.
+
+2. **Phased enforcement, not big bang.** Each phase enables the next. Block legacy auth → enforce MFA → require device compliance → apply risk-based access.
+
+3. **802.1X is the hardest network control.** Budget double the time for 802.1X pilot. EAP-TLS certificate validation is where it fails.
+
+4. **Device trust requires clear ownership.** If you're co-managed (SCCM + Intune), define the boundary. We used Intune for cloud-native devices, SCCM for remaining on-prem managed.
+
+5. **Governance is the bottleneck.** Zero Trust fails when cross-team ownership isn't clear. Identity owns CA policies. Endpoint owns device baselines. Network owns 802.1X. Security owns MDI.
+
+## The Takeaway
+
+Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
+
+The only thing that broke irreparably was when we tried to skip Phase 1.

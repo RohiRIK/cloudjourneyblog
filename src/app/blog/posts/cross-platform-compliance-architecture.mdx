@@ -1,0 +1,252 @@
+---
+title: "Cross-Platform Compliance Architecture: Building a Kill-Switch Enforcement System"
+summary: "Most compliance frameworks treat enforcement as a checkbox. Here's how to build an actual cross-platform enforcement system that can kill access the moment a device goes non-compliant — Windows, macOS, and Linux."
+image: "/images/blog/cross-platform-compliance-architecture.png"
+publishedAt: "2026-04-24"
+tag: "Security"
+---
+
+When your compliance posture has to span Windows, macOS, and Linux, most teams end up with fragmented tooling, inconsistent logic, and no real enforcement teeth. They check a box on Monday and pretend the problem is solved.
+
+The OT Security Client needed something different. They had a zero trust compliance requirement that actually had to land — across engineering workstations, OT operator stations, and back-office servers — with enforcement that could trigger automatically, not just report that something was wrong.
+
+This is how we built that system.
+
+## The Problem with Compliance as Documentation
+
+Most compliance tooling is retrospective. You run a scan, you get a report, someone reviews it, and maybe — weeks later — something gets remediated. In fast-moving OT environments, that lag is unacceptable. A non-compliant workstation on the production floor isn't an audit finding. It's a potential safety incident.
+
+The requirement was explicit: **compliance enforcement, not compliance reporting**. Devices that don't meet the baseline shouldn't be able to access corporate resources. And "corporate resources" here meant everything from SharePoint to engineering tooling to the OT network segments themselves.
+
+The stack we were working with:
+- **Windows** — Intune + custom PowerShell compliance scripts
+- **macOS** — Kandji blueprint compliance connector
+- **Linux** — custom bash compliance checks
+- **Security stack** — CrowdStrike Falcon (all platforms) + Netskope (all platforms)
+
+The goal was a single enforcement model that could apply across all three OS families, with a tiered response: grace period with warnings first, then hard blocks.
+
+## Windows: Intune Custom Compliance Scripts
+
+On Windows, the enforcement mechanism is Intune's custom compliance policy. Microsoft gives you the policy framework; you supply the discovery logic.
+
+For CrowdStrike Falcon, we needed to verify two things: that the agent was installed and running, and that it was configured for the correct CID (CrowdStrike Customer ID). Just checking for the service isn't enough — a disabled or misconfigured agent still shows as "installed." Note that this checks tenant binding, not active cloud reporting or recent heartbeat; for full telemetry validation you'd need vendor API-side checks.
+
+Here's the discovery script pattern we used:
+
+```powershell
+# Get Falcon sensor status
+$FalconService = Get-Service -Name CSFalconService -ErrorAction SilentlyContinue
+$FalconRunning = $null -ne $FalconService -and $FalconService.Status -eq 'Running'
+
+# Get Falcon sensor CID — path and method vary by Falcon version;
+# validate in your environment. Example using falconctl if available:
+try {
+    $FalconCID = & "C:\Program Files\CrowdStrike\falconctl.exe" get --cid 2>$null
+    if (-not $FalconCID) {
+        # Fallback: read from registry (verify path in your Falcon version)
+        $FalconRegistry = Get-ItemProperty -Path 'HKLM:\SYSTEM\CrowdStrike\{9b03c1d8-50a6-4c0a-a2b0-9d0e36b6c0d}' -ErrorAction SilentlyContinue
+        if ($FalconRegistry) {
+            $FalconCID = $FalconRegistry.DefaultPivotTenantCID
+        }
+    }
+} catch {}
+$FalconCID = $FalconCID | Where-Object { $_ -ne $null } | Select-Object -First 1
+
+# Expected CID for this tenant
+$ExpectedCID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
+$Compliant = $FalconRunning -and $FalconCID -eq $ExpectedCID
+
+return @{
+    FalconRunning = $FalconRunning
+    FalconCID = $FalconCID
+    Compliant = $Compliant
+} | ConvertTo-Json -Compress
+```
+
+The JSON definition that pairs with this script defines what "compliant" means for Intune's evaluation engine:
+
+```json
+{
+  "Rules": [
+    {
+      "SettingName": "Compliant",
+      "Operator": "IsEquals",
+      "DataType": "Boolean",
+      "Operand": true,
+      "MoreInfoUrl": "https://claroty.com",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "CrowdStrike Falcon Not Compliant",
+          "Description": "This device is not running Falcon or is not bound to the correct tenant. Contact IT."
+        }
+      ]
+    }
+  ]
+}
+```
+
+For Netskope, the pattern is similar — check that the Netskope Client service is running and that the tenant URL is configured correctly. We combined both into a single compliance script per platform to minimize policy overhead.
+
+## macOS: Kandji Blueprint Compliance Connector
+
+Kandji is the Mac MDM of choice for this environment. Unlike Intune's custom script model, Kandji has a built-in compliance connector that maps directly to its blueprint system. You define compliance items as part of a blueprint, assign the blueprint to devices, and Kandji handles the evaluation loop — no custom scripts required for native checks.
+
+### The Compliance Item Stack
+
+The key compliance items for this deployment:
+
+- **CrowdStrike Falcon for macOS** — Kandji's library includes a built-in device compliance check for Falcon, which verifies the sensor is installed and running. But like Windows, we needed to validate that it was reporting to the correct CID. Kandji calls this a **custom compliance item** — you write a shell script that returns a pass/fail, Kandji evaluates it on-device, and the result becomes a compliance signal you can use in assignment logic.
+- **Netskope Client** — Custom compliance item, same pattern as Falcon: script checks that the Netskope service is running and the tenant URL is configured correctly.
+- **FileVault encryption** — Built-in Kandji library item. Enable it, set the recovery key escrow to Kandji (not Jamf or a local escrow), and you're done.
+- **Screen lock policy** — Built-in: 5-minute timeout, require password after sleep or screen saver.
+
+### Custom Compliance Item: Falcon CID Validation
+
+The Kandji custom compliance item is a shell script. Here's the pattern:
+
+```bash
+#!/bin/bash
+
+# Check if Falcon sensor is running — use pgrep, more reliable than launchctl parsing
+if pgrep -x "Falcon" > /dev/null 2>&1; then
+    FALCON_RUNNING=1
+else
+    FALCON_RUNNING=0
+fi
+
+if [[ "$FALCON_RUNNING" -eq 0 ]]; then
+    echo "FalconNotInstalled"
+    exit 1
+fi
+
+# Get Falcon CID — parse falconctl output with awk, avoiding GNU-specific grep flags
+FALCON_CID=$(/Applications/Falcon.app/Contents/Mac/Falcon.app/Contents/Resources/falconctl stats 2>/dev/null | awk '/Customer ID:/ {print $NF}')
+EXPECTED_CID="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
+if [[ "$FALCON_CID" == "$EXPECTED_CID" ]]; then
+    echo "Compliant"
+    exit 0
+else
+    echo "WrongCID: $FALCON_CID"
+    exit 1
+fi
+```
+
+Kandji evaluates this script via exit code — `exit 0` means compliant, `exit 1` means non-compliant. The output string surfaces in Kandji's device inventory under the compliance item result, so IT can see exactly which Macs are misconfigured and why.
+
+### The Kandji-Intune Integration
+
+This is where the architecture comes together. Kandji has a native integration with Microsoft Intune that pushes compliance state directly — no middleware, no manual export. When a Mac evaluates its blueprint in Kandji, the result (compliant or non-compliant) flows automatically into Intune as a device compliance state.
+
+Concretely: Kandji is the MDM and compliance authority for all Macs. Intune owns the Conditional Access policy that enforces access. The integration bridge connects them. A non-compliant Mac in Kandji becomes a non-compliant device in Intune, which triggers the same Conditional Access block policy that applies to Windows and Linux.
+
+The configuration lives in the Kandji admin portal under **Integrations → Microsoft Device Compliance**. Kandji authenticates via an OAuth flow to the Microsoft Device Compliance partner app — not a manually created app registration. Once connected, Kandji pushes compliance state to Intune automatically.
+
+### Apple Silicon: System Extensions, Not Kernel Extensions
+
+One structural difference between Intel and Apple Silicon Macs that drove real engineering work: CrowdStrike on Intel Macs uses a Kernel Extension (KExt) for certain legacy capabilities. On Apple Silicon, Apple deprecated KExts — CrowdStrike uses **System Extensions** instead, which require a different approval profile. Whether Intel deployments also need System Extension approval depends on the sensor version and OS — the CrowdStrike deployment guides for your specific versions clarify which profile type applies.
+
+In practice, this meant we needed two separate Kandji blueprints — one for Intel Macs, one for Apple Silicon — or conditional logic within a single blueprint that detects the chip architecture and applies the right profile. We went with separate blueprints to keep the logic clean:
+
+- **Intel blueprint**: KExt approval profile pointing to CrowdStrike's kernel extension bundle ID
+- **Apple Silicon blueprint**: System Extension approval profile pointing to CrowdStrike's system extension bundle IDs
+
+Both blueprints include the same compliance items (Falcon CID, Netskope, FileVault, screen lock). The only difference is the extension approval profile. Assign devices to the right blueprint based on hardware model — Kandji's smart groups handle this automatically based on hardware type.
+
+If you skip the Apple Silicon profile, Falcon installs but the sensor won't load — the Mac will show as non-compliant because the service never starts. You'll see it in the Kandji device inventory as "Falcon installed but not running" with no obvious explanation. The System Extension approval is the missing piece.
+
+## Linux: Bash Compliance Checks
+
+Linux is the outlier in most Microsoft-first compliance designs. There's no native MDM comparable to Kandji for macOS, and the Intune compliance story for Linux is narrower than for Windows. Intune does support Linux device compliance via the Microsoft Intune app on [a limited set of distros](https://learn.microsoft.com/en-us/mem/intune/enrollment/linux-support) — confirm your distro is in scope before designing around it.
+
+We used a POSIX-compliant shell script deployed as a custom compliance discovery script in Intune, paired with the same JSON schema that Windows uses. On supported distros, the Microsoft Intune app handles compliance check-in and runs the discovery script.
+
+The script pattern:
+
+```bash
+#!/bin/bash
+
+# Check CrowdStrike Falcon sensor — try both known service names
+FALCON_RUNNING=0
+if systemctl is-active --quiet falcon-sensor 2>/dev/null; then
+    FALCON_RUNNING=1
+elif systemctl is-active --quiet csFalconService 2>/dev/null; then
+    FALCON_RUNNING=1
+fi
+
+# Get Falcon CID — parse falconctl.toml with awk to avoid GNU-specific grep
+FALCON_CID=$(awk -F'=' '/^customer_id/ {gsub(/[[:space:]]/,"",$2); print $2}' /etc/crowdstrike/falconctl.toml 2>/dev/null || echo "none")
+EXPECTED_CID="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
+# Check Netskope
+NETSKOPE_RUNNING=0
+if systemctl is-active --quiet netskope 2>/dev/null; then
+    NETSKOPE_RUNNING=1
+fi
+
+# Compliance result — emit booleans to match Intune JSON datatype
+if [[ "$FALCON_RUNNING" -eq 1 ]] && [[ "$FALCON_CID" == "$EXPECTED_CID" ]] && [[ "$NETSKOPE_RUNNING" -eq 1 ]]; then
+    COMPLIANT=true
+else
+    COMPLIANT=false
+fi
+
+echo "{\"FalconRunning\":$FALCON_RUNNING,\"FalconCID\":\"$FALCON_CID\",\"NetskopeRunning\":$NETSKOPE_RUNNING,\"Compliant\":$COMPLIANT}"
+```
+
+Intune runs this on an 8-hour cycle by default. Devices that have been offline check in when they reconnect to the network, so OT devices that aren't always on will trigger a compliance re-evaluation on startup.
+
+## The Tiered Enforcement Model
+
+Having compliance data flow into Intune is only half the battle. You need an enforcement response that matches the risk.
+
+We designed a two-tier model:
+
+**Tier 1 — Nudge (Grace Period)**
+
+When a device first goes non-compliant, the user gets a notification and a grace period. On Windows, this flows through the Company Portal app. On macOS, Kandji's built-in notification system. On Linux, we used a custom script that posts to a webhook (which routes to a Teams channel).
+
+Grace period: 24 hours for most issues, 4 hours for critical items like a missing endpoint protection agent.
+
+**Tier 2 — Kill Switch**
+
+If the device is still non-compliant after the grace period, Conditional Access blocks access to all corporate resources. The device can no longer authenticate to Entra ID-protected apps. SharePoint, Teams, engineering tooling — all blocked.
+
+One important boundary: **Conditional Access only enforces the identity plane.** It blocks access to apps and resources that authenticate through Entra ID — including SAML SSO applications that use Entra as their IdP. What it doesn't cover: OT network segments, internal tools with their own auth (local credentials, LDAP binds, etc.), and SaaS apps with no Entra integration. Those still need enforcement at the network layer — Netskope ZTNA policies, VPN posture checks, or NAC. The kill switch handles the Entra side. Don't assume it covers your entire attack surface.
+
+The kill switch is implemented as a separate Conditional Access policy with a device compliance requirement. Non-compliant devices match the block condition.
+
+The graceful part: the kill switch targets the device, not the user. If someone has two devices and one goes non-compliant, the other is unaffected. This matters in OT environments where a single user might have multiple devices for different roles.
+
+## The 4-Phase Rollout
+
+Rolling this out across an organization with mixed OS types, multiple site locations, and OT operator stations that can't be disrupted arbitrarily required a phased approach.
+
+**Phase 1 — Discovery (Weeks 1-2)**
+Deploy all compliance policies in report-only mode. No enforcement, just visibility. Use this to establish the baseline: how many devices are already compliant, which compliance items are most frequently failing, which sites have the worst posture.
+
+**Phase 2 — Nudge Only (Weeks 3-4)**
+Enable grace period notifications. No blocks yet. Let the help desk and device owners get ahead of the compliance issues before anything blocks access. This is also when you tune the grace period durations — some sites may need longer windows based on shift schedules.
+
+**Phase 3 — Kill Switch with Exemptions (Weeks 5-8)**
+Enable Conditional Access enforcement but maintain an exemption list for OT stations that can't tolerate unexpected access loss. These stations get a separate policy with extended grace periods and a manual review cycle. Goal is to have everything under enforcement within 8 weeks.
+
+**Phase 4 — Full Enforcement (Week 9+)**
+Remove the exemption list. All devices subject to the same enforcement model. OT stations that were on the exemption list get additional monitoring to ensure they stay compliant, since they no longer have a safety net.
+
+## What We'd Do Differently
+
+**Start with a pilot cohort, then build exemptions reactively.** The instinct to pre-list every device that might break is tempting in OT environments. It results in a long exemption list built on speculation. A better approach: enable the kill switch for a narrow pilot group first (say, IT-managed engineering workstations), let real failures surface, and create exemptions for those specific devices. You'll end up with fewer exemptions and a more defensible rationale for each one.
+
+**Test the Linux script on every distribution you'll encounter.** The script above works on systemd-based distros. If you have devices running older init systems or non-systemd distros (some embedded Linux variants), you'll need alternate service detection logic. We found three distinct Linux environments that needed custom script variants.
+
+**Automate the exemption renewal process.** Exemptions that require manual renewal tend to expire silently and then cause confusion when devices suddenly block. We ended up building a small automation that tracks exemption expiration dates and sends warnings before they lapse. Don't skip this.
+
+## The Takeaway
+
+Cross-platform compliance enforcement is less about the individual platform tooling and more about the unified policy model that sits above it. The OS-specific details (PowerShell scripts, Kandji blueprints, bash checks) are implementation details. The enforcement logic — what happens when a device goes non-compliant, how quickly, and with what escalation path — that's the architecture that matters.
+
+Build that model first. Then wire each platform into it.
