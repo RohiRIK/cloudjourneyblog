@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CloudJourneyBlog</title>
+    <link>https://cloudjourneyblog.rohi-lab.org</link>
+    <description>Security, automation, and the systems that connect them.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Apr 2026 13:42:33 GMT</lastBuildDate>
+    <atom:link href="https://cloudjourneyblog.rohi-lab.org/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title><![CDATA[Zero Trust Rollout Retrospective: What Actually Broke]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/zero-trust-retrospective</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/zero-trust-retrospective</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/gcp-casb-shadow-it-migration</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/gcp-casb-shadow-it-migration</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Google Workspace to Entra ID Federation: The SSO Setup That Actually Works]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/google-workspace-entra-federation</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/google-workspace-entra-federation</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Setting up Google Workspace to use Entra ID as the Identity Provider isn't just checking a box. Here's the practical walkthrough of SAML federation, claims mapping, and what breaks when you get it wrong.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[The Entra Join Readiness Checklist: Everything You Must Resolve Before Cutting the Domain Cord]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/entra-join-readiness-checklist</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/entra-join-readiness-checklist</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Moving from hybrid Azure AD join to Entra-only join isn't a flip-a-switch decision. Here's the practical checklist of what to resolve before you cut the domain cord — and the decision framework for wipe-and-reload versus in-place migration.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Automating HR Lifecycle Events for a Growing Veterinary Marketplace]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/hr-lifecycle-automation</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/hr-lifecycle-automation</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Building a set of automated HR-driven workflows for a fast-growing client — onboarding, role changes, and offboarding orchestrated through HiBob and a custom middleware layer.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Spinning Up a Client's Production Environment: Azure WAF + VPS]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/new-environment-setup</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/new-environment-setup</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Setting up a new hosting environment from scratch — the decisions, trade-offs, and lessons from provisioning infrastructure for a client website on Azure.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[The Robot Army: My Personal Lab on Azure]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/robot-army-personal-lab</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/robot-army-personal-lab</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How I built a personal automation platform on Azure — a VPS behind a WAF, Docker Swarm for orchestration, and n8n as the brain that ties everything together.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/zero-trust-program-energy-sector</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/zero-trust-program-energy-sector</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[What we actually did — and what broke — rolling out a full Zero Trust program across a large energy sector organization with 57 tasks across the full stack.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[AI-Driven SOC: Layering Intelligence on Top of What You Already Own]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/ai-driven-soc-assistant</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/ai-driven-soc-assistant</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Most SOC teams don't need a new platform — they need the tools they already have to work together smarter. Here's how to build an AI-assisted security operations capability using Wazuh, Microsoft Defender, and lightweight automation.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Cross-Platform Compliance Architecture: Building a Kill-Switch Enforcement System]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/cross-platform-compliance-architecture</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/cross-platform-compliance-architecture</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Most compliance frameworks treat enforcement as a checkbox. Here's how to build an actual cross-platform enforcement system that can kill access the moment a device goes non-compliant — Windows, macOS, and Linux.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Claude Code Config v3: LTM as Infrastructure]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/claude-code-config-v3</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/claude-code-config-v3</guid>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The config got a significant overhaul: SQLite-backed long-term memory, a dedicated MCP server exposing LTM primitives, semantic recall with embedding fallback, graph-based reasoning, and an EvaluateSession hook that extracts decisions automatically.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Building a Device Inventory Pipeline]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/device-inventory-pipeline</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/device-inventory-pipeline</guid>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[When your MDM doesn't tell the full story, build the pipeline yourself. Here's the Jenkins → PowerShell → SharePoint → Power BI architecture I built to unify device data across AD and Intune for a FinTech client.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[When HiBob Is Your Source of Truth]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/hibob-hr-automation</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/hibob-hr-automation</guid>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Your HR system knows the org better than your IdP does. Here's how I built a bi-directional HiBob ↔ Entra ID sync that keeps departments, titles, managers, and 15 other attributes in sync — automatically.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[The JumpCloud Exit Playbook]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/jumpcloud-to-intune-migration</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/jumpcloud-to-intune-migration</guid>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Migrating 200+ Windows and macOS devices from JumpCloud to Microsoft Intune without breaking MDM coverage, compliance posture, or user productivity.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Phishing-Resistant MFA Rollout]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/phishing-resistant-mfa-rollout</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/phishing-resistant-mfa-rollout</guid>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Standard MFA is no longer enough. Here's how we designed a gradual Conditional Access rollout to enforce FIDO2, Windows Hello for Business, and Platform SSO across a security-conscious OT environment.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Smart Offboarding Orchestration]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/smart-offboarding-orchestration</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/smart-offboarding-orchestration</guid>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Manual offboarding leaves doors open — sometimes for days. Here's how I automated a 15-step enterprise offboarding workflow using Azure Logic Apps and Automation Runbooks triggered by an HR webhook.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[The Claude Code Workflow That Actually Stuck]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/claude-code-daily-workflow</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/claude-code-daily-workflow</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[I started with a simple 4-step loop and got the best results I'd ever seen from an AI tool. Then I extended it. Here's what changed, what didn't, and why starting with structure beats starting from scratch.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Claude Code Config v2: SQLite LTM, a Janitor Agent, and a Memory Graph]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/claude-code-config-v2</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/claude-code-config-v2</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The markdown-file memory system worked until it didn't. Here's what I replaced it with — a SQLite LTM, an autonomous Janitor agent, and a D3 graph that shows you what the model actually knows.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[From Script to System: How I Turned a Jenkins Pipeline into FleetWatch]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/fleetwatch-from-script-to-system</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/fleetwatch-from-script-to-system</guid>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[My client wanted PowerShell scripts dumping Intune data into SharePoint for Power BI. I built a web app instead. Here's why — and how.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Netlogon RPC Sealing: The Full Hardening Playbook]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/netlogon-rpc-sealing-playbook</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/netlogon-rpc-sealing-playbook</guid>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A complete 4-phase execution guide for enforcing Netlogon RPC Sealing and SMB/NTLM hardening before migrating to Entra ID — including the PowerShell discovery script I use to find vulnerable traffic across all DCs.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[How I Configured Claude Code to Actually Remember Things]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/claude-code-config</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/claude-code-config</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The default Claude Code setup loses context on every session. Here's the hook system, skill commands, agent definitions, and memory architecture I built to fix that.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/homelab-docker-swarm</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/homelab-docker-swarm</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[What I Actually Learned from Vibe Coding with Claude Code]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/vibe-coding-ai-workflows</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/vibe-coding-ai-workflows</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A year of building projects with AI: what the workflow looks like, how I keep context alive across sessions, which safety patterns actually work, and what breaks if you skip them.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Zero Trust Is Not a Product]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/zero-trust-is-not-a-product</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/zero-trust-is-not-a-product</guid>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Every vendor sells 'Zero Trust.' Most of what they're selling is a marketing label on a firewall. Here's what the model actually means and why it matters.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Conditional Access in Practice]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/conditional-access-in-practice</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/conditional-access-in-practice</guid>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Conditional Access is where Zero Trust principles actually land in a Microsoft environment. Here's how to think about it, what to get right, and where I've seen it go wrong.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Endpoint Hardening as a Zero Trust Control]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/endpoint-hardening-zero-trust-control</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/endpoint-hardening-zero-trust-control</guid>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A compliant device in Conditional Access is only meaningful if your compliance policies check things that actually matter. Here's what to harden and how to measure it.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Zero Trust for AI Agents]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/zero-trust-for-ai-agents</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/zero-trust-for-ai-agents</guid>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI agents have access to real tools — APIs, databases, shell execution. The same principles that apply to human users apply here, and most agentic systems ignore them.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Identity-First Security]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/identity-first-security</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/identity-first-security</guid>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The network perimeter is gone. Identity is what's left. Here's what building security around identity looks like in practice and why it changes almost everything.]]></description>
+    </item>
+  
+  </channel>
+</rss>
