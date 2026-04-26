@@ -5,7 +5,7 @@
 5:I[814360,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
 23:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 24:"$Sreact.suspense"
-6:T1842,
+6:T1838,
 We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
 
 ## The Implementation Sequence
@@ -103,14 +103,23 @@ WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
 
 After three years, here's the friction ranking:
 
-| Friction Point | Phase | Symptom |
-|---|---|---|
-| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
-| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM and Intune |
-| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
-| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
-| Hardware key loss | MFA | Users lose keys, no backup, lockout |
-| Breakglass account lockout | Foundation | Breakglass account passwords expire or are not tested |
+**802.1X EAP failures** — Network phase
+Users can't connect to WiFi; RADIUS shows method mismatch
+
+**Device baseline conflicts** — Device phase
+Co-managed devices have conflicting policies from SCCM and Intune
+
+**Legacy app breakage** — Identity phase
+LOB apps fail when legacy auth is blocked
+
+**False-positive risky sign-ins** — Identity phase
+VPN users flagged as risky based on location
+
+**Hardware key loss** — MFA phase
+Users lose keys, no backup, lockout
+
+**Breakglass account lockout** — Foundation phase
+Breakglass account passwords expire or are not tested
 
 ## The Hard Lessons
 
@@ -128,8 +137,8 @@ After three years, here's the friction ranking:
 
 Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
 
-The only thing that broke irreparably was when we tried to skip Phase 1.0:{"buildId":"AVjB-pYItxKHvV6rwhgSm","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"sameAs\":[],\"headline\":\"Writing on security, automation, and infrastructure\",\"description\":\"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing on security, automation, and infrastructure"}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9"]}]]}],["$La"],"$Lb"]}],"loading":null,"isPartial":false}
-c:T1e64,
+The only thing that broke irreparably was when we tried to skip Phase 1.0:{"buildId":"nIZpKOY9R0mkUDgWuQt5P","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"sameAs\":[],\"headline\":\"Writing on security, automation, and infrastructure\",\"description\":\"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing on security, automation, and infrastructure"}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9"]}]]}],["$La"],"$Lb"]}],"loading":null,"isPartial":false}
+c:T1e4c,
 Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
 
 This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
@@ -210,13 +219,25 @@ This takes time. Give users 30 days to migrate, then enforce.
 
 ## The Enforcement Checklist
 
-| Control | Implementation | Effect |
-|---------|---------------|--------|
-| Consumer account block | X-GoogApps-Allowed-Domains header or managed browser sign-in restriction | Personal Gmail can't sign in on managed devices |
-| App Access Control | Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
-| Context-Aware Access | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
-| Drive external sharing | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
-| SSO | Entra ID to Google Workspace | One identity, one credential |
+**Consumer account block**
+How: `X-GoogApps-Allowed-Domains` header or managed browser sign-in restriction
+Effect: Personal Gmail can't sign in on managed devices
+
+**App Access Control**
+How: Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured
+Effect: No unapproved OAuth apps
+
+**Context-Aware Access**
+How: Require managed device (desktop: Endpoint Verification; mobile: endpoint management)
+Effect: Unmanaged devices blocked
+
+**Drive external sharing**
+How: Allowlist or trust rules for external sharing
+Effect: No uncontrolled file sharing
+
+**SSO**
+How: Entra ID to Google Workspace
+Effect: One identity, one credential
 
 **CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
 
@@ -247,7 +268,7 @@ You can't uninvent personal Gmail. Your users will always have personal accounts
 
 The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.7:["$","$L4",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$c"},"thumbnail":true,"direction":"column"}],"$Ld"]}]
 8:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textWrap":"balance"},"children":"Earlier posts"}]
-e:T22c5,
+e:T22b1,
 If you're running a hybrid environment — devices joined to both on-premises AD and Entra ID — you've been living in a transition state. The common wisdom is "just migrate to Entra join" but the reality is messier than that.
 
 The moment you cut the hybrid link, every legacy dependency — group policy, LDAP auth, NTLM, certificate-based WiFi — becomes a blocker. You don't discover these until the migration is in progress.
@@ -264,12 +285,17 @@ Two paths exist:
 
 The decision framework:
 
-| Factor | Wipe and Load (Supported) | Workaround (Not Supported) |
-|---|---|---|
-| User tolerance | Fresh profile = disruption | Profile persists = less drama |
-| App compatibility | Fresh device tests apps | Existing profile tests your apps |
-| Timeline | Faster to production | Slower, more testing |
-| Help desk load | Spikes then normal | Steady, then resolve |
+**Wipe and Load (Supported)**
+- User tolerance: Fresh profile = disruption
+- App compatibility: Fresh device tests apps
+- Timeline: Faster to production
+- Help desk load: Spikes then normal
+
+**Workaround (Not Supported)**
+- User tolerance: Profile persists = less drama
+- App compatibility: Existing profile tests your apps
+- Timeline: Slower, more testing
+- Help desk load: Steady, then resolve
 
 My rule of thumb: if your user population is comfortable with a fresh profile (or has OneDrive/Box sync), go wipe-and-load. If they have local data, custom app configs, or developer tooling that doesn't sync, test in-place first.
 
@@ -329,13 +355,11 @@ The question to ask: "Does this app work if the machine has no on-prem domain co
 
 Group Policy objects (GPOs) won't apply after Entra join. You need to convert them:
 
-| GPO Category | Intune Equivalent | Notes |
-|---|---|---|
-| Security settings | Intune Security Baselines | Start there |
-| Firewall rules | Settings Catalog > Firewall | Lots of rules = messy |
-| Software installation | App assign Intune | Win32 apps, not MSI |
-| Registry tweaks | Settings Catalog > Registry | Painful — minimize |
-| Startup scripts | Intune Scripts | Run as SYSTEM |
+**Security settings** → Intune Security Baselines (start there)
+**Firewall rules** → Settings Catalog > Firewall (lots of rules = messy)
+**Software installation** → App assign Intune (Win32 apps, not MSI)
+**Registry tweaks** → Settings Catalog > Registry (painful — minimize)
+**Startup scripts** → Intune Scripts (run as SYSTEM)
 
 Start with Microsoft's Intune Security Baselines. They're the fastest path to equivalent security posture.
 
@@ -428,7 +452,7 @@ If your org is fine with a fresh profile, wipe-and-load via Autopilot is cleaner
 The checklist above isn't optional. Skip it, and migration week becomes incident response.9:["$","$L4",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","entra-join-readiness-checklist",{"post":{"metadata":{"title":"The Entra Join Readiness Checklist: Everything You Must Resolve Before Cutting the Domain Cord","subtitle":"","publishedAt":"2026-04-26","summary":"Moving from hybrid Azure AD join to Entra-only join isn't a flip-a-switch decision. Here's the practical checklist of what to resolve before you cut the domain cord — and the decision framework for wipe-and-reload versus in-place migration.","image":"/images/blog/entra-join-readiness-checklist.png","images":[],"tag":"Security","team":[],"link":""},"slug":"entra-join-readiness-checklist","content":"$e"},"thumbnail":true,"direction":"column"}],"$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22"]}]
 a:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true}]
 b:["$","$L23",null,{"children":["$","$24",null,{"name":"Next.MetadataOutlet","children":"$@25"}]}]
-26:T1816,
+26:T1805,
 Federating Google Workspace to Entra ID sounds straightforward — flip the switch in the admin console and suddenly your users sign in with Entra credentials. The reality is more nuanced. Here's what actually happens and how to get it right.
 
 ## Why Federate at All
@@ -496,12 +520,10 @@ Assign the app to pilot users/groups.
 
 Entra sends these claims to Google:
 
-| Entra Claim | Google Field |
-|---|---|
-| email | Primary email |
-| givenName | First name |
-| surname | Last name |
-| NameID | Must match Google user's primary email |
+**email** → Primary email
+**givenName** → First name
+**surname** → Last name
+**NameID** → Must match Google user's primary email
 
 The critical mapping: **NameID must match the user's primary email address in Google**. If it doesn't, sign-in fails.
 
@@ -563,12 +585,17 @@ The key insight: the user never enters a Google password. Entra owns the credent
 
 ## What You Gain
 
-| Before Federation | After Federation |
-|---|---|---|
-| Users manage Google passwords separately | Single Entra password |
-| No Entra visibility into Google access | CA policies apply before Google |
-| Orphaned Google accounts on leavers | Access cuts off when Entra disables |
-| No unified session policy | Entra controls session lifetime |
+**Before:** Users manage Google passwords separately
+**After:** Single Entra password
+
+**Before:** No Entra visibility into Google access
+**After:** CA policies apply before Google
+
+**Before:** Orphaned Google accounts on leavers
+**After:** Access cuts off when Entra disables
+
+**Before:** No unified session policy
+**After:** Entra controls session lifetime
 
 ## The Takeaway
 

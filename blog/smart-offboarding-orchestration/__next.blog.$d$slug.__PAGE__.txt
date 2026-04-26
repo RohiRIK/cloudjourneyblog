@@ -16,7 +16,7 @@
 34:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
 35:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 36:"$Sreact.suspense"
-0:{"buildId":"AVjB-pYItxKHvV6rwhgSm","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/smart-offboarding-orchestration","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/smart-offboarding-orchestration\",\"sameAs\":[],\"headline\":\"Smart Offboarding Orchestration\",\"description\":\"Manual offboarding leaves doors open — sometimes for days. Here's how I automated a 15-step enterprise offboarding workflow using Azure Logic Apps and Automation Runbooks triggered by an HR webhook.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/smart-offboarding-orchestration.png\",\"datePublished\":\"2026-03-20\",\"dateModified\":\"2026-03-20\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 20, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Smart Offboarding Orchestration"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/smart-offboarding-orchestration.png","alt":"Smart Offboarding Orchestration","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Manual offboarding is a security incident waiting to happen. The typical process: HR tells IT someone is leaving, IT opens a ticket, someone works through a checklist over the next few hours or days. During that window, the departing employee still has active sessions, valid credentials, and potentially a company device with full access to everything they could reach before they left."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I've seen this gap exploited — not always maliciously, but the risk is real. I've also seen the fix: full automation triggered the moment HR closes the case."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Here's the architecture I built for an Energy Sector client, automating a 15-step offboarding workflow with no manual steps after the trigger."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-trigger-hr-webhook","children":"The trigger: HR webhook"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The workflow starts in the HR system. When a manager marks a termination as processed, the HR platform fires a webhook containing the employee's user ID, termination type (voluntary/involuntary), and effective date."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23"]}],"$L24","$L25","$L26","$L27"]}]}],"$L28"]}],["$L29"],"$L2a"]}],"loading":null,"isPartial":false}
+0:{"buildId":"nIZpKOY9R0mkUDgWuQt5P","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/smart-offboarding-orchestration","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/smart-offboarding-orchestration\",\"sameAs\":[],\"headline\":\"Smart Offboarding Orchestration\",\"description\":\"Manual offboarding leaves doors open — sometimes for days. Here's how I automated a 15-step enterprise offboarding workflow using Azure Logic Apps and Automation Runbooks triggered by an HR webhook.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/smart-offboarding-orchestration.png\",\"datePublished\":\"2026-03-20\",\"dateModified\":\"2026-03-20\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 20, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Smart Offboarding Orchestration"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/smart-offboarding-orchestration.png","alt":"Smart Offboarding Orchestration","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Manual offboarding is a security incident waiting to happen. The typical process: HR tells IT someone is leaving, IT opens a ticket, someone works through a checklist over the next few hours or days. During that window, the departing employee still has active sessions, valid credentials, and potentially a company device with full access to everything they could reach before they left."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I've seen this gap exploited — not always maliciously, but the risk is real. I've also seen the fix: full automation triggered the moment HR closes the case."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Here's the architecture I built for an Energy Sector client, automating a 15-step offboarding workflow with no manual steps after the trigger."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-trigger-hr-webhook","children":"The trigger: HR webhook"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The workflow starts in the HR system. When a manager marks a termination as processed, the HR platform fires a webhook containing the employee's user ID, termination type (voluntary/involuntary), and effective date."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23"]}],"$L24","$L25","$L26","$L27"]}]}],"$L28"]}],["$L29"],"$L2a"]}],"loading":null,"isPartial":false}
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The webhook hits an Azure Logic App HTTP trigger endpoint. That's the starting gun."}]
 a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Using the HR system as the trigger source is deliberate. IT doesn't have to remember to act — the process starts automatically. The HR system is also the authoritative record for who is employed, so tying automation to its state means the offboarding reflects reality."}]
 b:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-15-step-workflow","children":"The 15-step workflow"}]
@@ -46,7 +46,7 @@ f:["$","span",null,{"className":"font-body font-default font-m neutral-on-backgr
 23:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The residual risk in any offboarding process is the time between the employee's last day and when IT acts. Automation doesn't eliminate that risk — it eliminates the gap between the HR decision and the IT action. Once the trigger fires, the window is minutes, not hours."}]
 24:["$","$L2d",null,{"title":"Smart Offboarding Orchestration","url":"https://CloudJourneyBlog.rohi-lab.org/blog/smart-offboarding-orchestration"}]
 25:["$","$L2e",null,{}]
-31:T1842,
+31:T1838,
 We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
 
 ## The Implementation Sequence
@@ -144,14 +144,23 @@ WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
 
 After three years, here's the friction ranking:
 
-| Friction Point | Phase | Symptom |
-|---|---|---|
-| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
-| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM and Intune |
-| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
-| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
-| Hardware key loss | MFA | Users lose keys, no backup, lockout |
-| Breakglass account lockout | Foundation | Breakglass account passwords expire or are not tested |
+**802.1X EAP failures** — Network phase
+Users can't connect to WiFi; RADIUS shows method mismatch
+
+**Device baseline conflicts** — Device phase
+Co-managed devices have conflicting policies from SCCM and Intune
+
+**Legacy app breakage** — Identity phase
+LOB apps fail when legacy auth is blocked
+
+**False-positive risky sign-ins** — Identity phase
+VPN users flagged as risky based on location
+
+**Hardware key loss** — MFA phase
+Users lose keys, no backup, lockout
+
+**Breakglass account lockout** — Foundation phase
+Breakglass account passwords expire or are not tested
 
 ## The Hard Lessons
 
@@ -174,7 +183,7 @@ The only thing that broke irreparably was when we tried to skip Phase 1.26:["$",
 28:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L34",null,{"fitHeight":true}]}]
 29:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
 2a:["$","$L35",null,{"children":["$","$36",null,{"name":"Next.MetadataOutlet","children":"$@37"}]}]
-38:T1e64,
+38:T1e4c,
 Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
 
 This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
@@ -255,13 +264,25 @@ This takes time. Give users 30 days to migrate, then enforce.
 
 ## The Enforcement Checklist
 
-| Control | Implementation | Effect |
-|---------|---------------|--------|
-| Consumer account block | X-GoogApps-Allowed-Domains header or managed browser sign-in restriction | Personal Gmail can't sign in on managed devices |
-| App Access Control | Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
-| Context-Aware Access | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
-| Drive external sharing | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
-| SSO | Entra ID to Google Workspace | One identity, one credential |
+**Consumer account block**
+How: `X-GoogApps-Allowed-Domains` header or managed browser sign-in restriction
+Effect: Personal Gmail can't sign in on managed devices
+
+**App Access Control**
+How: Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured
+Effect: No unapproved OAuth apps
+
+**Context-Aware Access**
+How: Require managed device (desktop: Endpoint Verification; mobile: endpoint management)
+Effect: Unmanaged devices blocked
+
+**Drive external sharing**
+How: Allowlist or trust rules for external sharing
+Effect: No uncontrolled file sharing
+
+**SSO**
+How: Entra ID to Google Workspace
+Effect: One identity, one credential
 
 **CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
 

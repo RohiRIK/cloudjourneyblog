@@ -15,7 +15,7 @@
 28:I[605649,["/_next/static/chunks/6633d7a0fde019af.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
 29:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 2a:"$Sreact.suspense"
-0:{"buildId":"AVjB-pYItxKHvV6rwhgSm","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/zero-trust-is-not-a-product","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-is-not-a-product\",\"sameAs\":[],\"headline\":\"Zero Trust Is Not a Product\",\"description\":\"Every vendor sells 'Zero Trust.' Most of what they're selling is a marketing label on a firewall. Here's what the model actually means and why it matters.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/zero-trust-is-not-a-product.png\",\"datePublished\":\"2026-02-20\",\"dateModified\":\"2026-02-20\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"February 20, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Zero Trust Is Not a Product"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/zero-trust-is-not-a-product.png","alt":"Zero Trust Is Not a Product","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I work in IT security. I've sat through a lot of vendor calls. And somewhere around the third time someone told me their network appliance was \"a Zero Trust solution,\" I started keeping count."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"It's not a product. It never was. Here's what it actually is."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-original-idea","children":"The original idea"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Zero Trust comes from a 2010 paper by John Kindervag at Forrester. The core insight was blunt: perimeter-based security is wrong. The assumption that everything inside your network is trusted and everything outside isn't — that model breaks the moment you have remote workers, cloud services, SaaS apps, contractors, or any real-world complexity."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["The answer wasn't a new product. It was a different assumption: ",["$","strong",null,{"children":"trust no one by default, verify everything explicitly, and grant access based on identity and context — not network location."}]]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"That's the model. Three sentences."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18"]}],"$L19","$L1a","$L1b","$L1c"]}]}],"$L1d"]}],["$L1e"],"$L1f"]}],"loading":null,"isPartial":false}
+0:{"buildId":"nIZpKOY9R0mkUDgWuQt5P","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/zero-trust-is-not-a-product","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-is-not-a-product\",\"sameAs\":[],\"headline\":\"Zero Trust Is Not a Product\",\"description\":\"Every vendor sells 'Zero Trust.' Most of what they're selling is a marketing label on a firewall. Here's what the model actually means and why it matters.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/zero-trust-is-not-a-product.png\",\"datePublished\":\"2026-02-20\",\"dateModified\":\"2026-02-20\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"February 20, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Zero Trust Is Not a Product"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/zero-trust-is-not-a-product.png","alt":"Zero Trust Is Not a Product","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I work in IT security. I've sat through a lot of vendor calls. And somewhere around the third time someone told me their network appliance was \"a Zero Trust solution,\" I started keeping count."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"It's not a product. It never was. Here's what it actually is."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-original-idea","children":"The original idea"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Zero Trust comes from a 2010 paper by John Kindervag at Forrester. The core insight was blunt: perimeter-based security is wrong. The assumption that everything inside your network is trusted and everything outside isn't — that model breaks the moment you have remote workers, cloud services, SaaS apps, contractors, or any real-world complexity."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["The answer wasn't a new product. It was a different assumption: ",["$","strong",null,{"children":"trust no one by default, verify everything explicitly, and grant access based on identity and context — not network location."}]]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"That's the model. Three sentences."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18"]}],"$L19","$L1a","$L1b","$L1c"]}]}],"$L1d"]}],["$L1e"],"$L1f"]}],"loading":null,"isPartial":false}
 9:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-it-means-operationally","children":"What it means operationally"}]
 a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"If you actually implement Zero Trust, it looks like this:"}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Identity is the perimeter."}]," It doesn't matter where a request comes from — your office, a coffee shop, a data center. What matters is: who is authenticating, is that identity verified, and does this specific context (device health, location, time, risk score) justify access to this specific resource?"]}]
@@ -34,7 +34,7 @@ f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-ven
 18:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is the first of a few posts I'm planning on Zero Trust — what it actually means, how I've implemented pieces of it in real environments, and where the hard parts are. Next up: Conditional Access, which is where most of the practical implementation lives."}]
 19:["$","$L21",null,{"title":"Zero Trust Is Not a Product","url":"https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-is-not-a-product"}]
 1a:["$","$L22",null,{}]
-25:T1842,
+25:T1838,
 We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
 
 ## The Implementation Sequence
@@ -132,14 +132,23 @@ WiFi authentication via 802.1X (WPA2-Enterprise) is network-level Zero Trust:
 
 After three years, here's the friction ranking:
 
-| Friction Point | Phase | Symptom |
-|---|---|---|
-| 802.1X EAP failures | Network | Users can't connect to WiFi; RADIUS shows method mismatch |
-| Device baseline conflicts | Device | Co-managed devices have conflicting policies from SCCM and Intune |
-| Legacy app breakage | Identity | LOB apps fail when legacy auth is blocked |
-| False-positive risky sign-ins | Identity | VPN users flagged as risky based on location |
-| Hardware key loss | MFA | Users lose keys, no backup, lockout |
-| Breakglass account lockout | Foundation | Breakglass account passwords expire or are not tested |
+**802.1X EAP failures** — Network phase
+Users can't connect to WiFi; RADIUS shows method mismatch
+
+**Device baseline conflicts** — Device phase
+Co-managed devices have conflicting policies from SCCM and Intune
+
+**Legacy app breakage** — Identity phase
+LOB apps fail when legacy auth is blocked
+
+**False-positive risky sign-ins** — Identity phase
+VPN users flagged as risky based on location
+
+**Hardware key loss** — MFA phase
+Users lose keys, no backup, lockout
+
+**Breakglass account lockout** — Foundation phase
+Breakglass account passwords expire or are not tested
 
 ## The Hard Lessons
 
@@ -162,7 +171,7 @@ The only thing that broke irreparably was when we tried to skip Phase 1.1b:["$",
 1d:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L28",null,{"fitHeight":true}]}]
 1e:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
 1f:["$","$L29",null,{"children":["$","$2a",null,{"name":"Next.MetadataOutlet","children":"$@2b"}]}]
-2c:T1e64,
+2c:T1e4c,
 Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
 
 This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
@@ -243,13 +252,25 @@ This takes time. Give users 30 days to migrate, then enforce.
 
 ## The Enforcement Checklist
 
-| Control | Implementation | Effect |
-|---------|---------------|--------|
-| Consumer account block | X-GoogApps-Allowed-Domains header or managed browser sign-in restriction | Personal Gmail can't sign in on managed devices |
-| App Access Control | Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
-| Context-Aware Access | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
-| Drive external sharing | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
-| SSO | Entra ID to Google Workspace | One identity, one credential |
+**Consumer account block**
+How: `X-GoogApps-Allowed-Domains` header or managed browser sign-in restriction
+Effect: Personal Gmail can't sign in on managed devices
+
+**App Access Control**
+How: Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured
+Effect: No unapproved OAuth apps
+
+**Context-Aware Access**
+How: Require managed device (desktop: Endpoint Verification; mobile: endpoint management)
+Effect: Unmanaged devices blocked
+
+**Drive external sharing**
+How: Allowlist or trust rules for external sharing
+Effect: No uncontrolled file sharing
+
+**SSO**
+How: Entra ID to Google Workspace
+Effect: One identity, one credential
 
 **CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
 
