@@ -9,16 +9,74 @@
 11:I[626935,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ListItem"]
 12:I[311451,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Line"]
 13:I[474855,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
-24:I[988654,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
-25:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
-26:"$Sreact.suspense"
-0:{"buildId":"PBsCGsdTtQYKK6urCB2qF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/gcp-to-entra-migration","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work/gcp-to-entra-migration\",\"sameAs\":[],\"headline\":\"GCP to Entra ID Migration\",\"description\":\"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"datePublished\":\"2026-02-01\",\"dateModified\":\"2026-02-01\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"February 1, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"GCP to Entra ID Migration"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[]}]]}]}],false,["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-this-was","children":"What this was"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"A client at Oncloud decided to move their entire identity and collaboration stack from Google Workspace to Microsoft 365. I was the lead engineer on the migration — responsible for technical execution from discovery through cutover."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-the-work-looked-like","children":"What the work looked like"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Identity migration"}]," — mapped thousands of Google identities into a clean Entra ID tenant, standardized naming conventions, consolidated accounts that had duplicated from acquisitions. Set up SSO from scratch with Entra ID as the new IdP."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Data migration via AvePoint Fly"}]," — handled mailbox and Google Drive to SharePoint/OneDrive transfer. The hard part wasn't the tool — it was the permission mapping. Google Drive's sharing model doesn't translate cleanly to SharePoint. Spent significant time building mapping rules to preserve access rather than just moving data and leaving people unable to open their files."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Mail cutover"}]," — ran split-delivery during the transition so mail kept flowing to both platforms while users moved over. Managed the DNS cutover window to avoid gaps."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$L8"," — the client had 50+ SaaS applications pointed at Google as IdP. Reconfigured each for SAML/OIDC against Entra ID. Most were straightforward; a few needed custom attribute mappings."]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc"]}],"$Ld","$Le"]}],null,"$Lf"]}],"loading":null,"isPartial":false}
+25:I[988654,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
+26:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+27:"$Sreact.suspense"
+0:{"buildId":"1QtA4At23Puwqr0gGm1K-","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/gcp-to-entra-migration","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work/gcp-to-entra-migration\",\"sameAs\":[],\"headline\":\"GCP to Entra ID Migration\",\"description\":\"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"datePublished\":\"2026-02-01\",\"dateModified\":\"2026-02-01\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"February 1, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"GCP to Entra ID Migration"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[]}]]}]}],false,["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-this-was","children":"What this was"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"A client at Oncloud decided to move their entire identity and collaboration stack from Google Workspace to Microsoft 365. I was the lead engineer on the migration — responsible for technical execution from discovery through cutover."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-the-work-looked-like","children":"What the work looked like"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Identity migration"}]," — mapped thousands of Google identities into a clean Entra ID tenant, standardized naming conventions, consolidated accounts that had duplicated from acquisitions. Set up SSO from scratch with Entra ID as the new IdP."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Data migration via AvePoint Fly"}]," — handled mailbox and Google Drive to SharePoint/OneDrive transfer. The hard part wasn't the tool — it was the permission mapping. Google Drive's sharing model doesn't translate cleanly to SharePoint. Spent significant time building mapping rules to preserve access rather than just moving data and leaving people unable to open their files."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Mail cutover"}]," — ran split-delivery during the transition so mail kept flowing to both platforms while users moved over. Managed the DNS cutover window to avoid gaps."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$L8"," — the client had 50+ SaaS applications pointed at Google as IdP. Reconfigured each for SAML/OIDC against Entra ID. Most were straightforward; a few needed custom attribute mappings."]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc"]}],"$Ld","$Le"]}],null,"$Lf"]}],"loading":null,"isPartial":false}
 8:["$","strong",null,{"children":"SSO re-mapping"}]
 9:["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-made-it-hard","children":"What made it hard"}]
 a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The data migration took longer than scoped. The client's Google Drive was far messier than discovery suggested — deeply nested shared drives with complex permission inheritance, orphaned files, and accounts that no longer existed but still owned content. We had to build a pre-migration cleanup process that wasn't in the original plan."}]
 b:["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"stack","children":"Stack"}]
 c:["$","$L10",null,{"as":"ul","children":["\n",["$","$L11",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"AvePoint Fly"}],"\n",["$","$L11",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Microsoft Entra ID"}],"\n",["$","$L11",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Google Workspace APIs"}],"\n",["$","$L11",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Microsoft Graph API"}],"\n",["$","$L11",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"PowerShell"}],"\n"]}]
-14:T10a2,
+14:T88d,
+## What this is
+
+A macOS menu bar app that closes your work apps at the end of each day — automatically or on demand. No more manually quitting Slack, Chrome, VS Code, and the rest.
+
+The goal isn't to stop working — it's to create a boundary. Having a physical ritual (clicking "end of day" in the menu bar) makes it easier to actually walk away.
+
+## Features
+
+- **Menu bar residence** — Runs quietly in your macOS menu bar, no Dock icon
+- **Custom day picker** — Choose exactly which days to run (Mon, Tue, Wed, Thu, Fri)
+- **Configurable apps** — Pick which apps to close — Slack, Chrome, VS Code, anything
+- **Per-app delay** — Stagger closes so apps have time to save (0-10 seconds per app)
+- **Countdown alert** — 30-second warning before apps close
+- **Pause Today** — Skip tonight without changing your schedule
+- **Snooze 30 min** — Delay the close from the alert or tray menu
+- **Analytics** — Track your streaks, total runs, apps closed, 7-day history
+- **Launch at login** — Starts automatically when you log in
+- **Uninstall** — Clean removal from within the app
+
+## How it works
+
+1. Double-click the app to open setup
+2. Pick a trigger time (e.g., 6:00 PM)
+3. Select which apps to close
+4. Choose which days to run
+5. The app runs in the menu bar all day
+6. At trigger time → 30s countdown → apps close → logged
+
+## Installation
+
+**Download:** Get `EndOfDay.app.zip` from the [latest release](https://github.com/RohiRIK/end-of-day-mac/releases/latest)
+
+**Or build from source:**
+```bash
+git clone https://github.com/RohiRIK/end-of-day-mac
+cd end-of-day-mac
+bash install.sh
+```
+
+Requires macOS 12+ and Xcode Command Line Tools.
+
+## Why I built it
+
+I used to manually quit every app every night. Then I'd check Slack one more time, then check GitHub one more time, and suddenly 20 minutes vanished.
+
+Now I click "End of Day" in the menu bar and walk away. The apps close themselves. The streak counter gives me a reason to actually use it.
+
+It's not about working less — it's about knowing when you're done.
+
+## Stack
+
+- Swift / SwiftUI
+- AppKit for menu bar integration
+- launchd for background scheduling
+- UserDefaults for local persistenced:["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L12",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L13","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$14","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest"}],["$","$L13","m365-cli",{"priority":true,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}],"$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24"]}]]}]
+e:["$","$L25",null,{}]
+f:["$","$L26",null,{"children":["$","$27",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+29:T10a2,
 ## What it is
 
 A SOC assistant I built on my own time. The idea was simple: stop digging through documentation every time an alert fires and just ask a question in plain English.
@@ -80,10 +138,8 @@ I also initially tried to make it too autonomous. Fully automated playbook execu
 ## Results (personal use)
 
 Triage time on familiar alert types dropped significantly — the lookup work that was eating 15-30 minutes now takes seconds. For novel or complex incidents I still do full manual investigation, which is the right call. The assistant is a first-pass filter, not a replacement for thinking.
-d:["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L12",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L13","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics and a custom day picker to match your schedule.","content":"\n## What this is\n\nA menu bar app that runs in the background and closes your configured work apps when you tell it the day is done. No more manually quitting Slack, Chrome, VS Code, and the rest.\n\n## What's in it\n\n- **Menu bar residence** — Runs quietly in your macOS menu bar\n- **Configurable apps** — Choose which apps to close at end of day\n- **Custom day picker** — Set your specific work days (not every day is a work day)\n- **Analytics** — Track how often you end the day, which days you work late\n- **Launch at login** — Starts automatically when you log in\n\n## Why it matters\n\nThe goal isn't to stop working — it's to create a boundary. Having a physical ritual (clicking \"end of day\" in the menu bar) makes it easier to actually walk away.\n\n## Stack\n\n- Swift / SwiftUI\n- AppKit for menu bar integration\n- UserDefaults for local persistence","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac"}],["$","$L13","m365-cli",{"priority":true,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}],["$","$L13","project-aegis",{"priority":false,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$14","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}],"$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23"]}]]}]
-e:["$","$L24",null,{}]
-f:["$","$L25",null,{"children":["$","$26",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
-28:T5f0,
+15:["$","$L13","project-aegis",{"priority":false,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$29","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}]
+2a:T5f0,
 ## What this is
 
 The Microsoft Intune portal is fine for small fleets. At 10,000+ devices it gets slow and the search is painful. FleetWatch is a dashboard I built to solve the specific problems that come up when you're managing a large fleet day-to-day.
@@ -110,8 +166,8 @@ Working with large Intune environments at Oncloud, the native portal was consist
 - PostgreSQL with GIN/B-Tree indexes
 - Microsoft Graph SDK
 - Vercel
-15:["$","$L13","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$28","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch"}]
-29:T71c,
+16:["$","$L13","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$2a","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch"}]
+2b:T71c,
 ## What this is
 
 A passion project built because hosting friends for coffee had become genuinely chaotic. Multiple orders, specific customizations, no memory of who asked for oat milk — it was more stressful than it should be.
@@ -138,8 +194,8 @@ Also: the first version had a bug where two guests placing orders within millise
 - Bun
 - Firebase Firestore (real-time)
 - PWA
-16:["$","$L13","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$29","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop"}]
-2a:T749,
+17:["$","$L13","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$2b","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop"}]
+2c:T749,
 ## What this was
 
 A client running JumpCloud for MDM wanted to consolidate onto the Microsoft stack. Everything else was already in Microsoft — identity, email, security — but the device management gap meant correlating device state with identity required jumping between platforms.
@@ -167,8 +223,8 @@ A subset of devices had been enrolled in JumpCloud via a method that left a pers
 - Windows Autopilot
 - Apple Business Manager
 - PowerShell & Microsoft Graph API
-17:["$","$L13","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$2a","avatars":[],"link":""}]
-2b:T9e2,
+18:["$","$L13","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$2c","avatars":[],"link":""}]
+2d:T9e2,
 ## What this is
 
 My personal Claude Code configuration that I've been refining since I started using it heavily for both security automation and portfolio work. The default Claude Code setup is fine. This is what happens after you use it seriously for a few months and start fixing the parts that annoy you.
@@ -209,8 +265,8 @@ It's not magic — it's just configuration that enforces the workflow I actually
 - CLAUDE.md (global + per-project)
 - Session context (4 markdown files per project)
 - Custom agents + skills
-18:["$","$L13","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$2b","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config"}]
-2c:T748,
+19:["$","$L13","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$2d","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config"}]
+2e:T748,
 ## What this was
 
 A client engagement at Oncloud. The organization was running a perimeter-based model that hadn't kept up with their shift to remote work — unmanaged personal devices accessing corporate data, weak auth, no consistent security baseline across Windows, macOS, and mobile.
@@ -239,8 +295,8 @@ Conditional Access is easy to get wrong in both directions. The first FIDO2 roll
 - Microsoft Entra ID
 - Defender for Endpoint (XDR)
 - PowerShell & Microsoft Graph API
-19:["$","$L13","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$2c","avatars":[],"link":""}]
-2d:T5cd,
+1a:["$","$L13","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$2e","avatars":[],"link":""}]
+2f:T5cd,
 ## What this is
 
 A focused automation tool built at Oncloud. The problem: organizations using HiBob as their HRIS source of truth had employee photos sitting in HiBob that weren't making it to Microsoft Teams or Entra ID profiles. IT kept getting tickets about it. The options were either do it manually or use a third-party sync service that required excessive permissions.
@@ -263,8 +319,8 @@ Profile photo sync sounds like a small thing, but it touches identity data for e
 - Microsoft Graph API
 - HiBob API
 - Compatible with Azure Automation, GitHub Actions, or local CRON
-1a:["$","$L13","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$2d","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync"}]
-2e:T69a,
+1b:["$","$L13","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$2f","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync"}]
+30:T69a,
 ## What this is
 
 A companion to FleetWatch, built for analytical depth rather than day-to-day fleet operations. Where FleetWatch is fast search and direct device actions, this is compliance trend analysis, cross-fleet aggregations, and audit reporting.
@@ -295,8 +351,8 @@ Node.js workers run continuous sync from Microsoft Graph, pulling device state a
 - OpenSearch (AWS Managed)
 - TypeScript / Node.js
 - Microsoft Graph API
-1b:["$","$L13","device-inventory-analytics",{"priority":false,"href":"/work/device-inventory-analytics","images":[],"title":"Device Inventory Analytics","description":"A high-scale device analytics platform for large Intune environments — OpenSearch-powered full-text search, compliance heatmaps, and aggregated reporting across 50,000+ assets.","content":"$2e","avatars":[],"link":""}]
-2f:T70d,
+1c:["$","$L13","device-inventory-analytics",{"priority":false,"href":"/work/device-inventory-analytics","images":[],"title":"Device Inventory Analytics","description":"A high-scale device analytics platform for large Intune environments — OpenSearch-powered full-text search, compliance heatmaps, and aggregated reporting across 50,000+ assets.","content":"$30","avatars":[],"link":""}]
+31:T70d,
 ## What this is
 
 A collection of production n8n workflows I've built and iterated on for client work at Oncloud. Not a demo library — these run on actual client environments and handle real operational tasks.
@@ -322,8 +378,8 @@ n8n is genuinely good for this kind of work but error handling in production req
 - Microsoft Graph API
 - Microsoft Sentinel
 - HiBob, VirusTotal, AbuseIPDB APIs
-1c:["$","$L13","n8n-automation-workflows",{"priority":false,"href":"/work/n8n-automation-workflows","images":[],"title":"n8n Automation Workflows","description":"A library of n8n workflows built for real SecOps and IT ops use cases — alert enrichment, identity lifecycle, license auditing, and incident notification.","content":"$2f","avatars":[],"link":"https://github.com/RohiRIK/n8n"}]
-30:T6af,
+1d:["$","$L13","n8n-automation-workflows",{"priority":false,"href":"/work/n8n-automation-workflows","images":[],"title":"n8n Automation Workflows","description":"A library of n8n workflows built for real SecOps and IT ops use cases — alert enrichment, identity lifecycle, license auditing, and incident notification.","content":"$31","avatars":[],"link":"https://github.com/RohiRIK/n8n"}]
+32:T6af,
 ## What this is
 
 A pipeline tool I built to solve a recurring problem with RAG systems: the source data quality. Embedding documentation that still has navigation bars, cookie banners, and sidebar content mixed in produces retrieval results that are noisier than they should be.
@@ -354,8 +410,8 @@ Keeping RAG datasets current for Project Aegis. Documentation changes — API re
 - Firecrawl (headless browser crawling)
 - Markdown with YAML frontmatter
 - Compatible with LangChain and LlamaIndex pipelines
-1d:["$","$L13","doc-crawler-ai-organizer",{"priority":false,"href":"/work/doc-crawler-ai-organizer","images":[],"title":"Doc-Crawler AI","description":"A documentation pipeline that crawls technical docs sites and converts them to clean, structured Markdown optimized for RAG ingestion — handles SPAs, strips noise, preserves heading hierarchy.","content":"$30","avatars":[],"link":"https://github.com/RohiRIK/doc-crawler-ai-organizer"}]
-31:T63c,
+1e:["$","$L13","doc-crawler-ai-organizer",{"priority":false,"href":"/work/doc-crawler-ai-organizer","images":[],"title":"Doc-Crawler AI","description":"A documentation pipeline that crawls technical docs sites and converts them to clean, structured Markdown optimized for RAG ingestion — handles SPAs, strips noise, preserves heading hierarchy.","content":"$32","avatars":[],"link":"https://github.com/RohiRIK/doc-crawler-ai-organizer"}]
+33:T63c,
 ## What this is
 
 A home lab side project. I wanted air quality monitoring in my workspace and didn't want to use a proprietary device that locks data behind an app. So I wired up a Bosch BME680 sensor to an Orange Pi 3 LTS and built the monitoring stack myself.
@@ -392,8 +448,8 @@ Position the BME680 away from the Orange Pi's CPU. I didn't, and the first week 
 - Docker & Docker Compose
 - Orange Pi 3 LTS (ARM64)
 - Bosch BME680 via I2C
-1e:["$","$L13","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$31","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation"}]
-32:T647,
+1f:["$","$L13","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$33","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation"}]
+34:T647,
 ## What this is
 
 A maintenance automation tool I wrote because I got tired of running different update commands on different machines. One script that handles `apt`, `dnf`, `pacman`, `brew`, `npm`, `pip` — whatever's present on the system — with consistent logging and safe execution defaults.
@@ -417,8 +473,8 @@ Most existing solutions are either too opinionated (full configuration managemen
 - Bash
 - `flock`, `getopt`, `mail`
 - apt, dnf, pacman, zypper, brew, npm, pip
-1f:["$","$L13","unix-update-automator",{"priority":false,"href":"/work/unix-update-automator","images":[],"title":"Unix Update Automator","description":"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.","content":"$32","avatars":[],"link":"https://github.com/RohiRIK/unix-update-automator"}]
-33:T71f,
+20:["$","$L13","unix-update-automator",{"priority":false,"href":"/work/unix-update-automator","images":[],"title":"Unix Update Automator","description":"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.","content":"$34","avatars":[],"link":"https://github.com/RohiRIK/unix-update-automator"}]
+35:T71f,
 ## What this is
 
 My dotfiles repo. Not a flex — just a practical answer to the question "how long does it take to get a new machine to a working state?" The answer used to be a few hours of guesswork. Now it's one command and a coffee break.
@@ -451,8 +507,8 @@ It's not a full system configuration management setup. No Ansible, no Nix. If I 
 - GNU Stow (symlink management)
 - Homebrew + Brewfile
 - Starship prompt
-20:["$","$L13","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$33","avatars":[],"link":"https://github.com/RohiRIK/dotfiles"}]
-34:T6a9,
+21:["$","$L13","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$35","avatars":[],"link":"https://github.com/RohiRIK/dotfiles"}]
+36:T6a9,
 ## What this is
 
 A personal project exploring what a real multi-agent system looks like in practice. The idea: instead of one general-purpose AI assistant trying to do everything, a central orchestrator (Buddy) routes work to specialized agents — each with their own instructions, toolset, and context.
@@ -479,8 +535,8 @@ Whether specialized agents produce meaningfully better results than a single age
 - Google Gemini SDK
 - Model Context Protocol (MCP)
 - TypeScript
-21:["$","$L13","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$34","avatars":[],"link":"https://github.com/RohiRIK/dev-team"}]
-35:T7a4,
+22:["$","$L13","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$36","avatars":[],"link":"https://github.com/RohiRIK/dev-team"}]
+37:T7a4,
 ## What this is
 
 My home lab, documented and version-controlled. It runs on a dedicated server (not the Orange Pi — that's for IoT experiments), orchestrated with Docker Swarm. The goal was to build something I'd trust to run unattended and that I could actually learn from rather than just copy-paste from a tutorial.
@@ -514,8 +570,8 @@ The first version had everything in one large Compose file. Adding a new service
 - Traefik
 - Infisical
 - Ubuntu Server / Portainer
-22:["$","$L13","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$35","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack"}]
-36:T63c,
+23:["$","$L13","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$37","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack"}]
+38:T63c,
 ## What this is
 
 A CLI tool for Microsoft 365 administration built with Bun and TypeScript. The Microsoft Admin Center works fine for one-off tasks — it's painful for anything that needs to run across thousands of users or be scripted into a pipeline.
@@ -546,5 +602,5 @@ Work in progress. Core identity and license commands are solid. Adding modules f
 - TypeScript
 - Commander.js
 - Microsoft Graph SDK
-23:["$","$L13","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$36","avatars":[],"link":"https://github.com/RohiRIK/o365-cli"}]
-27:null
+24:["$","$L13","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$38","avatars":[],"link":"https://github.com/RohiRIK/o365-cli"}]
+28:null

@@ -12,20 +12,75 @@
 :HL["/_next/static/chunks/b3a7f4834154c9dc.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"PBsCGsdTtQYKK6urCB2qF","c":["","work"],"q":"","i":false,"f":[[["",{"children":["work",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/703ea523df03f6b5.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work\",\"sameAs\":[],\"headline\":\"Projects – Rohi Rikman\",\"description\":\"Automation and security projects by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Rohi Rikman"}],["$","$L5",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L7","copilot-agent-playbook",{"priority":true,"href":"/work/copilot-agent-playbook","images":[],"title":"Copilot Agent Playbook","description":"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.","content":"\n## What this is\n\nA collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations.\n\n## What's in it\n\n- **Knowledge base agents** — Search, summarize, and surface information from SharePoint, Teams, and external sources\n- **Security agents** — Monitor for threats, enrich alerts, automate incident response\n- **IT ops agents** — Handle password resets, license requests, device triage\n- **Sales enablement** — Customer intelligence, meeting prep, proposal assistance\n- **HR agents** — Onboarding, policy Q&A, benefits navigation\n\n## Why it matters\n\nCopilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible.\n\n## Stack\n\n- Microsoft 365 Copilot\n- Microsoft Graph API\n- Azure AI Studio","avatars":[],"link":"https://github.com/RohiRIK/copilot-agent-playbook"}],"$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17"]}]]}],null,"$L18"]}],{},null,false,false]},null,false,false]},null,false,false],"$L19",false]],"m":"$undefined","G":["$1a",[]],"S":true}
-29:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
-2a:"$Sreact.suspense"
-2c:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"ViewportBoundary"]
-2e:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"MetadataBoundary"]
-31:I[530824,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Providers"]
-32:I[621971,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"RevealFx"]
-33:I[394412,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Background"]
-34:I[521247,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ClientFlex"]
-35:I[402971,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Header"]
-36:I[1166,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"RouteGuard"]
-8:["$","$L7","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics and a custom day picker to match your schedule.","content":"\n## What this is\n\nA menu bar app that runs in the background and closes your configured work apps when you tell it the day is done. No more manually quitting Slack, Chrome, VS Code, and the rest.\n\n## What's in it\n\n- **Menu bar residence** — Runs quietly in your macOS menu bar\n- **Configurable apps** — Choose which apps to close at end of day\n- **Custom day picker** — Set your specific work days (not every day is a work day)\n- **Analytics** — Track how often you end the day, which days you work late\n- **Launch at login** — Starts automatically when you log in\n\n## Why it matters\n\nThe goal isn't to stop working — it's to create a boundary. Having a physical ritual (clicking \"end of day\" in the menu bar) makes it easier to actually walk away.\n\n## Stack\n\n- Swift / SwiftUI\n- AppKit for menu bar integration\n- UserDefaults for local persistence","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac"}]
+0:{"P":null,"b":"1QtA4At23Puwqr0gGm1K-","c":["","work"],"q":"","i":false,"f":[[["",{"children":["work",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/3a1b43107ae24619.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/703ea523df03f6b5.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work\",\"sameAs\":[],\"headline\":\"Projects – Rohi Rikman\",\"description\":\"Automation and security projects by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Rohi Rikman"}],["$","$L5",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L7","copilot-agent-playbook",{"priority":true,"href":"/work/copilot-agent-playbook","images":[],"title":"Copilot Agent Playbook","description":"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.","content":"\n## What this is\n\nA collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations.\n\n## What's in it\n\n- **Knowledge base agents** — Search, summarize, and surface information from SharePoint, Teams, and external sources\n- **Security agents** — Monitor for threats, enrich alerts, automate incident response\n- **IT ops agents** — Handle password resets, license requests, device triage\n- **Sales enablement** — Customer intelligence, meeting prep, proposal assistance\n- **HR agents** — Onboarding, policy Q&A, benefits navigation\n\n## Why it matters\n\nCopilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible.\n\n## Stack\n\n- Microsoft 365 Copilot\n- Microsoft Graph API\n- Azure AI Studio","avatars":[],"link":"https://github.com/RohiRIK/copilot-agent-playbook"}],"$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17"]}]]}],null,"$L18"]}],{},null,false,false]},null,false,false]},null,false,false],"$L19",false]],"m":"$undefined","G":["$1a",[]],"S":true}
+2a:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
+2b:"$Sreact.suspense"
+2d:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"ViewportBoundary"]
+2f:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"MetadataBoundary"]
+32:I[530824,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Providers"]
+33:I[621971,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"RevealFx"]
+34:I[394412,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Background"]
+35:I[521247,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ClientFlex"]
+36:I[402971,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Header"]
+37:I[1166,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"RouteGuard"]
+1b:T88d,
+## What this is
+
+A macOS menu bar app that closes your work apps at the end of each day — automatically or on demand. No more manually quitting Slack, Chrome, VS Code, and the rest.
+
+The goal isn't to stop working — it's to create a boundary. Having a physical ritual (clicking "end of day" in the menu bar) makes it easier to actually walk away.
+
+## Features
+
+- **Menu bar residence** — Runs quietly in your macOS menu bar, no Dock icon
+- **Custom day picker** — Choose exactly which days to run (Mon, Tue, Wed, Thu, Fri)
+- **Configurable apps** — Pick which apps to close — Slack, Chrome, VS Code, anything
+- **Per-app delay** — Stagger closes so apps have time to save (0-10 seconds per app)
+- **Countdown alert** — 30-second warning before apps close
+- **Pause Today** — Skip tonight without changing your schedule
+- **Snooze 30 min** — Delay the close from the alert or tray menu
+- **Analytics** — Track your streaks, total runs, apps closed, 7-day history
+- **Launch at login** — Starts automatically when you log in
+- **Uninstall** — Clean removal from within the app
+
+## How it works
+
+1. Double-click the app to open setup
+2. Pick a trigger time (e.g., 6:00 PM)
+3. Select which apps to close
+4. Choose which days to run
+5. The app runs in the menu bar all day
+6. At trigger time → 30s countdown → apps close → logged
+
+## Installation
+
+**Download:** Get `EndOfDay.app.zip` from the [latest release](https://github.com/RohiRIK/end-of-day-mac/releases/latest)
+
+**Or build from source:**
+```bash
+git clone https://github.com/RohiRIK/end-of-day-mac
+cd end-of-day-mac
+bash install.sh
+```
+
+Requires macOS 12+ and Xcode Command Line Tools.
+
+## Why I built it
+
+I used to manually quit every app every night. Then I'd check Slack one more time, then check GitHub one more time, and suddenly 20 minutes vanished.
+
+Now I click "End of Day" in the menu bar and walk away. The apps close themselves. The streak counter gives me a reason to actually use it.
+
+It's not about working less — it's about knowing when you're done.
+
+## Stack
+
+- Swift / SwiftUI
+- AppKit for menu bar integration
+- launchd for background scheduling
+- UserDefaults for local persistence8:["$","$L7","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$1b","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest"}]
 9:["$","$L7","m365-cli",{"priority":false,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}]
-1b:T10a2,
+1c:T10a2,
 ## What it is
 
 A SOC assistant I built on my own time. The idea was simple: stop digging through documentation every time an alert fires and just ask a question in plain English.
@@ -87,8 +142,8 @@ I also initially tried to make it too autonomous. Fully automated playbook execu
 ## Results (personal use)
 
 Triage time on familiar alert types dropped significantly — the lookup work that was eating 15-30 minutes now takes seconds. For novel or complex incidents I still do full manual investigation, which is the right call. The assistant is a first-pass filter, not a replacement for thinking.
-a:["$","$L7","project-aegis",{"priority":false,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$1b","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}]
-1c:T5f0,
+a:["$","$L7","project-aegis",{"priority":false,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$1c","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}]
+1d:T5f0,
 ## What this is
 
 The Microsoft Intune portal is fine for small fleets. At 10,000+ devices it gets slow and the search is painful. FleetWatch is a dashboard I built to solve the specific problems that come up when you're managing a large fleet day-to-day.
@@ -115,8 +170,8 @@ Working with large Intune environments at Oncloud, the native portal was consist
 - PostgreSQL with GIN/B-Tree indexes
 - Microsoft Graph SDK
 - Vercel
-b:["$","$L7","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$1c","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch"}]
-1d:T71c,
+b:["$","$L7","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$1d","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch"}]
+1e:T71c,
 ## What this is
 
 A passion project built because hosting friends for coffee had become genuinely chaotic. Multiple orders, specific customizations, no memory of who asked for oat milk — it was more stressful than it should be.
@@ -143,8 +198,8 @@ Also: the first version had a bug where two guests placing orders within millise
 - Bun
 - Firebase Firestore (real-time)
 - PWA
-c:["$","$L7","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$1d","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop"}]
-1e:T749,
+c:["$","$L7","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$1e","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop"}]
+1f:T749,
 ## What this was
 
 A client running JumpCloud for MDM wanted to consolidate onto the Microsoft stack. Everything else was already in Microsoft — identity, email, security — but the device management gap meant correlating device state with identity required jumping between platforms.
@@ -172,8 +227,8 @@ A subset of devices had been enrolled in JumpCloud via a method that left a pers
 - Windows Autopilot
 - Apple Business Manager
 - PowerShell & Microsoft Graph API
-d:["$","$L7","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$1e","avatars":[],"link":""}]
-1f:T6db,
+d:["$","$L7","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$1f","avatars":[],"link":""}]
+20:T6db,
 ## What this was
 
 A client at Oncloud decided to move their entire identity and collaboration stack from Google Workspace to Microsoft 365. I was the lead engineer on the migration — responsible for technical execution from discovery through cutover.
@@ -199,8 +254,8 @@ The data migration took longer than scoped. The client's Google Drive was far me
 - Google Workspace APIs
 - Microsoft Graph API
 - PowerShell
-e:["$","$L7","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$1f","avatars":[],"link":""}]
-20:T9e2,
+e:["$","$L7","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$20","avatars":[],"link":""}]
+21:T9e2,
 ## What this is
 
 My personal Claude Code configuration that I've been refining since I started using it heavily for both security automation and portfolio work. The default Claude Code setup is fine. This is what happens after you use it seriously for a few months and start fixing the parts that annoy you.
@@ -241,8 +296,8 @@ It's not magic — it's just configuration that enforces the workflow I actually
 - CLAUDE.md (global + per-project)
 - Session context (4 markdown files per project)
 - Custom agents + skills
-f:["$","$L7","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$20","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config"}]
-21:T748,
+f:["$","$L7","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$21","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config"}]
+22:T748,
 ## What this was
 
 A client engagement at Oncloud. The organization was running a perimeter-based model that hadn't kept up with their shift to remote work — unmanaged personal devices accessing corporate data, weak auth, no consistent security baseline across Windows, macOS, and mobile.
@@ -271,8 +326,8 @@ Conditional Access is easy to get wrong in both directions. The first FIDO2 roll
 - Microsoft Entra ID
 - Defender for Endpoint (XDR)
 - PowerShell & Microsoft Graph API
-10:["$","$L7","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$21","avatars":[],"link":""}]
-22:T5cd,
+10:["$","$L7","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$22","avatars":[],"link":""}]
+23:T5cd,
 ## What this is
 
 A focused automation tool built at Oncloud. The problem: organizations using HiBob as their HRIS source of truth had employee photos sitting in HiBob that weren't making it to Microsoft Teams or Entra ID profiles. IT kept getting tickets about it. The options were either do it manually or use a third-party sync service that required excessive permissions.
@@ -295,8 +350,8 @@ Profile photo sync sounds like a small thing, but it touches identity data for e
 - Microsoft Graph API
 - HiBob API
 - Compatible with Azure Automation, GitHub Actions, or local CRON
-11:["$","$L7","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$22","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync"}]
-23:T63c,
+11:["$","$L7","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$23","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync"}]
+24:T63c,
 ## What this is
 
 A home lab side project. I wanted air quality monitoring in my workspace and didn't want to use a proprietary device that locks data behind an app. So I wired up a Bosch BME680 sensor to an Orange Pi 3 LTS and built the monitoring stack myself.
@@ -333,8 +388,8 @@ Position the BME680 away from the Orange Pi's CPU. I didn't, and the first week 
 - Docker & Docker Compose
 - Orange Pi 3 LTS (ARM64)
 - Bosch BME680 via I2C
-12:["$","$L7","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$23","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation"}]
-24:T647,
+12:["$","$L7","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$24","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation"}]
+25:T647,
 ## What this is
 
 A maintenance automation tool I wrote because I got tired of running different update commands on different machines. One script that handles `apt`, `dnf`, `pacman`, `brew`, `npm`, `pip` — whatever's present on the system — with consistent logging and safe execution defaults.
@@ -358,8 +413,8 @@ Most existing solutions are either too opinionated (full configuration managemen
 - Bash
 - `flock`, `getopt`, `mail`
 - apt, dnf, pacman, zypper, brew, npm, pip
-13:["$","$L7","unix-update-automator",{"priority":false,"href":"/work/unix-update-automator","images":[],"title":"Unix Update Automator","description":"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.","content":"$24","avatars":[],"link":"https://github.com/RohiRIK/unix-update-automator"}]
-25:T71f,
+13:["$","$L7","unix-update-automator",{"priority":false,"href":"/work/unix-update-automator","images":[],"title":"Unix Update Automator","description":"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.","content":"$25","avatars":[],"link":"https://github.com/RohiRIK/unix-update-automator"}]
+26:T71f,
 ## What this is
 
 My dotfiles repo. Not a flex — just a practical answer to the question "how long does it take to get a new machine to a working state?" The answer used to be a few hours of guesswork. Now it's one command and a coffee break.
@@ -392,8 +447,8 @@ It's not a full system configuration management setup. No Ansible, no Nix. If I 
 - GNU Stow (symlink management)
 - Homebrew + Brewfile
 - Starship prompt
-14:["$","$L7","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$25","avatars":[],"link":"https://github.com/RohiRIK/dotfiles"}]
-26:T6a9,
+14:["$","$L7","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$26","avatars":[],"link":"https://github.com/RohiRIK/dotfiles"}]
+27:T6a9,
 ## What this is
 
 A personal project exploring what a real multi-agent system looks like in practice. The idea: instead of one general-purpose AI assistant trying to do everything, a central orchestrator (Buddy) routes work to specialized agents — each with their own instructions, toolset, and context.
@@ -420,8 +475,8 @@ Whether specialized agents produce meaningfully better results than a single age
 - Google Gemini SDK
 - Model Context Protocol (MCP)
 - TypeScript
-15:["$","$L7","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$26","avatars":[],"link":"https://github.com/RohiRIK/dev-team"}]
-27:T7a4,
+15:["$","$L7","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$27","avatars":[],"link":"https://github.com/RohiRIK/dev-team"}]
+28:T7a4,
 ## What this is
 
 My home lab, documented and version-controlled. It runs on a dedicated server (not the Orange Pi — that's for IoT experiments), orchestrated with Docker Swarm. The goal was to build something I'd trust to run unattended and that I could actually learn from rather than just copy-paste from a tutorial.
@@ -455,8 +510,8 @@ The first version had everything in one large Compose file. Adding a new service
 - Traefik
 - Infisical
 - Ubuntu Server / Portainer
-16:["$","$L7","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$27","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack"}]
-28:T63c,
+16:["$","$L7","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$28","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack"}]
+29:T63c,
 ## What this is
 
 A CLI tool for Microsoft 365 administration built with Bun and TypeScript. The Microsoft Admin Center works fine for one-off tasks — it's painful for anything that needs to run across thousands of users or be scripted into a pipeline.
@@ -487,10 +542,10 @@ Work in progress. Core identity and license commands are solid. Adding modules f
 - TypeScript
 - Commander.js
 - Microsoft Graph SDK
-17:["$","$L7","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$28","avatars":[],"link":"https://github.com/RohiRIK/o365-cli"}]
-18:["$","$L29",null,{"children":["$","$2a",null,{"name":"Next.MetadataOutlet","children":"$@2b"}]}]
-19:["$","$1","h",{"children":[null,["$","$L2c",null,{"children":"$L2d"}],["$","div",null,{"hidden":true,"children":["$","$L2e",null,{"children":["$","$2a",null,{"name":"Next.Metadata","children":"$L2f"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-30:T771,
+17:["$","$L7","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$29","avatars":[],"link":"https://github.com/RohiRIK/o365-cli"}]
+18:["$","$L2a",null,{"children":["$","$2b",null,{"name":"Next.MetadataOutlet","children":"$@2c"}]}]
+19:["$","$1","h",{"children":[null,["$","$L2d",null,{"children":"$L2e"}],["$","div",null,{"hidden":true,"children":["$","$L2f",null,{"children":["$","$2b",null,{"name":"Next.Metadata","children":"$L30"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+31:T771,
               (function() {
                 try {
                   const root = document.documentElement;
@@ -530,12 +585,12 @@ Work in progress. Core identity and license commands are solid. Adding modules f
                   document.documentElement.setAttribute('data-theme', 'dark');
                 }
               })();
-            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$30"}}]}],["$","$L31",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L32",null,{"fill":true,"position":"absolute","children":["$","$L33",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L34",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L35",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L36",null,{"children":"$L37"}]}]}],"$L38"]}]}]]}]
-39:I[778454,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
-3a:I[298229,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"IconButton"]
-37:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
-38:["$","$L39",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L39",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L39",null,{"gap":"16","children":[["$","$L3a","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L3a","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L3a","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L39",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-2d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-3b:I[27201,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"IconMark"]
-2b:null
-2f:[["$","title","0",{"children":"Projects – Rohi Rikman"}],["$","meta","1",{"name":"description","content":"Automation and security projects by Rohi Rikman"}],["$","meta","2",{"property":"og:title","content":"Projects – Rohi Rikman"}],["$","meta","3",{"property":"og:description","content":"Automation and security projects by Rohi Rikman"}],["$","meta","4",{"property":"og:url","content":"https://cloudjourneyblog.rohi-lab.org/work"}],["$","meta","5",{"property":"og:image","content":"https://cloudjourneyblog.rohi-lab.org/images/avatar.png"}],["$","meta","6",{"property":"og:image:alt","content":"Projects – Rohi Rikman"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Projects – Rohi Rikman"}],["$","meta","10",{"name":"twitter:description","content":"Automation and security projects by Rohi Rikman"}],["$","meta","11",{"name":"twitter:image","content":"https://cloudjourneyblog.rohi-lab.org/images/avatar.png"}],["$","link","12",{"rel":"icon","href":"/icon.png?icon.c8434fe5.png","sizes":"640x640","type":"image/png"}],["$","$L3b","13",{}]]
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$31"}}]}],["$","$L32",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L33",null,{"fill":true,"position":"absolute","children":["$","$L34",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L35",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L36",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L37",null,{"children":"$L38"}]}]}],"$L39"]}]}]]}]
+3a:I[778454,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
+3b:I[298229,["/_next/static/chunks/703ea523df03f6b5.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"IconButton"]
+38:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+39:["$","$L3a",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L3a",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L3a",null,{"gap":"16","children":[["$","$L3b","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L3b","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L3b","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L3a",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+2e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+3c:I[27201,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"IconMark"]
+2c:null
+30:[["$","title","0",{"children":"Projects – Rohi Rikman"}],["$","meta","1",{"name":"description","content":"Automation and security projects by Rohi Rikman"}],["$","meta","2",{"property":"og:title","content":"Projects – Rohi Rikman"}],["$","meta","3",{"property":"og:description","content":"Automation and security projects by Rohi Rikman"}],["$","meta","4",{"property":"og:url","content":"https://cloudjourneyblog.rohi-lab.org/work"}],["$","meta","5",{"property":"og:image","content":"https://cloudjourneyblog.rohi-lab.org/images/avatar.png"}],["$","meta","6",{"property":"og:image:alt","content":"Projects – Rohi Rikman"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Projects – Rohi Rikman"}],["$","meta","10",{"name":"twitter:description","content":"Automation and security projects by Rohi Rikman"}],["$","meta","11",{"name":"twitter:image","content":"https://cloudjourneyblog.rohi-lab.org/images/avatar.png"}],["$","link","12",{"rel":"icon","href":"/icon.png?icon.c8434fe5.png","sizes":"640x640","type":"image/png"}],["$","$L3c","13",{}]]
