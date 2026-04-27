@@ -1,71 +1,117 @@
-import Parser from 'rss-parser';
-import { Text, List, ListItem, Row, Column } from '@once-ui-system/core';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+import { Column, Row, Heading, Text, Tag, Line } from '@once-ui-system/core';
 
-const parser = new Parser({ timeout: 5000 });
+interface FeedItem {
+  title: string;
+  link: string;
+  date: string;
+  excerpt: string;
+}
 
-const FEEDS = [
-  { name: 'Microsoft Security', url: 'https://www.microsoft.com/security/blog/feed/', tag: 'Security' },
-  { name: 'Azure Blog', url: 'https://azure.microsoft.com/en-us/blog/feed/', tag: 'Azure' },
-  { name: 'Microsoft 365 Dev', url: 'https://devblogs.microsoft.com/microsoft-365/feed', tag: 'M365' },
-  { name: 'MSRC', url: 'https://msrc.microsoft.com/blog/rss', tag: 'Security' },
-  { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/', tag: 'Security' },
-  { name: 'The Register', url: 'https://www.theregister.co.uk/headlines.rss', tag: 'Security' },
-  { name: 'GitHub Enterprise', url: 'https://github.blog/enterprise-security/feed/', tag: 'Security' },
-];
+interface Feed {
+  name: string;
+  tag: string;
+  url: string;
+  items: FeedItem[];
+  error?: boolean;
+}
 
-export const revalidate = 3600;
+interface FeedsData {
+  updatedAt: string;
+  feeds: Feed[];
+}
 
-async function fetchFeed(url: string, name: string) {
+function loadFeedsData(): FeedsData {
   try {
-    const feed = await parser.parseURL(url);
-    return {
-      name,
-      items: feed.items.slice(0, 5).map(item => ({
-        title: item.title?.substring(0, 150) || 'Untitled',
-        link: item.link || '',
-        date: item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '',
-      })),
-    };
+    const raw = readFileSync(join(process.cwd(), 'public', 'feeds-data.json'), 'utf8');
+    return JSON.parse(raw) as FeedsData;
   } catch {
-    return null;
+    return { updatedAt: '', feeds: [] };
   }
 }
 
-export default async function FeedsPage() {
-  const results = await Promise.allSettled(
-    FEEDS.map(f => fetchFeed(f.url, f.name))
-  );
-  
-  const feeds = results
-    .map((r) => r.status === 'fulfilled' ? r.value : null)
-    .filter(Boolean);
+export default function FeedsPage() {
+  const { updatedAt, feeds } = loadFeedsData();
+  const activeFeeds = feeds.filter(f => !f.error && f.items.length > 0);
+
+  const updated = updatedAt
+    ? new Date(updatedAt).toLocaleDateString('en-US', {
+        month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit',
+      })
+    : null;
 
   return (
-    <>
-      <Text variant="body-default-l" marginBottom="16">Feeds I Track</Text>
-      <Text marginBottom="24" onBackground="neutral-medium">
-        Curated feeds from the Microsoft ecosystem and security world. Updated hourly.
-      </Text>
-      
-      {feeds.map(feed => feed && (
-        <Column key={feed.name} gap="8" marginBottom="32">
-          <Row gap="8" marginBottom="8" vertical="center">
-            <Text variant="body-default-m">{feed.name}</Text>
-          </Row>
-          <List>
-            {feed.items.map((item, j) => (
-              <ListItem key={j} marginBottom="4">
-                <a href={item.link} target="_blank" rel="noopener noreferrer">
-                  {item.title}
-                </a>
-                <Text marginLeft="8" variant="body-default-s" onBackground="neutral-medium">
-                  {item.date}
-                </Text>
-              </ListItem>
-            ))}
-          </List>
-        </Column>
-      ))}
-    </>
+    <Column maxWidth="m" paddingTop="24" paddingX="24">
+      <Heading marginBottom="s" variant="heading-strong-xl">
+        Feeds I Track
+      </Heading>
+      <Row gap="8" vertical="center" marginBottom="40">
+        <Text onBackground="neutral-medium">
+          Curated feeds from the Microsoft ecosystem and security world.
+        </Text>
+        {updated && (
+          <Text variant="label-default-s" onBackground="neutral-weak">
+            · Updated {updated}
+          </Text>
+        )}
+      </Row>
+
+      <Column fillWidth gap="0">
+        {activeFeeds.length === 0 && (
+          <Text onBackground="neutral-medium">No feed data available yet.</Text>
+        )}
+        {activeFeeds.map((feed, i) => (
+          <Column key={feed.name} fillWidth>
+            {i > 0 && <Line marginBottom="32" />}
+
+            <Row fillWidth vertical="center" horizontal="between" marginBottom="20">
+              <Row gap="12" vertical="center">
+                <Heading as="h2" variant="heading-strong-m">{feed.name}</Heading>
+                <Tag label={feed.tag} variant="neutral" />
+              </Row>
+              <a href={feed.url} target="_blank" rel="noopener noreferrer">
+                <Text variant="label-default-s" onBackground="neutral-medium">RSS ↗</Text>
+              </a>
+            </Row>
+
+            <Column fillWidth gap="0" marginBottom="32">
+              {feed.items.map((item, j) => (
+                <Column
+                  key={j}
+                  fillWidth
+                  paddingY="16"
+                  style={{
+                    borderBottom: j < feed.items.length - 1
+                      ? '1px solid var(--neutral-border-weak)'
+                      : 'none',
+                  }}
+                >
+                  <Row fillWidth vertical="start" horizontal="between" gap="16">
+                    <a href={item.link} target="_blank" rel="noopener noreferrer" style={{ flex: 1 }}>
+                      <Text variant="body-strong-s">{item.title}</Text>
+                    </a>
+                    {item.date && (
+                      <Text
+                        variant="label-default-s"
+                        onBackground="neutral-weak"
+                        style={{ whiteSpace: 'nowrap', flexShrink: 0 }}
+                      >
+                        {item.date}
+                      </Text>
+                    )}
+                  </Row>
+                  {item.excerpt && (
+                    <Text variant="body-default-s" onBackground="neutral-medium" marginTop="4">
+                      {item.excerpt}
+                    </Text>
+                  )}
+                </Column>
+              ))}
+            </Column>
+          </Column>
+        ))}
+      </Column>
+    </Column>
   );
 }

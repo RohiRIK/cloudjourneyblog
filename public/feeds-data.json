@@ -1,0 +1,114 @@
+{
+  "updatedAt": "2026-04-26T16:18:39.703Z",
+  "feeds": [
+    {
+      "name": "Microsoft Security",
+      "tag": "Security",
+      "url": "https://www.microsoft.com/security/blog/feed/",
+      "items": [],
+      "error": true
+    },
+    {
+      "name": "Azure Blog",
+      "tag": "Azure",
+      "url": "https://azure.microsoft.com/en-us/blog/feed/",
+      "items": [],
+      "error": true
+    },
+    {
+      "name": "Microsoft 365 Dev",
+      "tag": "M365",
+      "url": "https://devblogs.microsoft.com/microsoft-365/feed",
+      "items": [],
+      "error": true
+    },
+    {
+      "name": "MSRC",
+      "tag": "Security",
+      "url": "https://msrc.microsoft.com/blog/rss",
+      "items": [],
+      "error": true
+    },
+    {
+      "name": "BleepingComputer",
+      "tag": "Security",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "items": [
+        {
+          "title": "American utility firm Itron discloses breach of internal IT network",
+          "link": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
+          "date": "Apr 26, 2026",
+          "excerpt": "Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems. [."
+        },
+        {
+          "title": "Microsoft rolls out revamped Windows Insider Program",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/",
+          "date": "Apr 25, 2026",
+          "excerpt": "Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11. [...]"
+        },
+        {
+          "title": "Threat actor uses Microsoft Teams to deploy new “Snow” malware",
+          "link": "https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/",
+          "date": "Apr 25, 2026",
+          "excerpt": "A threat group tracked as UNC6692 uses social engineering to deploy a new, custom malware suite named 'Snow' which includes a browser extension, a tunneler, and a backdoor. [...]"
+        },
+        {
+          "title": "ADT confirms data breach after ShinyHunters leak threat",
+          "link": "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
+          "date": "Apr 25, 2026",
+          "excerpt": "Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]"
+        },
+        {
+          "title": "Firestarter malware survives Cisco firewall updates, security patches",
+          "link": "https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/",
+          "date": "Apr 24, 2026",
+          "excerpt": "Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA) or"
+        }
+      ]
+    },
+    {
+      "name": "The Register",
+      "tag": "Security",
+      "url": "https://www.theregister.co.uk/headlines.rss",
+      "items": [
+        {
+          "title": "Tokenmaxxing isn't an AI strategy",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/26/ai_price_tag/",
+          "date": "Apr 26, 2026",
+          "excerpt": "Before checking AI's price tag, see whether it fits What does AI cost? It's a simple question and an important one – the answer will determine the fate of companies and shape society. But it's also a "
+        },
+        {
+          "title": "Go straight to sell! Windows second-chance setup hawks Microsoft services at IT's expense",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/26/windows_second_chance_setup/",
+          "date": "Apr 26, 2026",
+          "excerpt": "The OS trying to upsell you subscriptions is more than just an annoyance opinion You’ve had your laptop for months, and you’ve always made sure it installed Microsoft updates. Then one day you boot up"
+        },
+        {
+          "title": "Hot take: AI's not going to kill open source code security",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/26/opinion_column/",
+          "date": "Apr 26, 2026",
+          "excerpt": "Cal.com considers AGPL a license to drill, but not everyone feels that way Opinion Cal.com has closed its commercial codebase, abandoning years of AGPL-3.0 licensing in a move that has alarmed the dev"
+        },
+        {
+          "title": "Ex-AWS legend explains what enterprises need to make AI actually work",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/25/ai_enterprise_matt_domo/",
+          "date": "Apr 25, 2026",
+          "excerpt": "AI transformation is about people and organization, not technology Enterprise AI projects go off the rails when companies focus on the technology instead of the people.…"
+        },
+        {
+          "title": "Crime crew impersonates help desk, abuses Microsoft Teams to steal your data",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/25/new_crime_crew_impersonates_help_desks/",
+          "date": "Apr 25, 2026",
+          "excerpt": "Coming in cold with custom Snow malware A previously unknown threat group using tried-and-tested social engineering tactics - Microsoft Teams chat invitations and helpdesk staff impersonation - is als"
+        }
+      ]
+    },
+    {
+      "name": "GitHub Enterprise",
+      "tag": "Security",
+      "url": "https://github.blog/enterprise-security/feed/",
+      "items": [],
+      "error": true
+    }
+  ]
+}
