@@ -1,12 +1,42 @@
 {
-  "updatedAt": "2026-04-26T16:18:39.703Z",
+  "updatedAt": "2026-04-27T13:15:49.586Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "AI-powered defense for an AI-accelerated threat landscape",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/22/ai-powered-defense-for-an-ai-accelerated-threat-landscape/",
+          "date": "Apr 22, 2026",
+          "excerpt": "Read how Microsoft is partnering with Anthropic and broader industry to use leading models, paired with our platforms and expertise, to turn AI-driven discovery into protection at scale. The post AI-p"
+        },
+        {
+          "title": "Detection strategies across cloud and identities against infiltrating IT workers",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/21/detection-strategies-cloud-identities-against-infiltrating-it-workers/",
+          "date": "Apr 21, 2026",
+          "excerpt": "The shift to remote and hybrid work since the pandemic expanded global hiring and accelerated digital onboarding, increasing reliance on online identity verification and remote access. The post Detect"
+        },
+        {
+          "title": "Making opportunistic cyberattacks harder by design",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/",
+          "date": "Apr 20, 2026",
+          "excerpt": "How Microsoft secures Dynamics 365 and Power Platform by removing credentials, reducing attack surfaces, and using platform engineering to block opportunistic threats. The post Making opportunistic cy"
+        },
+        {
+          "title": "Cross‑tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/",
+          "date": "Apr 18, 2026",
+          "excerpt": "Threat actors are abusing external Microsoft Teams collaboration to impersonate IT helpdesk staff and convince users to grant remote access. Once inside, attackers can abuse legitimate tools and stand"
+        },
+        {
+          "title": "Containing a domain compromise: How predictive shielding shut down lateral movement",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/17/domain-compromise-predictive-shielding-shut-down-lateral-movement/",
+          "date": "Apr 17, 2026",
+          "excerpt": "Domain compromise accelerates fast. Predictive shielding slowed it down. This real-world attack shows how exposure-based containment stopped credential abuse and broke the threat actor's momentum. The"
+        }
+      ]
     },
     {
       "name": "Azure Blog",
@@ -35,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Money launderer linked to $230M crypto heist gets 70 months in prison",
+          "link": "https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/",
+          "date": "Apr 27, 2026",
+          "excerpt": "​22-year-old Evan Tangeman of Newport Beach, California, was sentenced to 70 months in prison for laundering funds stolen in a massive $230 million cryptocurrency heist. [...]"
+        },
+        {
+          "title": "Deepfake Voice Attacks are Outpacing Defenses: What Security Leaders Should Know",
+          "link": "https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/",
+          "date": "Apr 27, 2026",
+          "excerpt": "Three seconds of audio is all it takes to clone a voice for fraud. Adaptive Security shows how deepfake calls trick employees into sending real money—and why most defenses don't catch them. [...]"
+        },
+        {
+          "title": "Microsoft says Outlook.com outage is causing sign‑in failures",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-outlookcom-outage-is-causing-sign-in-failures/",
+          "date": "Apr 27, 2026",
+          "excerpt": "Microsoft is investigating an ongoing Outlook.com outage that is causing intermittent signing issues and preventing customers from accessing their mailboxes. [...]"
+        },
+        {
           "title": "American utility firm Itron discloses breach of internal IT network",
           "link": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
           "date": "Apr 26, 2026",
@@ -45,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/",
           "date": "Apr 25, 2026",
           "excerpt": "Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11. [...]"
-        },
-        {
-          "title": "Threat actor uses Microsoft Teams to deploy new “Snow” malware",
-          "link": "https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/",
-          "date": "Apr 25, 2026",
-          "excerpt": "A threat group tracked as UNC6692 uses social engineering to deploy a new, custom malware suite named 'Snow' which includes a browser extension, a tunneler, and a backdoor. [...]"
-        },
-        {
-          "title": "ADT confirms data breach after ShinyHunters leak threat",
-          "link": "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
-          "date": "Apr 25, 2026",
-          "excerpt": "Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]"
-        },
-        {
-          "title": "Firestarter malware survives Cisco firewall updates, security patches",
-          "link": "https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/",
-          "date": "Apr 24, 2026",
-          "excerpt": "Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA) or"
         }
       ]
     },
@@ -72,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Tokenmaxxing isn't an AI strategy",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/26/ai_price_tag/",
-          "date": "Apr 26, 2026",
-          "excerpt": "Before checking AI's price tag, see whether it fits What does AI cost? It's a simple question and an important one – the answer will determine the fate of companies and shape society. But it's also a "
+          "title": "Trump's Golden Dome gets $3.2BN of contractors and an AI sprinkle",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/us_names_firms_to_develop/",
+          "date": "Apr 27, 2026",
+          "excerpt": "Space Force awards 11 firms prototype deals to build orbital interceptors The United States Space Force (USSF) has awarded eleven companies contracts to develop space-based interceptors for President "
         },
         {
-          "title": "Go straight to sell! Windows second-chance setup hawks Microsoft services at IT's expense",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/26/windows_second_chance_setup/",
-          "date": "Apr 26, 2026",
-          "excerpt": "The OS trying to upsell you subscriptions is more than just an annoyance opinion You’ve had your laptop for months, and you’ve always made sure it installed Microsoft updates. Then one day you boot up"
+          "title": "Cybersec is a thankless job: expanding workload and shrinking pay packet",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/from_a_massive_skills_gap/",
+          "date": "Apr 27, 2026",
+          "excerpt": "Global recruitment giant says 71% of human firewalls saw wages stagnate last year as threats and responsibilities grew Cybersecurity professionals were the most overlooked workers in IT when it came t"
         },
         {
-          "title": "Hot take: AI's not going to kill open source code security",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/26/opinion_column/",
-          "date": "Apr 26, 2026",
-          "excerpt": "Cal.com considers AGPL a license to drill, but not everyone feels that way Opinion Cal.com has closed its commercial codebase, abandoning years of AGPL-3.0 licensing in a move that has alarmed the dev"
+          "title": "Burglar alarm biz burgled: ADT confirms cyber intrusion after ShinyHunters extortion attempt",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/home_security_giant_adt_gets/",
+          "date": "Apr 27, 2026",
+          "excerpt": "Security giant says attackers grabbed 'limited set' of data. Crooks claim 10 million records A home security biz getting digitally burgled is not a great look - but that's exactly where ADT finds itse"
         },
         {
-          "title": "Ex-AWS legend explains what enterprises need to make AI actually work",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/25/ai_enterprise_matt_domo/",
-          "date": "Apr 25, 2026",
-          "excerpt": "AI transformation is about people and organization, not technology Enterprise AI projects go off the rails when companies focus on the technology instead of the people.…"
+          "title": "Microsoft updates the Windows Update Experience: You can hit pause now",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/microsoft_updates_the_windows_update/",
+          "date": "Apr 27, 2026",
+          "excerpt": "Keep the patches away for as long as you like Microsoft has devised a solution to the problem of Windows Updates that break customer devices – users are now able to pause them for as long as they like"
         },
         {
-          "title": "Crime crew impersonates help desk, abuses Microsoft Teams to steal your data",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/25/new_crime_crew_impersonates_help_desks/",
-          "date": "Apr 25, 2026",
-          "excerpt": "Coming in cold with custom Snow malware A previously unknown threat group using tried-and-tested social engineering tactics - Microsoft Teams chat invitations and helpdesk staff impersonation - is als"
+          "title": "In the beginning was the Bork: 'Heart of the Earth' exhibit reveals Raspberry Pi in existential crisis",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/the_raspberry_pi_turns_up/",
+          "date": "Apr 27, 2026",
+          "excerpt": "Dynamic Earth's ancient rock holds not primordial crystal, but a tiny Linux box having a bad day Bork!Bork!Bork! From the beginning of time, there has always been Bork. Lurking within the heart of thi"
         }
       ]
     },
