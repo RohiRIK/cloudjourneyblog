@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T13:15:49.586Z",
+  "updatedAt": "2026-04-27T20:51:10.267Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Money launderer linked to $230M crypto heist gets 70 months in prison",
-          "link": "https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/",
+          "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
+          "link": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
           "date": "Apr 27, 2026",
-          "excerpt": "​22-year-old Evan Tangeman of Newport Beach, California, was sentenced to 70 months in prison for laundering funds stolen in a massive $230 million cryptocurrency heist. [...]"
+          "excerpt": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]"
         },
         {
-          "title": "Deepfake Voice Attacks are Outpacing Defenses: What Security Leaders Should Know",
-          "link": "https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/",
+          "title": "Alleged Silk Typhoon hacker extradited to US for cyberespionage",
+          "link": "https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/",
           "date": "Apr 27, 2026",
-          "excerpt": "Three seconds of audio is all it takes to clone a voice for fraud. Adaptive Security shows how deepfake calls trick employees into sending real money—and why most defenses don't catch them. [...]"
+          "excerpt": "A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]"
         },
         {
-          "title": "Microsoft says Outlook.com outage is causing sign‑in failures",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-outlookcom-outage-is-causing-sign-in-failures/",
+          "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
+          "link": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
           "date": "Apr 27, 2026",
-          "excerpt": "Microsoft is investigating an ongoing Outlook.com outage that is causing intermittent signing issues and preventing customers from accessing their mailboxes. [...]"
+          "excerpt": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]"
         },
         {
-          "title": "American utility firm Itron discloses breach of internal IT network",
-          "link": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
-          "date": "Apr 26, 2026",
-          "excerpt": "Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems. [."
+          "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
+          "link": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
+          "date": "Apr 27, 2026",
+          "excerpt": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]"
         },
         {
-          "title": "Microsoft rolls out revamped Windows Insider Program",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/",
-          "date": "Apr 25, 2026",
-          "excerpt": "Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11. [...]"
+          "title": "Home security giant ADT data breach affects 5.5 million people",
+          "link": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
+          "date": "Apr 27, 2026",
+          "excerpt": "The ShinyHunters extortion group stole the personal information of 5.5 million individuals after breaching the systems of home security giant ADT earlier this month, according to data breach notificat"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Trump's Golden Dome gets $3.2BN of contractors and an AI sprinkle",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/us_names_firms_to_develop/",
+          "title": "The Navy's autonomous carrier-based refueling drone has finally flown",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/navys_autonomous_carrierlaunched_refueling_drones/",
           "date": "Apr 27, 2026",
-          "excerpt": "Space Force awards 11 firms prototype deals to build orbital interceptors The United States Space Force (USSF) has awarded eleven companies contracts to develop space-based interceptors for President "
+          "excerpt": "After missing its 2025 target, Boeing's MQ-25A Stingray is one step closer to a carrier deck The US Navy’s current carrier-based refueling aircraft may soon be getting help, as Boeing has completed th"
         },
         {
-          "title": "Cybersec is a thankless job: expanding workload and shrinking pay packet",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/from_a_massive_skills_gap/",
+          "title": "The crypto-to-AI bandwagon jumpers' club just landed another member: Core Scientific",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/core_scientific_ai/",
           "date": "Apr 27, 2026",
-          "excerpt": "Global recruitment giant says 71% of human firewalls saw wages stagnate last year as threats and responsibilities grew Cybersecurity professionals were the most overlooked workers in IT when it came t"
+          "excerpt": "They were doing it in Texas... Core Scientific is trading coins for tokens, revealing plans on Monday to convert a 300-megawatt bitcoin mining operation in Pecos, Texas, to an 1.5 gigawatt AI datacent"
         },
         {
-          "title": "Burglar alarm biz burgled: ADT confirms cyber intrusion after ShinyHunters extortion attempt",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/home_security_giant_adt_gets/",
+          "title": "Medical and utility tech companies hacked by digital intruders",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/itron_medtronic_hacked/",
           "date": "Apr 27, 2026",
-          "excerpt": "Security giant says attackers grabbed 'limited set' of data. Crooks claim 10 million records A home security biz getting digitally burgled is not a great look - but that's exactly where ADT finds itse"
+          "excerpt": "Itron, Medtronic disclose breaches in Friday filings Digital intruders recently broke into two major tech suppliers - utility-technology firm Itron and medical-device maker Medtronic - according to fi"
         },
         {
-          "title": "Microsoft updates the Windows Update Experience: You can hit pause now",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/microsoft_updates_the_windows_update/",
+          "title": "South Africa yanks AI policy after AI-assisted drafting invents citations",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/south_africa_yanks_ai_policy/",
           "date": "Apr 27, 2026",
-          "excerpt": "Keep the patches away for as long as you like Microsoft has devised a solution to the problem of Windows Updates that break customer devices – users are now able to pause them for as long as they like"
+          "excerpt": "Eish shame man! Maybe you shouldn't ask AI to set the rules for AI use? South Africa has pulled its draft national AI policy after discovering that it was citing sources that exist only in the fertile"
         },
         {
-          "title": "In the beginning was the Bork: 'Heart of the Earth' exhibit reveals Raspberry Pi in existential crisis",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/the_raspberry_pi_turns_up/",
+          "title": "Friendster rises from the grave to make social media great again",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/friendster_rises_from_the_grave/",
           "date": "Apr 27, 2026",
-          "excerpt": "Dynamic Earth's ancient rock holds not primordial crystal, but a tiny Linux box having a bad day Bork!Bork!Bork! From the beginning of time, there has always been Bork. Lurking within the heart of thi"
+          "excerpt": "No ads, no algorithm, and you actually have to physically tap phones to add a friend It's been more than a decade since social media platform Friendster went dark, but a new owner has brought it back "
         }
       ]
     },
