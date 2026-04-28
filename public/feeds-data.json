@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T01:50:35.084Z",
+  "updatedAt": "2026-04-28T06:24:04.934Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "‘AI deflation’ comes to India’s tech services giants and puts downward pressure on revenue",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/tcs_infosys_wipro_hcl_fy26/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Headcounts, however, are mostly holding up AI is beginning to make a dent in the business models of India’s big four technology services giants…"
+        },
+        {
+          "title": "China blocks Zuck’s acquisition of AI outfit Manus",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/china_blocks_meta_manus_acquisition/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Back to the drawing board for Meta's AI ambitions China has blocked Meta’s acquisition of AI upstart Manus.…"
+        },
+        {
           "title": "Microsoft's GitHub shifts to metered AI billing amid cost crisis",
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/microsofts_github_shifts_to_metered/",
           "date": "Apr 28, 2026",
@@ -118,18 +130,6 @@
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/cursoropus_agent_snuffs_out_pocketos/",
           "date": "Apr 27, 2026",
           "excerpt": "Relax, the data's been recovered. Continue with your vibe coding Jer (Jeremy) Crane, the founder of automotive SaaS platform PocketOS, spent the weekend recovering from a data extinction event caused "
-        },
-        {
-          "title": "The Navy's autonomous carrier-based refueling drone has finally flown",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/navys_autonomous_carrierlaunched_refueling_drones/",
-          "date": "Apr 27, 2026",
-          "excerpt": "After missing its 2025 target, Boeing's MQ-25A Stingray is one step closer to a carrier deck The US Navy’s current carrier-based refueling aircraft may soon be getting help, as Boeing has completed th"
-        },
-        {
-          "title": "The crypto-to-AI bandwagon jumpers' club just landed another member: Core Scientific",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/core_scientific_ai/",
-          "date": "Apr 27, 2026",
-          "excerpt": "They were doing it in Texas... Core Scientific is trading coins for tokens, revealing plans on Monday to convert a 300-megawatt bitcoin mining operation in Pecos, Texas, to an 1.5 gigawatt AI datacent"
         }
       ]
     },
