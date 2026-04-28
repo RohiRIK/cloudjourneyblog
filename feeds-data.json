@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T06:24:04.934Z",
+  "updatedAt": "2026-04-28T10:05:30.930Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]"
+        },
+        {
+          "title": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
+          "date": "Apr 28, 2026",
+          "excerpt": "After addressing a widespread outage that affected Outlook.com users worldwide on Monday, Microsoft has asked iPhone users to re-enter their credentials to regain access to their Outlook and Hotmail a"
+        },
+        {
           "title": "Robinhood account creation flaw abused to send phishing emails",
           "link": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
           "date": "Apr 27, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
           "date": "Apr 27, 2026",
           "excerpt": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]"
-        },
-        {
-          "title": "Alleged Silk Typhoon hacker extradited to US for cyberespionage",
-          "link": "https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/",
-          "date": "Apr 27, 2026",
-          "excerpt": "A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]"
-        },
-        {
-          "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
-          "link": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
-          "date": "Apr 27, 2026",
-          "excerpt": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "SUSE's sovereignty pitch meets an inconvenient $6 billion question",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/sovereignty_its_all_about_the/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Linux vendor touts European independence at SUSECON as majority stakeholder quietly explores its options European-based SUSE devoted much of the annual SUSECON event to its sovereignty-focused pitch -"
+        },
+        {
+          "title": "Locked, stocked, and losing budget: AI vendor lock-in bites back",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/locked_stocked_and_losing_budget/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Execs in the C-suite thought they could swap models in a week. They were hallucinating Opinion The days when you could jump from one frontier AI model to another at the drop of a hat are going away as"
+        },
+        {
+          "title": "UK govt dept sent a document 'in error.' Now it's being used in a £370M contract lawsuit",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/dwp_sent_document_in_error/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Comparison between 2 vendors was never meant to be seen ... or made The UK's pensions and welfare ministry has slammed its outsourcing provider, SSCL, for sharing a document the department says it \"in"
+        },
+        {
+          "title": "Australia threatens tech companies with 2.25 percent tax if they don’t pay publishers",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/australia_news_bargaining_incentive/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Last time an idea like this came up, Meta packed up its toys and went home Australia has come up with a new way to ensure social media and search companies pay to support journalism: a 2.25 percent ta"
+        },
+        {
           "title": "‘AI deflation’ comes to India’s tech services giants and puts downward pressure on revenue",
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/tcs_infosys_wipro_hcl_fy26/",
           "date": "Apr 28, 2026",
           "excerpt": "Headcounts, however, are mostly holding up AI is beginning to make a dent in the business models of India’s big four technology services giants…"
-        },
-        {
-          "title": "China blocks Zuck’s acquisition of AI outfit Manus",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/china_blocks_meta_manus_acquisition/",
-          "date": "Apr 28, 2026",
-          "excerpt": "Back to the drawing board for Meta's AI ambitions China has blocked Meta’s acquisition of AI upstart Manus.…"
-        },
-        {
-          "title": "Microsoft's GitHub shifts to metered AI billing amid cost crisis",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/microsofts_github_shifts_to_metered/",
-          "date": "Apr 28, 2026",
-          "excerpt": "The all-you-can-eat AI buffet is coming to an end Microsoft is closing the AI buffet offered to GitHub Copilot customers, acknowledging that it can’t sell AI like Red Lobster's Endless Shrimp.…"
-        },
-        {
-          "title": "Ongoing supply-chain attack 'explicitly targeting' security, dev tools",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/supply_chain_campaign_targets_security/",
-          "date": "Apr 27, 2026",
-          "excerpt": "Vendor confirms repo data exposure after Lapsus$ claims source code, secrets dump Software security testing outfit Checkmarx has become the latest organization caught up in an ongoing attack on securi"
-        },
-        {
-          "title": "Cursor-Opus agent snuffs out startup’s production database",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/cursoropus_agent_snuffs_out_pocketos/",
-          "date": "Apr 27, 2026",
-          "excerpt": "Relax, the data's been recovered. Continue with your vibe coding Jer (Jeremy) Crane, the founder of automotive SaaS platform PocketOS, spent the weekend recovering from a data extinction event caused "
         }
       ]
     },
