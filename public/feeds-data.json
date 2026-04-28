@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T10:05:30.930Z",
+  "updatedAt": "2026-04-28T13:26:03.861Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]"
+        },
+        {
+          "title": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
+          "link": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies. [."
+        },
+        {
           "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
           "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
           "date": "Apr 28, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
           "date": "Apr 27, 2026",
           "excerpt": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspici"
-        },
-        {
-          "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
-          "link": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
-          "date": "Apr 27, 2026",
-          "excerpt": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]"
-        },
-        {
-          "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
-          "link": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
-          "date": "Apr 27, 2026",
-          "excerpt": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "SUSE's sovereignty pitch meets an inconvenient $6 billion question",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/sovereignty_its_all_about_the/",
+          "title": "Tenstorrent’s Galaxy Blackhole AI servers escape the event horizon",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/tenstorrent_galaxy_blackhole_ai_servers_ga/",
           "date": "Apr 28, 2026",
-          "excerpt": "Linux vendor touts European independence at SUSECON as majority stakeholder quietly explores its options European-based SUSE devoted much of the annual SUSECON event to its sovereignty-focused pitch -"
+          "excerpt": "RISC-V-based systems pack 32 Blackhole accelerators in a 6U, $110K chassis Tenstorrent on Tuesday announced the general availability of its Galaxy Blackhole AI compute platform.…"
         },
         {
-          "title": "Locked, stocked, and losing budget: AI vendor lock-in bites back",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/locked_stocked_and_losing_budget/",
+          "title": "Brussels orders Google to share Android's AI sandbox with the other kids",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/ai_competition_in_android_phones/",
           "date": "Apr 28, 2026",
-          "excerpt": "Execs in the C-suite thought they could swap models in a week. They were hallucinating Opinion The days when you could jump from one frontier AI model to another at the drop of a hat are going away as"
+          "excerpt": "DMA enforcers want rival assistants to get same deep device access as Gemini Those pencil pushers at the European Commission are drawing up measures to ensure Google opens up its Android smartphone pl"
         },
         {
-          "title": "UK govt dept sent a document 'in error.' Now it's being used in a £370M contract lawsuit",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/dwp_sent_document_in_error/",
+          "title": "UK.gov's DCMS to new CDIO: migrate from Google to Microsoft, overhaul ERP, build a team",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/ukgov_seeks_cdio_to_lead/",
           "date": "Apr 28, 2026",
-          "excerpt": "Comparison between 2 vendors was never meant to be seen ... or made The UK's pensions and welfare ministry has slammed its outsourcing provider, SSCL, for sharing a document the department says it \"in"
+          "excerpt": "£125k and a pension await whoever can herd 6 departments onto single platform without losing will to live Later today, prospective candidates will log onto a UK government call to convince themselves "
         },
         {
-          "title": "Australia threatens tech companies with 2.25 percent tax if they don’t pay publishers",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/australia_news_bargaining_incentive/",
+          "title": "Two men charged over series of arson attacks on 5G masts",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/5g_belfast_arrests/",
           "date": "Apr 28, 2026",
-          "excerpt": "Last time an idea like this came up, Meta packed up its toys and went home Australia has come up with a new way to ensure social media and search companies pay to support journalism: a 2.25 percent ta"
+          "excerpt": "Pair accused of creating literal flame war as bonkers conspiracy theories grow Two men face charges over a series of arson attacks on 5G masts spanning two years following a Police Service of Northern"
         },
         {
-          "title": "‘AI deflation’ comes to India’s tech services giants and puts downward pressure on revenue",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/tcs_infosys_wipro_hcl_fy26/",
+          "title": "Microsoft Outlook for iOS still down and out for many after 'service change'",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/a_service_change_takes_down/",
           "date": "Apr 28, 2026",
-          "excerpt": "Headcounts, however, are mostly holding up AI is beginning to make a dent in the business models of India’s big four technology services giants…"
+          "excerpt": "Sign-in failures, unexpected sign-outs... just another day for users Users of Microsoft Outlook on iOS are continuing to experience outages more than 24 hours after glitches first surfaced, despite Mi"
         }
       ]
     },
