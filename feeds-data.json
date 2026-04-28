@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T20:51:10.267Z",
+  "updatedAt": "2026-04-28T01:50:35.084Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Robinhood account creation flaw abused to send phishing emails",
+          "link": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
+          "date": "Apr 27, 2026",
+          "excerpt": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspici"
+        },
+        {
+          "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
+          "link": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
+          "date": "Apr 27, 2026",
+          "excerpt": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]"
+        },
+        {
           "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
           "link": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
           "date": "Apr 27, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
           "date": "Apr 27, 2026",
           "excerpt": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]"
-        },
-        {
-          "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
-          "link": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
-          "date": "Apr 27, 2026",
-          "excerpt": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]"
-        },
-        {
-          "title": "Home security giant ADT data breach affects 5.5 million people",
-          "link": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
-          "date": "Apr 27, 2026",
-          "excerpt": "The ShinyHunters extortion group stole the personal information of 5.5 million individuals after breaching the systems of home security giant ADT earlier this month, according to data breach notificat"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Microsoft's GitHub shifts to metered AI billing amid cost crisis",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/microsofts_github_shifts_to_metered/",
+          "date": "Apr 28, 2026",
+          "excerpt": "The all-you-can-eat AI buffet is coming to an end Microsoft is closing the AI buffet offered to GitHub Copilot customers, acknowledging that it can’t sell AI like Red Lobster's Endless Shrimp.…"
+        },
+        {
+          "title": "Ongoing supply-chain attack 'explicitly targeting' security, dev tools",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/supply_chain_campaign_targets_security/",
+          "date": "Apr 27, 2026",
+          "excerpt": "Vendor confirms repo data exposure after Lapsus$ claims source code, secrets dump Software security testing outfit Checkmarx has become the latest organization caught up in an ongoing attack on securi"
+        },
+        {
+          "title": "Cursor-Opus agent snuffs out startup’s production database",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/cursoropus_agent_snuffs_out_pocketos/",
+          "date": "Apr 27, 2026",
+          "excerpt": "Relax, the data's been recovered. Continue with your vibe coding Jer (Jeremy) Crane, the founder of automotive SaaS platform PocketOS, spent the weekend recovering from a data extinction event caused "
+        },
         {
           "title": "The Navy's autonomous carrier-based refueling drone has finally flown",
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/navys_autonomous_carrierlaunched_refueling_drones/",
@@ -112,24 +130,6 @@
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/core_scientific_ai/",
           "date": "Apr 27, 2026",
           "excerpt": "They were doing it in Texas... Core Scientific is trading coins for tokens, revealing plans on Monday to convert a 300-megawatt bitcoin mining operation in Pecos, Texas, to an 1.5 gigawatt AI datacent"
-        },
-        {
-          "title": "Medical and utility tech companies hacked by digital intruders",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/itron_medtronic_hacked/",
-          "date": "Apr 27, 2026",
-          "excerpt": "Itron, Medtronic disclose breaches in Friday filings Digital intruders recently broke into two major tech suppliers - utility-technology firm Itron and medical-device maker Medtronic - according to fi"
-        },
-        {
-          "title": "South Africa yanks AI policy after AI-assisted drafting invents citations",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/south_africa_yanks_ai_policy/",
-          "date": "Apr 27, 2026",
-          "excerpt": "Eish shame man! Maybe you shouldn't ask AI to set the rules for AI use? South Africa has pulled its draft national AI policy after discovering that it was citing sources that exist only in the fertile"
-        },
-        {
-          "title": "Friendster rises from the grave to make social media great again",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/27/friendster_rises_from_the_grave/",
-          "date": "Apr 27, 2026",
-          "excerpt": "No ads, no algorithm, and you actually have to physically tap phones to add a friend It's been more than a decade since social media platform Friendster went dark, but a new owner has brought it back "
         }
       ]
     },
