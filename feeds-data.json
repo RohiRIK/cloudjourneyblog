@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T17:29:10.501Z",
+  "updatedAt": "2026-04-29T09:56:37.372Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft says backend change broke Teams Free chat and calls",
+          "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
+          "date": "Apr 29, 2026",
+          "excerpt": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]"
+        },
+        {
+          "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
+          "link": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]"
+        },
+        {
+          "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability tracked as CVE-2026-42208. [...]"
+        },
+        {
+          "title": "Video service Vimeo confirms Anodot breach exposed user data",
+          "link": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
+          "date": "Apr 28, 2026",
+          "excerpt": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]"
+        },
+        {
           "title": "US reportedly charges Scattered Spider hacker arrested in Finland",
           "link": "https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/",
           "date": "Apr 28, 2026",
           "excerpt": "A 19-year-old dual United States and Estonian citizen arrested in Finland earlier this month faces federal charges in the U.S. alleging he was a prolific member of the notorious Scattered Spider hacki"
-        },
-        {
-          "title": "Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data",
-          "link": "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
-          "date": "Apr 28, 2026",
-          "excerpt": "Application security company Checkmarx has confirmed that the LAPSUS$ threat group leaked data stolen from its private GitHub repository. [...]"
-        },
-        {
-          "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
-          "date": "Apr 28, 2026",
-          "excerpt": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]"
-        },
-        {
-          "title": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
-          "link": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
-          "date": "Apr 28, 2026",
-          "excerpt": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies. [."
-        },
-        {
-          "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
-          "date": "Apr 28, 2026",
-          "excerpt": "Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "IBM's AI coding 'partner' Bob hits general availability",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/ibms_ai_coding_partner_bob/",
-          "date": "Apr 28, 2026",
-          "excerpt": "80,000 internal guinea pigs, Bobcoins, mainframe dreams and a name that really should have raised more flags IBM has announced global availability of Bob, the AI coding assistant - sorry partner - whi"
+          "title": "AI clause in new SAP API policy has partners worried over lock-in",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/new_sap_api_policy_provokes/",
+          "date": "Apr 29, 2026",
+          "excerpt": "Expert says it could push customers and partners to work with undocumented APIs SAP is prohibiting the use of its APIs to integrate with AI systems outside its endorsed architectures, raising concerns"
         },
         {
-          "title": "Amazon unveils a Copilot for all your apps",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/amazon_quick_connect_expansion/",
-          "date": "Apr 28, 2026",
-          "excerpt": "Retailer touts 'teammates' and always-on context as it muscles into an already crowded enterprise market Amazon has announced two AI services pitched with typical techbro hyperbole, aimed at changing "
+          "title": "Bork in Prague: SUSE's keynote gods demand their tribute",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/never_anger_the_keynote_demo/",
+          "date": "Apr 29, 2026",
+          "excerpt": "Linux vendor touts European independence while rate limits, Chromium popups, and cold sparks steal the show BORK!BORK!BORK! The keynote gods are a fickle bunch, as SUSE discovered at its annual shindi"
         },
         {
-          "title": "Have I Been Pwned claims Pitney Bowes hit by 8.2M email address leak",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/pitney_bowes_is_the_latest/",
-          "date": "Apr 28, 2026",
-          "excerpt": "Names, phone numbers, physical addresses also included in Shiny Hunters alleged data dump Logistics technology company Pitney Bowes, which makes franking machines for US postage, is the latest scalp c"
+          "title": "30 ClawHub skills secretly turn AI agents into a crypto swarm",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/30_clawhub_skills_mine_crypto/",
+          "date": "Apr 29, 2026",
+          "excerpt": "Yet another reason not to feast on OpenClaw Thirty ClawHub skills published by a single author are silently co-opting AI agents and creating a mass cryptocurrency mining swarm – without any malware or"
         },
         {
-          "title": "Despite proposed science cuts, NASA boss says 'We haven't canceled anything yet'",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/despite_proposed_science_cuts_nasa/",
-          "date": "Apr 28, 2026",
-          "excerpt": "That 'yet' is sure doing a lot of heavy lifting if the budget for science is slashed NASA administrator Jared Isaacman has appeared before the US House Appropriations Committee to explain the proposed"
+          "title": "Hashicorp co-founder Mitchell Hashimoto says GitHub ‘no longer a place for serious work’",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/mitchell_hashimoto_ghostty_quitting_github/",
+          "date": "Apr 29, 2026",
+          "excerpt": "Bemoans frequent outages that mean he’ll move Ghostty elsewhere Hashicorp co-founder Mitchell Hashimoto has decided GitHub is so unstable it is “no longer a place for serious work,” and will therefore"
         },
         {
-          "title": "Tenstorrent’s Galaxy Blackhole AI servers escape the event horizon",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/28/tenstorrent_galaxy_blackhole_ai_servers_ga/",
-          "date": "Apr 28, 2026",
-          "excerpt": "RISC-V-based systems pack 32 Blackhole accelerators in a 6U, $110K chassis Tenstorrent on Tuesday announced the general availability of its Galaxy Blackhole AI compute platform.…"
+          "title": "Future holiday horror: ‘A robot lost my luggage in Tokyo’",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/japan_airport_robot_trial/",
+          "date": "Apr 29, 2026",
+          "excerpt": "Haneda airport will start testing humanoid robots, because everything that gets a plane flying was designed for our species Your next holiday memory might involve humanoid robots losing your luggage.…"
         }
       ]
     },
