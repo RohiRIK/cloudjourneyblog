@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T09:56:37.372Z",
+  "updatedAt": "2026-04-29T13:20:20.782Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
+          "link": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+          "date": "Apr 29, 2026",
+          "excerpt": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstream"
+        },
+        {
+          "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
+          "link": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
+          "date": "Apr 29, 2026",
+          "excerpt": "In early March, GitHub patched a critical remote code execution vulnerability (CVE-2026-3854) that could have allowed attackers to access millions of private repositories. [...]"
+        },
+        {
+          "title": "CISA orders feds to patch Windows flaw exploited as zero-day",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
+          "date": "Apr 29, 2026",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]"
+        },
+        {
           "title": "Microsoft says backend change broke Teams Free chat and calls",
           "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
           "date": "Apr 29, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
           "date": "Apr 28, 2026",
           "excerpt": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]"
-        },
-        {
-          "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
-          "date": "Apr 28, 2026",
-          "excerpt": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability tracked as CVE-2026-42208. [...]"
-        },
-        {
-          "title": "Video service Vimeo confirms Anodot breach exposed user data",
-          "link": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
-          "date": "Apr 28, 2026",
-          "excerpt": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]"
-        },
-        {
-          "title": "US reportedly charges Scattered Spider hacker arrested in Finland",
-          "link": "https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/",
-          "date": "Apr 28, 2026",
-          "excerpt": "A 19-year-old dual United States and Estonian citizen arrested in Finland earlier this month faces federal charges in the U.S. alleging he was a prolific member of the notorious Scattered Spider hacki"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "AI clause in new SAP API policy has partners worried over lock-in",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/new_sap_api_policy_provokes/",
+          "title": "GitHub: Woah, a genuinely helpful AI-assisted bug report that isn't total slop. Here, Wiz, take this wad of cash",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/github_woah_a_genuinely_helpful/",
           "date": "Apr 29, 2026",
-          "excerpt": "Expert says it could push customers and partners to work with undocumented APIs SAP is prohibiting the use of its APIs to integrate with AI systems outside its endorsed architectures, raising concerns"
+          "excerpt": "Claude ploughs through months of work in rapid time, helps Wiz researchers nab lucrative award Wiz researchers are set for a tidy payday thanks to their discovery of a high-severity flaw in GitHub's g"
         },
         {
-          "title": "Bork in Prague: SUSE's keynote gods demand their tribute",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/never_anger_the_keynote_demo/",
+          "title": "AWS keynote hypes AI as magic. Its own engineers tell a different story",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/aws_keynote_hypes_ai_magic/",
           "date": "Apr 29, 2026",
-          "excerpt": "Linux vendor touts European independence while rate limits, Chromium popups, and cold sparks steal the show BORK!BORK!BORK! The keynote gods are a fickle bunch, as SUSE discovered at its annual shindi"
+          "excerpt": "No shortcuts, human-review everything, says internal team - and keep hiring junior developers Interview Steve Tarcza, director of Amazon Stores, says his team — StoreGen — exists to help the retail gi"
         },
         {
-          "title": "30 ClawHub skills secretly turn AI agents into a crypto swarm",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/30_clawhub_skills_mine_crypto/",
+          "title": "Microsoft opens door to the past by releasing 86-DOS and PC-DOS 1.00",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/microsoft_pc_dos_1_point_oh/",
           "date": "Apr 29, 2026",
-          "excerpt": "Yet another reason not to feast on OpenClaw Thirty ClawHub skills published by a single author are silently co-opting AI agents and creating a mass cryptocurrency mining swarm – without any malware or"
+          "excerpt": "Back to a time when source repositories were printouts and commits were hand-written notes Antiques code show Microsoft has released the source for another of its relics. This time, it's 86-DOS 1.00 g"
         },
         {
-          "title": "Hashicorp co-founder Mitchell Hashimoto says GitHub ‘no longer a place for serious work’",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/mitchell_hashimoto_ghostty_quitting_github/",
+          "title": "EU waves through open source age-check tool to keep kids safe online",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/eu_adopts_open_source_ageverification/",
           "date": "Apr 29, 2026",
-          "excerpt": "Bemoans frequent outages that mean he’ll move Ghostty elsewhere Hashicorp co-founder Mitchell Hashimoto has decided GitHub is so unstable it is “no longer a place for serious work,” and will therefore"
+          "excerpt": "'Online platforms can rely on our app,' says Commish, 'there are no more excuses' The European Commission has recommended EU member states adopt an age verification app designed to protect children fr"
         },
         {
-          "title": "Future holiday horror: ‘A robot lost my luggage in Tokyo’",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/japan_airport_robot_trial/",
+          "title": "GitHub says sorry and vows to do better as uptime slips and devs complain",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/github_says_sorry_and_says/",
           "date": "Apr 29, 2026",
-          "excerpt": "Haneda airport will start testing humanoid robots, because everything that gets a plane flying was designed for our species Your next holiday memory might involve humanoid robots losing your luggage.…"
+          "excerpt": "After Hashicorp co-founder blasts the source shack and numbers slide Microsoft's code hosting shack Github has published a lengthy mea culpa about its availability and reliability woes - one that incl"
         }
       ]
     },
