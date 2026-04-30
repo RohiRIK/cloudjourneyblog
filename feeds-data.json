@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T06:21:21.157Z",
+  "updatedAt": "2026-04-30T09:57:06.180Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Met Police's Palantir deployment has its own officers watching their backs",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/met_police_palantir_deployment_cop_probe/",
+          "date": "Apr 30, 2026",
+          "excerpt": "Federation warns members to ditch work devices off duty as force uses AI to probe 600+ cops London cops are being told by their staff association to be \"extremely cautious\" about carrying work devices"
+        },
+        {
+          "title": "Britain's £6B armoured sickener Ajax cleared for duty despite injuring troops",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/ajax_armored_vehicle_cleared/",
+          "date": "Apr 30, 2026",
+          "excerpt": "Investigation finds no single cause for soldiers falling ill, just bad bolts, cold air, and apparently the soldiers themselves Britain's notorious Ajax armored vehicles are being accepted back from th"
+        },
+        {
+          "title": "Finance company stores DB credentials in helpfully labeled spreadsheet",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/finance_company_stored_their_db_pwned_column/",
+          "date": "Apr 30, 2026",
+          "excerpt": "Great idea, guys. Let's keep all of the data in an Excel file with weak password protection PWNED Welcome, once again, to PWNED, the weekly column where we recount the adventures of IT explorers who f"
+        },
+        {
+          "title": "Microsoft levels up Azure Local to make it fit for large-scale sovereign clouds",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/azure_local_upgrade/",
+          "date": "Apr 30, 2026",
+          "excerpt": "Can now use SANs for storage, and adds a local control plane and key management Microsoft has given its Azure Local on-prem cloud a major makeover to make it fit for duty powering large-scale sovereig"
+        },
+        {
           "title": "Google to sell its TPUs to some customers, who also fancy big-G GPUs",
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/alphabet_google_q1_fy26/",
           "date": "Apr 30, 2026",
           "excerpt": "AI is driving more searches and ads Google Cloud will start selling its custom tensor processing units to some customers, because they want them and the search giant wants to diversify its revenues.…"
-        },
-        {
-          "title": "Microsoft lifts 2026 AI spend by $25 billion to cover component price rises",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/microsoft_q3_2026/",
-          "date": "Apr 30, 2026",
-          "excerpt": "Will write checks for $190 billion and even those megabucks may not satisfy demand If you've felt the sting of surging hardware prices, Microsoft can sympathize because the company on Wednesday said i"
-        },
-        {
-          "title": "Linux cryptographic code flaw offers fast route to root",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/linux_cryptographic_code_flaw/",
-          "date": "Apr 30, 2026",
-          "excerpt": "Patches land for authencesn flaw enabling local privilege escalation Developers of major Linux distributions have begun shipping patches to address a local privilege escalation (LPE) vulnerability ari"
-        },
-        {
-          "title": "Amazon chips no longer just a side dish, they're a $20B biz",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/amazon_chips_20b_business/",
-          "date": "Apr 29, 2026",
-          "excerpt": "The Trainium train keeps a-rollin' Amazon is now among the top three datacenter chip businesses in the world, as its semiconductor business surpassed a $20 billion annual run rate ... and it would be "
-        },
-        {
-          "title": "Researchers move in the right direction, develop powerful GPS interference alarm",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/29/boffins_new_gps_interference_alarm/",
-          "date": "Apr 29, 2026",
-          "excerpt": "ORNL says portable detector kit can separate real GPS signals from fake ones even at equal strength GPS spoofing, which sends fake satellite-like signals, and GPS jamming, which drowns receivers in no"
         }
       ]
     },
