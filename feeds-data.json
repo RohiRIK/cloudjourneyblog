@@ -1,11 +1,23 @@
 {
-  "updatedAt": "2026-04-30T09:57:06.180Z",
+  "updatedAt": "2026-05-01T01:54:35.717Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "What’s new, updated, or recently released in Microsoft Security",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/whats-new-updated-or-recently-released-in-microsoft-security/",
+          "date": "Apr 30, 2026",
+          "excerpt": "Stay ahead of emerging threats with Microsoft’s newest security innovations and updates, delivered through the In the Loop series. The post What’s new, updated, or recently released in Microsoft Secur"
+        },
+        {
+          "title": "Email threat landscape: Q1 2026 trends and insights",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/",
+          "date": "Apr 30, 2026",
+          "excerpt": "In early 2026, email threats increased with a rise in credential phishing, QR code phishing, and CAPTCHA-gated campaigns, highlighted by Microsoft’s disruption of the Tycoon2FA phishing platform which"
+        },
         {
           "title": "8 best practices for CISOs conducting risk reviews",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/",
@@ -23,18 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/04/22/ai-powered-defense-for-an-ai-accelerated-threat-landscape/",
           "date": "Apr 22, 2026",
           "excerpt": "Read how Microsoft is partnering with Anthropic and broader industry to use leading models, paired with our platforms and expertise, to turn AI-driven discovery into protection at scale. The post AI-p"
-        },
-        {
-          "title": "Detection strategies across cloud and identities against infiltrating IT workers",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/21/detection-strategies-cloud-identities-against-infiltrating-it-workers/",
-          "date": "Apr 21, 2026",
-          "excerpt": "The shift to remote and hybrid work since the pandemic expanded global hiring and accelerated digital onboarding, increasing reliance on online identity verification and remote access. The post Detect"
-        },
-        {
-          "title": "Making opportunistic cyberattacks harder by design",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/",
-          "date": "Apr 20, 2026",
-          "excerpt": "How Microsoft secures Dynamics 365 and Power Platform by removing credentials, reducing attack surfaces, and using platform engineering to block opportunistic threats. The post Making opportunistic cy"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Official SAP npm packages compromised to steal credentials",
-          "link": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
-          "date": "Apr 29, 2026",
-          "excerpt": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]"
+          "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
+          "link": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
+          "date": "Apr 30, 2026",
+          "excerpt": "A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts. [...]"
         },
         {
-          "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
-          "link": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
-          "date": "Apr 29, 2026",
-          "excerpt": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites. [...]"
+          "title": "Romanian leader of online swatting ring gets 4 years in prison",
+          "link": "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
+          "date": "Apr 30, 2026",
+          "excerpt": "A Romanian national who led an online swatting ring that targeted more than 75 public officials, multiple journalists, and four religious institutions was sentenced to 4 years in federal prison. [...]"
         },
         {
-          "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
-          "date": "Apr 29, 2026",
-          "excerpt": "Hackers are exploiting two authentication bypass vulnerabilities in the Qinglong open-source task scheduling tool to deploy cryptominers on developers' servers. [...]"
+          "title": "FBI links cybercriminals to sharp surge in cargo theft attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
+          "date": "Apr 30, 2026",
+          "excerpt": "The U.S. Federal Bureau of Investigation (FBI) warned the transportation and logistics industry of a sharp rise in cyber-enabled cargo theft, with estimated losses in the United States and Canada reac"
         },
         {
-          "title": "Hackers arrested for hijacking and selling 610,000 Roblox accounts",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
-          "date": "Apr 29, 2026",
-          "excerpt": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]"
+          "title": "April KB5083769 Windows 11 update causes backup software failures",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
+          "date": "Apr 30, 2026",
+          "excerpt": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]"
         },
         {
-          "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
-          "link": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
-          "date": "Apr 29, 2026",
-          "excerpt": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]"
+          "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
+          "link": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
+          "date": "Apr 30, 2026",
+          "excerpt": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Met Police's Palantir deployment has its own officers watching their backs",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/met_police_palantir_deployment_cop_probe/",
+          "title": "The never-ending supply chain attacks worm into SAP npm packages, other dev tools",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/",
           "date": "Apr 30, 2026",
-          "excerpt": "Federation warns members to ditch work devices off duty as force uses AI to probe 600+ cops London cops are being told by their staff association to be \"extremely cautious\" about carrying work devices"
+          "excerpt": "Mini Shai-Hulud caught spreading credential-stealing malware The wave of supply chain attacks aimed at security and developer tools has washed up more victims, namely SAP and Intercom npm packages, pl"
         },
         {
-          "title": "Britain's £6B armoured sickener Ajax cleared for duty despite injuring troops",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/ajax_armored_vehicle_cleared/",
+          "title": "Govern your bots carefully or chaos could ensue",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/good_ai_governance_is_good/",
           "date": "Apr 30, 2026",
-          "excerpt": "Investigation finds no single cause for soldiers falling ill, just bad bolts, cold air, and apparently the soldiers themselves Britain's notorious Ajax armored vehicles are being accepted back from th"
+          "excerpt": "Stop the sprawl! With the average Global Fortune 500 enterprise expected to run more than 150,000 AI agents by 2028, up from fewer than 15 today, there’s plenty of room for chaos. Analyst firm Gartner"
         },
         {
-          "title": "Finance company stores DB credentials in helpfully labeled spreadsheet",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/finance_company_stored_their_db_pwned_column/",
+          "title": "Firefox maker torches Google for building Prompt API into browser",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/mozilla_pushes_back_against_googles/",
           "date": "Apr 30, 2026",
-          "excerpt": "Great idea, guys. Let's keep all of the data in an Excel file with weak password protection PWNED Welcome, once again, to PWNED, the weekly column where we recount the adventures of IT explorers who f"
+          "excerpt": "Mozilla fears wiring an AI API into Chrome will make the web less open Updated Mozilla has reiterated its opposition to Google's decision to build AI plumbing into its Chrome browser, though rather be"
         },
         {
-          "title": "Microsoft levels up Azure Local to make it fit for large-scale sovereign clouds",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/azure_local_upgrade/",
+          "title": "Bot her emails: most modern phishing campaigns are AI-enabled",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/modern_phishing_campaigns_ai/",
           "date": "Apr 30, 2026",
-          "excerpt": "Can now use SANs for storage, and adds a local control plane and key management Microsoft has given its Azure Local on-prem cloud a major makeover to make it fit for duty powering large-scale sovereig"
+          "excerpt": "KnowBe4 says 86% of phishing it tracked used AI, and inboxes are only the start Give a man a phishing kit and he might get lucky a couple of times; teach an AI to phish and it'll change the landscape,"
         },
         {
-          "title": "Google to sell its TPUs to some customers, who also fancy big-G GPUs",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/alphabet_google_q1_fy26/",
+          "title": "FBI cyber boss: China's hacker-for-hire ecosystem 'out of control'",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/fbi_cyber_boss_chinas_hackerforhire/",
           "date": "Apr 30, 2026",
-          "excerpt": "AI is driving more searches and ads Google Cloud will start selling its custom tensor processing units to some customers, because they want them and the search giant wants to diversify its revenues.…"
+          "excerpt": "One alleged cyber contractor was extradited to the US over the weekend China's \"hacker-for-hire ecosystem has gotten out of control,\" according to Brett Leatherman, assistant director of the FBI's cyb"
         }
       ]
     },
