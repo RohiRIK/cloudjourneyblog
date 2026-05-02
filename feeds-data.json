@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-01T06:30:50.208Z",
+  "updatedAt": "2026-05-02T01:43:58.009Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+          "date": "May 1, 2026",
+          "excerpt": "​Today we’re announcing the general availability of Agent 365, plus previews of new capabilities to discover and manage shadow AI agents, including local agents like OpenClaw and Claude Code. The post"
+        },
         {
           "title": "What’s new, updated, or recently released in Microsoft Security",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/whats-new-updated-or-recently-released-in-microsoft-security/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/04/28/simplifying-aws-defense-microsoft-sentinel-ueba/",
           "date": "Apr 28, 2026",
           "excerpt": "Learn how Microsoft Sentinel UEBA helps defenders distinguish benign AWS activity from attacker behavior by enriching raw CloudTrail logs with clear, binary behavioral signals derived from baseline us"
-        },
-        {
-          "title": "AI-powered defense for an AI-accelerated threat landscape",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/22/ai-powered-defense-for-an-ai-accelerated-threat-landscape/",
-          "date": "Apr 22, 2026",
-          "excerpt": "Read how Microsoft is partnering with Anthropic and broader industry to use leading models, paired with our platforms and expertise, to turn AI-driven discovery into protection at scale. The post AI-p"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
-          "link": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
-          "date": "Apr 30, 2026",
-          "excerpt": "A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts. [...]"
+          "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
+          "date": "May 2, 2026",
+          "excerpt": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]"
         },
         {
-          "title": "Romanian leader of online swatting ring gets 4 years in prison",
-          "link": "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
-          "date": "Apr 30, 2026",
-          "excerpt": "A Romanian national who led an online swatting ring that targeted more than 75 public officials, multiple journalists, and four religious institutions was sentenced to 4 years in federal prison. [...]"
+          "title": "Edu tech firm Instructure discloses cyber incident, probes impact",
+          "link": "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
+          "date": "May 1, 2026",
+          "excerpt": "Instructure, the company behind the widely used Canvas learning platform, has disclosed that it recently suffered a cybersecurity incident and is now investigating its impact. [...]"
         },
         {
-          "title": "FBI links cybercriminals to sharp surge in cargo theft attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
-          "date": "Apr 30, 2026",
-          "excerpt": "The U.S. Federal Bureau of Investigation (FBI) warned the transportation and logistics industry of a sharp rise in cyber-enabled cargo theft, with estimated losses in the United States and Canada reac"
+          "title": "15-year-old detained over French govt agency data breach",
+          "link": "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
+          "date": "May 1, 2026",
+          "excerpt": "French authorities have detained a 15-year-old suspected of selling data stolen in a cyberattack on France Titres (ANTS), the country's agency for issuing and managing administrative documents. [...]"
         },
         {
-          "title": "April KB5083769 Windows 11 update causes backup software failures",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
-          "date": "Apr 30, 2026",
-          "excerpt": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]"
+          "title": "Story retracted",
+          "link": "https://www.bleepingcomputer.com/news/security/story-retracted/",
+          "date": "May 1, 2026",
+          "excerpt": "BleepingComputer initially published a story about a new data breach at Instructure. Shortly after publication, we determined that the information was incorrect and primarily based on outdated details"
         },
         {
-          "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
-          "link": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
-          "date": "Apr 30, 2026",
-          "excerpt": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]"
+          "title": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
+          "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
+          "date": "May 1, 2026",
+          "excerpt": "Raw threat intel isn't enough without real-world context. Criminal IP has partnered with Securonix to integrate exposure-based intelligence into ThreatQ, automating analysis and speeding up investigat"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Fujitsu confirms mainframe biz to die in 2035, in time for quantum AI supercomputers to take over",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/fujitsu_future_strategy/",
+          "title": "ServiceNow under siege as Atlassian adds to ITSM take-outs",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/servicenow_under_siege_atlassian_itsm/",
           "date": "May 1, 2026",
-          "excerpt": "In talks with Japan, the UK, and Australia on defense tech that can ‘contribute to global stability’ Japanese tech giant Fujitsu has confirmed the demise of its mainframe business in the year 2035 and"
+          "excerpt": "CEO Mike Cannon-Brookes touts 'largest ever quarter for competitive displacements' The chase is on. Atlassian reported its largest-ever quarter for taking share from a major IT service management prov"
         },
         {
-          "title": "ICANN opens applications for new generic top-level domains for the first time since 2012",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/icann_new_gtld_applications/",
+          "title": "Mythos complicates the breakup, says Pentagon CTO, but Anthropic is still barred",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/mythos_complicates_anthropic_us_gov_breakup/",
           "date": "May 1, 2026",
-          "excerpt": "$227k gets you a hearing for your dot.vanity project, or strings in one of 27 scripts The Internet Corporation for Assigned Names and Numbers (ICANN) on Thursday kicked off a new application process f"
+          "excerpt": "Emil Michael says agencies are evaluating the cybersecurity model, not deploying it Pentagon CTO Emil Michael pushed back on reports of a thaw in the department’s relationship with Anthropic: The two "
         },
         {
-          "title": "The never-ending supply chain attacks worm into SAP npm packages, other dev tools",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/",
-          "date": "Apr 30, 2026",
-          "excerpt": "Mini Shai-Hulud caught spreading credential-stealing malware The wave of supply chain attacks aimed at security and developer tools has washed up more victims, namely SAP and Intercom npm packages, pl"
+          "title": "Artemis III aims for 'late 2027' for Earth orbit demonstration",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/artemis_iii_aims_for_late/",
+          "date": "May 1, 2026",
+          "excerpt": "SpaceX and Blue Origin will absolutely be ready in time. Definitely Amid the sensational NASA budget cut proposals taking place in the US at the moment, NASA Administrator Jared Isaacman has refined t"
         },
         {
-          "title": "Govern your bots carefully or chaos could ensue",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/good_ai_governance_is_good/",
-          "date": "Apr 30, 2026",
-          "excerpt": "Stop the sprawl! With the average Global Fortune 500 enterprise expected to run more than 150,000 AI agents by 2028, up from fewer than 15 today, there’s plenty of room for chaos. Analyst firm Gartner"
+          "title": "Where to buy a non-Apple, non-Google smartphone",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/buy_a_foss_fondleslab/",
+          "date": "May 1, 2026",
+          "excerpt": "Both Cupertino and Google are imposing ever stricter limits on their phones – but you have alternatives As both Apple and Google introduce unwelcome changes in their phone OSes, here's a quick reminde"
         },
         {
-          "title": "Firefox maker torches Google for building Prompt API into browser",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/30/mozilla_pushes_back_against_googles/",
-          "date": "Apr 30, 2026",
-          "excerpt": "Mozilla fears wiring an AI API into Chrome will make the web less open Updated Mozilla has reiterated its opposition to Google's decision to build AI plumbing into its Chrome browser, though rather be"
+          "title": "CIOs ready for another role-change as AI becomes agent of chaos",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/cios_ready_for_another_rolechange/",
+          "date": "May 1, 2026",
+          "excerpt": "If software writes software the risk is “systematic failure at scale”. Someone needs to take charge, argues Forrester Forrester predicts that by decade's end, the rush toward agentic AI will grow so c"
         }
       ]
     },
