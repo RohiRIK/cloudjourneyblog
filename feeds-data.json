@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T08:56:48.251Z",
+  "updatedAt": "2026-05-02T12:43:27.295Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Usage-based pricing killing your vibe - here's how to roll your own local AI coding agents",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/local_ai_coding_agents/",
+          "date": "May 2, 2026",
+          "excerpt": "Take those token limits and shove them by vibe coding with a local LLM With model devs pushing more aggressive rate limits, raising prices, or even abandoning subscriptions for usage-based pricing, th"
+        },
+        {
+          "title": "UK drivers' agency shrugs off claims of week-long booking site smashes, blames browser configs",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/dvsa_shrugs_off_outages/",
+          "date": "May 2, 2026",
+          "excerpt": "Agency insists everything is working fine, even though users spend days failing to load it The DVSA's driving test booking system has spent the week offline, according to frustrated users.…"
+        },
+        {
           "title": "Brace for the patch tsunami: AI is unearthing decades of buried code debt",
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/ncsc_brace_for_patch_tsunami/",
           "date": "May 2, 2026",
@@ -118,18 +130,6 @@
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/mythos_complicates_anthropic_us_gov_breakup/",
           "date": "May 1, 2026",
           "excerpt": "Emil Michael says agencies are evaluating the cybersecurity model, not deploying it Pentagon CTO Emil Michael pushed back on reports of a thaw in the department’s relationship with Anthropic: The two "
-        },
-        {
-          "title": "Artemis III aims for 'late 2027' for Earth orbit demonstration",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/artemis_iii_aims_for_late/",
-          "date": "May 1, 2026",
-          "excerpt": "SpaceX and Blue Origin will absolutely be ready in time. Definitely Amid the sensational NASA budget cut proposals taking place in the US at the moment, NASA Administrator Jared Isaacman has refined t"
-        },
-        {
-          "title": "Where to buy a non-Apple, non-Google smartphone",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/01/buy_a_foss_fondleslab/",
-          "date": "May 1, 2026",
-          "excerpt": "Both Cupertino and Google are imposing ever stricter limits on their phones – but you have alternatives As both Apple and Google introduce unwelcome changes in their phone OSes, here's a quick reminde"
         }
       ]
     },
