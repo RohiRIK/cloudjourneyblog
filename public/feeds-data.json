@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T16:36:01.791Z",
+  "updatedAt": "2026-05-03T20:31:45.670Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
+          "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+          "date": "May 3, 2026",
+          "excerpt": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Wind"
+        },
+        {
           "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
           "link": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
           "date": "May 3, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
           "date": "May 2, 2026",
           "excerpt": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]"
-        },
-        {
-          "title": "Edu tech firm Instructure discloses cyber incident, probes impact",
-          "link": "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
-          "date": "May 1, 2026",
-          "excerpt": "Instructure, the company behind the widely used Canvas learning platform, has disclosed that it recently suffered a cybersecurity incident and is now investigating its impact. [...]"
         }
       ]
     },
