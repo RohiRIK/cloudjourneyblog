@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T20:31:45.670Z",
+  "updatedAt": "2026-05-04T01:47:32.294Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Instructure confirms data breach, ShinyHunters claims attack",
+          "link": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
+          "date": "May 3, 2026",
+          "excerpt": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]"
+        },
+        {
           "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
           "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
           "date": "May 3, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
           "date": "May 2, 2026",
           "excerpt": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]"
-        },
-        {
-          "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
-          "date": "May 2, 2026",
-          "excerpt": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Just in time for Labour Day, China makes it illegal to fire humans if AI takes their jobs",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/asia_tech_news_roundup/",
+          "date": "May 4, 2026",
+          "excerpt": "PLUS: Samsung cashes in on RAM prices; Booze from space fetches huge price; China's hyperscalers surge A Chinese court has ruled that it’s illegal to replace human workers with AI.…"
+        },
+        {
+          "title": "Microsoft's turned Windows into a cesspool, but it wants to do better",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/03/microsoft_promises_to_do_better/",
+          "date": "May 3, 2026",
+          "excerpt": "Windows is a mess, GitHub keeps wobbling, Copilot draws flak - what’s wrong at Redmond? kettle When it comes to making decisions that piss off your user base, no one knows how to do it like Microsoft."
+        },
         {
           "title": "Inference is giving AI chip startups a second chance to make their mark",
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/03/inference_is_giving_ai_chip/",
@@ -118,18 +130,6 @@
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/03/bank_of_england_tech_migration/",
           "date": "May 3, 2026",
           "excerpt": "PAC: Now why can't everybody else in public sector do it like this? Parliament's spending watchdog has held up a successful large-scale public sector tech transformation as a rare example worth emulat"
-        },
-        {
-          "title": "Usage-based pricing killing your vibe - here's how to roll your own local AI coding agents",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/local_ai_coding_agents/",
-          "date": "May 2, 2026",
-          "excerpt": "Take those token limits and shove them by vibe coding with a local LLM With model devs pushing more aggressive rate limits, raising prices, or even abandoning subscriptions for usage-based pricing, th"
-        },
-        {
-          "title": "UK drivers' agency shrugs off claims of week-long booking site smashes, blames browser configs",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/02/dvsa_shrugs_off_outages/",
-          "date": "May 2, 2026",
-          "excerpt": "Agency insists everything is working fine, even though users spend days failing to load it The DVSA's driving test booking system has spent the week offline, according to frustrated users.…"
         }
       ]
     },
