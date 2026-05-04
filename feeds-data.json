@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-04T01:47:32.294Z",
+  "updatedAt": "2026-05-04T13:20:07.526Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
+          "link": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
+          "date": "May 4, 2026",
+          "excerpt": "Progress Software warned customers to patch a critical authentication bypass vulnerability in its MOVEit Automation enterprise-grade managed file transfer (MFT) application. [...]"
+        },
+        {
+          "title": "Webinar: Why MSPs must rethink security and backup strategies",
+          "link": "https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/",
+          "date": "May 4, 2026",
+          "excerpt": "Security breaches don't just test your defenses—they test your recovery. Join Kaseya in our upcoming webinar to learn how MSPs strengthen resilience with SaaS backups and BCDR to stay operational afte"
+        },
+        {
+          "title": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
+          "date": "May 4, 2026",
+          "excerpt": "CISA has warned that threat actors have started exploiting the \"Copy Fail\" Linux security vulnerability in the wild, one day after Theori researchers disclosed it and shared a proof-of-concept (PoC) e"
+        },
+        {
+          "title": "Microsoft confirms April Windows updates cause backup failures",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/",
+          "date": "May 4, 2026",
+          "excerpt": "Microsoft has confirmed that the April 2026 security updates are causing failures in third-party backup applications using the psmounterex.sys driver. [...]"
+        },
+        {
           "title": "Instructure confirms data breach, ShinyHunters claims attack",
           "link": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
           "date": "May 3, 2026",
           "excerpt": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]"
-        },
-        {
-          "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
-          "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
-          "date": "May 3, 2026",
-          "excerpt": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Wind"
-        },
-        {
-          "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
-          "link": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
-          "date": "May 3, 2026",
-          "excerpt": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]"
-        },
-        {
-          "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-          "date": "May 2, 2026",
-          "excerpt": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]"
-        },
-        {
-          "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
-          "link": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
-          "date": "May 2, 2026",
-          "excerpt": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Just in time for Labour Day, China makes it illegal to fire humans if AI takes their jobs",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/asia_tech_news_roundup/",
+          "title": "Moving to mainframe can be cheaper than sticking with VMware: Gartner",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/gartner_state_of_mainframes/",
           "date": "May 4, 2026",
-          "excerpt": "PLUS: Samsung cashes in on RAM prices; Booze from space fetches huge price; China's hyperscalers surge A Chinese court has ruled that it’s illegal to replace human workers with AI.…"
+          "excerpt": "Serious Linux VMs will enjoy big iron – if you can learn to love lock-in risks and skills challenges VMware users considering a new home might find it cheaper to move to an IBM mainframe than adopting"
         },
         {
-          "title": "Microsoft's turned Windows into a cesspool, but it wants to do better",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/03/microsoft_promises_to_do_better/",
-          "date": "May 3, 2026",
-          "excerpt": "Windows is a mess, GitHub keeps wobbling, Copilot draws flak - what’s wrong at Redmond? kettle When it comes to making decisions that piss off your user base, no one knows how to do it like Microsoft."
+          "title": "If the vote you rocked, your personal info can be grokked",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/public_voter_records_weaponized_for_privacy_violation/",
+          "date": "May 4, 2026",
+          "excerpt": "Even limited voter rolls can be linked to identify people, research shows Your voter data could be used against you. A foreign intelligence service that wished to identify the family members of deploy"
         },
         {
-          "title": "Inference is giving AI chip startups a second chance to make their mark",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/03/inference_is_giving_ai_chip/",
-          "date": "May 3, 2026",
-          "excerpt": "In a disaggregated AI world, Nvidia can be both a friend and an enemy AI adoption is reaching an inflection point as the focus shifts from training new models to serving them. For the AI startups vyin"
+          "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/who_me/",
+          "date": "May 4, 2026",
+          "excerpt": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble Who, Me? Monday is upon us once again and The Register hopes that when you arrive at your de"
         },
         {
-          "title": "Royal Navy chief backs drones, autonomous weapons in ‘Hybrid Navy’",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/03/future_royal_navy_drones_high_tech/",
-          "date": "May 3, 2026",
-          "excerpt": "Plan mixes crewed ships, robot escorts, and long-range strike to bolster a stretched fleet The leader of Britain’s Royal Navy has outlined a “Hybrid Navy” built on a mix of crewed, uncrewed, and auton"
+          "title": "Ask.com, former home of search butler Jeeves, closes just as conversational search comes back",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/askjeeves_closes/",
+          "date": "May 4, 2026",
+          "excerpt": "Like actual butlers, this relic of the first dotcom boom has been a quaint anachronism for decades In the mid-1990s, search engine designers settled on the user interface that dominates to this day: a"
         },
         {
-          "title": "Job's a good 'un: Bank of England tech project wins watchdog praise",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/03/bank_of_england_tech_migration/",
-          "date": "May 3, 2026",
-          "excerpt": "PAC: Now why can't everybody else in public sector do it like this? Parliament's spending watchdog has held up a successful large-scale public sector tech transformation as a rare example worth emulat"
+          "title": "Five Eyes spook shops warn rapid rollouts of agentic AI are too risky",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/five_eyes_agentic_ai_recommendations/",
+          "date": "May 4, 2026",
+          "excerpt": "Prioritize resilience over productivity, say CISA, NCSC and their friends from Oz, NZ, Canada Information security agencies from the nations of the Five Eyes security alliance have co-authored guidanc"
         }
       ]
     },
