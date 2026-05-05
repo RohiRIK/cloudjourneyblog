@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-05T01:48:46.706Z",
+  "updatedAt": "2026-05-05T09:51:37.478Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "ScarCruft hackers push BirdCall Android malware via game platform",
+          "link": "https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/",
+          "date": "May 5, 2026",
+          "excerpt": "The North Korean hacker group APT37 has been delivering an Android version of a backdoor called BirdCall in a supply-chain attack through a video game platform. [...]"
+        },
+        {
           "title": "Weaver E-cology critical bug exploited in attacks since March",
           "link": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
           "date": "May 4, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
           "date": "May 4, 2026",
           "excerpt": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]"
-        },
-        {
-          "title": "They don’t hack, they borrow: How fraudsters target credit unions",
-          "link": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
-          "date": "May 4, 2026",
-          "excerpt": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. [.."
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Palantir CEO: 10 percent of the world 'professionally hates us'",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/palantir_q1_2026/",
+          "title": "NHS to close-source hundreds of GitHub repos over AI, security concerns",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/nhs_to_closesource_hundreds_of_repos/",
           "date": "May 5, 2026",
-          "excerpt": "The Iran war has been great for business The Iran War has been great for business at Palantir, as the Department of Defense has doubled usage of the company’s Maven targeting system in four months.…"
+          "excerpt": "Healthcare giant's maintainers handed May deadline to enact the change The UK's National Health Service (NHS) is ordering all of its technology leaders to temporarily wall off the organization's open "
         },
         {
-          "title": "Bad news for OpenClaw stans: Apple’s Mac Mini now starts at $799",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/mac_mini_ai_memory/",
-          "date": "May 4, 2026",
-          "excerpt": "The tiny desktop is no longer Apple's most affordable computer The Mac Mini is the latest victim of the AI-fueled RAM-pocalypse. Last week, Apple discontinued the 256 GB version of the system, which c"
+          "title": "Microsoft's bad obsession is showing up in shabby services and slipshod software. Here's proof",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/microsoft_opinion_column/",
+          "date": "May 5, 2026",
+          "excerpt": "If you can't bother to keep GitHub running, why should we bother with you? Opinion It's been another shabby week for Microsoft, and a shabbier one for its users. We learnt that Windows 11's epic habit"
         },
         {
-          "title": "Microsoft fixes VS Code after app gives Copilot credit for human's work",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/microsoft_reverses_ai_credit_grab/",
-          "date": "May 4, 2026",
-          "excerpt": "Devs not thrilled that Git extension added the bot as co-author by default Imagine working your butt off on a project, only to have VS Code put an attribution into your commit that says Copilot helped"
+          "title": "Classic ASCII game NetHack debuts version 5.0 just 11 years after last major release",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/nethack_5/",
+          "date": "May 5, 2026",
+          "excerpt": "New monsters! New magic items! An Arm port! And compliance with a dead C standard Antiques Code Show Admirers of Roguelike games have a new distraction: Version 5.0 of NetHack dropped last weekend.…"
         },
         {
-          "title": "Kids say they can beat age checks by drawing on a fake mustache",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/",
-          "date": "May 4, 2026",
-          "excerpt": "46% say age checks are easy to bypass, and nearly a third admit getting around them It’s been months since the UK government began requiring stronger age checks under the Online Safety Act, and recent"
+          "title": "Microsoft to stop taking reservations for 17 Azure VM flavours, kill 13 in 2028",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/azure_reservations_end_old_vms/",
+          "date": "May 5, 2026",
+          "excerpt": "Haswell’s had its day and Skylake and Cascade Lake are draining away Microsoft will stop offering long-term rentals for 17 Azure instance types – most of them powered by CPUs Intel released in the 201"
         },
         {
-          "title": "Hobbyist xenomorphs Raspberry Pi into Alien-themed DIY laptop",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/alien_weyland_yutani_themed_diy_laptop/",
-          "date": "May 4, 2026",
-          "excerpt": "Everything you need to build the PS-85 is available from its designer's website, even if you can't get to space We've all been there: You're doing maintenance on a Weyland-Yutani hauler dragging miner"
+          "title": "Singapore boffins get diverse SIEMs singing in harmony with agentic rule translation",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/arulecon_siem_rule_conversion/",
+          "date": "May 5, 2026",
+          "excerpt": "Vendors all use different formats. This tech translates them all so you can smooth your SOC Academics from Singapore and China have found a way to make AI useful for cyber-defenders, by creating a tec"
         }
       ]
     },
