@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-05T17:12:40.053Z",
+  "updatedAt": "2026-05-05T20:52:25.663Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,14 +65,26 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
+          "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
+          "date": "May 5, 2026",
+          "excerpt": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]"
+        },
+        {
+          "title": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
+          "link": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
+          "date": "May 5, 2026",
+          "excerpt": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]"
+        },
+        {
           "title": "FTC to ban data broker Kochava from selling Americans’ location data",
           "link": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
           "date": "May 5, 2026",
           "excerpt": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise"
         },
         {
-          "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Don't Check.",
-          "link": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-dont-check/",
+          "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
+          "link": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
           "date": "May 5, 2026",
           "excerpt": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free e"
         },
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
           "date": "May 5, 2026",
           "excerpt": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I"
-        },
-        {
-          "title": "Google now offers up to $1.5 million for some Android exploits",
-          "link": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
-          "date": "May 5, 2026",
-          "excerpt": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial int"
-        },
-        {
-          "title": "Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison",
-          "link": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
-          "date": "May 5, 2026",
-          "excerpt": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Viva la revolución: LinkedIn profile visitor lists belong to the people, says Noyb",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/linkedin_gdpr_article_15_premium_noyb/",
+          "date": "May 5, 2026",
+          "excerpt": "GDPR Article 15 doesn't care if you want to make money by selling users' data back to them A LinkedIn feature the average non-paying user likely only glances past could end up setting a legal preceden"
+        },
+        {
+          "title": "Astera speaks softly and carries a big switch",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/nvlink_astera_big_swich/",
+          "date": "May 5, 2026",
+          "excerpt": "High-speed connectivity without NVLink baggage Astera Labs unveiled an alternative to Nvidia's NVSwitch for building rack-scale AI systems on Tuesday, claiming it will work with nearly any accelerator"
+        },
+        {
+          "title": "Anthropic wants Claude to play with money, unleashes finance agents",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/anthropic_unleashes_finance_agents_claude/",
+          "date": "May 5, 2026",
+          "excerpt": "Always bet on backpropagation If you've ever read Anthropic's disclaimer that responses generated by Claude may contain mistakes and thought, \"That's what I need to spice up financial operations,\" you"
+        },
+        {
+          "title": "IBM asks DBAs to trust AI to act on their behalf",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/ibm_db2_automation_google_intel/",
+          "date": "May 5, 2026",
+          "excerpt": "With help from Google and Intel, Big Blue brings new automation to Db2 IBM has added support for Google Vertex AI and Intel Gaudi to boost the AI-based management of its stalwart Db2 database.…"
+        },
+        {
           "title": "ServiceNow clears agents for landing with new AI control tower",
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/servicenow_clears_agents_for_landing/",
           "date": "May 5, 2026",
           "excerpt": "ServiceNow acquisitions Veza and Traceloop join to monitor agents and AI workflows ServiceNow announced an expansion of its AI Control Tower, transforming what began last year as a governance dashboar"
-        },
-        {
-          "title": "DIY mystery box will wow your friends by hinting at what the ionosphere is up to",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/diy_rf_radiation_tracker/",
-          "date": "May 5, 2026",
-          "excerpt": "A rough guide to when your signal will behave, or not Shortwave radio enthusiasts are sure to know the problem: You're trying to tune in to your favorite global broadcast only to find that the signal "
-        },
-        {
-          "title": "Attackers are cashing in on fresh 'CopyFail' Linux flaw",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/cisa_sounds_the_alarm_on/",
-          "date": "May 5, 2026",
-          "excerpt": "Researchers dropped a reliable root exploit and it didn’t sit idle for long CISA is warning that a newly-disclosed Linux kernel bug dubbed \"CopyFail\" is already being exploited, just days after resear"
-        },
-        {
-          "title": "More missions, less money, higher risk: NASA's back to the '90s playbook",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/the_faster_better_cheaper_ghosts/",
-          "date": "May 5, 2026",
-          "excerpt": "Faster, better, cheaper is back and history suggests you can't get all three at the same time OPINION NASA's budget and its new administrator's statements are evoking a ghost from the agency's past: F"
-        },
-        {
-          "title": "Bun posts Rust porting guide, says rewrite is still half-baked",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/bun_rust_port/",
-          "date": "May 5, 2026",
-          "excerpt": "Zig's no-AI policy is at odds with view that most open source code will be AI-written in future Bun creator Jarred Sumner has posted a Zig-to-Rust porting guide, igniting speculation that the project "
         }
       ]
     },
