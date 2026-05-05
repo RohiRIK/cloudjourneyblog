@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-05T09:51:37.478Z",
+  "updatedAt": "2026-05-05T17:12:40.053Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "ScarCruft hackers push BirdCall Android malware via game platform",
-          "link": "https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/",
+          "title": "FTC to ban data broker Kochava from selling Americans’ location data",
+          "link": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
           "date": "May 5, 2026",
-          "excerpt": "The North Korean hacker group APT37 has been delivering an Android version of a backdoor called BirdCall in a supply-chain attack through a video game platform. [...]"
+          "excerpt": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise"
         },
         {
-          "title": "Weaver E-cology critical bug exploited in attacks since March",
-          "link": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
-          "date": "May 4, 2026",
-          "excerpt": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]"
+          "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Don't Check.",
+          "link": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-dont-check/",
+          "date": "May 5, 2026",
+          "excerpt": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free e"
         },
         {
-          "title": "Amazon SES increasingly abused in phishing to evade detection",
-          "link": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
-          "date": "May 4, 2026",
-          "excerpt": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]"
+          "title": "Vimeo data breach exposes personal information of 119,000 people",
+          "link": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
+          "date": "May 5, 2026",
+          "excerpt": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I"
         },
         {
-          "title": "Backdoored PyTorch Lightning package drops credential stealer",
-          "link": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
-          "date": "May 4, 2026",
-          "excerpt": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [..."
+          "title": "Google now offers up to $1.5 million for some Android exploits",
+          "link": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
+          "date": "May 5, 2026",
+          "excerpt": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial int"
         },
         {
-          "title": "Trellix discloses data breach after source code repository hack",
-          "link": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
-          "date": "May 4, 2026",
-          "excerpt": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]"
+          "title": "Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison",
+          "link": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
+          "date": "May 5, 2026",
+          "excerpt": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "NHS to close-source hundreds of GitHub repos over AI, security concerns",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/nhs_to_closesource_hundreds_of_repos/",
+          "title": "ServiceNow clears agents for landing with new AI control tower",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/servicenow_clears_agents_for_landing/",
           "date": "May 5, 2026",
-          "excerpt": "Healthcare giant's maintainers handed May deadline to enact the change The UK's National Health Service (NHS) is ordering all of its technology leaders to temporarily wall off the organization's open "
+          "excerpt": "ServiceNow acquisitions Veza and Traceloop join to monitor agents and AI workflows ServiceNow announced an expansion of its AI Control Tower, transforming what began last year as a governance dashboar"
         },
         {
-          "title": "Microsoft's bad obsession is showing up in shabby services and slipshod software. Here's proof",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/microsoft_opinion_column/",
+          "title": "DIY mystery box will wow your friends by hinting at what the ionosphere is up to",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/diy_rf_radiation_tracker/",
           "date": "May 5, 2026",
-          "excerpt": "If you can't bother to keep GitHub running, why should we bother with you? Opinion It's been another shabby week for Microsoft, and a shabbier one for its users. We learnt that Windows 11's epic habit"
+          "excerpt": "A rough guide to when your signal will behave, or not Shortwave radio enthusiasts are sure to know the problem: You're trying to tune in to your favorite global broadcast only to find that the signal "
         },
         {
-          "title": "Classic ASCII game NetHack debuts version 5.0 just 11 years after last major release",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/nethack_5/",
+          "title": "Attackers are cashing in on fresh 'CopyFail' Linux flaw",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/cisa_sounds_the_alarm_on/",
           "date": "May 5, 2026",
-          "excerpt": "New monsters! New magic items! An Arm port! And compliance with a dead C standard Antiques Code Show Admirers of Roguelike games have a new distraction: Version 5.0 of NetHack dropped last weekend.…"
+          "excerpt": "Researchers dropped a reliable root exploit and it didn’t sit idle for long CISA is warning that a newly-disclosed Linux kernel bug dubbed \"CopyFail\" is already being exploited, just days after resear"
         },
         {
-          "title": "Microsoft to stop taking reservations for 17 Azure VM flavours, kill 13 in 2028",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/azure_reservations_end_old_vms/",
+          "title": "More missions, less money, higher risk: NASA's back to the '90s playbook",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/the_faster_better_cheaper_ghosts/",
           "date": "May 5, 2026",
-          "excerpt": "Haswell’s had its day and Skylake and Cascade Lake are draining away Microsoft will stop offering long-term rentals for 17 Azure instance types – most of them powered by CPUs Intel released in the 201"
+          "excerpt": "Faster, better, cheaper is back and history suggests you can't get all three at the same time OPINION NASA's budget and its new administrator's statements are evoking a ghost from the agency's past: F"
         },
         {
-          "title": "Singapore boffins get diverse SIEMs singing in harmony with agentic rule translation",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/arulecon_siem_rule_conversion/",
+          "title": "Bun posts Rust porting guide, says rewrite is still half-baked",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/bun_rust_port/",
           "date": "May 5, 2026",
-          "excerpt": "Vendors all use different formats. This tech translates them all so you can smooth your SOC Academics from Singapore and China have found a way to make AI useful for cyber-defenders, by creating a tec"
+          "excerpt": "Zig's no-AI policy is at odds with view that most open source code will be AI-written in future Bun creator Jarred Sumner has posted a Zig-to-Rust porting guide, igniting speculation that the project "
         }
       ]
     },
