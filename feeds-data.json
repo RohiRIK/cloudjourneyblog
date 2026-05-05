@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-04T13:20:07.526Z",
+  "updatedAt": "2026-05-05T01:48:46.706Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
+          "date": "May 4, 2026",
+          "excerpt": "Microsoft Defender Research observed a large-scale credential theft campaign that exemplifies this trend, using code of conduct-themed lures, a multi-step attack chain, and legitimate email services t"
+        },
         {
           "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/",
           "date": "Apr 30, 2026",
           "excerpt": "In early 2026, email threats increased with a rise in credential phishing, QR code phishing, and CAPTCHA-gated campaigns, highlighted by Microsoft’s disruption of the Tycoon2FA phishing platform which"
-        },
-        {
-          "title": "8 best practices for CISOs conducting risk reviews",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/",
-          "date": "Apr 29, 2026",
-          "excerpt": "Embracing strong proactive security is something we can all do to mitigate our increased exposure to security threats. The post 8 best practices for CISOs conducting risk reviews appeared first on Mic"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
-          "link": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
+          "title": "Weaver E-cology critical bug exploited in attacks since March",
+          "link": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
           "date": "May 4, 2026",
-          "excerpt": "Progress Software warned customers to patch a critical authentication bypass vulnerability in its MOVEit Automation enterprise-grade managed file transfer (MFT) application. [...]"
+          "excerpt": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]"
         },
         {
-          "title": "Webinar: Why MSPs must rethink security and backup strategies",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/",
+          "title": "Amazon SES increasingly abused in phishing to evade detection",
+          "link": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
           "date": "May 4, 2026",
-          "excerpt": "Security breaches don't just test your defenses—they test your recovery. Join Kaseya in our upcoming webinar to learn how MSPs strengthen resilience with SaaS backups and BCDR to stay operational afte"
+          "excerpt": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]"
         },
         {
-          "title": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
+          "title": "Backdoored PyTorch Lightning package drops credential stealer",
+          "link": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
           "date": "May 4, 2026",
-          "excerpt": "CISA has warned that threat actors have started exploiting the \"Copy Fail\" Linux security vulnerability in the wild, one day after Theori researchers disclosed it and shared a proof-of-concept (PoC) e"
+          "excerpt": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [..."
         },
         {
-          "title": "Microsoft confirms April Windows updates cause backup failures",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/",
+          "title": "Trellix discloses data breach after source code repository hack",
+          "link": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
           "date": "May 4, 2026",
-          "excerpt": "Microsoft has confirmed that the April 2026 security updates are causing failures in third-party backup applications using the psmounterex.sys driver. [...]"
+          "excerpt": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]"
         },
         {
-          "title": "Instructure confirms data breach, ShinyHunters claims attack",
-          "link": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
-          "date": "May 3, 2026",
-          "excerpt": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]"
+          "title": "They don’t hack, they borrow: How fraudsters target credit unions",
+          "link": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
+          "date": "May 4, 2026",
+          "excerpt": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. [.."
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Moving to mainframe can be cheaper than sticking with VMware: Gartner",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/gartner_state_of_mainframes/",
-          "date": "May 4, 2026",
-          "excerpt": "Serious Linux VMs will enjoy big iron – if you can learn to love lock-in risks and skills challenges VMware users considering a new home might find it cheaper to move to an IBM mainframe than adopting"
+          "title": "Palantir CEO: 10 percent of the world 'professionally hates us'",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/palantir_q1_2026/",
+          "date": "May 5, 2026",
+          "excerpt": "The Iran war has been great for business The Iran War has been great for business at Palantir, as the Department of Defense has doubled usage of the company’s Maven targeting system in four months.…"
         },
         {
-          "title": "If the vote you rocked, your personal info can be grokked",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/public_voter_records_weaponized_for_privacy_violation/",
+          "title": "Bad news for OpenClaw stans: Apple’s Mac Mini now starts at $799",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/mac_mini_ai_memory/",
           "date": "May 4, 2026",
-          "excerpt": "Even limited voter rolls can be linked to identify people, research shows Your voter data could be used against you. A foreign intelligence service that wished to identify the family members of deploy"
+          "excerpt": "The tiny desktop is no longer Apple's most affordable computer The Mac Mini is the latest victim of the AI-fueled RAM-pocalypse. Last week, Apple discontinued the 256 GB version of the system, which c"
         },
         {
-          "title": "Hope your holiday was horrid: You botched the last thing you did before leaving",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/who_me/",
+          "title": "Microsoft fixes VS Code after app gives Copilot credit for human's work",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/microsoft_reverses_ai_credit_grab/",
           "date": "May 4, 2026",
-          "excerpt": "That box-full-of-old-tech-you-should-probably-have-thrown-out-but-kept-just-in-case got a techie in trouble Who, Me? Monday is upon us once again and The Register hopes that when you arrive at your de"
+          "excerpt": "Devs not thrilled that Git extension added the bot as co-author by default Imagine working your butt off on a project, only to have VS Code put an attribution into your commit that says Copilot helped"
         },
         {
-          "title": "Ask.com, former home of search butler Jeeves, closes just as conversational search comes back",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/askjeeves_closes/",
+          "title": "Kids say they can beat age checks by drawing on a fake mustache",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/",
           "date": "May 4, 2026",
-          "excerpt": "Like actual butlers, this relic of the first dotcom boom has been a quaint anachronism for decades In the mid-1990s, search engine designers settled on the user interface that dominates to this day: a"
+          "excerpt": "46% say age checks are easy to bypass, and nearly a third admit getting around them It’s been months since the UK government began requiring stronger age checks under the Online Safety Act, and recent"
         },
         {
-          "title": "Five Eyes spook shops warn rapid rollouts of agentic AI are too risky",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/five_eyes_agentic_ai_recommendations/",
+          "title": "Hobbyist xenomorphs Raspberry Pi into Alien-themed DIY laptop",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/04/alien_weyland_yutani_themed_diy_laptop/",
           "date": "May 4, 2026",
-          "excerpt": "Prioritize resilience over productivity, say CISA, NCSC and their friends from Oz, NZ, Canada Information security agencies from the nations of the Five Eyes security alliance have co-authored guidanc"
+          "excerpt": "Everything you need to build the PS-85 is available from its designer's website, even if you can't get to space We've all been there: You're doing maintenance on a Weyland-Yutani hauler dragging miner"
         }
       ]
     },
