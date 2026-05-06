@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-05T20:52:25.663Z",
+  "updatedAt": "2026-05-06T06:23:52.669Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "New stealthy Quasar Linux malware targets software developers",
+          "link": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
+          "date": "May 5, 2026",
+          "excerpt": "A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]"
+        },
+        {
+          "title": "Instructure hacker claims data theft from 8,800 schools, universities",
+          "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
+          "date": "May 5, 2026",
+          "excerpt": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education p"
+        },
+        {
           "title": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
           "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
           "date": "May 5, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
           "date": "May 5, 2026",
           "excerpt": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise"
-        },
-        {
-          "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
-          "link": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
-          "date": "May 5, 2026",
-          "excerpt": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free e"
-        },
-        {
-          "title": "Vimeo data breach exposes personal information of 119,000 people",
-          "link": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
-          "date": "May 5, 2026",
-          "excerpt": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "AWS lets agents drive its virtual cloudy desktops - which could cost 500,00 tokens per click",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/06/aws_workspaces_agent_access/",
+          "date": "May 6, 2026",
+          "excerpt": "Vendor benchmark finds APIs let you do the job faster and cheaper Amazon Web Services has let AI agents loose in its cloudy WorkSpaces virtual PCs.…"
+        },
+        {
+          "title": "India orders infosec red alert in case Mythos sparks crime spree",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/06/india_seb_mythos_infosec_advice/",
+          "date": "May 6, 2026",
+          "excerpt": "Securities regulator urges market players to develop new strategies and nail cyber-basics before AI models fuel mass attacks India’s Securities and Exchange Board has advised participants in the natio"
+        },
+        {
+          "title": "Anthropic comes for the midmarket software spend",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/anthropic_midmarket_software_spend/",
+          "date": "May 5, 2026",
+          "excerpt": "Backed by private equity and banking giants, it will build custom AI systems for business bottlenecks There’s gold in midmarket IT spend, and Anthropic - backed by private equity and banking heavyweig"
+        },
+        {
+          "title": "OpenAI exec says company hopes to burn $50B of somebody else's money on compute this year",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/openai_50b_compute/",
+          "date": "May 5, 2026",
+          "excerpt": "If the numbers are large enough, perhaps we won't question the math An executive for ChatGPT maker OpenAI said in court testimony on Tuesday that the AI model developer expects to burn $50 billion on "
+        },
+        {
           "title": "Viva la revolución: LinkedIn profile visitor lists belong to the people, says Noyb",
           "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/linkedin_gdpr_article_15_premium_noyb/",
           "date": "May 5, 2026",
           "excerpt": "GDPR Article 15 doesn't care if you want to make money by selling users' data back to them A LinkedIn feature the average non-paying user likely only glances past could end up setting a legal preceden"
-        },
-        {
-          "title": "Astera speaks softly and carries a big switch",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/nvlink_astera_big_swich/",
-          "date": "May 5, 2026",
-          "excerpt": "High-speed connectivity without NVLink baggage Astera Labs unveiled an alternative to Nvidia's NVSwitch for building rack-scale AI systems on Tuesday, claiming it will work with nearly any accelerator"
-        },
-        {
-          "title": "Anthropic wants Claude to play with money, unleashes finance agents",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/anthropic_unleashes_finance_agents_claude/",
-          "date": "May 5, 2026",
-          "excerpt": "Always bet on backpropagation If you've ever read Anthropic's disclaimer that responses generated by Claude may contain mistakes and thought, \"That's what I need to spice up financial operations,\" you"
-        },
-        {
-          "title": "IBM asks DBAs to trust AI to act on their behalf",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/ibm_db2_automation_google_intel/",
-          "date": "May 5, 2026",
-          "excerpt": "With help from Google and Intel, Big Blue brings new automation to Db2 IBM has added support for Google Vertex AI and Intel Gaudi to boost the AI-based management of its stalwart Db2 database.…"
-        },
-        {
-          "title": "ServiceNow clears agents for landing with new AI control tower",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/servicenow_clears_agents_for_landing/",
-          "date": "May 5, 2026",
-          "excerpt": "ServiceNow acquisitions Veza and Traceloop join to monitor agents and AI workflows ServiceNow announced an expansion of its AI Control Tower, transforming what began last year as a governance dashboar"
         }
       ]
     },
