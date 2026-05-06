@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-06T06:23:52.669Z",
+  "updatedAt": "2026-05-06T10:07:37.523Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
+          "date": "May 6, 2026",
+          "excerpt": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]"
+        },
+        {
           "title": "New stealthy Quasar Linux malware targets software developers",
           "link": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
           "date": "May 5, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
           "date": "May 5, 2026",
           "excerpt": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]"
-        },
-        {
-          "title": "FTC to ban data broker Kochava from selling Americans’ location data",
-          "link": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
-          "date": "May 5, 2026",
-          "excerpt": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise"
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "AWS lets agents drive its virtual cloudy desktops - which could cost 500,00 tokens per click",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/06/aws_workspaces_agent_access/",
-          "date": "May 6, 2026",
-          "excerpt": "Vendor benchmark finds APIs let you do the job faster and cheaper Amazon Web Services has let AI agents loose in its cloudy WorkSpaces virtual PCs.…"
-        },
-        {
-          "title": "India orders infosec red alert in case Mythos sparks crime spree",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/06/india_seb_mythos_infosec_advice/",
-          "date": "May 6, 2026",
-          "excerpt": "Securities regulator urges market players to develop new strategies and nail cyber-basics before AI models fuel mass attacks India’s Securities and Exchange Board has advised participants in the natio"
-        },
-        {
-          "title": "Anthropic comes for the midmarket software spend",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/anthropic_midmarket_software_spend/",
-          "date": "May 5, 2026",
-          "excerpt": "Backed by private equity and banking giants, it will build custom AI systems for business bottlenecks There’s gold in midmarket IT spend, and Anthropic - backed by private equity and banking heavyweig"
-        },
-        {
-          "title": "OpenAI exec says company hopes to burn $50B of somebody else's money on compute this year",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/openai_50b_compute/",
-          "date": "May 5, 2026",
-          "excerpt": "If the numbers are large enough, perhaps we won't question the math An executive for ChatGPT maker OpenAI said in court testimony on Tuesday that the AI model developer expects to burn $50 billion on "
-        },
-        {
-          "title": "Viva la revolución: LinkedIn profile visitor lists belong to the people, says Noyb",
-          "link": "https://go.theregister.com/feed/www.theregister.com/2026/05/05/linkedin_gdpr_article_15_premium_noyb/",
-          "date": "May 5, 2026",
-          "excerpt": "GDPR Article 15 doesn't care if you want to make money by selling users' data back to them A LinkedIn feature the average non-paying user likely only glances past could end up setting a legal preceden"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
