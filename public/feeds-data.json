@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-06T10:07:37.523Z",
+  "updatedAt": "2026-05-06T13:27:20.053Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
+          "date": "May 6, 2026",
+          "excerpt": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on Microsoft Teams social engineering to gain access and establish persistence. [...]"
+        },
+        {
+          "title": "Webinar: Why network incidents escalate and how to fix response gaps",
+          "link": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
+          "date": "May 6, 2026",
+          "excerpt": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]"
+        },
+        {
           "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
           "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
           "date": "May 6, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
           "date": "May 5, 2026",
           "excerpt": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education p"
-        },
-        {
-          "title": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
-          "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
-          "date": "May 5, 2026",
-          "excerpt": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]"
-        },
-        {
-          "title": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
-          "link": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
-          "date": "May 5, 2026",
-          "excerpt": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]"
         }
       ]
     },
