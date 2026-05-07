@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-06T21:01:54.331Z",
+  "updatedAt": "2026-05-07T01:51:41.785Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
+          "date": "May 6, 2026",
+          "excerpt": "A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]"
+        },
+        {
           "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
           "link": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
           "date": "May 6, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
           "date": "May 6, 2026",
           "excerpt": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]"
-        },
-        {
-          "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
-          "date": "May 6, 2026",
-          "excerpt": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on Microsoft Teams social engineering to gain access and establish persistence. [...]"
         }
       ]
     },
@@ -108,22 +108,22 @@
           "excerpt": "Investigators spent weeks unravelling enthusiast's bedroom project"
         },
         {
-          "title": "1 in 8 employees totally cool with selling work credentials",
-          "link": "https://www.theregister.com/security/2026/05/06/1-in-8-workers-say-selling-company-logins-is-justifiable/5231104",
+          "title": "GNOME may rule Ubuntu Resolute Raccoon, but X.org isn't roadkill yet",
+          "link": "https://www.theregister.com/oses/2026/05/06/gnome-may-rule-ubuntu-resolute-raccoon-but-xorg-isnt-roadkill-yet/5219477",
           "date": "May 6, 2026",
-          "excerpt": "13% say they’ve sold logins or know someone who has, survey suggests"
+          "excerpt": "Seven official flavors offer alternatives to the default Wayland-only desktop – and Xfce looks like the leanest"
         },
         {
-          "title": "Brit mathematician lets AI agent loose with credit card – cue password leaks, CAPTCHA chaos and more",
-          "link": "https://www.theregister.com/software/2026/05/05/british-mathematician-hands-openclaw-agent-a-credit-card/5228654",
-          "date": "May 5, 2026",
-          "excerpt": "Professor Fry's AI experiment shows light and dark sides of agentic tech"
+          "title": "Iran cybersnoops still LARPing as ransomware crooks in espionage ops",
+          "link": "https://www.theregister.com/security/2026/05/06/iran-cyberspies-larping-as-ransomware-crims-in-espionage-ops/5230993",
+          "date": "May 6, 2026",
+          "excerpt": "MOIS-linked cyber outfit puts on a ransomware show to disguise the wide-open backdoor behind the scenes"
         },
         {
-          "title": "Arctic Wolf kicks 250 employees out of the pack to save money for AI",
-          "link": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213",
+          "title": "Young evil genius forces hamster to run on wheel to power his gadgets",
+          "link": "https://www.theregister.com/offbeat/2026/05/06/youtuber-turns-hamster-wheel-into-phone-charger/5231293",
           "date": "May 6, 2026",
-          "excerpt": "Cuts appear to hit sales, product, and marketing, accounting for under 10% of staff"
+          "excerpt": "Okay, the rodent was a willing participant - after all, who turns down treats for a spin that charges a phone?"
         },
         {
           "title": "AWS lets agents drive its virtual cloudy desktops – which could cost 500,000 tokens per click",
