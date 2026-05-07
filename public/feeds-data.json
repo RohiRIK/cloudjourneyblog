@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-07T06:29:05.035Z",
+  "updatedAt": "2026-05-07T10:13:29.109Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Fake Claude AI website delivers new 'Beagle' Windows malware",
+          "link": "https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/",
+          "date": "May 7, 2026",
+          "excerpt": "A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously undocumented backdoor for Windows named Beagle. [...]"
+        },
+        {
           "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
           "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
           "date": "May 6, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
           "date": "May 6, 2026",
           "excerpt": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]"
-        },
-        {
-          "title": "Why ransomware attacks succeed even when backups exist",
-          "link": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
-          "date": "May 6, 2026",
-          "excerpt": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]"
         }
       ]
     },
