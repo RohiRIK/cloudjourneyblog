@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-07T13:26:06.397Z",
+  "updatedAt": "2026-05-07T20:56:48.706Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "World Passkey Day: Advancing passwordless authentication",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
+          "date": "May 7, 2026",
+          "excerpt": "This World Passkey Day, read how Microsoft is advancing passkey adoption to replace passwords, cut phishing risk, and deliver simpler, more secure sign-ins. The post World Passkey Day: Advancing passw"
+        },
         {
           "title": "​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
           "date": "May 2, 2026",
           "excerpt": "A high-severity Linux vulnerability, “Copy Fail” (CVE-2026-31431), enables root privilege escalation across cloud environments and Kubernetes workloads. With a working exploit already in the wild, org"
-        },
-        {
-          "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-          "date": "May 1, 2026",
-          "excerpt": "​Today we’re announcing the general availability of Agent 365, plus previews of new capabilities to discover and manage shadow AI agents, including local agents like OpenClaw and Claude Code. The post"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Crypto gang member gets 6.5 years for role in $230 million heist",
-          "link": "https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/",
+          "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
+          "link": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
           "date": "May 7, 2026",
-          "excerpt": "A 20-year-old California man was sentenced to 78 months in prison for serving as a home invader and money launderer in a criminal ring that stole over $250 million in cryptocurrency. [...]"
+          "excerpt": "A new malware framework called PCPJack is stealing credentials from exposed cloud infrastructure while actively removing TeamPCP's access to the systems. [...]"
         },
         {
-          "title": "Webinar: Why modern attacks require both security and recovery",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
+          "title": "Australia warns of ClickFix attacks pushing Vidar Stealer malware",
+          "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
           "date": "May 7, 2026",
-          "excerpt": "Modern attacks don't stop at initial compromise. This webinar explores why security and recovery must work together to reduce downtime and improve resilience. [...]"
+          "excerpt": "The Australian Cyber Security Center (ACSC) is warning organizations of an ongoing malware campaign using the ClickFix social engineering technique to distribute the Vidar Stealer info-stealing malwar"
         },
         {
-          "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
-          "link": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
+          "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
           "date": "May 7, 2026",
-          "excerpt": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]"
+          "excerpt": "Ivanti warned customers today to patch a high-severity remote code execution vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]"
         },
         {
-          "title": "Fake Claude AI website delivers new 'Beagle' Windows malware",
-          "link": "https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/",
+          "title": "The Browser Is Breaking Your DLP: How Data Slips Past Modern Controls",
+          "link": "https://www.bleepingcomputer.com/news/security/the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls/",
           "date": "May 7, 2026",
-          "excerpt": "A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously undocumented backdoor for Windows named Beagle. [...]"
+          "excerpt": "Your security controls aren't failing, they're missing where most of today's work actually happens. Keep Aware shows how browser activity like copy/paste and AI prompts bypass traditional protections."
         },
         {
-          "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
-          "date": "May 6, 2026",
-          "excerpt": "A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]"
+          "title": "Americans sentenced for running 'laptop farms' for North Korea",
+          "link": "https://www.bleepingcomputer.com/news/security/americans-sentenced-for-running-laptop-farms-for-north-korea/",
+          "date": "May 7, 2026",
+          "excerpt": "Two U.S. nationals were sentenced to 18 months in prison each for operating so-called laptop farms that helped North Korean IT workers fraudulently obtain remote employment at nearly 70 American compa"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Taiwan cops say student's radio kit brought bullet trains to a standstill",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/06/taiwan-student-pwns-rail-comms-halts-high-speed-trains/5230489",
-          "date": "May 6, 2026",
-          "excerpt": "Investigators spent weeks unravelling enthusiast's bedroom project"
+          "title": "60% of MD5 password hashes are crackable in under an hour",
+          "link": "https://www.theregister.com/security/2026/05/07/60-of-md5-password-hashes-are-crackable-in-under-an-hour/5234954",
+          "date": "May 7, 2026",
+          "excerpt": "Happy World Password Day! Maybe it's finally time to kill this holiday in favor of World No-More-Passwords Day?"
         },
         {
-          "title": "GNOME may rule Ubuntu Resolute Raccoon, but X.org isn't roadkill yet",
-          "link": "https://www.theregister.com/oses/2026/05/06/gnome-may-rule-ubuntu-resolute-raccoon-but-xorg-isnt-roadkill-yet/5219477",
-          "date": "May 6, 2026",
-          "excerpt": "Seven official flavors offer alternatives to the default Wayland-only desktop – and Xfce looks like the leanest"
+          "title": "IBM Cloud evaporates as datacenter loses power",
+          "link": "https://www.theregister.com/off-prem/2026/05/07/ibm-cloud-evaporates-as-datacenter-loses-power/5234835",
+          "date": "May 7, 2026",
+          "excerpt": "Customers say services were down for at least 4 hours, while status page showed no issues"
         },
         {
-          "title": "Musk has never built a wafer fab, but he wants to burn $119B on one anyway",
-          "link": "https://www.theregister.com/systems/2026/05/06/spacex-plots-119b-wafer-fab-to-make-elons-orbital-ai-dream-come-true/5231202",
-          "date": "May 6, 2026",
-          "excerpt": "Initial phases of SpaceX's Terafab project in rural Texas are expected to cost about 1.25 Twitters"
+          "title": "$250M crypto-robbing gang’s dirty work guy sentenced to 6.5 years behind bars",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/07/250m-crypto-robbing-gangs-dirty-work-guy-sentenced-to-65-years-behind-bars/5234787",
+          "date": "May 7, 2026",
+          "excerpt": "The then-teen was told to break in and steal what the keyboard warriors couldn’t"
         },
         {
-          "title": "Young evil genius forces hamster to run on wheel to power his gadgets",
-          "link": "https://www.theregister.com/offbeat/2026/05/06/youtuber-turns-hamster-wheel-into-phone-charger/5231293",
-          "date": "May 6, 2026",
-          "excerpt": "Okay, the rodent was a willing participant - after all, who turns down treats for a spin that charges a phone?"
+          "title": "TomTom’s route planner takes an unplanned detour into oblivion",
+          "link": "https://www.theregister.com/personal-tech/2026/05/07/tomtoms-route-planner-takes-an-unplanned-detour-into-oblivion/5234813",
+          "date": "May 7, 2026",
+          "excerpt": "Users report disappearing favorites, blank route planners, and cloud sync failures amid outage"
         },
         {
-          "title": "AWS lets agents drive its virtual cloudy desktops – which could cost 500,000 tokens per click",
-          "link": "https://www.theregister.com/off-prem/2026/05/06/aws-lets-agents-drive-its-virtual-cloudy-desktops/5220438",
-          "date": "May 6, 2026",
-          "excerpt": "Vendor benchmark finds APIs let you do the job faster and cheaper"
+          "title": "C++ survey finds AI use rising, though trust is in short supply",
+          "link": "https://www.theregister.com/devops/2026/05/07/c-survey-finds-ai-use-rising-though-trust-is-in-short-supply/5234708",
+          "date": "May 7, 2026",
+          "excerpt": "Language's popularity continues to grow despite commonly cited frustrations"
         }
       ]
     },
