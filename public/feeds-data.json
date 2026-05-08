@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-08T01:56:24.541Z",
+  "updatedAt": "2026-05-08T05:50:23.103Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,24 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Cloudflare to fire 1,100 staff whose jobs just aren’t AI enough",
+          "link": "https://www.theregister.com/off-prem/2026/05/08/cloudflare-to-fire-1100-staff-whose-jobs-just-arent-ai-enough/5235536",
+          "date": "May 8, 2026",
+          "excerpt": "Around 20 percent of staff get an ‘In one hour, you might not work here anymore’ email"
+        },
+        {
+          "title": "AWS warns of EC2 ‘impairment’ as power loss hits notorious US-EAST-1 region",
+          "link": "https://www.theregister.com/off-prem/2026/05/08/aws-warns-of-ec2-impairment-as-power-loss-hits-notorious-us-east-1-region/5235509",
+          "date": "May 8, 2026",
+          "excerpt": "Extra aircon found to cool overheating datacenter as users complain their resources are ... nowhere"
+        },
+        {
+          "title": "HPE drops first Juniper x Aruba collab – self-driving Wi-Fi",
+          "link": "https://www.theregister.com/networks/2026/05/08/hpe-drops-first-juniper-x-aruba-collab-self-driving-wi-fi/5235463",
+          "date": "May 8, 2026",
+          "excerpt": "NetAdmins can stay in the loop while they learn to trust AI to tackle some scutwork"
+        },
+        {
           "title": "Mozilla boasts Mythos boosted Firefox bug cull",
           "link": "https://www.theregister.com/security/2026/05/08/mozilla-says-ai-helped-squash-423-firefox-security-bugs/5235438",
           "date": "May 7, 2026",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/devops/2026/05/07/dyna-softwares-ai-assistant-promises-to-massage-your-toughest-servicenow-configs/5235392",
           "date": "May 7, 2026",
           "excerpt": "The tool is meant to take the place of 80% of the work that requires ServiceNow dev teams"
-        },
-        {
-          "title": "Fake IT workers rented laptops to Nork scammers, got prison time",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/07/fake-it-workers-rented-laptops-to-nork-scammers-got-prison-time/5235342",
-          "date": "May 7, 2026",
-          "excerpt": "Matthew Isaac Knoot and Erick Ntekereze Prince will each do 18 months for hosting laptops used by North Korean IT workers to remotely infiltrate US companies"
-        },
-        {
-          "title": "Anthropic response to 1-click pwn: Shouldn't have clicked 'ok'",
-          "link": "https://www.theregister.com/security/2026/05/07/claude-code-trust-prompt-can-trigger-one-click-rce/5235319",
-          "date": "May 7, 2026",
-          "excerpt": "Security biz Adversa AI argues users of AI tools need clearer warnings"
-        },
-        {
-          "title": "60% of MD5 password hashes are crackable in under an hour",
-          "link": "https://www.theregister.com/security/2026/05/07/60-of-md5-password-hashes-are-crackable-in-under-an-hour/5234954",
-          "date": "May 7, 2026",
-          "excerpt": "Happy World Password Day! Maybe it's finally time to kill this holiday in favor of World No-More-Passwords Day?"
         }
       ]
     },
