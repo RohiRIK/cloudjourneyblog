@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-07T20:56:48.706Z",
+  "updatedAt": "2026-05-08T01:56:24.541Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/",
+          "date": "May 7, 2026",
+          "excerpt": "New research exposes how prompt injection in AI agent frameworks can lead to remote code execution. Learn how these vulnerabilities work, what’s impacted, and how to secure your agents. The post When "
+        },
         {
           "title": "World Passkey Day: Advancing passwordless authentication",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
           "date": "May 4, 2026",
           "excerpt": "Microsoft Defender Research observed a large-scale credential theft campaign that exemplifies this trend, using code of conduct-themed lures, a multi-step attack chain, and legitimate email services t"
-        },
-        {
-          "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
-          "date": "May 2, 2026",
-          "excerpt": "A high-severity Linux vulnerability, “Copy Fail” (CVE-2026-31431), enables root privilege escalation across cloud environments and Kubernetes workloads. With a working exploit already in the wild, org"
         }
       ]
     },
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
+          "link": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
+          "date": "May 7, 2026",
+          "excerpt": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and univer"
+        },
+        {
+          "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
+          "link": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
+          "date": "May 7, 2026",
+          "excerpt": "A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]"
+        },
+        {
           "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
           "link": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
           "date": "May 7, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
           "date": "May 7, 2026",
           "excerpt": "Ivanti warned customers today to patch a high-severity remote code execution vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]"
-        },
-        {
-          "title": "The Browser Is Breaking Your DLP: How Data Slips Past Modern Controls",
-          "link": "https://www.bleepingcomputer.com/news/security/the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls/",
-          "date": "May 7, 2026",
-          "excerpt": "Your security controls aren't failing, they're missing where most of today's work actually happens. Keep Aware shows how browser activity like copy/paste and AI prompts bypass traditional protections."
-        },
-        {
-          "title": "Americans sentenced for running 'laptop farms' for North Korea",
-          "link": "https://www.bleepingcomputer.com/news/security/americans-sentenced-for-running-laptop-farms-for-north-korea/",
-          "date": "May 7, 2026",
-          "excerpt": "Two U.S. nationals were sentenced to 18 months in prison each for operating so-called laptop farms that helped North Korean IT workers fraudulently obtain remote employment at nearly 70 American compa"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Mozilla boasts Mythos boosted Firefox bug cull",
+          "link": "https://www.theregister.com/security/2026/05/08/mozilla-says-ai-helped-squash-423-firefox-security-bugs/5235438",
+          "date": "May 7, 2026",
+          "excerpt": "Yet it remains unclear if Anthropic's uber model was effective, or if better model middleware is what makes the difference"
+        },
+        {
+          "title": "Dyna Software's AI assistant promises to massage your toughest ServiceNow configs",
+          "link": "https://www.theregister.com/devops/2026/05/07/dyna-softwares-ai-assistant-promises-to-massage-your-toughest-servicenow-configs/5235392",
+          "date": "May 7, 2026",
+          "excerpt": "The tool is meant to take the place of 80% of the work that requires ServiceNow dev teams"
+        },
+        {
+          "title": "Fake IT workers rented laptops to Nork scammers, got prison time",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/07/fake-it-workers-rented-laptops-to-nork-scammers-got-prison-time/5235342",
+          "date": "May 7, 2026",
+          "excerpt": "Matthew Isaac Knoot and Erick Ntekereze Prince will each do 18 months for hosting laptops used by North Korean IT workers to remotely infiltrate US companies"
+        },
+        {
+          "title": "Anthropic response to 1-click pwn: Shouldn't have clicked 'ok'",
+          "link": "https://www.theregister.com/security/2026/05/07/claude-code-trust-prompt-can-trigger-one-click-rce/5235319",
+          "date": "May 7, 2026",
+          "excerpt": "Security biz Adversa AI argues users of AI tools need clearer warnings"
+        },
+        {
           "title": "60% of MD5 password hashes are crackable in under an hour",
           "link": "https://www.theregister.com/security/2026/05/07/60-of-md5-password-hashes-are-crackable-in-under-an-hour/5234954",
           "date": "May 7, 2026",
           "excerpt": "Happy World Password Day! Maybe it's finally time to kill this holiday in favor of World No-More-Passwords Day?"
-        },
-        {
-          "title": "IBM Cloud evaporates as datacenter loses power",
-          "link": "https://www.theregister.com/off-prem/2026/05/07/ibm-cloud-evaporates-as-datacenter-loses-power/5234835",
-          "date": "May 7, 2026",
-          "excerpt": "Customers say services were down for at least 4 hours, while status page showed no issues"
-        },
-        {
-          "title": "$250M crypto-robbing gang’s dirty work guy sentenced to 6.5 years behind bars",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/07/250m-crypto-robbing-gangs-dirty-work-guy-sentenced-to-65-years-behind-bars/5234787",
-          "date": "May 7, 2026",
-          "excerpt": "The then-teen was told to break in and steal what the keyboard warriors couldn’t"
-        },
-        {
-          "title": "TomTom’s route planner takes an unplanned detour into oblivion",
-          "link": "https://www.theregister.com/personal-tech/2026/05/07/tomtoms-route-planner-takes-an-unplanned-detour-into-oblivion/5234813",
-          "date": "May 7, 2026",
-          "excerpt": "Users report disappearing favorites, blank route planners, and cloud sync failures amid outage"
-        },
-        {
-          "title": "C++ survey finds AI use rising, though trust is in short supply",
-          "link": "https://www.theregister.com/devops/2026/05/07/c-survey-finds-ai-use-rising-though-trust-is-in-short-supply/5234708",
-          "date": "May 7, 2026",
-          "excerpt": "Language's popularity continues to grow despite commonly cited frustrations"
         }
       ]
     },
