@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-08T17:01:19.209Z",
+  "updatedAt": "2026-05-08T20:45:06.608Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Active attack: Dirty Frag Linux vulnerability expands post-compromise risk",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
+          "date": "May 8, 2026",
+          "excerpt": "Dirty Frag is a newly disclosed Linux local privilege escalation vulnerability affecting kernel networking and memory-fragment handling components including esp4, esp6, and rxrpc. The vulnerability en"
+        },
         {
           "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/",
           "date": "May 6, 2026",
           "excerpt": "Threat actors are targeting macOS users with fake utility fixes that trick them into running malicious Terminal commands. This campaign evades traditional defenses by stealing credentials, wallets, an"
-        },
-        {
-          "title": "Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
-          "date": "May 4, 2026",
-          "excerpt": "Microsoft Defender Research observed a large-scale credential theft campaign that exemplifies this trend, using code of conduct-themed lures, a multi-step attack chain, and legitimate email services t"
         }
       ]
     },
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Worm rubs out competitor's malware, then takes control",
+          "link": "https://www.theregister.com/security/2026/05/08/worm-rubs-out-competitors-malware-then-takes-control/5237389",
+          "date": "May 8, 2026",
+          "excerpt": "All your compromised credentials are belong to us now instead of the other gang"
+        },
+        {
+          "title": "Disgraced US gov software contractor found guilty of database destruction",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/08/former-us-contractor-convicted-in-federal-database-wipe-case/5237296",
+          "date": "May 8, 2026",
+          "excerpt": "Twin brother still faces trial over broader cybercrime allegations"
+        },
+        {
           "title": "Iran war hits datacenter building supply chains, upping costs",
           "link": "https://www.theregister.com/on-prem/2026/05/08/iran-war-disrupts-datacenter-construction-supply-chains-raises-material-costs/5235852",
           "date": "May 8, 2026",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/security/2026/05/08/dirty-frag-linux-flaw-one-ups-copyfail-with-no-patches-and-public-root-exploit/5237230",
           "date": "May 8, 2026",
           "excerpt": "Broken disclosure embargo left admins facing a fresh root-level flaw with no CVE"
-        },
-        {
-          "title": "Trump jumps from 'anything goes' to 'strict regulation' AI policy",
-          "link": "https://www.theregister.com/ai-and-ml/2026/05/08/trump-jumps-from-anything-goes-to-strict-regulation-ai-policy/5234687",
-          "date": "May 8, 2026",
-          "excerpt": "In a word, 'Huh?'"
-        },
-        {
-          "title": "Meta U-turns on encryption push for Instagram as DMs go plaintext",
-          "link": "https://www.theregister.com/security/2026/05/08/meta-u-turns-on-encryption-push-for-instagram-as-dms-go-plaintext/5235705",
-          "date": "May 8, 2026",
-          "excerpt": "After years of insisting end-to-end encryption was the future of online comms, Zuckcorp has handed itself full visibility into user chats once again"
         }
       ]
     },
