@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-08T20:45:06.608Z",
+  "updatedAt": "2026-05-09T06:08:54.527Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,24 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Akamai surges on big LLM deal as Cloudflare dims",
+          "link": "https://www.theregister.com/networks/2026/05/09/akamai-surges-on-big-llm-deal-as-cloudflare-dims/5237552",
+          "date": "May 8, 2026",
+          "excerpt": "Good times, bad times"
+        },
+        {
+          "title": "GPT-5.5 may burn fewer tokens, but it always burns more cash",
+          "link": "https://www.theregister.com/ai-and-ml/2026/05/08/gpt-55-may-burn-fewer-tokens-but-it-always-burns-more-cash/5237498",
+          "date": "May 8, 2026",
+          "excerpt": "It’s not just gas prices skyrocketing. Frontier-model pricing keeps climbing too"
+        },
+        {
+          "title": "Tech is now rolling out the old grievance grift",
+          "link": "https://www.theregister.com/cxo/2026/05/08/tech-is-now-rolling-out-the-old-grievance-grift/5237475",
+          "date": "May 8, 2026",
+          "excerpt": "Not just for hated US Presidents, now even tech bros lament their foes"
+        },
+        {
           "title": "Worm rubs out competitor's malware, then takes control",
           "link": "https://www.theregister.com/security/2026/05/08/worm-rubs-out-competitors-malware-then-takes-control/5237389",
           "date": "May 8, 2026",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/cyber-crime/2026/05/08/former-us-contractor-convicted-in-federal-database-wipe-case/5237296",
           "date": "May 8, 2026",
           "excerpt": "Twin brother still faces trial over broader cybercrime allegations"
-        },
-        {
-          "title": "Iran war hits datacenter building supply chains, upping costs",
-          "link": "https://www.theregister.com/on-prem/2026/05/08/iran-war-disrupts-datacenter-construction-supply-chains-raises-material-costs/5235852",
-          "date": "May 8, 2026",
-          "excerpt": "BCS says builders face up to 20% material hikes and patchy deliveries"
-        },
-        {
-          "title": "Raspberry Pi wants Windows admins to Connect – or it might pull the plug",
-          "link": "https://www.theregister.com/personal-tech/2026/05/08/raspberry-pi-wants-windows-admins-to-connect-or-it-might-pull-the-plug/5235753",
-          "date": "May 8, 2026",
-          "excerpt": "Remote access software could bring mixed fleets under one roof, assuming enough people ask for it"
-        },
-        {
-          "title": "'Dirty Frag' Linux flaw one-ups CopyFail with no patches and public root exploit",
-          "link": "https://www.theregister.com/security/2026/05/08/dirty-frag-linux-flaw-one-ups-copyfail-with-no-patches-and-public-root-exploit/5237230",
-          "date": "May 8, 2026",
-          "excerpt": "Broken disclosure embargo left admins facing a fresh root-level flaw with no CVE"
         }
       ]
     },
