@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T12:51:19.085Z",
+  "updatedAt": "2026-05-09T20:33:47.352Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "JDownloader site hacked to replace installers with Python RAT malware",
+          "link": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+          "date": "May 9, 2026",
+          "excerpt": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based"
+        },
+        {
+          "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
+          "link": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
+          "date": "May 9, 2026",
+          "excerpt": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]"
+        },
+        {
           "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
           "link": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
           "date": "May 8, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
           "date": "May 8, 2026",
           "excerpt": "The attack on the Trellix source code repository disclosed last week has been claimed by the RansomHouse threat group, which leaked a small set of images as proof of the intrusion. [...]"
-        },
-        {
-          "title": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
-          "date": "May 8, 2026",
-          "excerpt": "CISA has given U.S. federal agencies four days to secure their networks against a high-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]"
-        },
-        {
-          "title": "Zara data breach exposed personal information of 197,000 people",
-          "link": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
-          "date": "May 8, 2026",
-          "excerpt": "Hackers who gained access to the databases of Spanish fast-fashion retailer Zara stole data belonging to more than 197,000 customers, according to data breach notification service Have I Been Pwned. ["
         }
       ]
     },
@@ -101,6 +101,12 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Google tweaks Chrome AI privacy wording, insists processing stays on-device",
+          "link": "https://www.theregister.com/ai-and-ml/2026/05/09/google-tweaks-chrome-ai-privacy-wording-insists-processing-stays-on-device/5237580",
+          "date": "May 9, 2026",
+          "excerpt": "Deletion of a longstanding privacy assurance sparks concerns"
+        },
         {
           "title": "macOS 27 threatens to bury Time Capsule, FOSS brings a shovel",
           "link": "https://www.theregister.com/software/2026/05/09/macos-27-threatens-to-bury-time-capsule-foss-brings-a-shovel/5234824",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/networks/2026/05/09/akamai-surges-on-big-llm-deal-as-cloudflare-dims/5237552",
           "date": "May 8, 2026",
           "excerpt": "Good times, bad times"
-        },
-        {
-          "title": "GPT-5.5 may burn fewer tokens, but it always burns more cash",
-          "link": "https://www.theregister.com/ai-and-ml/2026/05/08/gpt-55-may-burn-fewer-tokens-but-it-always-burns-more-cash/5237498",
-          "date": "May 8, 2026",
-          "excerpt": "It’s not just gas prices skyrocketing. Frontier-model pricing keeps climbing too"
         }
       ]
     },
