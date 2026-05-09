@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T06:08:54.527Z",
+  "updatedAt": "2026-05-09T12:51:19.085Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,24 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "macOS 27 threatens to bury Time Capsule, FOSS brings a shovel",
+          "link": "https://www.theregister.com/software/2026/05/09/macos-27-threatens-to-bury-time-capsule-foss-brings-a-shovel/5234824",
+          "date": "May 9, 2026",
+          "excerpt": "Apple's old backup boxes only speak AFP and SMB1, but NetBSD under the hood gives them one last shot"
+        },
+        {
+          "title": "London’s BT Tower to get rooftop swimming pool",
+          "link": "https://www.theregister.com/offbeat/2026/05/09/londons-bt-tower-to-get-rooftop-swimming-pool/5237337",
+          "date": "May 9, 2026",
+          "excerpt": "Imagine taking a dip 177m above the streets of London’s West End"
+        },
+        {
+          "title": "UK wants fresh fingerprints on £300M biometrics platform",
+          "link": "https://www.theregister.com/public-sector/2026/05/09/uk-wants-fresh-fingerprints-on-300m-biometrics-platform/5234933",
+          "date": "May 9, 2026",
+          "excerpt": "Home Office probes supplier interest as core police and immigration system heads for support shake-up"
+        },
+        {
           "title": "Akamai surges on big LLM deal as Cloudflare dims",
           "link": "https://www.theregister.com/networks/2026/05/09/akamai-surges-on-big-llm-deal-as-cloudflare-dims/5237552",
           "date": "May 8, 2026",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/05/08/gpt-55-may-burn-fewer-tokens-but-it-always-burns-more-cash/5237498",
           "date": "May 8, 2026",
           "excerpt": "It’s not just gas prices skyrocketing. Frontier-model pricing keeps climbing too"
-        },
-        {
-          "title": "Tech is now rolling out the old grievance grift",
-          "link": "https://www.theregister.com/cxo/2026/05/08/tech-is-now-rolling-out-the-old-grievance-grift/5237475",
-          "date": "May 8, 2026",
-          "excerpt": "Not just for hated US Presidents, now even tech bros lament their foes"
-        },
-        {
-          "title": "Worm rubs out competitor's malware, then takes control",
-          "link": "https://www.theregister.com/security/2026/05/08/worm-rubs-out-competitors-malware-then-takes-control/5237389",
-          "date": "May 8, 2026",
-          "excerpt": "All your compromised credentials are belong to us now instead of the other gang"
-        },
-        {
-          "title": "Disgraced US gov software contractor found guilty of database destruction",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/08/former-us-contractor-convicted-in-federal-database-wipe-case/5237296",
-          "date": "May 8, 2026",
-          "excerpt": "Twin brother still faces trial over broader cybercrime allegations"
         }
       ]
     },
