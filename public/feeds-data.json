@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-10T16:40:55.202Z",
+  "updatedAt": "2026-05-10T20:36:40.192Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
+          "date": "May 10, 2026",
+          "excerpt": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list "
+        },
+        {
           "title": "Police shut down reboot of Crimenetwork marketplace, arrest admin",
           "link": "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/",
           "date": "May 10, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
           "date": "May 8, 2026",
           "excerpt": "NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]"
-        },
-        {
-          "title": "Why More Analysts Won’t Solve Your SOC’s Alert Problem",
-          "link": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
-          "date": "May 8, 2026",
-          "excerpt": "Attackers move faster than overwhelmed SOC teams can realistically investigate alerts. Prophet Security breaks down how AI can help analysts investigate alerts faster and focus on real threats. [...]"
         }
       ]
     },
