@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-10T06:28:37.921Z",
+  "updatedAt": "2026-05-10T12:52:05.973Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,12 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "HP stuffed a PC into a keyboard. We took it for a spin",
+          "link": "https://www.theregister.com/personal-tech/2026/05/10/hp-eliteboard-g1a-puts-a-pc-inside-a-keyboard/5235258",
+          "date": "May 10, 2026",
+          "excerpt": "It's not much cheaper than an equivalent laptop, so who's this for, exactly?"
+        },
+        {
           "title": "Google tweaks Chrome AI privacy wording, insists processing stays on-device",
           "link": "https://www.theregister.com/ai-and-ml/2026/05/09/google-tweaks-chrome-ai-privacy-wording-insists-processing-stays-on-device/5237580",
           "date": "May 9, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/public-sector/2026/05/09/uk-wants-fresh-fingerprints-on-300m-biometrics-platform/5234933",
           "date": "May 9, 2026",
           "excerpt": "Home Office probes supplier interest as core police and immigration system heads for support shake-up"
-        },
-        {
-          "title": "Akamai surges on big LLM deal as Cloudflare dims",
-          "link": "https://www.theregister.com/networks/2026/05/09/akamai-surges-on-big-llm-deal-as-cloudflare-dims/5237552",
-          "date": "May 8, 2026",
-          "excerpt": "Good times, bad times"
         }
       ]
     },
