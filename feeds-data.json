@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11T10:52:09.785Z",
+  "updatedAt": "2026-05-11T14:23:17.656Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Why Changing Passwords Doesn’t End an Active Directory Breach",
+          "link": "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
+          "date": "May 11, 2026",
+          "excerpt": "Resetting a password doesn't always remove attackers from Active Directory. Specops Software explains how cached credentials and Kerberos tickets can keep attackers authenticated after a reset. [...]"
+        },
+        {
+          "title": "Google: Hackers used AI to develop zero-day exploit for web admin tool",
+          "link": "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
+          "date": "May 11, 2026",
+          "excerpt": "Researchers at Google Threat Intelligence Group (GTIG) say that a zero-day exploit targeting a popular open-source web administration tool was likely generated using AI. [...]"
+        },
+        {
+          "title": "Webinar this week: Prevention alone is not enough against modern attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/",
+          "date": "May 11, 2026",
+          "excerpt": "This upcoming webinar explores how organizations need to combine security, backups, and recovery planning to reduce the impact of modern cyberattacks. [...]"
+        },
+        {
           "title": "TrickMo Android banker adopts TON blockchain for covert comms",
           "link": "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
           "date": "May 11, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
           "date": "May 10, 2026",
           "excerpt": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list "
-        },
-        {
-          "title": "Police shut down reboot of Crimenetwork marketplace, arrest admin",
-          "link": "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/",
-          "date": "May 10, 2026",
-          "excerpt": "German authorities have shut down a relaunch version of the criminal marketplace 'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator. [...]"
-        },
-        {
-          "title": "JDownloader site hacked to replace installers with Python RAT malware",
-          "link": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
-          "date": "May 9, 2026",
-          "excerpt": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based"
-        },
-        {
-          "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
-          "link": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
-          "date": "May 9, 2026",
-          "excerpt": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Classic Outlook's Quick Steps trip over Microsoft bug",
-          "link": "https://www.theregister.com/personal-tech/2026/05/11/classic-outlooks-quick-steps-trip-over-microsoft-bug/5237702",
+          "title": "Feature freeze for Python 3.15 as first beta released",
+          "link": "https://www.theregister.com/devops/2026/05/11/feature-freeze-for-python-315-as-first-beta-released/5237934",
           "date": "May 11, 2026",
-          "excerpt": "Client's handy automations get grayed out unless you know the keyboard shortcut"
+          "excerpt": "JIT compiler much improved, but no reinstatement for leaky incremental garbage collector"
         },
         {
-          "title": "Europe wants out from under US tech – but first it has to find the exits",
-          "link": "https://www.theregister.com/public-sector/2026/05/11/europe-wants-out-from-under-us-tech-but-first-it-has-to-find-the-exits/5234898",
+          "title": "Google says criminals used AI-built zero-day in planned mass hack spree",
+          "link": "https://www.theregister.com/ai-and-ml/2026/05/11/google-says-criminals-used-ai-built-zero-day-in-planned-mass-hack-spree/5237982",
           "date": "May 11, 2026",
-          "excerpt": "Report maps the weak points in cloud, identity, and public sector procurement"
+          "excerpt": "GTIG says AI-powered hacking has moved well beyond phishing emails and chatbot tricks"
         },
         {
-          "title": "The latest innovation in UK public transport: Schrödinger's trains",
-          "link": "https://www.theregister.com/offbeat/2026/05/11/the-latest-innovation-in-uk-public-transport-schroedingers-trains/5237362",
+          "title": "SoftBank bets on battery building to back bit barns",
+          "link": "https://www.theregister.com/on-prem/2026/05/11/softbank-bets-on-battery-building-to-back-bit-barns/5237886",
           "date": "May 11, 2026",
-          "excerpt": "Who knows what is going where. Might as well have a lovely beer instead."
+          "excerpt": "Tech investment giant wants batteries for its own AI datacenters, and lots of them"
         },
         {
-          "title": "Taiwan's train cyber-trauma reveals a global system that’s coming off the tracks",
-          "link": "https://www.theregister.com/security/2026/05/11/taiwans-train-cyber-trauma-reveals-a-global-system-thats-coming-off-the-tracks/5237248",
+          "title": "Water company's leaky security earns near-£1M fine",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/11/ico-fines-south-staffordshire-963k-over-2022-breach/5237875",
           "date": "May 11, 2026",
-          "excerpt": "That’s not a radio. THIS is a radio"
+          "excerpt": "Utility provider failed to detect Cl0p ransomware attack for nearly two years"
         },
         {
-          "title": "Who, Me? Lab worker built a fake PC to nuke his lunch",
-          "link": "https://www.theregister.com/personal-tech/2026/05/11/who-me-lab-worker-built-a-fake-pc-to-nuke-his-lunch/5235416",
+          "title": "Checkmarx tackles another TeamPCP intrusion as Jenkins plugin sabotaged",
+          "link": "https://www.theregister.com/devops/2026/05/11/checkmarx-tackles-another-teampcp-intrusion-as-jenkins-plugin-sabotaged/5237780",
           "date": "May 11, 2026",
-          "excerpt": "The office sink is always a horror. Managers worried this one glowed"
+          "excerpt": "Cybercrooks ruin engineers' weekends with Saturday attack"
         }
       ]
     },
