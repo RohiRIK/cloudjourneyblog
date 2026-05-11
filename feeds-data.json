@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-10T20:36:40.192Z",
+  "updatedAt": "2026-05-11T06:57:45.781Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,24 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Sovereign cloud is only possible if you’re Chinese or American: Gartner",
+          "link": "https://www.theregister.com/off-prem/2026/05/11/sovereign-cloud-is-only-possible-if-youre-chinese-or-american-gartner/5237660",
+          "date": "May 11, 2026",
+          "excerpt": "Which is awkward for European orgs who fear US clouds might leave the continent"
+        },
+        {
+          "title": "ASIA IN BRIEF: China’s agentic AI policy wants to keep humans in the loop",
+          "link": "https://www.theregister.com/ai-and-ml/2026/05/11/asia-in-brief-chinas-agentic-ai-policy-wants-to-keep-humans-in-the-loop/5237632",
+          "date": "May 11, 2026",
+          "excerpt": "PLUS: Robot becomes Buddhist monk in Korea; TikTok spending $25bn in Thailand; Baidu floating chip biz; and more!"
+        },
+        {
+          "title": "Yes, local LLMs are ready to ease the compute strain",
+          "link": "https://www.theregister.com/ai-and-ml/2026/05/11/yes-local-llms-are-ready-to-ease-the-compute-strain/5237451",
+          "date": "May 10, 2026",
+          "excerpt": "Anthropic might be thinking about space to ease its computing burden, but Claude Code on your laptop is way more practical"
+        },
+        {
           "title": "Memory godboxes could offer relief from the RAMpocalypse",
           "link": "https://www.theregister.com/systems/2026/05/10/memory-godboxes-could-offer-relief-from-the-rampocalypse/5237463",
           "date": "May 10, 2026",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/oses/2026/05/10/both-fedora-and-ubuntu-will-get-ai-support-soon/5237409",
           "date": "May 10, 2026",
           "excerpt": "Furores are fermenting in the forums"
-        },
-        {
-          "title": "HP stuffed a PC into a keyboard. We took it for a spin",
-          "link": "https://www.theregister.com/personal-tech/2026/05/10/hp-eliteboard-g1a-puts-a-pc-inside-a-keyboard/5235258",
-          "date": "May 10, 2026",
-          "excerpt": "It's not much cheaper than an equivalent laptop, so who's this for, exactly?"
-        },
-        {
-          "title": "Google tweaks Chrome AI privacy wording, insists processing stays on-device",
-          "link": "https://www.theregister.com/ai-and-ml/2026/05/09/google-tweaks-chrome-ai-privacy-wording-insists-processing-stays-on-device/5237580",
-          "date": "May 9, 2026",
-          "excerpt": "Deletion of a longstanding privacy assurance sparks concerns"
-        },
-        {
-          "title": "macOS 27 threatens to bury Time Capsule, FOSS brings a shovel",
-          "link": "https://www.theregister.com/software/2026/05/09/macos-27-threatens-to-bury-time-capsule-foss-brings-a-shovel/5234824",
-          "date": "May 9, 2026",
-          "excerpt": "Apple's old backup boxes only speak AFP and SMB1, but NetBSD under the hood gives them one last shot"
         }
       ]
     },
