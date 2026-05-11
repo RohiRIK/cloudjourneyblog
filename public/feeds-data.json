@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11T06:57:45.781Z",
+  "updatedAt": "2026-05-11T10:52:09.785Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "TrickMo Android banker adopts TON blockchain for covert comms",
+          "link": "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
+          "date": "May 11, 2026",
+          "excerpt": "A new variant of the TrickMo Android banking malware, delivered in campaigns targeting users across Europe, introduces new commands and uses The Open Network (TON) for stealthy command-and-control com"
+        },
+        {
           "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
           "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
           "date": "May 10, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
           "date": "May 9, 2026",
           "excerpt": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]"
-        },
-        {
-          "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
-          "link": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
-          "date": "May 8, 2026",
-          "excerpt": "NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Sovereign cloud is only possible if you’re Chinese or American: Gartner",
-          "link": "https://www.theregister.com/off-prem/2026/05/11/sovereign-cloud-is-only-possible-if-youre-chinese-or-american-gartner/5237660",
+          "title": "Classic Outlook's Quick Steps trip over Microsoft bug",
+          "link": "https://www.theregister.com/personal-tech/2026/05/11/classic-outlooks-quick-steps-trip-over-microsoft-bug/5237702",
           "date": "May 11, 2026",
-          "excerpt": "Which is awkward for European orgs who fear US clouds might leave the continent"
+          "excerpt": "Client's handy automations get grayed out unless you know the keyboard shortcut"
         },
         {
-          "title": "ASIA IN BRIEF: China’s agentic AI policy wants to keep humans in the loop",
-          "link": "https://www.theregister.com/ai-and-ml/2026/05/11/asia-in-brief-chinas-agentic-ai-policy-wants-to-keep-humans-in-the-loop/5237632",
+          "title": "Europe wants out from under US tech – but first it has to find the exits",
+          "link": "https://www.theregister.com/public-sector/2026/05/11/europe-wants-out-from-under-us-tech-but-first-it-has-to-find-the-exits/5234898",
           "date": "May 11, 2026",
-          "excerpt": "PLUS: Robot becomes Buddhist monk in Korea; TikTok spending $25bn in Thailand; Baidu floating chip biz; and more!"
+          "excerpt": "Report maps the weak points in cloud, identity, and public sector procurement"
         },
         {
-          "title": "Yes, local LLMs are ready to ease the compute strain",
-          "link": "https://www.theregister.com/ai-and-ml/2026/05/11/yes-local-llms-are-ready-to-ease-the-compute-strain/5237451",
-          "date": "May 10, 2026",
-          "excerpt": "Anthropic might be thinking about space to ease its computing burden, but Claude Code on your laptop is way more practical"
+          "title": "The latest innovation in UK public transport: Schrödinger's trains",
+          "link": "https://www.theregister.com/offbeat/2026/05/11/the-latest-innovation-in-uk-public-transport-schroedingers-trains/5237362",
+          "date": "May 11, 2026",
+          "excerpt": "Who knows what is going where. Might as well have a lovely beer instead."
         },
         {
-          "title": "Memory godboxes could offer relief from the RAMpocalypse",
-          "link": "https://www.theregister.com/systems/2026/05/10/memory-godboxes-could-offer-relief-from-the-rampocalypse/5237463",
-          "date": "May 10, 2026",
-          "excerpt": "Amid the AI-fueled memory crunch, will Compute Express Link finally have its moment to shine?"
+          "title": "Taiwan's train cyber-trauma reveals a global system that’s coming off the tracks",
+          "link": "https://www.theregister.com/security/2026/05/11/taiwans-train-cyber-trauma-reveals-a-global-system-thats-coming-off-the-tracks/5237248",
+          "date": "May 11, 2026",
+          "excerpt": "That’s not a radio. THIS is a radio"
         },
         {
-          "title": "Both Fedora and Ubuntu will get AI support – soon",
-          "link": "https://www.theregister.com/oses/2026/05/10/both-fedora-and-ubuntu-will-get-ai-support-soon/5237409",
-          "date": "May 10, 2026",
-          "excerpt": "Furores are fermenting in the forums"
+          "title": "Who, Me? Lab worker built a fake PC to nuke his lunch",
+          "link": "https://www.theregister.com/personal-tech/2026/05/11/who-me-lab-worker-built-a-fake-pc-to-nuke-his-lunch/5235416",
+          "date": "May 11, 2026",
+          "excerpt": "The office sink is always a horror. Managers worried this one glowed"
         }
       ]
     },
