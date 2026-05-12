@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T06:30:52.073Z",
+  "updatedAt": "2026-05-12T13:50:30.551Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Shai Hulud attack ships signed malicious TanStack, Mistral npm packages",
+          "link": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
+          "date": "May 12, 2026",
+          "excerpt": "Hundreds of packages across npm and PyPI have been compromised in a new Shai-Hulud supply-chain campaign delivering credential-stealing malware targeting developers. [...]"
+        },
+        {
+          "title": "SAP fixes critical vulnerabilities in Commerce Cloud and S/4HANA",
+          "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-commerce-cloud-and-s-4hana/",
+          "date": "May 12, 2026",
+          "excerpt": "SAP has released the May 2026 security updates addressing 15 vulnerabilities across multiple products, including two critical flaws in the Commerce Cloud enterprise-grade e-commerce platform and the S"
+        },
+        {
+          "title": "Instructure reaches 'agreement' with ShinyHunters to stop data leak",
+          "link": "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
+          "date": "May 12, 2026",
+          "excerpt": "Instructure, the edtech giant behind the widely popular Canvas learning management system (LMS), has reached an \"agreement\" with the ShinyHunters extortion group to prevent the data stolen in a recent"
+        },
+        {
           "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
           "link": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
           "date": "May 11, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
           "date": "May 11, 2026",
           "excerpt": "Checkmarx warned over the weekend that a rogue version of its Jenkins Application Security Testing (AST) plugin had been published on the Jenkins Marketplace. [...]"
-        },
-        {
-          "title": "New GhostLock tool abuses Windows API to block file access",
-          "link": "https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/",
-          "date": "May 11, 2026",
-          "excerpt": "A security researcher has released a proof-of-concept tool named GhostLock that demonstrates how a legitimate Windows file API can be abused in attacks to block access to files stored locally or on SM"
-        },
-        {
-          "title": "Instructure confirms hackers used Canvas flaw to deface portals",
-          "link": "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
-          "date": "May 11, 2026",
-          "excerpt": "Education technology giant Instructure has confirmed that a security vulnerability allowed hackers to modify Canvas login portals and leave an extortion message. [...]"
-        },
-        {
-          "title": "Why Changing Passwords Doesn’t End an Active Directory Breach",
-          "link": "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
-          "date": "May 11, 2026",
-          "excerpt": "Resetting a password doesn't always remove attackers from Active Directory. Specops Software explains how cached credentials and Kerberos tickets can keep attackers authenticated after a reset. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Japan’s PM orders cybersecurity review to stop Mythos going full CyberZilla",
-          "link": "https://www.theregister.com/security/2026/05/12/japans-pm-orders-cybersecurity-review-to-defend-against-anthropic-mythos/5238501",
+          "title": "Frontier AI safety tests may be creating the very risks they're meant to stop",
+          "link": "https://www.theregister.com/ai-ml/2026/05/12/frontier-ai-safety-tests-may-be-creating-the-very-risks-theyre-meant-to-stop/5238734",
           "date": "May 12, 2026",
-          "excerpt": "Fears exponential increase in attack scale and speed"
+          "excerpt": "Think tank warns outsider access to powerful models is governed by patchy controls and a hope nobody dangerous gets in"
         },
         {
-          "title": "Veteran network architect proposes IPv8 – to improve IPv4, not leapfrog v6",
-          "link": "https://www.theregister.com/networks/2026/05/12/veteran-network-architect-proposes-ipv8-to-improve-ipv4-not-leapfrog-v6/5238474",
+          "title": "Cache-poisoning caper turns TanStack npm packages toxic",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/12/cache-poisoning-caper-turns-tanstack-npm-packages-toxic/5238650",
           "date": "May 12, 2026",
-          "excerpt": "Giving v4 an ‘area code’ based on ASNs to give operators more addresses to play with, without upgrades"
+          "excerpt": "Six-minute supply chain blitz pushed 84 malicious versions with credential theft and disk-wiping code"
         },
         {
-          "title": "GitLab promises a different kind of layoff as biz pivots toward AI",
-          "link": "https://www.theregister.com/devops/2026/05/12/gitlab-promises-a-different-kind-of-layoff-as-biz-pivots-toward-ai/5238422",
+          "title": "EU browser choice rules send millions more users Firefox's way",
+          "link": "https://www.theregister.com/software/2026/05/12/eu-law-bestows-6m-more-firefox-users-upon-us-moz-says/5238623",
           "date": "May 12, 2026",
-          "excerpt": "Code hosting biz is trimming its global footprint and flattening its management layer"
+          "excerpt": "Mozilla claims the Digital Markets Act delivered lasting bump, invites Britain to do similar"
         },
         {
-          "title": "Red Hat blasts RHEL 10.1 into orbit aboard Voyager's micro datacenter ",
-          "link": "https://www.theregister.com/off-prem/2026/05/12/red-hat-gives-rhel-101-the-boot-into-orbit/5238373",
+          "title": "Microsoft makes Copilot easier to summon, harder to ignore in Office",
+          "link": "https://www.theregister.com/personal-tech/2026/05/12/microsoft-makes-copilot-easier-to-summon-harder-to-ignore-in-office/5238612",
           "date": "May 12, 2026",
-          "excerpt": "Orbital compute platform, which launched on a mission to the ISS last year, gets an immutable upgrade alongside refreshed container images"
+          "excerpt": "It looks like you're trying to get more Microsoft 365 users to engage with your assistant. Would you like help?"
         },
         {
-          "title": "Quit VMware and you’ll emerge with more complex and less capable infrastructure",
-          "link": "https://www.theregister.com/virtualization/2026/05/12/quit-vmware-and-youll-emerge-with-more-complex-and-less-capable-infrastructure/5238442",
-          "date": "May 11, 2026",
-          "excerpt": "Analyst says modernizing applications is probably a better use of your time than hypervisor migration"
+          "title": "Windows update prompt joins the Post Office queue",
+          "link": "https://www.theregister.com/offbeat/2026/05/12/windows-update-prompt-joins-the-post-office-queue/5238531",
+          "date": "May 12, 2026",
+          "excerpt": "Customers left staring at restart plea with no keyboard, mouse, or hope"
         }
       ]
     },
