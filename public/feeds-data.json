@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T01:55:24.431Z",
+  "updatedAt": "2026-05-12T06:30:52.073Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,24 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Japan’s PM orders cybersecurity review to stop Mythos going full CyberZilla",
+          "link": "https://www.theregister.com/security/2026/05/12/japans-pm-orders-cybersecurity-review-to-defend-against-anthropic-mythos/5238501",
+          "date": "May 12, 2026",
+          "excerpt": "Fears exponential increase in attack scale and speed"
+        },
+        {
+          "title": "Veteran network architect proposes IPv8 – to improve IPv4, not leapfrog v6",
+          "link": "https://www.theregister.com/networks/2026/05/12/veteran-network-architect-proposes-ipv8-to-improve-ipv4-not-leapfrog-v6/5238474",
+          "date": "May 12, 2026",
+          "excerpt": "Giving v4 an ‘area code’ based on ASNs to give operators more addresses to play with, without upgrades"
+        },
+        {
+          "title": "GitLab promises a different kind of layoff as biz pivots toward AI",
+          "link": "https://www.theregister.com/devops/2026/05/12/gitlab-promises-a-different-kind-of-layoff-as-biz-pivots-toward-ai/5238422",
+          "date": "May 12, 2026",
+          "excerpt": "Code hosting biz is trimming its global footprint and flattening its management layer"
+        },
+        {
           "title": "Red Hat blasts RHEL 10.1 into orbit aboard Voyager's micro datacenter ",
           "link": "https://www.theregister.com/off-prem/2026/05/12/red-hat-gives-rhel-101-the-boot-into-orbit/5238373",
           "date": "May 12, 2026",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/virtualization/2026/05/12/quit-vmware-and-youll-emerge-with-more-complex-and-less-capable-infrastructure/5238442",
           "date": "May 11, 2026",
           "excerpt": "Analyst says modernizing applications is probably a better use of your time than hypervisor migration"
-        },
-        {
-          "title": "Double Canvas breach acknowledged as ShinyHunters sets new pay-or-leak deadline",
-          "link": "https://www.theregister.com/security/2026/05/12/double-canvas-intrusion-confirmed-as-shinyhunters-resets-leak-deadline/5238361",
-          "date": "May 11, 2026",
-          "excerpt": "UPDATED: Sorry, kids, everything's back up so get back to work on your new assignment - figuring out if Instructure paid a ransom"
-        },
-        {
-          "title": "Rodent-obsessed developer creates Ratty to bring 3D graphics to the command line",
-          "link": "https://www.theregister.com/software/2026/05/11/ratty-terminal-emulator-brings-3d-graphics-to-the-command-line/5238299",
-          "date": "May 11, 2026",
-          "excerpt": "Inspired by TempleOS, this terminal emulator is just about as bonkers"
-        },
-        {
-          "title": "Microsoft researchers find AI models and agents can't handle long-running tasks",
-          "link": "https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263",
-          "date": "May 11, 2026",
-          "excerpt": "An intern who failed this much would be shown the door"
         }
       ]
     },
