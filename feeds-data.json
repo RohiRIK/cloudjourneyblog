@@ -1,11 +1,23 @@
 {
-  "updatedAt": "2026-05-12T13:50:30.551Z",
+  "updatedAt": "2026-05-12T17:52:34.511Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Defending consumer web properties against modern DDoS attacks",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
+          "date": "May 12, 2026",
+          "excerpt": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties"
+        },
+        {
+          "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
+          "date": "May 12, 2026",
+          "excerpt": "Microsoft Incident Response investigated an attack operated through legitimate and trusted administrative mechanisms to blend seamlessly into routine operations and remain undetected demonstrating tha"
+        },
         {
           "title": "Active attack: Dirty Frag Linux vulnerability expands post-compromise risk",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
@@ -23,18 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
           "date": "May 7, 2026",
           "excerpt": "This World Passkey Day, read how Microsoft is advancing passkey adoption to replace passwords, cut phishing risk, and deliver simpler, more secure sign-ins. The post World Passkey Day: Advancing passw"
-        },
-        {
-          "title": "​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/",
-          "date": "May 6, 2026",
-          "excerpt": "Microsoft is excited to be named an Overall Leader, and the Market Leader in the Kuppinger Cole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report, as we see automation and AI as core "
-        },
-        {
-          "title": "ClickFix campaign uses fake macOS utilities lures to deliver infostealers",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/",
-          "date": "May 6, 2026",
-          "excerpt": "Threat actors are targeting macOS users with fake utility fixes that trick them into running malicious Terminal commands. This campaign evades traditional defenses by stealing credentials, wallets, an"
         }
       ]
     },
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Škoda warns of customer data breach after online shop hack",
+          "link": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
+          "date": "May 12, 2026",
+          "excerpt": "Škoda Auto, a wholly owned subsidiary of the Volkswagen Group, has disclosed a data breach after attackers hacked its online shop and stole the personal information of an undisclosed number of custome"
+        },
+        {
+          "title": "Android 17 to expand banking scam call and privacy protections",
+          "link": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
+          "date": "May 12, 2026",
+          "excerpt": "Android 17, expected to roll out next month, will introduce several security and privacy features focused on device theft, threat detection, and banking scam calls. [...]"
+        },
+        {
           "title": "Shai Hulud attack ships signed malicious TanStack, Mistral npm packages",
           "link": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
           "date": "May 12, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
           "date": "May 12, 2026",
           "excerpt": "Instructure, the edtech giant behind the widely popular Canvas learning management system (LMS), has reached an \"agreement\" with the ShinyHunters extortion group to prevent the data stolen in a recent"
-        },
-        {
-          "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
-          "link": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
-          "date": "May 11, 2026",
-          "excerpt": "California Attorney General Rob Bonta announced a proposed $12.75 million settlement agreement with General Motors (GM) over allegations that the company violated the California Consumer Privacy Act ("
-        },
-        {
-          "title": "Official CheckMarx Jenkins package compromised with infostealer",
-          "link": "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
-          "date": "May 11, 2026",
-          "excerpt": "Checkmarx warned over the weekend that a rogue version of its Jenkins Application Security Testing (AST) plugin had been published on the Jenkins Marketplace. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Frontier AI safety tests may be creating the very risks they're meant to stop",
-          "link": "https://www.theregister.com/ai-ml/2026/05/12/frontier-ai-safety-tests-may-be-creating-the-very-risks-theyre-meant-to-stop/5238734",
+          "title": "FCC walks back router update ban before it bricked America's network security",
+          "link": "https://www.theregister.com/networks/2026/05/12/fcc-walks-back-router-update-ban-before-it-bricked-americas-network-security/5238938",
           "date": "May 12, 2026",
-          "excerpt": "Think tank warns outsider access to powerful models is governed by patchy controls and a hope nobody dangerous gets in"
+          "excerpt": "Quietly extends waivers to 2029 after realizing it was about to leave millions of devices unpatched"
         },
         {
-          "title": "Cache-poisoning caper turns TanStack npm packages toxic",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/12/cache-poisoning-caper-turns-tanstack-npm-packages-toxic/5238650",
+          "title": "Congress investigates Canvas breach as company pays ransom",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/12/congress-investigates-canvas-breach-after-instructure-cuts-deal-with-shinyhunters/5238927",
           "date": "May 12, 2026",
-          "excerpt": "Six-minute supply chain blitz pushed 84 malicious versions with credential theft and disk-wiping code"
+          "excerpt": "Instructure CEO Steve Daly's got some explaining to do"
         },
         {
-          "title": "EU browser choice rules send millions more users Firefox's way",
-          "link": "https://www.theregister.com/software/2026/05/12/eu-law-bestows-6m-more-firefox-users-upon-us-moz-says/5238623",
+          "title": "AirBit crypto Ponzi victims can now claim slice of $400M asset haul",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/12/airbit-crypto-ponzi-victims-can-now-claim-slice-of-400m-asset-haul/5238867",
           "date": "May 12, 2026",
-          "excerpt": "Mozilla claims the Digital Markets Act delivered lasting bump, invites Britain to do similar"
+          "excerpt": "After guilty pleas, prison terms, and seizures, the DOJ has opened the compensation process"
         },
         {
-          "title": "Microsoft makes Copilot easier to summon, harder to ignore in Office",
-          "link": "https://www.theregister.com/personal-tech/2026/05/12/microsoft-makes-copilot-easier-to-summon-harder-to-ignore-in-office/5238612",
+          "title": "US bank reports itself after slinging customer data at 'unauthorized AI app'",
+          "link": "https://www.theregister.com/security/2026/05/12/us-bank-reports-itself-after-ai-customer-data-mishap/5238787",
           "date": "May 12, 2026",
-          "excerpt": "It looks like you're trying to get more Microsoft 365 users to engage with your assistant. Would you like help?"
+          "excerpt": "Volume and sensitivity of the data cited as chief concerns"
         },
         {
-          "title": "Windows update prompt joins the Post Office queue",
-          "link": "https://www.theregister.com/offbeat/2026/05/12/windows-update-prompt-joins-the-post-office-queue/5238531",
+          "title": "SpaceX Starship completes Wet Dress Rehearsal, gets ready for launch",
+          "link": "https://www.theregister.com/science/2026/05/12/spacex-starship-completes-wet-dress-rehearsal-gets-ready-for-launch/5238767",
           "date": "May 12, 2026",
-          "excerpt": "Customers left staring at restart plea with no keyboard, mouse, or hope"
+          "excerpt": "Launch of Musk's monster rocket could be in May"
         }
       ]
     },
