@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11T14:23:17.656Z",
+  "updatedAt": "2026-05-12T01:55:24.431Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
+          "link": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
+          "date": "May 11, 2026",
+          "excerpt": "California Attorney General Rob Bonta announced a proposed $12.75 million settlement agreement with General Motors (GM) over allegations that the company violated the California Consumer Privacy Act ("
+        },
+        {
+          "title": "Official CheckMarx Jenkins package compromised with infostealer",
+          "link": "https://www.bleepingcomputer.com/news/security/official-checkmarx-jenkins-package-compromised-with-infostealer/",
+          "date": "May 11, 2026",
+          "excerpt": "Checkmarx warned over the weekend that a rogue version of its Jenkins Application Security Testing (AST) plugin had been published on the Jenkins Marketplace. [...]"
+        },
+        {
+          "title": "New GhostLock tool abuses Windows API to block file access",
+          "link": "https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/",
+          "date": "May 11, 2026",
+          "excerpt": "A security researcher has released a proof-of-concept tool named GhostLock that demonstrates how a legitimate Windows file API can be abused in attacks to block access to files stored locally or on SM"
+        },
+        {
+          "title": "Instructure confirms hackers used Canvas flaw to deface portals",
+          "link": "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
+          "date": "May 11, 2026",
+          "excerpt": "Education technology giant Instructure has confirmed that a security vulnerability allowed hackers to modify Canvas login portals and leave an extortion message. [...]"
+        },
+        {
           "title": "Why Changing Passwords Doesn’t End an Active Directory Breach",
           "link": "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
           "date": "May 11, 2026",
           "excerpt": "Resetting a password doesn't always remove attackers from Active Directory. Specops Software explains how cached credentials and Kerberos tickets can keep attackers authenticated after a reset. [...]"
-        },
-        {
-          "title": "Google: Hackers used AI to develop zero-day exploit for web admin tool",
-          "link": "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
-          "date": "May 11, 2026",
-          "excerpt": "Researchers at Google Threat Intelligence Group (GTIG) say that a zero-day exploit targeting a popular open-source web administration tool was likely generated using AI. [...]"
-        },
-        {
-          "title": "Webinar this week: Prevention alone is not enough against modern attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/",
-          "date": "May 11, 2026",
-          "excerpt": "This upcoming webinar explores how organizations need to combine security, backups, and recovery planning to reduce the impact of modern cyberattacks. [...]"
-        },
-        {
-          "title": "TrickMo Android banker adopts TON blockchain for covert comms",
-          "link": "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
-          "date": "May 11, 2026",
-          "excerpt": "A new variant of the TrickMo Android banking malware, delivered in campaigns targeting users across Europe, introduces new commands and uses The Open Network (TON) for stealthy command-and-control com"
-        },
-        {
-          "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
-          "date": "May 10, 2026",
-          "excerpt": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list "
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Feature freeze for Python 3.15 as first beta released",
-          "link": "https://www.theregister.com/devops/2026/05/11/feature-freeze-for-python-315-as-first-beta-released/5237934",
-          "date": "May 11, 2026",
-          "excerpt": "JIT compiler much improved, but no reinstatement for leaky incremental garbage collector"
+          "title": "Red Hat blasts RHEL 10.1 into orbit aboard Voyager's micro datacenter ",
+          "link": "https://www.theregister.com/off-prem/2026/05/12/red-hat-gives-rhel-101-the-boot-into-orbit/5238373",
+          "date": "May 12, 2026",
+          "excerpt": "Orbital compute platform, which launched on a mission to the ISS last year, gets an immutable upgrade alongside refreshed container images"
         },
         {
-          "title": "Google says criminals used AI-built zero-day in planned mass hack spree",
-          "link": "https://www.theregister.com/ai-and-ml/2026/05/11/google-says-criminals-used-ai-built-zero-day-in-planned-mass-hack-spree/5237982",
+          "title": "Quit VMware and you’ll emerge with more complex and less capable infrastructure",
+          "link": "https://www.theregister.com/virtualization/2026/05/12/quit-vmware-and-youll-emerge-with-more-complex-and-less-capable-infrastructure/5238442",
           "date": "May 11, 2026",
-          "excerpt": "GTIG says AI-powered hacking has moved well beyond phishing emails and chatbot tricks"
+          "excerpt": "Analyst says modernizing applications is probably a better use of your time than hypervisor migration"
         },
         {
-          "title": "SoftBank bets on battery building to back bit barns",
-          "link": "https://www.theregister.com/on-prem/2026/05/11/softbank-bets-on-battery-building-to-back-bit-barns/5237886",
+          "title": "Double Canvas breach acknowledged as ShinyHunters sets new pay-or-leak deadline",
+          "link": "https://www.theregister.com/security/2026/05/12/double-canvas-intrusion-confirmed-as-shinyhunters-resets-leak-deadline/5238361",
           "date": "May 11, 2026",
-          "excerpt": "Tech investment giant wants batteries for its own AI datacenters, and lots of them"
+          "excerpt": "UPDATED: Sorry, kids, everything's back up so get back to work on your new assignment - figuring out if Instructure paid a ransom"
         },
         {
-          "title": "Water company's leaky security earns near-£1M fine",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/11/ico-fines-south-staffordshire-963k-over-2022-breach/5237875",
+          "title": "Rodent-obsessed developer creates Ratty to bring 3D graphics to the command line",
+          "link": "https://www.theregister.com/software/2026/05/11/ratty-terminal-emulator-brings-3d-graphics-to-the-command-line/5238299",
           "date": "May 11, 2026",
-          "excerpt": "Utility provider failed to detect Cl0p ransomware attack for nearly two years"
+          "excerpt": "Inspired by TempleOS, this terminal emulator is just about as bonkers"
         },
         {
-          "title": "Checkmarx tackles another TeamPCP intrusion as Jenkins plugin sabotaged",
-          "link": "https://www.theregister.com/devops/2026/05/11/checkmarx-tackles-another-teampcp-intrusion-as-jenkins-plugin-sabotaged/5237780",
+          "title": "Microsoft researchers find AI models and agents can't handle long-running tasks",
+          "link": "https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263",
           "date": "May 11, 2026",
-          "excerpt": "Cybercrooks ruin engineers' weekends with Saturday attack"
+          "excerpt": "An intern who failed this much would be shown the door"
         }
       ]
     },
