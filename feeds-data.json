@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T06:41:17.721Z",
+  "updatedAt": "2026-05-13T14:03:43.029Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Foxconn confirms cyberattack claimed by Nitrogen ransomware gang",
+          "link": "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
+          "date": "May 13, 2026",
+          "excerpt": "Foxconn, the world's largest electronics manufacturer, says some of its North American factories are now working to resume normal operations after a cyberattack. [...]"
+        },
+        {
+          "title": "73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation",
+          "link": "https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/",
+          "date": "May 13, 2026",
+          "excerpt": "Attackers can compromise systems in minutes while patching and response still take hours or days. Picus Security breaks down why autonomous validation is becoming critical for modern defense strategie"
+        },
+        {
+          "title": "Microsoft says some users can't install Office on Windows 365 devices",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
+          "date": "May 13, 2026",
+          "excerpt": "Microsoft says some customers are experiencing issues downloading and installing Office on their Windows 365 devices. [...]"
+        },
+        {
           "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
           "link": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
           "date": "May 12, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
           "date": "May 12, 2026",
           "excerpt": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of 66"
-        },
-        {
-          "title": "Webinar: Fixing the gaps in network incident response",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
-          "date": "May 12, 2026",
-          "excerpt": "IT teams often struggle to quickly coordinate responses across disparate systems during network incidents. This upcoming webinar explores how automation and AI-assisted workflows can reduce response t"
-        },
-        {
-          "title": "Signal adds security warnings for social engineering, phishing attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
-          "date": "May 12, 2026",
-          "excerpt": "Signal has introduced new in-app confirmations and warning messages as additional safeguards against phishing and social engineering attempts that could lead to various forms of fraud. [...]"
-        },
-        {
-          "title": "Microsoft releases Windows 10 KB5087544 extended security update",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/",
-          "date": "May 12, 2026",
-          "excerpt": "Microsoft has released the Windows 10 KB5087544 extended security update to fix the May 2026 Patch Tuesday vulnerabilities and resolve an issue with the new Remote Desktop warnings. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Vietnam to develop domestic cloud so it can ditch risky overseas operators for government workloads",
-          "link": "https://www.theregister.com/public-sector/2026/05/13/vietnam-to-develop-domestic-cloud-so-it-can-ditch-risky-overseas-operators-for-government-workloads/5239269",
+          "title": "Microsoft aims to speed Windows with 'leap forward' in WinUI 3 perf",
+          "link": "https://www.theregister.com/oses/2026/05/13/microsoft-aims-to-speed-windows-with-leap-forward-in-winui-3-perf/5239559",
           "date": "May 13, 2026",
-          "excerpt": "Communist government plans personalized ‘data-driven decision-making based on real-time information’ by 2035"
+          "excerpt": "Bittersweet post tells devs what they already knew: The framework is too slow"
         },
         {
-          "title": "Execs admit AI makes them value human workers less",
-          "link": "https://www.theregister.com/ai-ml/2026/05/13/execs-admit-ai-makes-them-value-human-workers-less/5239201",
+          "title": "SpaceX sets date for Starship test that asks: Did we break anything in the upgrade?",
+          "link": "https://www.theregister.com/science/2026/05/13/spacex-sets-date-for-starship-test-that-asks-did-we-break-anything-in-the-upgrade/5239547",
           "date": "May 13, 2026",
-          "excerpt": "As suits say they're burning cash on brainboxes without seeing results"
+          "excerpt": "May 19 launch will put redesigned rocket, pad, and engines through their paces"
         },
         {
-          "title": "Doozy of a Patch Tuesday includes 30 critical Microsoft CVEs",
-          "link": "https://www.theregister.com/patches/2026/05/13/doozy-of-a-patch-tuesday-includes-30-critical-microsoft-cves/5239224",
-          "date": "May 12, 2026",
-          "excerpt": "The good news: no 0-days. The bad news: busy week ahead for Microsoft admins"
+          "title": "Greater Manchester still says no to NHS data platform with Palantir at its heart",
+          "link": "https://www.theregister.com/public-sector/2026/05/13/greater-manchester-still-says-no-to-nhs-data-platform-with-palantir-at-its-heart/5239584",
+          "date": "May 13, 2026",
+          "excerpt": "Public concern has only grown, says ICB, while evidence of benefits remains thin"
         },
         {
-          "title": "Google users fight for refunds as unauthorized API usage bills soar",
-          "link": "https://www.theregister.com/ai-ml/2026/05/13/google-users-fight-for-refunds-as-unauthorized-api-usage-bills-soar/5239160",
-          "date": "May 12, 2026",
-          "excerpt": "'What the hell is going on? It's just draining my money'"
+          "title": "Microsoft gives Windows Update a Ctrl-Z for bad drivers",
+          "link": "https://www.theregister.com/oses/2026/05/13/microsoft-gives-windows-update-a-ctrl-z-for-bad-drivers/5239489",
+          "date": "May 13, 2026",
+          "excerpt": "Cloud-powered undo will roll back dodgy code without users or hardware partners lifting a finger"
         },
         {
-          "title": "Foxconn confirms cyberattack after ransomware crew claims it stole confidential Apple, Nvidia files",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/12/foxconn-confirms-cyberattack-after-nitrogen-claims-apple-nvidia-data-theft/5239144",
-          "date": "May 12, 2026",
-          "excerpt": "Affected factories back up and running, we're told"
+          "title": "London cops hail fixed facial recognition cams after suspects collared every 35 mins",
+          "link": "https://www.theregister.com/public-sector/2026/05/13/london-cops-hail-fixed-facial-recognition-cams-after-suspects-collared-every-35-mins/5239521",
+          "date": "May 13, 2026",
+          "excerpt": "Croydon trial helped secure 173 arrests, though civil liberties groups remain unconvinced"
         }
       ]
     },
