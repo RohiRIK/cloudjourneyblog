@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T01:59:57.039Z",
+  "updatedAt": "2026-05-13T06:41:17.721Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Vietnam to develop domestic cloud so it can ditch risky overseas operators for government workloads",
+          "link": "https://www.theregister.com/public-sector/2026/05/13/vietnam-to-develop-domestic-cloud-so-it-can-ditch-risky-overseas-operators-for-government-workloads/5239269",
+          "date": "May 13, 2026",
+          "excerpt": "Communist government plans personalized ‘data-driven decision-making based on real-time information’ by 2035"
+        },
+        {
+          "title": "Execs admit AI makes them value human workers less",
+          "link": "https://www.theregister.com/ai-ml/2026/05/13/execs-admit-ai-makes-them-value-human-workers-less/5239201",
+          "date": "May 13, 2026",
+          "excerpt": "As suits say they're burning cash on brainboxes without seeing results"
+        },
+        {
           "title": "Doozy of a Patch Tuesday includes 30 critical Microsoft CVEs",
           "link": "https://www.theregister.com/patches/2026/05/13/doozy-of-a-patch-tuesday-includes-30-critical-microsoft-cves/5239224",
           "date": "May 12, 2026",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/cyber-crime/2026/05/12/foxconn-confirms-cyberattack-after-nitrogen-claims-apple-nvidia-data-theft/5239144",
           "date": "May 12, 2026",
           "excerpt": "Affected factories back up and running, we're told"
-        },
-        {
-          "title": "Google launches line of Android laptops festooned with Gemini AI",
-          "link": "https://www.theregister.com/personal-tech/2026/05/12/google-launches-line-of-android-laptops-festooned-with-gemini-ai/5239091",
-          "date": "May 12, 2026",
-          "excerpt": "If you're not a fan of having AI baked into your OS, look elsewhere"
-        },
-        {
-          "title": "Hollywood A-listers back proposed standard that would pay them when AI uses their likeness or work",
-          "link": "https://www.theregister.com/ai-ml/2026/05/12/actors-new-spec-aims-to-defeat-attack-of-the-ai-clones/5239115",
-          "date": "May 12, 2026",
-          "excerpt": "RSL Media expands machine-readable licensing rules to cover AI use of identities and creative works"
         }
       ]
     },
