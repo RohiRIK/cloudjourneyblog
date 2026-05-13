@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T14:03:43.029Z",
+  "updatedAt": "2026-05-13T21:15:20.741Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Foxconn confirms cyberattack claimed by Nitrogen ransomware gang",
-          "link": "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
+          "title": "New critical Exim mailer flaw allows remote code execution",
+          "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
           "date": "May 13, 2026",
-          "excerpt": "Foxconn, the world's largest electronics manufacturer, says some of its North American factories are now working to resume normal operations after a cyberattack. [...]"
+          "excerpt": "A critical vulnerability affecting certain configurations of the Exim open-source mail transfer agent could be exploited by an unauthenticated remote attacker to execute arbitrary code. [...]"
         },
         {
-          "title": "73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation",
-          "link": "https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/",
+          "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
+          "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
           "date": "May 13, 2026",
-          "excerpt": "Attackers can compromise systems in minutes while patching and response still take hours or days. Picus Security breaks down why autonomous validation is becoming critical for modern defense strategie"
+          "excerpt": "A cybersecurity researcher has published proof-of-concept (PoC) exploits for two unpatched Microsoft Windows vulnerabilities named YellowKey and GreenPlasma, which are a BitLocker bypass and a privile"
         },
         {
-          "title": "Microsoft says some users can't install Office on Windows 365 devices",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
+          "title": "Webinar tomorrow: Why security alone won't stop modern attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
           "date": "May 13, 2026",
-          "excerpt": "Microsoft says some customers are experiencing issues downloading and installing Office on their Windows 365 devices. [...]"
+          "excerpt": "Tomorrow's webinar examines why prevention alone is no longer enough against modern cyberattacks. The session explores how organizations combine security, backups, and recovery planning to improve cyb"
         },
         {
-          "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
-          "link": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
-          "date": "May 12, 2026",
-          "excerpt": "The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform, al"
+          "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
+          "date": "May 13, 2026",
+          "excerpt": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security updates. [...]"
         },
         {
-          "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
-          "link": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
-          "date": "May 12, 2026",
-          "excerpt": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of 66"
+          "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
+          "date": "May 13, 2026",
+          "excerpt": "Microsoft has fixed a Windows Autopatch bug that caused driver updates restricted by administrative policies to be deployed on some Autopatch-managed Windows devices in the European Union. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Microsoft aims to speed Windows with 'leap forward' in WinUI 3 perf",
-          "link": "https://www.theregister.com/oses/2026/05/13/microsoft-aims-to-speed-windows-with-leap-forward-in-winui-3-perf/5239559",
+          "title": "Bug hunter tracks down three massive MCP flaws and one vendor won't fix theirs",
+          "link": "https://www.theregister.com/security/2026/05/13/bug-hunter-tracks-down-three-serious-mcp-database-flaws-one-left-unpatched/5238916",
           "date": "May 13, 2026",
-          "excerpt": "Bittersweet post tells devs what they already knew: The framework is too slow"
+          "excerpt": "Apache, Alibaba databases vulnerable and only one has a patch"
         },
         {
-          "title": "SpaceX sets date for Starship test that asks: Did we break anything in the upgrade?",
-          "link": "https://www.theregister.com/science/2026/05/13/spacex-sets-date-for-starship-test-that-asks-did-we-break-anything-in-the-upgrade/5239547",
+          "title": "See through local AI lies with Irish eyes",
+          "link": "https://www.theregister.com/ai-ml/2026/05/13/see-through-local-ai-lies-with-irish-eyes/5239911",
           "date": "May 13, 2026",
-          "excerpt": "May 19 launch will put redesigned rocket, pad, and engines through their paces"
+          "excerpt": "ICCL Enforce project offers Verity fact-checking server"
         },
         {
-          "title": "Greater Manchester still says no to NHS data platform with Palantir at its heart",
-          "link": "https://www.theregister.com/public-sector/2026/05/13/greater-manchester-still-says-no-to-nhs-data-platform-with-palantir-at-its-heart/5239584",
+          "title": "Dissatisfied: Three-fourths of AI customer service rollouts are a letdown",
+          "link": "https://www.theregister.com/ai-ml/2026/05/13/ai-customer-service-bots-get-rolled-back-at-74-of-firms/5239800",
           "date": "May 13, 2026",
-          "excerpt": "Public concern has only grown, says ICB, while evidence of benefits remains thin"
+          "excerpt": "AI rollback rates hit 81% at firms with mature guardrails, suggesting enterprises are struggling to manage the systems in production, says Sinch"
         },
         {
-          "title": "Microsoft gives Windows Update a Ctrl-Z for bad drivers",
-          "link": "https://www.theregister.com/oses/2026/05/13/microsoft-gives-windows-update-a-ctrl-z-for-bad-drivers/5239489",
+          "title": "Utah mega datacenter could dump 23 atomic bombs worth of energy per day",
+          "link": "https://www.theregister.com/on-prem/2026/05/13/utah-mega-datacenter-could-dump-23-atomic-bombs-worth-of-energy-per-day/5239670",
           "date": "May 13, 2026",
-          "excerpt": "Cloud-powered undo will roll back dodgy code without users or hardware partners lifting a finger"
+          "excerpt": "Physicist warns proposed Stratos campus could seriously affect local environment"
         },
         {
-          "title": "London cops hail fixed facial recognition cams after suspects collared every 35 mins",
-          "link": "https://www.theregister.com/public-sector/2026/05/13/london-cops-hail-fixed-facial-recognition-cams-after-suspects-collared-every-35-mins/5239521",
+          "title": "Mystery Microsoft bug leaker keeps the zero-days coming",
+          "link": "https://www.theregister.com/security/2026/05/13/disgruntled-researcher-releases-two-more-microsoft-zero-days/5239758",
           "date": "May 13, 2026",
-          "excerpt": "Croydon trial helped secure 173 arrests, though civil liberties groups remain unconvinced"
+          "excerpt": "Security pros warn YellowKey claim could make stolen laptops a much bigger problem"
         }
       ]
     },
