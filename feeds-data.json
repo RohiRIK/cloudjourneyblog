@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T17:30:18.274Z",
+  "updatedAt": "2026-05-14T21:02:20.184Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
+          "date": "May 14, 2026",
+          "excerpt": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrat"
+        },
+        {
+          "title": "OpenAI confirms security breach in TanStack supply chain attack",
+          "link": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
+          "date": "May 14, 2026",
+          "excerpt": "OpenAI says two employees' devices were breached in the recent TanStack supply chain attack that impacted hundreds of npm and PyPI packages, causing the company to rotate code-signing certificates for"
+        },
+        {
+          "title": "Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026",
+          "link": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
+          "date": "May 14, 2026",
+          "excerpt": "On the first day of Pwn2Own Berlin 2026, security researchers collected $523,000 in cash awards after exploiting 24 unique zero-days. [...]"
+        },
+        {
           "title": "18-year-old NGINX vulnerability allows DoS, potential RCE",
           "link": "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/",
           "date": "May 14, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
           "date": "May 14, 2026",
           "excerpt": "Cargo theft now starts with phishing emails and stolen credentials, not hijackings, to reroute and steal freight from supply chains. NMFTA outlines how cyber-enabled cargo crime is changing transporta"
-        },
-        {
-          "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
-          "link": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
-          "date": "May 14, 2026",
-          "excerpt": "Initial access broker KongTuke has moved to Microsoft Teams for social engineering attacks, taking as little as five minutes to gain persistent access to corporate networks. [...]"
-        },
-        {
-          "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
-          "link": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
-          "date": "May 14, 2026",
-          "excerpt": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]"
-        },
-        {
-          "title": "US charges suspected Dream Market admin arrested in Germany",
-          "link": "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
-          "date": "May 14, 2026",
-          "excerpt": "The alleged main administrator of Dream Market Incognito Market, one of the largest dark web marketplaces before its shutdown, has been indicted in the United States on money laundering charges. [...]"
         }
       ]
     },
@@ -101,6 +101,12 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Grad-to-be turns graduation cap into Rust-powered light show",
+          "link": "https://www.theregister.com/offbeat/2026/05/14/grad-to-be-turns-graduation-cap-into-rust-powered-light-show/5240682",
+          "date": "May 14, 2026",
+          "excerpt": "Eric Park tells us he doesn't plan to wear his modified cap to commencement, but his code's available for anyone with no such qualms and an upcoming ceremony"
+        },
         {
           "title": "KDE bags €1.3M as Europe realizes it might need an OS of its own",
           "link": "https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/personal-tech/2026/05/14/ai-to-infest-eight-in-ten-premium-phones-within-two-years/5240393",
           "date": "May 14, 2026",
           "excerpt": "And Counterpoint sees fad spreading from pricey handsets to smart rings and earbuds too... whether you asked for it or not"
-        },
-        {
-          "title": "Dude… where’s my password? Claude reunites forgetful stoner with $400k Bitcoin stash",
-          "link": "https://www.theregister.com/offbeat/2026/05/14/claude-reunites-stoner-with-bitcoin-after-losing-password/5240492",
-          "date": "May 14, 2026",
-          "excerpt": "AI to the rescue as 11-year search for password turns up in old PC files"
         }
       ]
     },
