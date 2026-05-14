@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T06:40:13.507Z",
+  "updatedAt": "2026-05-14T10:04:57.301Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
+          "link": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
+          "date": "May 14, 2026",
+          "excerpt": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]"
+        },
+        {
+          "title": "US charges suspected Dream Market admin arrested in Germany",
+          "link": "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
+          "date": "May 14, 2026",
+          "excerpt": "The alleged main administrator of Dream Market Incognito Market, one of the largest dark web marketplaces before its shutdown, has been indicted in the United States on money laundering charges. [...]"
+        },
+        {
+          "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
+          "link": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
+          "date": "May 14, 2026",
+          "excerpt": "Linux distros are rolling out patches for a new high-severity kernel privilege escalation vulnerability (known as Fragnasia and tracked as CVE-2026-46300) that allows attackers to run malicious code a"
+        },
+        {
           "title": "West Pharmaceutical says hackers stole data, encrypted systems",
           "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
           "date": "May 13, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
           "date": "May 13, 2026",
           "excerpt": "The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten) launched a broad cyber-espionage campaign targeting at least nine high-profile organizations across multiple sectors and count"
-        },
-        {
-          "title": "New critical Exim mailer flaw allows remote code execution",
-          "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
-          "date": "May 13, 2026",
-          "excerpt": "A critical vulnerability affecting certain configurations of the Exim open-source mail transfer agent could be exploited by an unauthenticated remote attacker to execute arbitrary code. [...]"
-        },
-        {
-          "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
-          "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
-          "date": "May 13, 2026",
-          "excerpt": "A cybersecurity researcher has published proof-of-concept (PoC) exploits for two unpatched Microsoft Windows vulnerabilities named YellowKey and GreenPlasma, which are a BitLocker bypass and a privile"
-        },
-        {
-          "title": "Webinar tomorrow: Why security alone won't stop modern attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
-          "date": "May 13, 2026",
-          "excerpt": "Tomorrow's webinar examines why prevention alone is no longer enough against modern cyberattacks. The session explores how organizations combine security, backups, and recovery planning to improve cyb"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Calling the cops just got extra AI as police seek to add tech to contact systems",
+          "link": "https://www.theregister.com/public-sector/2026/05/14/calling-the-cops-just-got-extra-ai-as-police-seek-to-add-tech-to-contact-systems/5239737",
+          "date": "May 14, 2026",
+          "excerpt": "AI already listening in to call handlers in real time, conducting live database searches"
+        },
+        {
+          "title": "Bedrock and a hard place: Claude adventure leaves AWS user staring down $30K invoice",
+          "link": "https://www.theregister.com/saas/2026/05/14/bedrock-and-a-hard-place-claude-adventure-leaves-aws-user-staring-down-30k-invoice/5238153",
+          "date": "May 14, 2026",
+          "excerpt": "CAD: Cost Anomaly Detection or Create Astounding Debt?"
+        },
+        {
+          "title": "To gain root access at this company, all an intruder had to do was ask nicely",
+          "link": "https://www.theregister.com/security/2026/05/14/to-gain-root-access-at-this-company-all-an-intruder-had-to-do-was-ask-nicely/5239853",
+          "date": "May 14, 2026",
+          "excerpt": "Human IT managers thought they were being nice to the boss, but were assisting a threat actor"
+        },
         {
           "title": "AI models are getting better at replacing cybersecurity pros on certain tasks",
           "link": "https://www.theregister.com/ai-ml/2026/05/14/ai-models-are-getting-better-at-replacing-cybersecurity-pros-on-certain-tasks/5240065",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/off-prem/2026/05/14/tencent-admits-gpus-only-pay-for-themselves-when-powering-personalized-ads/5240150",
           "date": "May 14, 2026",
           "excerpt": "Chinese web giant says accelerator shortage is over as local hardware arrives in volume"
-        },
-        {
-          "title": "Cisco to fire 4,000 staff and generously give them free training – on Cisco",
-          "link": "https://www.theregister.com/networks/2026/05/14/cisco-to-fire-4000-staff-and-generously-give-them-free-training-on-cisco/5240125",
-          "date": "May 14, 2026",
-          "excerpt": "Reducing memory requirements to control costs in a new wave of kit"
-        },
-        {
-          "title": "Welcome to the vulnpocalypse, as vendors use AI to find bugs and patches multiply like rabbits",
-          "link": "https://www.theregister.com/patches/2026/05/14/welcome-to-the-vulnpocalypse-as-vendors-use-ai-to-find-bugs-and-patches-multiply-like-rabbits/5240027",
-          "date": "May 13, 2026",
-          "excerpt": "Palo Alto Networks found and fixed 75 flaws this month, up from its usual five"
-        },
-        {
-          "title": "AWS to Quick admins: The access control didn't work, but you weren't using it anyway, so what's the problem?",
-          "link": "https://www.theregister.com/paas-and-iaas/2026/05/13/aws-patched-quick-auth-bypass-says-customers-werent-using-control/5240041",
-          "date": "May 13, 2026",
-          "excerpt": "If a setting fails in the forest and nobody hears it ..."
         }
       ]
     },
