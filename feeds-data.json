@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T21:15:20.741Z",
+  "updatedAt": "2026-05-14T06:40:13.507Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "West Pharmaceutical says hackers stole data, encrypted systems",
+          "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
+          "date": "May 13, 2026",
+          "excerpt": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]"
+        },
+        {
+          "title": "Iranian hackers targeted major South Korean electronics maker",
+          "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
+          "date": "May 13, 2026",
+          "excerpt": "The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten) launched a broad cyber-espionage campaign targeting at least nine high-profile organizations across multiple sectors and count"
+        },
+        {
           "title": "New critical Exim mailer flaw allows remote code execution",
           "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
           "date": "May 13, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
           "date": "May 13, 2026",
           "excerpt": "Tomorrow's webinar examines why prevention alone is no longer enough against modern cyberattacks. The session explores how organizations combine security, backups, and recovery planning to improve cyb"
-        },
-        {
-          "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
-          "date": "May 13, 2026",
-          "excerpt": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security updates. [...]"
-        },
-        {
-          "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
-          "date": "May 13, 2026",
-          "excerpt": "Microsoft has fixed a Windows Autopatch bug that caused driver updates restricted by administrative policies to be deployed on some Autopatch-managed Windows devices in the European Union. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Bug hunter tracks down three massive MCP flaws and one vendor won't fix theirs",
-          "link": "https://www.theregister.com/security/2026/05/13/bug-hunter-tracks-down-three-serious-mcp-database-flaws-one-left-unpatched/5238916",
-          "date": "May 13, 2026",
-          "excerpt": "Apache, Alibaba databases vulnerable and only one has a patch"
+          "title": "AI models are getting better at replacing cybersecurity pros on certain tasks",
+          "link": "https://www.theregister.com/ai-ml/2026/05/14/ai-models-are-getting-better-at-replacing-cybersecurity-pros-on-certain-tasks/5240065",
+          "date": "May 14, 2026",
+          "excerpt": "UK researchers find LLMs are learning to finish jobs faster and improving all the time"
         },
         {
-          "title": "See through local AI lies with Irish eyes",
-          "link": "https://www.theregister.com/ai-ml/2026/05/13/see-through-local-ai-lies-with-irish-eyes/5239911",
-          "date": "May 13, 2026",
-          "excerpt": "ICCL Enforce project offers Verity fact-checking server"
+          "title": "Tencent admits GPUs only pay for themselves when powering personalized ads",
+          "link": "https://www.theregister.com/off-prem/2026/05/14/tencent-admits-gpus-only-pay-for-themselves-when-powering-personalized-ads/5240150",
+          "date": "May 14, 2026",
+          "excerpt": "Chinese web giant says accelerator shortage is over as local hardware arrives in volume"
         },
         {
-          "title": "Dissatisfied: Three-fourths of AI customer service rollouts are a letdown",
-          "link": "https://www.theregister.com/ai-ml/2026/05/13/ai-customer-service-bots-get-rolled-back-at-74-of-firms/5239800",
-          "date": "May 13, 2026",
-          "excerpt": "AI rollback rates hit 81% at firms with mature guardrails, suggesting enterprises are struggling to manage the systems in production, says Sinch"
+          "title": "Cisco to fire 4,000 staff and generously give them free training – on Cisco",
+          "link": "https://www.theregister.com/networks/2026/05/14/cisco-to-fire-4000-staff-and-generously-give-them-free-training-on-cisco/5240125",
+          "date": "May 14, 2026",
+          "excerpt": "Reducing memory requirements to control costs in a new wave of kit"
         },
         {
-          "title": "Utah mega datacenter could dump 23 atomic bombs worth of energy per day",
-          "link": "https://www.theregister.com/on-prem/2026/05/13/utah-mega-datacenter-could-dump-23-atomic-bombs-worth-of-energy-per-day/5239670",
+          "title": "Welcome to the vulnpocalypse, as vendors use AI to find bugs and patches multiply like rabbits",
+          "link": "https://www.theregister.com/patches/2026/05/14/welcome-to-the-vulnpocalypse-as-vendors-use-ai-to-find-bugs-and-patches-multiply-like-rabbits/5240027",
           "date": "May 13, 2026",
-          "excerpt": "Physicist warns proposed Stratos campus could seriously affect local environment"
+          "excerpt": "Palo Alto Networks found and fixed 75 flaws this month, up from its usual five"
         },
         {
-          "title": "Mystery Microsoft bug leaker keeps the zero-days coming",
-          "link": "https://www.theregister.com/security/2026/05/13/disgruntled-researcher-releases-two-more-microsoft-zero-days/5239758",
+          "title": "AWS to Quick admins: The access control didn't work, but you weren't using it anyway, so what's the problem?",
+          "link": "https://www.theregister.com/paas-and-iaas/2026/05/13/aws-patched-quick-auth-bypass-says-customers-werent-using-control/5240041",
           "date": "May 13, 2026",
-          "excerpt": "Security pros warn YellowKey claim could make stolen laptops a much bigger problem"
+          "excerpt": "If a setting fails in the forest and nobody hears it ..."
         }
       ]
     },
