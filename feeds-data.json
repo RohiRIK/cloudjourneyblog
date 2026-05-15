@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T21:02:20.184Z",
+  "updatedAt": "2026-05-15T02:01:02.235Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
+          "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
+          "date": "May 14, 2026",
+          "excerpt": "The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data. [...]"
+        },
+        {
+          "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
+          "date": "May 14, 2026",
+          "excerpt": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. [...]"
+        },
+        {
           "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
           "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
           "date": "May 14, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
           "date": "May 14, 2026",
           "excerpt": "On the first day of Pwn2Own Berlin 2026, security researchers collected $523,000 in cash awards after exploiting 24 unique zero-days. [...]"
-        },
-        {
-          "title": "18-year-old NGINX vulnerability allows DoS, potential RCE",
-          "link": "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/",
-          "date": "May 14, 2026",
-          "excerpt": "An 18-year-old flaw in the NGINX open-source web server, discovered using an autonomous scanning system, can be exploited for denial of service and, under certain conditions, remote code execution. [."
-        },
-        {
-          "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
-          "link": "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
-          "date": "May 14, 2026",
-          "excerpt": "Cargo theft now starts with phishing emails and stolen credentials, not hijackings, to reroute and steal freight from supply chains. NMFTA outlines how cyber-enabled cargo crime is changing transporta"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Cerebras risked it all on dinner plate-sized AI accelerators a decade ago. Today it’s worth $66 billion",
+          "link": "https://www.theregister.com/ai-ml/2026/05/15/cerebras-wafer-scale-ai-bet-delivers-blockbuster-ipo/5240821",
+          "date": "May 14, 2026",
+          "excerpt": "Here's a look at the tech powering the first big IPO of 2026"
+        },
+        {
+          "title": "Nobody believes the 'criminals and scumbags' who hacked Canvas really deleted stolen student data",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/14/security-pros-doubt-canvas-attackers-really-deleted-stolen-student-data/5240799",
+          "date": "May 14, 2026",
+          "excerpt": "Other than Instructure execs - maybe?"
+        },
+        {
+          "title": "Sick and wrong: Ontario auditors find doctors' AI note takers routinely blow basic facts",
+          "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+          "date": "May 14, 2026",
+          "excerpt": "60% of evaluated AI Scribe systems mixed up prescribed drugs in patient notes, auditors say"
+        },
+        {
+          "title": "Anthropic tosses agents into the API billing pool",
+          "link": "https://www.theregister.com/ai-ml/2026/05/14/anthropic-tosses-agents-into-the-api-billing-pool/5240748",
+          "date": "May 14, 2026",
+          "excerpt": "Limits Claude subscriptions to interactive use"
+        },
+        {
           "title": "Grad-to-be turns graduation cap into Rust-powered light show",
           "link": "https://www.theregister.com/offbeat/2026/05/14/grad-to-be-turns-graduation-cap-into-rust-powered-light-show/5240682",
           "date": "May 14, 2026",
           "excerpt": "Eric Park tells us he doesn't plan to wear his modified cap to commencement, but his code's available for anyone with no such qualms and an upcoming ceremony"
-        },
-        {
-          "title": "KDE bags €1.3M as Europe realizes it might need an OS of its own",
-          "link": "https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562",
-          "date": "May 14, 2026",
-          "excerpt": "Germany's Sovereign Tech Fund backs the desktop project while public sector interest in homegrown alternatives grows"
-        },
-        {
-          "title": "Waymo recalls 3,800 robotaxis after one drove itself into a flood",
-          "link": "https://www.theregister.com/ai-ml/2026/05/14/waymo-recalls-3800-cars-over-flooded-roads-software-snafu/5240594",
-          "date": "May 14, 2026",
-          "excerpt": "Nothing like a partly submerged self-driving car to dampen public trust in autonomous vehicles"
-        },
-        {
-          "title": "UK begins antitrust inquiry into Microsoft's business software ecosystem",
-          "link": "https://www.theregister.com/oses/2026/05/14/uk-begins-antitrust-inquiry-into-microsofts-business-software-ecosystem/5240452",
-          "date": "May 14, 2026",
-          "excerpt": "Brit regulator has 'heard' customers can't always 'effectively combine software from Microsoft with that of other providers'"
-        },
-        {
-          "title": "AI to infest eight in ten premium phones within two years",
-          "link": "https://www.theregister.com/personal-tech/2026/05/14/ai-to-infest-eight-in-ten-premium-phones-within-two-years/5240393",
-          "date": "May 14, 2026",
-          "excerpt": "And Counterpoint sees fad spreading from pricey handsets to smart rings and earbuds too... whether you asked for it or not"
         }
       ]
     },
