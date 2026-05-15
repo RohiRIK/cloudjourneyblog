@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-15T02:01:02.235Z",
+  "updatedAt": "2026-05-15T13:26:09.429Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft to automatically roll back faulty Windows drivers",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
+          "date": "May 15, 2026",
+          "excerpt": "Microsoft is introducing a new capability that will allow it to remotely roll back problematic Windows drivers delivered through Windows Update. [...]"
+        },
+        {
+          "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+          "date": "May 15, 2026",
+          "excerpt": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while"
+        },
+        {
           "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
           "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
           "date": "May 14, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
           "date": "May 14, 2026",
           "excerpt": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrat"
-        },
-        {
-          "title": "OpenAI confirms security breach in TanStack supply chain attack",
-          "link": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
-          "date": "May 14, 2026",
-          "excerpt": "OpenAI says two employees' devices were breached in the recent TanStack supply chain attack that impacted hundreds of npm and PyPI packages, causing the company to rotate code-signing certificates for"
-        },
-        {
-          "title": "Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026",
-          "link": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
-          "date": "May 14, 2026",
-          "excerpt": "On the first day of Pwn2Own Berlin 2026, security researchers collected $523,000 in cash awards after exploiting 24 unique zero-days. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Cerebras risked it all on dinner plate-sized AI accelerators a decade ago. Today it’s worth $66 billion",
-          "link": "https://www.theregister.com/ai-ml/2026/05/15/cerebras-wafer-scale-ai-bet-delivers-blockbuster-ipo/5240821",
-          "date": "May 14, 2026",
-          "excerpt": "Here's a look at the tech powering the first big IPO of 2026"
+          "title": "Exploited Exchange Server flaw turns OWA inboxes into script launchpads",
+          "link": "https://www.theregister.com/on-prem/2026/05/15/exploited-exchange-server-flaw-turns-owa-inboxes-into-script-launchpads/5241150",
+          "date": "May 15, 2026",
+          "excerpt": "Microsoft mitigation may bork inline images, calendar printing while admins wait for a proper patch"
         },
         {
-          "title": "Nobody believes the 'criminals and scumbags' who hacked Canvas really deleted stolen student data",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/14/security-pros-doubt-canvas-attackers-really-deleted-stolen-student-data/5240799",
-          "date": "May 14, 2026",
-          "excerpt": "Other than Instructure execs - maybe?"
+          "title": "Patch time for Cisco SD-WAN admins as vendor drops yet another make-me-admin zero-day",
+          "link": "https://www.theregister.com/patches/2026/05/15/cisco-discloses-yet-another-sd-wan-make-me-admin-0-day/5241071",
+          "date": "May 15, 2026",
+          "excerpt": "CISA hands feds super-tight deadline for this perfect-10, actively exploited flaw"
         },
         {
-          "title": "Sick and wrong: Ontario auditors find doctors' AI note takers routinely blow basic facts",
-          "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
-          "date": "May 14, 2026",
-          "excerpt": "60% of evaluated AI Scribe systems mixed up prescribed drugs in patient notes, auditors say"
+          "title": "X tells Ofcom it will finally check its moderation inbox",
+          "link": "https://www.theregister.com/personal-tech/2026/05/15/x-tells-ofcom-it-will-finally-check-its-moderation-inbox/5241120",
+          "date": "May 15, 2026",
+          "excerpt": "Comms watchdog says Musk's social media platform will now review reports of illegal hate and terror content within 24 hours... on average"
         },
         {
-          "title": "Anthropic tosses agents into the API billing pool",
-          "link": "https://www.theregister.com/ai-ml/2026/05/14/anthropic-tosses-agents-into-the-api-billing-pool/5240748",
-          "date": "May 14, 2026",
-          "excerpt": "Limits Claude subscriptions to interactive use"
+          "title": "ZTE showcases at GSMA M360 LATAM 2026, driving future business model restructuring - AI & network two-way integration",
+          "link": "https://www.theregister.com/networks/2026/05/15/zte-showcases-at-gsma-m360-latam-2026-driving-future-business-model-restructuring-ai-network-two-way-integration/5240254",
+          "date": "May 15, 2026",
+          "excerpt": "AI-integrated networks can cut costs, boost 5G efficiency, and help regional telcos shift beyond basic connectivity"
         },
         {
-          "title": "Grad-to-be turns graduation cap into Rust-powered light show",
-          "link": "https://www.theregister.com/offbeat/2026/05/14/grad-to-be-turns-graduation-cap-into-rust-powered-light-show/5240682",
-          "date": "May 14, 2026",
-          "excerpt": "Eric Park tells us he doesn't plan to wear his modified cap to commencement, but his code's available for anyone with no such qualms and an upcoming ceremony"
+          "title": "OpenAI caught in TanStack npm supply chain chaos after employee devices compromised",
+          "link": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
+          "date": "May 15, 2026",
+          "excerpt": "Attackers stole a limited amount of internal credential material after malware hidden in poisoned packages reached two staff machines"
         }
       ]
     },
