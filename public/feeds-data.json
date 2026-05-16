@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T16:43:58.374Z",
+  "updatedAt": "2026-05-16T20:37:40.124Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,12 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "AI-generated code is 'pain waiting to happen'",
+          "link": "https://www.theregister.com/ai-ml/2026/05/16/ai-generated-code-is-pain-waiting-to-happen/5241574",
+          "date": "May 16, 2026",
+          "excerpt": "The boom is piling up technical debt, warns Lightrun's Moshe Sambol"
+        },
+        {
           "title": "Cloud-managed earbuds sound strange - as a concept, and on a plane",
           "link": "https://www.theregister.com/personal-tech/2026/05/16/cloud-managed-earbuds-sound-strange-as-a-concept-and-on-a-plane/5240928",
           "date": "May 16, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/devops/2026/05/15/google-reimburses-register-sources-who-were-victims-of-api-fraud/5241429",
           "date": "May 15, 2026",
           "excerpt": "But it's holding fast on auto-expanding customers' budgets"
-        },
-        {
-          "title": "Datacenters slurping up so much juice they boosted prices 75% in largest US energy market",
-          "link": "https://www.theregister.com/on-prem/2026/05/15/datacenters-slurping-juice-help-drive-75-jump-in-pjm-power-prices/5241491",
-          "date": "May 15, 2026",
-          "excerpt": "BYO power for AI bit barns may be the best way to ease the problem, says energy watchdog"
         }
       ]
     },
