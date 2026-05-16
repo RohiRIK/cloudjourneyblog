@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T09:20:16.697Z",
+  "updatedAt": "2026-05-16T16:43:58.374Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
+          "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
+          "date": "May 16, 2026",
+          "excerpt": "The Russian hacker group Secret Blizzard has developed its long-running Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-term persistence, stealth, and data collection. [...]"
+        },
+        {
           "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
           "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
           "date": "May 15, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
           "date": "May 15, 2026",
           "excerpt": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary files and extract sensitive information from the data"
-        },
-        {
-          "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
-          "date": "May 15, 2026",
-          "excerpt": "Microsoft is updating the Edge web browser to ensure it no longer loads saved passwords into process memory in clear text at startup after previously stating it was \"by design.\" [...]"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Cloud-managed earbuds sound strange - as a concept, and on a plane",
+          "link": "https://www.theregister.com/personal-tech/2026/05/16/cloud-managed-earbuds-sound-strange-as-a-concept-and-on-a-plane/5240928",
+          "date": "May 16, 2026",
+          "excerpt": "The Register tests Dell’s first attempt at outplaying Apple’s AirPods"
+        },
+        {
+          "title": "Europe built sovereign clouds to escape US control. Then forgot about the processors",
+          "link": "https://www.theregister.com/systems/2026/05/16/europe-built-sovereign-clouds-to-escape-us-control-then-forgot-about-the-processors/5237735",
+          "date": "May 16, 2026",
+          "excerpt": "Intel ME and AMD PSP: The silicon layer nobody certifies"
+        },
         {
           "title": "One in seven Brits swapped their GP for ChatGPT, study finds",
           "link": "https://www.theregister.com/ai-ml/2026/05/16/one-in-seven-brits-swapped-their-gp-for-chatgpt-study-finds/5240514",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/on-prem/2026/05/15/datacenters-slurping-juice-help-drive-75-jump-in-pjm-power-prices/5241491",
           "date": "May 15, 2026",
           "excerpt": "BYO power for AI bit barns may be the best way to ease the problem, says energy watchdog"
-        },
-        {
-          "title": "Git is unprepared for the AI coding tsunami",
-          "link": "https://www.theregister.com/devops/2026/05/15/git-is-unprepared-for-the-ai-coding-tsunami/5241480",
-          "date": "May 15, 2026",
-          "excerpt": "An influx of agents is pushing GitHub to the brink"
-        },
-        {
-          "title": "AI agents show they can create exploits, not just find vulns",
-          "link": "https://www.theregister.com/ai-ml/2026/05/15/ai-agents-show-they-can-create-exploits-not-just-find-vulns/5241453",
-          "date": "May 15, 2026",
-          "excerpt": "Mythos and GPT-5.5 muscle out the competition"
         }
       ]
     },
