@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-15T13:26:09.429Z",
+  "updatedAt": "2026-05-16T09:20:16.697Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Microsoft to automatically roll back faulty Windows drivers",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
+          "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
+          "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
           "date": "May 15, 2026",
-          "excerpt": "Microsoft is introducing a new capability that will allow it to remotely roll back problematic Windows drivers delivered through Windows Update. [...]"
+          "excerpt": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]"
         },
         {
-          "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+          "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+          "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
           "date": "May 15, 2026",
-          "excerpt": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while"
+          "excerpt": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft E"
         },
         {
-          "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
-          "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-          "date": "May 14, 2026",
-          "excerpt": "The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data. [...]"
+          "title": "Popular node-ipc npm package compromised to steal credentials",
+          "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+          "date": "May 15, 2026",
+          "excerpt": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]"
         },
         {
-          "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
-          "date": "May 14, 2026",
-          "excerpt": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. [...]"
+          "title": "Avada Builder WordPress plugin flaws allow site credential theft",
+          "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
+          "date": "May 15, 2026",
+          "excerpt": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary files and extract sensitive information from the data"
         },
         {
-          "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
-          "date": "May 14, 2026",
-          "excerpt": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrat"
+          "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
+          "date": "May 15, 2026",
+          "excerpt": "Microsoft is updating the Edge web browser to ensure it no longer loads saved passwords into process memory in clear text at startup after previously stating it was \"by design.\" [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Exploited Exchange Server flaw turns OWA inboxes into script launchpads",
-          "link": "https://www.theregister.com/on-prem/2026/05/15/exploited-exchange-server-flaw-turns-owa-inboxes-into-script-launchpads/5241150",
-          "date": "May 15, 2026",
-          "excerpt": "Microsoft mitigation may bork inline images, calendar printing while admins wait for a proper patch"
+          "title": "One in seven Brits swapped their GP for ChatGPT, study finds",
+          "link": "https://www.theregister.com/ai-ml/2026/05/16/one-in-seven-brits-swapped-their-gp-for-chatgpt-study-finds/5240514",
+          "date": "May 16, 2026",
+          "excerpt": "Patients are using chatbots for medical advice, while the NHS is still debating where AI belongs"
         },
         {
-          "title": "Patch time for Cisco SD-WAN admins as vendor drops yet another make-me-admin zero-day",
-          "link": "https://www.theregister.com/patches/2026/05/15/cisco-discloses-yet-another-sd-wan-make-me-admin-0-day/5241071",
+          "title": "Google reimburses Register sources who were victims of API fraud",
+          "link": "https://www.theregister.com/devops/2026/05/15/google-reimburses-register-sources-who-were-victims-of-api-fraud/5241429",
           "date": "May 15, 2026",
-          "excerpt": "CISA hands feds super-tight deadline for this perfect-10, actively exploited flaw"
+          "excerpt": "But it's holding fast on auto-expanding customers' budgets"
         },
         {
-          "title": "X tells Ofcom it will finally check its moderation inbox",
-          "link": "https://www.theregister.com/personal-tech/2026/05/15/x-tells-ofcom-it-will-finally-check-its-moderation-inbox/5241120",
+          "title": "Datacenters slurping up so much juice they boosted prices 75% in largest US energy market",
+          "link": "https://www.theregister.com/on-prem/2026/05/15/datacenters-slurping-juice-help-drive-75-jump-in-pjm-power-prices/5241491",
           "date": "May 15, 2026",
-          "excerpt": "Comms watchdog says Musk's social media platform will now review reports of illegal hate and terror content within 24 hours... on average"
+          "excerpt": "BYO power for AI bit barns may be the best way to ease the problem, says energy watchdog"
         },
         {
-          "title": "ZTE showcases at GSMA M360 LATAM 2026, driving future business model restructuring - AI & network two-way integration",
-          "link": "https://www.theregister.com/networks/2026/05/15/zte-showcases-at-gsma-m360-latam-2026-driving-future-business-model-restructuring-ai-network-two-way-integration/5240254",
+          "title": "Git is unprepared for the AI coding tsunami",
+          "link": "https://www.theregister.com/devops/2026/05/15/git-is-unprepared-for-the-ai-coding-tsunami/5241480",
           "date": "May 15, 2026",
-          "excerpt": "AI-integrated networks can cut costs, boost 5G efficiency, and help regional telcos shift beyond basic connectivity"
+          "excerpt": "An influx of agents is pushing GitHub to the brink"
         },
         {
-          "title": "OpenAI caught in TanStack npm supply chain chaos after employee devices compromised",
-          "link": "https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019",
+          "title": "AI agents show they can create exploits, not just find vulns",
+          "link": "https://www.theregister.com/ai-ml/2026/05/15/ai-agents-show-they-can-create-exploits-not-just-find-vulns/5241453",
           "date": "May 15, 2026",
-          "excerpt": "Attackers stole a limited amount of internal credential material after malware hidden in poisoned packages reached two staff machines"
+          "excerpt": "Mythos and GPT-5.5 muscle out the competition"
         }
       ]
     },
