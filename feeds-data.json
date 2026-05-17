@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T20:37:40.124Z",
+  "updatedAt": "2026-05-17T12:53:35.022Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
+          "link": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
+          "date": "May 16, 2026",
+          "excerpt": "A security researcher claims Microsoft quietly fixed an Azure Backup for AKS vulnerability after rejecting his report, and without issuing a CVE. Microsoft disputes the claim, telling BleepingComputer"
+        },
+        {
           "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
           "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
           "date": "May 16, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
           "date": "May 15, 2026",
           "excerpt": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]"
-        },
-        {
-          "title": "Avada Builder WordPress plugin flaws allow site credential theft",
-          "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
-          "date": "May 15, 2026",
-          "excerpt": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary files and extract sensitive information from the data"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Classic 7 is Windows 10 LTSC cosplaying as Windows 7",
+          "link": "https://www.theregister.com/oses/2026/05/17/classic-7-is-windows-10-ltsc-cosplaying-as-windows-7/5241291",
+          "date": "May 17, 2026",
+          "excerpt": "Uncanny rebuild resurrects the 2009 desktop, complete with support, updates, and licensing questions"
+        },
+        {
+          "title": "Wanted: Digital chief for England's schools. Must enjoy data, AI, and concrete problems",
+          "link": "https://www.theregister.com/public-sector/2026/05/17/wanted-digital-chief-for-englands-schools-must-enjoy-data-ai-and-concrete-problems/5240242",
+          "date": "May 17, 2026",
+          "excerpt": "Are you ready to RAAC?"
+        },
         {
           "title": "AI-generated code is 'pain waiting to happen'",
           "link": "https://www.theregister.com/ai-ml/2026/05/16/ai-generated-code-is-pain-waiting-to-happen/5241574",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/systems/2026/05/16/europe-built-sovereign-clouds-to-escape-us-control-then-forgot-about-the-processors/5237735",
           "date": "May 16, 2026",
           "excerpt": "Intel ME and AMD PSP: The silicon layer nobody certifies"
-        },
-        {
-          "title": "One in seven Brits swapped their GP for ChatGPT, study finds",
-          "link": "https://www.theregister.com/ai-ml/2026/05/16/one-in-seven-brits-swapped-their-gp-for-chatgpt-study-finds/5240514",
-          "date": "May 16, 2026",
-          "excerpt": "Patients are using chatbots for medical advice, while the NHS is still debating where AI belongs"
-        },
-        {
-          "title": "Google reimburses Register sources who were victims of API fraud",
-          "link": "https://www.theregister.com/devops/2026/05/15/google-reimburses-register-sources-who-were-victims-of-api-fraud/5241429",
-          "date": "May 15, 2026",
-          "excerpt": "But it's holding fast on auto-expanding customers' budgets"
         }
       ]
     },
