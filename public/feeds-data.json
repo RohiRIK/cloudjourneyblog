@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T10:52:52.804Z",
+  "updatedAt": "2026-05-19T14:32:52.560Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
-          "link": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
-          "date": "May 18, 2026",
-          "excerpt": "More than 200 individuals were arrested for cybercrime activities during INTERPOL's Operation Ramz, which focused on the Middle East and North Africa. [...]"
+          "title": "New Shai-Hulud malware wave compromises 600 npm packages",
+          "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
+          "date": "May 19, 2026",
+          "excerpt": "Threat actors earlier today published more than 600 malicious packages to the Node Package Manager (npm) index as part of a new Shai-Hulud supply-chain campaign. [...]"
         },
         {
-          "title": "SHub macOS infostealer variant spoofs Apple security updates",
-          "link": "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
-          "date": "May 18, 2026",
-          "excerpt": "A new variant of the 'SHub' macOS infostealer uses AppleScript to show a fake security update message and installs a backdoor. [...]"
+          "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
+          "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+          "date": "May 19, 2026",
+          "excerpt": "Convenience store chain giant 7-Eleven confirmed that its systems were breached in a cyberattack claimed by the ShinyHunters extortion group last month. [...]"
         },
         {
-          "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
-          "link": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
-          "date": "May 18, 2026",
-          "excerpt": "Many employees already use shadow AI tools at work without security review. Adaptive Security breaks down how teams can build practical AI governance without adding friction for employees. [...]"
+          "title": "Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation",
+          "link": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
+          "date": "May 19, 2026",
+          "excerpt": "Microsoft's total vulnerability count stayed steady in 2025, but critical flaws surged year over year. BeyondTrust breaks down why attackers are increasingly focused on privilege escalation and identi"
         },
         {
-          "title": "Leaked Shai-Hulud malware fuels new npm infostealer campaign",
-          "link": "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
-          "date": "May 18, 2026",
-          "excerpt": "The Shai-Hulud malware leaked last week is now used in new attacks on the Node Package Manager (npm) index, as infected packages emerged over the weekend. [...]"
+          "title": "Webinar: The hidden bottlenecks in network incident response",
+          "link": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
+          "date": "May 19, 2026",
+          "excerpt": "IT teams are increasingly overwhelmed by alerts from disconnected systems, forcing responders to manually coordinate investigations during network incidents. This webinar explores how automation and A"
         },
         {
-          "title": "Grafana says stolen GitHub token let hackers steal codebase",
-          "link": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
-          "date": "May 18, 2026",
-          "excerpt": "Grafana Labs disclosed that hackers have downloaded its source code after breaching its GitHub environment using a stolen access token. [...]"
+          "title": "Microsoft confirms patching issues in restricted Windows networks",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/",
+          "date": "May 19, 2026",
+          "excerpt": "Microsoft says customers in restricted network environments may encounter Windows Update failures after installing the January 2026 optional non-security preview updates. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "UK Typhoon jets fitted with bargain-bin drone busters for Middle East sorties",
-          "link": "https://www.theregister.com/offbeat/2026/05/19/uk-typhoon-jets-fitted-with-bargain-bin-drone-busters-for-middle-east-sorties/5242412",
+          "title": "X limits hot takes from freeloaders to 50 a day",
+          "link": "https://www.theregister.com/personal-tech/2026/05/19/x-limits-hot-takes-from-freeloaders-to-50-a-day/5242657",
           "date": "May 19, 2026",
-          "excerpt": "Low-cost laser-guided rockets offer cheaper way to swat Shahed-style threats than firing pricey air-to-air missiles"
+          "excerpt": "How will they manage? It's not like anyone can see their posts anyway"
         },
         {
-          "title": "SAP's AI strategy: Come for the openness, stay because you have to",
-          "link": "https://www.theregister.com/saas/2026/05/19/saps-ai-strategy-come-for-the-openness-stay-because-you-have-to/5241109",
+          "title": "Shai-Hulud keeps burrowing: 314 npm packages infected after another account compromise",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/19/shai-hulud-keeps-burrowing-314-npm-packages-infected-after-another-account-compromise/5242601",
           "date": "May 19, 2026",
-          "excerpt": "Joule Studio 2.0 waves the flag of interoperability, API policy tells enterprises who's really in charge"
+          "excerpt": "Popular JavaScript modules including size-sensor and echarts-for-react hit as hijacked account closed GitHub warnings"
         },
         {
-          "title": "ZTE Showcases AI Interactive Flat Panel at the Broadband User Congress in Brazil",
-          "link": "https://www.theregister.com/systems/2026/05/19/zte-showcases-ai-interactive-flat-panel-at-the-broadband-user-congress-in-brazil/5242492",
+          "title": "Broadcom finds a VMware customer willing to stick around: London Stock Exchange",
+          "link": "https://www.theregister.com/off-prem/2026/05/19/broadcom-finds-a-vmware-customer-willing-to-stick-around-london-stock-exchange/5242543",
           "date": "May 19, 2026",
-          "excerpt": "AI interactive flat panel aimed at offices, elder care, and classrooms with built-in conferencing, automation, and monitoring features unveiled"
+          "excerpt": "LSEG signs up for five more years of Cloud Foundation, but keeps quiet on how much it'll cost"
         },
         {
-          "title": "Windows Firewall stands between you and greasy delight",
-          "link": "https://www.theregister.com/oses/2026/05/19/windows-firewall-stands-between-you-and-greasy-delight/5241050",
+          "title": "Indra rides off with £1.96B Transport for London ticketing deal as Oyster heads for back-office overhaul",
+          "link": "https://www.theregister.com/public-sector/2026/05/19/indra-rides-off-with-196b-transport-for-london-ticketing-deal-as-oyster-heads-for-back-office-overhaul/5242520",
           "date": "May 19, 2026",
-          "excerpt": "You don't really want that entering your system, do you?"
+          "excerpt": "Nothing says 'future of urban transit' like a defense contractor running your bus, tube, and train pass"
         },
         {
-          "title": "The class of 2026 has heard enough about AI, thanks",
-          "link": "https://www.theregister.com/ai-ml/2026/05/19/the-class-of-2026-has-heard-enough-about-ai-thanks/5242080",
+          "title": "Crook leaks 468k+ records, claims they pwned Portugal’s postal carrier",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/19/468k-records-allegedly-stolen-from-portugals-postal-carrier/5242457",
           "date": "May 19, 2026",
-          "excerpt": "From campus ceremonies to Linux communities and academic journals, resistance to LLM evangelism is getting louder"
+          "excerpt": "Ordered packages via CTT? Those phishing emails could be tricky to spot"
         }
       ]
     },
