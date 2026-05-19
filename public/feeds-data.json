@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-19T14:32:52.560Z",
+  "updatedAt": "2026-05-19T17:56:23.391Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Exposing Fox Tempest: A malware-signing service operation",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
+          "date": "May 19, 2026",
+          "excerpt": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distr"
+        },
         {
           "title": "How Storm-2949 turned a compromised identity into a cloud-wide breach",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
           "date": "May 14, 2026",
           "excerpt": "Kazuar, a sophisticated malware family attributed to the Russian state actor Secret Blizzard, has been under constant development for years and continues to evolve in support of espionage-focused oper"
-        },
-        {
-          "title": "When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/",
-          "date": "May 14, 2026",
-          "excerpt": "Exposed UIs, weak authentication, and risky defaults could turn cloud-native AI apps on Kubernetes into potential targets by threat actors. Learn how exploitable misconfigurations lead to RCE and data"
         }
       ]
     },
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft plans to improve Windows 11 driver quality in 2026",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-plans-to-improve-windows-11-driver-quality-in-2026/",
+          "date": "May 19, 2026",
+          "excerpt": "Microsoft plans to raise the quality bar of Windows 11 drivers, as drivers \"sit at the heart of every Windows experience\" and connect the OS to the \"silicon, components, and peripherals.\" [...]"
+        },
+        {
+          "title": "Microsoft blames macOS update for undismissible Teams location prompts",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-undismissible-teams-location-prompts-on-macos-update/",
+          "date": "May 19, 2026",
+          "excerpt": "Microsoft has confirmed user reports that the Teams team collaboration app is displaying non-dismissible location prompts on some macOS systems. [...]"
+        },
+        {
           "title": "New Shai-Hulud malware wave compromises 600 npm packages",
           "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
           "date": "May 19, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
           "date": "May 19, 2026",
           "excerpt": "Microsoft's total vulnerability count stayed steady in 2025, but critical flaws surged year over year. BeyondTrust breaks down why attackers are increasingly focused on privilege escalation and identi"
-        },
-        {
-          "title": "Webinar: The hidden bottlenecks in network incident response",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
-          "date": "May 19, 2026",
-          "excerpt": "IT teams are increasingly overwhelmed by alerts from disconnected systems, forcing responders to manually coordinate investigations during network incidents. This webinar explores how automation and A"
-        },
-        {
-          "title": "Microsoft confirms patching issues in restricted Windows networks",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/",
-          "date": "May 19, 2026",
-          "excerpt": "Microsoft says customers in restricted network environments may encounter Windows Update failures after installing the January 2026 optional non-security preview updates. [...]"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Airbus gets HPC-as-a-service supercomputer from Bull",
+          "link": "https://www.theregister.com/hpc/2026/05/19/airbus-gets-hpc-as-a-service-supercomputer-from-bull/5242756",
+          "date": "May 19, 2026",
+          "excerpt": "Aerospace giant rents new system over 5 years to help develop new aircraft"
+        },
+        {
+          "title": "SAP customers warned AI agents could put costs on autopilot",
+          "link": "https://www.theregister.com/saas/2026/05/19/sap-customers-warned-ai-agents-could-put-costs-on-autopilot/5242646",
+          "date": "May 19, 2026",
+          "excerpt": "Billing will be based on 'actions,' whatever those are, leaving enterprises to wonder how fast the meter might run"
+        },
+        {
+          "title": "Microsoft refreshes Surface for Business lineup, starts AI PC upsell at $1,499",
+          "link": "https://www.theregister.com/ai-ml/2026/05/19/microsoft-refreshes-surface-for-business-lineup-starts-ai-pc-upsell-at-1499/5242697",
+          "date": "May 19, 2026",
+          "excerpt": "Latest hardware adds Intel’s newest AI-focused processors as Redmond continues pushing enterprises toward Copilot+ PCs"
+        },
         {
           "title": "X limits hot takes from freeloaders to 50 a day",
           "link": "https://www.theregister.com/personal-tech/2026/05/19/x-limits-hot-takes-from-freeloaders-to-50-a-day/5242657",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/cyber-crime/2026/05/19/shai-hulud-keeps-burrowing-314-npm-packages-infected-after-another-account-compromise/5242601",
           "date": "May 19, 2026",
           "excerpt": "Popular JavaScript modules including size-sensor and echarts-for-react hit as hijacked account closed GitHub warnings"
-        },
-        {
-          "title": "Broadcom finds a VMware customer willing to stick around: London Stock Exchange",
-          "link": "https://www.theregister.com/off-prem/2026/05/19/broadcom-finds-a-vmware-customer-willing-to-stick-around-london-stock-exchange/5242543",
-          "date": "May 19, 2026",
-          "excerpt": "LSEG signs up for five more years of Cloud Foundation, but keeps quiet on how much it'll cost"
-        },
-        {
-          "title": "Indra rides off with £1.96B Transport for London ticketing deal as Oyster heads for back-office overhaul",
-          "link": "https://www.theregister.com/public-sector/2026/05/19/indra-rides-off-with-196b-transport-for-london-ticketing-deal-as-oyster-heads-for-back-office-overhaul/5242520",
-          "date": "May 19, 2026",
-          "excerpt": "Nothing says 'future of urban transit' like a defense contractor running your bus, tube, and train pass"
-        },
-        {
-          "title": "Crook leaks 468k+ records, claims they pwned Portugal’s postal carrier",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/19/468k-records-allegedly-stolen-from-portugals-postal-carrier/5242457",
-          "date": "May 19, 2026",
-          "excerpt": "Ordered packages via CTT? Those phishing emails could be tricky to spot"
         }
       ]
     },
