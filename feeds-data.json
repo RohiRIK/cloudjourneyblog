@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T21:11:13.473Z",
+  "updatedAt": "2026-05-20T10:41:16.774Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Discord rolls out end-to-end encryption on voice, video calls",
-          "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
-          "date": "May 19, 2026",
-          "excerpt": "Discord announced that all voice and video calls through the communication platform are now protected by default with end-to-end encryption (E2EE). [...]"
+          "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+          "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+          "date": "May 20, 2026",
+          "excerpt": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension. [...]"
         },
         {
-          "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
-          "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
-          "date": "May 19, 2026",
-          "excerpt": "The FBI says Americans have lost over $388 million last year to scams using cryptocurrency kiosks, also known as crypto ATMs or Bitcoin ATMs. [...]"
+          "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
+          "date": "May 20, 2026",
+          "excerpt": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. [...]"
         },
         {
-          "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
-          "date": "May 19, 2026",
-          "excerpt": "A threat actor targeting Microsoft 365 and Azure production environments is stealing data in attacks that abuse legitimate applications and administration features. [...]"
+          "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
+          "link": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
+          "date": "May 20, 2026",
+          "excerpt": "GitHub is investigating a breach of its internal repositories after the TeamPCP hacker group claimed to have accessed approximately 4,000 repositories containing private code. [...]"
         },
         {
-          "title": "Microsoft plans to improve Windows 11 driver quality in 2026",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-plans-to-improve-windows-11-driver-quality-in-2026/",
+          "title": "Max-severity flaw in ChromaDB for AI apps allows server hijacking",
+          "link": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
           "date": "May 19, 2026",
-          "excerpt": "Microsoft plans to raise the quality bar of Windows 11 drivers, as drivers \"sit at the heart of every Windows experience\" and connect the OS to the \"silicon, components, and peripherals.\" [...]"
+          "excerpt": "A max-severity vulnerability in the latest Python FastAPI version of the ChromaDB project allows unauthenticated attackers to run arbitrary code on exposed servers. [...]"
         },
         {
-          "title": "Microsoft blames macOS update for undismissible Teams location prompts",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-undismissible-teams-location-prompts-on-macos-update/",
+          "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
+          "link": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
           "date": "May 19, 2026",
-          "excerpt": "Microsoft has confirmed user reports that the Teams team collaboration app is displaying non-dismissible location prompts on some macOS systems. [...]"
+          "excerpt": "Microsoft says it has disrupted a malware-signing-as-a-service (MSaaS) operation that abused the company's Artifact Signing service to generate fraudulent code-signing certificates used by ransomware "
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Firefox 151 helps you edit PDFs – and switch OSes",
-          "link": "https://www.theregister.com/software/2026/05/19/firefox-151-helps-you-edit-pdfs-and-switch-oses/5242888",
-          "date": "May 19, 2026",
-          "excerpt": "Export a profile on Windows, restore it on Linux. Extensions and themes too"
+          "title": "Smaller suppliers invited to pitch for £2.9B UK defense tech framework",
+          "link": "https://www.theregister.com/public-sector/2026/05/20/smaller-suppliers-invited-to-pitch-for-29b-uk-defense-tech-framework/5243217",
+          "date": "May 20, 2026",
+          "excerpt": "Government Commercial Agency wants DIPS 2 to reach beyond MoD buyers and the usual big-name suppliers"
         },
         {
-          "title": "America's top cyber-defense agency left a GitHub repo open with with passwords, keys, tokens – and incredibly obvious filenames",
-          "link": "https://www.theregister.com/security/2026/05/19/americas-top-cyber-defense-agency-left-a-github-repo-open-with-with-passwords-keys-tokens-and-incredibly-obvious-filenames/5242915",
-          "date": "May 19, 2026",
-          "excerpt": "I wonder what's in 'external-secret-repo-creds.yaml' and 'AWS-Workspace-Firefox-Passwords.csv'?"
+          "title": "PostgreSQL backup tool gets some backup of its own after sole maintainer sounds alarm",
+          "link": "https://www.theregister.com/databases/2026/05/20/postgresql-backup-tool-gets-some-backup-of-its-own-after-sole-maintainer-sounds-alarm/5242822",
+          "date": "May 20, 2026",
+          "excerpt": "AWS, Percona, Supabase, pgEdge, and Tiger Data rally round pgBackRest with funding pledge"
         },
         {
-          "title": "Shadow AI invades the workplace, up 4x in the last year",
-          "link": "https://www.theregister.com/ai-ml/2026/05/19/shadow-ai-surges-in-the-workplace/5242868",
-          "date": "May 19, 2026",
-          "excerpt": "Employers increasingly blind to unauthorized AI use and where their staff are sending proprietary files"
+          "title": "London's police asked Big Tech for comms data over 700,000 times last year",
+          "link": "https://www.theregister.com/databases/2026/05/20/londons-police-asked-big-tech-for-comms-data-over-700000-times-last-year/5242590",
+          "date": "May 20, 2026",
+          "excerpt": "A Freedom of Information Act request shows the extent of the surveillance"
         },
         {
-          "title": "Airbus gets HPC-as-a-service supercomputer from Bull",
-          "link": "https://www.theregister.com/hpc/2026/05/19/airbus-gets-hpc-as-a-service-supercomputer-from-bull/5242756",
-          "date": "May 19, 2026",
-          "excerpt": "Aerospace giant rents new system over 5 years to help develop new aircraft"
+          "title": "ZTE releases Sustainability Report 2025: driving a new chapter in sustainable development through AI",
+          "link": "https://www.theregister.com/networks/2026/05/20/zte-releases-sustainability-report-2025-driving-a-new-chapter-in-sustainable-development-through-ai/5243185",
+          "date": "May 20, 2026",
+          "excerpt": "Through its \"All in AI, AI for All\" vision, ZTE surpasses climate targets, bridges the global digital divide, and strengthens governance resilience"
         },
         {
-          "title": "Clear your calendar, Drupal user: You have a critically urgent patch to install",
-          "link": "https://www.theregister.com/security/2026/05/19/drupal-warns-admins-to-brace-for-highly-critical-core-patch/5242728",
-          "date": "May 19, 2026",
-          "excerpt": "The org’s staying mum on the details, but Wednesday’s fixes reach back to unsupported 8.9 branches"
+          "title": "Space factories edge closer after experimental capsule survives hypersonic landing",
+          "link": "https://www.theregister.com/science/2026/05/20/space-factories-edge-closer-after-experimental-capsule-survives-hypersonic-landing/5243140",
+          "date": "May 20, 2026",
+          "excerpt": "Varda hails success of autonomous touchdown tech and celebrates heat data haul"
         }
       ]
     },
