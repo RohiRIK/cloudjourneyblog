@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-21T02:05:27.816Z",
+  "updatedAt": "2026-05-21T17:50:02.713Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "What’s new in Microsoft Security: May 2026",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/",
+          "date": "May 21, 2026",
+          "excerpt": "Microsoft Security’s latest updates extend visibility, control, and protection across expanding ecosystems as organizations accelerate AI adoption. The post What’s new in Microsoft Security: May 2026 "
+        },
         {
           "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
           "date": "May 19, 2026",
           "excerpt": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distr"
-        },
-        {
-          "title": "How Storm-2949 turned a compromised identity into a cloud-wide breach",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
-          "date": "May 18, 2026",
-          "excerpt": "Storm-2949 turned stolen credentials into a cloud-wide breach, moving from identity compromise to large-scale data theft without using malware. This incident shows how threat actors can exploit truste"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
-          "link": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
-          "date": "May 20, 2026",
-          "excerpt": "The Ukrainian cyberpolice, working in conjunction with U.S. law enforcement, has identified an 18-year-old man from Odesa suspected of running an infostealer malware operation targeting users of an on"
+          "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
+          "link": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
+          "date": "May 21, 2026",
+          "excerpt": "Apple revealed that it blocked over $11 billion in fraudulent App Store transactions over the last six years, more than $2.2 billion in potentially fraudulent App Store transactions in 2025 alone. [.."
         },
         {
-          "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
-          "date": "May 20, 2026",
-          "excerpt": "Threat actors brute-forced VPN credentials and bypassed multi-factor authentication (MFA) on SonicWall Gen6 SSL-VPN appliances to deploy tools used in ransomware attacks. [...]"
+          "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
+          "link": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
+          "date": "May 21, 2026",
+          "excerpt": "Modern crypto drainers don't hack wallets. They trick users into approving malicious transactions. Flare explores how the Lucifer DaaS platform scales wallet theft through phishing and automation. [.."
         },
         {
-          "title": "Grafana breach caused by missed token rotation after TanStack attack",
-          "link": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
-          "date": "May 20, 2026",
-          "excerpt": "The Grafana data breach was caused by a single GitHub workflow token that slipped through the rotation process following the TanStack npm supply-chain attack last week. [...]"
+          "title": "Chinese hackers target telcos with new Linux, Windows malware",
+          "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
+          "date": "May 21, 2026",
+          "excerpt": "A Chinese cyber-espionage campaign has been targeting telecommunications providers with newly discovered Linux and Windows malware dubbed Showboat and JFMBackdoor, respectively. [...]"
         },
         {
-          "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
-          "link": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
-          "date": "May 20, 2026",
-          "excerpt": "Identity checks alone can't stop attackers using stolen session tokens and compromised devices. Specops Software outlines why Zero Trust strategies increasingly depend on continuous device verificatio"
+          "title": "Max severity Cisco Secure Workload flaw gives Site Admin privileges",
+          "link": "https://www.bleepingcomputer.com/news/security/cisco-max-severity-secure-workload-flaw-gives-hackers-site-admin-privileges/",
+          "date": "May 21, 2026",
+          "excerpt": "Cisco has released security updates to address a maximum-severity vulnerability in Secure Workload that allows attackers to gain Site Admin privileges. [...]"
         },
         {
-          "title": "Drupal critical update to fix bug with high exploitation risk",
-          "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
-          "date": "May 20, 2026",
-          "excerpt": "Drupal has announced a \"core security release\" scheduled for later today, warning that threat actors might develop exploits within hours of the update disclosure. [...]"
+          "title": "Police seize “First VPN” service used in ransomware, data theft attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
+          "date": "May 21, 2026",
+          "excerpt": "A virtual private network service called 'First VPN,' used in ransomware and data theft attacks, has been taken offline in a joint international law enforcement operation. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Nvidia on track to be worlds leading CPU supplier claims CFO",
-          "link": "https://www.theregister.com/systems/2026/05/21/nvidia-on-track-to-be-worlds-leading-cpu-supplier-claims-cfo/5243868",
+          "title": "Flipper One wants to be the Linux multi-tool in your pocket",
+          "link": "https://www.theregister.com/personal-tech/2026/05/21/flipper-one-wants-to-be-the-linux-multi-tool-in-your-pocket/5244165",
           "date": "May 21, 2026",
-          "excerpt": "GPUzilla forecasts $20 billion in CPU revenues this year"
+          "excerpt": "Not a Zero successor, ARM box aims for openness, but shipping remains the hard part"
         },
         {
-          "title": "AMD says its $4K Ryzen AI Halo workstation practically pays for itself",
-          "link": "https://www.theregister.com/systems/2026/05/21/amd-says-its-4k-ryzen-ai-halo-workstation-practically-pays-for-itself/5243755",
+          "title": "Web devs sleeping with the enemy: AI is doing their job and they worry it's after their desk too",
+          "link": "https://www.theregister.com/devops/2026/05/21/web-devs-sleeping-with-the-enemy-ai-is-doing-their-job-and-they-worry-its-after-their-desk-too/5244132",
           "date": "May 21, 2026",
-          "excerpt": "AMD says its $4K Ryzen AI Halo workstation practically pays for itself"
+          "excerpt": "Most software engineers now use AI for most of their code and fear the existential threat"
         },
         {
-          "title": "Intuit axes 3,000 – without blaming AI",
-          "link": "https://www.theregister.com/saas/2026/05/21/intuit-axes-3000-without-blaming-ai/5243807",
-          "date": "May 20, 2026",
-          "excerpt": "'Margin expansion' and a 'faster, leaner' company are CEO Sasan Goodarzi's goals"
+          "title": "AWS parades orgs that took up its offer for Euro Sovereign Cloud",
+          "link": "https://www.theregister.com/paas-and-iaas/2026/05/21/aws-parades-orgs-that-took-up-its-offer-for-euro-sovereign-cloud/5244197",
+          "date": "May 21, 2026",
+          "excerpt": "Customers want their data kept and processed strictly within the EU"
         },
         {
-          "title": "AI code accelerates production failures and spending, study finds",
-          "link": "https://www.theregister.com/ai-ml/2026/05/20/ai-code-boom-drives-production-failures-higher-spending/5243787",
-          "date": "May 20, 2026",
-          "excerpt": "CloudBees survey exposes verification gap"
+          "title": "Years after UK Post Office scandal broke, Accenture and OneView Commerce bag contract to replace Horizon",
+          "link": "https://www.theregister.com/paas-and-iaas/2026/05/21/years-after-uk-post-office-scandal-broke-accenture-and-oneview-commerce-bag-contract-to-replace-horizon/5244243",
+          "date": "May 21, 2026",
+          "excerpt": "Service tries to move on from troubled decades of Fujitsu relationship with £410 million in deals for system that hurt so many"
         },
         {
-          "title": "Even Claude agrees: hole in its sandbox was real and dangerous",
-          "link": "https://www.theregister.com/security/2026/05/20/even-claude-agrees-hole-in-its-sandbox-was-real-and-dangerous/5243662",
-          "date": "May 20, 2026",
-          "excerpt": "Another day, another AI bug silently fixed with no CVE and no public disclosure"
+          "title": "Gemini accused of 30,000-line code purge and fake recovery report",
+          "link": "https://www.theregister.com/ai-ml/2026/05/21/gemini-accused-of-30000-line-code-purge-and-fake-recovery-report/5244219",
+          "date": "May 21, 2026",
+          "excerpt": "Developer: AI coding agent broke production and generated fictitious post-mortem paperwork after the rollback"
         }
       ]
     },
