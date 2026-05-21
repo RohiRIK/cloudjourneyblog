@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-20T18:09:28.353Z",
+  "updatedAt": "2026-05-21T02:05:27.816Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
+          "date": "May 20, 2026",
+          "excerpt": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials acros"
+        },
         {
           "title": "Securing the gaming culture of cultures",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/securing-the-gaming-culture-of-cultures/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
           "date": "May 18, 2026",
           "excerpt": "Storm-2949 turned stolen credentials into a cloud-wide breach, moving from identity compromise to large-scale data theft without using malware. This incident shows how threat actors can exploit truste"
-        },
-        {
-          "title": "How to better protect your growing business in an AI-powered world",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/how-to-better-protect-your-growing-business-in-an-ai-powered-world/",
-          "date": "May 18, 2026",
-          "excerpt": "See how built-in security helps keep your growing business running, protect customer trust, and support growth. The post How to better protect your growing business in an AI-powered world appeared fir"
         }
       ]
     },
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Ukraine identifies infostealer operator tied to 28,000 stolen accounts",
+          "link": "https://www.bleepingcomputer.com/news/security/ukraine-identifies-infostealer-operator-tied-to-28-000-stolen-accounts/",
+          "date": "May 20, 2026",
+          "excerpt": "The Ukrainian cyberpolice, working in conjunction with U.S. law enforcement, has identified an 18-year-old man from Odesa suspected of running an infostealer malware operation targeting users of an on"
+        },
+        {
+          "title": "Hackers bypass SonicWall VPN MFA due to incomplete patching",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+          "date": "May 20, 2026",
+          "excerpt": "Threat actors brute-forced VPN credentials and bypassed multi-factor authentication (MFA) on SonicWall Gen6 SSL-VPN appliances to deploy tools used in ransomware attacks. [...]"
+        },
+        {
           "title": "Grafana breach caused by missed token rotation after TanStack attack",
           "link": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
           "date": "May 20, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-update-to-fix-bug-with-high-exploitation-risk/",
           "date": "May 20, 2026",
           "excerpt": "Drupal has announced a \"core security release\" scheduled for later today, warning that threat actors might develop exploits within hours of the update disclosure. [...]"
-        },
-        {
-          "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
-          "link": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
-          "date": "May 20, 2026",
-          "excerpt": "PinTheft, a recently patched Linux privilege escalation vulnerability, now has a publicly available proof-of-concept (PoC) exploit that allows local attackers to gain root privileges on Arch Linux sys"
-        },
-        {
-          "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
-          "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
-          "date": "May 20, 2026",
-          "excerpt": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Bye-bye, Gemini CLI; Google's gone and swapped you for a closed-source AI",
-          "link": "https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605",
-          "date": "May 20, 2026",
-          "excerpt": "Most users lose access June 18 - unless you’ve got enterprise creds or paid API keys"
+          "title": "Nvidia on track to be worlds leading CPU supplier claims CFO",
+          "link": "https://www.theregister.com/systems/2026/05/21/nvidia-on-track-to-be-worlds-leading-cpu-supplier-claims-cfo/5243868",
+          "date": "May 21, 2026",
+          "excerpt": "GPUzilla forecasts $20 billion in CPU revenues this year"
         },
         {
-          "title": "Plex appeal fades as Lifetime Pass jumps to $750",
-          "link": "https://www.theregister.com/saas/2026/05/20/plex-appeal-fades-as-lifetime-pass-jumps-to-750/5243480",
-          "date": "May 20, 2026",
-          "excerpt": "How many times would you have to watch Lord of the Rings to cover that?"
+          "title": "AMD says its $4K Ryzen AI Halo workstation practically pays for itself",
+          "link": "https://www.theregister.com/systems/2026/05/21/amd-says-its-4k-ryzen-ai-halo-workstation-practically-pays-for-itself/5243755",
+          "date": "May 21, 2026",
+          "excerpt": "AMD says its $4K Ryzen AI Halo workstation practically pays for itself"
         },
         {
-          "title": "Those spared latest Meta job cuts forcibly reassigned to AI roles",
-          "link": "https://www.theregister.com/ai-ml/2026/05/20/meta-axes-thousands-of-roles-forcibly-transfers-7000-more/5243365",
+          "title": "Intuit axes 3,000 – without blaming AI",
+          "link": "https://www.theregister.com/saas/2026/05/21/intuit-axes-3000-without-blaming-ai/5243807",
           "date": "May 20, 2026",
-          "excerpt": "Staff protest overhaul and mouse tracking at 'Employee Data Extraction Factory'"
+          "excerpt": "'Margin expansion' and a 'faster, leaner' company are CEO Sasan Goodarzi's goals"
         },
         {
-          "title": "Datacenter builds could be shielded from judicial review in UK planning reforms",
-          "link": "https://www.theregister.com/systems/2026/05/20/datacenter-builds-could-be-shielded-from-judicial-review-in-uk-planning-reforms/5243354",
+          "title": "AI code accelerates production failures and spending, study finds",
+          "link": "https://www.theregister.com/ai-ml/2026/05/20/ai-code-boom-drives-production-failures-higher-spending/5243787",
           "date": "May 20, 2026",
-          "excerpt": "British government wants to ensure no hold-ups for critical energy and infrastructure projects"
+          "excerpt": "CloudBees survey exposes verification gap"
         },
         {
-          "title": "Microsoft says cu l8r to text message security",
-          "link": "https://www.theregister.com/on-prem/2026/05/20/microsoft-says-cu-l8r-to-text-message-security/5243304",
+          "title": "Even Claude agrees: hole in its sandbox was real and dangerous",
+          "link": "https://www.theregister.com/security/2026/05/20/even-claude-agrees-hole-in-its-sandbox-was-real-and-dangerous/5243662",
           "date": "May 20, 2026",
-          "excerpt": "Old, busted, insecure authentication to be replaced with something shinier and safer"
+          "excerpt": "Another day, another AI bug silently fixed with no CVE and no public disclosure"
         }
       ]
     },
