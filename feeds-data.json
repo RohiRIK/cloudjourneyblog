@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T17:50:02.713Z",
+  "updatedAt": "2026-05-21T21:21:26.547Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Google accidentally exposed details of unfixed Chromium flaw",
+          "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
+          "date": "May 21, 2026",
+          "excerpt": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device."
+        },
+        {
           "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
           "link": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
           "date": "May 21, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/cisco-max-severity-secure-workload-flaw-gives-hackers-site-admin-privileges/",
           "date": "May 21, 2026",
           "excerpt": "Cisco has released security updates to address a maximum-severity vulnerability in Secure Workload that allows attackers to gain Site Admin privileges. [...]"
-        },
-        {
-          "title": "Police seize “First VPN” service used in ransomware, data theft attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
-          "date": "May 21, 2026",
-          "excerpt": "A virtual private network service called 'First VPN,' used in ransomware and data theft attacks, has been taken offline in a joint international law enforcement operation. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Flipper One wants to be the Linux multi-tool in your pocket",
-          "link": "https://www.theregister.com/personal-tech/2026/05/21/flipper-one-wants-to-be-the-linux-multi-tool-in-your-pocket/5244165",
+          "title": "Threat hunters find Google API keys still usable 23 minutes after deletion",
+          "link": "https://www.theregister.com/devops/2026/05/21/threat-hunters-find-google-api-keys-still-usable-23-minutes-after-deletion/5244504",
           "date": "May 21, 2026",
-          "excerpt": "Not a Zero successor, ARM box aims for openness, but shipping remains the hard part"
+          "excerpt": "Plenty of time for bad actors to grab data or hit you with a giant bill"
         },
         {
-          "title": "Web devs sleeping with the enemy: AI is doing their job and they worry it's after their desk too",
-          "link": "https://www.theregister.com/devops/2026/05/21/web-devs-sleeping-with-the-enemy-ai-is-doing-their-job-and-they-worry-its-after-their-desk-too/5244132",
+          "title": "Npm registry sets stage for more secure package publishing",
+          "link": "https://www.theregister.com/ai-ml/2026/05/21/npm-registry-sets-stage-for-more-secure-package-publishing/5244527",
           "date": "May 21, 2026",
-          "excerpt": "Most software engineers now use AI for most of their code and fear the existential threat"
+          "excerpt": "All the world's a stage, and all the packages are merely players"
         },
         {
-          "title": "AWS parades orgs that took up its offer for Euro Sovereign Cloud",
-          "link": "https://www.theregister.com/paas-and-iaas/2026/05/21/aws-parades-orgs-that-took-up-its-offer-for-euro-sovereign-cloud/5244197",
+          "title": "HackerOne takes an axe to its bug bounty rewards",
+          "link": "https://www.theregister.com/security/2026/05/21/hackerone-takes-an-axe-to-its-bug-bounty-rewards/5244458",
           "date": "May 21, 2026",
-          "excerpt": "Customers want their data kept and processed strictly within the EU"
+          "excerpt": "Critical flaw payouts slashed by more than 75%"
         },
         {
-          "title": "Years after UK Post Office scandal broke, Accenture and OneView Commerce bag contract to replace Horizon",
-          "link": "https://www.theregister.com/paas-and-iaas/2026/05/21/years-after-uk-post-office-scandal-broke-accenture-and-oneview-commerce-bag-contract-to-replace-horizon/5244243",
+          "title": "AI is getting expensive, but relief is on the way - just not for you",
+          "link": "https://www.theregister.com/ai-ml/2026/05/21/ai-is-getting-pricey-but-relief-is-coming-but-not-for-you/5244358",
           "date": "May 21, 2026",
-          "excerpt": "Service tries to move on from troubled decades of Fujitsu relationship with £410 million in deals for system that hurt so many"
+          "excerpt": "New hardware promises greater efficiency, user experiences, and most importantly larger margins"
         },
         {
-          "title": "Gemini accused of 30,000-line code purge and fake recovery report",
-          "link": "https://www.theregister.com/ai-ml/2026/05/21/gemini-accused-of-30000-line-code-purge-and-fake-recovery-report/5244219",
+          "title": "Deus ex machina: Half of US Christians trust AI's spiritual advice",
+          "link": "https://www.theregister.com/ai-ml/2026/05/21/deus-ex-machina-half-of-us-christians-trust-ais-spiritual-advice/5244371",
           "date": "May 21, 2026",
-          "excerpt": "Developer: AI coding agent broke production and generated fictitious post-mortem paperwork after the rollback"
+          "excerpt": "AI sycophancy + spirituality = uh oh"
         }
       ]
     },
