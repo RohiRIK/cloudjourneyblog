@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-22T10:41:08.078Z",
+  "updatedAt": "2026-05-22T14:13:05.463Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
+          "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
+          "date": "May 22, 2026",
+          "excerpt": "Japanese cybersecurity software company Trend Micro has addressed an Apex One zero-day vulnerability exploited in attacks targeting Windows systems. [...]"
+        },
+        {
+          "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
+          "date": "May 22, 2026",
+          "excerpt": "Drupal is warning that hackers are attempting to exploit a \"highly critical\" SQL injection vulnerability announced earlier this week. [...]"
+        },
+        {
+          "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
+          "link": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
+          "date": "May 22, 2026",
+          "excerpt": "Fraud losses don't stop at chargebacks. False declines, account takeovers, and abuse also damage revenue and trust. IPQS breaks down why fraud teams need broader visibility into risk and customer impa"
+        },
+        {
+          "title": "Ubiquiti patches three max severity UniFi OS vulnerabilities",
+          "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
+          "date": "May 22, 2026",
+          "excerpt": "Ubiquiti has released security updates to patch three maximum severity vulnerabilities in UniFi OS that can be exploited by remote attackers without privileges. [...]"
+        },
+        {
           "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
           "link": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
           "date": "May 22, 2026",
           "excerpt": "U.S. and Canadian authorities arrested and charged a Canadian man with operating the KimWolf distributed denial-of-service (DDoS) botnet, which infected nearly two million devices worldwide. [...]"
-        },
-        {
-          "title": "Google accidentally exposed details of unfixed Chromium flaw",
-          "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
-          "date": "May 21, 2026",
-          "excerpt": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device."
-        },
-        {
-          "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
-          "link": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
-          "date": "May 21, 2026",
-          "excerpt": "Apple revealed that it blocked over $11 billion in fraudulent App Store transactions over the last six years, more than $2.2 billion in potentially fraudulent App Store transactions in 2025 alone. [.."
-        },
-        {
-          "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
-          "link": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
-          "date": "May 21, 2026",
-          "excerpt": "Modern crypto drainers don't hack wallets. They trick users into approving malicious transactions. Flare explores how the Lucifer DaaS platform scales wallet theft through phishing and automation. [.."
-        },
-        {
-          "title": "Chinese hackers target telcos with new Linux, Windows malware",
-          "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
-          "date": "May 21, 2026",
-          "excerpt": "A Chinese cyber-espionage campaign has been targeting telecommunications providers with newly discovered Linux and Windows malware dubbed Showboat and JFMBackdoor, respectively. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Vibe-coded solutions arrive for problems nobody has",
-          "link": "https://www.theregister.com/bofh/2026/05/22/vibe-coded-solutions-arrive-for-problems-nobody-has/5243976",
+          "title": "FBI warns Kali365 phishing kit is stealing Microsoft OAuth tokens at scale",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/22/fbi-warns-of-kali365-as-device-code-phishing-soars/5245024",
           "date": "May 22, 2026",
-          "excerpt": "The Boss gives common sense an AI wrapper"
+          "excerpt": "MFA? No problem, says crimeware that tricks users into handing attackers the keys to M365"
         },
         {
-          "title": "Burnham backlash: UK Digital ID plans in peril if Manchester mayor succeeds Starmer",
-          "link": "https://www.theregister.com/public-sector/2026/05/22/burnham-backlash-uk-digital-id-plans-in-peril-if-manchester-mayor-succeeds-starmer/5243195",
+          "title": "ZTE Day Indonesia 2026 strengthens AI innovation and digital infrastructure collaboration to accelerate Indonesia's digital transformation",
+          "link": "https://www.theregister.com/networks/2026/05/22/zte-day-indonesia-2026-strengthens-ai-innovation-and-digital-infrastructure-collaboration-to-accelerate-indonesias-digital-transformation/5245048",
           "date": "May 22, 2026",
-          "excerpt": "He'll have to beat Nigel Farage in a Brexit-backing constituency first, though"
+          "excerpt": "The annual tech showcase highlights next-gen AI, cloud, and future-ready ICT solutions while uniting ecosystem partners to build the foundation for the nation's AI era"
         },
         {
-          "title": "UK nuclear investors get 'high' returns for lower risk than consumers, who also foot the bill",
-          "link": "https://www.theregister.com/systems/2026/05/22/uk-nuclear-investors-get-high-returns-for-lower-risk-than-consumers-who-also-foot-the-bill/5244056",
+          "title": "SpaceX scrubs Starship launch with seconds to go",
+          "link": "https://www.theregister.com/science/2026/05/22/spacex-scrubs-starship-launch-with-seconds-to-go/5244968",
           "date": "May 22, 2026",
-          "excerpt": "Sizewell C could add £19 to yearly bills, spending watchdog says, but private investor may fail to keep costs down"
+          "excerpt": "Not all bad news: Crypto billionaire signs up for a mission to Mars"
         },
         {
-          "title": "Marketing demanded IT add website feature that was already working",
-          "link": "https://www.theregister.com/software/2026/05/22/marketing-demanded-it-add-website-feature-that-was-already-working/5242367",
+          "title": "ZTE unveils localized roadmap for Eurasia's digital future at GSMA M360 Eurasia 2026",
+          "link": "https://www.theregister.com/networks/2026/05/22/zte-unveils-localized-roadmap-for-eurasias-digital-future-at-gsma-m360-eurasia-2026/5244937",
           "date": "May 22, 2026",
-          "excerpt": "Techie regrets not taking credit for getting it done with amazing speed"
+          "excerpt": "Driving \"affordable AI\" through open ecosystems, anti-fragile infrastructure, and optimized TCO to empower local industries"
         },
         {
-          "title": "Cisco used AI to write security incident reports, with mixed results",
-          "link": "https://www.theregister.com/security/2026/05/22/cisco-used-ai-to-write-security-incident-reports-with-mixed-results/5244692",
+          "title": "Outlook has an image problem",
+          "link": "https://www.theregister.com/on-prem/2026/05/22/outlook-has-an-image-problem/5244844",
           "date": "May 22, 2026",
-          "excerpt": "You’ll need a lot of detailed prompts to get solid output - and even then it may have errors and typos"
+          "excerpt": "Microsoft says classic client may lose embedded pictures thanks to wrapping bug"
         }
       ]
     },
