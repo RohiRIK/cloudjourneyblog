@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-22T14:13:05.463Z",
+  "updatedAt": "2026-05-22T17:43:40.548Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Microsoft Security success stories: How St. Luke’s and ManpowerGroup are securing AI foundations",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-security-success-stories-how-st-lukes-and-manpowergroup-are-securing-ai-foundations/",
+          "date": "May 22, 2026",
+          "excerpt": "How Frontier firms secure AI at scale: read how Microsoft customers embed governance, identity, and cloud security to make protection an enabler of AI growth. The post Microsoft Security success stori"
+        },
         {
           "title": "What’s new in Microsoft Security: May 2026",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/",
           "date": "May 20, 2026",
           "excerpt": "The AI systems shipping inside enterprises today are fundamentally different from the ones we were building even two years ago, because they have moved well past answering questions and into accessing"
-        },
-        {
-          "title": "Exposing Fox Tempest: A malware-signing service operation",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
-          "date": "May 19, 2026",
-          "excerpt": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distr"
         }
       ]
     },
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
+          "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
+          "date": "May 22, 2026",
+          "excerpt": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformation c"
+        },
+        {
+          "title": "Former US execs plead guilty to aiding tech support scammers",
+          "link": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
+          "date": "May 22, 2026",
+          "excerpt": "Two former executives of a call-tracking and analytics company pleaded guilty to concealing a years-long tech support fraud scheme that victimized individuals worldwide. [...]"
+        },
+        {
           "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
           "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
           "date": "May 22, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
           "date": "May 22, 2026",
           "excerpt": "Fraud losses don't stop at chargebacks. False declines, account takeovers, and abuse also damage revenue and trust. IPQS breaks down why fraud teams need broader visibility into risk and customer impa"
-        },
-        {
-          "title": "Ubiquiti patches three max severity UniFi OS vulnerabilities",
-          "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
-          "date": "May 22, 2026",
-          "excerpt": "Ubiquiti has released security updates to patch three maximum severity vulnerabilities in UniFi OS that can be exploited by remote attackers without privileges. [...]"
-        },
-        {
-          "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
-          "link": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
-          "date": "May 22, 2026",
-          "excerpt": "U.S. and Canadian authorities arrested and charged a Canadian man with operating the KimWolf distributed denial-of-service (DDoS) botnet, which infected nearly two million devices worldwide. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "FBI warns Kali365 phishing kit is stealing Microsoft OAuth tokens at scale",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/22/fbi-warns-of-kali365-as-device-code-phishing-soars/5245024",
+          "title": "As memory prices squeeze enterprise buyers, Lenovo laughs all the way to the bank",
+          "link": "https://www.theregister.com/personal-tech/2026/05/22/as-memory-prices-squeeze-enterprise-buyers-lenovo-laughs-all-the-way-to-the-bank/5245202",
           "date": "May 22, 2026",
-          "excerpt": "MFA? No problem, says crimeware that tricks users into handing attackers the keys to M365"
+          "excerpt": "Switch to premium devices pays off as PC giant post record record, just don't ask about cheap laptops"
         },
         {
-          "title": "ZTE Day Indonesia 2026 strengthens AI innovation and digital infrastructure collaboration to accelerate Indonesia's digital transformation",
-          "link": "https://www.theregister.com/networks/2026/05/22/zte-day-indonesia-2026-strengthens-ai-innovation-and-digital-infrastructure-collaboration-to-accelerate-indonesias-digital-transformation/5245048",
+          "title": "Media giant settles for $930k with FTC over allegations it lied about eavesdropping on conversations through smart devices",
+          "link": "https://www.theregister.com/legal/2026/05/22/media-giant-settles-for-930k-amid-user-snooping-allegations/5245180",
           "date": "May 22, 2026",
-          "excerpt": "The annual tech showcase highlights next-gen AI, cloud, and future-ready ICT solutions while uniting ecosystem partners to build the foundation for the nation's AI era"
+          "excerpt": "Cox Media Group allegedly sold a bogus AI-powered snoopfest service"
         },
         {
-          "title": "SpaceX scrubs Starship launch with seconds to go",
-          "link": "https://www.theregister.com/science/2026/05/22/spacex-scrubs-starship-launch-with-seconds-to-go/5244968",
+          "title": "Microsoft lets users exile floating Copilot button after interface rage",
+          "link": "https://www.theregister.com/ai-ml/2026/05/22/microsoft-lets-users-exile-floating-copilot-button-after-interface-rage/5245093",
           "date": "May 22, 2026",
-          "excerpt": "Not all bad news: Crypto billionaire signs up for a mission to Mars"
+          "excerpt": "Listening to your customers? Who are you, and what have you done with Microsoft?"
         },
         {
-          "title": "ZTE unveils localized roadmap for Eurasia's digital future at GSMA M360 Eurasia 2026",
-          "link": "https://www.theregister.com/networks/2026/05/22/zte-unveils-localized-roadmap-for-eurasias-digital-future-at-gsma-m360-eurasia-2026/5244937",
+          "title": "AT&T sues to ditch Cali copper phone lines to save billions",
+          "link": "https://www.theregister.com/networks/2026/05/22/att-sues-to-ditch-cali-copper-phone-lines-to-save-billions/5244917",
           "date": "May 22, 2026",
-          "excerpt": "Driving \"affordable AI\" through open ecosystems, anti-fragile infrastructure, and optimized TCO to empower local industries"
+          "excerpt": "Telecoms giant files suit in Golden State so it doesn't have to maintain network it claims is hardly used"
         },
         {
-          "title": "Outlook has an image problem",
-          "link": "https://www.theregister.com/on-prem/2026/05/22/outlook-has-an-image-problem/5244844",
+          "title": "Workday wants AI to punch in instead of having to hire new recruits",
+          "link": "https://www.theregister.com/saas/2026/05/22/workday-wants-ai-to-punch-in-instead-of-having-to-hire-new-recruits/5245011",
           "date": "May 22, 2026",
-          "excerpt": "Microsoft says classic client may lose embedded pictures thanks to wrapping bug"
+          "excerpt": "CEO eyes margin gains by keeping headcount flat – bold for a company selling HR software to employers"
         }
       ]
     },
