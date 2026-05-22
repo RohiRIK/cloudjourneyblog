@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T21:21:26.547Z",
+  "updatedAt": "2026-05-22T10:41:08.078Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "US and Canada arrest and charge suspected Kimwolf botnet admin",
+          "link": "https://www.bleepingcomputer.com/news/security/us-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin/",
+          "date": "May 22, 2026",
+          "excerpt": "U.S. and Canadian authorities arrested and charged a Canadian man with operating the KimWolf distributed denial-of-service (DDoS) botnet, which infected nearly two million devices worldwide. [...]"
+        },
+        {
           "title": "Google accidentally exposed details of unfixed Chromium flaw",
           "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
           "date": "May 21, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
           "date": "May 21, 2026",
           "excerpt": "A Chinese cyber-espionage campaign has been targeting telecommunications providers with newly discovered Linux and Windows malware dubbed Showboat and JFMBackdoor, respectively. [...]"
-        },
-        {
-          "title": "Max severity Cisco Secure Workload flaw gives Site Admin privileges",
-          "link": "https://www.bleepingcomputer.com/news/security/cisco-max-severity-secure-workload-flaw-gives-hackers-site-admin-privileges/",
-          "date": "May 21, 2026",
-          "excerpt": "Cisco has released security updates to address a maximum-severity vulnerability in Secure Workload that allows attackers to gain Site Admin privileges. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Threat hunters find Google API keys still usable 23 minutes after deletion",
-          "link": "https://www.theregister.com/devops/2026/05/21/threat-hunters-find-google-api-keys-still-usable-23-minutes-after-deletion/5244504",
-          "date": "May 21, 2026",
-          "excerpt": "Plenty of time for bad actors to grab data or hit you with a giant bill"
+          "title": "Vibe-coded solutions arrive for problems nobody has",
+          "link": "https://www.theregister.com/bofh/2026/05/22/vibe-coded-solutions-arrive-for-problems-nobody-has/5243976",
+          "date": "May 22, 2026",
+          "excerpt": "The Boss gives common sense an AI wrapper"
         },
         {
-          "title": "Npm registry sets stage for more secure package publishing",
-          "link": "https://www.theregister.com/ai-ml/2026/05/21/npm-registry-sets-stage-for-more-secure-package-publishing/5244527",
-          "date": "May 21, 2026",
-          "excerpt": "All the world's a stage, and all the packages are merely players"
+          "title": "Burnham backlash: UK Digital ID plans in peril if Manchester mayor succeeds Starmer",
+          "link": "https://www.theregister.com/public-sector/2026/05/22/burnham-backlash-uk-digital-id-plans-in-peril-if-manchester-mayor-succeeds-starmer/5243195",
+          "date": "May 22, 2026",
+          "excerpt": "He'll have to beat Nigel Farage in a Brexit-backing constituency first, though"
         },
         {
-          "title": "HackerOne takes an axe to its bug bounty rewards",
-          "link": "https://www.theregister.com/security/2026/05/21/hackerone-takes-an-axe-to-its-bug-bounty-rewards/5244458",
-          "date": "May 21, 2026",
-          "excerpt": "Critical flaw payouts slashed by more than 75%"
+          "title": "UK nuclear investors get 'high' returns for lower risk than consumers, who also foot the bill",
+          "link": "https://www.theregister.com/systems/2026/05/22/uk-nuclear-investors-get-high-returns-for-lower-risk-than-consumers-who-also-foot-the-bill/5244056",
+          "date": "May 22, 2026",
+          "excerpt": "Sizewell C could add £19 to yearly bills, spending watchdog says, but private investor may fail to keep costs down"
         },
         {
-          "title": "AI is getting expensive, but relief is on the way - just not for you",
-          "link": "https://www.theregister.com/ai-ml/2026/05/21/ai-is-getting-pricey-but-relief-is-coming-but-not-for-you/5244358",
-          "date": "May 21, 2026",
-          "excerpt": "New hardware promises greater efficiency, user experiences, and most importantly larger margins"
+          "title": "Marketing demanded IT add website feature that was already working",
+          "link": "https://www.theregister.com/software/2026/05/22/marketing-demanded-it-add-website-feature-that-was-already-working/5242367",
+          "date": "May 22, 2026",
+          "excerpt": "Techie regrets not taking credit for getting it done with amazing speed"
         },
         {
-          "title": "Deus ex machina: Half of US Christians trust AI's spiritual advice",
-          "link": "https://www.theregister.com/ai-ml/2026/05/21/deus-ex-machina-half-of-us-christians-trust-ais-spiritual-advice/5244371",
-          "date": "May 21, 2026",
-          "excerpt": "AI sycophancy + spirituality = uh oh"
+          "title": "Cisco used AI to write security incident reports, with mixed results",
+          "link": "https://www.theregister.com/security/2026/05/22/cisco-used-ai-to-write-security-incident-reports-with-mixed-results/5244692",
+          "date": "May 22, 2026",
+          "excerpt": "You’ll need a lot of detailed prompts to get solid output - and even then it may have errors and typos"
         }
       ]
     },
