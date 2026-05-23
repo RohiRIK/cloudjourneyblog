@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T06:27:43.299Z",
+  "updatedAt": "2026-05-23T09:42:51.387Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "UK MPs slam digital ID rollout as a 'fiasco' after botched launch",
+          "link": "https://www.theregister.com/public-sector/2026/05/23/uk-mps-slam-digital-id-rollout-as-a-fiasco-after-botched-launch/5245124",
+          "date": "May 23, 2026",
+          "excerpt": "Government's 'rushed' plans damaged public confidence before ministers had even explained how the system would work"
+        },
+        {
+          "title": "The Virtual OS Museum opens its doors",
+          "link": "https://www.theregister.com/oses/2026/05/23/the-virtual-os-museum-opens-its-doors/5243459",
+          "date": "May 23, 2026",
+          "excerpt": "A massive compilation of historic OSes and the emulators to run them"
+        },
+        {
           "title": "Feds unwittingly leak pilots' pre-crash conversation",
           "link": "https://www.theregister.com/science/2026/05/23/feds-unwittingly-leak-pilots-pre-crash-conversation/5245462",
           "date": "May 22, 2026",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
           "date": "May 22, 2026",
           "excerpt": "Hey, Gemini, how much can we earn from one pump-and-dump cycle?"
-        },
-        {
-          "title": "Zuck defends monitoring employees to win AI race in purported leaked audio",
-          "link": "https://www.theregister.com/ai-ml/2026/05/22/zuck-defends-monitoring-employees-to-win-ai-race-in-purported-leaked-audio/5245379",
-          "date": "May 22, 2026",
-          "excerpt": "Limping Llama model needs a crutch made of surveillance tools"
-        },
-        {
-          "title": "Megalodon chums the waters in 5.5K+ GitHub repo poisonings",
-          "link": "https://www.theregister.com/security/2026/05/22/megalodon-chums-the-waters-in-55k-github-repo-poisonings/5245342",
-          "date": "May 22, 2026",
-          "excerpt": "Will Jason Statham save us?"
         }
       ]
     },
