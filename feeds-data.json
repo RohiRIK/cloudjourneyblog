@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T12:56:49.491Z",
+  "updatedAt": "2026-05-23T16:48:21.912Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
+          "link": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
+          "date": "May 23, 2026",
+          "excerpt": "Italian authorities have dismantled a piracy ecosystem centered around the CINEMAGOAL app that provided access to various streaming platforms, including Netflix, Disney+, and Spotify. [...]"
+        },
+        {
           "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
           "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
           "date": "May 22, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
           "date": "May 22, 2026",
           "excerpt": "Drupal is warning that hackers are attempting to exploit a \"highly critical\" SQL injection vulnerability announced earlier this week. [...]"
-        },
-        {
-          "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
-          "link": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
-          "date": "May 22, 2026",
-          "excerpt": "Fraud losses don't stop at chargebacks. False declines, account takeovers, and abuse also damage revenue and trust. IPQS breaks down why fraud teams need broader visibility into risk and customer impa"
         }
       ]
     },
