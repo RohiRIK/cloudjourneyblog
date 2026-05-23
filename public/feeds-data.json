@@ -1,11 +1,23 @@
 {
-  "updatedAt": "2026-05-22T17:43:40.548Z",
+  "updatedAt": "2026-05-23T06:27:43.299Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
+          "date": "May 22, 2026",
+          "excerpt": "Microsoft has been recognized as a Leader in The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026, receiving the highest scores in both the current offering and strategy categories. The"
+        },
+        {
+          "title": "From edge appliance to enterprise compromise: Multi-stage Linux intrusion via F5 and Confluence",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/from-edge-appliance-to-enterprise-compromise-multi-stage-linux-intrusion-via-f5-and-confluence/",
+          "date": "May 22, 2026",
+          "excerpt": "A multi-stage attack on Linux devices began with an exposed F5 BIG-IP edge appliance and pivoted to an internal Confluence server for credential theft and identity compromise. Learn how the threat act"
+        },
         {
           "title": "Microsoft Security success stories: How St. Luke’s and ManpowerGroup are securing AI foundations",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-security-success-stories-how-st-lukes-and-manpowergroup-are-securing-ai-foundations/",
@@ -23,18 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
           "date": "May 20, 2026",
           "excerpt": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials acros"
-        },
-        {
-          "title": "Securing the gaming culture of cultures",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/securing-the-gaming-culture-of-cultures/",
-          "date": "May 20, 2026",
-          "excerpt": "Read about the unique challenges and rewards of securing gaming platforms and how to better protect gaming communities. The post Securing the gaming culture of cultures appeared first on Microsoft Sec"
-        },
-        {
-          "title": "Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/",
-          "date": "May 20, 2026",
-          "excerpt": "The AI systems shipping inside enterprises today are fundamentally different from the ones we were building even two years ago, because they have moved well past answering questions and into accessing"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "As memory prices squeeze enterprise buyers, Lenovo laughs all the way to the bank",
-          "link": "https://www.theregister.com/personal-tech/2026/05/22/as-memory-prices-squeeze-enterprise-buyers-lenovo-laughs-all-the-way-to-the-bank/5245202",
+          "title": "Feds unwittingly leak pilots' pre-crash conversation",
+          "link": "https://www.theregister.com/science/2026/05/23/feds-unwittingly-leak-pilots-pre-crash-conversation/5245462",
           "date": "May 22, 2026",
-          "excerpt": "Switch to premium devices pays off as PC giant post record record, just don't ask about cheap laptops"
+          "excerpt": "Release of spectrogram of cockpit recorder audio allows conversation recovery with 'emerging' decades-old tech"
         },
         {
-          "title": "Media giant settles for $930k with FTC over allegations it lied about eavesdropping on conversations through smart devices",
-          "link": "https://www.theregister.com/legal/2026/05/22/media-giant-settles-for-930k-amid-user-snooping-allegations/5245180",
+          "title": "Minor edits to AI skills can make agents go rogue",
+          "link": "https://www.theregister.com/ai-ml/2026/05/22/minor-edits-to-ai-skills-can-make-agents-go-rogue/5245413",
           "date": "May 22, 2026",
-          "excerpt": "Cox Media Group allegedly sold a bogus AI-powered snoopfest service"
+          "excerpt": "Text is the new attack"
         },
         {
-          "title": "Microsoft lets users exile floating Copilot button after interface rage",
-          "link": "https://www.theregister.com/ai-ml/2026/05/22/microsoft-lets-users-exile-floating-copilot-button-after-interface-rage/5245093",
+          "title": "A Russian speaker and jailbroken Gemini went on a hacking spree and emptied at least one MAGA victim's crypto wallets",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
           "date": "May 22, 2026",
-          "excerpt": "Listening to your customers? Who are you, and what have you done with Microsoft?"
+          "excerpt": "Hey, Gemini, how much can we earn from one pump-and-dump cycle?"
         },
         {
-          "title": "AT&T sues to ditch Cali copper phone lines to save billions",
-          "link": "https://www.theregister.com/networks/2026/05/22/att-sues-to-ditch-cali-copper-phone-lines-to-save-billions/5244917",
+          "title": "Zuck defends monitoring employees to win AI race in purported leaked audio",
+          "link": "https://www.theregister.com/ai-ml/2026/05/22/zuck-defends-monitoring-employees-to-win-ai-race-in-purported-leaked-audio/5245379",
           "date": "May 22, 2026",
-          "excerpt": "Telecoms giant files suit in Golden State so it doesn't have to maintain network it claims is hardly used"
+          "excerpt": "Limping Llama model needs a crutch made of surveillance tools"
         },
         {
-          "title": "Workday wants AI to punch in instead of having to hire new recruits",
-          "link": "https://www.theregister.com/saas/2026/05/22/workday-wants-ai-to-punch-in-instead-of-having-to-hire-new-recruits/5245011",
+          "title": "Megalodon chums the waters in 5.5K+ GitHub repo poisonings",
+          "link": "https://www.theregister.com/security/2026/05/22/megalodon-chums-the-waters-in-55k-github-repo-poisonings/5245342",
           "date": "May 22, 2026",
-          "excerpt": "CEO eyes margin gains by keeping headcount flat – bold for a company selling HR software to employers"
+          "excerpt": "Will Jason Statham save us?"
         }
       ]
     },
