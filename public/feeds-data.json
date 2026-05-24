@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T20:38:02.720Z",
+  "updatedAt": "2026-05-24T12:57:18.260Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+          "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+          "date": "May 23, 2026",
+          "excerpt": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to dist"
+        },
+        {
           "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
           "link": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
           "date": "May 23, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
           "date": "May 22, 2026",
           "excerpt": "Japanese cybersecurity software company Trend Micro has addressed an Apex One zero-day vulnerability exploited in attacks targeting Windows systems. [...]"
-        },
-        {
-          "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
-          "date": "May 22, 2026",
-          "excerpt": "Drupal is warning that hackers are attempting to exploit a \"highly critical\" SQL injection vulnerability announced earlier this week. [...]"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "HP investigating BIOS updates that leave premium laptop users in boot loop limbo",
+          "link": "https://www.theregister.com/personal-tech/2026/05/24/hp-investigating-bios-updates-that-leave-premium-laptop-users-in-boot-loop-limbo/5244769",
+          "date": "May 24, 2026",
+          "excerpt": "Slowdowns, crashes, BSODs reported on pricey mobile workstations"
+        },
+        {
+          "title": "No captain, my captain: Navantia floats crewless warship",
+          "link": "https://www.theregister.com/offbeat/2026/05/24/no-captain-my-captain-navantia-floats-crewless-warship/5244332",
+          "date": "May 24, 2026",
+          "excerpt": "Spanish shipbuilder's 75-meter drone vessel comes with sensors, modular payloads, and no room for sailors"
+        },
         {
           "title": "Dirty Frag, Copy Fail, Fragnesia: The start of a worrisome Linux security trend",
           "link": "https://www.theregister.com/security/2026/05/23/dirty-frag-copy-fail-fragnesia-the-start-of-a-worrisome-linux-security-trend/5244742",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/oses/2026/05/23/the-virtual-os-museum-opens-its-doors/5243459",
           "date": "May 23, 2026",
           "excerpt": "A massive compilation of historic OSes and the emulators to run them"
-        },
-        {
-          "title": "Feds unwittingly leak pilots' pre-crash conversation",
-          "link": "https://www.theregister.com/science/2026/05/23/feds-unwittingly-leak-pilots-pre-crash-conversation/5245462",
-          "date": "May 22, 2026",
-          "excerpt": "Release of spectrogram of cockpit recorder audio allows conversation recovery with 'emerging' decades-old tech"
-        },
-        {
-          "title": "Minor edits to AI skills can make agents go rogue",
-          "link": "https://www.theregister.com/ai-ml/2026/05/22/minor-edits-to-ai-skills-can-make-agents-go-rogue/5245413",
-          "date": "May 22, 2026",
-          "excerpt": "Text is the new attack"
         }
       ]
     },
