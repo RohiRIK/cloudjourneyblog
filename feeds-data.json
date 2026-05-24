@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T12:57:18.260Z",
+  "updatedAt": "2026-05-24T20:41:41.398Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+          "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+          "date": "May 24, 2026",
+          "excerpt": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]"
+        },
+        {
           "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
           "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
           "date": "May 23, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/former-us-execs-plead-guilty-to-aiding-tech-support-scammers/",
           "date": "May 22, 2026",
           "excerpt": "Two former executives of a call-tracking and analytics company pleaded guilty to concealing a years-long tech support fraud scheme that victimized individuals worldwide. [...]"
-        },
-        {
-          "title": "Trend Micro warns of Apex One zero-day exploited in the wild",
-          "link": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-          "date": "May 22, 2026",
-          "excerpt": "Japanese cybersecurity software company Trend Micro has addressed an Apex One zero-day vulnerability exploited in attacks targeting Windows systems. [...]"
         }
       ]
     },
@@ -114,10 +114,10 @@
           "excerpt": "Spanish shipbuilder's 75-meter drone vessel comes with sensors, modular payloads, and no room for sailors"
         },
         {
-          "title": "Dirty Frag, Copy Fail, Fragnesia: The start of a worrisome Linux security trend",
-          "link": "https://www.theregister.com/security/2026/05/23/dirty-frag-copy-fail-fragnesia-the-start-of-a-worrisome-linux-security-trend/5244742",
+          "title": "AI eyes scanning for bugs create a worrisome Linux security trend",
+          "link": "https://www.theregister.com/security/2026/05/23/ai-eyes-scanning-for-bugs-create-a-worrisome-linux-security-trend/5244742",
           "date": "May 23, 2026",
-          "excerpt": "Or is it just life today, with AI constantly digging through code repositories in search of security holes?"
+          "excerpt": "Dirty Frag, Copy Fail, and Fragesia show the new reality"
         },
         {
           "title": "UK MPs slam digital ID rollout as a 'fiasco' after botched launch",
