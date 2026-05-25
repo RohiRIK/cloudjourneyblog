@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T20:41:41.398Z",
+  "updatedAt": "2026-05-25T08:10:58.137Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "HP investigating BIOS updates that leave premium laptop users in boot loop limbo",
-          "link": "https://www.theregister.com/personal-tech/2026/05/24/hp-investigating-bios-updates-that-leave-premium-laptop-users-in-boot-loop-limbo/5244769",
+          "title": "OpenBSD 7.9 arrives, a diamond in the rough proud of every sharp edge",
+          "link": "https://www.theregister.com/software/2026/05/25/openbsd-79-arrives-a-diamond-in-the-rough-proud-of-every-sharp-edge/5244877",
+          "date": "May 25, 2026",
+          "excerpt": "Sixtieth release adds more cores, delayed hibernation, and basic Wi-Fi 6 without losing its ascetic streak"
+        },
+        {
+          "title": "Anthropic to release Mythos-class models to the public",
+          "link": "https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596",
+          "date": "May 25, 2026",
+          "excerpt": "AI flaw-finder still under lock and key for now while company figures out guardrails, but extends access to more users including governments"
+        },
+        {
+          "title": "Samsung memory workers call off strike and may score six-figure bonuses",
+          "link": "https://www.theregister.com/systems/2026/05/25/samsung-memory-workers-call-off-strike-and-may-score-six-figure-bonuses/5245573",
+          "date": "May 25, 2026",
+          "excerpt": "PLUS: Huawei says it’s replaced Moore’s Law; Chinese mobile plans add token allowances; Singtel slinging Optus; And more!"
+        },
+        {
+          "title": "Linus Torvalds to ‘start being more hardnosed’ about ‘pointless pull requests’ – some of which come from AIs",
+          "link": "https://www.theregister.com/oses/2026/05/25/linus-torvalds-to-start-being-more-hardnosed-about-pointless-pull-requests-some-of-which-come-from-ais/5245549",
           "date": "May 24, 2026",
-          "excerpt": "Slowdowns, crashes, BSODs reported on pricey mobile workstations"
+          "excerpt": "Warns large release candidates ‘are *not* conducive to long-term stability’"
         },
         {
-          "title": "No captain, my captain: Navantia floats crewless warship",
-          "link": "https://www.theregister.com/offbeat/2026/05/24/no-captain-my-captain-navantia-floats-crewless-warship/5244332",
+          "title": "Google has seriously leaned into AI enshittification lately",
+          "link": "https://www.theregister.com/ai-ml/2026/05/25/google-has-seriously-leaned-into-ai-enshittification-lately/5245365",
           "date": "May 24, 2026",
-          "excerpt": "Spanish shipbuilder's 75-meter drone vessel comes with sensors, modular payloads, and no room for sailors"
-        },
-        {
-          "title": "AI eyes scanning for bugs create a worrisome Linux security trend",
-          "link": "https://www.theregister.com/security/2026/05/23/ai-eyes-scanning-for-bugs-create-a-worrisome-linux-security-trend/5244742",
-          "date": "May 23, 2026",
-          "excerpt": "Dirty Frag, Copy Fail, and Fragesia show the new reality"
-        },
-        {
-          "title": "UK MPs slam digital ID rollout as a 'fiasco' after botched launch",
-          "link": "https://www.theregister.com/public-sector/2026/05/23/uk-mps-slam-digital-id-rollout-as-a-fiasco-after-botched-launch/5245124",
-          "date": "May 23, 2026",
-          "excerpt": "Government's 'rushed' plans damaged public confidence before ministers had even explained how the system would work"
-        },
-        {
-          "title": "The Virtual OS Museum opens its doors",
-          "link": "https://www.theregister.com/oses/2026/05/23/the-virtual-os-museum-opens-its-doors/5243459",
-          "date": "May 23, 2026",
-          "excerpt": "A massive compilation of historic OSes and the emulators to run them"
+          "excerpt": "Could the Chocolate Factory's mission to reshape the web backfire?"
         }
       ]
     },
