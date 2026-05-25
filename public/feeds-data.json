@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T14:31:14.003Z",
+  "updatedAt": "2026-05-25T17:27:28.033Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Anthropic’s restricted Claude Mythos model may be coming to Claude Code",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
+          "date": "May 25, 2026",
+          "excerpt": "Anthropic appears to be preparing for the public rollout of the Mythos model, which was announced in April as a restricted model that poses major security risks to private and public software. [...]"
+        },
+        {
           "title": "FBI warns of Kali365 phishing service targeting Microsoft 365 accounts",
           "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/",
           "date": "May 25, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
           "date": "May 23, 2026",
           "excerpt": "Italian authorities have dismantled a piracy ecosystem centered around the CINEMAGOAL app that provided access to various streaming platforms, including Netflix, Disney+, and Spotify. [...]"
-        },
-        {
-          "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
-          "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
-          "date": "May 22, 2026",
-          "excerpt": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformation c"
         }
       ]
     },
