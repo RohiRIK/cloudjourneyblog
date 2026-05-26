@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-26T18:15:35.374Z",
+  "updatedAt": "2026-05-26T21:27:01.934Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "KnowledgeDeliver flaw exploited as a zero-day to install web shells",
+          "link": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/",
+          "date": "May 26, 2026",
+          "excerpt": "Hackers exploited a critical zero-day vulnerability in a server running the KnowledgeDeliver learning management system (LMS) to deploy the Godzilla web shell. [...]"
+        },
+        {
+          "title": "Charter confirms data breach after ShinyHunters extortion threat",
+          "link": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
+          "date": "May 26, 2026",
+          "excerpt": "U.S. telecommunications giant Charter Communications has confirmed it suffered a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]"
+        },
+        {
           "title": "How Varonis Atlas integrates Claude Compliance API for AI governance",
           "link": "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
           "date": "May 26, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/webinar-too-many-tools-are-slowing-network-incident-response/",
           "date": "May 26, 2026",
           "excerpt": "IT teams often need to jump between monitoring dashboards, infrastructure tools, ticketing systems, and communication platforms during network incidents. This webinar explores how automation and AI-as"
-        },
-        {
-          "title": "CISA orders feds to patch actively exploited Drupal vulnerability",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-drupal-vulnerability/",
-          "date": "May 26, 2026",
-          "excerpt": "CISA has given U.S. government agencies until Wednesday evening to secure their servers against an SQL injection vulnerability in the Drupal content management system (CMS) that it flagged as actively"
-        },
-        {
-          "title": "Microsoft: Domain Controller lookup may fail on Windows Server 2016",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-domain-controller-lookup-may-fail-on-windows-server-2016/",
-          "date": "May 26, 2026",
-          "excerpt": "Microsoft has confirmed a new known issue affecting Windows Server 2016 systems that causes domain controller lookups to fail after installing the KB5087537 May 2026 security update. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Rogue states are putting AI agents to work on sanctions evasion",
-          "link": "https://www.theregister.com/ai-ml/2026/05/26/rogue-states-are-putting-ai-agents-to-work-on-sanctions-evasion/5246210",
+          "title": "MyPillow must decide whether to be firm or soft as ransomware crims demand pay",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/26/mypillow-appears-on-play-ransomware-leak-site/5246513",
           "date": "May 26, 2026",
-          "excerpt": "RUSI warns fake IDs, shell companies, and crypto laundering could soon operate at industrial scale"
+          "excerpt": "Guess they could deny the alleged intrusion … like the 2020 election results"
         },
         {
-          "title": "Gothenburg's self-driving bus trammed on day one",
-          "link": "https://www.theregister.com/offbeat/2026/05/26/gothenburgs-self-driving-bus-trammed-on-day-one/5246159",
+          "title": "MySQL faithful launch OurSQL Foundation to keep Oracle honest",
+          "link": "https://www.theregister.com/databases/2026/05/26/mysql-faithful-launch-oursql-foundation-to-keep-oracle-honest/5246451",
           "date": "May 26, 2026",
-          "excerpt": "Autonomous shuttle's second passenger trip ends with rear-end collision and a tow truck"
+          "excerpt": "Community group wants transparency, collaboration, and a clearer roadmap for the open source database"
         },
         {
-          "title": "Experts pour cold borscht on Farage's Russian hack claim",
-          "link": "https://www.theregister.com/security/2026/05/26/experts-question-nigel-farages-russian-phone-hacking-claims/5246114",
+          "title": "Bezos rocket fell short after cryogenic leak cut engine thrust",
+          "link": "https://www.theregister.com/science/2026/05/26/bezos-rocket-fell-short-after-cryogenic-leak-cut-engine-thrust/5246481",
           "date": "May 26, 2026",
-          "excerpt": "Reform UK leader alleges Moscow broke into his phone and leaked £5M gift story, but security specialists await evidence"
+          "excerpt": "Frozen hydraulic line blamed for leaving payload in the wrong orbit"
         },
         {
-          "title": "Logitech unveils a cushioned mouse for all-day use",
-          "link": "https://www.theregister.com/personal-tech/2026/05/26/logitech-unveils-a-cushioned-mouse-for-all-day-use/5246078",
+          "title": "Microsoft wants safer C# without turning it into Rust",
+          "link": "https://www.theregister.com/devops/2026/05/26/microsoft-wants-safer-c-without-turning-it-into-rust/5246359",
           "date": "May 26, 2026",
-          "excerpt": "Ideal for aching palms – though only if you're right-handed"
+          "excerpt": "Unsafe bits get a warning label in planned low-level coding shake-up"
         },
         {
-          "title": "Big Tech extracts retirement-scale wealth from UK internet users, research shows",
-          "link": "https://www.theregister.com/off-prem/2026/05/26/big-tech-extracts-retirement-scale-wealth-from-uk-internet-users-research-shows/5246048",
+          "title": "Starship shows it can deploy satellites, but Moon mission clock still ticks",
+          "link": "https://www.theregister.com/science/2026/05/26/starship-shows-it-can-deploy-satellites-but-moon-mission-clock-still-ticks/5246398",
           "date": "May 26, 2026",
-          "excerpt": "Britain's 'free' internet economy is powered by invisible data extraction that feeds advertisers, AI firms, and digital platforms"
+          "excerpt": "What's a tumbling Super Heavy and a skipped Raptor relight between friends?"
         }
       ]
     },
