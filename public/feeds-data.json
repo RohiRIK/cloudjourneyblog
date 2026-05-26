@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T17:27:28.033Z",
+  "updatedAt": "2026-05-26T07:35:16.043Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "7-Eleven data breach exposes personal information of 185,000 people",
+          "link": "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/",
+          "date": "May 26, 2026",
+          "excerpt": "The ShinyHunters extortion gang stole the personal information of over 183,000 people after hacking the systems of convenience store chain giant 7-Eleven in April, according to data breach notificatio"
+        },
+        {
           "title": "Anthropic’s restricted Claude Mythos model may be coming to Claude Code",
           "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
           "date": "May 25, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
           "date": "May 23, 2026",
           "excerpt": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to dist"
-        },
-        {
-          "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
-          "link": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
-          "date": "May 23, 2026",
-          "excerpt": "Italian authorities have dismantled a piracy ecosystem centered around the CINEMAGOAL app that provided access to various streaming platforms, including Netflix, Disney+, and Spotify. [...]"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Japanese Space Agency names arrival date for BepiColombo Mercury mission",
+          "link": "https://www.theregister.com/science/2026/05/26/japanese-space-agency-names-arrival-date-for-bepicolombo-mercury-mission/5245906",
+          "date": "May 26, 2026",
+          "excerpt": "Due on November 21, eleven months late - but on time to do science!"
+        },
+        {
+          "title": "Pope Leo warns AI boom can give Big Tech and the people who run it too much power",
+          "link": "https://www.theregister.com/ai-ml/2026/05/26/pope-leo-warns-ai-boom-can-give-big-tech-and-the-people-who-run-it-too-much-power/5245883",
+          "date": "May 26, 2026",
+          "excerpt": "Worries change may be ‘governed only by technocratic thinking and presented as necessary and inevitable’"
+        },
         {
           "title": "Google is cannibalizing the web to feed AI",
           "link": "https://www.theregister.com/ai-ml/2026/05/25/google-is-cannibalizing-the-web-to-feed-ai/5244641",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/networks/2026/05/25/under-trained-techie-didnt-claim-overtime-for-mistakenly-failing-to-phone-it-in/5242388",
           "date": "May 25, 2026",
           "excerpt": "After making a medical clinic's network rather ill, she 'kept working until I somewhat knew what I was doing'"
-        },
-        {
-          "title": "OpenBSD 7.9 arrives, a diamond in the rough proud of every sharp edge",
-          "link": "https://www.theregister.com/software/2026/05/25/openbsd-79-arrives-a-diamond-in-the-rough-proud-of-every-sharp-edge/5244877",
-          "date": "May 25, 2026",
-          "excerpt": "Sixtieth release adds more cores, delayed hibernation, and basic Wi-Fi 6 without losing its ascetic streak"
-        },
-        {
-          "title": "Anthropic to release Mythos-class models to the public",
-          "link": "https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596",
-          "date": "May 25, 2026",
-          "excerpt": "AI flaw-finder still under lock and key for now while company figures out guardrails, but extends access to more users including governments"
         }
       ]
     },
