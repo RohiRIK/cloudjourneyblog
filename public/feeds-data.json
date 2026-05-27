@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T02:11:34.353Z",
+  "updatedAt": "2026-05-27T11:27:59.117Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "CISA gives feds 4 days to patch actively exploited cPanel plugin flaw",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
+          "date": "May 27, 2026",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has given U.S. federal agencies four days to secure their servers against a critical vulnerability in the LiteSpeed cPanel user-end plu"
+        },
+        {
+          "title": "Dutch police arrests suspect linked to Ajax football club hack",
+          "link": "https://www.bleepingcomputer.com/news/security/dutch-police-arrests-suspect-linked-to-ajax-football-club-hack/",
+          "date": "May 27, 2026",
+          "excerpt": "The Dutch National Police arrested a 35-year-old man suspected of hacking the professional football club Ajax Amsterdam (AFC Ajax) earlier this year. [...]"
+        },
+        {
+          "title": "Windows 11 KB5089573 update released with performance improvements",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089573-update-released-with-performance-improvements/",
+          "date": "May 27, 2026",
+          "excerpt": "Microsoft has released the KB5089573 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 30 changes, including performance and reliability improvements. [...]"
+        },
+        {
           "title": "KnowledgeDeliver flaw exploited as a zero-day to install web shells",
           "link": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/",
           "date": "May 26, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
           "date": "May 26, 2026",
           "excerpt": "U.S. telecommunications giant Charter Communications has confirmed it suffered a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]"
-        },
-        {
-          "title": "How Varonis Atlas integrates Claude Compliance API for AI governance",
-          "link": "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
-          "date": "May 26, 2026",
-          "excerpt": "AI governance requires visibility into how AI tools interact with enterprise data. Varonis explains how its Atlas platform uses Claude Compliance API data to help monitor usage, investigate risk, and "
-        },
-        {
-          "title": "Microsoft Defender can now automatically isolate hacked endpoints",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-can-now-automatically-isolate-hacked-endpoints/",
-          "date": "May 26, 2026",
-          "excerpt": "Microsoft is testing a new Defender for Endpoint capability that will automatically isolate compromised endpoints to thwart attackers' attempts to move laterally across the network. [...]"
-        },
-        {
-          "title": "Webinar: Too many tools are slowing network incident response",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-too-many-tools-are-slowing-network-incident-response/",
-          "date": "May 26, 2026",
-          "excerpt": "IT teams often need to jump between monitoring dashboards, infrastructure tools, ticketing systems, and communication platforms during network incidents. This webinar explores how automation and AI-as"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "California may let Linux bypass age check",
-          "link": "https://www.theregister.com/software/2026/05/26/california-may-let-linux-bypass-age-check/5246575",
-          "date": "May 26, 2026",
-          "excerpt": "Exemption in amendment offers relief to open source software makers"
+          "title": "GitHub Actions outage told devs 'your account is suspended'",
+          "link": "https://www.theregister.com/devops/2026/05/27/github-actions-outage-told-devs-your-account-is-suspended/5246867",
+          "date": "May 27, 2026",
+          "excerpt": "Another day, another GitHub wobble - but the service keeps growing"
         },
         {
-          "title": "MyPillow must decide whether to be firm or soft as ransomware crims demand pay",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/26/mypillow-appears-on-play-ransomware-leak-site/5246513",
-          "date": "May 26, 2026",
-          "excerpt": "Guess they could deny the alleged intrusion … like the 2020 election results"
+          "title": "Microsoft Excel esports champ proves he still has the formula",
+          "link": "https://www.theregister.com/offbeat/2026/05/27/microsoft-excel-esports-champ-proves-he-still-has-the-formula/5246891",
+          "date": "May 27, 2026",
+          "excerpt": "Diarmuid Early dominates Amsterdam qualifier as competitive spreadsheeting sets sights on Vegas finals"
         },
         {
-          "title": "MySQL faithful launch OurSQL Foundation to keep Oracle honest",
-          "link": "https://www.theregister.com/databases/2026/05/26/mysql-faithful-launch-oursql-foundation-to-keep-oracle-honest/5246451",
-          "date": "May 26, 2026",
-          "excerpt": "Community group wants transparency, collaboration, and a clearer roadmap for the open source database"
+          "title": "6G: The next gen of wireless tech nobody's ready to pay for",
+          "link": "https://www.theregister.com/networks/2026/05/27/6g-the-next-gen-of-wireless-tech-nobodys-ready-to-pay-for/5246136",
+          "date": "May 27, 2026",
+          "excerpt": "Standards body on track for 2028 specs drop. Telcos on track for 2028 existential crisis about 5G ROI"
         },
         {
-          "title": "Bezos rocket fell short after cryogenic leak cut engine thrust",
-          "link": "https://www.theregister.com/science/2026/05/26/bezos-rocket-fell-short-after-cryogenic-leak-cut-engine-thrust/5246481",
-          "date": "May 26, 2026",
-          "excerpt": "Frozen hydraulic line blamed for leaving payload in the wrong orbit"
+          "title": "AWS whips out Graviton-powered Redshift instances, claims 7x speed for data warehouse",
+          "link": "https://www.theregister.com/databases/2026/05/27/aws-whips-out-graviton-powered-redshift-instances-claims-7x-speed-for-data-warehouse/5246148",
+          "date": "May 27, 2026",
+          "excerpt": "AI agents asking questions in natural language apparently issue a lot more queries than your average SQL jockey"
         },
         {
-          "title": "Microsoft wants safer C# without turning it into Rust",
-          "link": "https://www.theregister.com/devops/2026/05/26/microsoft-wants-safer-c-without-turning-it-into-rust/5246359",
-          "date": "May 26, 2026",
-          "excerpt": "Unsafe bits get a warning label in planned low-level coding shake-up"
+          "title": "InPost locker caught shipping unactivated Windows",
+          "link": "https://www.theregister.com/offbeat/2026/05/27/inpost-locker-caught-shipping-unactivated-windows/5245256",
+          "date": "May 27, 2026",
+          "excerpt": "Contactless collection meets Microsoft's licensing reminder"
         }
       ]
     },
