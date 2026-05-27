@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T18:16:59.632Z",
+  "updatedAt": "2026-05-27T21:44:47.860Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "GPU mining malware spreads via SEO poisoning, AI chatbots",
+          "link": "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/",
+          "date": "May 27, 2026",
+          "excerpt": "Threat actors are targeting systems with high-performance computers in an ongoing cryptojacking campaign spread through a coordinated SEO poisoning operation that also manipulated AI chatbot recommend"
+        },
+        {
           "title": "Can you enforce strong Active Directory password rules without frustrating users?",
           "link": "https://www.bleepingcomputer.com/news/security/can-you-enforce-strong-active-directory-password-rules-without-frustrating-users/",
           "date": "May 27, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
           "date": "May 27, 2026",
           "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has given U.S. federal agencies four days to secure their servers against a critical vulnerability in the LiteSpeed cPanel user-end plu"
-        },
-        {
-          "title": "Dutch police arrests suspect linked to Ajax football club hack",
-          "link": "https://www.bleepingcomputer.com/news/security/dutch-police-arrests-suspect-linked-to-ajax-football-club-hack/",
-          "date": "May 27, 2026",
-          "excerpt": "The Dutch National Police arrested a 35-year-old man suspected of hacking the professional football club Ajax Amsterdam (AFC Ajax) earlier this year. [...]"
         }
       ]
     },
@@ -102,7 +102,25 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "FBI: Get to know your IT guy – extortion crews are visiting law firms pretending to be tech support",
+          "title": "CrowdStrike, Google shatter Glassworm botnet",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/27/crowdstrike-google-shatter-glassworm-botnet/5247337",
+          "date": "May 27, 2026",
+          "excerpt": "Developer-targeted, supply-chain attacks all the rage these days"
+        },
+        {
+          "title": "Bosses blinded by confidence about shadow AI use by workers",
+          "link": "https://www.theregister.com/ai-ml/2026/05/27/bosses-blinded-by-confidence-about-shadow-ai-use-by-workers/5247275",
+          "date": "May 27, 2026",
+          "excerpt": "More than half of orgs in Okta survey faced an AI-related security incident or near miss last year"
+        },
+        {
+          "title": "AIs don't like religion - particularly Jehovah's Witnesses, study claims",
+          "link": "https://www.theregister.com/ai-ml/2026/05/27/ais-dont-like-religion-particularly-jehovahs-witnesses-study-claims/5247286",
+          "date": "May 27, 2026",
+          "excerpt": "LLMs prefer secular, rational reasoning, and while they'll still get religious on occasion, they have a negative view of Jehovah's Witnesses"
+        },
+        {
+          "title": "Extortion crews are visiting law firms pretending to be tech support, FBI warns",
           "link": "https://www.theregister.com/security/2026/05/27/fbi-crooks-enter-legal-offices-and-steal-data-via-usb-drive/5247212",
           "date": "May 27, 2026",
           "excerpt": "Cybercriminals still allowed to walk into office blocks and convince staff to let them plug in their own thumb drives"
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/ai-ml/2026/05/27/researchers-find-all-big-name-bots-bomb-eu-compliance-tests/5247176",
           "date": "May 27, 2026",
           "excerpt": "Given a chance, AI will be breaking the law, breaking the law"
-        },
-        {
-          "title": "Swift thinking buys NASA observatory a little more time before re-entry",
-          "link": "https://www.theregister.com/science/2026/05/27/swift-thinking-buys-nasa-observatory-a-little-more-time-before-re-entry/5247165",
-          "date": "May 27, 2026",
-          "excerpt": "Rescue mission might have until the end of summer after science operations halted"
-        },
-        {
-          "title": "4 in 10 AI agents headed for demotion or the rubbish bin",
-          "link": "https://www.theregister.com/ai-ml/2026/05/27/4-in-10-ai-agents-headed-for-demotion-or-the-rubbish-bin/5246964",
-          "date": "May 27, 2026",
-          "excerpt": "Gartner predicts governance struggles to plague rollout of this year’s much-hyped technology"
-        },
-        {
-          "title": "India's cyber agency sets clock at 12 hours to tackle exploited bugs as AI turns up the heat",
-          "link": "https://www.theregister.com/security/2026/05/27/cert-in-professes-12-hour-patching-for-ai-assisted-attacks/5247009",
-          "date": "May 27, 2026",
-          "excerpt": "CERT-In says internet-facing or critical systems should be patched, mitigated, or cut off within half a day where feasible"
         }
       ]
     },
