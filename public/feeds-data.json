@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-26T21:27:01.934Z",
+  "updatedAt": "2026-05-27T02:11:34.353Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
+          "date": "May 26, 2026",
+          "excerpt": "Microsoft exposes a cryptojacking campaign using SEO poisoning and ScreenConnect to target high-performance PCs, with malicious sites also surfaced through AI chatbots. The post From poisoned search r"
+        },
         {
           "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/",
           "date": "May 21, 2026",
           "excerpt": "Microsoft Security’s latest updates extend visibility, control, and protection across expanding ecosystems as organizations accelerate AI adoption. The post What’s new in Microsoft Security: May 2026 "
-        },
-        {
-          "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
-          "date": "May 20, 2026",
-          "excerpt": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials acros"
         }
       ]
     },
@@ -102,6 +102,12 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "California may let Linux bypass age check",
+          "link": "https://www.theregister.com/software/2026/05/26/california-may-let-linux-bypass-age-check/5246575",
+          "date": "May 26, 2026",
+          "excerpt": "Exemption in amendment offers relief to open source software makers"
+        },
+        {
           "title": "MyPillow must decide whether to be firm or soft as ransomware crims demand pay",
           "link": "https://www.theregister.com/cyber-crime/2026/05/26/mypillow-appears-on-play-ransomware-leak-site/5246513",
           "date": "May 26, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/devops/2026/05/26/microsoft-wants-safer-c-without-turning-it-into-rust/5246359",
           "date": "May 26, 2026",
           "excerpt": "Unsafe bits get a warning label in planned low-level coding shake-up"
-        },
-        {
-          "title": "Starship shows it can deploy satellites, but Moon mission clock still ticks",
-          "link": "https://www.theregister.com/science/2026/05/26/starship-shows-it-can-deploy-satellites-but-moon-mission-clock-still-ticks/5246398",
-          "date": "May 26, 2026",
-          "excerpt": "What's a tumbling Super Heavy and a skipped Raptor relight between friends?"
         }
       ]
     },
