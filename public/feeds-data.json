@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T11:27:59.117Z",
+  "updatedAt": "2026-05-27T18:16:59.632Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Can you enforce strong Active Directory password rules without frustrating users?",
+          "link": "https://www.bleepingcomputer.com/news/security/can-you-enforce-strong-active-directory-password-rules-without-frustrating-users/",
+          "date": "May 27, 2026",
+          "excerpt": "Strong Active Directory passwords don't have to come at the expense of usability. Specops Software explains how passphrases, breached password protection, and self-service resets can improve security "
+        },
+        {
+          "title": "Glassworm botnet disrupted after resilient C2 infrastructure takedown",
+          "link": "https://www.bleepingcomputer.com/news/security/glassworm-botnet-disrupted-after-resilient-c2-infrastructure-takedown/",
+          "date": "May 27, 2026",
+          "excerpt": "The Glassworm botnet targeting developers in software supply-chain attacks has been disrupted after researchers took down its resilient command-and-control infrastructure relying on Solana blockchain "
+        },
+        {
+          "title": "FBI warns of in-person data theft attacks from extortion gang",
+          "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-silent-ransom-group-in-person-data-theft-attacks/",
+          "date": "May 27, 2026",
+          "excerpt": "The FBI warned on Tuesday that the Silent Ransom Group (SRG) extortion gang is now targeting U.S.-based law firms in in-person data theft attacks. [...]"
+        },
+        {
           "title": "CISA gives feds 4 days to patch actively exploited cPanel plugin flaw",
           "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
           "date": "May 27, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/dutch-police-arrests-suspect-linked-to-ajax-football-club-hack/",
           "date": "May 27, 2026",
           "excerpt": "The Dutch National Police arrested a 35-year-old man suspected of hacking the professional football club Ajax Amsterdam (AFC Ajax) earlier this year. [...]"
-        },
-        {
-          "title": "Windows 11 KB5089573 update released with performance improvements",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089573-update-released-with-performance-improvements/",
-          "date": "May 27, 2026",
-          "excerpt": "Microsoft has released the KB5089573 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 30 changes, including performance and reliability improvements. [...]"
-        },
-        {
-          "title": "KnowledgeDeliver flaw exploited as a zero-day to install web shells",
-          "link": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/",
-          "date": "May 26, 2026",
-          "excerpt": "Hackers exploited a critical zero-day vulnerability in a server running the KnowledgeDeliver learning management system (LMS) to deploy the Godzilla web shell. [...]"
-        },
-        {
-          "title": "Charter confirms data breach after ShinyHunters extortion threat",
-          "link": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
-          "date": "May 26, 2026",
-          "excerpt": "U.S. telecommunications giant Charter Communications has confirmed it suffered a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "GitHub Actions outage told devs 'your account is suspended'",
-          "link": "https://www.theregister.com/devops/2026/05/27/github-actions-outage-told-devs-your-account-is-suspended/5246867",
+          "title": "FBI: Get to know your IT guy – extortion crews are visiting law firms pretending to be tech support",
+          "link": "https://www.theregister.com/security/2026/05/27/fbi-crooks-enter-legal-offices-and-steal-data-via-usb-drive/5247212",
           "date": "May 27, 2026",
-          "excerpt": "Another day, another GitHub wobble - but the service keeps growing"
+          "excerpt": "Cybercriminals still allowed to walk into office blocks and convince staff to let them plug in their own thumb drives"
         },
         {
-          "title": "Microsoft Excel esports champ proves he still has the formula",
-          "link": "https://www.theregister.com/offbeat/2026/05/27/microsoft-excel-esports-champ-proves-he-still-has-the-formula/5246891",
+          "title": "Researchers find all big-name bots bomb EU compliance tests",
+          "link": "https://www.theregister.com/ai-ml/2026/05/27/researchers-find-all-big-name-bots-bomb-eu-compliance-tests/5247176",
           "date": "May 27, 2026",
-          "excerpt": "Diarmuid Early dominates Amsterdam qualifier as competitive spreadsheeting sets sights on Vegas finals"
+          "excerpt": "Given a chance, AI will be breaking the law, breaking the law"
         },
         {
-          "title": "6G: The next gen of wireless tech nobody's ready to pay for",
-          "link": "https://www.theregister.com/networks/2026/05/27/6g-the-next-gen-of-wireless-tech-nobodys-ready-to-pay-for/5246136",
+          "title": "Swift thinking buys NASA observatory a little more time before re-entry",
+          "link": "https://www.theregister.com/science/2026/05/27/swift-thinking-buys-nasa-observatory-a-little-more-time-before-re-entry/5247165",
           "date": "May 27, 2026",
-          "excerpt": "Standards body on track for 2028 specs drop. Telcos on track for 2028 existential crisis about 5G ROI"
+          "excerpt": "Rescue mission might have until the end of summer after science operations halted"
         },
         {
-          "title": "AWS whips out Graviton-powered Redshift instances, claims 7x speed for data warehouse",
-          "link": "https://www.theregister.com/databases/2026/05/27/aws-whips-out-graviton-powered-redshift-instances-claims-7x-speed-for-data-warehouse/5246148",
+          "title": "4 in 10 AI agents headed for demotion or the rubbish bin",
+          "link": "https://www.theregister.com/ai-ml/2026/05/27/4-in-10-ai-agents-headed-for-demotion-or-the-rubbish-bin/5246964",
           "date": "May 27, 2026",
-          "excerpt": "AI agents asking questions in natural language apparently issue a lot more queries than your average SQL jockey"
+          "excerpt": "Gartner predicts governance struggles to plague rollout of this year’s much-hyped technology"
         },
         {
-          "title": "InPost locker caught shipping unactivated Windows",
-          "link": "https://www.theregister.com/offbeat/2026/05/27/inpost-locker-caught-shipping-unactivated-windows/5245256",
+          "title": "India's cyber agency sets clock at 12 hours to tackle exploited bugs as AI turns up the heat",
+          "link": "https://www.theregister.com/security/2026/05/27/cert-in-professes-12-hour-patching-for-ai-assisted-attacks/5247009",
           "date": "May 27, 2026",
-          "excerpt": "Contactless collection meets Microsoft's licensing reminder"
+          "excerpt": "CERT-In says internet-facing or critical systems should be patched, mitigated, or cut off within half a day where feasible"
         }
       ]
     },
