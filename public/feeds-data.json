@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T21:44:47.860Z",
+  "updatedAt": "2026-05-28T01:54:22.177Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "CrowdStrike, Google shatter Glassworm botnet",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/27/crowdstrike-google-shatter-glassworm-botnet/5247337",
+          "title": "Snowflake to burn $6B on AWS Graviton CPUs and AI accelerators",
+          "link": "https://www.theregister.com/off-prem/2026/05/27/snowflake-to-burn-6b-on-aws-graviton-cpus-ai-infra/5247475",
           "date": "May 27, 2026",
-          "excerpt": "Developer-targeted, supply-chain attacks all the rage these days"
+          "excerpt": "Dataware house gambles cloud conveniences, AI accelerated insights will justify the cost."
         },
         {
-          "title": "Bosses blinded by confidence about shadow AI use by workers",
-          "link": "https://www.theregister.com/ai-ml/2026/05/27/bosses-blinded-by-confidence-about-shadow-ai-use-by-workers/5247275",
+          "title": "FAA grounds SpaceX’s Starship after another launch mishap",
+          "link": "https://www.theregister.com/offbeat/2026/05/27/faa-grounds-spacexs-starship-after-another-launch-mishap/5247446",
           "date": "May 27, 2026",
-          "excerpt": "More than half of orgs in Okta survey faced an AI-related security incident or near miss last year"
+          "excerpt": "IPO? More like IP-uh-oh"
         },
         {
-          "title": "AIs don't like religion - particularly Jehovah's Witnesses, study claims",
-          "link": "https://www.theregister.com/ai-ml/2026/05/27/ais-dont-like-religion-particularly-jehovahs-witnesses-study-claims/5247286",
+          "title": "Malware dev tries to steal Claude users' secrets, writes npm slop, leaks own GitHub private token",
+          "link": "https://www.theregister.com/cyber-crime/2026/05/27/supply-chain-brain-drain-npm-attacker-foolishly-leaks-own-github-private-token/5247424",
           "date": "May 27, 2026",
-          "excerpt": "LLMs prefer secular, rational reasoning, and while they'll still get religious on occasion, they have a negative view of Jehovah's Witnesses"
+          "excerpt": "Script kiddies these days"
         },
         {
-          "title": "Extortion crews are visiting law firms pretending to be tech support, FBI warns",
-          "link": "https://www.theregister.com/security/2026/05/27/fbi-crooks-enter-legal-offices-and-steal-data-via-usb-drive/5247212",
+          "title": "Argonne flexes spare supercompute to build private AI inference service",
+          "link": "https://www.theregister.com/ai-ml/2026/05/27/argonne-flexes-spare-supercompute-to-build-private-ai-inference-servic/5247362",
           "date": "May 27, 2026",
-          "excerpt": "Cybercriminals still allowed to walk into office blocks and convince staff to let them plug in their own thumb drives"
+          "excerpt": "Think ChatDoE"
         },
         {
-          "title": "Researchers find all big-name bots bomb EU compliance tests",
-          "link": "https://www.theregister.com/ai-ml/2026/05/27/researchers-find-all-big-name-bots-bomb-eu-compliance-tests/5247176",
+          "title": "ICANN again intervenes to defend AFRINIC",
+          "link": "https://www.theregister.com/networks/2026/05/27/icann-again-intervenes-to-defend-afrinic/5246790",
           "date": "May 27, 2026",
-          "excerpt": "Given a chance, AI will be breaking the law, breaking the law"
+          "excerpt": "Africa’s regional internet registry and its longtime antagonist are fighting on old and new fronts"
         }
       ]
     },
