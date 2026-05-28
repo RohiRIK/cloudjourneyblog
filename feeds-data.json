@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-28T01:54:22.177Z",
+  "updatedAt": "2026-05-28T07:46:07.156Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Company CEO flooded file share with smut, called for help after he deleted it",
+          "link": "https://www.theregister.com/security/2026/05/28/company-ceo-flooded-file-share-with-smut-called-for-help-after-he-deleted-it/5247502",
+          "date": "May 28, 2026",
+          "excerpt": "Also, missing school iPad resurfaced after coach’s kids uploaded video to YouTube"
+        },
+        {
+          "title": "Most generative AI and custom model projects will be a bust: Gartner",
+          "link": "https://www.theregister.com/ai-ml/2026/05/28/most-generative-ai-and-custom-model-projects-will-be-a-bust-gartner/5247633",
+          "date": "May 28, 2026",
+          "excerpt": "To succeed, look to China"
+        },
+        {
+          "title": "Bare metal cloud servers now cheaper and more readily available than on-prem hardware, says Nutanix CEO",
+          "link": "https://www.theregister.com/virtualization/2026/05/28/bare-metal-cloud-servers-now-cheaper-and-more-readily-available-than-on-prem-hardware-says-nutanix-ceo/5247599",
+          "date": "May 28, 2026",
+          "excerpt": "Hyperscalers can get hardware before enterprise vendors and buyers don't much care where they land"
+        },
+        {
+          "title": "Salesforce waves bye-bye to UI in 'headless' embrace",
+          "link": "https://www.theregister.com/saas/2026/05/28/salesforce-waves-bye-bye-to-ui-in-headless-embrace/5247587",
+          "date": "May 28, 2026",
+          "excerpt": "Anthropic's use of Sales Cloud increased five-fold as its workers access Salesforce through Claude and Slack"
+        },
+        {
           "title": "Snowflake to burn $6B on AWS Graviton CPUs and AI accelerators",
           "link": "https://www.theregister.com/off-prem/2026/05/27/snowflake-to-burn-6b-on-aws-graviton-cpus-ai-infra/5247475",
           "date": "May 27, 2026",
           "excerpt": "Dataware house gambles cloud conveniences, AI accelerated insights will justify the cost."
-        },
-        {
-          "title": "FAA grounds SpaceX’s Starship after another launch mishap",
-          "link": "https://www.theregister.com/offbeat/2026/05/27/faa-grounds-spacexs-starship-after-another-launch-mishap/5247446",
-          "date": "May 27, 2026",
-          "excerpt": "IPO? More like IP-uh-oh"
-        },
-        {
-          "title": "Malware dev tries to steal Claude users' secrets, writes npm slop, leaks own GitHub private token",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/27/supply-chain-brain-drain-npm-attacker-foolishly-leaks-own-github-private-token/5247424",
-          "date": "May 27, 2026",
-          "excerpt": "Script kiddies these days"
-        },
-        {
-          "title": "Argonne flexes spare supercompute to build private AI inference service",
-          "link": "https://www.theregister.com/ai-ml/2026/05/27/argonne-flexes-spare-supercompute-to-build-private-ai-inference-servic/5247362",
-          "date": "May 27, 2026",
-          "excerpt": "Think ChatDoE"
-        },
-        {
-          "title": "ICANN again intervenes to defend AFRINIC",
-          "link": "https://www.theregister.com/networks/2026/05/27/icann-again-intervenes-to-defend-afrinic/5246790",
-          "date": "May 27, 2026",
-          "excerpt": "Africa’s regional internet registry and its longtime antagonist are fighting on old and new fronts"
         }
       ]
     },
