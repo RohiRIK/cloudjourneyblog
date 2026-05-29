@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-28T18:29:07.166Z",
+  "updatedAt": "2026-05-29T07:45:11.934Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
+          "date": "May 29, 2026",
+          "excerpt": "The Mini Shai-Hulud campaign used malicious npm packages to target cloud and CI/CD credentials across developer environments. This report details the attack chain, detection opportunities, and mitigat"
+        },
         {
           "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/from-edge-appliance-to-enterprise-compromise-multi-stage-linux-intrusion-via-f5-and-confluence/",
           "date": "May 22, 2026",
           "excerpt": "A multi-stage attack on Linux devices began with an exposed F5 BIG-IP edge appliance and pivoted to an internal Confluence server for credential theft and identity compromise. Learn how the threat act"
-        },
-        {
-          "title": "Microsoft Security success stories: How St. Luke’s and ManpowerGroup are securing AI foundations",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-security-success-stories-how-st-lukes-and-manpowergroup-are-securing-ai-foundations/",
-          "date": "May 22, 2026",
-          "excerpt": "How Frontier firms secure AI at scale: read how Microsoft customers embed governance, identity, and cloud security to make protection an enabler of AI growth. The post Microsoft Security success stori"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
+          "date": "May 29, 2026",
+          "excerpt": "Anthropic has confirmed that it plans to bring Mythos-class models to the general public after delaying the rollout due to security risks to public and private software. [...]"
+        },
+        {
+          "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
+          "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
+          "date": "May 28, 2026",
+          "excerpt": "A likely Russian threat cluster tracked as GreyVibe has been targeting Ukrainian entities with AI-generated lures and a rich set of custom malware tools. [...]"
+        },
+        {
+          "title": "BTMOB Android malware service generates custom phishing payloads",
+          "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
+          "date": "May 28, 2026",
+          "excerpt": "An Android remote access trojan named BTMOB is offered to cybercriminals with a builder interface for generating malware payloads tailored to phishing lures. [...]"
+        },
+        {
+          "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
+          "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
+          "date": "May 28, 2026",
+          "excerpt": "The FBI is warning of fake websites impersonating FIFA ahead of the 2026 World Cup, to steal personal and financial information, sell fake tickets and hospitality packages, and push other fraud relate"
+        },
+        {
           "title": "Hackers exploit FortiClient EMS flaw to push infostealer malware",
           "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
           "date": "May 28, 2026",
           "excerpt": "Hackers are exploiting an authentication bypass vulnerability (CVE-2026-35616) in FortiClient Enterprise Management Server (EMS) to deliver an undocumented credential stealer called EKZ. [...]"
-        },
-        {
-          "title": "New Gogs zero-day flaw lets hackers get remote code execution",
-          "link": "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
-          "date": "May 28, 2026",
-          "excerpt": "An unpatched zero-day vulnerability in the Gogs self-hosted Git service can allow attackers to gain remote code execution (RCE) on Internet-facing instances. [...]"
-        },
-        {
-          "title": " How SIEM helps MSPs reduce noise and stop threats faster",
-          "link": "https://www.bleepingcomputer.com/news/security/how-siem-helps-msps-reduce-noise-and-stop-threats-faster/",
-          "date": "May 28, 2026",
-          "excerpt": "MSPs don't lack security data. They struggle to separate real threats from alert noise. Kaseya explains how SIEM helps MSPs improve visibility, reduce fatigue, and respond faster. [...]"
-        },
-        {
-          "title": "Romanian gets 5 years in prison for hacking Oregon govt network",
-          "link": "https://www.bleepingcomputer.com/news/security/romanian-gets-5-years-in-prison-for-hacking-oregon-govt-network/",
-          "date": "May 28, 2026",
-          "excerpt": "A Romanian national was sentenced this week to 56 months in federal prison for breaking into an Oregon state government computer network and fr cyberattacks targeting dozens of other U.S. victims. [.."
-        },
-        {
-          "title": "Webinar: Why network incidents take too long to resolve",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-take-too-long-to-resolve/",
-          "date": "May 28, 2026",
-          "excerpt": "Many organizations can detect network issues quickly, but investigations and coordination often slow incident resolution. This webinar explores how automation and AI-assisted workflows can help IT tea"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Microsoft tests the 15-character limit of Windows Server admins' patience",
-          "link": "https://www.theregister.com/oses/2026/05/28/microsoft-tests-the-15-character-limit-of-windows-server-admins-patience/5247943",
-          "date": "May 28, 2026",
-          "excerpt": "May security update trips over hostnames of a very specific length"
+          "title": "Russian oligarch's financial network crashed thanks to a crank and a cleaner",
+          "link": "https://www.theregister.com/networks/2026/05/29/russian-oligarchs-financial-network-crashed-thanks-to-a-crank-and-a-cleaner/5243167",
+          "date": "May 29, 2026",
+          "excerpt": "What a wind-up!"
         },
         {
-          "title": "Europe told to cool its datacenter boom before water and power run short",
-          "link": "https://www.theregister.com/on-prem/2026/05/28/europe-told-to-cool-its-datacenter-boom-before-water-and-power-run-short/5247994",
+          "title": "Troops’ phones gave away location data to foreign adversaries",
+          "link": "https://www.theregister.com/security/2026/05/28/troops-phones-leaked-location-data-to-foreign-adversaries/5248108",
           "date": "May 28, 2026",
-          "excerpt": "Get the balance right, Grundfos says, and the region will be a shining example of how to do it without sacrificing the environment"
+          "excerpt": "Lawmakers push DoD to tighten smartphone controls after adversaries exploited commercial tracking data"
         },
         {
-          "title": "Zig creator seeks 'uncompromising perfection' before blessing 1.0",
-          "link": "https://www.theregister.com/software/2026/05/28/zig-creator-seeks-uncompromising-perfection-before-blessing-10/5247916",
+          "title": "Disgruntled 0-day hunter 'humiliated' by Microsoft pledges 'bone shattering drop' as Redmond calls cops",
+          "link": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
           "date": "May 28, 2026",
-          "excerpt": "Andrew Kelley interview describes paying monthly for cloud-powered AI coding as an 'insane proposition'"
+          "excerpt": "Six 0-days, three under active exploitation, more to come on July 14?"
         },
         {
-          "title": "Three in ten HP customers still clinging to Windows 10",
-          "link": "https://www.theregister.com/personal-tech/2026/05/28/three-in-ten-hp-customers-still-clinging-to-windows-10/5247884",
+          "title": "Snowflake buys Natoma to help freeze out rogue agents",
+          "link": "https://www.theregister.com/ai-ml/2026/05/28/snowflake-buys-natoma-to-help-freeze-out-rogue-agents/5248062",
           "date": "May 28, 2026",
-          "excerpt": "Refresh cycle sluggishness is a tailwind, insists PC giant's money people"
+          "excerpt": "It is the database titan’s sixth acquisition announcement since June 2025"
         },
         {
-          "title": "Qualcomm picks bad time to pitch a $300 laptop platform",
-          "link": "https://www.theregister.com/systems/2026/05/28/qualcomm-picks-bad-time-to-pitch-a-300-laptop-platform/5247841",
+          "title": "Google, Canonical team up to certify Ubuntu images for TPU VMs",
+          "link": "https://www.theregister.com/off-prem/2026/05/28/google-canonical-team-up-to-certify-ubuntu-images-for-tpu-vms/5248028",
           "date": "May 28, 2026",
-          "excerpt": "Systems based on Snapdragon C to target students, families, and small businesses"
+          "excerpt": "Chocolate Factory shifts Tensor Processing Unit Ubuntu support back upstream"
         }
       ]
     },
