@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T11:18:43.345Z",
+  "updatedAt": "2026-05-29T14:37:29.914Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
+          "link": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
+          "date": "May 29, 2026",
+          "excerpt": "DDoS attacks are increasingly being sold like subscription services, complete with pricing tiers, support, and reseller programs. Flare explores how the DDoS-as-a-Service market has evolved from scatt"
+        },
+        {
+          "title": "Dutch govt disrupts malware botnet with 17 million infected devices",
+          "link": "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
+          "date": "May 29, 2026",
+          "excerpt": "Dutch authorities have taken offline a massive botnet of 17 million devices and seized more than 200 servers at a local provider that supported the operation. [...]"
+        },
+        {
+          "title": "Google Chrome adds session cookie theft protection for all users",
+          "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
+          "date": "May 29, 2026",
+          "excerpt": "Google says the Chrome Device Bound Session Credentials (DBSC) security feature is now generally available and is rolling out to all users to prevent account takeovers. [...]"
+        },
+        {
           "title": "Man sent to prison for selling data of 7 millions elderly Americans",
           "link": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
           "date": "May 29, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/",
           "date": "May 29, 2026",
           "excerpt": "A Google security engineer was charged with insider trading after winning $1.2 million using confidential company data to place bets on the cryptocurrency-based Polymarket decentralized prediction mar"
-        },
-        {
-          "title": "Charter Communications data breach affects 4.9 million accounts",
-          "link": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-          "date": "May 29, 2026",
-          "excerpt": "The ShinyHunters extortion gang stole personal information from 4.9 million accounts after hacking the U.S. telecom giant Charter Communications in early April, according to data breach notification s"
-        },
-        {
-          "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
-          "date": "May 29, 2026",
-          "excerpt": "Anthropic has confirmed that it plans to bring Mythos-class models to the general public after delaying the rollout due to security risks to public and private software. [...]"
-        },
-        {
-          "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-          "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-          "date": "May 28, 2026",
-          "excerpt": "A likely Russian threat cluster tracked as GreyVibe has been targeting Ukrainian entities with AI-generated lures and a rich set of custom malware tools. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "ShinyHunters adds Charter to trophy shelf after 4.9M customer records leak",
-          "link": "https://www.theregister.com/cyber-crime/2026/05/29/shinyhunters-adds-charter-to-trophy-shelf-after-49m-customer-records-leak/5248281",
+          "title": "Dutch cops wrest 17M devices from mystery botnet's clutches",
+          "link": "https://www.theregister.com/security/2026/05/29/dutch-cops-liberate-17m-devices-from-botnets-clutches/5248312",
           "date": "May 29, 2026",
-          "excerpt": "Telco giant says no sensitive data was taken, though names, addresses, phones, and emails are now out there"
+          "excerpt": "Hosting provider pulled the plug after police traced 200 servers to the Netherlands"
         },
         {
-          "title": "That an app 'Fits on a Floppy' is still a useful measure in 2026",
-          "link": "https://www.theregister.com/software/2026/05/29/that-an-app-fits-on-a-floppy-is-still-a-useful-measure-in-2026/5247224",
+          "title": "FCC warns US broadcasters their licenses are a privilege, not a right",
+          "link": "https://www.theregister.com/offbeat/2026/05/29/fcc-warns-us-broadcasters-their-licenses-are-a-privilege-not-a-right/5248393",
           "date": "May 29, 2026",
-          "excerpt": "In a world of mass-produced bot-slopware, small is more beautiful than ever"
+          "excerpt": "TV and radio stations told to review current practices to align with public interest obligations"
         },
         {
-          "title": "Jammin' on UK defence secretary's jet as Russia blamed for GPS interference",
-          "link": "https://www.theregister.com/networks/2026/05/29/jammin-on-uk-defence-secretarys-jet-as-russia-blamed-for-gps-interference/5247673",
+          "title": "ChatGPT blindly trusts browser content, turning the page into a payload",
+          "link": "https://www.theregister.com/research/2026/05/29/chatgpt-prompt-injection-turns-web-pages-into-phishing-lures/5248137",
           "date": "May 29, 2026",
-          "excerpt": "Estonian academic fingers mobile tower-mounted devices as Kremlin tries to swat Ukrainian forces"
+          "excerpt": "You and me go ChatGPhish-ing in the dark"
         },
         {
-          "title": "Russian oligarch's financial network crashed thanks to a crank and a cleaner",
-          "link": "https://www.theregister.com/networks/2026/05/29/russian-oligarchs-financial-network-crashed-thanks-to-a-crank-and-a-cleaner/5243167",
+          "title": "Russia-linked threat group put ChatGPT to work from lure to payload",
+          "link": "https://www.theregister.com/research/2026/05/29/russia-linked-threat-group-put-chatgpt-to-work-from-lure-to-payload/5248368",
           "date": "May 29, 2026",
-          "excerpt": "What a wind-up!"
+          "excerpt": "Researchers say 'GREYVIBE' crew used AI tools throughout a campaign targeting Ukrainian military and government"
         },
         {
-          "title": "Troops’ phones gave away location data to foreign adversaries",
-          "link": "https://www.theregister.com/security/2026/05/28/troops-phones-leaked-location-data-to-foreign-adversaries/5248108",
-          "date": "May 28, 2026",
-          "excerpt": "Lawmakers push DoD to tighten smartphone controls after adversaries exploited commercial tracking data"
+          "title": "Blue Origin's New Glenn makes a crater-sized dent in Artemis plans",
+          "link": "https://www.theregister.com/science/2026/05/29/blue-origins-new-glenn-makes-a-crater-sized-dent-in-artemis-plans/5248336",
+          "date": "May 29, 2026",
+          "excerpt": "Explosion wrecks rocket and pad, leaving NASA's lunar ambitions looking less than launch-ready"
         }
       ]
     },
