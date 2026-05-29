@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-29T14:37:29.914Z",
+  "updatedAt": "2026-05-29T18:25:51.605Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/microsoft-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-endpoint-protection/",
+          "date": "May 29, 2026",
+          "excerpt": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection. The post Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection appeared fir"
+        },
         {
           "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
           "date": "May 22, 2026",
           "excerpt": "Microsoft has been recognized as a Leader in The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026, receiving the highest scores in both the current offering and strategy categories. The"
-        },
-        {
-          "title": "From edge appliance to enterprise compromise: Multi-stage Linux intrusion via F5 and Confluence",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/from-edge-appliance-to-enterprise-compromise-multi-stage-linux-intrusion-via-f5-and-confluence/",
-          "date": "May 22, 2026",
-          "excerpt": "A multi-stage attack on Linux devices began with an exposed F5 BIG-IP edge appliance and pivoted to an internal Confluence server for credential theft and identity compromise. Learn how the threat act"
         }
       ]
     },
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
+          "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
+          "date": "May 29, 2026",
+          "excerpt": "Threat actors are abusing ChatGPT's content-sharing feature to display fake OpenAI outage pages that direct users to download malware disguised as the ChatGPT desktop application. [...]"
+        },
+        {
+          "title": "California AG sues 23andMe over 2023 breach exposing health data",
+          "link": "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
+          "date": "May 29, 2026",
+          "excerpt": "California Attorney General Rob Bonta filed a lawsuit against 23andMe, now Chrome Holding Co., over the company's failure to protect sensitive customer genetic and personal information. [...]"
+        },
+        {
           "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
           "link": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
           "date": "May 29, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
           "date": "May 29, 2026",
           "excerpt": "Google says the Chrome Device Bound Session Credentials (DBSC) security feature is now generally available and is rolling out to all users to prevent account takeovers. [...]"
-        },
-        {
-          "title": "Man sent to prison for selling data of 7 millions elderly Americans",
-          "link": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
-          "date": "May 29, 2026",
-          "excerpt": "A North Carolina man was sentenced to more than 10 years in prison for selling the personal information of over 7 million elderly Americans to Jamaican scammers. [...]"
-        },
-        {
-          "title": "US charges Google security engineer with Polymarket insider trading",
-          "link": "https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/",
-          "date": "May 29, 2026",
-          "excerpt": "A Google security engineer was charged with insider trading after winning $1.2 million using confidential company data to place bets on the cryptocurrency-based Polymarket decentralized prediction mar"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Dutch cops wrest 17M devices from mystery botnet's clutches",
-          "link": "https://www.theregister.com/security/2026/05/29/dutch-cops-liberate-17m-devices-from-botnets-clutches/5248312",
+          "title": "QEMU mulls relaxing AI contribution ban",
+          "link": "https://www.theregister.com/ai-ml/2026/05/29/qemu-mulls-relaxing-ai-contribution-ban/5248638",
           "date": "May 29, 2026",
-          "excerpt": "Hosting provider pulled the plug after police traced 200 servers to the Netherlands"
+          "excerpt": "Red Hat engineer reckons the balance of risk has shifted, but core code stays off limits"
         },
         {
-          "title": "FCC warns US broadcasters their licenses are a privilege, not a right",
-          "link": "https://www.theregister.com/offbeat/2026/05/29/fcc-warns-us-broadcasters-their-licenses-are-a-privilege-not-a-right/5248393",
+          "title": "23andMe inherits lawsuit over 'disturbing' DNA data breach",
+          "link": "https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565",
           "date": "May 29, 2026",
-          "excerpt": "TV and radio stations told to review current practices to align with public interest obligations"
+          "excerpt": "California AG claims genetics biz downplayed 2023 mega-leak while paying ransom to attacker"
         },
         {
-          "title": "ChatGPT blindly trusts browser content, turning the page into a payload",
-          "link": "https://www.theregister.com/research/2026/05/29/chatgpt-prompt-injection-turns-web-pages-into-phishing-lures/5248137",
+          "title": "UCLA seeks pre-litigation resolution with Oracle",
+          "link": "https://www.theregister.com/software/2026/05/29/ucla-seeks-pre-litigation-resolution-with-oracle/5248474",
           "date": "May 29, 2026",
-          "excerpt": "You and me go ChatGPhish-ing in the dark"
+          "excerpt": "Discussion understood to concern delayed SaaS transformation project"
         },
         {
-          "title": "Russia-linked threat group put ChatGPT to work from lure to payload",
-          "link": "https://www.theregister.com/research/2026/05/29/russia-linked-threat-group-put-chatgpt-to-work-from-lure-to-payload/5248368",
+          "title": "AI and data sovereignty in Postgres: An answer to the datacenter energy crisis",
+          "link": "https://www.theregister.com/ai-ml/2026/05/29/ai-and-data-sovereignty-in-postgres-an-answer-to-the-datacenter-energy-crisis/5248178",
           "date": "May 29, 2026",
-          "excerpt": "Researchers say 'GREYVIBE' crew used AI tools throughout a campaign targeting Ukrainian military and government"
+          "excerpt": "A billion AI agents walk into a power grid"
         },
         {
-          "title": "Blue Origin's New Glenn makes a crater-sized dent in Artemis plans",
-          "link": "https://www.theregister.com/science/2026/05/29/blue-origins-new-glenn-makes-a-crater-sized-dent-in-artemis-plans/5248336",
+          "title": "Microsoft slaps new coat of paint on Copilot, buries annoying button",
+          "link": "https://www.theregister.com/ai-ml/2026/05/29/microsoft-slaps-new-coat-of-paint-on-copilot-buries-annoying-button/5248442",
           "date": "May 29, 2026",
-          "excerpt": "Explosion wrecks rocket and pad, leaving NASA's lunar ambitions looking less than launch-ready"
+          "excerpt": "Look, says Redmond, usage up 27-43% based on one week of data - admits it 'may not be indicative of long-term usage trends'"
         }
       ]
     },
