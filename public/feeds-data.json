@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-30T09:50:10.210Z",
+  "updatedAt": "2026-05-30T13:00:38.490Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,12 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Wikipedia editors plot strike and banner sabotage after Wikimedia layoffs",
+          "link": "https://www.theregister.com/software/2026/05/30/wikipedia-editors-plot-strike-and-banner-sabotage-after-wikimedia-layoffs/5248491",
+          "date": "May 30, 2026",
+          "excerpt": "Foundation sparks revolt after disbanding team responsible for many community-requested fixes and moderation tools"
+        },
+        {
           "title": "Rocket exhibit at National Space Centre pulls off unintentional NASA SLS impression",
           "link": "https://www.theregister.com/offbeat/2026/05/30/rocket-exhibit-at-national-space-centre-pulls-off-unintentional-nasa-sls-impression/5248248",
           "date": "May 30, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/ai-ml/2026/05/29/okta-writes-its-own-license-to-kill-rogue-ai-agents/5248766",
           "date": "May 29, 2026",
           "excerpt": "CEO Todd McKinnon says customers including ServiceNow want an off switch"
-        },
-        {
-          "title": "ICE to keep an eye on your eyes under $25M biometric scanner deal",
-          "link": "https://www.theregister.com/public-sector/2026/05/29/ice-awards-bi2-25m-contract-for-1570-biometric-scanners/5248733",
-          "date": "May 29, 2026",
-          "excerpt": "And you thought a face recognition app was intrusive?"
         }
       ]
     },
