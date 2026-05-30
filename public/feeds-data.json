@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-30T06:39:32.913Z",
+  "updatedAt": "2026-05-30T09:50:10.210Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,12 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Rocket exhibit at National Space Centre pulls off unintentional NASA SLS impression",
+          "link": "https://www.theregister.com/offbeat/2026/05/30/rocket-exhibit-at-national-space-centre-pulls-off-unintentional-nasa-sls-impression/5248248",
+          "date": "May 30, 2026",
+          "excerpt": "5, 4, 3, 2, 1... pfft"
+        },
+        {
           "title": "AWS reportedly to tuck Elon Musk's Grok into Bedrock, despite zero enterprise demand",
           "link": "https://www.theregister.com/ai-ml/2026/05/29/aws-reportedly-to-tuck-elon-musks-grok-into-bedrock-despite-zero-enterprise-demand/5248832",
           "date": "May 29, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/public-sector/2026/05/29/ice-awards-bi2-25m-contract-for-1570-biometric-scanners/5248733",
           "date": "May 29, 2026",
           "excerpt": "And you thought a face recognition app was intrusive?"
-        },
-        {
-          "title": "No fix yet for critical RCE bug in open-source Git service Gogs - exploit module is out",
-          "link": "https://www.theregister.com/security/2026/05/29/no-fix-yet-for-critical-gogs-rce-bug-exploit-module-is-out/5248691",
-          "date": "May 29, 2026",
-          "excerpt": "Researcher reported the vuln in March. Maintainers haven't responded to his messages since"
         }
       ]
     },
