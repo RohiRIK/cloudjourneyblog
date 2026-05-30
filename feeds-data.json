@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-05-29T18:25:51.605Z",
+  "updatedAt": "2026-05-30T01:57:31.699Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Malicious npm packages abuse dependency confusion to profile developer environments",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
+          "date": "May 30, 2026",
+          "excerpt": "A dependency confusion campaign leveraged 33 malicious npm packages to collect reconnaissance data from developer and build environments. This report details the attack chain, observed tradecraft, and"
+        },
         {
           "title": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/microsoft-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-endpoint-protection/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
           "date": "May 26, 2026",
           "excerpt": "Microsoft exposes a cryptojacking campaign using SEO poisoning and ScreenConnect to target high-performance PCs, with malicious sites also surfaced through AI chatbots. The post From poisoned search r"
-        },
-        {
-          "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
-          "date": "May 22, 2026",
-          "excerpt": "Microsoft has been recognized as a Leader in The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026, receiving the highest scores in both the current offering and strategy categories. The"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "QEMU mulls relaxing AI contribution ban",
-          "link": "https://www.theregister.com/ai-ml/2026/05/29/qemu-mulls-relaxing-ai-contribution-ban/5248638",
+          "title": "AWS reportedly to tuck Elon Musk's Grok into Bedrock, despite zero enterprise demand",
+          "link": "https://www.theregister.com/ai-ml/2026/05/29/aws-reportedly-to-tuck-elon-musks-grok-into-bedrock-despite-zero-enterprise-demand/5248832",
           "date": "May 29, 2026",
-          "excerpt": "Red Hat engineer reckons the balance of risk has shifted, but core code stays off limits"
+          "excerpt": "The energy drink of frontier models"
         },
         {
-          "title": "23andMe inherits lawsuit over 'disturbing' DNA data breach",
-          "link": "https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565",
+          "title": "Lone attacker published 14 malicious npm packages mimicking popular OpenSearch, Elasticsearch libraries",
+          "link": "https://www.theregister.com/security/2026/05/29/14-malicious-npm-packages-impersonated-opensearch-elasticsearch-libraries/5248792",
           "date": "May 29, 2026",
-          "excerpt": "California AG claims genetics biz downplayed 2023 mega-leak while paying ransom to attacker"
+          "excerpt": "And then Microsoft busted them all"
         },
         {
-          "title": "UCLA seeks pre-litigation resolution with Oracle",
-          "link": "https://www.theregister.com/software/2026/05/29/ucla-seeks-pre-litigation-resolution-with-oracle/5248474",
+          "title": "Okta writes its own license to kill rogue AI agents ",
+          "link": "https://www.theregister.com/ai-ml/2026/05/29/okta-writes-its-own-license-to-kill-rogue-ai-agents/5248766",
           "date": "May 29, 2026",
-          "excerpt": "Discussion understood to concern delayed SaaS transformation project"
+          "excerpt": "CEO Todd McKinnon says customers including ServiceNow want an off switch"
         },
         {
-          "title": "AI and data sovereignty in Postgres: An answer to the datacenter energy crisis",
-          "link": "https://www.theregister.com/ai-ml/2026/05/29/ai-and-data-sovereignty-in-postgres-an-answer-to-the-datacenter-energy-crisis/5248178",
+          "title": "ICE to keep an eye on your eyes under $25M biometric scanner deal",
+          "link": "https://www.theregister.com/public-sector/2026/05/29/ice-awards-bi2-25m-contract-for-1570-biometric-scanners/5248733",
           "date": "May 29, 2026",
-          "excerpt": "A billion AI agents walk into a power grid"
+          "excerpt": "And you thought a face recognition app was intrusive?"
         },
         {
-          "title": "Microsoft slaps new coat of paint on Copilot, buries annoying button",
-          "link": "https://www.theregister.com/ai-ml/2026/05/29/microsoft-slaps-new-coat-of-paint-on-copilot-buries-annoying-button/5248442",
+          "title": "No fix yet for critical RCE bug in open-source Git service Gogs - exploit module is out",
+          "link": "https://www.theregister.com/security/2026/05/29/no-fix-yet-for-critical-gogs-rce-bug-exploit-module-is-out/5248691",
           "date": "May 29, 2026",
-          "excerpt": "Look, says Redmond, usage up 27-43% based on one week of data - admits it 'may not be indicative of long-term usage trends'"
+          "excerpt": "Researcher reported the vuln in March. Maintainers haven't responded to his messages since"
         }
       ]
     },
