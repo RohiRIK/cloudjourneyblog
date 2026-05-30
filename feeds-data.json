@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-30T16:50:45.383Z",
+  "updatedAt": "2026-05-30T20:42:56.482Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
+          "date": "May 30, 2026",
+          "excerpt": "Palo Alto Networks is warning that hackers are now exploiting a PAN-OS GlobalProtect authentication bypass flaw, tracked as CVE-2026-0257, in attacks attempting to breach corporate networks. [...]"
+        },
+        {
           "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
           "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
           "date": "May 30, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
           "date": "May 29, 2026",
           "excerpt": "DDoS attacks are increasingly being sold like subscription services, complete with pricing tiers, support, and reseller programs. Flare explores how the DDoS-as-a-Service market has evolved from scatt"
-        },
-        {
-          "title": "Dutch govt disrupts malware botnet with 17 million infected devices",
-          "link": "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
-          "date": "May 29, 2026",
-          "excerpt": "Dutch authorities have taken offline a massive botnet of 17 million devices and seized more than 200 servers at a local provider that supported the operation. [...]"
         }
       ]
     },
