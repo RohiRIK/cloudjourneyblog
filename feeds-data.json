@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T02:12:29.719Z",
+  "updatedAt": "2026-05-31T13:10:17.261Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,12 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Netflix wiz creates app to slash AI bills, then open sources it",
+          "link": "https://www.theregister.com/ai-ml/2026/05/31/netflix-wiz-creates-app-to-slash-ai-bills-then-open-sources-it/5248702",
+          "date": "May 31, 2026",
+          "excerpt": "Project Headroom could save you big money, too"
+        },
+        {
           "title": "Wikipedia editors plot strike and banner sabotage after Wikimedia layoffs",
           "link": "https://www.theregister.com/software/2026/05/30/wikipedia-editors-plot-strike-and-banner-sabotage-after-wikimedia-layoffs/5248491",
           "date": "May 30, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/security/2026/05/29/14-malicious-npm-packages-impersonated-opensearch-elasticsearch-libraries/5248792",
           "date": "May 29, 2026",
           "excerpt": "And then Microsoft busted them all"
-        },
-        {
-          "title": "Okta writes its own license to kill rogue AI agents ",
-          "link": "https://www.theregister.com/ai-ml/2026/05/29/okta-writes-its-own-license-to-kill-rogue-ai-agents/5248766",
-          "date": "May 29, 2026",
-          "excerpt": "CEO Todd McKinnon says customers including ServiceNow want an off switch"
         }
       ]
     },
