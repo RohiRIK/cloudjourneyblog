@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-01T02:34:13.772Z",
+  "updatedAt": "2026-06-01T09:10:00.738Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "LLMs are closer to religion than they appear. Watch out for those who like it that way",
+          "link": "https://www.theregister.com/ai-ml/2026/06/01/llms-are-closer-to-religion-than-they-appear-watch-out-for-those-who-like-it-that-way/5248189",
+          "date": "Jun 1, 2026",
+          "excerpt": "Papal's 40k-word encyclical drops and lawyers already asking if Catholics can refuse workplace AI on religious grounds"
+        },
+        {
+          "title": "Techie expensed a bag of oranges and then juiced up a stupid security incident",
+          "link": "https://www.theregister.com/offbeat/2026/06/01/techie-expensed-a-bag-of-oranges-and-then-juiced-up-a-stupid-security-incident/5243953",
+          "date": "Jun 1, 2026",
+          "excerpt": "He knew this was amazingly dumb but couldn’t stop laughing as the fruit went splat"
+        },
+        {
+          "title": "If cores are what agents crave, Intel's new Clearwater Xeon 6+ might just quench their thirst",
+          "link": "https://www.theregister.com/systems/2026/06/01/intel-launches-288-core-clearwater-forest-xeon-6-on-18a-process/5248150",
+          "date": "Jun 1, 2026",
+          "excerpt": "Chipzilla’s first 2nm-class Xeon is finally here bristling with 288 cores"
+        },
+        {
+          "title": "Intel Diamond Rapids to boost core counts to 192, but RIP Hyperthreading",
+          "link": "https://www.theregister.com/systems/2026/06/01/intels-next-gen-xeons-to-pack-192-cores-abandon-smt/5248940",
+          "date": "Jun 1, 2026",
+          "excerpt": "Threads on a half shell, Intel power!"
+        },
+        {
           "title": "Exploding rockets and exploding hardware prices make for a lousy new normal",
           "link": "https://www.theregister.com/personal-tech/2026/06/01/exploding-rockets-and-exploding-hardware-prices-make-for-a-lousy-new-normal/5248601",
           "date": "May 31, 2026",
           "excerpt": "This week on The Kettle, we mull over whether the Steam Deck is a canary in the coal mine for the future of hardware prices, and the effect of Blue Origin's blowout on NASA's Moon missions"
-        },
-        {
-          "title": "Netflix wiz creates app to slash AI bills, then open sources it",
-          "link": "https://www.theregister.com/ai-ml/2026/05/31/netflix-wiz-creates-app-to-slash-ai-bills-then-open-sources-it/5248702",
-          "date": "May 31, 2026",
-          "excerpt": "Project Headroom could save you big money, too"
-        },
-        {
-          "title": "Wikipedia editors plot strike and banner sabotage after Wikimedia layoffs",
-          "link": "https://www.theregister.com/software/2026/05/30/wikipedia-editors-plot-strike-and-banner-sabotage-after-wikimedia-layoffs/5248491",
-          "date": "May 30, 2026",
-          "excerpt": "Foundation sparks revolt after disbanding team responsible for many community-requested fixes and moderation tools"
-        },
-        {
-          "title": "Rocket exhibit at National Space Centre pulls off unintentional NASA SLS impression",
-          "link": "https://www.theregister.com/offbeat/2026/05/30/rocket-exhibit-at-national-space-centre-pulls-off-unintentional-nasa-sls-impression/5248248",
-          "date": "May 30, 2026",
-          "excerpt": "5, 4, 3, 2, 1... pfft"
-        },
-        {
-          "title": "AWS reportedly to tuck Elon Musk's Grok into Bedrock, despite zero enterprise demand",
-          "link": "https://www.theregister.com/ai-ml/2026/05/29/aws-reportedly-to-tuck-elon-musks-grok-into-bedrock-despite-zero-enterprise-demand/5248832",
-          "date": "May 29, 2026",
-          "excerpt": "The energy drink of frontier models"
         }
       ]
     },
