@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T13:10:17.261Z",
+  "updatedAt": "2026-06-01T02:34:13.772Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
+          "link": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
+          "date": "May 31, 2026",
+          "excerpt": "Hackers are targeting WordPress websites running a vulnerable version of the WP Maps Pro plugin, which allows creating rogue administrator accounts without authentication. [...]"
+        },
+        {
           "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
           "link": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
           "date": "May 30, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
           "date": "May 29, 2026",
           "excerpt": "California Attorney General Rob Bonta filed a lawsuit against 23andMe, now Chrome Holding Co., over the company's failure to protect sensitive customer genetic and personal information. [...]"
-        },
-        {
-          "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
-          "link": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
-          "date": "May 29, 2026",
-          "excerpt": "DDoS attacks are increasingly being sold like subscription services, complete with pricing tiers, support, and reseller programs. Flare explores how the DDoS-as-a-Service market has evolved from scatt"
         }
       ]
     },
@@ -101,6 +101,12 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Exploding rockets and exploding hardware prices make for a lousy new normal",
+          "link": "https://www.theregister.com/personal-tech/2026/06/01/exploding-rockets-and-exploding-hardware-prices-make-for-a-lousy-new-normal/5248601",
+          "date": "May 31, 2026",
+          "excerpt": "This week on The Kettle, we mull over whether the Steam Deck is a canary in the coal mine for the future of hardware prices, and the effect of Blue Origin's blowout on NASA's Moon missions"
+        },
         {
           "title": "Netflix wiz creates app to slash AI bills, then open sources it",
           "link": "https://www.theregister.com/ai-ml/2026/05/31/netflix-wiz-creates-app-to-slash-ai-bills-then-open-sources-it/5248702",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/ai-ml/2026/05/29/aws-reportedly-to-tuck-elon-musks-grok-into-bedrock-despite-zero-enterprise-demand/5248832",
           "date": "May 29, 2026",
           "excerpt": "The energy drink of frontier models"
-        },
-        {
-          "title": "Lone attacker published 14 malicious npm packages mimicking popular OpenSearch, Elasticsearch libraries",
-          "link": "https://www.theregister.com/security/2026/05/29/14-malicious-npm-packages-impersonated-opensearch-elasticsearch-libraries/5248792",
-          "date": "May 29, 2026",
-          "excerpt": "And then Microsoft busted them all"
         }
       ]
     },
