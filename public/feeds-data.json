@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T02:33:28.309Z",
+  "updatedAt": "2026-06-02T15:56:19.292Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Instagram users locked out after Meta AI abused to steal accounts",
+          "link": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
+          "date": "Jun 2, 2026",
+          "excerpt": "Multiple Instagram users had their accounts hijacked after attackers convinced Meta's AI-powered support tools that they were the legitimate owners. [...]"
+        },
+        {
+          "title": "Why the browser is now the front line for AI security",
+          "link": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/",
+          "date": "Jun 2, 2026",
+          "excerpt": "AI-powered attacks and shadow AI adoption are creating new security risks inside the browser. Push Security explains why browser visibility is becoming critical for both threat detection and AI govern"
+        },
+        {
+          "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
+          "date": "Jun 2, 2026",
+          "excerpt": "CISA has ordered government agencies to secure their systems against a high-severity Oracle WebLogic Server vulnerability that was patched two years ago and is now actively exploited in attacks. [...]"
+        },
+        {
+          "title": "Google fixes one actively exploited Android zero-day, 124 flaws",
+          "link": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
+          "date": "Jun 2, 2026",
+          "excerpt": "Google has released the June 2026 Android security patches to address 124 vulnerabilities, including one zero-day flaw exploited in targeted attacks. [...]"
+        },
+        {
           "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
           "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
           "date": "Jun 1, 2026",
           "excerpt": "A threat actor tracked as DriveSurge has been operating large-scale malware distribution campaigns using ClickFix and FakeUpdates techniques on compromised sites. [...]"
-        },
-        {
-          "title": "Red Hat npm packages compromised to steal developer credentials",
-          "link": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
-          "date": "Jun 1, 2026",
-          "excerpt": "More than 30 npm packages under Red Hat's '@redhat-cloud-services' namespace were compromised in a supply-chain attack that distributed a new variant of the Shai-Hulud credential-stealing malware, dub"
-        },
-        {
-          "title": "Spain arrests doxer leaking sensitive data of govt employees",
-          "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
-          "date": "Jun 1, 2026",
-          "excerpt": "The Spanish National Police has arrested an individual for leaking sensitive information related to members of various key state organizations, including the National Cybersecurity Institute (INCIBE)."
-        },
-        {
-          "title": "Dashlane password manager users locked out by brute force attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
-          "date": "Jun 1, 2026",
-          "excerpt": "Multiple Dashlane users have been locked out of their accounts following brute-force attacks that attempted logins from distant locations and unknown devices. [...]"
-        },
-        {
-          "title": "WordPress malware campaign hides payloads in Steam profiles",
-          "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
-          "date": "Jun 1, 2026",
-          "excerpt": "Nearly 2,000 WordPress websites were infected with malware that relies on Steam Community profile comments to hide command-and-control (C2) data. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Angry devs vow to flee GitHub Copilot as metered billing takes hold",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/02/github-copilot-users-threaten-exit-as-metered-billing-kicks-in/5249826",
-          "date": "Jun 1, 2026",
-          "excerpt": "'16% of my monthly Pro+ allowance. Gone. For basically nothing'"
+          "title": "Marvell enters the AI network fray with 102.4 Tbps switch silicon",
+          "link": "https://www.theregister.com/networks/2026/06/02/marvell-enters-the-ai-network-fray-with-1024-tbps-switch-silicon/5250180",
+          "date": "Jun 2, 2026",
+          "excerpt": "High radix, low latency and low power is what AI datacenters crave, the chipmaker says"
         },
         {
-          "title": "Shai-Hulud malware worms Red Hat npm package versions downloaded 80K times a week",
-          "link": "https://www.theregister.com/security/2026/06/01/shai-hulud-malware-infects-red-hat-npm-packages-downloaded-80k-times-weekly/5249803",
-          "date": "Jun 1, 2026",
-          "excerpt": "TeamPCP? Or copycat malware dev?"
+          "title": "Enhanced performance for server consolidation with Intel Xeon 6+",
+          "link": "https://www.theregister.com/systems/2026/06/02/enhanced-performance-for-server-consolidation-with-intel-xeon-6/5249881",
+          "date": "Jun 2, 2026",
+          "excerpt": "SPONSORED POST: How Intel’s first 18A data center CPU delivers efficiency and TCO gains, with Intel's Kira Boyko"
         },
         {
-          "title": "Election interlopers register 5K+ domains, hope to catch some voting phish",
-          "link": "https://www.theregister.com/security/2026/06/01/5k-election-domains-registered-ahead-of-us-midterms/5249764",
-          "date": "Jun 1, 2026",
-          "excerpt": "Hacking voting machines is so 2017. Phishing, impersonation pose the real election risks"
+          "title": "Russian spy agency says foreign spies turned officials' smartphones into surveillance devices",
+          "link": "https://www.theregister.com/security/2026/06/02/russian-spy-agency-says-foreign-spies-turned-officials-smartphones-into-surveillance-devices/5250099",
+          "date": "Jun 2, 2026",
+          "excerpt": "FSB claims large-scale snoop op compromised phones of senior officials, but gives no technical evidence to back allegations"
         },
         {
-          "title": "Anthropic, now atop the AI bubble, files for its IPO",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/01/anthropic-now-atop-the-ai-bubble-files-for-its-ipo/5249753",
-          "date": "Jun 1, 2026",
-          "excerpt": "First it tops OpenAI's valuation, then it beats Altman to the IPO punch"
+          "title": "Expect more of those DRAM price hikes as memory shortage continues to bite",
+          "link": "https://www.theregister.com/storage/2026/06/02/expect-more-of-those-dram-price-hikes-as-memory-shortage-continues-to-bite/5250049",
+          "date": "Jun 2, 2026",
+          "excerpt": "Chip costs may rise another 63% this quarter, as effects feed through to PC pricing"
         },
         {
-          "title": "US firms still dominate chip subsidies",
-          "link": "https://www.theregister.com/systems/2026/06/01/us-firms-still-dominate-chip-subsidies/5249668",
-          "date": "Jun 1, 2026",
-          "excerpt": "China's support is greater relative to semiconductor industry revenue"
+          "title": "'Resistance is futile,' says Qualcomm CEO. AI agents will be become invisible, inescapable, follow you across devices",
+          "link": "https://www.theregister.com/personal-tech/2026/06/02/qualcomm-ai-agents-will-be-as-transparent-as-they-will-be-inescapable/5249894",
+          "date": "Jun 2, 2026",
+          "excerpt": "Your personal Jarvis or an end to privacy as we know it?"
         }
       ]
     },
