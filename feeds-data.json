@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-01T17:13:58.571Z",
+  "updatedAt": "2026-06-02T02:33:28.309Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
+          "date": "Jun 1, 2026",
+          "excerpt": "A threat actor tracked as DriveSurge has been operating large-scale malware distribution campaigns using ClickFix and FakeUpdates techniques on compromised sites. [...]"
+        },
+        {
+          "title": "Red Hat npm packages compromised to steal developer credentials",
+          "link": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
+          "date": "Jun 1, 2026",
+          "excerpt": "More than 30 npm packages under Red Hat's '@redhat-cloud-services' namespace were compromised in a supply-chain attack that distributed a new variant of the Shai-Hulud credential-stealing malware, dub"
+        },
+        {
+          "title": "Spain arrests doxer leaking sensitive data of govt employees",
+          "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
+          "date": "Jun 1, 2026",
+          "excerpt": "The Spanish National Police has arrested an individual for leaking sensitive information related to members of various key state organizations, including the National Cybersecurity Institute (INCIBE)."
+        },
+        {
+          "title": "Dashlane password manager users locked out by brute force attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+          "date": "Jun 1, 2026",
+          "excerpt": "Multiple Dashlane users have been locked out of their accounts following brute-force attacks that attempted logins from distant locations and unknown devices. [...]"
+        },
+        {
           "title": "WordPress malware campaign hides payloads in Steam profiles",
           "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
           "date": "Jun 1, 2026",
           "excerpt": "Nearly 2,000 WordPress websites were infected with malware that relies on Steam Community profile comments to hide command-and-control (C2) data. [...]"
-        },
-        {
-          "title": "Microsoft investigates Office Apps, Teams file access issues",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
-          "date": "Jun 1, 2026",
-          "excerpt": "Microsoft says an ongoing incident is preventing users of its Teams collaboration platform and Office for the web cloud-based productivity suite from opening files. [...]"
-        },
-        {
-          "title": "Race Against Time: Why Faster Vulnerability Alerts Matter",
-          "link": "https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/",
-          "date": "Jun 1, 2026",
-          "excerpt": "Attackers are exploiting vulnerabilities faster than many organizations can identify and patch them. SecAlerts explains why faster vulnerability alerts can help reduce exposure and improve response ti"
-        },
-        {
-          "title": "Critical Windows Netlogon RCE flaw now exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/",
-          "date": "Jun 1, 2026",
-          "excerpt": "The Centre for Cybersecurity Belgium (CCB), the country's national authority for cybersecurity, warned on Friday that threat actors are now exploiting a recently patched critical Windows Netlogon vuln"
-        },
-        {
-          "title": "Webinar tomorrow: From alert to resolution in network incident response",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/",
-          "date": "Jun 1, 2026",
-          "excerpt": "Network incidents are often detected quickly, but investigations and coordination can delay resolution. Join our webinar tomorrow to learn how automation and AI-assisted workflows can help IT teams ac"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Ohio hits pause on datacenter tax breaks draining its coffers",
-          "link": "https://www.theregister.com/on-prem/2026/06/01/ohio-hits-pause-on-datacenter-tax-breaks-draining-its-coffers/5249137",
+          "title": "Angry devs vow to flee GitHub Copilot as metered billing takes hold",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/02/github-copilot-users-threaten-exit-as-metered-billing-kicks-in/5249826",
           "date": "Jun 1, 2026",
-          "excerpt": "Buckeye State found it had inadvertently joined the billion dollar losers' club"
+          "excerpt": "'16% of my monthly Pro+ allowance. Gone. For basically nothing'"
         },
         {
-          "title": "GTA cheat service Atlas Menu hacked as attacker alleges screenshot spying",
-          "link": "https://www.theregister.com/security/2026/06/01/gta-cheat-service-atlas-menu-hacked-as-attacker-alleges-screenshot-spying/5249192",
+          "title": "Shai-Hulud malware worms Red Hat npm package versions downloaded 80K times a week",
+          "link": "https://www.theregister.com/security/2026/06/01/shai-hulud-malware-infects-red-hat-npm-packages-downloaded-80k-times-weekly/5249803",
           "date": "Jun 1, 2026",
-          "excerpt": "A database containing 64,000 user records was published to GitHub after an attacker claimed to have compromised all Atlas systems"
+          "excerpt": "TeamPCP? Or copycat malware dev?"
         },
         {
-          "title": "California passes bill declaring death-by-algorithm to 3D-printed ghost guns",
-          "link": "https://www.theregister.com/personal-tech/2026/06/01/california-passes-ban-on-3d-printed-firearms/5249148",
+          "title": "Election interlopers register 5K+ domains, hope to catch some voting phish",
+          "link": "https://www.theregister.com/security/2026/06/01/5k-election-domains-registered-ahead-of-us-midterms/5249764",
           "date": "Jun 1, 2026",
-          "excerpt": "Last-hour amendments aim to allay privacy concerns, but broad scepticism about feasibility remains"
+          "excerpt": "Hacking voting machines is so 2017. Phishing, impersonation pose the real election risks"
         },
         {
-          "title": "Agent-led devs need serverless OpenSearch, Amazon claims ",
-          "link": "https://www.theregister.com/databases/2026/06/01/agent-led-devs-need-serverless-opensearch-amazon-claims/5249033",
+          "title": "Anthropic, now atop the AI bubble, files for its IPO",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/01/anthropic-now-atop-the-ai-bubble-files-for-its-ipo/5249753",
           "date": "Jun 1, 2026",
-          "excerpt": "System relies on a proprietary storage layer as AWS moves to separate storage and compute to fit mega AI demands"
+          "excerpt": "First it tops OpenAI's valuation, then it beats Altman to the IPO punch"
         },
         {
-          "title": "Palo Alto VPN bug graduates from advisory to active exploitation",
-          "link": "https://www.theregister.com/cyber-crime/2026/06/01/palo-alto-vpn-bug-graduates-from-advisory-to-active-exploitation/5249114",
+          "title": "US firms still dominate chip subsidies",
+          "link": "https://www.theregister.com/systems/2026/06/01/us-firms-still-dominate-chip-subsidies/5249668",
           "date": "Jun 1, 2026",
-          "excerpt": "Rapid7: Attackers exploit authentication bypass flaw in the wild, meaning more emergency patching for PAN-OS users"
+          "excerpt": "China's support is greater relative to semiconductor industry revenue"
         }
       ]
     },
