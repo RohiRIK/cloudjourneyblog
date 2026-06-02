@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-06-02T15:56:19.292Z",
+  "updatedAt": "2026-06-02T19:36:42.098Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Microsoft Build 2026: Securing code, agents, and models across the development lifecycle",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+          "date": "Jun 2, 2026",
+          "excerpt": "Discover how Microsoft enables fast, secure AI development with MDASH and new security capabilities. The post Microsoft Build 2026: Securing code, agents, and models across the development lifecycle a"
+        },
         {
           "title": "Malicious npm packages abuse dependency confusion to profile developer environments",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
           "date": "May 28, 2026",
           "excerpt": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an agg"
-        },
-        {
-          "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
-          "date": "May 26, 2026",
-          "excerpt": "Microsoft exposes a cryptojacking campaign using SEO poisoning and ScreenConnect to target high-performance PCs, with malicious sites also surfaced through AI chatbots. The post From poisoned search r"
         }
       ]
     },
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft Exchange Online outage causes email delays, failures",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-delays-failures/",
+          "date": "Jun 2, 2026",
+          "excerpt": "Microsoft is working to address a widespread service issue affecting the mail flow pipeline for Exchange Online customers across North America and Germany. [...]"
+        },
+        {
           "title": "Instagram users locked out after Meta AI abused to steal accounts",
           "link": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
           "date": "Jun 2, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
           "date": "Jun 2, 2026",
           "excerpt": "Google has released the June 2026 Android security patches to address 124 vulnerabilities, including one zero-day flaw exploited in targeted attacks. [...]"
-        },
-        {
-          "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
-          "date": "Jun 1, 2026",
-          "excerpt": "A threat actor tracked as DriveSurge has been operating large-scale malware distribution campaigns using ClickFix and FakeUpdates techniques on compromised sites. [...]"
         }
       ]
     },
@@ -101,6 +101,12 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Remote work – not AI – is killing job prospects for the youth",
+          "link": "https://www.theregister.com/cxo/2026/06/02/remote-work-not-ai-is-killing-job-prospects-for-the-youth/5250241",
+          "date": "Jun 2, 2026",
+          "excerpt": "Young professionals may be perfectly productive while working from home, says the New York Fed, but the quality of their output isn't so great, so companies don't want to hire them"
+        },
         {
           "title": "Marvell enters the AI network fray with 102.4 Tbps switch silicon",
           "link": "https://www.theregister.com/networks/2026/06/02/marvell-enters-the-ai-network-fray-with-1024-tbps-switch-silicon/5250180",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/storage/2026/06/02/expect-more-of-those-dram-price-hikes-as-memory-shortage-continues-to-bite/5250049",
           "date": "Jun 2, 2026",
           "excerpt": "Chip costs may rise another 63% this quarter, as effects feed through to PC pricing"
-        },
-        {
-          "title": "'Resistance is futile,' says Qualcomm CEO. AI agents will be become invisible, inescapable, follow you across devices",
-          "link": "https://www.theregister.com/personal-tech/2026/06/02/qualcomm-ai-agents-will-be-as-transparent-as-they-will-be-inescapable/5249894",
-          "date": "Jun 2, 2026",
-          "excerpt": "Your personal Jarvis or an end to privacy as we know it?"
         }
       ]
     },
