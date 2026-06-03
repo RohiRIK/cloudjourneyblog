@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-06-02T19:36:42.098Z",
+  "updatedAt": "2026-06-03T16:14:40.755Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/",
+          "date": "Jun 3, 2026",
+          "excerpt": "A large-scale npm supply chain attack compromised over 90 versions of @redhat-cloud-services packages, silently infecting CI/CD environments and developer systems. The malicious code steals credential"
+        },
         {
           "title": "Microsoft Build 2026: Securing code, agents, and models across the development lifecycle",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
           "date": "May 29, 2026",
           "excerpt": "The Mini Shai-Hulud campaign used malicious npm packages to target cloud and CI/CD credentials across developer environments. This report details the attack chain, detection opportunities, and mitigat"
-        },
-        {
-          "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
-          "date": "May 28, 2026",
-          "excerpt": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an agg"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Microsoft Exchange Online outage causes email delays, failures",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-delays-failures/",
-          "date": "Jun 2, 2026",
-          "excerpt": "Microsoft is working to address a widespread service issue affecting the mail flow pipeline for Exchange Online customers across North America and Germany. [...]"
+          "title": "CISA warns of active attacks exploiting Android, Linux bugs",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
+          "date": "Jun 3, 2026",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting vulnerabilities in the Linux kernel and Android operating system. [...]"
         },
         {
-          "title": "Instagram users locked out after Meta AI abused to steal accounts",
-          "link": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
-          "date": "Jun 2, 2026",
-          "excerpt": "Multiple Instagram users had their accounts hijacked after attackers convinced Meta's AI-powered support tools that they were the legitimate owners. [...]"
+          "title": "What 345 Days of Untested Exposure Looks Like at a Bank",
+          "link": "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/",
+          "date": "Jun 3, 2026",
+          "excerpt": "A two-week penetration test can leave roughly 345 days of real-world exposure unvalidated. Sprocket Security explores why continuous testing is becoming critical as attack surfaces constantly change. "
         },
         {
-          "title": "Why the browser is now the front line for AI security",
-          "link": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/",
-          "date": "Jun 2, 2026",
-          "excerpt": "AI-powered attacks and shadow AI adoption are creating new security risks inside the browser. Push Security explains why browser visibility is becoming critical for both threat detection and AI govern"
+          "title": "Acer working to patch max severity zero-days in Wave 7 routers",
+          "link": "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/",
+          "date": "Jun 3, 2026",
+          "excerpt": "Acer is working to address two maximum-severity zero-day vulnerabilities affecting its Wave 7 mesh routers. [...]"
         },
         {
-          "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
-          "date": "Jun 2, 2026",
-          "excerpt": "CISA has ordered government agencies to secure their systems against a high-severity Oracle WebLogic Server vulnerability that was patched two years ago and is now actively exploited in attacks. [...]"
+          "title": "Police dismantles 9 crime groups in illegal streaming crackdown",
+          "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
+          "date": "Jun 3, 2026",
+          "excerpt": "European and international law enforcement agencies have dismantled nine organized crime groups and arrested 29 suspects in a major crackdown on illegal streaming operations. [...]"
         },
         {
-          "title": "Google fixes one actively exploited Android zero-day, 124 flaws",
-          "link": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
-          "date": "Jun 2, 2026",
-          "excerpt": "Google has released the June 2026 Android security patches to address 124 vulnerabilities, including one zero-day flaw exploited in targeted attacks. [...]"
+          "title": "Google adds Android protection against AI deepfake scam calls",
+          "link": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
+          "date": "Jun 3, 2026",
+          "excerpt": "Google is introducing a new Android security feature that will detect and flag phone calls in which scammers use artificial intelligence to impersonate a user's personal contacts. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Remote work – not AI – is killing job prospects for the youth",
-          "link": "https://www.theregister.com/cxo/2026/06/02/remote-work-not-ai-is-killing-job-prospects-for-the-youth/5250241",
-          "date": "Jun 2, 2026",
-          "excerpt": "Young professionals may be perfectly productive while working from home, says the New York Fed, but the quality of their output isn't so great, so companies don't want to hire them"
+          "title": "The tech that could make Marvell the next trillion dollar company ",
+          "link": "https://www.theregister.com/networks/2026/06/03/the-tech-that-could-make-marvell-the-next-trillion-dollar-company/5250472",
+          "date": "Jun 3, 2026",
+          "excerpt": "CU later, rivals? That's if Broadzilla doesn't eat its lunch first"
         },
         {
-          "title": "Marvell enters the AI network fray with 102.4 Tbps switch silicon",
-          "link": "https://www.theregister.com/networks/2026/06/02/marvell-enters-the-ai-network-fray-with-1024-tbps-switch-silicon/5250180",
-          "date": "Jun 2, 2026",
-          "excerpt": "High radix, low latency and low power is what AI datacenters crave, the chipmaker says"
+          "title": "AI agents can now manipulate your organization. Are you ready?",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/03/ai-agents-can-now-manipulate-your-organization-are-you-ready/5250444",
+          "date": "Jun 3, 2026",
+          "excerpt": "SPONSORED POST: Agents with hands require a hands-on policy"
         },
         {
-          "title": "Enhanced performance for server consolidation with Intel Xeon 6+",
-          "link": "https://www.theregister.com/systems/2026/06/02/enhanced-performance-for-server-consolidation-with-intel-xeon-6/5249881",
-          "date": "Jun 2, 2026",
-          "excerpt": "SPONSORED POST: How Intel’s first 18A data center CPU delivers efficiency and TCO gains, with Intel's Kira Boyko"
+          "title": "Another bug hunter leaks Microsoft exploits in defiance of company’s handling of vulnerability disclosures",
+          "link": "https://www.theregister.com/security/2026/06/03/another-bug-hunter-leaks-microsoft-exploits-in-defiance-of-companys-handling-of-vulnerability-disclosures/5250590",
+          "date": "Jun 3, 2026",
+          "excerpt": "Researchers follow in Nightmare Eclipse’s footsteps, flipping off Redmond in favor of insta-leaks"
         },
         {
-          "title": "Russian spy agency says foreign spies turned officials' smartphones into surveillance devices",
-          "link": "https://www.theregister.com/security/2026/06/02/russian-spy-agency-says-foreign-spies-turned-officials-smartphones-into-surveillance-devices/5250099",
-          "date": "Jun 2, 2026",
-          "excerpt": "FSB claims large-scale snoop op compromised phones of senior officials, but gives no technical evidence to back allegations"
+          "title": "Microsoft Build: Surface RTX Spark Dev Box, Coreutils for Windows, air-gapped GitHub and more",
+          "link": "https://www.theregister.com/os-platforms/2026/06/03/microsoft-build-surface-rtx-spark-dev-box-coreutils-for-windows-air-gapped-github-and-more/5250501",
+          "date": "Jun 3, 2026",
+          "excerpt": "Execution Containers provide safe environment for running AI agents, while Windows Developer Config aims to make Windows less unpleasant for developers"
         },
         {
-          "title": "Expect more of those DRAM price hikes as memory shortage continues to bite",
-          "link": "https://www.theregister.com/storage/2026/06/02/expect-more-of-those-dram-price-hikes-as-memory-shortage-continues-to-bite/5250049",
-          "date": "Jun 2, 2026",
-          "excerpt": "Chip costs may rise another 63% this quarter, as effects feed through to PC pricing"
+          "title": "Listen up, England. The Health Secretary is going to be data controller for everyone's Single Patient Record",
+          "link": "https://www.theregister.com/public-sector/2026/06/03/listen-up-england-the-health-secretary-is-going-to-be-data-controller-for-everyones-single-patient-record/5250626",
+          "date": "Jun 3, 2026",
+          "excerpt": "No, public bucket policy doesn't mean everyone gets a bucket for themselves. Please let Tech do it. Don't go into Settings... NOOOOOO!"
         }
       ]
     },
