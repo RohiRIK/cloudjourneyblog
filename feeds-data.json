@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-03T16:14:40.755Z",
+  "updatedAt": "2026-06-03T22:22:34.635Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
+          "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
+          "date": "Jun 3, 2026",
+          "excerpt": "A Chinese-speaking cybercrime group has expanded its targeting to the European space, deploying previously undocumented malware and the Atlas backdoor. [...]"
+        },
+        {
+          "title": "The U.S. sanctions Nobitex crypto exchange used by ransomware",
+          "link": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
+          "date": "Jun 3, 2026",
+          "excerpt": "The U.S. Treasury's Office of Foreign Assets Control (OFAC) has announced sanctions against Nobitex, Iran's largest cryptocurrency exchange, for facilitating payments related to terrorist activities. "
+        },
+        {
+          "title": " CISA warns of cyberattacks targeting fuel tank monitoring systems",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
+          "date": "Jun 3, 2026",
+          "excerpt": "CISA, the FBI, the NSA, the Department of Energy, and other US government partners are warning that hackers are targeting internet-exposed automatic tank gauge (ATG) systems used to monitor fuel and l"
+        },
+        {
+          "title": "New 'HTTP/2 Bomb' DoS attack crashes web servers in under a minute",
+          "link": "https://www.bleepingcomputer.com/news/security/new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute/",
+          "date": "Jun 3, 2026",
+          "excerpt": "A new denial-of-service (DoS) attack dubbed HTTP/2 Bomb can be launched from a single machine to take down web servers within seconds. [...]"
+        },
+        {
           "title": "CISA warns of active attacks exploiting Android, Linux bugs",
           "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
           "date": "Jun 3, 2026",
           "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting vulnerabilities in the Linux kernel and Android operating system. [...]"
-        },
-        {
-          "title": "What 345 Days of Untested Exposure Looks Like at a Bank",
-          "link": "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/",
-          "date": "Jun 3, 2026",
-          "excerpt": "A two-week penetration test can leave roughly 345 days of real-world exposure unvalidated. Sprocket Security explores why continuous testing is becoming critical as attack surfaces constantly change. "
-        },
-        {
-          "title": "Acer working to patch max severity zero-days in Wave 7 routers",
-          "link": "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/",
-          "date": "Jun 3, 2026",
-          "excerpt": "Acer is working to address two maximum-severity zero-day vulnerabilities affecting its Wave 7 mesh routers. [...]"
-        },
-        {
-          "title": "Police dismantles 9 crime groups in illegal streaming crackdown",
-          "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
-          "date": "Jun 3, 2026",
-          "excerpt": "European and international law enforcement agencies have dismantled nine organized crime groups and arrested 29 suspects in a major crackdown on illegal streaming operations. [...]"
-        },
-        {
-          "title": "Google adds Android protection against AI deepfake scam calls",
-          "link": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
-          "date": "Jun 3, 2026",
-          "excerpt": "Google is introducing a new Android security feature that will detect and flag phone calls in which scammers use artificial intelligence to impersonate a user's personal contacts. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "The tech that could make Marvell the next trillion dollar company ",
-          "link": "https://www.theregister.com/networks/2026/06/03/the-tech-that-could-make-marvell-the-next-trillion-dollar-company/5250472",
+          "title": "Bend the beam like Beckham to defeat anti-jamming tech",
+          "link": "https://www.theregister.com/networks/2026/06/03/curving-beams-could-fool-anti-jamming-tech/5250872",
           "date": "Jun 3, 2026",
-          "excerpt": "CU later, rivals? That's if Broadzilla doesn't eat its lunch first"
+          "excerpt": "It's hard to stop a signal jammer if you can't locate the source, say Rice University researchers"
         },
         {
-          "title": "AI agents can now manipulate your organization. Are you ready?",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/03/ai-agents-can-now-manipulate-your-organization-are-you-ready/5250444",
+          "title": "Grep this: Microsoft grafts (most) Linux commands onto Windows",
+          "link": "https://www.theregister.com/os-platforms/2026/06/03/grep-this-microsoft-grafts-most-linux-commands-onto-windows/5250796",
           "date": "Jun 3, 2026",
-          "excerpt": "SPONSORED POST: Agents with hands require a hands-on policy"
+          "excerpt": "Coreutils serves over 75 Unix commands in Windows and PowerShell command lines"
         },
         {
-          "title": "Another bug hunter leaks Microsoft exploits in defiance of company’s handling of vulnerability disclosures",
-          "link": "https://www.theregister.com/security/2026/06/03/another-bug-hunter-leaks-microsoft-exploits-in-defiance-of-companys-handling-of-vulnerability-disclosures/5250590",
+          "title": "Ring gets buzzed by class action for collecting visitors' faces without consent",
+          "link": "https://www.theregister.com/personal-tech/2026/06/03/ring-faces-class-action-over-facial-recognition-feature/5250661",
           "date": "Jun 3, 2026",
-          "excerpt": "Researchers follow in Nightmare Eclipse’s footsteps, flipping off Redmond in favor of insta-leaks"
+          "excerpt": "The latest in a series of raised eyebrows over Familiar Faces and other AI ventures"
         },
         {
-          "title": "Microsoft Build: Surface RTX Spark Dev Box, Coreutils for Windows, air-gapped GitHub and more",
-          "link": "https://www.theregister.com/os-platforms/2026/06/03/microsoft-build-surface-rtx-spark-dev-box-coreutils-for-windows-air-gapped-github-and-more/5250501",
+          "title": "No longer just a Copilot, Microsoft's AI wants to take the wheel",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/03/no-longer-just-a-copilot-microsofts-ai-wants-to-take-the-wheel/5250718",
           "date": "Jun 3, 2026",
-          "excerpt": "Execution Containers provide safe environment for running AI agents, while Windows Developer Config aims to make Windows less unpleasant for developers"
+          "excerpt": "Always-on agent promises to keep work moving, provided you trust it with practically everything"
         },
         {
-          "title": "Listen up, England. The Health Secretary is going to be data controller for everyone's Single Patient Record",
-          "link": "https://www.theregister.com/public-sector/2026/06/03/listen-up-england-the-health-secretary-is-going-to-be-data-controller-for-everyones-single-patient-record/5250626",
+          "title": "Intel bit off more than it could chew with 18A process node",
+          "link": "https://www.theregister.com/systems/2026/06/03/intel-bit-off-more-than-it-could-chew-with-18a-process-node/5250696",
           "date": "Jun 3, 2026",
-          "excerpt": "No, public bucket policy doesn't mean everyone gets a bucket for themselves. Please let Tech do it. Don't go into Settings... NOOOOOO!"
+          "excerpt": "CFO Zinsner insists the troubled node was a one-off as 14A stays on track"
         }
       ]
     },
