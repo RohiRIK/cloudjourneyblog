@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-03T22:22:34.635Z",
+  "updatedAt": "2026-06-04T02:35:20.611Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,12 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Commvault says it's time to rethink resiliency as AI crooks leave victims in a 'dark, dead' state",
+          "link": "https://www.theregister.com/security/2026/06/03/commvault-says-its-time-to-rethink-resiliency-as-ai-crooks-leave-victims-in-a-dark-dead-state/5250894",
+          "date": "Jun 3, 2026",
+          "excerpt": "Those backup plans need backup testing"
+        },
+        {
           "title": "Bend the beam like Beckham to defeat anti-jamming tech",
           "link": "https://www.theregister.com/networks/2026/06/03/curving-beams-could-fool-anti-jamming-tech/5250872",
           "date": "Jun 3, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/06/03/no-longer-just-a-copilot-microsofts-ai-wants-to-take-the-wheel/5250718",
           "date": "Jun 3, 2026",
           "excerpt": "Always-on agent promises to keep work moving, provided you trust it with practically everything"
-        },
-        {
-          "title": "Intel bit off more than it could chew with 18A process node",
-          "link": "https://www.theregister.com/systems/2026/06/03/intel-bit-off-more-than-it-could-chew-with-18a-process-node/5250696",
-          "date": "Jun 3, 2026",
-          "excerpt": "CFO Zinsner insists the troubled node was a one-off as 14A stays on track"
         }
       ]
     },
