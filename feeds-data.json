@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-04T02:35:20.611Z",
+  "updatedAt": "2026-06-04T08:11:16.747Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -71,7 +71,7 @@
           "excerpt": "A Chinese-speaking cybercrime group has expanded its targeting to the European space, deploying previously undocumented malware and the Atlas backdoor. [...]"
         },
         {
-          "title": "The U.S. sanctions Nobitex crypto exchange used by ransomware",
+          "title": "U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors",
           "link": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
           "date": "Jun 3, 2026",
           "excerpt": "The U.S. Treasury's Office of Foreign Assets Control (OFAC) has announced sanctions against Nobitex, Iran's largest cryptocurrency exchange, for facilitating payments related to terrorist activities. "
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Nobody needs Mythos or 0-days to build a chaos-causing computer worm – free open source models work just fine",
+          "link": "https://www.theregister.com/research/2026/06/04/free-ai-model-powers-self-spreading-worm-in-enterprise-test-network/5250918",
+          "date": "Jun 4, 2026",
+          "excerpt": "'Attackers can now cheaply operationalize known vulnerabilities at scale,' boffins tell The Reg"
+        },
+        {
+          "title": "All the passwords were stored in Active Directory description fields",
+          "link": "https://www.theregister.com/security/2026/06/04/all-the-passwords-were-stored-in-active-directory-description-fields/5250820",
+          "date": "Jun 4, 2026",
+          "excerpt": "It was far too easy for a hacker to get the information"
+        },
+        {
           "title": "Commvault says it's time to rethink resiliency as AI crooks leave victims in a 'dark, dead' state",
           "link": "https://www.theregister.com/security/2026/06/03/commvault-says-its-time-to-rethink-resiliency-as-ai-crooks-leave-victims-in-a-dark-dead-state/5250894",
           "date": "Jun 3, 2026",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/os-platforms/2026/06/03/grep-this-microsoft-grafts-most-linux-commands-onto-windows/5250796",
           "date": "Jun 3, 2026",
           "excerpt": "Coreutils serves over 75 Unix commands in Windows and PowerShell command lines"
-        },
-        {
-          "title": "Ring gets buzzed by class action for collecting visitors' faces without consent",
-          "link": "https://www.theregister.com/personal-tech/2026/06/03/ring-faces-class-action-over-facial-recognition-feature/5250661",
-          "date": "Jun 3, 2026",
-          "excerpt": "The latest in a series of raised eyebrows over Familiar Faces and other AI ventures"
-        },
-        {
-          "title": "No longer just a Copilot, Microsoft's AI wants to take the wheel",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/03/no-longer-just-a-copilot-microsofts-ai-wants-to-take-the-wheel/5250718",
-          "date": "Jun 3, 2026",
-          "excerpt": "Always-on agent promises to keep work moving, provided you trust it with practically everything"
         }
       ]
     },
