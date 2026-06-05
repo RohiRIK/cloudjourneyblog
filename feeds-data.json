@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-06-04T08:11:16.747Z",
+  "updatedAt": "2026-06-05T02:10:19.166Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us ",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/",
+          "date": "Jun 4, 2026",
+          "excerpt": "A surge in real-world attacks against agentic AI systems is reshaping how we think about risk. Based on 12 months of red teaming, this update introduces seven new failure modes, from supply chain comp"
+        },
         {
           "title": "Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/microsoft-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-endpoint-protection/",
           "date": "May 29, 2026",
           "excerpt": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection. The post Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection appeared fir"
-        },
-        {
-          "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
-          "date": "May 29, 2026",
-          "excerpt": "The Mini Shai-Hulud campaign used malicious npm packages to target cloud and CI/CD credentials across developer environments. This report details the attack chain, detection opportunities, and mitigat"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
-          "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
-          "date": "Jun 3, 2026",
-          "excerpt": "A Chinese-speaking cybercrime group has expanded its targeting to the European space, deploying previously undocumented malware and the Atlas backdoor. [...]"
+          "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
+          "link": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/",
+          "date": "Jun 4, 2026",
+          "excerpt": "Brave has announced the public release of Brave Origin, a paid minimalist version of its browser that strips out cryptocurrency, AI, rewards, and other monetization-focused features. [...]"
         },
         {
-          "title": "U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors",
-          "link": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
-          "date": "Jun 3, 2026",
-          "excerpt": "The U.S. Treasury's Office of Foreign Assets Control (OFAC) has announced sanctions against Nobitex, Iran's largest cryptocurrency exchange, for facilitating payments related to terrorist activities. "
+          "title": "Hola Browser for Windows compromised to deliver cryptominer",
+          "link": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+          "date": "Jun 4, 2026",
+          "excerpt": "The Windows version of the Hola Browser has been compromised in a supply chain attack that delivered an undeclared executable identified by researchers as a cryptocurrency miner. [...]"
         },
         {
-          "title": " CISA warns of cyberattacks targeting fuel tank monitoring systems",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
-          "date": "Jun 3, 2026",
-          "excerpt": "CISA, the FBI, the NSA, the Department of Energy, and other US government partners are warning that hackers are targeting internet-exposed automatic tank gauge (ATG) systems used to monitor fuel and l"
+          "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
+          "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
+          "date": "Jun 4, 2026",
+          "excerpt": "A new Magecart campaign is using Stripe's API infrastructure to host the credit card-stealing payload and the data exfiltrated from checkout pages. [...]"
         },
         {
-          "title": "New 'HTTP/2 Bomb' DoS attack crashes web servers in under a minute",
-          "link": "https://www.bleepingcomputer.com/news/security/new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute/",
-          "date": "Jun 3, 2026",
-          "excerpt": "A new denial-of-service (DoS) attack dubbed HTTP/2 Bomb can be launched from a single machine to take down web servers within seconds. [...]"
+          "title": "DentaQuest data breach  exposed info of 2.6 million accounts",
+          "link": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
+          "date": "Jun 4, 2026",
+          "excerpt": "A data breach at the dental benefits administrator DentaQuest has reportedly exposed the sensitive data of 2.6 million accounts. [...]"
         },
         {
-          "title": "CISA warns of active attacks exploiting Android, Linux bugs",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
-          "date": "Jun 3, 2026",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting vulnerabilities in the Linux kernel and Android operating system. [...]"
+          "title": "UN food agency discloses breach affecting 600,000 Gaza households",
+          "link": "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/",
+          "date": "Jun 4, 2026",
+          "excerpt": "The United Nations' World Food Programme (WFP), the world's largest humanitarian organization, revealed over the weekend that its self-registration application (SRA) for Palestine was breached. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Nobody needs Mythos or 0-days to build a chaos-causing computer worm – free open source models work just fine",
-          "link": "https://www.theregister.com/research/2026/06/04/free-ai-model-powers-self-spreading-worm-in-enterprise-test-network/5250918",
+          "title": "Pink is the latest goon squad to use fake helpdesk calls to steal creds",
+          "link": "https://www.theregister.com/cyber-crime/2026/06/04/pink-is-the-latest-goon-squad-to-use-fake-helpdesk-calls-to-steal-creds/5251434",
           "date": "Jun 4, 2026",
-          "excerpt": "'Attackers can now cheaply operationalize known vulnerabilities at scale,' boffins tell The Reg"
+          "excerpt": "A familiar tactic popularized by chaotic crime crew Lapsus$"
         },
         {
-          "title": "All the passwords were stored in Active Directory description fields",
-          "link": "https://www.theregister.com/security/2026/06/04/all-the-passwords-were-stored-in-active-directory-description-fields/5250820",
+          "title": "Canada wants to make its own AI, break free from US bots",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/04/canada-wants-its-own-ai-less-reliance-on-us-tech/5251404",
           "date": "Jun 4, 2026",
-          "excerpt": "It was far too easy for a hacker to get the information"
+          "excerpt": "Another ally questions reliance on American AI"
         },
         {
-          "title": "Commvault says it's time to rethink resiliency as AI crooks leave victims in a 'dark, dead' state",
-          "link": "https://www.theregister.com/security/2026/06/03/commvault-says-its-time-to-rethink-resiliency-as-ai-crooks-leave-victims-in-a-dark-dead-state/5250894",
-          "date": "Jun 3, 2026",
-          "excerpt": "Those backup plans need backup testing"
+          "title": "OpenAI's agent chained decade-old DoS attacks to crash web servers in seconds",
+          "link": "https://www.theregister.com/security/2026/06/04/openais-codex-chains-decade-old-dos-techniques-into-http/2-bomb/5251377",
+          "date": "Jun 4, 2026",
+          "excerpt": "Codex drops an HTTP/2 Bomb"
         },
         {
-          "title": "Bend the beam like Beckham to defeat anti-jamming tech",
-          "link": "https://www.theregister.com/networks/2026/06/03/curving-beams-could-fool-anti-jamming-tech/5250872",
-          "date": "Jun 3, 2026",
-          "excerpt": "It's hard to stop a signal jammer if you can't locate the source, say Rice University researchers"
+          "title": "AI heavyweights warn their tech could help terrorists develop bioweapons",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/04/ai-heavyweights-warn-their-tech-could-erode-barriers-to-bioweapons/5251340",
+          "date": "Jun 4, 2026",
+          "excerpt": "Scientists and industry leaders push for mandatory DNA synthesis screening"
         },
         {
-          "title": "Grep this: Microsoft grafts (most) Linux commands onto Windows",
-          "link": "https://www.theregister.com/os-platforms/2026/06/03/grep-this-microsoft-grafts-most-linux-commands-onto-windows/5250796",
-          "date": "Jun 3, 2026",
-          "excerpt": "Coreutils serves over 75 Unix commands in Windows and PowerShell command lines"
+          "title": "Benevolent dictator Zuck will give Meta staff 30-minute breaks from keylogging privacy assault",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/04/meta-to-allow-staff-breaks-from-keylogging-data-grab-scheme/5251237",
+          "date": "Jun 4, 2026",
+          "excerpt": "Tech biz teaching AI to use computers by slurping staff activity"
         }
       ]
     },
