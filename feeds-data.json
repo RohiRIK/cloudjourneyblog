@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-06-05T17:46:07.802Z",
+  "updatedAt": "2026-06-05T21:15:48.346Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Securing CI/CD in an agentic world: Claude Code Github action case",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/",
+          "date": "Jun 5, 2026",
+          "excerpt": "Microsoft Threat Intelligence identified a prompt injection pathway in Claude Code GitHub Action that allowed access to workflow secrets under specific conditions. This research examines the attack ch"
+        },
         {
           "title": "Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us ",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
           "date": "May 30, 2026",
           "excerpt": "A dependency confusion campaign leveraged 33 malicious npm packages to collect reconnaissance data from developer and build environments. This report details the attack chain, observed tradecraft, and"
-        },
-        {
-          "title": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/microsoft-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-endpoint-protection/",
-          "date": "May 29, 2026",
-          "excerpt": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection. The post Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection appeared fir"
         }
       ]
     },
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
+          "date": "Jun 5, 2026",
+          "excerpt": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]"
+        },
+        {
+          "title": "Chinese APT deploys new malware to keep access to hacked networks",
+          "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
+          "date": "Jun 5, 2026",
+          "excerpt": "A Chinese espionage group tracked as UNC5221 has been accessing Microsoft 365 environments using the Brickstorm backdoor and previously undocumented malware named Plenet and AgentPSD. [...]"
+        },
+        {
+          "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
+          "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
+          "date": "Jun 5, 2026",
+          "excerpt": "A California man was sentenced to more than 26 years in federal prison for trafficking fentanyl and methamphetamine through Nemesis Market, one of the world's largest dark web marketplaces. [...]"
+        },
+        {
           "title": "Over 900 US gas station tank gauge systems exposed to attacks",
           "link": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
           "date": "Jun 5, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
           "date": "Jun 5, 2026",
           "excerpt": "Phishing, shadow AI, malicious extensions, and credential theft increasingly happen inside the browser. Keep Aware explains what the 2026 Verizon DBIR reveals about browser-layer security gaps and mod"
-        },
-        {
-          "title": "Cisco warns of unpatched SD-WAN zero-day exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
-          "date": "Jun 5, 2026",
-          "excerpt": "On Thursday, Cisco warned of a high-severity, unpatched zero-day in the Cisco Catalyst SD-WAN Manager (tracked as CVE-2026-20245) actively exploited in attacks enabling root privilege escalation. [..."
-        },
-        {
-          "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
-          "link": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/",
-          "date": "Jun 4, 2026",
-          "excerpt": "Brave has announced the public release of Brave Origin, a paid minimalist version of its browser that strips out cryptocurrency, AI, rewards, and other monetization-focused features. [...]"
-        },
-        {
-          "title": "Hola Browser for Windows compromised to deliver cryptominer",
-          "link": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
-          "date": "Jun 4, 2026",
-          "excerpt": "The Windows version of the Hola Browser has been compromised in a supply chain attack that delivered an undeclared executable identified by researchers as a cryptocurrency miner. [...]"
         }
       ]
     },
@@ -102,7 +102,13 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "The ISS has a major air leak, forcing NASA crew to take shelter in Dragon capsule",
+          "title": "Yet another Cisco SD-WAN 0-day under attack, and no patch in sight",
+          "link": "https://www.theregister.com/security/2026/06/05/yet-another-cisco-sd-wan-0-day-under-attack-and-no-patch-in-sight/5251855",
+          "date": "Jun 5, 2026",
+          "excerpt": "Good luck, sys admins"
+        },
+        {
+          "title": "Serious ISS air leak forces NASA astronauts to temporarily take shelter in Dragon capsule",
           "link": "https://www.theregister.com/science/2026/06/05/new-iss-leaks-send-astronauts-to-dragon-safe-haven/5251831",
           "date": "Jun 5, 2026",
           "excerpt": "Business is back to normal in the orbital station, but one of two newly discovered leaks is still unrepaired"
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/networks/2026/06/05/china-mobile-jiangsu-and-zte-unveil-intelligent-complaint-analysis-agent-to-reshape-core-network-om/5251564",
           "date": "Jun 5, 2026",
           "excerpt": "PARTNER CONTENT: Leveraging multi-modal LLMs and agent technology to automate signaling analysis and shift core network O&M from experience to knowledge-driven"
-        },
-        {
-          "title": "Agentic AI hype races ahead as enterprises remain stuck in pilot mode",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/05/agentic-ai-hype-races-ahead-as-enterprises-remain-stuck-in-pilot-mode/5251711",
-          "date": "Jun 5, 2026",
-          "excerpt": "Most orgs remain trapped between flashy demos and real-world deployment, despite 75% saying adoption is racing ahead"
         }
       ]
     },
