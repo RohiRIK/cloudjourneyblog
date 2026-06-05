@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T02:10:19.166Z",
+  "updatedAt": "2026-06-05T07:58:23.349Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Cisco warns of unpatched SD-WAN zero-day exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
+          "date": "Jun 5, 2026",
+          "excerpt": "On Thursday, Cisco warned of a high-severity, unpatched zero-day in the Cisco Catalyst SD-WAN Manager (tracked as CVE-2026-20245) actively exploited in attacks enabling root privilege escalation. [..."
+        },
+        {
           "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
           "link": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/",
           "date": "Jun 4, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
           "date": "Jun 4, 2026",
           "excerpt": "A data breach at the dental benefits administrator DentaQuest has reportedly exposed the sensitive data of 2.6 million accounts. [...]"
-        },
-        {
-          "title": "UN food agency discloses breach affecting 600,000 Gaza households",
-          "link": "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/",
-          "date": "Jun 4, 2026",
-          "excerpt": "The United Nations' World Food Programme (WFP), the world's largest humanitarian organization, revealed over the weekend that its self-registration application (SRA) for Palestine was breached. [...]"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Tech support chap hauled out to help SWAT team saw his life flash before his eyes",
+          "link": "https://www.theregister.com/offbeat/2026/06/05/tech-support-chap-hauled-out-to-help-swat-team-saw-his-life-flash-before-his-eyes/5245506",
+          "date": "Jun 5, 2026",
+          "excerpt": "Bulletproof vests and armored vehicles were not in the job description"
+        },
+        {
+          "title": "'It would be good for the world' to slow down AI sprints, Anthropic says",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/05/it-would-be-good-for-the-world-to-slow-down-ai-sprints-anthropic-says/5251460",
+          "date": "Jun 4, 2026",
+          "excerpt": "The plea for caution comes the same week it beat AI archrival OpenAI to filing for an IPO"
+        },
         {
           "title": "Pink is the latest goon squad to use fake helpdesk calls to steal creds",
           "link": "https://www.theregister.com/cyber-crime/2026/06/04/pink-is-the-latest-goon-squad-to-use-fake-helpdesk-calls-to-steal-creds/5251434",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/security/2026/06/04/openais-codex-chains-decade-old-dos-techniques-into-http/2-bomb/5251377",
           "date": "Jun 4, 2026",
           "excerpt": "Codex drops an HTTP/2 Bomb"
-        },
-        {
-          "title": "AI heavyweights warn their tech could help terrorists develop bioweapons",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/04/ai-heavyweights-warn-their-tech-could-erode-barriers-to-bioweapons/5251340",
-          "date": "Jun 4, 2026",
-          "excerpt": "Scientists and industry leaders push for mandatory DNA synthesis screening"
-        },
-        {
-          "title": "Benevolent dictator Zuck will give Meta staff 30-minute breaks from keylogging privacy assault",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/04/meta-to-allow-staff-breaks-from-keylogging-data-grab-scheme/5251237",
-          "date": "Jun 4, 2026",
-          "excerpt": "Tech biz teaching AI to use computers by slurping staff activity"
         }
       ]
     },
