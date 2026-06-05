@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T07:58:23.349Z",
+  "updatedAt": "2026-06-05T11:25:18.446Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Capita £370M bid 40% under UK.gov estimate for Oracle HR and finance system project, court case reveals ",
+          "link": "https://www.theregister.com/saas/2026/06/05/capita-370m-bid-40-under-ukgov-estimate-for-oracle-hr-and-finance-system-project-court-case-reveals/5251226",
+          "date": "Jun 5, 2026",
+          "excerpt": "Cost model designed to protect against low-cost bid bias, claims rival"
+        },
+        {
+          "title": "Council in UK's City of York outs hundreds of disabled residents with a single email blunder",
+          "link": "https://www.theregister.com/security/2026/06/05/council-in-uks-city-of-york-outs-hundreds-of-disabled-residents-with-a-single-email-blunder/5251214",
+          "date": "Jun 5, 2026",
+          "excerpt": "Blue Badge holders exposed to each other after BCC function proves too complex"
+        },
+        {
+          "title": "UK's top crime agency hamstrung by legacy IT, watchdog warns",
+          "link": "https://www.theregister.com/public-sector/2026/06/05/uks-top-crime-agency-hamstrung-by-legacy-it-watchdog-warns/5251155",
+          "date": "Jun 5, 2026",
+          "excerpt": "Regulator says NCA's aging tech drags down productivity, forces officers to juggle hardware and do manual workarounds"
+        },
+        {
+          "title": "Brit regulator finds mobile network service on trains is far from first class",
+          "link": "https://www.theregister.com/networks/2026/06/05/brit-regulator-finds-mobile-network-service-on-trains-is-far-from-first-class/5251100",
+          "date": "Jun 5, 2026",
+          "excerpt": "Comms watchdog says up to 83% of tests fail the 'good performance' threshold"
+        },
+        {
           "title": "Tech support chap hauled out to help SWAT team saw his life flash before his eyes",
           "link": "https://www.theregister.com/offbeat/2026/06/05/tech-support-chap-hauled-out-to-help-swat-team-saw-his-life-flash-before-his-eyes/5245506",
           "date": "Jun 5, 2026",
           "excerpt": "Bulletproof vests and armored vehicles were not in the job description"
-        },
-        {
-          "title": "'It would be good for the world' to slow down AI sprints, Anthropic says",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/05/it-would-be-good-for-the-world-to-slow-down-ai-sprints-anthropic-says/5251460",
-          "date": "Jun 4, 2026",
-          "excerpt": "The plea for caution comes the same week it beat AI archrival OpenAI to filing for an IPO"
-        },
-        {
-          "title": "Pink is the latest goon squad to use fake helpdesk calls to steal creds",
-          "link": "https://www.theregister.com/cyber-crime/2026/06/04/pink-is-the-latest-goon-squad-to-use-fake-helpdesk-calls-to-steal-creds/5251434",
-          "date": "Jun 4, 2026",
-          "excerpt": "A familiar tactic popularized by chaotic crime crew Lapsus$"
-        },
-        {
-          "title": "Canada wants to make its own AI, break free from US bots",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/04/canada-wants-its-own-ai-less-reliance-on-us-tech/5251404",
-          "date": "Jun 4, 2026",
-          "excerpt": "Another ally questions reliance on American AI"
-        },
-        {
-          "title": "OpenAI's agent chained decade-old DoS attacks to crash web servers in seconds",
-          "link": "https://www.theregister.com/security/2026/06/04/openais-codex-chains-decade-old-dos-techniques-into-http/2-bomb/5251377",
-          "date": "Jun 4, 2026",
-          "excerpt": "Codex drops an HTTP/2 Bomb"
         }
       ]
     },
