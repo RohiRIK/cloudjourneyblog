@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T06:45:39.554Z",
+  "updatedAt": "2026-06-06T09:52:02.299Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,12 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Oxford Uni student data pwned yet again - this time via career platform breach",
+          "link": "https://www.theregister.com/security/2026/06/06/oxford-university-data-pwned-again-by-career-platform-breach/5251754",
+          "date": "Jun 6, 2026",
+          "excerpt": "Totally different attack from the break-in last month. Oh so that's OK then"
+        },
+        {
           "title": "Start spreading the news: Datacenters may face one-year ban in NY",
           "link": "https://www.theregister.com/legal/2026/06/05/new-york-advances-one-year-datacenter-permit-moratorium/5251911",
           "date": "Jun 5, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/science/2026/06/05/new-iss-leaks-send-astronauts-to-dragon-safe-haven/5251831",
           "date": "Jun 5, 2026",
           "excerpt": "Business is back to normal in the orbital station, but one of two newly discovered leaks is still unrepaired"
-        },
-        {
-          "title": "Trump pumps federal funds into coal plants in the name of energy security",
-          "link": "https://www.theregister.com/science/2026/06/05/trump-pumps-federal-funds-into-coal-plants-in-the-name-of-energy-security/5251734",
-          "date": "Jun 5, 2026",
-          "excerpt": "DoE wants to keep 13 coal-fired power generators going at the same time as funding nuclear research"
         }
       ]
     },
