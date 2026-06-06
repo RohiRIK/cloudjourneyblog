@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T21:15:48.346Z",
+  "updatedAt": "2026-06-06T02:01:43.841Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
+          "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
+          "date": "Jun 5, 2026",
+          "excerpt": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials. [...]"
+        },
+        {
           "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
           "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
           "date": "Jun 5, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
           "date": "Jun 5, 2026",
           "excerpt": "Over 900 automatic tank gauge (ATG) systems across the United States, used to monitor fuel and chemical storage tanks across various critical infrastructure sectors, have been found exposed online and"
-        },
-        {
-          "title": "What 2026 DBIR Confirms: Attacks Are Living in the Browser",
-          "link": "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
-          "date": "Jun 5, 2026",
-          "excerpt": "Phishing, shadow AI, malicious extensions, and credential theft increasingly happen inside the browser. Keep Aware explains what the 2026 Verizon DBIR reveals about browser-layer security gaps and mod"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Start spreading the news: Datacenters may face one-year ban in NY",
+          "link": "https://www.theregister.com/legal/2026/06/05/new-york-advances-one-year-datacenter-permit-moratorium/5251911",
+          "date": "Jun 5, 2026",
+          "excerpt": "The bill awaits Gov. Hochul's signature after passing the state legislature"
+        },
+        {
+          "title": "If you don't fall for these extortionists' calls, they'll show up with USB sticks",
+          "link": "https://www.theregister.com/cyber-crime/2026/06/05/if-you-dont-fall-for-these-extortionists-calls-theyll-show-up-with-usb-sticks/5251891",
+          "date": "Jun 5, 2026",
+          "excerpt": "When 'Chatty Spider' morphs into tech services cosplay spider"
+        },
         {
           "title": "Yet another Cisco SD-WAN 0-day under attack, and no patch in sight",
           "link": "https://www.theregister.com/security/2026/06/05/yet-another-cisco-sd-wan-0-day-under-attack-and-no-patch-in-sight/5251855",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/science/2026/06/05/trump-pumps-federal-funds-into-coal-plants-in-the-name-of-energy-security/5251734",
           "date": "Jun 5, 2026",
           "excerpt": "DoE wants to keep 13 coal-fired power generators going at the same time as funding nuclear research"
-        },
-        {
-          "title": "ZTE showcases AI-driven project management innovations at the 14th IPMA Research Conference 2026",
-          "link": "https://www.theregister.com/networks/2026/06/05/zte-showcases-ai-driven-project-management-innovations-at-the-14th-ipma-research-conference-2026/5251809",
-          "date": "Jun 5, 2026",
-          "excerpt": "PARTNER CONTENT: Integrating AI into the iEPMS platform to achieve a 98% quality review accuracy rate and slash report generation times, leveraging experience from 240,000 global projects"
-        },
-        {
-          "title": "China Mobile Jiangsu and ZTE unveil intelligent complaint analysis agent to reshape core network O&M",
-          "link": "https://www.theregister.com/networks/2026/06/05/china-mobile-jiangsu-and-zte-unveil-intelligent-complaint-analysis-agent-to-reshape-core-network-om/5251564",
-          "date": "Jun 5, 2026",
-          "excerpt": "PARTNER CONTENT: Leveraging multi-modal LLMs and agent technology to automate signaling analysis and shift core network O&M from experience to knowledge-driven"
         }
       ]
     },
