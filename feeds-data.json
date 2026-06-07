@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07T07:45:59.050Z",
+  "updatedAt": "2026-06-07T10:20:13.832Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Home Office ditches legacy asylum database, keeps the spreadsheets",
+          "link": "https://www.theregister.com/public-sector/2026/06/07/home-office-ditches-legacy-asylum-database-keeps-the-spreadsheets/5251780",
+          "date": "Jun 7, 2026",
+          "excerpt": "Years into a major IT overhaul, MPs say the department still lacks reliable view of what is happening across the asylum system"
+        },
+        {
+          "title": "UK exam watchdog frets over smart specs turning GCSEs into Google searches",
+          "link": "https://www.theregister.com/personal-tech/2026/06/07/uk-exam-watchdog-frets-over-smart-specs-turning-gcses-into-google-searches/5251365",
+          "date": "Jun 7, 2026",
+          "excerpt": "Ofqual says smart glasses, hidden earpieces, and AI tools are creating a new generation of cheating headaches"
+        },
+        {
           "title": "Oxford Uni student data pwned yet again - this time via career platform breach",
           "link": "https://www.theregister.com/security/2026/06/06/oxford-university-data-pwned-again-by-career-platform-breach/5251754",
           "date": "Jun 6, 2026",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/cyber-crime/2026/06/05/if-you-dont-fall-for-these-extortionists-calls-theyll-show-up-with-usb-sticks/5251891",
           "date": "Jun 5, 2026",
           "excerpt": "When 'Chatty Spider' morphs into tech services cosplay spider"
-        },
-        {
-          "title": "Yet another Cisco SD-WAN 0-day under attack, and no patch in sight",
-          "link": "https://www.theregister.com/security/2026/06/05/yet-another-cisco-sd-wan-0-day-under-attack-and-no-patch-in-sight/5251855",
-          "date": "Jun 5, 2026",
-          "excerpt": "Good luck, sys admins"
-        },
-        {
-          "title": "Serious ISS air leak forces NASA astronauts to temporarily take shelter in Dragon capsule",
-          "link": "https://www.theregister.com/science/2026/06/05/new-iss-leaks-send-astronauts-to-dragon-safe-haven/5251831",
-          "date": "Jun 5, 2026",
-          "excerpt": "Business is back to normal in the orbital station, but one of two newly discovered leaks is still unrepaired"
         }
       ]
     },
