@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07T10:20:13.832Z",
+  "updatedAt": "2026-06-07T17:03:52.765Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
+          "link": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
+          "date": "Jun 7, 2026",
+          "excerpt": "A new variant of the Gafgyt botnet called C0XMO is targeting DD-WRT router firmware and can move to other device types with various CPU architectures. [...]"
+        },
+        {
+          "title": "Silent Ransom Group targets law firms with fake IT support calls",
+          "link": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
+          "date": "Jun 7, 2026",
+          "excerpt": "The Silent Ransom Group extortion gang is actively targeting U.S. law firms and professional services organizations in social engineering attacks that often lead to data theft within hours of initial "
+        },
+        {
           "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
           "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
           "date": "Jun 6, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
           "date": "Jun 5, 2026",
           "excerpt": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]"
-        },
-        {
-          "title": "Chinese APT deploys new malware to keep access to hacked networks",
-          "link": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-          "date": "Jun 5, 2026",
-          "excerpt": "A Chinese espionage group tracked as UNC5221 has been accessing Microsoft 365 environments using the Brickstorm backdoor and previously undocumented malware named Plenet and AgentPSD. [...]"
-        },
-        {
-          "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
-          "link": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
-          "date": "Jun 5, 2026",
-          "excerpt": "A California man was sentenced to more than 26 years in federal prison for trafficking fentanyl and methamphetamine through Nemesis Market, one of the world's largest dark web marketplaces. [...]"
         }
       ]
     },
@@ -101,6 +101,12 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Brit maritime agency heralds fresh global rules for crewless cargo ships",
+          "link": "https://www.theregister.com/offbeat/2026/06/07/brit-maritime-agency-heralds-fresh-global-rules-for-crewless-cargo-ships/5251616",
+          "date": "Jun 7, 2026",
+          "excerpt": "If you thought driverless cars were bad, imagine a 200,000 ton container ship"
+        },
         {
           "title": "Home Office ditches legacy asylum database, keeps the spreadsheets",
           "link": "https://www.theregister.com/public-sector/2026/06/07/home-office-ditches-legacy-asylum-database-keeps-the-spreadsheets/5251780",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/legal/2026/06/05/new-york-advances-one-year-datacenter-permit-moratorium/5251911",
           "date": "Jun 5, 2026",
           "excerpt": "The bill awaits Gov. Hochul's signature after passing the state legislature"
-        },
-        {
-          "title": "If you don't fall for these extortionists' calls, they'll show up with USB sticks",
-          "link": "https://www.theregister.com/cyber-crime/2026/06/05/if-you-dont-fall-for-these-extortionists-calls-theyll-show-up-with-usb-sticks/5251891",
-          "date": "Jun 5, 2026",
-          "excerpt": "When 'Chatty Spider' morphs into tech services cosplay spider"
         }
       ]
     },
