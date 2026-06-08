@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07T17:03:52.765Z",
+  "updatedAt": "2026-06-08T02:33:29.507Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Hands on with Intelligent Terminal, an AI-powered Windows Terminal",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
+          "date": "Jun 7, 2026",
+          "excerpt": "Microsoft has created an open-source fork of Windows Terminal called \"Intelligent Terminal,\" and it allows you to use AI directly inside Terminal without interfering with the regular session. [...]"
+        },
+        {
           "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
           "link": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
           "date": "Jun 7, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
           "date": "Jun 5, 2026",
           "excerpt": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials. [...]"
-        },
-        {
-          "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
-          "date": "Jun 5, 2026",
-          "excerpt": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]"
         }
       ]
     },
@@ -101,6 +101,12 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Our systems editor flew all the way to Taiwan and still couldn't get away from AI",
+          "link": "https://www.theregister.com/systems/2026/06/08/our-systems-editor-flew-all-the-way-to-taiwan-and-still-couldnt-get-away-from-ai/5251877",
+          "date": "Jun 7, 2026",
+          "excerpt": "Every show now is an AI show, and that included this year's Computex"
+        },
         {
           "title": "Brit maritime agency heralds fresh global rules for crewless cargo ships",
           "link": "https://www.theregister.com/offbeat/2026/06/07/brit-maritime-agency-heralds-fresh-global-rules-for-crewless-cargo-ships/5251616",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/security/2026/06/06/oxford-university-data-pwned-again-by-career-platform-breach/5251754",
           "date": "Jun 6, 2026",
           "excerpt": "Totally different attack from the break-in last month. Oh so that's OK then"
-        },
-        {
-          "title": "Start spreading the news: Datacenters may face one-year ban in NY",
-          "link": "https://www.theregister.com/legal/2026/06/05/new-york-advances-one-year-datacenter-permit-moratorium/5251911",
-          "date": "Jun 5, 2026",
-          "excerpt": "The bill awaits Gov. Hochul's signature after passing the state legislature"
         }
       ]
     },
