@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-09T01:58:04.594Z",
+  "updatedAt": "2026-06-09T14:19:08.078Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "French govt messaging service breached in account hijacking attack",
+          "link": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
+          "date": "Jun 9, 2026",
+          "excerpt": "DINUM, the digital affairs directorate of the French government, warned that hackers used a hijacked user account to breach Tchap, the French government's encrypted messaging platform. [...]"
+        },
+        {
+          "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+          "date": "Jun 9, 2026",
+          "excerpt": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomware"
+        },
+        {
+          "title": "Google patches new Chrome zero-day flaw exploited in the wild",
+          "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+          "date": "Jun 9, 2026",
+          "excerpt": "Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]"
+        },
+        {
           "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
           "link": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
           "date": "Jun 8, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
           "date": "Jun 8, 2026",
           "excerpt": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]"
-        },
-        {
-          "title": "New Apple feature automatically changes your compromised passwords",
-          "link": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
-          "date": "Jun 8, 2026",
-          "excerpt": "At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]"
-        },
-        {
-          "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
-          "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-          "date": "Jun 8, 2026",
-          "excerpt": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud supply-chain attack that delivered malware designed to steal developer secrets."
-        },
-        {
-          "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
-          "date": "Jun 8, 2026",
-          "excerpt": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Uncle Sam considers buying a seat on the Titanic",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/09/uncle-sam-considers-buying-a-seat-on-the-titanic/5252598",
+          "title": "Devs know AI code is riddled with holes, but ship it anyway",
+          "link": "https://www.theregister.com/devops/2026/06/09/devs-know-ai-code-is-riddled-with-holes-but-ship-it-anyway/5252824",
           "date": "Jun 9, 2026",
-          "excerpt": "L'etat, c'est AI"
+          "excerpt": "Pressure to deploy wins out over security as four in five orgs confess to breaches from vulnerable apps"
         },
         {
-          "title": "Apple courts developers with privacy and context in AI comeback bid",
-          "link": "https://www.theregister.com/devops/2026/06/09/apple-courts-developers-with-privacy-and-context-in-ai-comeback-bid/5252564",
-          "date": "Jun 8, 2026",
-          "excerpt": "Apple Intelligence stumbled through 2024 and 2025. It's starting to look respectable"
+          "title": "Signal says UK plan to scan devices for nude images 'endangers us all'",
+          "link": "https://www.theregister.com/security/2026/06/09/signal-uks-child-nude-block-threat-wont-protect-children/5252761",
+          "date": "Jun 9, 2026",
+          "excerpt": "Encrypted messaging app warns device-level checks could be repurposed for censorship"
         },
         {
-          "title": "Norks blast 250+ fake job offers to developers over 6 weeks to try and snarf creds and crypto",
-          "link": "https://www.theregister.com/security/2026/06/08/suspected-norks-send-250-fake-dev-job-pitches-to-steal-crypto/5252526",
-          "date": "Jun 8, 2026",
-          "excerpt": "When an unsolicited job offer sounds too good to be true …"
+          "title": "Chrome's zero-day Whac-A-Mole continues with fifth exploited bug of the year",
+          "link": "https://www.theregister.com/security/2026/06/09/chromes-zero-day-whac-a-mole-continues-with-fifth-exploited-bug-of-the-year/5252689",
+          "date": "Jun 9, 2026",
+          "excerpt": "Google paid researcher a tidy $55K bounty for its discovery"
         },
         {
-          "title": "Apple’s Orwellian device controls for tots also mean more work for parents ",
-          "link": "https://www.theregister.com/personal-tech/2026/06/08/apples-orwellian-device-controls-for-tots-also-mean-more-work-for-parents/5252515",
-          "date": "Jun 8, 2026",
-          "excerpt": "The new features ignore the argument that if parents wanted to spend more time on their kids, they wouldn't have supplied them with an iPad or iPhone in the first place."
+          "title": "France probes compromise of gov messaging platform after account hijack",
+          "link": "https://www.theregister.com/security/2026/06/09/france-probes-compromise-of-gov-messaging-platform-after-account-hijack/5252717",
+          "date": "Jun 9, 2026",
+          "excerpt": "Authorities say the breach only exposed public chat rooms, but alleged attacker claims to have accessed far more data"
         },
         {
-          "title": "It's do or die for Apple AI",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/08/its-do-or-die-for-apple-ai/5252479",
-          "date": "Jun 8, 2026",
-          "excerpt": "WWDC announcements earned tempered praise from analysts, with an emphasis on the word 'if'"
+          "title": "Kyndryl showers execs with shares while staff ponder redundancy packages",
+          "link": "https://www.theregister.com/on-prem/2026/06/09/kyndryl-showers-execs-with-shares-while-staff-ponder-redundancy-packages/5252181",
+          "date": "Jun 9, 2026",
+          "excerpt": "IBM spin-off's top brass bag six-figure stock awards"
         }
       ]
     },
