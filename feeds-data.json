@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08T18:17:29.809Z",
+  "updatedAt": "2026-06-09T01:58:04.594Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Gogs patches critical zero-day enabling remote code execution",
-          "link": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+          "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
+          "link": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
           "date": "Jun 8, 2026",
-          "excerpt": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]"
+          "excerpt": "New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]"
         },
         {
-          "title": "Critical UniFi OS bug lets hackers gain root without authentication",
-          "link": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
+          "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
+          "link": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
           "date": "Jun 8, 2026",
-          "excerpt": "Attackers can chain three already fixed vulnerabilities in the Ubiquiti UniFi OS server to execute remote code with root privileges and without authentication. [...]"
+          "excerpt": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]"
         },
         {
-          "title": "Reducing security operations complexity with Wazuh Cloud",
-          "link": "https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/",
+          "title": "New Apple feature automatically changes your compromised passwords",
+          "link": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
           "date": "Jun 8, 2026",
-          "excerpt": "Security teams are increasingly overwhelmed by alert fatigue, infrastructure maintenance, and complex hybrid environments. This article explores how Wazuh Cloud helps simplify SIEM/XDR operations thro"
+          "excerpt": "At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]"
         },
         {
-          "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang",
-          "link": "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
+          "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
+          "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
           "date": "Jun 8, 2026",
-          "excerpt": "Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. [.."
+          "excerpt": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud supply-chain attack that delivered malware designed to steal developer secrets."
         },
         {
-          "title": "Oxford University discloses data breach after careers platform hack",
-          "link": "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
+          "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
           "date": "Jun 8, 2026",
-          "excerpt": "The University of Oxford disclosed a new data breach last week after being informed by its third-party provider, Group GTI, that its CareerConnect career services platform had been compromised. [...]"
+          "excerpt": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Ransomware sends Illinois high school on an early summer vacation",
-          "link": "https://www.theregister.com/cyber-crime/2026/06/08/ransomware-attack-shuts-illinois-high-school-until-wednesday/5252322",
-          "date": "Jun 8, 2026",
-          "excerpt": "Meanwhile, 13 schools in Wales affected by separate attack"
+          "title": "Uncle Sam considers buying a seat on the Titanic",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/09/uncle-sam-considers-buying-a-seat-on-the-titanic/5252598",
+          "date": "Jun 9, 2026",
+          "excerpt": "L'etat, c'est AI"
         },
         {
-          "title": "Amazon Leo's satellite homework is late, but FCC won't flunk it just yet",
-          "link": "https://www.theregister.com/networks/2026/06/08/amazon-leos-satellite-homework-is-late-but-fcc-wont-flunk-it-just-yet/5252287",
+          "title": "Apple courts developers with privacy and context in AI comeback bid",
+          "link": "https://www.theregister.com/devops/2026/06/09/apple-courts-developers-with-privacy-and-context-in-ai-comeback-bid/5252564",
           "date": "Jun 8, 2026",
-          "excerpt": "Orbital broadband biz will miss its July 30 deadline to have 1,616 spacecraft in place"
+          "excerpt": "Apple Intelligence stumbled through 2024 and 2025. It's starting to look respectable"
         },
         {
-          "title": "NHS prescribes half a million Copilot licenses for its paperwork headache",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/08/nhs-prescribes-half-a-million-copilot-licenses-for-its-paperwork-headache/5252214",
+          "title": "Norks blast 250+ fake job offers to developers over 6 weeks to try and snarf creds and crypto",
+          "link": "https://www.theregister.com/security/2026/06/08/suspected-norks-send-250-fake-dev-job-pitches-to-steal-crypto/5252526",
           "date": "Jun 8, 2026",
-          "excerpt": "After a trial claimed chatbot saved staff 43 minutes a day, NHS England has decided it's time to supersize the experiment"
+          "excerpt": "When an unsolicited job offer sounds too good to be true …"
         },
         {
-          "title": "GitHub nukes 70+ Microsoft repos, breaks CI/CD pipelines, following suspected worm infections",
-          "link": "https://www.theregister.com/security/2026/06/08/github-nukes-70-microsoft-repos-amid-suspected-worm-attack/5252169",
+          "title": "Apple’s Orwellian device controls for tots also mean more work for parents ",
+          "link": "https://www.theregister.com/personal-tech/2026/06/08/apples-orwellian-device-controls-for-tots-also-mean-more-work-for-parents/5252515",
           "date": "Jun 8, 2026",
-          "excerpt": "Miasma worm shapeshifts, but cloud secret-scouting remains the goal"
+          "excerpt": "The new features ignore the argument that if parents wanted to spend more time on their kids, they wouldn't have supplied them with an iPad or iPhone in the first place."
         },
         {
-          "title": "Python JIT compiler project under threat after steering council says proper process wasn't followed",
-          "link": "https://www.theregister.com/devops/2026/06/08/python-jit-compiler-may-be-removed/5252079",
+          "title": "It's do or die for Apple AI",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/08/its-do-or-die-for-apple-ai/5252479",
           "date": "Jun 8, 2026",
-          "excerpt": "No new features to be submitted to main branch, existing code removed in 6 months if new proposal not created and accepted"
+          "excerpt": "WWDC announcements earned tempered praise from analysts, with an emphasis on the word 'if'"
         }
       ]
     },
