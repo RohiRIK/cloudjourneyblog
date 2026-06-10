@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10T07:58:47.540Z",
+  "updatedAt": "2026-06-10T11:37:39.446Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft: Some Windows PCs fail to install latest monthly updates",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/",
+          "date": "Jun 10, 2026",
+          "excerpt": "Microsoft warned customers on Tuesday that they may have issues installing the latest monthly updates on some Windows devices that were upgraded to Windows 11 24H2 or 25H2. [...]"
+        },
+        {
+          "title": "Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/",
+          "date": "Jun 10, 2026",
+          "excerpt": "On Tuesday, Microsoft patched two zero-day vulnerabilities that let attackers gain SYSTEM privileges on fully patched Windows systems, and a third one that grants access to BitLocker-protected drives."
+        },
+        {
           "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
           "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
           "date": "Jun 10, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
           "date": "Jun 9, 2026",
           "excerpt": "A security researcher has released a new Microsoft Defender zero-day exploit named \"RoguePlanet\" just hours after Microsoft fixed two previously disclosed flaws during June 2026 Patch Tuesday. [...]"
-        },
-        {
-          "title": "ServiceNow discloses security incident exposing customer data",
-          "link": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
-          "date": "Jun 9, 2026",
-          "excerpt": "ServiceNow is warning about a security incident after attackers exploited an unauthenticated access flaw through a vulnerable API endpoint, allowing them to query data from customer instances. [...]"
-        },
-        {
-          "title": "OpenClaw AI agent found falling for phishing attacks, spills user data",
-          "link": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
-          "date": "Jun 9, 2026",
-          "excerpt": "Phishing simulation on an OpenClaw email agent with various configuration profiles showed that it was susceptible to tactics commonly used to compromise human users. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Brussels' datacenter efficiency scorecard may come with a credit warning",
+          "link": "https://www.theregister.com/on-prem/2026/06/10/brussels-datacenter-efficiency-scorecard-may-come-with-a-credit-warning/5253297",
+          "date": "Jun 10, 2026",
+          "excerpt": "Moody's says proposed A-to-G green grades for bit barns could affect financing"
+        },
+        {
+          "title": "Node4 CEO Neil Muller found dead at home after suspected stabbing",
+          "link": "https://www.theregister.com/channel/2026/06/10/node4-ceo-neil-muller-found-dead-at-home-after-suspected-stabbing/5253315",
+          "date": "Jun 10, 2026",
+          "excerpt": "MSP says it is 'absolutely devastated' as woman arrested on suspicion of murder"
+        },
+        {
+          "title": "SpacemiT shows off usably quick RISC-V mini desktop",
+          "link": "https://www.theregister.com/systems/2026/06/10/spacemit-shows-off-usably-quick-risc-v-mini-desktop/5252935",
+          "date": "Jun 10, 2026",
+          "excerpt": "Actual RVA23 hardware and useful performance – for a certain price"
+        },
+        {
+          "title": "France and Germany agree to disagree, ditch joint next-gen Euro fighter",
+          "link": "https://www.theregister.com/bootnotes/2026/06/10/france-and-germany-agree-to-disagree-ditch-joint-next-gen-euro-fighter/5252790",
+          "date": "Jun 10, 2026",
+          "excerpt": "Aircraft at core of the Future Combat Air System canned as parties could not decide who leads on the work"
+        },
+        {
           "title": "Logitech knows when to fold 'em",
           "link": "https://www.theregister.com/personal-tech/2026/06/10/logitech-knows-when-to-fold-em/5253196",
           "date": "Jun 10, 2026",
           "excerpt": "Meet Mobi Fold - creased popster or clever portable mouse"
-        },
-        {
-          "title": "AI is making Patch Tuesday (kinda) fun again",
-          "link": "https://www.theregister.com/patches/2026/06/09/ai-is-making-patch-tuesday-kinda-fun-again/5253225",
-          "date": "Jun 9, 2026",
-          "excerpt": "Unless you're an admin or vulnerability manager – then you're totally screwed"
-        },
-        {
-          "title": "Salesforce cuts staff amid acquisition spree and $50 billion share buyback ",
-          "link": "https://www.theregister.com/saas/2026/06/09/salesforce-layoffs-hit-amid-m3ter-acquisition-and-stock-buyback/5253162",
-          "date": "Jun 9, 2026",
-          "excerpt": "The layoffs come after CEO Marc Benioff boasted of record revenue and 'incredible cashflow' two weeks ago"
-        },
-        {
-          "title": "If your sex life is dead, you can blame Steve Jobs",
-          "link": "https://www.theregister.com/personal-tech/2026/06/09/study-links-iphone-rollout-to-decline-in-us-birth-rates/5253138",
-          "date": "Jun 9, 2026",
-          "excerpt": "Economists find signs of a ‘large and causal relationship between iPhones and fertility' in AT&T exclusivity-era data"
-        },
-        {
-          "title": "Anthropic spins a Fable of a tamer, safer Mythos",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/09/anthropic-spins-a-fable-of-a-tamer-safer-mythos/5253106",
-          "date": "Jun 9, 2026",
-          "excerpt": "Company also changes data retention policy"
         }
       ]
     },
