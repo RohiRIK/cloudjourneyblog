@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10T21:53:13.638Z",
+  "updatedAt": "2026-06-11T08:26:37.419Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Nottingham University data breach affects over 450,000 students",
+          "link": "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
+          "date": "Jun 11, 2026",
+          "excerpt": "The University of Nottingham confirmed on Wednesday that a hacking group gained access to its student records system in a breach affecting both current students and alums. [...]"
+        },
+        {
+          "title": "Max severity Ivanti Sentry vulnerability now exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
+          "date": "Jun 11, 2026",
+          "excerpt": "Attackers are now targeting a recently patched maximum-severity flaw in Ivanti Sentry, enabling them to execute code with root privileges on Internet-exposed secure mobile gateways. [...]"
+        },
+        {
           "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
           "link": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
           "date": "Jun 10, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
           "date": "Jun 10, 2026",
           "excerpt": "GitHub has announced that npm v12, expected next month, will introduce several security-focused changes aimed at blocking supply-chain attacks abusing behaviors triggered by the 'npm install' command."
-        },
-        {
-          "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-          "date": "Jun 10, 2026",
-          "excerpt": "Oracle PeopleSoft servers are being targeted in ongoing data theft attacks by the ShinyHunters extortion gang, which claims to have stolen data from over 100 organizations. [...]"
-        },
-        {
-          "title": "China-linked JDY botnet expands targeting of U.S. military networks",
-          "link": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
-          "date": "Jun 10, 2026",
-          "excerpt": "The JDY botnet, a malware network previously associated with Chinese threat actors like Volt Typhoon, has significantly expanded its targeting scope and reconnaissance efforts. [...]"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Every employee’s password was stored in a single Excel file",
+          "link": "https://www.theregister.com/security/2026/06/11/every-employees-password-was-stored-in-a-single-excel-file/5253784",
+          "date": "Jun 11, 2026",
+          "excerpt": "The CEO thought this was the best way to deal with some email issues"
+        },
+        {
+          "title": "Chinese agents caught rebuilding botnets and stirring the pot on AI datacenter debate",
+          "link": "https://www.theregister.com/security/2026/06/11/china-linked-operators-revive-botnet-stir-ai-datacenter-debate/5253873",
+          "date": "Jun 11, 2026",
+          "excerpt": "PRC eyes are watching you"
+        },
+        {
+          "title": "Memory and personalization make AI more likely to tell you what you want to hear",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/11/memory-and-personalization-make-ai-more-likely-to-tell-you-what-you-want-to-hear/5253850",
+          "date": "Jun 10, 2026",
+          "excerpt": "A little knowledge is a dangerous thing, particularly for enterprise applications"
+        },
         {
           "title": "Blockbuster new Raspberry Pi project turns any screen into old-school VCR",
           "link": "https://www.theregister.com/offbeat/2026/06/10/raspberry-pi-project-gives-media-libraries-a-vcr-style-makeover/5253818",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/06/10/anthropic-claude-fable-5-refuses-innocuous-prompts/5253754",
           "date": "Jun 10, 2026",
           "excerpt": "Hyper-vigilant safety classifiers turn Fable into cautionary tale"
-        },
-        {
-          "title": "Angry bug hunter with Microsoft beef drops new Windows 0-day",
-          "link": "https://www.theregister.com/security/2026/06/10/nightmare-eclipse-publishes-new-windows-defender-zero-day/5253725",
-          "date": "Jun 10, 2026",
-          "excerpt": "Revenge is a dish best served code"
-        },
-        {
-          "title": "GM gets datacenter fever, decides to build grid-scale sodium-ion batteries",
-          "link": "https://www.theregister.com/on-prem/2026/06/10/gm-gets-datacenter-fever-turns-to-grid-scale-sodium-ion-batteries/5253699",
-          "date": "Jun 10, 2026",
-          "excerpt": "Detroit automaker partners with Peak Energy to try a saltier route to energy storage"
-        },
-        {
-          "title": "Datacenter growth may run into a power wall by 2030",
-          "link": "https://www.theregister.com/on-prem/2026/06/10/datacenter-growth-may-run-into-a-power-wall-by-2030/5253635",
-          "date": "Jun 10, 2026",
-          "excerpt": "Grid operators could struggle to support new bit barn construction"
         }
       ]
     },
