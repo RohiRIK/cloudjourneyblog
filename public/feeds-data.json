@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T15:31:52.159Z",
+  "updatedAt": "2026-06-11T18:40:00.746Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
+          "link": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
+          "date": "Jun 11, 2026",
+          "excerpt": "Law enforcement has dismantled the “AudiA6” cryptocurrency service allegedly used by ransomware actors and other cybercriminals to launder more than $380 million. [...]"
+        },
+        {
           "title": "Why AI-driven threats are exposing the limits of MSP security stacks",
           "link": "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
           "date": "Jun 11, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/",
           "date": "Jun 11, 2026",
           "excerpt": "Microsoft has resolved a known issue causing some Windows Server 2025 devices to boot into BitLocker recovery after installing the April 2026 security update. [...]"
-        },
-        {
-          "title": "Nottingham University data breach affects over 450,000 students",
-          "link": "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
-          "date": "Jun 11, 2026",
-          "excerpt": "The University of Nottingham confirmed on Wednesday that a hacking group gained access to its student records system in a breach affecting both current students and alums. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Apple version of Office 2019 becomes useless in a month",
-          "link": "https://www.theregister.com/applications/2026/06/11/apple-version-of-office-2019-becomes-useless-in-a-month/5254197",
+          "title": "Microsoft's worst 'Nightmare' unleashes BitLocker bypass 0-day",
+          "link": "https://www.theregister.com/security/2026/06/11/nightmare-eclipse-drops-claimed-bitlocker-bypass-for-microsoft-windows/5254371",
           "date": "Jun 11, 2026",
-          "excerpt": "The only solution is to buy an upgrade (or switch providers)"
+          "excerpt": "Another day, another Windows exploit code"
         },
         {
-          "title": "Dutch chip startup claims all-European fab flow – with help from a very American friend",
-          "link": "https://www.theregister.com/systems/2026/06/11/dutch-chip-startup-claims-all-european-fab-flow-with-help-from-a-very-american-friend/5254023",
+          "title": "Hand-cranked AI box lets you get a workout while you wait for answers",
+          "link": "https://www.theregister.com/offbeat/2026/06/11/hand-cranked-ai-box-lets-you-get-a-workout-while-you-wait-for-answers/5254333",
           "date": "Jun 11, 2026",
-          "excerpt": "Satnav parts designed and manufactured in the EU, but using GlobalFoundries to produce them"
+          "excerpt": "We're all familiar with AI cranks by now, but what about crank-powered AIs?"
         },
         {
-          "title": "OpenAI could go from AI pioneer to AI's BlackBerry, says Forrester",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/11/openai-could-go-from-ai-pioneer-to-ais-blackberry-says-forrester/5254120",
+          "title": "Graviton 5 impresses, but please, for the love of all that's holy, stop calling them 'AI chips'",
+          "link": "https://www.theregister.com/paas-and-iaas/2026/06/11/graviton-5-impresses-but-please-for-the-love-of-all-thats-holy-stop-calling-them-ai-chips/5254316",
           "date": "Jun 11, 2026",
-          "excerpt": "As OpenAI courts investors and chases enterprise customers, Forrester says today's AI leader could become tomorrow's cautionary tale"
+          "excerpt": "AWS better at running chip fabs than their mouths"
         },
         {
-          "title": "Oracle's AI datacenter splurge gives investors the capex jitters",
-          "link": "https://www.theregister.com/paas-and-iaas/2026/06/11/oracles-ai-datacenter-splurge-gives-investors-the-capex-jitters/5254035",
+          "title": "ZTE wins three Selular Award 2026 honors for AI-powered network innovation",
+          "link": "https://www.theregister.com/networks/2026/06/11/zte-wins-three-selular-award-2026-honors-for-ai-powered-network-innovation/5254393",
           "date": "Jun 11, 2026",
-          "excerpt": "Q4 sales climbed 21%, but Wall Street more interested in $70B buildout bill"
+          "excerpt": "PARTNER CONTENT: Recognized for breakthrough achievements in FWA, Network Ecosystem, and Native AI Baseband, ZTE solidifies its role as a key driver of Indonesia’s 5G-Advanced and AI economic growth"
         },
         {
-          "title": "Met Police joins forces with Apple to choke London's stolen phone trade",
-          "link": "https://www.theregister.com/personal-tech/2026/06/11/met-police-joins-forces-with-apple-to-choke-londons-stolen-phone-trade/5254062",
+          "title": "Trump phone has HTC guts. Tremendous guts. The best guts",
+          "link": "https://www.theregister.com/personal-tech/2026/06/11/trump-phone-has-htc-guts-tremendous-guts-the-best-guts/5254276",
           "date": "Jun 11, 2026",
-          "excerpt": "Intelligence-sharing pact tracks kit that comes back online after being nicked"
+          "excerpt": "iFixit teardown reveals two-year-old, mid-range, Chinese Android"
         }
       ]
     },
