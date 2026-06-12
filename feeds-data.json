@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T18:40:00.746Z",
+  "updatedAt": "2026-06-12T14:31:11.741Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
-          "link": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
-          "date": "Jun 11, 2026",
-          "excerpt": "Law enforcement has dismantled the “AudiA6” cryptocurrency service allegedly used by ransomware actors and other cybercriminals to launder more than $380 million. [...]"
+          "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
+          "link": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
+          "date": "Jun 12, 2026",
+          "excerpt": "GitHub access sales, leaked repositories, and stolen API keys can all become supply-chain attack footholds. Flare explores how underground forums expose early signals tied to software supply-chain ris"
         },
         {
-          "title": "Why AI-driven threats are exposing the limits of MSP security stacks",
-          "link": "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
-          "date": "Jun 11, 2026",
-          "excerpt": "AI-driven attacks are exposing the limits of fragmented MSP security stacks and slow response workflows. Kaseya breaks down why integrated security, automation, and recovery are becoming essential. [."
+          "title": "Microsoft fixes Windows update failures linked to WUSA installer",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/",
+          "date": "Jun 12, 2026",
+          "excerpt": "Microsoft has fixed a known issue that caused Windows updates released since May 2025 to fail when installed via the Windows Update Standalone Installer (WUSA) from a network share. [...]"
         },
         {
-          "title": "Coupang hit with record $409 million data breach fine in Korea",
-          "link": "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
-          "date": "Jun 11, 2026",
-          "excerpt": "​​The Personal Information Protection Commission (PIPC), South Korea's data protection regulator, has fined e-commerce giant Coupang a record 624.6 billion won (roughly $409 million) following a massi"
+          "title": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
+          "link": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
+          "date": "Jun 12, 2026",
+          "excerpt": "Danish pharmaceutical giant Novo Nordisk, the world's largest producer of insulin, disclosed a data breach affecting patient information from some clinical trials. [...]"
         },
         {
-          "title": "CISA tells govt agencies to patch critical exploited flaws in 3 days",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/",
-          "date": "Jun 11, 2026",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) announced a new Binding Operational Directive, 26-04, that prioritizes security updates for Federal Civilian Executive Branch (FCEB) ag"
+          "title": "CISA orders feds to patch actively exploited Ivanti flaw by Sunday",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
+          "date": "Jun 12, 2026",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch an actively exploited Ivanti Sentry flaw within three days, as mandated by the newly issued Bindin"
         },
         {
-          "title": "Microsoft fixes BitLocker recovery bug on Windows Server 2025",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/",
-          "date": "Jun 11, 2026",
-          "excerpt": "Microsoft has resolved a known issue causing some Windows Server 2025 devices to boot into BitLocker recovery after installing the April 2026 security update. [...]"
+          "title": "Over 73,000 French govt employees affected in Tchap messenger breach",
+          "link": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
+          "date": "Jun 12, 2026",
+          "excerpt": "The French government revealed that a recent breach of its Tchap encrypted messaging platform affects the accounts of over 73,000 employees in the French public sector. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Microsoft's worst 'Nightmare' unleashes BitLocker bypass 0-day",
-          "link": "https://www.theregister.com/security/2026/06/11/nightmare-eclipse-drops-claimed-bitlocker-bypass-for-microsoft-windows/5254371",
-          "date": "Jun 11, 2026",
-          "excerpt": "Another day, another Windows exploit code"
+          "title": "Microsoft has mostly repaired a flaw in Surface hardware that allowed unprotected devices to be bricked by a single packet",
+          "link": "https://www.theregister.com/security/2026/06/12/microsoft-has-mostly-repaired-a-flaw-in-surface-hardware-that-allowed-unprotected-devices-to-be-bricked-by-a-single-packet/5253895",
+          "date": "Jun 12, 2026",
+          "excerpt": "And it was Microsoft Copilot that unwittingly revealed the longstanding vulnerability"
         },
         {
-          "title": "Hand-cranked AI box lets you get a workout while you wait for answers",
-          "link": "https://www.theregister.com/offbeat/2026/06/11/hand-cranked-ai-box-lets-you-get-a-workout-while-you-wait-for-answers/5254333",
-          "date": "Jun 11, 2026",
-          "excerpt": "We're all familiar with AI cranks by now, but what about crank-powered AIs?"
+          "title": "Google fires sueball at alleged Chinese phishers over AI-powered fraud ops",
+          "link": "https://www.theregister.com/security/2026/06/12/google-fires-sueball-at-alleged-chinese-phishers-over-ai-powered-fraud-ops/5254841",
+          "date": "Jun 12, 2026",
+          "excerpt": "Telegram-based 'Outsider Enterprise' accused of sending millions of scam texts and impersonating trusted brands"
         },
         {
-          "title": "Graviton 5 impresses, but please, for the love of all that's holy, stop calling them 'AI chips'",
-          "link": "https://www.theregister.com/paas-and-iaas/2026/06/11/graviton-5-impresses-but-please-for-the-love-of-all-thats-holy-stop-calling-them-ai-chips/5254316",
-          "date": "Jun 11, 2026",
-          "excerpt": "AWS better at running chip fabs than their mouths"
+          "title": "SpaceX's $75B IPO has investors seeing stars",
+          "link": "https://www.theregister.com/offbeat/2026/06/12/spacexs-75b-ipo-has-investors-seeing-stars/5254677",
+          "date": "Jun 12, 2026",
+          "excerpt": "It might also make Musk the world's first trillionaire"
         },
         {
-          "title": "ZTE wins three Selular Award 2026 honors for AI-powered network innovation",
-          "link": "https://www.theregister.com/networks/2026/06/11/zte-wins-three-selular-award-2026-honors-for-ai-powered-network-innovation/5254393",
-          "date": "Jun 11, 2026",
-          "excerpt": "PARTNER CONTENT: Recognized for breakthrough achievements in FWA, Network Ecosystem, and Native AI Baseband, ZTE solidifies its role as a key driver of Indonesia’s 5G-Advanced and AI economic growth"
+          "title": "Met Police boss threatens to cut 700 frontline jobs after Palantir deal blocked ",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/12/met-police-boss-threatens-to-cut-700-frontline-jobs-after-palantir-deal-blocked/5254722",
+          "date": "Jun 12, 2026",
+          "excerpt": "Commissioner Mark Rowley says automation savings are now 'at risk'"
         },
         {
-          "title": "Trump phone has HTC guts. Tremendous guts. The best guts",
-          "link": "https://www.theregister.com/personal-tech/2026/06/11/trump-phone-has-htc-guts-tremendous-guts-the-best-guts/5254276",
-          "date": "Jun 11, 2026",
-          "excerpt": "iFixit teardown reveals two-year-old, mid-range, Chinese Android"
+          "title": "Plymouth council exposes hundreds in latest local government email gaffe",
+          "link": "https://www.theregister.com/security/2026/06/12/plymouth-council-exposes-hundreds-in-latest-local-government-email-gaffe/5254707",
+          "date": "Jun 12, 2026",
+          "excerpt": "Authority admits mass message to home-schooling families revealed recipients' addresses, prompting ICO report and apology"
         }
       ]
     },
