@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T14:31:11.741Z",
+  "updatedAt": "2026-06-13T07:38:45.697Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Maine disables data breach notification portal after fake disclosures",
+          "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
+          "date": "Jun 12, 2026",
+          "excerpt": "Maine has taken its public data breach reporting portal offline after fraudulent breach disclosures were published on the state's website, prompting a review of procedures to prevent abuse in the futu"
+        },
+        {
+          "title": "phpBB forum fixes auth bypass bug lurking for a decade",
+          "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
+          "date": "Jun 12, 2026",
+          "excerpt": "A 10-year-old authentication bypass vulnerability discovered in the phpBB forum software allows an attacker to log in as any user, including administrators. [...]"
+        },
+        {
+          "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
+          "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+          "date": "Jun 12, 2026",
+          "excerpt": "A Ukrainian national extradited from Ireland to the United States last year has pleaded guilty to conspiracy charges tied to the Conti ransomware operation. [...]"
+        },
+        {
+          "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
+          "link": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
+          "date": "Jun 12, 2026",
+          "excerpt": "More than 400 packages in the Arch User Repository (AUR) are distributing a Linux rootkit and infostealer malware targeting credentials and access tokens. [...]"
+        },
+        {
           "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
           "link": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
           "date": "Jun 12, 2026",
           "excerpt": "GitHub access sales, leaked repositories, and stolen API keys can all become supply-chain attack footholds. Flare explores how underground forums expose early signals tied to software supply-chain ris"
-        },
-        {
-          "title": "Microsoft fixes Windows update failures linked to WUSA installer",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/",
-          "date": "Jun 12, 2026",
-          "excerpt": "Microsoft has fixed a known issue that caused Windows updates released since May 2025 to fail when installed via the Windows Update Standalone Installer (WUSA) from a network share. [...]"
-        },
-        {
-          "title": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
-          "link": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
-          "date": "Jun 12, 2026",
-          "excerpt": "Danish pharmaceutical giant Novo Nordisk, the world's largest producer of insulin, disclosed a data breach affecting patient information from some clinical trials. [...]"
-        },
-        {
-          "title": "CISA orders feds to patch actively exploited Ivanti flaw by Sunday",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
-          "date": "Jun 12, 2026",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch an actively exploited Ivanti Sentry flaw within three days, as mandated by the newly issued Bindin"
-        },
-        {
-          "title": "Over 73,000 French govt employees affected in Tchap messenger breach",
-          "link": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
-          "date": "Jun 12, 2026",
-          "excerpt": "The French government revealed that a recent breach of its Tchap encrypted messaging platform affects the accounts of over 73,000 employees in the French public sector. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Microsoft has mostly repaired a flaw in Surface hardware that allowed unprotected devices to be bricked by a single packet",
-          "link": "https://www.theregister.com/security/2026/06/12/microsoft-has-mostly-repaired-a-flaw-in-surface-hardware-that-allowed-unprotected-devices-to-be-bricked-by-a-single-packet/5253895",
+          "title": "NanoClaw now armed with JFrog for safer packages",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/13/nanoclaw-integrates-jfrog-registries-to-secure-ai-agent-downloads/5255189",
           "date": "Jun 12, 2026",
-          "excerpt": "And it was Microsoft Copilot that unwittingly revealed the longstanding vulnerability"
+          "excerpt": "AI agents can't be trusted, so don't give them dangerous powers"
         },
         {
-          "title": "Google fires sueball at alleged Chinese phishers over AI-powered fraud ops",
-          "link": "https://www.theregister.com/security/2026/06/12/google-fires-sueball-at-alleged-chinese-phishers-over-ai-powered-fraud-ops/5254841",
+          "title": "SK Hynix to boost memory production 3x ... you can wait another 8 years, right?",
+          "link": "https://www.theregister.com/systems/2026/06/12/sk-hynix-to-triple-wafer-capacity-by-2034/5255151",
           "date": "Jun 12, 2026",
-          "excerpt": "Telegram-based 'Outsider Enterprise' accused of sending millions of scam texts and impersonating trusted brands"
+          "excerpt": "We're moving as fast as we can, says SK Group chair"
         },
         {
-          "title": "SpaceX's $75B IPO has investors seeing stars",
-          "link": "https://www.theregister.com/offbeat/2026/06/12/spacexs-75b-ipo-has-investors-seeing-stars/5254677",
+          "title": "Holy git! Microsoft code-sharing site suffers downtime, despite move to Azure",
+          "link": "https://www.theregister.com/software/2026/06/12/github-outages-persist-as-ai-coding-drives-traffic-surge/5255125",
           "date": "Jun 12, 2026",
-          "excerpt": "It might also make Musk the world's first trillionaire"
+          "excerpt": "GitHub caught off guard by customers actually using the AI being evangelized"
         },
         {
-          "title": "Met Police boss threatens to cut 700 frontline jobs after Palantir deal blocked ",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/12/met-police-boss-threatens-to-cut-700-frontline-jobs-after-palantir-deal-blocked/5254722",
+          "title": "MX Linux 25.2 provides possible refuge from AI as well as systemd",
+          "link": "https://www.theregister.com/software/2026/06/12/mx-linux-252-arrives-with-switchable-init-and-pi-refresh/5255017",
           "date": "Jun 12, 2026",
-          "excerpt": "Commissioner Mark Rowley says automation savings are now 'at risk'"
+          "excerpt": "Plus, Raspberry Pi edition finally catches up"
         },
         {
-          "title": "Plymouth council exposes hundreds in latest local government email gaffe",
-          "link": "https://www.theregister.com/security/2026/06/12/plymouth-council-exposes-hundreds-in-latest-local-government-email-gaffe/5254707",
+          "title": "Fired IT worker jailed for 21 months after sabotaging old school district",
+          "link": "https://www.theregister.com/security/2026/06/12/fired-it-worker-jailed-for-21-months-after-sabotaging-old-school-district/5254983",
           "date": "Jun 12, 2026",
-          "excerpt": "Authority admits mass message to home-schooling families revealed recipients' addresses, prompting ICO report and apology"
+          "excerpt": "Iowan’s scheme undone after misplacing trust in former coworker"
         }
       ]
     },
