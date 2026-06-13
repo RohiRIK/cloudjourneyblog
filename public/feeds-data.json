@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T07:38:45.697Z",
+  "updatedAt": "2026-06-13T10:20:29.665Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
+          "link": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
+          "date": "Jun 13, 2026",
+          "excerpt": "The US government has ordered Anthropic to block all foreign nationals from accessing Fable 5 and Mythos 5, forcing the company to suspend both models worldwide. Anthropic is complying but disputes th"
+        },
+        {
           "title": "Maine disables data breach notification portal after fake disclosures",
           "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
           "date": "Jun 12, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
           "date": "Jun 12, 2026",
           "excerpt": "More than 400 packages in the Arch User Repository (AUR) are distributing a Linux rootkit and infostealer malware targeting credentials and access tokens. [...]"
-        },
-        {
-          "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
-          "link": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
-          "date": "Jun 12, 2026",
-          "excerpt": "GitHub access sales, leaked repositories, and stolen API keys can all become supply-chain attack footholds. Flare explores how underground forums expose early signals tied to software supply-chain ris"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "NHS patients can't opt out of Palantir's data platform – but their hospital can",
+          "link": "https://www.theregister.com/databases/2026/06/13/nhs-patients-cant-opt-out-of-palantirs-data-platform-but-their-hospital-can/5254766",
+          "date": "Jun 13, 2026",
+          "excerpt": "Minister says trusts can go it alone on procurement as Parliament mulls February 2027 FDP contract renewal"
+        },
+        {
+          "title": "XP-era Windows spotted haunting London's driverless railway",
+          "link": "https://www.theregister.com/offbeat/2026/06/13/xp-era-windows-spotted-haunting-londons-driverless-railway/5253651",
+          "date": "Jun 13, 2026",
+          "excerpt": "A blast from the past greets commuters"
+        },
         {
           "title": "NanoClaw now armed with JFrog for safer packages",
           "link": "https://www.theregister.com/ai-and-ml/2026/06/13/nanoclaw-integrates-jfrog-registries-to-secure-ai-agent-downloads/5255189",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/software/2026/06/12/github-outages-persist-as-ai-coding-drives-traffic-surge/5255125",
           "date": "Jun 12, 2026",
           "excerpt": "GitHub caught off guard by customers actually using the AI being evangelized"
-        },
-        {
-          "title": "MX Linux 25.2 provides possible refuge from AI as well as systemd",
-          "link": "https://www.theregister.com/software/2026/06/12/mx-linux-252-arrives-with-switchable-init-and-pi-refresh/5255017",
-          "date": "Jun 12, 2026",
-          "excerpt": "Plus, Raspberry Pi edition finally catches up"
-        },
-        {
-          "title": "Fired IT worker jailed for 21 months after sabotaging old school district",
-          "link": "https://www.theregister.com/security/2026/06/12/fired-it-worker-jailed-for-21-months-after-sabotaging-old-school-district/5254983",
-          "date": "Jun 12, 2026",
-          "excerpt": "Iowan’s scheme undone after misplacing trust in former coworker"
         }
       ]
     },
