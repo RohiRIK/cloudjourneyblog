@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T10:20:29.665Z",
+  "updatedAt": "2026-06-13T17:08:33.512Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
+          "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
+          "date": "Jun 13, 2026",
+          "excerpt": "Chinese hackers took control of a target organization's authentication stack and maintained persistence for 10 years, with full visibility into the administrative activity. [...]"
+        },
+        {
           "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
           "link": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
           "date": "Jun 13, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
           "date": "Jun 12, 2026",
           "excerpt": "A Ukrainian national extradited from Ireland to the United States last year has pleaded guilty to conspiracy charges tied to the Conti ransomware operation. [...]"
-        },
-        {
-          "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
-          "link": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
-          "date": "Jun 12, 2026",
-          "excerpt": "More than 400 packages in the Arch User Repository (AUR) are distributing a Linux rootkit and infostealer malware targeting credentials and access tokens. [...]"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "World Cup AI predictor now lets users ask daft what-ifs",
+          "link": "https://www.theregister.com/offbeat/2026/06/13/world-cup-ai-predictor-now-lets-users-ask-daft-what-ifs/5254853",
+          "date": "Jun 13, 2026",
+          "excerpt": "Spoiler: It doesn't end well for Team Register"
+        },
+        {
+          "title": "AWS rolls the dice for faster, more efficient networking",
+          "link": "https://www.theregister.com/networks/2026/06/13/aws-rolls-the-dice-for-faster-more-efficient-networking/5253248",
+          "date": "Jun 13, 2026",
+          "excerpt": "Honey, I flattened the datacenter network"
+        },
         {
           "title": "NHS patients can't opt out of Palantir's data platform – but their hospital can",
           "link": "https://www.theregister.com/databases/2026/06/13/nhs-patients-cant-opt-out-of-palantirs-data-platform-but-their-hospital-can/5254766",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/06/13/nanoclaw-integrates-jfrog-registries-to-secure-ai-agent-downloads/5255189",
           "date": "Jun 12, 2026",
           "excerpt": "AI agents can't be trusted, so don't give them dangerous powers"
-        },
-        {
-          "title": "SK Hynix to boost memory production 3x ... you can wait another 8 years, right?",
-          "link": "https://www.theregister.com/systems/2026/06/12/sk-hynix-to-triple-wafer-capacity-by-2034/5255151",
-          "date": "Jun 12, 2026",
-          "excerpt": "We're moving as fast as we can, says SK Group chair"
-        },
-        {
-          "title": "Holy git! Microsoft code-sharing site suffers downtime, despite move to Azure",
-          "link": "https://www.theregister.com/software/2026/06/12/github-outages-persist-as-ai-coding-drives-traffic-surge/5255125",
-          "date": "Jun 12, 2026",
-          "excerpt": "GitHub caught off guard by customers actually using the AI being evangelized"
         }
       ]
     },
