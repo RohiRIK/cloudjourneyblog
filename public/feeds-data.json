@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T08:06:32.914Z",
+  "updatedAt": "2026-06-14T20:58:24.173Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
+          "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+          "date": "Jun 14, 2026",
+          "excerpt": "In a coordinated effort, the FBI, working with Google and Black Lotus Labs, has dismantled a massive Chinese phishing-as-a-service operation called Outsider Enterprise with thousands of phishing websi"
+        },
+        {
           "title": "Ex-school district employee jailed for hacks on former employer",
           "link": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
           "date": "Jun 13, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
           "date": "Jun 12, 2026",
           "excerpt": "Maine has taken its public data breach reporting portal offline after fraudulent breach disclosures were published on the state's website, prompting a review of procedures to prevent abuse in the futu"
-        },
-        {
-          "title": "phpBB forum fixes auth bypass bug lurking for a decade",
-          "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
-          "date": "Jun 12, 2026",
-          "excerpt": "A 10-year-old authentication bypass vulnerability discovered in the phpBB forum software allows an attacker to log in as any user, including administrators. [...]"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "US Army picks out Vampire to fill a gap in its layered drone defenses",
+          "link": "https://www.theregister.com/offbeat/2026/06/14/us-army-picks-out-vampire-to-fill-a-gap-in-its-layered-drone-defenses/5254963",
+          "date": "Jun 14, 2026",
+          "excerpt": "L3Harris supplies system that can down incoming drones with laser-guided rockets"
+        },
+        {
+          "title": "AI is code – and can't be prompted into being smarter",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+          "date": "Jun 14, 2026",
+          "excerpt": "From Java tests to Shai-Hulud, bots keep proving they'll swallow anything you feed them"
+        },
+        {
+          "title": "EU sovereignty push gives tech buyers a new alphabet soup to swallow",
+          "link": "https://www.theregister.com/off-prem/2026/06/14/eu-sovereignty-push-gives-tech-buyers-a-new-alphabet-soup-to-swallow/5251995",
+          "date": "Jun 14, 2026",
+          "excerpt": "Brussels presses on despite US fury as it looks to enforce cloud autonomy and bolster open source"
+        },
         {
           "title": "Scientists pour cold water on claims phones are rewiring kids' brains",
           "link": "https://www.theregister.com/personal-tech/2026/06/14/scientists-pour-cold-water-on-claims-phones-are-rewiring-kids-brains/5254792",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/offbeat/2026/06/13/world-cup-ai-predictor-now-lets-users-ask-daft-what-ifs/5254853",
           "date": "Jun 13, 2026",
           "excerpt": "Spoiler: It doesn't end well for Team Register"
-        },
-        {
-          "title": "AWS rolls the dice for faster, more efficient networking",
-          "link": "https://www.theregister.com/networks/2026/06/13/aws-rolls-the-dice-for-faster-more-efficient-networking/5253248",
-          "date": "Jun 13, 2026",
-          "excerpt": "Honey, I flattened the datacenter network"
-        },
-        {
-          "title": "NHS patients can't opt out of Palantir's data platform – but their hospital can",
-          "link": "https://www.theregister.com/databases/2026/06/13/nhs-patients-cant-opt-out-of-palantirs-data-platform-but-their-hospital-can/5254766",
-          "date": "Jun 13, 2026",
-          "excerpt": "Minister says trusts can go it alone on procurement as Parliament mulls February 2027 FDP contract renewal"
-        },
-        {
-          "title": "XP-era Windows spotted haunting London's driverless railway",
-          "link": "https://www.theregister.com/offbeat/2026/06/13/xp-era-windows-spotted-haunting-londons-driverless-railway/5253651",
-          "date": "Jun 13, 2026",
-          "excerpt": "A blast from the past greets commuters"
         }
       ]
     },
