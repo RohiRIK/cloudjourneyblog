@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T17:08:33.512Z",
+  "updatedAt": "2026-06-14T08:06:32.914Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Ex-school district employee jailed for hacks on former employer",
+          "link": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
+          "date": "Jun 13, 2026",
+          "excerpt": "A former IT employee at an Iowa school district was sentenced to 21 months in prison after conducting a prolonged cyberattack against the former employer that disrupted classroom operations, deleted a"
+        },
+        {
           "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
           "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
           "date": "Jun 13, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
           "date": "Jun 12, 2026",
           "excerpt": "A 10-year-old authentication bypass vulnerability discovered in the phpBB forum software allows an attacker to log in as any user, including administrators. [...]"
-        },
-        {
-          "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
-          "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
-          "date": "Jun 12, 2026",
-          "excerpt": "A Ukrainian national extradited from Ireland to the United States last year has pleaded guilty to conspiracy charges tied to the Conti ransomware operation. [...]"
         }
       ]
     },
@@ -101,6 +101,12 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Scientists pour cold water on claims phones are rewiring kids' brains",
+          "link": "https://www.theregister.com/personal-tech/2026/06/14/scientists-pour-cold-water-on-claims-phones-are-rewiring-kids-brains/5254792",
+          "date": "Jun 14, 2026",
+          "excerpt": "MPs told that while concerns over handsets and social media grows, evidence they're changing children's brains is limited"
+        },
         {
           "title": "World Cup AI predictor now lets users ask daft what-ifs",
           "link": "https://www.theregister.com/offbeat/2026/06/13/world-cup-ai-predictor-now-lets-users-ask-daft-what-ifs/5254853",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/offbeat/2026/06/13/xp-era-windows-spotted-haunting-londons-driverless-railway/5253651",
           "date": "Jun 13, 2026",
           "excerpt": "A blast from the past greets commuters"
-        },
-        {
-          "title": "NanoClaw now armed with JFrog for safer packages",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/13/nanoclaw-integrates-jfrog-registries-to-secure-ai-agent-downloads/5255189",
-          "date": "Jun 12, 2026",
-          "excerpt": "AI agents can't be trusted, so don't give them dangerous powers"
         }
       ]
     },
