@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T20:58:24.173Z",
+  "updatedAt": "2026-06-15T02:37:20.976Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,12 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Fire burns Google Cloud India’s network, which remains slow a week later",
+          "link": "https://www.theregister.com/off-prem/2026/06/14/fire-burns-google-cloud-indias-network-which-remains-slow-a-week-later/5255246",
+          "date": "Jun 14, 2026",
+          "excerpt": "PLUS: Japan’s space truck is back in business; Zoho's DIY servers; Record tech exports for Korea, and more!"
+        },
+        {
           "title": "US Army picks out Vampire to fill a gap in its layered drone defenses",
           "link": "https://www.theregister.com/offbeat/2026/06/14/us-army-picks-out-vampire-to-fill-a-gap-in-its-layered-drone-defenses/5254963",
           "date": "Jun 14, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/personal-tech/2026/06/14/scientists-pour-cold-water-on-claims-phones-are-rewiring-kids-brains/5254792",
           "date": "Jun 14, 2026",
           "excerpt": "MPs told that while concerns over handsets and social media grows, evidence they're changing children's brains is limited"
-        },
-        {
-          "title": "World Cup AI predictor now lets users ask daft what-ifs",
-          "link": "https://www.theregister.com/offbeat/2026/06/13/world-cup-ai-predictor-now-lets-users-ask-daft-what-ifs/5254853",
-          "date": "Jun 13, 2026",
-          "excerpt": "Spoiler: It doesn't end well for Team Register"
         }
       ]
     },
