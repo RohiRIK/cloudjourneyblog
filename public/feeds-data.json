@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T02:39:40.798Z",
+  "updatedAt": "2026-06-16T09:15:02.681Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Windows version of SprySOCKS Linux malware used to attack govt orgs",
+          "link": "https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/",
+          "date": "Jun 16, 2026",
+          "excerpt": "Windows variants for the SprySOCKS Linux malware have been used in attacks targeting government organizations in at least four countries. [...]"
+        },
+        {
+          "title": "iRhythm discloses data breach, says hackers stole patient info",
+          "link": "https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/",
+          "date": "Jun 16, 2026",
+          "excerpt": "Digital healthcare company iRhythm Holdings has disclosed a data breach after hackers stole patients' personal and health information stored on third-party-hosted business applications. [...]"
+        },
+        {
           "title": "DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act",
           "link": "https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/",
           "date": "Jun 15, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
           "date": "Jun 15, 2026",
           "excerpt": "WordPress plugins OptinMonster, TrustPulse, and PushEngage have been compromised in a supply-chain attack impacting Awesome Motive-s content distribution network (CDN). [...]"
-        },
-        {
-          "title": "Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
-          "date": "Jun 15, 2026",
-          "excerpt": "Cisco has released security updates to address a vulnerability in the Catalyst SD-WAN Manager, tracked as CVE-2026-20262, that was exploited in attacks to escalate to root privileges. [...]"
-        },
-        {
-          "title": "Council of Europe investigates ShinyHunters data breach claims",
-          "link": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
-          "date": "Jun 15, 2026",
-          "excerpt": "The Council of Europe, the continent's oldest intergovernmental body, is probing claims of a data breach made by the ShinyHunters extortion group over the weekend. [...]"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "France's digital sovereignty push is struggling to escape the Microsoft gravity well",
+          "link": "https://www.theregister.com/on-prem/2026/06/16/frances-digital-sovereignty-push-is-struggling-to-escape-the-microsoft-gravity-well/5255380",
+          "date": "Jun 16, 2026",
+          "excerpt": "Nextcloud rollout shows locally controlled storage is one thing; getting users off Office is quite another"
+        },
+        {
+          "title": "Inside the cloud's new agentic AI-ready, Arm-powered foundation",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/16/inside-the-clouds-new-agentic-ai-ready-arm-powered-foundation/5256003",
+          "date": "Jun 16, 2026",
+          "excerpt": "PARTNER CONTENT: From hyperscalers to enterprises, performance-per-watt and system-level efficiency are redefining the cloud compute foundation"
+        },
         {
           "title": "A modest proposal: Reformat everything to make documents more palatable to AI",
           "link": "https://www.theregister.com/ai-and-ml/2026/06/16/a-modest-proposal-reformat-everything-to-make-documents-more-palatable-to-ai/5255938",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
           "date": "Jun 15, 2026",
           "excerpt": "According to the one person who actually read the research paper"
-        },
-        {
-          "title": "DARPA seeks swappable satellites to help with future star wars",
-          "link": "https://www.theregister.com/offbeat/2026/06/15/darpa-seeks-swappable-satellites-to-help-with-future-star-wars/5255839",
-          "date": "Jun 15, 2026",
-          "excerpt": "Worried that an unexpected strike could take out critical orbital systems, Pentagon researchers want to know how fast the industry thinks it could launch replacements"
-        },
-        {
-          "title": "Anthropic reserves right to check ID for Claude subs",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/15/anthropic-reserves-right-to-check-id-for-claude-subs/5255804",
-          "date": "Jun 15, 2026",
-          "excerpt": "How can I help you today? Present your papers to begin"
         }
       ]
     },
