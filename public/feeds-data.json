@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T16:53:22.240Z",
+  "updatedAt": "2026-06-16T02:39:40.798Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act",
+          "link": "https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/",
+          "date": "Jun 15, 2026",
+          "excerpt": "The U.S. Department of Justice announced Friday that it has seized the CFAKE.com and SOCFAKE.com websites, which allegedly hosted nonconsensual AI-generated nude images and videos of women, in what ap"
+        },
+        {
+          "title": "SimpleHelp bug lets hackers create rogue remote support accounts",
+          "link": "https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/",
+          "date": "Jun 15, 2026",
+          "excerpt": "A vulnerability in the SimpleHelp remote management software allows unauthenticated attackers to create privileged technician accounts on servers using the OpenID Connect (OIDC) authentication protoco"
+        },
+        {
+          "title": "OptinMonster WordPress plugin hacked in CDN supply-chain attack",
+          "link": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
+          "date": "Jun 15, 2026",
+          "excerpt": "WordPress plugins OptinMonster, TrustPulse, and PushEngage have been compromised in a supply-chain attack impacting Awesome Motive-s content distribution network (CDN). [...]"
+        },
+        {
+          "title": "Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
+          "date": "Jun 15, 2026",
+          "excerpt": "Cisco has released security updates to address a vulnerability in the Catalyst SD-WAN Manager, tracked as CVE-2026-20262, that was exploited in attacks to escalate to root privileges. [...]"
+        },
+        {
           "title": "Council of Europe investigates ShinyHunters data breach claims",
           "link": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
           "date": "Jun 15, 2026",
           "excerpt": "The Council of Europe, the continent's oldest intergovernmental body, is probing claims of a data breach made by the ShinyHunters extortion group over the weekend. [...]"
-        },
-        {
-          "title": "FBI: Fraudsters use couriers to steal money in crypto scams",
-          "link": "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
-          "date": "Jun 15, 2026",
-          "excerpt": "The U.S. Federal Bureau of Investigation (FBI) warned that criminals are using couriers to collect money from victims of cryptocurrency investment scams, also known as pig butchering or romance baitin"
-        },
-        {
-          "title": "Vibe coders are gonna vibe code: How CISOs are tackling code sprawl",
-          "link": "https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/",
-          "date": "Jun 15, 2026",
-          "excerpt": "Employees are increasingly building automations, agents, and apps with AI tools outside traditional security oversight. Tines explores how CISOs are handling AI-driven code sprawl, shadow tooling, and"
-        },
-        {
-          "title": "Chinese hackers breach REDCap servers, steal medical research",
-          "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/",
-          "date": "Jun 15, 2026",
-          "excerpt": "A China-linked espionage campaign targeted exposed REDCap servers to deploy the InfiniteRed malware and steal sensitive data from a medical institution in North America. [...]"
-        },
-        {
-          "title": "New attack turned Microsoft 365 Copilot into 1-click data theft tool",
-          "link": "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
-          "date": "Jun 15, 2026",
-          "excerpt": "A critical vulnerability chain dubbed SearchLeak in Microsoft 365 Copilot Enterprise could allow attackers to steal sensitive data from a target's mailbox, OneDrive, or SharePoint account through a sp"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Feds snooze as US datacenter law set to lapse with no replacement in site",
-          "link": "https://www.theregister.com/public-sector/2026/06/15/feds-snooze-as-us-datacenter-law-set-to-lapse-with-no-replacement-in-site/5255679",
+          "title": "A modest proposal: Reformat everything to make documents more palatable to AI",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/16/a-modest-proposal-reformat-everything-to-make-documents-more-palatable-to-ai/5255938",
           "date": "Jun 15, 2026",
-          "excerpt": "Federal Data Center Enhancement Act (FDCEA) of 2023 covers standards including security and sustainability"
+          "excerpt": "What's up, DocLang?"
         },
         {
-          "title": "The Y2K bug is back! Danish dev digs up untimely flaw in old BSD build",
-          "link": "https://www.theregister.com/offbeat/2026/06/15/the-y2k-bug-is-back-danish-dev-digs-up-untimely-flaw-in-old-bsd-build/5255645",
+          "title": "Cisco SD-WAN make-me-root bug under attack",
+          "link": "https://www.theregister.com/patches/2026/06/15/cisco-sd-wan-make-me-root-bug-under-attack/5255916",
           "date": "Jun 15, 2026",
-          "excerpt": "26 years late and no threat unless you still run a PDP-11/70 and rely on short-wave timekeeping broadcasts"
+          "excerpt": "Second Catalyst SD-WAN Manager flaw exploited as an 0-day this month"
         },
         {
-          "title": "NASA management wants a word and won't say why",
-          "link": "https://www.theregister.com/science/2026/06/15/nasa-management-wants-a-word-and-wont-say-why/5255702",
+          "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak, says researcher",
+          "link": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
           "date": "Jun 15, 2026",
-          "excerpt": "A mystery calendar event is certainly one way to find out about being selected for the Artemis III crew"
+          "excerpt": "According to the one person who actually read the research paper"
         },
         {
-          "title": "Red Hat gives Ubuntu a bootc up the backside at Canonical shindig",
-          "link": "https://www.theregister.com/software/2026/06/15/red-hat-gives-ubuntu-a-bootc-up-the-backside-at-canonical-shindig/5255608",
+          "title": "DARPA seeks swappable satellites to help with future star wars",
+          "link": "https://www.theregister.com/offbeat/2026/06/15/darpa-seeks-swappable-satellites-to-help-with-future-star-wars/5255839",
           "date": "Jun 15, 2026",
-          "excerpt": "Bootable containers pitch shows how distro can be managed with familiar OCI tooling"
+          "excerpt": "Worried that an unexpected strike could take out critical orbital systems, Pentagon researchers want to know how fast the industry thinks it could launch replacements"
         },
         {
-          "title": "Microsoft site throwing warnings after someone forgot to renew cert",
-          "link": "https://www.theregister.com/security/2026/06/15/microsoft-site-throwing-warnings-after-someone-forgot-to-renew-cert/5255597",
+          "title": "Anthropic reserves right to check ID for Claude subs",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/15/anthropic-reserves-right-to-check-id-for-claude-subs/5255804",
           "date": "Jun 15, 2026",
-          "excerpt": "Connectivity checker trips browser alarms thanks to lapsed security paperwork"
+          "excerpt": "How can I help you today? Present your papers to begin"
         }
       ]
     },
