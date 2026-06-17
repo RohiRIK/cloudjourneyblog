@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T22:04:55.665Z",
+  "updatedAt": "2026-06-17T02:36:54.668Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,24 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Cyberattack sees crops kept in the ground",
+          "link": "https://www.theregister.com/cyber-crime/2026/06/17/cyberattack-sees-crops-kept-in-the-ground/5256321",
+          "date": "Jun 17, 2026",
+          "excerpt": "Bitter harvest for Australia's Mackay Sugar, attacked in peak cane crushing season"
+        },
+        {
+          "title": "AMD's Mext buy shows how AI could solve the RAM shortage it created",
+          "link": "https://www.theregister.com/systems/2026/06/16/amds-mext-buy-shows-how-ai-could-solve-the-ram-shortage-it-created/5257352",
+          "date": "Jun 16, 2026",
+          "excerpt": "Running low on memory, can't afford more? The House of Zen's latest acquisition puts an AI spin on flash-based memory expansion"
+        },
+        {
+          "title": "The new Siri makes one of Apple's most convenient OS features a cumbersome mess",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/16/the-new-siri-makes-one-of-apples-most-convenient-os-features-a-cumbersome-mess/5256591",
+          "date": "Jun 16, 2026",
+          "excerpt": "Goodbye, useful Spotlight; hello force-fed Apple intelligence bloatware that feels distressingly like Google AI Overviews"
+        },
+        {
           "title": "Python dev saved from disaster by intuition...and AI",
           "link": "https://www.theregister.com/ai-and-ml/2026/06/16/python-dev-saved-from-disaster-by-intuitionand-ai/5256632",
           "date": "Jun 16, 2026",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/hpc/2026/06/16/intel-born-networking-tech-resurfaces-as-infiniband-alternative-for-doe-supers/5256535",
           "date": "Jun 16, 2026",
           "excerpt": "Omni-Path lights up Lawrence Livermore system at 400 Gbps"
-        },
-        {
-          "title": "AI and brain-computer interface allow speechless ALS patient to work a full-time job",
-          "link": "https://www.theregister.com/science/2026/06/16/ai-and-brain-computer-interface-allow-speechless-als-patient-to-work-a-full-time-job/5256492",
-          "date": "Jun 16, 2026",
-          "excerpt": "The hardware isn't new, but a UC Davis research team's machine learning-powered method of translating brain activity in an ALS patient into sentences with 92% accuracy is"
-        },
-        {
-          "title": "Three critical Fortinet sandbox bugs splattered by unknown attackers",
-          "link": "https://www.theregister.com/security/2026/06/16/three-critical-fortinet-sandbox-bugs-splattered-by-unknown-attackers/5256461",
-          "date": "Jun 16, 2026",
-          "excerpt": "All have patches, so make sure you upgrade to a fixed version"
-        },
-        {
-          "title": "Commodore gets into the phone biz with Sailfish-powered retro 'Callback'",
-          "link": "https://www.theregister.com/personal-tech/2026/06/16/commodore-gets-into-the-phone-biz-with-sailfish-powered-retro-callback/5256186",
-          "date": "Jun 16, 2026",
-          "excerpt": "Ships sans email, web, or socials, but with plenty of beige plastic"
         }
       ]
     },
