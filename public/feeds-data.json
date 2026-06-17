@@ -1,11 +1,29 @@
 {
-  "updatedAt": "2026-06-17T02:36:54.668Z",
+  "updatedAt": "2026-06-17T21:51:54.552Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Beyond the benchmark: Advancing security at AI speed ",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/",
+          "date": "Jun 17, 2026",
+          "excerpt": "Read how Microsoft Security has advanced its agentic vulnerability detection system, codename MDASH, integrating into real-world workflows across Windows, Azure, and identity systems. The post Beyond "
+        },
+        {
+          "title": "​​Forrester names Microsoft a Leader in the 2026 Extended Detection and Response Platforms Wave™ report",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/forrester-names-microsoft-a-leader-in-the-2026-extended-detection-and-response-platforms-wave-report/",
+          "date": "Jun 17, 2026",
+          "excerpt": "Microsoft has been named a Leader in The Forrester Wave™: Extended Detection and Response Platforms, Q2 2026. The post ​​Forrester names Microsoft a Leader in the 2026 Extended Detection and Response "
+        },
+        {
+          "title": "AI is accelerating cyberattacks—here’s how to stay ahead",
+          "link": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592",
+          "date": "Jun 17, 2026",
+          "excerpt": "See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead a"
+        },
         {
           "title": "Microsoft Defender email security benchmarking: Key insights from one year of data",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/15/microsoft-defender-email-security-benchmarking-key-insights-from-one-year-of-data/",
@@ -17,24 +35,6 @@
           "link": "https://commandline.microsoft.com/assert-written-intent-executable-evals/",
           "date": "Jun 10, 2026",
           "excerpt": "Adaptive Spec-driven Scoring for Evaluation and Regression Testing (ASSERT) is an open-source framework for converting natural language behavior requirements into executable evaluations of AI models a"
-        },
-        {
-          "title": "Reconstructing AI activity in investigations ",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/",
-          "date": "Jun 9, 2026",
-          "excerpt": "Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data ex"
-        },
-        {
-          "title": "AI brands as bait: How threat actors are using the AI hype in social engineering",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/",
-          "date": "Jun 8, 2026",
-          "excerpt": "As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actor"
-        },
-        {
-          "title": "Securing CI/CD in an agentic world: Claude Code Github action case",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/",
-          "date": "Jun 5, 2026",
-          "excerpt": "Microsoft Threat Intelligence identified a prompt injection pathway in Claude Code GitHub Action that allowed access to workflow secrets under specific conditions. This research examines the attack ch"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
-          "link": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
-          "date": "Jun 16, 2026",
-          "excerpt": "At least 15 malicious plugins found on the JetBrains Marketplace were designed to steal AI API keys from developers. [...]"
+          "title": "Google to use UK and EU user IP addresses for ad personalization",
+          "link": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
+          "date": "Jun 17, 2026",
+          "excerpt": "From August 3, 2026, Google will use IP addresses from UK, EEA and Switzerland users for ad measurement and personalization. It lands as the ICO weighs new consent rules, and years after Google itself"
         },
         {
-          "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
-          "link": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
-          "date": "Jun 16, 2026",
-          "excerpt": "A new Android banking trojan named Rokarolla is targeting 217 banking and cryptocurrency applications using an extensive set of 137 commands. [...]"
+          "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
+          "link": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+          "date": "Jun 17, 2026",
+          "excerpt": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]"
         },
         {
-          "title": "Steam Workshop abused to spread malware via Wallpaper Engine app",
-          "link": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
-          "date": "Jun 16, 2026",
-          "excerpt": "Threat actors are abusing Steam Workshop, Valve's community hub for downloading game-related content, to push various malware hidden in wallpaper packages. [...]"
+          "title": "Why Account Takeovers Are Rising and How to Stop Them",
+          "link": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
+          "date": "Jun 17, 2026",
+          "excerpt": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores how device trust and continuous verification help "
         },
         {
-          "title": "UK to require ID or face scan before you can make social media accounts",
-          "link": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
-          "date": "Jun 16, 2026",
-          "excerpt": "Opening a new social media account in the UK will soon mean proving you're over 16 with an ID upload or a facial age scan, under a government ban on under-16s taking effect in spring 2027. Security ex"
+          "title": "India's Telegram ban hit the UAE too. Here's how to get around it",
+          "link": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
+          "date": "Jun 17, 2026",
+          "excerpt": "India has banned Telegram until June 22 after the app was used to circulate leaked exam papers. CEO Pavel Durov accuses telecom Reliance of BGP hijacking that disrupted the app as far away as the UAE."
         },
         {
-          "title": "GhostTree Attack Abused Recursive Windows Junctions to Hide Malware",
-          "link": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/",
-          "date": "Jun 16, 2026",
-          "excerpt": "GhostTree uses recursive NTFS junctions to generate vast numbers of valid Windows file paths. Varonis explains how the technique could cause Microsoft Defender folder scans to never complete, leaving "
+          "title": "Microsoft confirms Office apps launch issues after June updates",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
+          "date": "Jun 17, 2026",
+          "excerpt": "Microsoft is investigating a new issue preventing third-party applications from launching Microsoft Office applications or opening documents on up-to-date Windows systems. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Cyberattack sees crops kept in the ground",
-          "link": "https://www.theregister.com/cyber-crime/2026/06/17/cyberattack-sees-crops-kept-in-the-ground/5256321",
+          "title": "If AGENTS.md smells ripe, your code won’t live up to the hype",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/17/if-agentsmd-smells-ripe-your-code-wont-live-up-to-the-hype/5257951",
           "date": "Jun 17, 2026",
-          "excerpt": "Bitter harvest for Australia's Mackay Sugar, attacked in peak cane crushing season"
+          "excerpt": "Researchers urge developers to see that less is more when it comes to instructions"
         },
         {
-          "title": "AMD's Mext buy shows how AI could solve the RAM shortage it created",
-          "link": "https://www.theregister.com/systems/2026/06/16/amds-mext-buy-shows-how-ai-could-solve-the-ram-shortage-it-created/5257352",
-          "date": "Jun 16, 2026",
-          "excerpt": "Running low on memory, can't afford more? The House of Zen's latest acquisition puts an AI spin on flash-based memory expansion"
+          "title": "Nvidia-backed optics vendor to boost wafer output by 4x to meet AI interconnect demand",
+          "link": "https://www.theregister.com/networks/2026/06/17/nvidia-backed-optics-vendor-to-boost-wafer-output-by-4x-to-meet-ai-interconnect-demand/5257909",
+          "date": "Jun 17, 2026",
+          "excerpt": "Jensen can't risk semiconductor supply chains derailing the AI hype train"
         },
         {
-          "title": "The new Siri makes one of Apple's most convenient OS features a cumbersome mess",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/16/the-new-siri-makes-one-of-apples-most-convenient-os-features-a-cumbersome-mess/5256591",
-          "date": "Jun 16, 2026",
-          "excerpt": "Goodbye, useful Spotlight; hello force-fed Apple intelligence bloatware that feels distressingly like Google AI Overviews"
+          "title": "Massive password-stealing attack hits 75k Fortinet firewalls",
+          "link": "https://www.theregister.com/cyber-crime/2026/06/17/massive-password-stealing-attack-hits-75k-fortinet-firewalls/5257877",
+          "date": "Jun 17, 2026",
+          "excerpt": "Why are you even reading this?! Rotate your passwords!!"
         },
         {
-          "title": "Python dev saved from disaster by intuition...and AI",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/16/python-dev-saved-from-disaster-by-intuitionand-ai/5256632",
-          "date": "Jun 16, 2026",
-          "excerpt": "I'm sorry, Dave. I can't install that repo that will totally hose your system."
+          "title": "Uncle Sam bets $500M that Alphabet spinoff's AI can dig up new semiconductor materials",
+          "link": "https://www.theregister.com/systems/2026/06/17/uncle-sam-bets-500m-that-alphabet-spinoffs-ai-can-dig-up-new-semiconductor-materials/5257854",
+          "date": "Jun 17, 2026",
+          "excerpt": "AI drug discovery is so last year, even though it hasn't accomplished much yet"
         },
         {
-          "title": "Intel-born networking tech resurfaces as InfiniBand alternative for DoE supers",
-          "link": "https://www.theregister.com/hpc/2026/06/16/intel-born-networking-tech-resurfaces-as-infiniband-alternative-for-doe-supers/5256535",
-          "date": "Jun 16, 2026",
-          "excerpt": "Omni-Path lights up Lawrence Livermore system at 400 Gbps"
+          "title": "Only half of US datacenter capacity planned for 2026 is actually  under construction",
+          "link": "https://www.theregister.com/on-prem/2026/06/17/only-half-of-us-datacenter-capacity-planned-for-2026-is-actually-under-construction/5257781",
+          "date": "Jun 17, 2026",
+          "excerpt": "Another fun example of AI hype and reality colliding"
         }
       ]
     },
