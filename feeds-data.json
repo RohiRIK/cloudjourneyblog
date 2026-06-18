@@ -1,11 +1,23 @@
 {
-  "updatedAt": "2026-06-17T21:51:54.552Z",
+  "updatedAt": "2026-06-18T18:19:49.851Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
+          "date": "Jun 18, 2026",
+          "excerpt": "A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat "
+        },
+        {
+          "title": "Crypto Clipper uses Tor and worm-like propagation for persistence and control",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
+          "date": "Jun 17, 2026",
+          "excerpt": "Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptoc"
+        },
         {
           "title": "Beyond the benchmark: Advancing security at AI speed ",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/",
@@ -23,18 +35,6 @@
           "link": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592",
           "date": "Jun 17, 2026",
           "excerpt": "See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead a"
-        },
-        {
-          "title": "Microsoft Defender email security benchmarking: Key insights from one year of data",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/15/microsoft-defender-email-security-benchmarking-key-insights-from-one-year-of-data/",
-          "date": "Jun 15, 2026",
-          "excerpt": "See how Microsoft Defender performed in one year of real-world email security benchmarking against SEG and ICES vendors. The post Microsoft Defender email security benchmarking: Key insights from one "
-        },
-        {
-          "title": "Turn specs into evals for any agent with ASSERT",
-          "link": "https://commandline.microsoft.com/assert-written-intent-executable-evals/",
-          "date": "Jun 10, 2026",
-          "excerpt": "Adaptive Spec-driven Scoring for Evaluation and Regression Testing (ASSERT) is an open-source framework for converting natural language behavior requirements into executable evaluations of AI models a"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Google to use UK and EU user IP addresses for ad personalization",
-          "link": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
-          "date": "Jun 17, 2026",
-          "excerpt": "From August 3, 2026, Google will use IP addresses from UK, EEA and Switzerland users for ad measurement and personalization. It lands as the ICO weighs new consent rules, and years after Google itself"
+          "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
+          "link": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
+          "date": "Jun 18, 2026",
+          "excerpt": "Threat actors targeting cryptocurrency wallets have been distributing clipboard-stealing malware with self-spreading capabilities and using the Tor network to conceal communication. [...]"
         },
         {
-          "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
-          "link": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
-          "date": "Jun 17, 2026",
-          "excerpt": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]"
+          "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
+          "date": "Jun 18, 2026",
+          "excerpt": "Market intelligence platform Klue suffered a OAuth breach that enabled the \"Icarus\" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]"
         },
         {
-          "title": "Why Account Takeovers Are Rising and How to Stop Them",
-          "link": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
-          "date": "Jun 17, 2026",
-          "excerpt": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores how device trust and continuous verification help "
+          "title": "5 reasons Microsoft 365 backup isn’t enough for business data protection",
+          "link": "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
+          "date": "Jun 18, 2026",
+          "excerpt": "Microsoft 365 helps keep services running, but protecting and recovering business data remains your responsibility. Acronis breaks down five gaps organizations should consider when evaluating Microsof"
         },
         {
-          "title": "India's Telegram ban hit the UAE too. Here's how to get around it",
-          "link": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
-          "date": "Jun 17, 2026",
-          "excerpt": "India has banned Telegram until June 22 after the app was used to circulate leaked exam papers. CEO Pavel Durov accuses telecom Reliance of BGP hijacking that disrupted the app as far away as the UAE."
+          "title": "Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp",
+          "link": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
+          "date": "Jun 18, 2026",
+          "excerpt": "International law enforcement agencies cleaned nearly 15,000 malware-infected WordPress websites and took down more than 100 servers linked to the SocGholish botnet and the Evil Corp Russian cybercrim"
         },
         {
-          "title": "Microsoft confirms Office apps launch issues after June updates",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
-          "date": "Jun 17, 2026",
-          "excerpt": "Microsoft is investigating a new issue preventing third-party applications from launching Microsoft Office applications or opening documents on up-to-date Windows systems. [...]"
+          "title": "ShapedPlugin update flow hacked to infect WordPress sites",
+          "link": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
+          "date": "Jun 18, 2026",
+          "excerpt": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack that distributed infected releases to paying customers via the vendor's official update system. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "If AGENTS.md smells ripe, your code won’t live up to the hype",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/17/if-agentsmd-smells-ripe-your-code-wont-live-up-to-the-hype/5257951",
-          "date": "Jun 17, 2026",
-          "excerpt": "Researchers urge developers to see that less is more when it comes to instructions"
+          "title": "Committed skeptic finds himself warming to new Amazon AI products that actually don't suck",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/18/committed-skeptic-finds-himself-warming-to-new-amazon-ai-products-that-actually-dont-suck/5258414",
+          "date": "Jun 18, 2026",
+          "excerpt": "Ed's note to Corey: Blink once if you're safe, twice if you're in danger"
         },
         {
-          "title": "Nvidia-backed optics vendor to boost wafer output by 4x to meet AI interconnect demand",
-          "link": "https://www.theregister.com/networks/2026/06/17/nvidia-backed-optics-vendor-to-boost-wafer-output-by-4x-to-meet-ai-interconnect-demand/5257909",
-          "date": "Jun 17, 2026",
-          "excerpt": "Jensen can't risk semiconductor supply chains derailing the AI hype train"
+          "title": "Citrix now lets you run virtual desktops like a cost-conscious private equityeer",
+          "link": "https://www.theregister.com/virtualization/2026/06/18/citrixs-daas-flex-aims-to-delay-pricey-pc-upgrades/5258476",
+          "date": "Jun 18, 2026",
+          "excerpt": "Soaring PC prices make alternatives to hardware refreshes interesting"
         },
         {
-          "title": "Massive password-stealing attack hits 75k Fortinet firewalls",
-          "link": "https://www.theregister.com/cyber-crime/2026/06/17/massive-password-stealing-attack-hits-75k-fortinet-firewalls/5257877",
-          "date": "Jun 17, 2026",
-          "excerpt": "Why are you even reading this?! Rotate your passwords!!"
+          "title": "Canonical reveals Myna, its local speech-to-text app",
+          "link": "https://www.theregister.com/os-platforms/2026/06/18/canonical-unveils-myna-speech-to-text-app-for-ubuntu-2610/5258376",
+          "date": "Jun 18, 2026",
+          "excerpt": "Bird-branded AI will ride on Stonking Stingray"
         },
         {
-          "title": "Uncle Sam bets $500M that Alphabet spinoff's AI can dig up new semiconductor materials",
-          "link": "https://www.theregister.com/systems/2026/06/17/uncle-sam-bets-500m-that-alphabet-spinoffs-ai-can-dig-up-new-semiconductor-materials/5257854",
-          "date": "Jun 17, 2026",
-          "excerpt": "AI drug discovery is so last year, even though it hasn't accomplished much yet"
+          "title": "NASA payload to ride commercial Mars orbiter from rocket biz yet to reach orbit",
+          "link": "https://www.theregister.com/science/2026/06/18/nasa-payload-to-ride-commercial-mars-orbiter-from-rocket-biz-yet-to-reach-orbit/5258341",
+          "date": "Jun 18, 2026",
+          "excerpt": "Aeolus mission promises better Martian weather models, assuming Relativity Space can get its Terran R off the ground"
         },
         {
-          "title": "Only half of US datacenter capacity planned for 2026 is actually  under construction",
-          "link": "https://www.theregister.com/on-prem/2026/06/17/only-half-of-us-datacenter-capacity-planned-for-2026-is-actually-under-construction/5257781",
-          "date": "Jun 17, 2026",
-          "excerpt": "Another fun example of AI hype and reality colliding"
+          "title": "ZTE and China Telecom Guangdong advance cross‑vendor IP network simulation pilots, paving the way for intelligent network operations",
+          "link": "https://www.theregister.com/networks/2026/06/18/zte-and-china-telecom-guangdong-advance-crossvendor-ip-network-simulation-pilots-paving-the-way-for-intelligent-network-operations/5258361",
+          "date": "Jun 18, 2026",
+          "excerpt": "PARTNER CONTENT: Leveraging >95% digital twin fidelity and multi-vendor collaboration to eliminate network change risks and achieve zero-error O&M"
         }
       ]
     },
