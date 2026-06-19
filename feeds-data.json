@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T08:56:59.457Z",
+  "updatedAt": "2026-06-19T17:46:30.544Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "NY man charged after harassing college student with AI-generated nudes",
-          "link": "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
+          "title": "Texas govt data breach exposes over 3 million driver’s licenses",
+          "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
           "date": "Jun 19, 2026",
-          "excerpt": "A New York man faces cyberstalking charges after allegedly sharing AI-generated nude images and fabricated racist messages using fake social media profiles to harass a Georgia college student. [...]"
+          "excerpt": "The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]"
         },
         {
-          "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
+          "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
+          "link": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
           "date": "Jun 19, 2026",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed \"F"
+          "excerpt": "AI agents can access data, trigger workflows, deploy code, and interact with critical business systems, often with little oversight. Token Security breaks down why AI agents are becoming a new identit"
         },
         {
-          "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
-          "link": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
-          "date": "Jun 18, 2026",
-          "excerpt": "The Gentlemen ransomware-as-a-service (RaaS) is actively developing and maintaining a suite of endpoint detection and response (EDR) killers to help affiliates evade detection in attacks. [...]"
+          "title": "Webinar: How attackers bypass MFA and how defenders can respond",
+          "link": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
+          "date": "Jun 19, 2026",
+          "excerpt": "Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without stealing passwords. This webinar explores how behavioral"
         },
         {
-          "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
-          "link": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
-          "date": "Jun 18, 2026",
-          "excerpt": "Nintendo of America has confirmed to BleepingComputer that threat actors stole survey data from the third-party TinyPulse service used internally, but its systems were not compromised. [...]"
+          "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
+          "date": "Jun 19, 2026",
+          "excerpt": "Microsoft has confirmed a confusing Windows bug that causes different filenames to appear in the confirmation dialog when deleting a file from the Recycle Bin. [...]"
         },
         {
-          "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
-          "link": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
-          "date": "Jun 18, 2026",
-          "excerpt": "Threat actors targeting cryptocurrency wallets have been distributing clipboard-stealing malware with self-spreading capabilities and using the Tor network to conceal communication. [...]"
+          "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
+          "date": "Jun 19, 2026",
+          "excerpt": "CISA has urged U.S. federal agencies to secure their systems by Sunday against a critical Splunk Enterprise vulnerability that is being exploited in attacks. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Nutanix's Tech Day London 2026 offers infrastructure insights",
-          "link": "https://www.theregister.com/systems/2026/06/19/nutanixs-tech-day-london-2026-offers-infrastructure-insights/5258635",
+          "title": "Researchers drop checkm8-style BootROM exploit for A12 and A13 iPhones",
+          "link": "https://www.theregister.com/security/2026/06/19/researchers-drop-checkm8-style-bootrom-exploit-for-a12-and-a13-iphones/5259028",
           "date": "Jun 19, 2026",
-          "excerpt": "SPONSORED POST: Come join this working afternoon for infrastructure teams"
+          "excerpt": "Owners of affected iPhones can stop checking for patches now: the fix for this SecureROM bug comes in a new handset"
         },
         {
-          "title": "Use of HMRC's taxing IR35 status tool drops 71% in two years",
-          "link": "https://www.theregister.com/public-sector/2026/06/19/use-of-hmrcs-taxing-ir35-status-tool-drops-71-in-two-years/5258452",
+          "title": "Tensordyne makes a big bet on log math to beat Nvidia",
+          "link": "https://www.theregister.com/systems/2026/06/19/tensordyne-makes-a-big-bet-on-log-math-to-beat-nvidia/5258662",
           "date": "Jun 19, 2026",
-          "excerpt": "Data suggests firms are turning away from CEST as critics say it fails to reflect recent court rulings"
+          "excerpt": "Who needs compute-hungry multiplications when you can just add logarithms"
         },
         {
-          "title": "Users claimed they’d never seen a spell checker and panicked at the sight of red squiggles",
-          "link": "https://www.theregister.com/personal-tech/2026/06/19/users-claimed-theyd-never-seen-a-spell-checker-and-panicked-at-the-sight-of-red-squiggles/5257476",
+          "title": "Bcachefs exits experimental status in new 'performance release'",
+          "link": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
           "date": "Jun 19, 2026",
-          "excerpt": "Techie couldn’t help but be a little blunt when the support call came in – but has no regrets!"
+          "excerpt": "More Rust, but more trouble with AI slop, too"
         },
         {
-          "title": "2,000 retired Google Pixel phones get a second life as a private cloud",
-          "link": "https://www.theregister.com/on-prem/2026/06/18/2000-retired-google-pixel-phones-get-a-second-life-as-a-private-cloud/5258035",
-          "date": "Jun 18, 2026",
-          "excerpt": "You might say the system packs two kilapixels of compute"
+          "title": "Waymo hits the brakes after robotaxis keep missing the signs for freeway construction zones",
+          "link": "https://www.theregister.com/offbeat/2026/06/19/waymo-hits-the-brakes-after-robotaxis-keep-missing-the-signs-for-freeway-construction-zones/5258951",
+          "date": "Jun 19, 2026",
+          "excerpt": "Nearly 4,000 vehicles recalled for driving past closure warnings and between cones marking shut lanes"
         },
         {
-          "title": "Midjourney pivots from AI image generation to body scanning medical spa where patients bathe in 'golden light'",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/18/midjourney-pivots-from-ai-image-generation-to-body-scanning-medical-spa-where-patients-bathe-in-golden-light/5258429",
-          "date": "Jun 18, 2026",
-          "excerpt": "The underlying technology is real...and borrowed from a partner the company failed to mention"
+          "title": "Telegram founder accuses Meta of sabotaging access in India with BGP hijacks",
+          "link": "https://www.theregister.com/networks/2026/06/19/telegram-founder-accuses-meta-of-sabotaging-access-in-india-with-bgp-hijacks/5258866",
+          "date": "Jun 19, 2026",
+          "excerpt": "Allegations of fake routes are fake news, says Indian telco Jio"
         }
       ]
     },
