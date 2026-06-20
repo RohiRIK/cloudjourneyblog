@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T10:24:55.043Z",
+  "updatedAt": "2026-06-20T17:14:19.782Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
+          "link": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+          "date": "Jun 20, 2026",
+          "excerpt": "A new ransomware operation named 'Prinz Eugen' prioritizes recently modified files for encryption and leaves no ransom note on the system. [...]"
+        },
+        {
+          "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+          "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+          "date": "Jun 20, 2026",
+          "excerpt": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff. [...]"
+        },
+        {
           "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
           "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
           "date": "Jun 19, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
           "date": "Jun 19, 2026",
           "excerpt": "The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]"
-        },
-        {
-          "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
-          "link": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-          "date": "Jun 19, 2026",
-          "excerpt": "AI agents can access data, trigger workflows, deploy code, and interact with critical business systems, often with little oversight. Token Security breaks down why AI agents are becoming a new identit"
-        },
-        {
-          "title": "Webinar: How attackers bypass MFA and how defenders can respond",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
-          "date": "Jun 19, 2026",
-          "excerpt": "Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without stealing passwords. This webinar explores how behavioral"
         }
       ]
     },
