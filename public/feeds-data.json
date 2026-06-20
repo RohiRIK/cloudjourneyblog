@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T20:59:59.229Z",
+  "updatedAt": "2026-06-20T02:10:48.833Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -19,7 +19,7 @@
           "excerpt": "New Forrester Total Economic Impact™ study shows Microsoft Security consolidation delivers ROI, lowers risk, and prepares organizations to secure AI. The post New Forrester study shows customers who u"
         },
         {
-          "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise",
+          "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise by Sapphire Sleet",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
           "date": "Jun 18, 2026",
           "excerpt": "A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat "
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+          "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+          "date": "Jun 19, 2026",
+          "excerpt": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new \""
+        },
+        {
           "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
           "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
           "date": "Jun 19, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
           "date": "Jun 19, 2026",
           "excerpt": "Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without stealing passwords. This webinar explores how behavioral"
-        },
-        {
-          "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
-          "date": "Jun 19, 2026",
-          "excerpt": "Microsoft has confirmed a confusing Windows bug that causes different filenames to appear in the confirmation dialog when deleting a file from the Recycle Bin. [...]"
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "Researchers drop checkm8-style BootROM exploit for A12 and A13 iPhones",
-          "link": "https://www.theregister.com/security/2026/06/19/researchers-drop-checkm8-style-bootrom-exploit-for-a12-and-a13-iphones/5259028",
-          "date": "Jun 19, 2026",
-          "excerpt": "Owners of affected iPhones can stop checking for patches now: the fix for this SecureROM bug comes in a new handset"
-        },
-        {
-          "title": "Tensordyne makes a big bet on log math to beat Nvidia",
-          "link": "https://www.theregister.com/systems/2026/06/19/tensordyne-makes-a-big-bet-on-log-math-to-beat-nvidia/5258662",
-          "date": "Jun 19, 2026",
-          "excerpt": "Who needs compute-hungry multiplications when you can just add logarithms"
-        },
-        {
-          "title": "Bcachefs exits experimental status in new 'performance release'",
-          "link": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
-          "date": "Jun 19, 2026",
-          "excerpt": "More Rust, but more trouble with AI slop, too"
-        },
-        {
-          "title": "Waymo hits the brakes after robotaxis keep missing the signs for freeway construction zones",
-          "link": "https://www.theregister.com/offbeat/2026/06/19/waymo-hits-the-brakes-after-robotaxis-keep-missing-the-signs-for-freeway-construction-zones/5258951",
-          "date": "Jun 19, 2026",
-          "excerpt": "Nearly 4,000 vehicles recalled for driving past closure warnings and between cones marking shut lanes"
-        },
-        {
-          "title": "Telegram founder accuses Meta of sabotaging access in India with BGP hijacks",
-          "link": "https://www.theregister.com/networks/2026/06/19/telegram-founder-accuses-meta-of-sabotaging-access-in-india-with-bgp-hijacks/5258866",
-          "date": "Jun 19, 2026",
-          "excerpt": "Allegations of fake routes are fake news, says Indian telco Jio"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
