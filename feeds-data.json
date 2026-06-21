@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T17:14:19.782Z",
+  "updatedAt": "2026-06-21T08:20:07.197Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Why Amazon hates 'human-in-the-loop' AI governance",
+          "link": "https://www.theregister.com/security/2026/06/20/why-amazon-hates-human-in-the-loop-ai-governance/5258639",
+          "date": "Jun 20, 2026",
+          "excerpt": "VP Eric Brandwine explains people aren't all that great, actually"
+        },
+        {
+          "title": "EU won't force publishers to grant dead video games an afterlife",
+          "link": "https://www.theregister.com/offbeat/2026/06/20/eu-wont-force-publishers-to-grant-dead-video-games-an-afterlife/5258163",
+          "date": "Jun 20, 2026",
+          "excerpt": "Stop Killing Games campaign suffers setback as European Commission favors industry code of conduct over legal obligation"
+        },
+        {
+          "title": "Britain sending Ukraine an extra 30,000 drones – now 150,000 all up",
+          "link": "https://www.theregister.com/offbeat/2026/06/20/britain-sending-ukraine-an-extra-30000-drones-now-150000-all-up/5258833",
+          "date": "Jun 20, 2026",
+          "excerpt": "Missiles and radars also included in £752M aid package"
+        },
+        {
+          "title": "Researchers drop checkm8-style BootROM exploit for A12 and A13 iPhones",
+          "link": "https://www.theregister.com/security/2026/06/19/researchers-drop-checkm8-style-bootrom-exploit-for-a12-and-a13-iphones/5259028",
+          "date": "Jun 19, 2026",
+          "excerpt": "Owners of affected iPhones can stop checking for patches now: the fix for this SecureROM bug comes in a new handset"
+        },
+        {
+          "title": "Tensordyne makes a big bet on log math to beat Nvidia",
+          "link": "https://www.theregister.com/systems/2026/06/19/tensordyne-makes-a-big-bet-on-log-math-to-beat-nvidia/5258662",
+          "date": "Jun 19, 2026",
+          "excerpt": "Who needs compute-hungry multiplications when you can just add logarithms"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
