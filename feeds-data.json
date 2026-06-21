@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T13:45:33.021Z",
+  "updatedAt": "2026-06-21T21:03:15.870Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
+          "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+          "date": "Jun 21, 2026",
+          "excerpt": "A previously undocumented malware botnet named AryStinger has compromised more than 4,000 outdated routers to turn them into proxies for malicious traffic. [...]"
+        },
+        {
           "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
           "link": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
           "date": "Jun 20, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
           "date": "Jun 19, 2026",
           "excerpt": "Threat actors are exploiting an unauthenticated information disclosure vulnerability in the WordPress plugin Gravity SMTP, active on 100,000 sites. [...]"
-        },
-        {
-          "title": "Texas govt data breach exposes over 3 million driver’s licenses",
-          "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-          "date": "Jun 19, 2026",
-          "excerpt": "The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]"
         }
       ]
     },
