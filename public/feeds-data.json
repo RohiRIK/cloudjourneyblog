@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T02:38:28.610Z",
+  "updatedAt": "2026-06-22T16:25:44.214Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
+          "link": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+          "date": "Jun 22, 2026",
+          "excerpt": "Attackers no longer need to sift through massive credential dumps. They can pay others to do it for them. Flare explores how an emerging underground market searches stolen credential databases for spe"
+        },
+        {
           "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
           "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
           "date": "Jun 21, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
           "date": "Jun 19, 2026",
           "excerpt": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new \""
-        },
-        {
-          "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-          "date": "Jun 19, 2026",
-          "excerpt": "Threat actors are exploiting an unauthenticated information disclosure vulnerability in the WordPress plugin Gravity SMTP, active on 100,000 sites. [...]"
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "The new database world according to Google: Inexact queries and AI in everything",
+          "link": "https://www.theregister.com/databases/2026/06/22/the-new-database-world-according-to-google-inexact-queries-and-ai-in-everything/5259454",
+          "date": "Jun 22, 2026",
+          "excerpt": "'Humans are not going to be using data platforms in the next three to five years,' product exec tells us"
+        },
+        {
+          "title": "Canadian utility fesses up to data breach, but key details remain off-grid",
+          "link": "https://www.theregister.com/security/2026/06/22/canadian-utility-fesses-up-to-data-breach-but-key-details-remain-off-grid/5259309",
+          "date": "Jun 22, 2026",
+          "excerpt": "London Hydro says names, addresses, account details may have been exposed, but much about the intrusion is unknown"
+        },
+        {
+          "title": "Microsoft tells Windows users to get ready for 26H2 – unless they're on 26H1",
+          "link": "https://www.theregister.com/os-platforms/2026/06/22/microsoft-tells-windows-users-to-get-ready-for-26h2-unless-theyre-on-26h1/5259511",
+          "date": "Jun 22, 2026",
+          "excerpt": "Same core as 24H2 and 25H2 means an enablement package, while Search gets a little more forgiving"
+        },
+        {
+          "title": "As another UK prime minister bites the dust, a contradictory tech legacy remains",
+          "link": "https://www.theregister.com/public-sector/2026/06/22/as-another-uk-prime-minister-bites-the-dust-a-contradictory-tech-legacy-remains/5259470",
+          "date": "Jun 22, 2026",
+          "excerpt": "Attempting to boost growth, efficiency, and sovereign tech proved too difficult. The next leader will face the same challenges... and temptations"
+        },
+        {
+          "title": "Brazil probes emergency warning system after nationwide rogue alert",
+          "link": "https://www.theregister.com/security/2026/06/22/brazil-begins-investigating-emergency-alert-system-breach/5259421",
+          "date": "Jun 22, 2026",
+          "excerpt": "Severe weather event alert platform buzzed devices across the country with the word 'misanthropy'"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
