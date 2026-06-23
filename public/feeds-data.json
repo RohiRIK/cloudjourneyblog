@@ -1,11 +1,23 @@
 {
-  "updatedAt": "2026-06-22T16:25:44.214Z",
+  "updatedAt": "2026-06-23T02:04:55.944Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Guarding AI memory",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/",
+          "date": "Jun 22, 2026",
+          "excerpt": "What happens when threat actors target what AI remembers? Microsoft breaks down the risks and the defenses. The post Guarding AI memory appeared first on Microsoft Security Blog."
+        },
+        {
+          "title": "One intrusion, two cyberattackers: Uncovering parallel threat activity",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/",
+          "date": "Jun 22, 2026",
+          "excerpt": "Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks. The post One intrusion, two cyberattacker"
+        },
         {
           "title": "AutoJack: How a single page can RCE the host running your AI agent ",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/",
@@ -23,18 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
           "date": "Jun 18, 2026",
           "excerpt": "A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat "
-        },
-        {
-          "title": "Crypto Clipper uses Tor and worm-like propagation for persistence and control",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
-          "date": "Jun 17, 2026",
-          "excerpt": "Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptoc"
-        },
-        {
-          "title": "Beyond the benchmark: Advancing security at AI speed ",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/",
-          "date": "Jun 17, 2026",
-          "excerpt": "Read how Microsoft Security has advanced its agentic vulnerability detection system, codename MDASH, integrating into real-world workflows across Windows, Azure, and identity systems. The post Beyond "
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
-          "link": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+          "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
+          "link": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
           "date": "Jun 22, 2026",
-          "excerpt": "Attackers no longer need to sift through massive credential dumps. They can pay others to do it for them. Flare explores how an emerging underground market searches stolen credential databases for spe"
+          "excerpt": "An ongoing malware campaign is targeting WhatsApp users in multiple countries with deceptive messages that push VBScript files, leading to remote system access. [...]"
         },
         {
-          "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
-          "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
-          "date": "Jun 21, 2026",
-          "excerpt": "A previously undocumented malware botnet named AryStinger has compromised more than 4,000 outdated routers to turn them into proxies for malicious traffic. [...]"
+          "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
+          "link": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
+          "date": "Jun 22, 2026",
+          "excerpt": "The JaredFromSubway Ethereum MEV (Maximal Extractable Value) bot suffered a $15 million loss after an attacker manipulated the opportunity-detection logic by creating fake cryptocurrency trading oppor"
         },
         {
-          "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
-          "link": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
-          "date": "Jun 20, 2026",
-          "excerpt": "A new ransomware operation named 'Prinz Eugen' prioritizes recently modified files for encryption and leaves no ransom note on the system. [...]"
+          "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
+          "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+          "date": "Jun 22, 2026",
+          "excerpt": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash' could be exploited for remote code execution on Jellyfin servers under certain conditions, and can also trigger a denial-of-service condition in appli"
         },
         {
-          "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
-          "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
-          "date": "Jun 20, 2026",
-          "excerpt": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff. [...]"
+          "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
+          "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+          "date": "Jun 22, 2026",
+          "excerpt": "Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal credent"
         },
         {
-          "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
-          "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
-          "date": "Jun 19, 2026",
-          "excerpt": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new \""
+          "title": "Microsoft says Windows 11 26H2 is coming soon, details upgrade process",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-11-26h2-is-coming-soon-details-upgrade-process/",
+          "date": "Jun 22, 2026",
+          "excerpt": "Microsoft has confirmed that Windows 11 version 26H2 will be the next feature update and that devices running Windows 11 24H2 and 25H2 will be able to upgrade using a small enablement package. [...]"
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "The new database world according to Google: Inexact queries and AI in everything",
-          "link": "https://www.theregister.com/databases/2026/06/22/the-new-database-world-according-to-google-inexact-queries-and-ai-in-everything/5259454",
-          "date": "Jun 22, 2026",
-          "excerpt": "'Humans are not going to be using data platforms in the next three to five years,' product exec tells us"
-        },
-        {
-          "title": "Canadian utility fesses up to data breach, but key details remain off-grid",
-          "link": "https://www.theregister.com/security/2026/06/22/canadian-utility-fesses-up-to-data-breach-but-key-details-remain-off-grid/5259309",
-          "date": "Jun 22, 2026",
-          "excerpt": "London Hydro says names, addresses, account details may have been exposed, but much about the intrusion is unknown"
-        },
-        {
-          "title": "Microsoft tells Windows users to get ready for 26H2 – unless they're on 26H1",
-          "link": "https://www.theregister.com/os-platforms/2026/06/22/microsoft-tells-windows-users-to-get-ready-for-26h2-unless-theyre-on-26h1/5259511",
-          "date": "Jun 22, 2026",
-          "excerpt": "Same core as 24H2 and 25H2 means an enablement package, while Search gets a little more forgiving"
-        },
-        {
-          "title": "As another UK prime minister bites the dust, a contradictory tech legacy remains",
-          "link": "https://www.theregister.com/public-sector/2026/06/22/as-another-uk-prime-minister-bites-the-dust-a-contradictory-tech-legacy-remains/5259470",
-          "date": "Jun 22, 2026",
-          "excerpt": "Attempting to boost growth, efficiency, and sovereign tech proved too difficult. The next leader will face the same challenges... and temptations"
-        },
-        {
-          "title": "Brazil probes emergency warning system after nationwide rogue alert",
-          "link": "https://www.theregister.com/security/2026/06/22/brazil-begins-investigating-emergency-alert-system-breach/5259421",
-          "date": "Jun 22, 2026",
-          "excerpt": "Severe weather event alert platform buzzed devices across the country with the word 'misanthropy'"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
