@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T21:22:18.355Z",
+  "updatedAt": "2026-06-24T10:39:32.215Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -25,10 +25,10 @@
           "excerpt": "AutoJack is a novel exploit chain showing how a single malicious webpage can turn an AI browsing agent into a remote code execution vector on the host machine. By abusing trust in localhost, missing a"
         },
         {
-          "title": "New Forrester study shows customers who unified with Microsoft Security benefited from 124% ROI",
+          "title": "New Forrester Total Economic Impact™ study projects a 124% ROI from unifying with Microsoft Security",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/",
           "date": "Jun 18, 2026",
-          "excerpt": "New Forrester Total Economic Impact™ study shows Microsoft Security consolidation delivers ROI, lowers risk, and prepares organizations to secure AI. The post New Forrester study shows customers who u"
+          "excerpt": "New Forrester Total Economic Impact™ study shows Microsoft Security consolidation delivers ROI, lowers risk, and prepares organizations to secure AI. The post New Forrester Total Economic Impact™ stud"
         },
         {
           "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise by Sapphire Sleet",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
+          "date": "Jun 23, 2026",
+          "excerpt": "A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]"
+        },
+        {
           "title": "Tata Electronics confirms cyberattack as hackers leak data",
           "link": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
           "date": "Jun 23, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
           "date": "Jun 23, 2026",
           "excerpt": "A new macOS ClickFix campaign is using Terminal commands to silently download, mount, and launch info-stealing malware from malicious disk image (DMG) files. [...]"
-        },
-        {
-          "title": "Scattered Spider members plead guilty to hacking Transport for London",
-          "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
-          "date": "Jun 23, 2026",
-          "excerpt": "Two members of the 'Scattered Spider' cybercrime group pleaded guilty to hacking the Transport for London (TfL) systems in 2024. [...]"
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Database vendors pitch themselves as the cure for runaway AI costs",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/24/database-vendors-pitch-themselves-as-the-cure-for-runaway-ai-costs/5260126",
+          "date": "Jun 24, 2026",
+          "excerpt": "Pinecone and Tiger Data say smarter data plumbing can cut token use and tame agentic workloads"
+        },
+        {
+          "title": "Alpine Linux 3.24 scales new desktop heights with COSMIC",
+          "link": "https://www.theregister.com/os-platforms/2026/06/24/alpine-linux-324-scales-new-desktop-heights-with-cosmic/5259985",
+          "date": "Jun 24, 2026",
+          "excerpt": "Plus interesting news from the Xfce-on-Wayland project"
+        },
+        {
+          "title": "Ordering a trip back to 2009, with a side of nostalgia",
+          "link": "https://www.theregister.com/offbeat/2026/06/24/ordering-a-trip-back-to-2009-with-a-side-of-nostalgia/5259669",
+          "date": "Jun 24, 2026",
+          "excerpt": "A time when Windows 7 was Microsoft's latest and greatest"
+        },
+        {
+          "title": "Explainer: Why your legacy storage is choking your expensive GPU",
+          "link": "https://www.theregister.com/storage/2026/06/24/explainer-why-your-legacy-storage-is-choking-your-expensive-gpu/5260472",
+          "date": "Jun 24, 2026",
+          "excerpt": "THE REGISTER EXPLAINER: GPUs idle? Blame your outdated storage, not the silicon sprinters."
+        },
+        {
+          "title": "Germany went off the rails as wireless outage saw all trains cancelled",
+          "link": "https://www.theregister.com/networks/2026/06/24/germany-went-off-the-rails-as-wireless-outage-saw-all-trains-cancelled/5260580",
+          "date": "Jun 24, 2026",
+          "excerpt": "Unexplained GSM-R failure at Deutsche Bahn caused confusion and delay"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
