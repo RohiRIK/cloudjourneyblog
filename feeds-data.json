@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-06-24T10:39:32.215Z",
+  "updatedAt": "2026-06-24T14:03:51.802Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
+          "date": "Jun 24, 2026",
+          "excerpt": "On June 24, 2026, Microsoft’s Digital Crimes Unit (DCU) facilitated the takedown, suspension, and blocking of domains that formed the backbone of the StealC and Amadey infrastructure. This blog is a t"
+        },
         {
           "title": "Guarding AI memory",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/",
           "date": "Jun 18, 2026",
           "excerpt": "New Forrester Total Economic Impact™ study shows Microsoft Security consolidation delivers ROI, lowers risk, and prepares organizations to secure AI. The post New Forrester Total Economic Impact™ stud"
-        },
-        {
-          "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise by Sapphire Sleet",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
-          "date": "Jun 18, 2026",
-          "excerpt": "A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat "
         }
       ]
     },
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
+          "link": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
+          "date": "Jun 24, 2026",
+          "excerpt": "A new backdoor dubbed Mistic has been observed in financially motivated attacks targeting organizations in the insurance, education, IT, and professional services sectors. [...]"
+        },
+        {
           "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
           "link": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
           "date": "Jun 23, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
           "date": "Jun 23, 2026",
           "excerpt": "Healthcare technology company Xsolis says that sensitive data belonging to nearly 1.4 million individuals was compromised in a phishing attack that gave attackers access to its network. [...]"
-        },
-        {
-          "title": "New macOS ClickFix attack silently mounts DMGs to push infostealer",
-          "link": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
-          "date": "Jun 23, 2026",
-          "excerpt": "A new macOS ClickFix campaign is using Terminal commands to silently download, mount, and launch info-stealing malware from malicious disk image (DMG) files. [...]"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "London cops bring live facial recognition to West End",
+          "link": "https://www.theregister.com/security/2026/06/24/london-cops-bring-live-facial-recognition-to-west-end/5261031",
+          "date": "Jun 24, 2026",
+          "excerpt": "'Permanent biometric surveillance of the public square' incompatible with policing by consent, say critics"
+        },
+        {
+          "title": "Microsoft rivals line up to tell UK watchdog where the software behemoth hurt them",
+          "link": "https://www.theregister.com/saas/2026/06/24/microsoft-rivals-line-up-to-tell-uk-watchdog-where-the-software-behemoth-hurt-them/5260875",
+          "date": "Jun 24, 2026",
+          "excerpt": "Browsers, cloud challengers, and Killinghall Parish Council all accuse Redmond of locking in customers, hobbling competition"
+        },
         {
           "title": "Database vendors pitch themselves as the cure for runaway AI costs",
           "link": "https://www.theregister.com/ai-and-ml/2026/06/24/database-vendors-pitch-themselves-as-the-cure-for-runaway-ai-costs/5260126",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/offbeat/2026/06/24/ordering-a-trip-back-to-2009-with-a-side-of-nostalgia/5259669",
           "date": "Jun 24, 2026",
           "excerpt": "A time when Windows 7 was Microsoft's latest and greatest"
-        },
-        {
-          "title": "Explainer: Why your legacy storage is choking your expensive GPU",
-          "link": "https://www.theregister.com/storage/2026/06/24/explainer-why-your-legacy-storage-is-choking-your-expensive-gpu/5260472",
-          "date": "Jun 24, 2026",
-          "excerpt": "THE REGISTER EXPLAINER: GPUs idle? Blame your outdated storage, not the silicon sprinters."
-        },
-        {
-          "title": "Germany went off the rails as wireless outage saw all trains cancelled",
-          "link": "https://www.theregister.com/networks/2026/06/24/germany-went-off-the-rails-as-wireless-outage-saw-all-trains-cancelled/5260580",
-          "date": "Jun 24, 2026",
-          "excerpt": "Unexplained GSM-R failure at Deutsche Bahn caused confusion and delay"
         }
       ]
     },
