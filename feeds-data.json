@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-06-24T14:03:51.802Z",
+  "updatedAt": "2026-06-25T10:32:44.894Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "CNAPP evolution: How Microsoft aligns with leading cloud risk management platforms",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/cnapp-evolution-how-microsoft-aligns-with-leading-cloud-risk-management-platforms/",
+          "date": "Jun 24, 2026",
+          "excerpt": "Learn how CNAPP platforms are helping organizations prioritize exploitable risks, reduce exposure, and operationalize security across the application lifecycle. The post CNAPP evolution: How Microsoft"
+        },
         {
           "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/",
           "date": "Jun 19, 2026",
           "excerpt": "AutoJack is a novel exploit chain showing how a single malicious webpage can turn an AI browsing agent into a remote code execution vector on the host machine. By abusing trust in localhost, missing a"
-        },
-        {
-          "title": "New Forrester Total Economic Impact™ study projects a 124% ROI from unifying with Microsoft Security",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/",
-          "date": "Jun 18, 2026",
-          "excerpt": "New Forrester Total Economic Impact™ study shows Microsoft Security consolidation delivers ROI, lowers risk, and prepares organizations to secure AI. The post New Forrester Total Economic Impact™ stud"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
-          "link": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
+          "title": "Google releases new privacy controls for activity history, personalization",
+          "link": "https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/",
           "date": "Jun 24, 2026",
-          "excerpt": "A new backdoor dubbed Mistic has been observed in financially motivated attacks targeting organizations in the insurance, education, IT, and professional services sectors. [...]"
+          "excerpt": "Google is rolling out new privacy controls for Search services and Google Play, giving you more control over saved history and personalized recommendations. [...]"
         },
         {
-          "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
-          "date": "Jun 23, 2026",
-          "excerpt": "A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]"
+          "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
+          "link": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
+          "date": "Jun 24, 2026",
+          "excerpt": "A 21-year-old using the alias \"Snoopy\" was sentenced to 18 months in prison for his role in hacking DraftKings accounts in the November 2022 cyberattack. [...]"
         },
         {
-          "title": "Tata Electronics confirms cyberattack as hackers leak data",
-          "link": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-          "date": "Jun 23, 2026",
-          "excerpt": "Tata Electronics has confirmed in a statement to BleepingComputer that it was the target of a cyberattack that impacted parts of its IT infrastructure. [...]"
+          "title": "Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access",
+          "link": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
+          "date": "Jun 24, 2026",
+          "excerpt": "New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create rogue root accounts on targeted devices. [...]"
         },
         {
-          "title": "Windows 11 KB5095093 update rolls out new Point-in-Time restore feature",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/",
-          "date": "Jun 23, 2026",
-          "excerpt": "​​Microsoft has released the KB5095093 preview cumulative update for Windows 11 24H2 and 25H2, which fixes numerous bugs and begins rolling out new features, including the new Point-in-Time restore fe"
+          "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
+          "link": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
+          "date": "Jun 24, 2026",
+          "excerpt": "A malicious Microsoft Edge extension dubbed 'Edgecution' has been used in a ransomware attack to escape the browser sandbox and deploy a Python-based backdoor. [...]"
         },
         {
-          "title": "Healthtech firm Xolis suffers data breach impacting 1.4 million people",
-          "link": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
-          "date": "Jun 23, 2026",
-          "excerpt": "Healthcare technology company Xsolis says that sensitive data belonging to nearly 1.4 million individuals was compromised in a phishing attack that gave attackers access to its network. [...]"
+          "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+          "date": "Jun 24, 2026",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers actively exploiting flaws in Ubiquity UniFi OS and Lantronix serial-to-ethernet servers. [...]"
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "London cops bring live facial recognition to West End",
-          "link": "https://www.theregister.com/security/2026/06/24/london-cops-bring-live-facial-recognition-to-west-end/5261031",
-          "date": "Jun 24, 2026",
-          "excerpt": "'Permanent biometric surveillance of the public square' incompatible with policing by consent, say critics"
-        },
-        {
-          "title": "Microsoft rivals line up to tell UK watchdog where the software behemoth hurt them",
-          "link": "https://www.theregister.com/saas/2026/06/24/microsoft-rivals-line-up-to-tell-uk-watchdog-where-the-software-behemoth-hurt-them/5260875",
-          "date": "Jun 24, 2026",
-          "excerpt": "Browsers, cloud challengers, and Killinghall Parish Council all accuse Redmond of locking in customers, hobbling competition"
-        },
-        {
-          "title": "Database vendors pitch themselves as the cure for runaway AI costs",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/24/database-vendors-pitch-themselves-as-the-cure-for-runaway-ai-costs/5260126",
-          "date": "Jun 24, 2026",
-          "excerpt": "Pinecone and Tiger Data say smarter data plumbing can cut token use and tame agentic workloads"
-        },
-        {
-          "title": "Alpine Linux 3.24 scales new desktop heights with COSMIC",
-          "link": "https://www.theregister.com/os-platforms/2026/06/24/alpine-linux-324-scales-new-desktop-heights-with-cosmic/5259985",
-          "date": "Jun 24, 2026",
-          "excerpt": "Plus interesting news from the Xfce-on-Wayland project"
-        },
-        {
-          "title": "Ordering a trip back to 2009, with a side of nostalgia",
-          "link": "https://www.theregister.com/offbeat/2026/06/24/ordering-a-trip-back-to-2009-with-a-side-of-nostalgia/5259669",
-          "date": "Jun 24, 2026",
-          "excerpt": "A time when Windows 7 was Microsoft's latest and greatest"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
