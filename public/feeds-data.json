@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-06-25T18:01:15.838Z",
+  "updatedAt": "2026-06-26T02:08:20.277Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/",
+          "date": "Jun 25, 2026",
+          "excerpt": "Microsoft Threat Intelligence identified an active multi-stage intrusion campaign targeting hospitality organizations in Europe and Asia. The campaign uses photo-themed ZIP archives and fake image sho"
+        },
         {
           "title": "Microsoft a Leader in The Forrester Wave™ for Endpoint Management Platforms",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/microsoft-a-leader-in-the-forrester-wave-for-endpoint-management-platforms/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/",
           "date": "Jun 22, 2026",
           "excerpt": "What happens when threat actors target what AI remembers? Microsoft breaks down the risks and the defenses. The post Guarding AI memory appeared first on Microsoft Security Blog."
-        },
-        {
-          "title": "One intrusion, two cyberattackers: Uncovering parallel threat activity",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/",
-          "date": "Jun 22, 2026",
-          "excerpt": "Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks. The post One intrusion, two cyberattacker"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
+          "date": "Jun 25, 2026",
+          "excerpt": "Anthropic appears to be testing Claude Cowork support on mobile, allowing you to manage long-running Claude tasks from your phone. [...]"
+        },
+        {
+          "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
+          "link": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
+          "date": "Jun 25, 2026",
+          "excerpt": "Authorities in Poland have arrested four members of an organized cybercrime group accused of breaching telecommunications partners and hijacking email accounts to carry out SIM-swapping attacks. [...]"
+        },
+        {
+          "title": "Order-tracking app Shop abused to push callback phishing attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+          "date": "Jun 25, 2026",
+          "excerpt": "Threat actors are increasingly abusing Shop, the order-tracking app from Shopify, by adding fake purchase receipts in users' order histories to trick them into providing sensitive data or installing r"
+        },
+        {
+          "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
+          "date": "Jun 25, 2026",
+          "excerpt": "Microsoft has quietly extended its free Windows 10 Extended Security Updates (ESU) program for consumers by an additional year, allowing enrolled devices to continue receiving security updates until O"
+        },
+        {
           "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
           "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
           "date": "Jun 25, 2026",
           "excerpt": "A newly discovered macOS malware dubbed \"Gaslight\" is designed to confuse AI-assisted malware analysis tools by hiding prompt injection strings and fake debugging data within the executable. [...]"
-        },
-        {
-          "title": "PirloTV sports piracy network disrupted as 44 domains seized",
-          "link": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
-          "date": "Jun 25, 2026",
-          "excerpt": "A major sports piracy ring linked to the illegal PirloTV streaming platform has been disrupted in an action that targeted 44 domains. [...]"
-        },
-        {
-          "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
-          "link": "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
-          "date": "Jun 25, 2026",
-          "excerpt": "The Bluekit phishing-as-a-service platform continues to evolve with nearly 70 new hostnames identified over the past week and by adding browser-in-the-middle capabilities for improved data theft. [..."
-        },
-        {
-          "title": "The Four Elevations of Effective Fraud Prevention",
-          "link": "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/",
-          "date": "Jun 25, 2026",
-          "excerpt": "Fraudsters don't attack just one transaction. They target accounts, platforms, and entire ecosystems. IPQS explains the four elevations of fraud prevention and why broader visibility improves fraud de"
-        },
-        {
-          "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
-          "date": "Jun 25, 2026",
-          "excerpt": "Account takeover attacks continue to challenge security teams because attackers often operate through legitimate accounts and trusted services. This webinar explores how behavioral AI can help organiz"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "FOSS dev builds a BASIC compiler using LLVM",
-          "link": "https://www.theregister.com/personal-tech/2026/06/25/foss-dev-builds-a-basic-compiler-using-llvm/5262171",
+          "title": "AI giants back non-profit to retrain workers left behind by AI",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/26/ai-giants-back-non-profit-to-retrain-workers-left-behind-by-ai/5262601",
           "date": "Jun 25, 2026",
-          "excerpt": "Not just any old BASIC, either: OS-9’s BASIC09"
+          "excerpt": "Sorry we spent your wages on data centers, but call us when you're AI-ready"
         },
         {
-          "title": "Recovery has to keep up with AI",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/25/recovery-has-to-keep-up-with-ai/5260452",
+          "title": "Self-destructing Mistic backdoor linked to access broker selling corporate footholds to ransomware gangs",
+          "link": "https://www.theregister.com/security/2026/06/25/self-destructing-mistic-backdoor-linked-to-access-broker-selling-corporate-footholds-to-ransomware-gangs/5262579",
           "date": "Jun 25, 2026",
-          "excerpt": "SPONSORED POST: Why an AI-era recovery architecture looks different, with Eon's Gonen Stein"
+          "excerpt": "Spotted in intrusions targeting insurance, education, IT, and professional services sectors"
         },
         {
-          "title": "Apple passes RAMpocalypse costs on to consumers",
-          "link": "https://www.theregister.com/personal-tech/2026/06/25/apple-passes-rampocalypse-costs-on-to-consumers/5262266",
+          "title": "They read the scroll thing! AI helps decipher ancient document charred by Vesuvius",
+          "link": "https://www.theregister.com/offbeat/2026/06/25/they-read-the-scroll-thing-ai-helps-decipher-ancient-document-charred-by-vesuvius/5262525",
           "date": "Jun 25, 2026",
-          "excerpt": "Fondleslab and Mac prices rise by hundreds; phones safe ... for now"
+          "excerpt": "'Having certainly strained ourselves to the utmost through research and learning, we will no longer be inferior to them,' reads a scroll virtually unwrapped with the help of AI"
         },
         {
-          "title": "Windows 11 can now turn back the clock when updates go bad",
-          "link": "https://www.theregister.com/personal-tech/2026/06/25/windows-11-can-now-turn-back-the-clock-when-updates-go-bad/5262226",
+          "title": "Ex-Huntress analyst claims company insider fed info to a ransomware crim. Social media drama ensues",
+          "link": "https://www.theregister.com/cyber-crime/2026/06/25/ex-huntress-analyst-claims-company-insider-fed-info-to-a-ransomware-crim-social-media-drama-ensues/5262538",
           "date": "Jun 25, 2026",
-          "excerpt": "Point-in-time restore offers a 72-hour escape hatch for stricken PCs"
+          "excerpt": "Former employee accuses company of prioritizing pending IPO over client security"
         },
         {
-          "title": "Apple takes over Swift Package Index, vows to remove  GitHub dependency ",
-          "link": "https://www.theregister.com/software/2026/06/25/apple-takes-over-swift-package-index-vows-to-remove-github-dependency/5262048",
+          "title": "OpenAI says employees moving beyond chat to agents",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/25/openai-says-employees-moving-beyond-chat-to-agents/5262499",
           "date": "Jun 25, 2026",
-          "excerpt": "SPI co-creator Dave Verwer joins Apple, says 'We will be moving away from that model completely'"
+          "excerpt": "Codex, it's not just for developers, really"
         }
       ]
     },
