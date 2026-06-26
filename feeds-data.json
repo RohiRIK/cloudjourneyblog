@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T02:08:20.277Z",
+  "updatedAt": "2026-06-26T07:41:19.985Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Security boss thought MFA would be too much security",
+          "link": "https://www.theregister.com/security/2026/06/26/security-boss-thought-mfa-would-be-too-much-security/5261934",
+          "date": "Jun 26, 2026",
+          "excerpt": "One rule for the workers, another for execs"
+        },
+        {
+          "title": "Microsoft extends extended updates for Windows 10 in the most muted way imaginable",
+          "link": "https://www.theregister.com/os-platforms/2026/06/26/microsoft-extends-extended-updates-for-windows-10-in-the-most-muted-way-imaginable/5262673",
+          "date": "Jun 26, 2026",
+          "excerpt": "Tiny tweak to support page reveals consumers can purchase another year of patch protection"
+        },
+        {
+          "title": "Chinese cybersecurity company claims it’s built a better-than-Mythos bug finder",
+          "link": "https://www.theregister.com/security/2026/06/26/chinese-cybersecurity-company-claims-its-built-a-better-than-mythos-bug-finder/5262642",
+          "date": "Jun 26, 2026",
+          "excerpt": "Qihoo 360, which the US has banned, says it’s needed as a deterrent to weaponized Anthropic models"
+        },
+        {
           "title": "AI giants back non-profit to retrain workers left behind by AI",
           "link": "https://www.theregister.com/ai-and-ml/2026/06/26/ai-giants-back-non-profit-to-retrain-workers-left-behind-by-ai/5262601",
           "date": "Jun 25, 2026",
-          "excerpt": "Sorry we spent your wages on data centers, but call us when you're AI-ready"
+          "excerpt": "Sorry we spent your wages on datacenters, but call us when you're AI-ready"
         },
         {
           "title": "Self-destructing Mistic backdoor linked to access broker selling corporate footholds to ransomware gangs",
           "link": "https://www.theregister.com/security/2026/06/25/self-destructing-mistic-backdoor-linked-to-access-broker-selling-corporate-footholds-to-ransomware-gangs/5262579",
           "date": "Jun 25, 2026",
           "excerpt": "Spotted in intrusions targeting insurance, education, IT, and professional services sectors"
-        },
-        {
-          "title": "They read the scroll thing! AI helps decipher ancient document charred by Vesuvius",
-          "link": "https://www.theregister.com/offbeat/2026/06/25/they-read-the-scroll-thing-ai-helps-decipher-ancient-document-charred-by-vesuvius/5262525",
-          "date": "Jun 25, 2026",
-          "excerpt": "'Having certainly strained ourselves to the utmost through research and learning, we will no longer be inferior to them,' reads a scroll virtually unwrapped with the help of AI"
-        },
-        {
-          "title": "Ex-Huntress analyst claims company insider fed info to a ransomware crim. Social media drama ensues",
-          "link": "https://www.theregister.com/cyber-crime/2026/06/25/ex-huntress-analyst-claims-company-insider-fed-info-to-a-ransomware-crim-social-media-drama-ensues/5262538",
-          "date": "Jun 25, 2026",
-          "excerpt": "Former employee accuses company of prioritizing pending IPO over client security"
-        },
-        {
-          "title": "OpenAI says employees moving beyond chat to agents",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/25/openai-says-employees-moving-beyond-chat-to-agents/5262499",
-          "date": "Jun 25, 2026",
-          "excerpt": "Codex, it's not just for developers, really"
         }
       ]
     },
