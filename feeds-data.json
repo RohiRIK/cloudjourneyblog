@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T17:28:25.277Z",
+  "updatedAt": "2026-06-27T06:45:37.164Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "FBI: Russian hackers now target Signal backup recovery keys",
+          "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+          "date": "Jun 26, 2026",
+          "excerpt": "The FBI and CISA are warning that a phishing campaign targeting Signal users tied to Russian intelligence services has evolved to steal Signal Backup Recovery Keys, allowing attackers to access victim"
+        },
+        {
+          "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
+          "date": "Jun 26, 2026",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively "
+        },
+        {
+          "title": "Polymarket customers lose $3 million in supply-chain attack",
+          "link": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+          "date": "Jun 26, 2026",
+          "excerpt": "Polymarket says it will fully reimburse customers who lost an estimated $3 million after hackers injected a malicious script into the platform's frontend following a breach at a third-party vendor. [."
+        },
+        {
+          "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
+          "link": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
+          "date": "Jun 26, 2026",
+          "excerpt": "Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company inf"
+        },
+        {
           "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
           "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
           "date": "Jun 26, 2026",
           "excerpt": "AI won't replace GRC analysts, but it can eliminate much of the repetitive work they do. Anecdotes walks through building an agent that continuously monitors controls, identifies evidence gaps, and op"
-        },
-        {
-          "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
-          "date": "Jun 25, 2026",
-          "excerpt": "Anthropic appears to be testing Claude Cowork support on mobile, allowing you to manage long-running Claude tasks from your phone. [...]"
-        },
-        {
-          "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
-          "link": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
-          "date": "Jun 25, 2026",
-          "excerpt": "Authorities in Poland have arrested four members of an organized cybercrime group accused of breaching telecommunications partners and hijacking email accounts to carry out SIM-swapping attacks. [...]"
-        },
-        {
-          "title": "Order-tracking app Shop abused to push callback phishing attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
-          "date": "Jun 25, 2026",
-          "excerpt": "Threat actors are increasingly abusing Shop, the order-tracking app from Shopify, by adding fake purchase receipts in users' order histories to trick them into providing sensitive data or installing r"
-        },
-        {
-          "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
-          "date": "Jun 25, 2026",
-          "excerpt": "Microsoft has quietly extended its free Windows 10 Extended Security Updates (ESU) program for consumers by an additional year, allowing enrolled devices to continue receiving security updates until O"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Even the Secret Service won't use company-issued phones",
+          "link": "https://www.theregister.com/security/2026/06/26/even-the-secret-service-wont-use-company-issued-phones/5263356",
+          "date": "Jun 26, 2026",
+          "excerpt": "Personal cell phones on protective missions, no threat detection on government-issued devices among the litany of sins"
+        },
+        {
+          "title": "Trump-shuttered climate change site back online in nonprofit hands",
+          "link": "https://www.theregister.com/science/2026/06/26/trump-shuttered-climate-change-site-back-online-in-nonprofit-hands/5263319",
+          "date": "Jun 26, 2026",
+          "excerpt": "Remove something from the internet? You can't stop the (climate change) signal, Mal"
+        },
+        {
+          "title": "Google wants AI regulation, but on its own terms",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/26/google-wants-ai-regulation-but-on-its-own-terms/5263276",
+          "date": "Jun 26, 2026",
+          "excerpt": "Surely, we can have rules that allow us to continue doing what we're doing"
+        },
+        {
+          "title": "US auto regulators want to kill robotaxi brake pedals",
+          "link": "https://www.theregister.com/offbeat/2026/06/26/us-auto-regulators-want-to-kill-robotaxi-brake-pedals/5263228",
+          "date": "Jun 26, 2026",
+          "excerpt": "Requiring driverless vehicles to keep human brake controls impedes innovation, the NHTSA says"
+        },
+        {
           "title": "Amazon Q flaw let booby-trapped Git repos execute code, swipe cloud creds",
           "link": "https://www.theregister.com/cyber-crime/2026/06/26/amazon-q-flaw-let-booby-trapped-git-repos-execute-code-swipe-cloud-creds/5263202",
           "date": "Jun 26, 2026",
           "excerpt": "Researchers warn many AI coding assistants now execute commands from project configurations"
-        },
-        {
-          "title": "Oracle promises to open up MySQL governance, but the community wants guarantees",
-          "link": "https://www.theregister.com/databases/2026/06/26/oracle-promises-to-open-up-mysql-governance-but-the-community-wants-guarantees/5263106",
-          "date": "Jun 26, 2026",
-          "excerpt": "Open source advocates remain concerned over lack of binding commitments"
-        },
-        {
-          "title": "One man, two kernels, and a lot of RISC-V",
-          "link": "https://www.theregister.com/software/2026/06/26/one-man-two-kernels-and-a-lot-of-risc-v/5262858",
-          "date": "Jun 26, 2026",
-          "excerpt": "A homebrew PC and mini-mainframe were only the warm-up for Yuri Zaporozhets' latest operating system"
-        },
-        {
-          "title": "Notion kills its Gmail client after AI agents keep humans from troubling inbox",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/26/notion-kills-its-gmail-client-after-ai-agents-keep-humans-from-troubling-inbox/5263024",
-          "date": "Jun 26, 2026",
-          "excerpt": "More than half of users now let bots handle email, so service is headed for shutdown"
-        },
-        {
-          "title": "Jiangsu's first AI-powered 10 Gbps all-optical campus network launched at Southeast University",
-          "link": "https://www.theregister.com/networks/2026/06/26/jiangsus-first-ai-powered-10-gbps-all-optical-campus-network-launched-at-southeast-university/5263098",
-          "date": "Jun 26, 2026",
-          "excerpt": "PARTNER CONTENT: Integrating 50G-PON, FTTR-B, Wi-Fi 7, and intelligent AI scheduling to deliver 10 Gbps bidirectional speeds with ultra-low 0.1ms latency across Southeast University"
         }
       ]
     },
