@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T13:05:46.568Z",
+  "updatedAt": "2026-06-27T16:54:31.263Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Clean GitHub repo tricks AI coding agents into running malware",
+          "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+          "date": "Jun 27, 2026",
+          "excerpt": "An agentic coding tool tasked with cloning and setting up a seemingly benign GitHub repository could execute a malicious payload that remains invisible to security scanners, AI agents, and human revie"
+        },
+        {
           "title": "FBI: Russian hackers now target Signal backup recovery keys",
           "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
           "date": "Jun 26, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
           "date": "Jun 26, 2026",
           "excerpt": "Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company inf"
-        },
-        {
-          "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
-          "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
-          "date": "Jun 26, 2026",
-          "excerpt": "AI won't replace GRC analysts, but it can eliminate much of the repetitive work they do. Anecdotes walks through building an agent that continuously monitors controls, identifies evidence gaps, and op"
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "NASA tests AI medic for astronauts too far from Earth to call a doctor",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/27/nasa-tests-ai-medic-for-astronauts-too-far-from-earth-to-call-a-doctor/5262828",
-          "date": "Jun 27, 2026",
-          "excerpt": "Please state the nature of the medical emergency"
-        },
-        {
-          "title": "It's looking like a hot, messy summer for security teams as AI finds countless previously hidden vulns",
-          "link": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
-          "date": "Jun 27, 2026",
-          "excerpt": "Time to start praying to the goddess of wisdom and war"
-        },
-        {
-          "title": "Even the Secret Service won't use company-issued phones",
-          "link": "https://www.theregister.com/security/2026/06/26/even-the-secret-service-wont-use-company-issued-phones/5263356",
-          "date": "Jun 26, 2026",
-          "excerpt": "Personal cell phones on protective missions, no threat detection on government-issued devices among the litany of sins"
-        },
-        {
-          "title": "Trump-shuttered climate change site back online in nonprofit hands",
-          "link": "https://www.theregister.com/science/2026/06/26/trump-shuttered-climate-change-site-back-online-in-nonprofit-hands/5263319",
-          "date": "Jun 26, 2026",
-          "excerpt": "Remove something from the internet? You can't stop the (climate change) signal, Mal"
-        },
-        {
-          "title": "Google wants AI regulation, but on its own terms",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/26/google-wants-ai-regulation-but-on-its-own-terms/5263276",
-          "date": "Jun 26, 2026",
-          "excerpt": "Surely, we can have rules that allow us to continue doing what we're doing"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
