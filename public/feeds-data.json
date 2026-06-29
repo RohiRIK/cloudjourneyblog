@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T18:02:39.135Z",
+  "updatedAt": "2026-06-29T21:15:48.506Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+          "date": "Jun 29, 2026",
+          "excerpt": "Nissan is warning that it suffered a data breach affecting current and former employees after threat actors exploited an Oracle PeopleSoft vulnerability in data theft attacks previously linked to the "
+        },
+        {
+          "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
+          "link": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+          "date": "Jun 29, 2026",
+          "excerpt": "The National Association of Insurance Commissioners (NAIC) says the ShinyHunters extortion group stole only publicly available data, outdated logs, and configuration files after breaching its systems "
+        },
+        {
           "title": "WhatsApp rolls out usernames to help users hide their phone number",
           "link": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
           "date": "Jun 29, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
           "date": "Jun 29, 2026",
           "excerpt": "The U.S. Department of State is offering up to $10 million for information that helps identify or locate members of the UNC5792 and UNC4221 hacker groups, which are linked to Russia's intelligence and"
-        },
-        {
-          "title": "Agentic AI Has an Identity Problem and Attackers Know It",
-          "link": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
-          "date": "Jun 29, 2026",
-          "excerpt": "AI agents can access data, trigger workflows, and take action across enterprise systems. Token Security explains why governing these privileged identities is becoming essential for enterprise security"
-        },
-        {
-          "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
-          "date": "Jun 29, 2026",
-          "excerpt": "Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-48558) in SimpleHelp to deploy Djinn Stealer, a previously undocumented cross-platform information stealer targeting Window"
         }
       ]
     },
