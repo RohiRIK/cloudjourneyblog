@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-06-29T15:26:50.161Z",
+  "updatedAt": "2026-06-29T18:02:39.135Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Chromium extension uses AI‑related branding to redirect browser search",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/",
+          "date": "Jun 29, 2026",
+          "excerpt": "A malicious Chromium-based extension that spoofs the AI-powered answer engine Perplexity AI redirects browser search traffic using MV3 APIs and intermediary infrastructure. The post Chromium extension"
+        },
         {
           "title": "Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
           "date": "Jun 24, 2026",
           "excerpt": "On June 24, 2026, Microsoft’s Digital Crimes Unit (DCU) facilitated the takedown, suspension, and blocking of domains that formed the backbone of the StealC and Amadey infrastructure. This blog is a t"
-        },
-        {
-          "title": "Guarding AI memory",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/",
-          "date": "Jun 22, 2026",
-          "excerpt": "What happens when threat actors target what AI remembers? Microsoft breaks down the risks and the defenses. The post Guarding AI memory appeared first on Microsoft Security Blog."
         }
       ]
     },
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "WhatsApp rolls out usernames to help users hide their phone number",
+          "link": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
+          "date": "Jun 29, 2026",
+          "excerpt": "WhatsApp is finally allowing users to reserve usernames, a privacy feature that lets them hide their phone numbers from people not in their contact list. [...]"
+        },
+        {
+          "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
+          "date": "Jun 29, 2026",
+          "excerpt": "Microsoft has extended Windows Server 2022 hotpatching until October 2027, one year after the mainstream end date of October 2026. [...]"
+        },
+        {
           "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
           "link": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
           "date": "Jun 29, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
           "date": "Jun 29, 2026",
           "excerpt": "Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-48558) in SimpleHelp to deploy Djinn Stealer, a previously undocumented cross-platform information stealer targeting Window"
-        },
-        {
-          "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
-          "date": "Jun 29, 2026",
-          "excerpt": "Attackers have begun exploiting a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite (EBS) financial application, according to threat intelligence company Defused. [...]"
-        },
-        {
-          "title": "Webinar: Why business email compromise attacks keep succeeding",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
-          "date": "Jun 29, 2026",
-          "excerpt": "Business email compromise attacks increasingly rely on convincing impersonation rather than malware, making them harder for employees and traditional email defenses to detect. This webinar explores ho"
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "Microsoft to assist European Commission in defense of EU-US data-sharing agreement",
-          "link": "https://www.theregister.com/networks/2026/06/29/microsoft-to-assist-european-commission-in-defense-of-eu-us-data-sharing-agreement/5263737",
-          "date": "Jun 29, 2026",
-          "excerpt": "Court says Redmond can file briefs, take part in hearings amid challenge to the current path Big Tech's data spice uses to legally flow"
-        },
-        {
-          "title": "AI may be good at finding security vulnerabilities, but it can't beat human stupidity",
-          "link": "https://www.theregister.com/security/2026/06/29/ai-may-be-good-at-finding-security-vulnerabilities-but-it-cant-beat-human-stupidity/5263262",
-          "date": "Jun 29, 2026",
-          "excerpt": "You don't need Mythos or GPT-5.5-Cyber to find a vuln to exploit when the world's password habits are so sloppy"
-        },
-        {
-          "title": "Microsoft keeps Windows Server 2022 hotpatching alive into 2027",
-          "link": "https://www.theregister.com/security/2026/06/29/microsoft-keeps-windows-server-2022-hotpatching-alive-into-2027/5263688",
-          "date": "Jun 29, 2026",
-          "excerpt": "In the Azure Edition, of course"
-        },
-        {
-          "title": "Blue Origin insists New Glenn will rise from the ashes this year after explosion deleted launchpad",
-          "link": "https://www.theregister.com/offbeat/2026/06/29/blue-origin-insists-new-glenn-will-rise-from-the-ashes-this-year-after-explosion-deleted-launchpad/5263571",
-          "date": "Jun 29, 2026",
-          "excerpt": "CEO says reconstruction has begun, though the timetable looks ambitious"
-        },
-        {
-          "title": "BT and Verizon spin off international networking arms into $4B joint venture",
-          "link": "https://www.theregister.com/networks/2026/06/29/bt-and-verizon-spin-off-international-networking-arms-into-4b-joint-venture/5263655",
-          "date": "Jun 29, 2026",
-          "excerpt": "Enterprise networking gets another consolidation play as firms pool their overseas operations"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
