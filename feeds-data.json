@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T10:19:18.335Z",
+  "updatedAt": "2026-06-29T15:26:50.161Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Clean GitHub repo tricks AI coding agents into running malware",
-          "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
-          "date": "Jun 27, 2026",
-          "excerpt": "An agentic coding tool tasked with cloning and setting up a seemingly benign GitHub repository could execute a malicious payload that remains invisible to security scanners, AI agents, and human revie"
+          "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
+          "link": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
+          "date": "Jun 29, 2026",
+          "excerpt": "The U.S. Department of State is offering up to $10 million for information that helps identify or locate members of the UNC5792 and UNC4221 hacker groups, which are linked to Russia's intelligence and"
         },
         {
-          "title": "FBI: Russian hackers now target Signal backup recovery keys",
-          "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
-          "date": "Jun 26, 2026",
-          "excerpt": "The FBI and CISA are warning that a phishing campaign targeting Signal users tied to Russian intelligence services has evolved to steal Signal Backup Recovery Keys, allowing attackers to access victim"
+          "title": "Agentic AI Has an Identity Problem and Attackers Know It",
+          "link": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
+          "date": "Jun 29, 2026",
+          "excerpt": "AI agents can access data, trigger workflows, and take action across enterprise systems. Token Security explains why governing these privileged identities is becoming essential for enterprise security"
         },
         {
-          "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-          "date": "Jun 26, 2026",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively "
+          "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+          "date": "Jun 29, 2026",
+          "excerpt": "Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-48558) in SimpleHelp to deploy Djinn Stealer, a previously undocumented cross-platform information stealer targeting Window"
         },
         {
-          "title": "Polymarket customers lose $3 million in supply-chain attack",
-          "link": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-          "date": "Jun 26, 2026",
-          "excerpt": "Polymarket says it will fully reimburse customers who lost an estimated $3 million after hackers injected a malicious script into the platform's frontend following a breach at a third-party vendor. [."
+          "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+          "date": "Jun 29, 2026",
+          "excerpt": "Attackers have begun exploiting a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite (EBS) financial application, according to threat intelligence company Defused. [...]"
         },
         {
-          "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
-          "link": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
-          "date": "Jun 26, 2026",
-          "excerpt": "Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company inf"
+          "title": "Webinar: Why business email compromise attacks keep succeeding",
+          "link": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
+          "date": "Jun 29, 2026",
+          "excerpt": "Business email compromise attacks increasingly rely on convincing impersonation rather than malware, making them harder for employees and traditional email defenses to detect. This webinar explores ho"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Portuguese bank sign's storage is about to cash out",
-          "link": "https://www.theregister.com/offbeat/2026/06/28/portuguese-bank-signs-storage-is-about-to-cash-out/5263175",
-          "date": "Jun 28, 2026",
-          "excerpt": "Time to switch back to paper and harvest that suddenly valuable RAM"
+          "title": "Microsoft to assist European Commission in defense of EU-US data-sharing agreement",
+          "link": "https://www.theregister.com/networks/2026/06/29/microsoft-to-assist-european-commission-in-defense-of-eu-us-data-sharing-agreement/5263737",
+          "date": "Jun 29, 2026",
+          "excerpt": "Court says Redmond can file briefs, take part in hearings amid challenge to the current path Big Tech's data spice uses to legally flow"
         },
         {
-          "title": "NASA tests AI medic for astronauts too far from Earth to call a doctor",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/27/nasa-tests-ai-medic-for-astronauts-too-far-from-earth-to-call-a-doctor/5262828",
-          "date": "Jun 27, 2026",
-          "excerpt": "Please state the nature of the medical emergency"
+          "title": "AI may be good at finding security vulnerabilities, but it can't beat human stupidity",
+          "link": "https://www.theregister.com/security/2026/06/29/ai-may-be-good-at-finding-security-vulnerabilities-but-it-cant-beat-human-stupidity/5263262",
+          "date": "Jun 29, 2026",
+          "excerpt": "You don't need Mythos or GPT-5.5-Cyber to find a vuln to exploit when the world's password habits are so sloppy"
         },
         {
-          "title": "It's looking like a hot, messy summer for security teams as AI finds countless previously hidden vulns",
-          "link": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
-          "date": "Jun 27, 2026",
-          "excerpt": "Time to start praying to the goddess of wisdom and war"
+          "title": "Microsoft keeps Windows Server 2022 hotpatching alive into 2027",
+          "link": "https://www.theregister.com/security/2026/06/29/microsoft-keeps-windows-server-2022-hotpatching-alive-into-2027/5263688",
+          "date": "Jun 29, 2026",
+          "excerpt": "In the Azure Edition, of course"
         },
         {
-          "title": "Even the Secret Service won't use company-issued phones",
-          "link": "https://www.theregister.com/security/2026/06/26/even-the-secret-service-wont-use-company-issued-phones/5263356",
-          "date": "Jun 26, 2026",
-          "excerpt": "Personal cell phones on protective missions, no threat detection on government-issued devices among the litany of sins"
+          "title": "Blue Origin insists New Glenn will rise from the ashes this year after explosion deleted launchpad",
+          "link": "https://www.theregister.com/offbeat/2026/06/29/blue-origin-insists-new-glenn-will-rise-from-the-ashes-this-year-after-explosion-deleted-launchpad/5263571",
+          "date": "Jun 29, 2026",
+          "excerpt": "CEO says reconstruction has begun, though the timetable looks ambitious"
         },
         {
-          "title": "Trump-shuttered climate change site back online in nonprofit hands",
-          "link": "https://www.theregister.com/science/2026/06/26/trump-shuttered-climate-change-site-back-online-in-nonprofit-hands/5263319",
-          "date": "Jun 26, 2026",
-          "excerpt": "Remove something from the internet? You can't stop the (climate change) signal, Mal"
+          "title": "BT and Verizon spin off international networking arms into $4B joint venture",
+          "link": "https://www.theregister.com/networks/2026/06/29/bt-and-verizon-spin-off-international-networking-arms-into-4b-joint-venture/5263655",
+          "date": "Jun 29, 2026",
+          "excerpt": "Enterprise networking gets another consolidation play as firms pool their overseas operations"
         }
       ]
     },
