@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T21:15:48.506Z",
+  "updatedAt": "2026-06-30T02:08:59.442Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Security researchers tricked LLMs into giving them cocaine recipes by abusing role models for prompt injection",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/30/security-researchers-tricked-llms-into-giving-them-cocaine-recipes-by-abusing-role-models-for-prompt-injection/5264115",
+          "date": "Jun 29, 2026",
+          "excerpt": "If you want a picture of the future of LLM security, imagine Whac-a-Mole meets Groundhog Day"
+        },
+        {
+          "title": "Four years into Ukraine invasion, Russia turns influence-ops back to US and Europe",
+          "link": "https://www.theregister.com/security/2026/06/29/four-years-into-ukraine-invasion-russia-turns-influence-ops-back-to-us-and-europe/5264011",
+          "date": "Jun 29, 2026",
+          "excerpt": "Not today, Putin"
+        },
+        {
+          "title": "Anonymous researcher drops 0-day 'exploitarium' repo",
+          "link": "https://www.theregister.com/security/2026/06/29/anonymous-researcher-drops-0-day-exploitarium-repo/5263961",
+          "date": "Jun 29, 2026",
+          "excerpt": "At least two vulnerabilities are already under attack"
+        },
+        {
+          "title": "Supreme Court rules cops need a warrant to vacuum up phone location data",
+          "link": "https://www.theregister.com/legal/2026/06/29/supreme-court-rules-cops-need-a-warrant-to-vacuum-up-phone-location-data/5263950",
+          "date": "Jun 29, 2026",
+          "excerpt": "Efforts to grab all the location data in an area get clogged by Fourth Amendment"
+        },
+        {
+          "title": "Large Hadron Collider goes offline to make room for its enhanced successor",
+          "link": "https://www.theregister.com/science/2026/06/29/large-hadron-collider-goes-offline-to-make-room-for-its-enhanced-successor/5263927",
+          "date": "Jun 29, 2026",
+          "excerpt": "The High-Luminosity LHC will be mostly the same machine, but it'll deliver 10 times the luminosity and just as little chance of destroying the universe - sorry, conspiracy theorists"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
