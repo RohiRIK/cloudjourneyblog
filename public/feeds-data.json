@@ -1,11 +1,29 @@
 {
-  "updatedAt": "2026-06-30T02:08:59.442Z",
+  "updatedAt": "2026-06-30T21:21:50.906Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Accelerating the quantum-safe timeline",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/",
+          "date": "Jun 30, 2026",
+          "excerpt": "We’re accelerating quantum-safe readiness—and sharing what organizations can do now to transition earlier and with confidence. The post Accelerating the quantum-safe timeline appeared first on Microso"
+        },
+        {
+          "title": "​​What’s new in Microsoft Security: June 2026",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/whats-new-in-microsoft-security-june-2026/",
+          "date": "Jun 30, 2026",
+          "excerpt": "This month’s updates help security and IT teams strengthen identity and multicloud foundations, protect data wherever it lives, and secure the developer workflows powering AI innovation. The post ​​Wh"
+        },
+        {
+          "title": "Securing AI agents: When AI tools move from reading to acting",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
+          "date": "Jun 30, 2026",
+          "excerpt": "MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and pre"
+        },
         {
           "title": "Chromium extension uses AI‑related branding to redirect browser search",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/",
@@ -17,24 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/",
           "date": "Jun 25, 2026",
           "excerpt": "Microsoft Threat Intelligence identified an active multi-stage intrusion campaign targeting hospitality organizations in Europe and Asia. The campaign uses photo-themed ZIP archives and fake image sho"
-        },
-        {
-          "title": "Microsoft a Leader in The Forrester Wave™ for Endpoint Management Platforms",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/microsoft-a-leader-in-the-forrester-wave-for-endpoint-management-platforms/",
-          "date": "Jun 25, 2026",
-          "excerpt": "Microsoft named a Leader in the Forrester Wave™: Endpoint Management Platforms, Q2 2026, with the highest scores in the current offering and strategy categories. The post Microsoft a Leader in The For"
-        },
-        {
-          "title": "CNAPP evolution: How Microsoft aligns with leading cloud risk management platforms",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/cnapp-evolution-how-microsoft-aligns-with-leading-cloud-risk-management-platforms/",
-          "date": "Jun 24, 2026",
-          "excerpt": "Learn how CNAPP platforms are helping organizations prioritize exploitable risks, reduce exposure, and operationalize security across the application lifecycle. The post CNAPP evolution: How Microsoft"
-        },
-        {
-          "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
-          "date": "Jun 24, 2026",
-          "excerpt": "On June 24, 2026, Microsoft’s Digital Crimes Unit (DCU) facilitated the takedown, suspension, and blocking of domains that formed the backbone of the StealC and Amadey infrastructure. This blog is a t"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
-          "date": "Jun 29, 2026",
-          "excerpt": "Nissan is warning that it suffered a data breach affecting current and former employees after threat actors exploited an Oracle PeopleSoft vulnerability in data theft attacks previously linked to the "
+          "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
+          "date": "Jun 30, 2026",
+          "excerpt": "Microsoft announced today that it is accelerating its quantum-safe security roadmap, saying advances in quantum computing are bringing the need to replace today's encryption standards sooner than prev"
         },
         {
-          "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
-          "link": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
-          "date": "Jun 29, 2026",
-          "excerpt": "The National Association of Insurance Commissioners (NAIC) says the ShinyHunters extortion group stole only publicly available data, outdated logs, and configuration files after breaching its systems "
+          "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
+          "link": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
+          "date": "Jun 30, 2026",
+          "excerpt": "A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers to read arbitrary files on compromised servers. [."
         },
         {
-          "title": "WhatsApp rolls out usernames to help users hide their phone number",
-          "link": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
-          "date": "Jun 29, 2026",
-          "excerpt": "WhatsApp is finally allowing users to reserve usernames, a privacy feature that lets them hide their phone numbers from people not in their contact list. [...]"
+          "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
+          "link": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+          "date": "Jun 30, 2026",
+          "excerpt": "A malicious extension in the Chrome Web Store is masquerading as the Perplexity AI answer engine, intercepting search traffic and collecting browsing information. [...]"
         },
         {
-          "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
-          "date": "Jun 29, 2026",
-          "excerpt": "Microsoft has extended Windows Server 2022 hotpatching until October 2027, one year after the mainstream end date of October 2026. [...]"
+          "title": "Lessons from the Underground: How to Combat Business Email Compromise",
+          "link": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+          "date": "Jun 30, 2026",
+          "excerpt": "Business Email Compromise is more than an email scam. It's a coordinated operation involving compromised accounts, financial research, and cash-out networks. Flare explores how underground forums reve"
         },
         {
-          "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
-          "link": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
-          "date": "Jun 29, 2026",
-          "excerpt": "The U.S. Department of State is offering up to $10 million for information that helps identify or locate members of the UNC5792 and UNC4221 hacker groups, which are linked to Russia's intelligence and"
+          "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
+          "link": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
+          "date": "Jun 30, 2026",
+          "excerpt": "American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank account information. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Security researchers tricked LLMs into giving them cocaine recipes by abusing role models for prompt injection",
-          "link": "https://www.theregister.com/ai-and-ml/2026/06/30/security-researchers-tricked-llms-into-giving-them-cocaine-recipes-by-abusing-role-models-for-prompt-injection/5264115",
-          "date": "Jun 29, 2026",
-          "excerpt": "If you want a picture of the future of LLM security, imagine Whac-a-Mole meets Groundhog Day"
+          "title": "Qualcomm's proposed solution to catch up in AI infra: Bury the compute under the DRAM",
+          "link": "https://www.theregister.com/systems/2026/06/30/qualcomms-proposed-solution-to-catch-up-in-ai-infra-bury-the-compute-under-the-dram/5264071",
+          "date": "Jun 30, 2026",
+          "excerpt": "With its next-gen AI accelerators, the SoC vendor aims to fly high above the memory wall"
         },
         {
-          "title": "Four years into Ukraine invasion, Russia turns influence-ops back to US and Europe",
-          "link": "https://www.theregister.com/security/2026/06/29/four-years-into-ukraine-invasion-russia-turns-influence-ops-back-to-us-and-europe/5264011",
-          "date": "Jun 29, 2026",
-          "excerpt": "Not today, Putin"
+          "title": "Changing AI math could reduce the hardware burden, researchers show",
+          "link": "https://www.theregister.com/ai-and-ml/2026/06/30/changing-ai-math-could-reduce-the-hardware-burden-researchers-show/5264609",
+          "date": "Jun 30, 2026",
+          "excerpt": "SEMQ promises an abstraction layer for separating semantics from embeddings"
         },
         {
-          "title": "Anonymous researcher drops 0-day 'exploitarium' repo",
-          "link": "https://www.theregister.com/security/2026/06/29/anonymous-researcher-drops-0-day-exploitarium-repo/5263961",
-          "date": "Jun 29, 2026",
-          "excerpt": "At least two vulnerabilities are already under attack"
+          "title": "Infosec professionals sour on automated pentesting tools",
+          "link": "https://www.theregister.com/security/2026/06/30/infosec-professionals-sour-on-automated-pentesting-tools/5264571",
+          "date": "Jun 30, 2026",
+          "excerpt": "29% of security pros were open to fully autonomous pentesting last year; now only 9% are"
         },
         {
-          "title": "Supreme Court rules cops need a warrant to vacuum up phone location data",
-          "link": "https://www.theregister.com/legal/2026/06/29/supreme-court-rules-cops-need-a-warrant-to-vacuum-up-phone-location-data/5263950",
-          "date": "Jun 29, 2026",
-          "excerpt": "Efforts to grab all the location data in an area get clogged by Fourth Amendment"
+          "title": "Huntress CEO says threat hunter used 'poor judgment' in alerting ransomware crim about law enforcement probe",
+          "link": "https://www.theregister.com/security/2026/06/30/huntress-ceo-says-threat-hunter-used-poor-judgment-in-alerting-ransomware-crim-about-law-enforcement-probe/5264532",
+          "date": "Jun 30, 2026",
+          "excerpt": "Ex-employee claims this 'meets the definition of an insider threat'"
         },
         {
-          "title": "Large Hadron Collider goes offline to make room for its enhanced successor",
-          "link": "https://www.theregister.com/science/2026/06/29/large-hadron-collider-goes-offline-to-make-room-for-its-enhanced-successor/5263927",
-          "date": "Jun 29, 2026",
-          "excerpt": "The High-Luminosity LHC will be mostly the same machine, but it'll deliver 10 times the luminosity and just as little chance of destroying the universe - sorry, conspiracy theorists"
+          "title": "Meta's non-surgical mind reading machine improves on prior projects, but still isn't great",
+          "link": "https://www.theregister.com/offbeat/2026/06/30/metas-non-surgical-mind-reading-machine-improves-on-prior-projects-but-still-isnt-great/5264500",
+          "date": "Jun 30, 2026",
+          "excerpt": "61% word accuracy is progress, but the system still relies on users typing and can't yet support real-time communication. Implanted BCIs remain well ahead"
         }
       ]
     },
