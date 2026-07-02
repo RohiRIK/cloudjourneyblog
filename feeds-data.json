@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T10:27:00.882Z",
+  "updatedAt": "2026-07-02T13:26:51.536Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft fixes bug that removed Copilot buttons in Outlook ",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/",
+          "date": "Jul 2, 2026",
+          "excerpt": "Microsoft has fixed a known issue causing the Copilot Chat or Copilot buttons in Classic Outlook to disappear for Windows users with the Copilot Chat (Basic) license. [...]"
+        },
+        {
+          "title": "Cisco finally confirms attackers exploiting Unified CM flaw",
+          "link": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
+          "date": "Jul 2, 2026",
+          "excerpt": "Cisco confirmed that attackers are now exploiting a Unified Communications Manager (Unified CM) vulnerability patched in early June. [...]"
+        },
+        {
+          "title": "CISA: Microsoft SharePoint RCE flaw now actively exploited",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/",
+          "date": "Jul 2, 2026",
+          "excerpt": "CISA warned on Wednesday that attackers have begun exploiting a high-severity Microsoft SharePoint remote code execution vulnerability patched in May. [...]"
+        },
+        {
+          "title": "Opera rolls out Paste Protect feature to fight ClickFix attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
+          "date": "Jul 2, 2026",
+          "excerpt": "Opera has introduced Paste Protect, a security feature designed to block ClickFix-style attacks that trick users into executing malicious commands through social engineering. [...]"
+        },
+        {
           "title": "Alleged Scattered Spider hacker extradited to the United States",
           "link": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
           "date": "Jul 2, 2026",
           "excerpt": "A dual United States and Estonian citizen has been extradited to the U.S. to face charges alleging he was a member of the Scattered Spider hacking collective. [...]"
-        },
-        {
-          "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
-          "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
-          "date": "Jul 2, 2026",
-          "excerpt": "Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]"
-        },
-        {
-          "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
-          "link": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
-          "date": "Jul 1, 2026",
-          "excerpt": "The massive FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware operations, suggesting the stolen Fortinet credentials were intended to fuel future network intrusions. "
-        },
-        {
-          "title": "Kubota says hackers had month-long access to network systems",
-          "link": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
-          "date": "Jul 1, 2026",
-          "excerpt": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]"
-        },
-        {
-          "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
-          "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
-          "date": "Jul 1, 2026",
-          "excerpt": "Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can execute commands and steal sensitive data in a cam"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Pacemaker manufacturer Medtronic warns patients cybercrooks may have swiped health data",
+          "link": "https://www.theregister.com/security/2026/07/02/pacemaker-manufacturer-medtronic-warns-patients-cybercrooks-may-have-swiped-health-data/5265768",
+          "date": "Jul 2, 2026",
+          "excerpt": "Company that also makes insulin pumps and other devices tells users what was exposed months after ShinyHunters attack"
+        },
+        {
+          "title": "India gives WhatsApp three days to defend username rollout amid security fears",
+          "link": "https://www.theregister.com/security/2026/07/02/india-writes-to-whatsapp-over-usernames-security-concerns/5265744",
+          "date": "Jul 2, 2026",
+          "excerpt": "Government of the messenger's largest market demands a pause while Meta explains how it plans to stop impersonators"
+        },
+        {
+          "title": "Oracle E-Business Suite was under attack via critical flaw before the public exploit code was even released",
+          "link": "https://www.theregister.com/cyber-crime/2026/07/02/oracle-e-business-suite-was-under-attack-via-critical-flaw-before-the-public-exploit-code-was-even-released/5265710",
+          "date": "Jul 2, 2026",
+          "excerpt": "Attackers appear to have reverse-engineered Big Red's patch"
+        },
         {
           "title": "Connect, disconnect, or just have a lovely beer",
           "link": "https://www.theregister.com/offbeat/2026/07/02/connect-disconnect-or-just-have-a-lovely-beer/5264598",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/07/02/un-warns-of-need-for-global-governance-to-avoid-an-ai-pocalypse/5265188",
           "date": "Jul 2, 2026",
           "excerpt": "Capabilities are racing ahead of rules to ensure tech is used safely and responsibly, Scientific Panel argues"
-        },
-        {
-          "title": "Hackers shoveled snow for company, were rewarded with network admin access",
-          "link": "https://www.theregister.com/security/2026/07/02/hackers-shoveled-snow-for-company-were-rewarded-with-network-admin-access/5265240",
-          "date": "Jul 2, 2026",
-          "excerpt": "Fortunately, they were professional red teamers. Unfortunately, they pwned the network"
-        },
-        {
-          "title": "Trouble keeps finding Supermicro as strange server shipments attract police attention in Taiwan and Singapore",
-          "link": "https://www.theregister.com/legal/2026/07/02/trouble-keeps-finding-supermicro-as-strange-server-shipments-attract-police-attention-in-taiwan-and-singapore/5265520",
-          "date": "Jul 2, 2026",
-          "excerpt": "Alleged illicit GPU movements lead to seizure of $42 million house"
-        },
-        {
-          "title": "New humanoid robots from China look like creepy pop star action figures – complete with slightly dodgy lip-synch",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/02/new-humanoid-robots-from-china-look-like-creepy-pop-star-action-figures-complete-with-slightly-dodgy-lip-synch/5265490",
-          "date": "Jul 2, 2026",
-          "excerpt": "They're 90 percent human in some ways, can provide daily companionship psychological support"
         }
       ]
     },
