@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T06:59:07.557Z",
+  "updatedAt": "2026-07-02T10:27:00.882Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Alleged Scattered Spider hacker extradited to the United States",
+          "link": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
+          "date": "Jul 2, 2026",
+          "excerpt": "A dual United States and Estonian citizen has been extradited to the U.S. to face charges alleging he was a member of the Scattered Spider hacking collective. [...]"
+        },
+        {
           "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
           "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
           "date": "Jul 2, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
           "date": "Jul 1, 2026",
           "excerpt": "Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can execute commands and steal sensitive data in a cam"
-        },
-        {
-          "title": "DHS confirms hackers breached HSIN info-sharing platform",
-          "link": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
-          "date": "Jul 1, 2026",
-          "excerpt": "The Department of Homeland Security is investigating a cyberattack that compromised the Homeland Security Information Network (HSIN), a sensitive information-sharing platform used by federal, state, l"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Connect, disconnect, or just have a lovely beer",
+          "link": "https://www.theregister.com/offbeat/2026/07/02/connect-disconnect-or-just-have-a-lovely-beer/5264598",
+          "date": "Jul 2, 2026",
+          "excerpt": "Seeking a deeper meaning to a network error"
+        },
+        {
+          "title": "UN warns of need for global governance to avoid an AI-pocalypse",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/02/un-warns-of-need-for-global-governance-to-avoid-an-ai-pocalypse/5265188",
+          "date": "Jul 2, 2026",
+          "excerpt": "Capabilities are racing ahead of rules to ensure tech is used safely and responsibly, Scientific Panel argues"
+        },
+        {
+          "title": "Hackers shoveled snow for company, were rewarded with network admin access",
+          "link": "https://www.theregister.com/security/2026/07/02/hackers-shoveled-snow-for-company-were-rewarded-with-network-admin-access/5265240",
+          "date": "Jul 2, 2026",
+          "excerpt": "Fortunately, they were professional red teamers. Unfortunately, they pwned the network"
+        },
         {
           "title": "Trouble keeps finding Supermicro as strange server shipments attract police attention in Taiwan and Singapore",
           "link": "https://www.theregister.com/legal/2026/07/02/trouble-keeps-finding-supermicro-as-strange-server-shipments-attract-police-attention-in-taiwan-and-singapore/5265520",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/07/02/new-humanoid-robots-from-china-look-like-creepy-pop-star-action-figures-complete-with-slightly-dodgy-lip-synch/5265490",
           "date": "Jul 2, 2026",
           "excerpt": "They're 90 percent human in some ways, can provide daily companionship psychological support"
-        },
-        {
-          "title": "Oracle outlines all the ways it could lose the farm it bet on AI",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/01/oracle-outlines-all-the-ways-it-could-lose-the-farm-it-bet-on-ai/5265438",
-          "date": "Jul 1, 2026",
-          "excerpt": "Risk factors galore"
-        },
-        {
-          "title": "EvilTokens device-code phishing kit totally more evil than we all thought",
-          "link": "https://www.theregister.com/cyber-crime/2026/07/01/eviltokens-device-code-phishing-kit-totally-more-evil-than-we-all-thought/5265409",
-          "date": "Jul 1, 2026",
-          "excerpt": "It's a 'complete BEC operations environment,' Talos researcher says"
-        },
-        {
-          "title": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
-          "link": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
-          "date": "Jul 1, 2026",
-          "excerpt": "Safer, cheaper, and nothing to do with cybersecurity"
         }
       ]
     },
