@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-01T17:45:41.659Z",
+  "updatedAt": "2026-07-02T02:05:52.595Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Microsoft named a leader in the Frost Radar for cloud and application runtime security",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security/",
+          "date": "Jul 1, 2026",
+          "excerpt": "Frost & Sullivan names Microsoft a leader as cloud and application security converge into unified, runtime risk reduction. The post Microsoft named a leader in the Frost Radar for cloud and applicatio"
+        },
         {
           "title": "Accelerating the quantum-safe timeline",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/",
           "date": "Jun 29, 2026",
           "excerpt": "A malicious Chromium-based extension that spoofs the AI-powered answer engine Perplexity AI redirects browser search traffic using MV3 APIs and intermediary infrastructure. The post Chromium extension"
-        },
-        {
-          "title": "Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/",
-          "date": "Jun 25, 2026",
-          "excerpt": "Microsoft Threat Intelligence identified an active multi-stage intrusion campaign targeting hospitality organizations in Europe and Asia. The campaign uses photo-themed ZIP archives and fake image sho"
         }
       ]
     },
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
+          "link": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+          "date": "Jul 1, 2026",
+          "excerpt": "The massive FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware operations, suggesting the stolen Fortinet credentials were intended to fuel future network intrusions. "
+        },
+        {
+          "title": "Kubota says hackers had month-long access to network systems",
+          "link": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+          "date": "Jul 1, 2026",
+          "excerpt": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]"
+        },
+        {
+          "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
+          "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+          "date": "Jul 1, 2026",
+          "excerpt": "Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can execute commands and steal sensitive data in a cam"
+        },
+        {
           "title": "DHS confirms hackers breached HSIN info-sharing platform",
           "link": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
           "date": "Jul 1, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
           "date": "Jul 1, 2026",
           "excerpt": "Modern phishing, business email compromise, and account takeover attacks increasingly exploit trusted identities and legitimate business workflows, making them harder for traditional email defenses to"
-        },
-        {
-          "title": "Hackers target Microsoft 365 accounts with 81 million login attempts",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
-          "date": "Jul 1, 2026",
-          "excerpt": "An aggressive password-spraying campaign targeting Microsoft 365 environments generated more than 81 million login attempts over a two-week period. [...]"
-        },
-        {
-          "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
-          "link": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
-          "date": "Jul 1, 2026",
-          "excerpt": "Threat intelligence is only as useful as the context behind it. Criminal IP explains how its integration enriches threat indicators in OpenCTI with risk scoring, infrastructure intelligence, and phish"
-        },
-        {
-          "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
-          "date": "Jul 1, 2026",
-          "excerpt": "Over 900 Oracle E-Business Suite (EBS) instances have been found exposed online amid ongoing attacks exploiting a critical security flaw. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Red teamers turned Claude Desktop into a double agent to do their evil bidding",
-          "link": "https://www.theregister.com/security/2026/07/01/red-teamers-turned-claude-desktop-into-a-double-agent-to-do-their-evil-bidding/5264692",
+          "title": "Oracle outlines all the ways it could lose the farm it bet on AI",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/01/oracle-outlines-all-the-ways-it-could-lose-the-farm-it-bet-on-ai/5265438",
           "date": "Jul 1, 2026",
-          "excerpt": "People trust their AI assistants and it's easy to abuse this trust"
+          "excerpt": "Risk factors galore"
         },
         {
-          "title": "NASA unsure Boeing Starliner will ever be certified for human flight",
-          "link": "https://www.theregister.com/offbeat/2026/07/01/nasa-unsure-boeing-starliner-will-ever-be-certified-for-human-flight/5265177",
+          "title": "EvilTokens device-code phishing kit totally more evil than we all thought",
+          "link": "https://www.theregister.com/cyber-crime/2026/07/01/eviltokens-device-code-phishing-kit-totally-more-evil-than-we-all-thought/5265409",
           "date": "Jul 1, 2026",
-          "excerpt": "Inspector General's report says time is running out for the Calamity Capsule"
+          "excerpt": "It's a 'complete BEC operations environment,' Talos researcher says"
         },
         {
-          "title": "When backups aren't enough: the case for real disaster recovery",
-          "link": "https://www.theregister.com/storage/2026/07/01/when-backups-arent-enough-the-case-for-real-disaster-recovery/5264668",
+          "title": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
+          "link": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
           "date": "Jul 1, 2026",
-          "excerpt": "PARTNER CONTENT: The gap between having a backup and actually recovering from a disaster is wider than most IT teams realize"
+          "excerpt": "Safer, cheaper, and nothing to do with cybersecurity"
         },
         {
-          "title": "Microsoft lets Azure Linux 4 out of the cloud in downloadable ISO form",
-          "link": "https://www.theregister.com/os-platforms/2026/07/01/microsoft-lets-azure-linux-4-out-of-the-cloud-in-downloadable-iso-form/5265126",
+          "title": "Anthropic is removing its covert code for catching Chinese competitors",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/01/anthropic-is-removing-its-covert-code-for-catching-chinese-competitors/5265366",
           "date": "Jul 1, 2026",
-          "excerpt": "Fedora-derived server distro is ready for local testing, but production deployments should wait"
+          "excerpt": "Oh, yeah, we've been meaning to disable our secret steganography system"
         },
         {
-          "title": "Cloudflare to block cynical search-and-scrape bots from ad-supported web pages",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/01/cloudflare-to-block-cynical-search-and-scrape-bots-from-ad-supported-web-pages/5264727",
+          "title": "Godot says bye bye AI, bans vibe-coded contributions",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344",
           "date": "Jul 1, 2026",
-          "excerpt": "Some crawlers gather data for both search and AI training, so when publishers block them to protect content they risk disappearning from search results ..."
+          "excerpt": "'We can’t trust heavy users of AI to understand their code enough to fix it,' say maintainers who previously called the flood of vibe-coded pull requests 'demoralizing'"
         }
       ]
     },
