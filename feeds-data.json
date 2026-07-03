@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T13:39:11.628Z",
+  "updatedAt": "2026-07-03T17:11:03.865Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+          "link": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+          "date": "Jul 3, 2026",
+          "excerpt": "A new phishing-as-a-service (PhaaS) platform dubbed \"ARToken\" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to"
+        },
+        {
           "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
           "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
           "date": "Jul 3, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
           "date": "Jul 2, 2026",
           "excerpt": "ConsentFix and ClickFix attacks steal Microsoft 365 tokens in seconds using fake prompts and OAuth flows. Learn how these MFA bypass tactics work and how to defend against them. [...]"
-        },
-        {
-          "title": "Microsoft fixes bug that removed Copilot buttons in Outlook ",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/",
-          "date": "Jul 2, 2026",
-          "excerpt": "Microsoft has fixed a known issue causing the Copilot Chat or Copilot buttons in Classic Outlook to disappear for Windows users with the Copilot Chat (Basic) license. [...]"
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "AdaptHealth says attackers sweet-talked their way into cloud systems and stole patient data",
+          "link": "https://www.theregister.com/security/2026/07/03/adapthealth-crooks-stole-our-passwords-patient-health-data/5266512",
+          "date": "Jul 3, 2026",
+          "excerpt": "Third-party contractor compromise exposed health information and insurance billing passwords"
+        },
+        {
+          "title": "Startup targets datacenters with 3D-printed nuclear reactor module",
+          "link": "https://www.theregister.com/systems/2026/07/03/startup-targets-datacenters-with-3d-printed-nuclear-reactor-module/5266480",
+          "date": "Jul 3, 2026",
+          "excerpt": "Fancy a thorium microreactor capable of delivering up to 30 MWe of juice for up to 30 years?"
+        },
+        {
+          "title": "NetNut cracked as Google and FBI target 2 million-device botnet",
+          "link": "https://www.theregister.com/security/2026/07/03/netnut-cracked-as-google-and-fbi-target-2-million-device-botnet/5266414",
+          "date": "Jul 3, 2026",
+          "excerpt": "Other residential proxy brands may rely on the same network"
+        },
+        {
+          "title": "AI bills are baffling the C-suite after shift to usage-based pricing",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/03/ai-bills-are-baffling-the-c-suite-after-shift-to-usage-based-pricing/5266383",
+          "date": "Jul 3, 2026",
+          "excerpt": "KPMG finds nearly a third of execs struggle to understand costs as companies rethink deployments"
+        },
+        {
+          "title": "EU appears to find datacenter emissions easier to offset than lobbyists",
+          "link": "https://www.theregister.com/on-prem/2026/07/03/eu-appears-to-find-datacenter-emissions-easier-to-offset-than-lobbyists/5265814",
+          "date": "Jul 3, 2026",
+          "excerpt": "Report says proposed rewrite gives operators more freedom to shop around for a greener grade"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
