@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T10:25:21.087Z",
+  "updatedAt": "2026-07-03T13:39:11.628Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "EU appears to find datacenter emissions easier to offset than lobbyists",
-          "link": "https://www.theregister.com/on-prem/2026/07/03/eu-appears-to-find-datacenter-emissions-easier-to-offset-than-lobbyists/5265814",
-          "date": "Jul 3, 2026",
-          "excerpt": "Report says proposed rewrite gives operators more freedom to shop around for a greener grade"
-        },
-        {
-          "title": "Databricks unifies OLTP and OLAP, depending on what counts as a copy",
-          "link": "https://www.theregister.com/databases/2026/07/03/databricks-unifies-oltp-and-olap-depending-on-what-counts-as-a-copy/5265733",
-          "date": "Jul 3, 2026",
-          "excerpt": "LTAP architecture does some clever engineering beneath a debatable marketing pitch"
-        },
-        {
-          "title": "User swore hacker called General Failure had invaded his PC",
-          "link": "https://www.theregister.com/personal-tech/2026/07/03/user-swore-hacker-called-general-failure-had-invaded-his-pc/5265548",
-          "date": "Jul 3, 2026",
-          "excerpt": "Maybe they were looking for Private Data"
-        },
-        {
-          "title": "Failed blockchain project ends with big fine for fibs about it being on track",
-          "link": "https://www.theregister.com/software/2026/07/03/failed-blockchain-project-ends-with-big-fine-for-fibs-about-it-being-on-track/5266297",
-          "date": "Jul 3, 2026",
-          "excerpt": "A final humiliation for Australia’s Securities Exchange and its attempts to run a bourse on distributed ledgers"
-        },
-        {
-          "title": "Amazon’s Mechanical Turk to stop accepting new customers – and not even AI can save it",
-          "link": "https://www.theregister.com/off-prem/2026/07/03/amazons-mechanical-turk-to-stop-accepting-new-customers-and-not-even-ai-can-save-it/5266274",
-          "date": "Jul 3, 2026",
-          "excerpt": "Workers who use OG crowdsourcing platform say AWS is closing accounts"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
