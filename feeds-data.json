@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T06:53:05.427Z",
+  "updatedAt": "2026-07-03T10:25:21.087Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "EU appears to find datacenter emissions easier to offset than lobbyists",
+          "link": "https://www.theregister.com/on-prem/2026/07/03/eu-appears-to-find-datacenter-emissions-easier-to-offset-than-lobbyists/5265814",
+          "date": "Jul 3, 2026",
+          "excerpt": "Report says proposed rewrite gives operators more freedom to shop around for a greener grade"
+        },
+        {
+          "title": "Databricks unifies OLTP and OLAP, depending on what counts as a copy",
+          "link": "https://www.theregister.com/databases/2026/07/03/databricks-unifies-oltp-and-olap-depending-on-what-counts-as-a-copy/5265733",
+          "date": "Jul 3, 2026",
+          "excerpt": "LTAP architecture does some clever engineering beneath a debatable marketing pitch"
+        },
+        {
           "title": "User swore hacker called General Failure had invaded his PC",
           "link": "https://www.theregister.com/personal-tech/2026/07/03/user-swore-hacker-called-general-failure-had-invaded-his-pc/5265548",
           "date": "Jul 3, 2026",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/off-prem/2026/07/03/amazons-mechanical-turk-to-stop-accepting-new-customers-and-not-even-ai-can-save-it/5266274",
           "date": "Jul 3, 2026",
           "excerpt": "Workers who use OG crowdsourcing platform say AWS is closing accounts"
-        },
-        {
-          "title": "In a volatile world, a consistent sustainability policy is critical",
-          "link": "https://www.theregister.com/cxo/2026/07/03/in-a-volatile-world-a-consistent-sustainability-policy-is-critical/5266035",
-          "date": "Jul 3, 2026",
-          "excerpt": "SPONSORED FEATURE: ZTE unveils 2025 milestones"
-        },
-        {
-          "title": "Dev says Google warned him about account hijack – then charged him $11,000 anyway",
-          "link": "https://www.theregister.com/cyber-crime/2026/07/03/dev-says-google-warned-him-about-account-hijack-then-charged-him-11000-anyway/5266234",
-          "date": "Jul 2, 2026",
-          "excerpt": "Left hand, meet right hand"
         }
       ]
     },
