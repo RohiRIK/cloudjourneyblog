@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T17:11:03.865Z",
+  "updatedAt": "2026-07-04T01:49:47.991Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
+          "link": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
+          "date": "Jul 3, 2026",
+          "excerpt": "A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]"
+        },
+        {
           "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
           "link": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
           "date": "Jul 3, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
           "date": "Jul 2, 2026",
           "excerpt": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a €4.1 billion ($4.7 billion) antitrust fine over the company's use of Android to promote its Chrome browser a"
-        },
-        {
-          "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
-          "link": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
-          "date": "Jul 2, 2026",
-          "excerpt": "ConsentFix and ClickFix attacks steal Microsoft 365 tokens in seconds using fake prompts and OAuth flows. Learn how these MFA bypass tactics work and how to defend against them. [...]"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "David Potter, the man who put Psion in the palm of your hand, logs off at 82",
+          "link": "https://www.theregister.com/personal-tech/2026/07/03/david-potter-the-man-who-put-psion-in-the-palm-of-your-hand-logs-off-at-82/5266624",
+          "date": "Jul 3, 2026",
+          "excerpt": "Physicist, philanthropist, and pioneer of pocket computers, SSDs, smartphones… and duvets"
+        },
+        {
+          "title": "Amazon Leo constellation nears 400 satellites as broadband launch looms",
+          "link": "https://www.theregister.com/networks/2026/07/03/amazon-leo-constellation-nears-400-satellites-as-broadband-launch-looms/5266588",
+          "date": "Jul 3, 2026",
+          "excerpt": "Online emporium's Starlink rival says it will start service later this year as another 29 birds reach orbit"
+        },
         {
           "title": "AdaptHealth says attackers sweet-talked their way into cloud systems and stole patient data",
           "link": "https://www.theregister.com/security/2026/07/03/adapthealth-crooks-stole-our-passwords-patient-health-data/5266512",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/security/2026/07/03/netnut-cracked-as-google-and-fbi-target-2-million-device-botnet/5266414",
           "date": "Jul 3, 2026",
           "excerpt": "Other residential proxy brands may rely on the same network"
-        },
-        {
-          "title": "AI bills are baffling the C-suite after shift to usage-based pricing",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/03/ai-bills-are-baffling-the-c-suite-after-shift-to-usage-based-pricing/5266383",
-          "date": "Jul 3, 2026",
-          "excerpt": "KPMG finds nearly a third of execs struggle to understand costs as companies rethink deployments"
-        },
-        {
-          "title": "EU appears to find datacenter emissions easier to offset than lobbyists",
-          "link": "https://www.theregister.com/on-prem/2026/07/03/eu-appears-to-find-datacenter-emissions-easier-to-offset-than-lobbyists/5265814",
-          "date": "Jul 3, 2026",
-          "excerpt": "Report says proposed rewrite gives operators more freedom to shop around for a greener grade"
         }
       ]
     },
