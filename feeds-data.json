@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T16:53:18.980Z",
+  "updatedAt": "2026-07-06T14:54:32.525Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
+          "link": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
+          "date": "Jul 6, 2026",
+          "excerpt": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where security d"
+        },
+        {
+          "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
+          "date": "Jul 6, 2026",
+          "excerpt": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel. [...]"
+        },
+        {
           "title": "Flipper Zero firmware development continues with community help",
           "link": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
           "date": "Jul 5, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
           "date": "Jul 3, 2026",
           "excerpt": "A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]"
-        },
-        {
-          "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
-          "link": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
-          "date": "Jul 3, 2026",
-          "excerpt": "A new phishing-as-a-service (PhaaS) platform dubbed \"ARToken\" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to"
-        },
-        {
-          "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
-          "date": "Jul 3, 2026",
-          "excerpt": "Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the model to return outside the usage-based plan soon."
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "MFA-optional banks leave safe doors (and accounts) wide open for thieves to pillage",
-          "link": "https://www.theregister.com/security/2026/07/05/mfa-optional-banks-leave-safe-doors-and-accounts-wide-open-for-thieves-to-pillage/5266161",
-          "date": "Jul 5, 2026",
-          "excerpt": "Financial institutions are putting their clients at risk in the name of convenience."
-        },
-        {
-          "title": "C programmers commit fresh crimes against readability",
-          "link": "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981",
-          "date": "Jul 5, 2026",
-          "excerpt": "Prepare to be befuddled and bamboozled – and probably bewitched"
-        },
-        {
-          "title": "Confidential computing's core trust mechanism is broken. The fix may not exist",
-          "link": "https://www.theregister.com/security/2026/07/04/confidential-computings-core-trust-mechanism-is-broken-the-fix-may-not-exist/5266056",
-          "date": "Jul 4, 2026",
-          "excerpt": "Attested TLS: the handshake that can't prove who's on the other end"
-        },
-        {
-          "title": "NASA says it will isolate volunteers from the outside world for a year",
-          "link": "https://www.theregister.com/science/2026/07/04/nasa-says-it-will-isolate-volunteers-from-the-outside-world-for-a-year/5266558",
-          "date": "Jul 4, 2026",
-          "excerpt": "There might also be a downside"
-        },
-        {
-          "title": "David Potter, the man who put Psion in the palm of your hand, logs off at 82",
-          "link": "https://www.theregister.com/personal-tech/2026/07/03/david-potter-the-man-who-put-psion-in-the-palm-of-your-hand-logs-off-at-82/5266624",
-          "date": "Jul 3, 2026",
-          "excerpt": "Physicist, philanthropist, and pioneer of pocket computers, SSDs, smartphones… and duvets"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
