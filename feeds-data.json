@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-06T14:54:32.525Z",
+  "updatedAt": "2026-07-07T21:13:20.857Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
+          "date": "Jul 6, 2026",
+          "excerpt": "Read five key learnings from the Frost & Sullivan 2025 Frost Radar™ for CSPM to learn how CSPM is evolving from point-in-time compliance to continuous risk management. The post 5 insights from Frost &"
+        },
         {
           "title": "Improving security posture across the Microsoft partner ecosystem",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/whats-new-in-microsoft-security-june-2026/",
           "date": "Jun 30, 2026",
           "excerpt": "This month’s updates help security and IT teams strengthen identity and multicloud foundations, protect data wherever it lives, and secure the developer workflows powering AI innovation. The post ​​Wh"
-        },
-        {
-          "title": "Securing AI agents: When AI tools move from reading to acting",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
-          "date": "Jun 30, 2026",
-          "excerpt": "MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and pre"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
-          "link": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
-          "date": "Jul 6, 2026",
-          "excerpt": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where security d"
+          "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
+          "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
+          "date": "Jul 7, 2026",
+          "excerpt": "Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ru"
         },
         {
-          "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
-          "date": "Jul 6, 2026",
-          "excerpt": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel. [...]"
+          "title": "Hidden backdoor in Tenda router firmware grants admin access",
+          "link": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
+          "date": "Jul 7, 2026",
+          "excerpt": "A hidden authentication backdoor has been found in multiple Tenda router firmware versions, potentially allowing an attacker to gain administrative access to the device's web management panel. [...]"
         },
         {
-          "title": "Flipper Zero firmware development continues with community help",
-          "link": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
-          "date": "Jul 5, 2026",
-          "excerpt": "Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]"
+          "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
+          "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
+          "date": "Jul 7, 2026",
+          "excerpt": "The National Police in Spain have arrested a man who is suspected of being an active member of the CyberArmy of Russia Reborn (CARR) and Z-Pentest, both pro-Russian hacktivist groups. [...]"
         },
         {
-          "title": "JadePuffer ransomware used AI agent to automate entire attack",
-          "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
-          "date": "Jul 4, 2026",
-          "excerpt": "Researchers identified what they believe is the first documented case of a ransomware operation, JadePuffer, conducted entirely by a large language model (LLM) agent. [...]"
+          "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
+          "link": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
+          "date": "Jul 7, 2026",
+          "excerpt": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their "
         },
         {
-          "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
-          "link": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
-          "date": "Jul 3, 2026",
-          "excerpt": "A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]"
+          "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
+          "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
+          "date": "Jul 7, 2026",
+          "excerpt": "Tomorrow's webinar explores how behavioral AI can help organizations detect sophisticated phishing, business email compromise, and account takeover attacks while reducing alert fatigue through automat"
         }
       ]
     },
