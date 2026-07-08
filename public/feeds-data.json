@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T21:13:20.857Z",
+  "updatedAt": "2026-07-08T01:27:18.889Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Accenture confirms breach after hacker offers stolen data for sale",
+          "link": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
+          "date": "Jul 7, 2026",
+          "excerpt": "IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other data from the company. [...]"
+        },
+        {
           "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
           "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
           "date": "Jul 7, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
           "date": "Jul 7, 2026",
           "excerpt": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their "
-        },
-        {
-          "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
-          "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
-          "date": "Jul 7, 2026",
-          "excerpt": "Tomorrow's webinar explores how behavioral AI can help organizations detect sophisticated phishing, business email compromise, and account takeover attacks while reducing alert fatigue through automat"
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Windows is watching: Anti-piracy tool fingers Scattered Spider suspect",
+          "link": "https://www.theregister.com/cyber-crime/2026/07/07/windows-is-watching-anti-piracy-tool-fingers-scattered-spider-suspect/5267953",
+          "date": "Jul 7, 2026",
+          "excerpt": "Along with other telemetry, Windows GDID makes online activity more traceable"
+        },
+        {
+          "title": "Avoid AI atrophy - new tool promises to reverse vibe coding skills decay",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/07/avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay/5267913",
+          "date": "Jul 7, 2026",
+          "excerpt": "Want big muscles? Keep working out. Want big coding skillsets? Flex your dev skills with the Atrophy CLI app before they wither away"
+        },
+        {
+          "title": "GitHub AI agent leaks private repos when asked nicely",
+          "link": "https://www.theregister.com/security/2026/07/07/github-ai-agent-leaks-private-repos-when-asked-nicely/5267924",
+          "date": "Jul 7, 2026",
+          "excerpt": "Per usual, there's no fix - or even any documentation - for GitLost"
+        },
+        {
+          "title": "South Korean chip startup FuriosaAI invades European datacenters",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/07/south-korean-chip-startup-furiosaai-invades-european-datacenters/5267884",
+          "date": "Jul 7, 2026",
+          "excerpt": "RNGD accelerators land in Equinix's Lisbon DCs"
+        },
+        {
+          "title": "CAI cloud worm gives competitors' malware the boot, then steals secrets and mines for coin",
+          "link": "https://www.theregister.com/cyber-crime/2026/07/07/cai-cloud-worm-gives-competitors-malware-the-boot-then-steals-secrets-and-mines-for-coin/5267856",
+          "date": "Jul 7, 2026",
+          "excerpt": "Dog-eat-dog world for credential-stealing attackers"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
