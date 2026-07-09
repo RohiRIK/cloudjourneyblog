@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-08T01:27:18.889Z",
+  "updatedAt": "2026-07-09T10:44:10.127Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud  ",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
+          "date": "Jul 8, 2026",
+          "excerpt": "At Microsoft we encompass these security requirements, along with threat knowledge, and operational frameworks in our Secure Future Initiative (SFI), to guide what a well-defended cloud service looks "
+        },
         {
           "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/",
           "date": "Jun 30, 2026",
           "excerpt": "We’re accelerating quantum-safe readiness—and sharing what organizations can do now to transition earlier and with confidence. The post Accelerating the quantum-safe timeline appeared first on Microso"
-        },
-        {
-          "title": "​​What’s new in Microsoft Security: June 2026",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/whats-new-in-microsoft-security-june-2026/",
-          "date": "Jun 30, 2026",
-          "excerpt": "This month’s updates help security and IT teams strengthen identity and multicloud foundations, protect data wherever it lives, and secure the developer workflows powering AI innovation. The post ​​Wh"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Accenture confirms breach after hacker offers stolen data for sale",
-          "link": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
-          "date": "Jul 7, 2026",
-          "excerpt": "IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other data from the company. [...]"
+          "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
+          "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
+          "date": "Jul 9, 2026",
+          "excerpt": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]"
         },
         {
-          "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
-          "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
-          "date": "Jul 7, 2026",
-          "excerpt": "Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ru"
+          "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
+          "link": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
+          "date": "Jul 9, 2026",
+          "excerpt": "American insurance company AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year. [...]"
         },
         {
-          "title": "Hidden backdoor in Tenda router firmware grants admin access",
-          "link": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
-          "date": "Jul 7, 2026",
-          "excerpt": "A hidden authentication backdoor has been found in multiple Tenda router firmware versions, potentially allowing an attacker to gain administrative access to the device's web management panel. [...]"
+          "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
+          "date": "Jul 9, 2026",
+          "excerpt": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]"
         },
         {
-          "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
-          "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
-          "date": "Jul 7, 2026",
-          "excerpt": "The National Police in Spain have arrested a man who is suspected of being an active member of the CyberArmy of Russia Reborn (CARR) and Z-Pentest, both pro-Russian hacktivist groups. [...]"
+          "title": "Mount Royal University confirms breach as hackers claim attack",
+          "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
+          "date": "Jul 8, 2026",
+          "excerpt": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]"
         },
         {
-          "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
-          "link": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
-          "date": "Jul 7, 2026",
-          "excerpt": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their "
+          "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
+          "link": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+          "date": "Jul 8, 2026",
+          "excerpt": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Windows is watching: Anti-piracy tool fingers Scattered Spider suspect",
-          "link": "https://www.theregister.com/cyber-crime/2026/07/07/windows-is-watching-anti-piracy-tool-fingers-scattered-spider-suspect/5267953",
-          "date": "Jul 7, 2026",
-          "excerpt": "Along with other telemetry, Windows GDID makes online activity more traceable"
+          "title": "Ubuntu emphasizes Arm64 support – and gets Rustier",
+          "link": "https://www.theregister.com/os-platforms/2026/07/09/ubuntu-emphasizes-arm64-support-and-gets-rustier/5268563",
+          "date": "Jul 9, 2026",
+          "excerpt": "Even so, it has some issues with the Rust coreutils"
         },
         {
-          "title": "Avoid AI atrophy - new tool promises to reverse vibe coding skills decay",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/07/avoid-ai-atrophy-new-tool-promises-to-reverse-vibe-coding-skills-decay/5267913",
-          "date": "Jul 7, 2026",
-          "excerpt": "Want big muscles? Keep working out. Want big coding skillsets? Flex your dev skills with the Atrophy CLI app before they wither away"
+          "title": "Windows 95 detected installers by looking for magic words and hoping for the best",
+          "link": "https://www.theregister.com/personal-tech/2026/07/09/windows-95-detected-installers-by-looking-for-magic-words-and-hoping-for-the-best/5268510",
+          "date": "Jul 9, 2026",
+          "excerpt": "If your name's not on the list, you're... probably not a setup program"
         },
         {
-          "title": "GitHub AI agent leaks private repos when asked nicely",
-          "link": "https://www.theregister.com/security/2026/07/07/github-ai-agent-leaks-private-repos-when-asked-nicely/5267924",
-          "date": "Jul 7, 2026",
-          "excerpt": "Per usual, there's no fix - or even any documentation - for GitLost"
+          "title": "Scientist models way to make sure no one's violating the ban on nuclear weapons in space",
+          "link": "https://www.theregister.com/science/2026/07/09/scientist-models-way-to-make-sure-no-ones-violating-the-ban-on-nuclear-weapons-in-space/5268412",
+          "date": "Jul 9, 2026",
+          "excerpt": "There is a long-standing international treaty in place but we can't be the only ones side-eyeing world's current crop of politicos"
         },
         {
-          "title": "South Korean chip startup FuriosaAI invades European datacenters",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/07/south-korean-chip-startup-furiosaai-invades-european-datacenters/5267884",
-          "date": "Jul 7, 2026",
-          "excerpt": "RNGD accelerators land in Equinix's Lisbon DCs"
+          "title": "Thief posed as Wi-Fi fixing hero, then stole priceless trophy",
+          "link": "https://www.theregister.com/security/2026/07/09/thief-posed-as-wi-fi-fixing-hero-then-stole-priceless-trophy/5268750",
+          "date": "Jul 9, 2026",
+          "excerpt": "If people think you are doing a legitimate job, you can get away with anything"
         },
         {
-          "title": "CAI cloud worm gives competitors' malware the boot, then steals secrets and mines for coin",
-          "link": "https://www.theregister.com/cyber-crime/2026/07/07/cai-cloud-worm-gives-competitors-malware-the-boot-then-steals-secrets-and-mines-for-coin/5267856",
-          "date": "Jul 7, 2026",
-          "excerpt": "Dog-eat-dog world for credential-stealing attackers"
+          "title": "New Horizons Pluto probe just woke itself up after 321 days of hibernation",
+          "link": "https://www.theregister.com/science/2026/07/09/new-horizons-pluto-probe-just-woke-itself-up-after-321-days-of-hibernation/5268982",
+          "date": "Jul 9, 2026",
+          "excerpt": "Good luck getting your PC to do that after lunch"
         }
       ]
     },
