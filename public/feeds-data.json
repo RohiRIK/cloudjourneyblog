@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-09T10:44:10.127Z",
+  "updatedAt": "2026-07-10T10:42:59.557Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
+          "date": "Jul 9, 2026",
+          "excerpt": "GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several"
+        },
         {
           "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud  ",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security/",
           "date": "Jul 1, 2026",
           "excerpt": "Frost & Sullivan names Microsoft a leader as cloud and application security converge into unified, runtime risk reduction. The post Microsoft named a leader in the Frost Radar for cloud and applicatio"
-        },
-        {
-          "title": "Accelerating the quantum-safe timeline",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/",
-          "date": "Jun 30, 2026",
-          "excerpt": "We’re accelerating quantum-safe readiness—and sharing what organizations can do now to transition earlier and with confidence. The post Accelerating the quantum-safe timeline appeared first on Microso"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
-          "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
+          "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
+          "date": "Jul 10, 2026",
+          "excerpt": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]"
+        },
+        {
+          "title": "OpenMandriva Linux says contributor tried to sabotage the project",
+          "link": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
           "date": "Jul 9, 2026",
-          "excerpt": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]"
+          "excerpt": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]"
         },
         {
-          "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
-          "link": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
+          "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
+          "link": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
           "date": "Jul 9, 2026",
-          "excerpt": "American insurance company AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year. [...]"
+          "excerpt": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mn"
         },
         {
-          "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
+          "title": "New Helix vishing group emerges in SharePoint data theft attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
           "date": "Jul 9, 2026",
-          "excerpt": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]"
+          "excerpt": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePo"
         },
         {
-          "title": "Mount Royal University confirms breach as hackers claim attack",
-          "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
-          "date": "Jul 8, 2026",
-          "excerpt": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]"
-        },
-        {
-          "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
-          "link": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
-          "date": "Jul 8, 2026",
-          "excerpt": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]"
+          "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
+          "date": "Jul 9, 2026",
+          "excerpt": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Ubuntu emphasizes Arm64 support – and gets Rustier",
-          "link": "https://www.theregister.com/os-platforms/2026/07/09/ubuntu-emphasizes-arm64-support-and-gets-rustier/5268563",
-          "date": "Jul 9, 2026",
-          "excerpt": "Even so, it has some issues with the Rust coreutils"
+          "title": "Cinnamon 6.8 will support Wayland – if you want it",
+          "link": "https://www.theregister.com/os-platforms/2026/07/10/cinnamon-68-will-support-wayland-if-you-want-it/5269354",
+          "date": "Jul 10, 2026",
+          "excerpt": "Next version of Linux Mint’s desktop has both kinds of display server"
         },
         {
-          "title": "Windows 95 detected installers by looking for magic words and hoping for the best",
-          "link": "https://www.theregister.com/personal-tech/2026/07/09/windows-95-detected-installers-by-looking-for-magic-words-and-hoping-for-the-best/5268510",
-          "date": "Jul 9, 2026",
-          "excerpt": "If your name's not on the list, you're... probably not a setup program"
+          "title": "Scot NHS Trust probes email stuffup involving maternity patients' data",
+          "link": "https://www.theregister.com/security/2026/07/10/scot-nhs-trust-probes-email-stuffup-involving-maternity-patients-data/5269749",
+          "date": "Jul 10, 2026",
+          "excerpt": "NHS Forth Valley is the latest health board to bungle basic email data protection principles"
         },
         {
-          "title": "Scientist models way to make sure no one's violating the ban on nuclear weapons in space",
-          "link": "https://www.theregister.com/science/2026/07/09/scientist-models-way-to-make-sure-no-ones-violating-the-ban-on-nuclear-weapons-in-space/5268412",
-          "date": "Jul 9, 2026",
-          "excerpt": "There is a long-standing international treaty in place but we can't be the only ones side-eyeing world's current crop of politicos"
+          "title": "BOFH: Cross-department AI pitches are easier to swallow with a pint in hand",
+          "link": "https://www.theregister.com/bofh/2026/07/10/bofh-cross-department-ai-pitches-are-easier-to-swallow-with-a-pint-in-hand/5269079",
+          "date": "Jul 10, 2026",
+          "excerpt": "Some ideas need workshopping, others need a warning light"
         },
         {
-          "title": "Thief posed as Wi-Fi fixing hero, then stole priceless trophy",
-          "link": "https://www.theregister.com/security/2026/07/09/thief-posed-as-wi-fi-fixing-hero-then-stole-priceless-trophy/5268750",
-          "date": "Jul 9, 2026",
-          "excerpt": "If people think you are doing a legitimate job, you can get away with anything"
+          "title": "Datacenter MacGyver saved the biggest football match of the year",
+          "link": "https://www.theregister.com/on-prem/2026/07/10/datacenter-macgyver-saved-the-biggest-football-match-of-the-year/5268920",
+          "date": "Jul 10, 2026",
+          "excerpt": "Police wanted to call off a grudge game until tech support electrified fevered fans"
         },
         {
-          "title": "New Horizons Pluto probe just woke itself up after 321 days of hibernation",
-          "link": "https://www.theregister.com/science/2026/07/09/new-horizons-pluto-probe-just-woke-itself-up-after-321-days-of-hibernation/5268982",
-          "date": "Jul 9, 2026",
-          "excerpt": "Good luck getting your PC to do that after lunch"
+          "title": "Red Hat offers RHEL support ‘forever’ for those who need to lock in to legacy tech",
+          "link": "https://www.theregister.com/os-platforms/2026/07/10/red-hat-offers-rhel-support-forever-for-those-who-need-to-lock-in-to-legacy-tech/5269640",
+          "date": "Jul 10, 2026",
+          "excerpt": "Beware the golden screwdriver"
         }
       ]
     },
