@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-10T10:42:59.557Z",
+  "updatedAt": "2026-07-11T06:05:48.123Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
+          "date": "Jul 10, 2026",
+          "excerpt": "Microsoft’s latest Secure Future Initiative report outlines progress on secure foundations, AI-powered defense, and future-ready cybersecurity. The post Securing our future: July 2026 progress report "
+        },
         {
           "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
           "date": "Jul 2, 2026",
           "excerpt": "Read how Microsoft strengthens partner ecosystem security with CSP vetting, least privilege access, monitoring, and risk management best practices. The post Improving security posture across the Micro"
-        },
-        {
-          "title": "Microsoft named a leader in the Frost Radar for cloud and application runtime security",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security/",
-          "date": "Jul 1, 2026",
-          "excerpt": "Frost & Sullivan names Microsoft a leader as cloud and application security converge into unified, runtime risk reduction. The post Microsoft named a leader in the Frost Radar for cloud and applicatio"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
+          "title": "New U-Boot flaws could enable stealthy firmware attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
           "date": "Jul 10, 2026",
-          "excerpt": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]"
+          "excerpt": "Six vulnerabilities in the widely used U-Boot bootloader have been discovered that could allow attackers to execute malicious code during device boot, potentially enabling stealthy firmware attacks th"
         },
         {
-          "title": "OpenMandriva Linux says contributor tried to sabotage the project",
-          "link": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
-          "date": "Jul 9, 2026",
-          "excerpt": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]"
+          "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
+          "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
+          "date": "Jul 10, 2026",
+          "excerpt": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]"
         },
         {
-          "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
-          "link": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
-          "date": "Jul 9, 2026",
-          "excerpt": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mn"
+          "title": "Police suspects Dutch hackers were involved in Odido breach",
+          "link": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
+          "date": "Jul 10, 2026",
+          "excerpt": "The Dutch National Police (Politie) says it has found \"strong indications\" that Dutch hackers have been involved in a February breach at the telecommunications provider Odido. [...]"
         },
         {
-          "title": "New Helix vishing group emerges in SharePoint data theft attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
-          "date": "Jul 9, 2026",
-          "excerpt": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePo"
+          "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
+          "link": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
+          "date": "Jul 10, 2026",
+          "excerpt": "Progress Software is emailing ShareFile customers who use Storage Zone Controllers to immediately shut down their servers after identifying what it describes as a \"credible external security threat\" t"
         },
         {
-          "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
-          "date": "Jul 9, 2026",
-          "excerpt": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]"
+          "title": "Hackers exploit critical auth bypass in Gitea Docker image",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
+          "date": "Jul 10, 2026",
+          "excerpt": "Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [.."
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Cinnamon 6.8 will support Wayland – if you want it",
-          "link": "https://www.theregister.com/os-platforms/2026/07/10/cinnamon-68-will-support-wayland-if-you-want-it/5269354",
+          "title": "Slothful summer app lets you scroll simply by tilting your head",
+          "link": "https://www.theregister.com/personal-tech/2026/07/10/slothful-summer-app-lets-you-scroll-simply-by-tilting-your-head/5270096",
           "date": "Jul 10, 2026",
-          "excerpt": "Next version of Linux Mint’s desktop has both kinds of display server"
+          "excerpt": "ScrollPods is Mac-only, and you'll need compatible AirPods"
         },
         {
-          "title": "Scot NHS Trust probes email stuffup involving maternity patients' data",
-          "link": "https://www.theregister.com/security/2026/07/10/scot-nhs-trust-probes-email-stuffup-involving-maternity-patients-data/5269749",
+          "title": "Destructive Windows backdoor stuffs multiple wipers and ransomware code into a single package",
+          "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
           "date": "Jul 10, 2026",
-          "excerpt": "NHS Forth Valley is the latest health board to bungle basic email data protection principles"
+          "excerpt": "Microsoft says GigaWiper combines at least 3 malware families into one modular tool"
         },
         {
-          "title": "BOFH: Cross-department AI pitches are easier to swallow with a pint in hand",
-          "link": "https://www.theregister.com/bofh/2026/07/10/bofh-cross-department-ai-pitches-are-easier-to-swallow-with-a-pint-in-hand/5269079",
+          "title": "LisaFPGA brings Apple's magnificent misfire back in programmable logic",
+          "link": "https://www.theregister.com/personal-tech/2026/07/10/lisafpga-brings-apples-magnificent-misfire-back-in-programmable-logic/5269951",
           "date": "Jul 10, 2026",
-          "excerpt": "Some ideas need workshopping, others need a warning light"
+          "excerpt": "Open source recreation costs a fraction of the original and may even work with Twiggy drives"
         },
         {
-          "title": "Datacenter MacGyver saved the biggest football match of the year",
-          "link": "https://www.theregister.com/on-prem/2026/07/10/datacenter-macgyver-saved-the-biggest-football-match-of-the-year/5268920",
+          "title": "Orbital datacenter gold rush needs an environmental review, FCC told",
+          "link": "https://www.theregister.com/on-prem/2026/07/10/orbital-datacenter-gold-rush-needs-an-environmental-review-fcc-told/5269863",
           "date": "Jul 10, 2026",
-          "excerpt": "Police wanted to call off a grudge game until tech support electrified fevered fans"
+          "excerpt": "Green groups want licenses frozen before a million satellites litter the exosphere"
         },
         {
-          "title": "Red Hat offers RHEL support ‘forever’ for those who need to lock in to legacy tech",
-          "link": "https://www.theregister.com/os-platforms/2026/07/10/red-hat-offers-rhel-support-forever-for-those-who-need-to-lock-in-to-legacy-tech/5269640",
+          "title": "OpenAI's Atlas browser doesn't make it to its first birthday",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/10/openais-atlas-browser-doesnt-make-it-to-its-first-birthday/5269818",
           "date": "Jul 10, 2026",
-          "excerpt": "Beware the golden screwdriver"
+          "excerpt": "Standalone experiment killed after less than 12 months as model maker redirects agentic ambitions towards workplace productivity"
         }
       ]
     },
