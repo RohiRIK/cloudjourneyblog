@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T06:05:48.123Z",
+  "updatedAt": "2026-07-11T12:51:40.170Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
+          "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+          "date": "Jul 11, 2026",
+          "excerpt": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open im"
+        },
+        {
           "title": "New U-Boot flaws could enable stealthy firmware attacks",
           "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
           "date": "Jul 10, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
           "date": "Jul 10, 2026",
           "excerpt": "Progress Software is emailing ShareFile customers who use Storage Zone Controllers to immediately shut down their servers after identifying what it describes as a \"credible external security threat\" t"
-        },
-        {
-          "title": "Hackers exploit critical auth bypass in Gitea Docker image",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-          "date": "Jul 10, 2026",
-          "excerpt": "Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [.."
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "Slothful summer app lets you scroll simply by tilting your head",
-          "link": "https://www.theregister.com/personal-tech/2026/07/10/slothful-summer-app-lets-you-scroll-simply-by-tilting-your-head/5270096",
-          "date": "Jul 10, 2026",
-          "excerpt": "ScrollPods is Mac-only, and you'll need compatible AirPods"
-        },
-        {
-          "title": "Destructive Windows backdoor stuffs multiple wipers and ransomware code into a single package",
-          "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
-          "date": "Jul 10, 2026",
-          "excerpt": "Microsoft says GigaWiper combines at least 3 malware families into one modular tool"
-        },
-        {
-          "title": "LisaFPGA brings Apple's magnificent misfire back in programmable logic",
-          "link": "https://www.theregister.com/personal-tech/2026/07/10/lisafpga-brings-apples-magnificent-misfire-back-in-programmable-logic/5269951",
-          "date": "Jul 10, 2026",
-          "excerpt": "Open source recreation costs a fraction of the original and may even work with Twiggy drives"
-        },
-        {
-          "title": "Orbital datacenter gold rush needs an environmental review, FCC told",
-          "link": "https://www.theregister.com/on-prem/2026/07/10/orbital-datacenter-gold-rush-needs-an-environmental-review-fcc-told/5269863",
-          "date": "Jul 10, 2026",
-          "excerpt": "Green groups want licenses frozen before a million satellites litter the exosphere"
-        },
-        {
-          "title": "OpenAI's Atlas browser doesn't make it to its first birthday",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/10/openais-atlas-browser-doesnt-make-it-to-its-first-birthday/5269818",
-          "date": "Jul 10, 2026",
-          "excerpt": "Standalone experiment killed after less than 12 months as model maker redirects agentic ambitions towards workplace productivity"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
