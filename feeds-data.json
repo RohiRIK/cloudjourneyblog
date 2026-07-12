@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T06:25:07.475Z",
+  "updatedAt": "2026-07-12T12:52:50.678Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "AI customers are coming around to the idea that small is beautiful",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/11/ai-customers-are-coming-around-to-the-idea-that-small-is-beautiful/5268070",
-          "date": "Jul 11, 2026",
-          "excerpt": "OpenAI and Anthropic have built AI Swiss Army Knives, but the future may be smaller built-for-purpose tools"
-        },
-        {
-          "title": "Irish datacenters now guzzle 23% of the country's electricity",
-          "link": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
-          "date": "Jul 11, 2026",
-          "excerpt": "Consumption rose another 10% while restrictions on most new grid connections remained around Dublin"
-        },
-        {
-          "title": "Slothful summer app lets you scroll simply by tilting your head",
-          "link": "https://www.theregister.com/personal-tech/2026/07/10/slothful-summer-app-lets-you-scroll-simply-by-tilting-your-head/5270096",
-          "date": "Jul 10, 2026",
-          "excerpt": "ScrollPods is Mac-only, and you'll need compatible AirPods"
-        },
-        {
-          "title": "Destructive Windows backdoor stuffs multiple wipers and ransomware code into a single package",
-          "link": "https://www.theregister.com/security/2026/07/10/destructive-windows-backdoor-stuffs-multiple-wipers-and-ransomware-code-into-a-single-package/5270053",
-          "date": "Jul 10, 2026",
-          "excerpt": "Microsoft says GigaWiper combines at least 3 malware families into one modular tool"
-        },
-        {
-          "title": "LisaFPGA brings Apple's magnificent misfire back in programmable logic",
-          "link": "https://www.theregister.com/personal-tech/2026/07/10/lisafpga-brings-apples-magnificent-misfire-back-in-programmable-logic/5269951",
-          "date": "Jul 10, 2026",
-          "excerpt": "Open source recreation costs a fraction of the original and may even work with Twiggy drives"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
