@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T12:52:50.678Z",
+  "updatedAt": "2026-07-12T20:34:31.921Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
+          "date": "Jul 12, 2026",
+          "excerpt": "Anthropic has just extended access to Claude Fable 5 for paid subscribers until July 19, giving you another week to keep using the most powerful model. [...]"
+        },
+        {
+          "title": "RedHook Android malware now uses Wireless ADB for shell access",
+          "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
+          "date": "Jul 12, 2026",
+          "excerpt": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]"
+        },
+        {
           "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
           "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
           "date": "Jul 11, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
           "date": "Jul 10, 2026",
           "excerpt": "Six vulnerabilities in the widely used U-Boot bootloader have been discovered that could allow attackers to execute malicious code during device boot, potentially enabling stealthy firmware attacks th"
-        },
-        {
-          "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
-          "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
-          "date": "Jul 10, 2026",
-          "excerpt": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]"
-        },
-        {
-          "title": "Police suspects Dutch hackers were involved in Odido breach",
-          "link": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
-          "date": "Jul 10, 2026",
-          "excerpt": "The Dutch National Police (Politie) says it has found \"strong indications\" that Dutch hackers have been involved in a February breach at the telecommunications provider Odido. [...]"
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Memory makers are slaves to the boom-bust rollercoaster, and the AI boom is the wildest ride of all",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/12/memory-makers-are-slaves-to-the-boom-bust-rollercoaster-and-the-ai-boom-is-the-wildest-ride-of-all/5269549",
+          "date": "Jul 12, 2026",
+          "excerpt": "The RAMpocalypse may be the precursor to the AIpocalypse"
+        },
+        {
+          "title": "It's an AI web, and we're just rats in the walls",
+          "link": "https://www.theregister.com/columnists/2026/07/12/its-an-ai-web-and-were-just-rats-in-the-walls/5269760",
+          "date": "Jul 12, 2026",
+          "excerpt": "Bots, not people, are now the ones who use the internet the most"
+        },
+        {
+          "title": "AI customers are coming around to the idea that small is beautiful",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/11/ai-customers-are-coming-around-to-the-idea-that-small-is-beautiful/5268070",
+          "date": "Jul 11, 2026",
+          "excerpt": "OpenAI and Anthropic have built AI Swiss Army Knives, but the future may be smaller built-for-purpose tools"
+        },
+        {
+          "title": "Irish datacenters now guzzle 23% of the country's electricity",
+          "link": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+          "date": "Jul 11, 2026",
+          "excerpt": "Consumption rose another 10% while restrictions on most new grid connections remained around Dublin"
+        },
+        {
+          "title": "Slothful summer app lets you scroll simply by tilting your head",
+          "link": "https://www.theregister.com/personal-tech/2026/07/10/slothful-summer-app-lets-you-scroll-simply-by-tilting-your-head/5270096",
+          "date": "Jul 10, 2026",
+          "excerpt": "ScrollPods is Mac-only, and you'll need compatible AirPods"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
