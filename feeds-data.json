@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T10:48:36.379Z",
+  "updatedAt": "2026-07-13T14:00:30.478Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "UK charges suspects linked to Russian Coms call spoofing platform",
+          "link": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
+          "date": "Jul 13, 2026",
+          "excerpt": "UK authorities charged five people following a National Crime Agency (NCA) investigation into Russian Coms, a major caller ID spoofing platform used by criminals to make over 1.8 million scam calls. ["
+        },
+        {
+          "title": "EU sanctions Russian GRU military hackers over cyberattacks",
+          "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
+          "date": "Jul 13, 2026",
+          "excerpt": "The European Union and the United Kingdom jointly sanctioned dozens of Russian individuals and entities and accused Russia of coordinating a network of hacking groups responsible for attacks across Eu"
+        },
+        {
           "title": "US and allies warn of Russian critical infrastructure attacks",
           "link": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
           "date": "Jul 13, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
           "date": "Jul 12, 2026",
           "excerpt": "Anthropic has just extended access to Claude Fable 5 for paid subscribers until July 19, giving you another week to keep using the most powerful model. [...]"
-        },
-        {
-          "title": "RedHook Android malware now uses Wireless ADB for shell access",
-          "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-          "date": "Jul 12, 2026",
-          "excerpt": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]"
-        },
-        {
-          "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-          "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-          "date": "Jul 11, 2026",
-          "excerpt": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Microsoft emails Windows 10 holdouts: Fine, keep your old PC another year",
+          "link": "https://www.theregister.com/os-platforms/2026/07/13/microsoft-emails-windows-10-holdouts-fine-keep-your-old-pc-another-year/5270336",
+          "date": "Jul 13, 2026",
+          "excerpt": "Consumer security updates now run to October 2027, and Redmond doesn't mention Windows 11 once"
+        },
+        {
+          "title": "World Cup grudge attackers may have scored Argentine FA access via year-old infostealer infection",
+          "link": "https://www.theregister.com/security/2026/07/13/world-cup-grudge-attackers-may-have-scored-argentine-fa-access-via-year-old-infostealer-infection/5270302",
+          "date": "Jul 13, 2026",
+          "excerpt": "Footie fans? Overreacting? There's a first time for everything"
+        },
+        {
+          "title": "HTTP gets a QUERY method so complex searches can stop pretending to be POST",
+          "link": "https://www.theregister.com/devops/2026/07/13/http-gets-a-query-method-so-complex-searches-can-stop-pretending-to-be-post/5270192",
+          "date": "Jul 13, 2026",
+          "excerpt": "New verb carries request content while remaining safe, idempotent, and cacheable"
+        },
+        {
+          "title": "Progress orders emergency ShareFile server shutdown over mystery security threat",
+          "link": "https://www.theregister.com/security/2026/07/13/progress-orders-emergency-sharefile-server-shutdown-over-mystery-security-threat/5270281",
+          "date": "Jul 13, 2026",
+          "excerpt": "Vendor insists there's no evidence of unauthorized access, but it's asking customers to take one of the most drastic precautions available"
+        },
+        {
           "title": "Backup and running? Not this digital sign",
           "link": "https://www.theregister.com/offbeat/2026/07/13/backup-and-running-not-this-digital-sign-1/5269021",
           "date": "Jul 13, 2026",
           "excerpt": "Nagware goes large on the mean streets of Derby"
-        },
-        {
-          "title": "Photovoltaics are still running after a year under Swiss trains",
-          "link": "https://www.theregister.com/offbeat/2026/07/13/photovoltaics-are-still-running-after-a-year-under-swiss-trains/5269664",
-          "date": "Jul 13, 2026",
-          "excerpt": "Solar boss reckons challenges are regulatory, not technological"
-        },
-        {
-          "title": "Microsoft is losing the battle to protect license lucre. It better get used to the feeling",
-          "link": "https://www.theregister.com/columnists/2026/07/13/microsoft-is-losing-the-battle-to-protect-license-lucre-it-better-get-used-to-the-feeling/5269709",
-          "date": "Jul 13, 2026",
-          "excerpt": "Time for the Clone Wars remake"
-        },
-        {
-          "title": "AI needs a home, not a hotel",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/13/ai-needs-a-home-not-a-hotel/5270167",
-          "date": "Jul 13, 2026",
-          "excerpt": "PARTNER CONTENT: Firms crafting internal AI must choose a permanent residence for their tech, not just rent server space by the hour."
-        },
-        {
-          "title": "Apple accuses OpenAI of stealing its core tech secrets",
-          "link": "https://www.theregister.com/legal/2026/07/13/apple-accuses-openai-of-stealing-its-core-tech-secrets/5270256",
-          "date": "Jul 13, 2026",
-          "excerpt": "Lawsuit alleges job-swappers took secrets with them, helped by coaching on how to avoid scrutiny"
         }
       ]
     },
