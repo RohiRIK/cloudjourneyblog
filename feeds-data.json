@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-13T17:47:39.813Z",
+  "updatedAt": "2026-07-13T20:47:18.673Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
+          "date": "Jul 13, 2026",
+          "excerpt": "Microsoft Entra ID makes passkeys the default sign-in experience and introduces a new model for SMS and voice authentication. Read about how to prepare. The post Microsoft Entra ID security updates: P"
+        },
         {
           "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
           "date": "Jul 6, 2026",
           "excerpt": "Read five key learnings from the Frost & Sullivan 2025 Frost Radar™ for CSPM to learn how CSPM is evolving from point-in-time compliance to continuous risk management. The post 5 insights from Frost &"
-        },
-        {
-          "title": "Improving security posture across the Microsoft partner ecosystem",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
-          "date": "Jul 2, 2026",
-          "excerpt": "Read how Microsoft strengthens partner ecosystem security with CSP vetting, least privilege access, monitoring, and risk management best practices. The post Improving security posture across the Micro"
         }
       ]
     },
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Japan's largest taxi operator shuts systems after cyberattack",
+          "link": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
+          "date": "Jul 13, 2026",
+          "excerpt": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its infrastructure. [...]"
+        },
+        {
+          "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
+          "date": "Jul 13, 2026",
+          "excerpt": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]"
+        },
+        {
+          "title": "New CrashStealer malware poses as Apple crash reporting tool",
+          "link": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
+          "date": "Jul 13, 2026",
+          "excerpt": "A new macOS information-stealing malware called CrashStealer pretends to be Apple's crash-reporting tool to steal credentials, keychain data, and crypto wallets. [...]"
+        },
+        {
           "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
           "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
           "date": "Jul 13, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
           "date": "Jul 13, 2026",
           "excerpt": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in a breach at a service provider. [...]"
-        },
-        {
-          "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
-          "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
-          "date": "Jul 13, 2026",
-          "excerpt": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to investigate Entra ID attack techniques using realisti"
-        },
-        {
-          "title": "UK charges suspects linked to Russian Coms call spoofing platform",
-          "link": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
-          "date": "Jul 13, 2026",
-          "excerpt": "UK authorities charged five people following a National Crime Agency (NCA) investigation into Russian Coms, a major caller ID spoofing platform used by criminals to make over 1.8 million scam calls. ["
-        },
-        {
-          "title": "EU sanctions Russian GRU military hackers over cyberattacks",
-          "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
-          "date": "Jul 13, 2026",
-          "excerpt": "The European Union and the United Kingdom jointly sanctioned dozens of Russian individuals and entities and accused Russia of coordinating a network of hacking groups responsible for attacks across Eu"
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "SREs to AI agents: Prove yourself before you touch production",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/13/sres-to-ai-agents-prove-yourself-before-you-touch-production/5264658",
-          "date": "Jul 13, 2026",
-          "excerpt": "SPONSORED FEATURE: 696 experts find co-pilot welcome, autopilot not so much"
-        },
-        {
-          "title": "Sticker shock has execs rethinking this whole AI thing",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/13/sticker-shock-has-execs-rethinking-this-whole-ai-thing-1/5270073",
-          "date": "Jul 13, 2026",
-          "excerpt": "This week on The Reg's Kettle podcast, we wonder whether tokenminning is going to bring the industry back down to Earth"
-        },
-        {
-          "title": "Lucky 13: SpaceX aims for July 16 Starship flight test  ",
-          "link": "https://www.theregister.com/offbeat/2026/07/13/lucky-13-spacex-aims-for-july-16-starship-flight-test/5270434",
-          "date": "Jul 13, 2026",
-          "excerpt": "Hopefully, the rocket won't go in the same direction as the company's share price"
-        },
-        {
-          "title": "Microsoft emails Windows 10 holdouts: Fine, keep your old PC another year",
-          "link": "https://www.theregister.com/os-platforms/2026/07/13/microsoft-emails-windows-10-holdouts-fine-keep-your-old-pc-another-year/5270336",
-          "date": "Jul 13, 2026",
-          "excerpt": "Consumer security updates now run to October 2027, and Redmond doesn't mention Windows 11 once"
-        },
-        {
-          "title": "World Cup grudge attackers may have scored Argentine FA access via year-old infostealer infection",
-          "link": "https://www.theregister.com/security/2026/07/13/world-cup-grudge-attackers-may-have-scored-argentine-fa-access-via-year-old-infostealer-infection/5270302",
-          "date": "Jul 13, 2026",
-          "excerpt": "Footie fans? Overreacting? There's a first time for everything"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
