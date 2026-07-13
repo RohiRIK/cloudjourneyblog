@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T14:00:30.478Z",
+  "updatedAt": "2026-07-13T17:47:39.813Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
+          "date": "Jul 13, 2026",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code"
+        },
+        {
+          "title": "Lidl discloses online shop breach after service provider hack",
+          "link": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
+          "date": "Jul 13, 2026",
+          "excerpt": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in a breach at a service provider. [...]"
+        },
+        {
+          "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
+          "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
+          "date": "Jul 13, 2026",
+          "excerpt": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to investigate Entra ID attack techniques using realisti"
+        },
+        {
           "title": "UK charges suspects linked to Russian Coms call spoofing platform",
           "link": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
           "date": "Jul 13, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
           "date": "Jul 13, 2026",
           "excerpt": "The European Union and the United Kingdom jointly sanctioned dozens of Russian individuals and entities and accused Russia of coordinating a network of hacking groups responsible for attacks across Eu"
-        },
-        {
-          "title": "US and allies warn of Russian critical infrastructure attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
-          "date": "Jul 13, 2026",
-          "excerpt": "Cybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerable and poorly configured routers to infiltrate crit"
-        },
-        {
-          "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/",
-          "date": "Jul 13, 2026",
-          "excerpt": "OpenAI is temporarily relaxing GPT-5.6 Sol usage after demand for the company's most powerful model surged over the past 48 hours. [...]"
-        },
-        {
-          "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
-          "date": "Jul 12, 2026",
-          "excerpt": "Anthropic has just extended access to Claude Fable 5 for paid subscribers until July 19, giving you another week to keep using the most powerful model. [...]"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "SREs to AI agents: Prove yourself before you touch production",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/13/sres-to-ai-agents-prove-yourself-before-you-touch-production/5264658",
+          "date": "Jul 13, 2026",
+          "excerpt": "SPONSORED FEATURE: 696 experts find co-pilot welcome, autopilot not so much"
+        },
+        {
+          "title": "Sticker shock has execs rethinking this whole AI thing",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/13/sticker-shock-has-execs-rethinking-this-whole-ai-thing-1/5270073",
+          "date": "Jul 13, 2026",
+          "excerpt": "This week on The Reg's Kettle podcast, we wonder whether tokenminning is going to bring the industry back down to Earth"
+        },
+        {
+          "title": "Lucky 13: SpaceX aims for July 16 Starship flight test  ",
+          "link": "https://www.theregister.com/offbeat/2026/07/13/lucky-13-spacex-aims-for-july-16-starship-flight-test/5270434",
+          "date": "Jul 13, 2026",
+          "excerpt": "Hopefully, the rocket won't go in the same direction as the company's share price"
+        },
         {
           "title": "Microsoft emails Windows 10 holdouts: Fine, keep your old PC another year",
           "link": "https://www.theregister.com/os-platforms/2026/07/13/microsoft-emails-windows-10-holdouts-fine-keep-your-old-pc-another-year/5270336",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/security/2026/07/13/world-cup-grudge-attackers-may-have-scored-argentine-fa-access-via-year-old-infostealer-infection/5270302",
           "date": "Jul 13, 2026",
           "excerpt": "Footie fans? Overreacting? There's a first time for everything"
-        },
-        {
-          "title": "HTTP gets a QUERY method so complex searches can stop pretending to be POST",
-          "link": "https://www.theregister.com/devops/2026/07/13/http-gets-a-query-method-so-complex-searches-can-stop-pretending-to-be-post/5270192",
-          "date": "Jul 13, 2026",
-          "excerpt": "New verb carries request content while remaining safe, idempotent, and cacheable"
-        },
-        {
-          "title": "Progress orders emergency ShareFile server shutdown over mystery security threat",
-          "link": "https://www.theregister.com/security/2026/07/13/progress-orders-emergency-sharefile-server-shutdown-over-mystery-security-threat/5270281",
-          "date": "Jul 13, 2026",
-          "excerpt": "Vendor insists there's no evidence of unauthorized access, but it's asking customers to take one of the most drastic precautions available"
-        },
-        {
-          "title": "Backup and running? Not this digital sign",
-          "link": "https://www.theregister.com/offbeat/2026/07/13/backup-and-running-not-this-digital-sign-1/5269021",
-          "date": "Jul 13, 2026",
-          "excerpt": "Nagware goes large on the mean streets of Derby"
         }
       ]
     },
