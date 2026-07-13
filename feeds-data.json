@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T06:43:39.337Z",
+  "updatedAt": "2026-07-13T10:48:36.379Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "US and allies warn of Russian critical infrastructure attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
+          "date": "Jul 13, 2026",
+          "excerpt": "Cybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerable and poorly configured routers to infiltrate crit"
+        },
+        {
           "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits",
           "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/",
           "date": "Jul 13, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
           "date": "Jul 11, 2026",
           "excerpt": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]"
-        },
-        {
-          "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-          "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-          "date": "Jul 11, 2026",
-          "excerpt": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open im"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "User crippled a network while trying to learn Nmap",
-          "link": "https://www.theregister.com/networks/2026/07/13/user-crippled-a-network-while-trying-to-learn-nmap/5269687",
+          "title": "Backup and running? Not this digital sign",
+          "link": "https://www.theregister.com/offbeat/2026/07/13/backup-and-running-not-this-digital-sign-1/5269021",
           "date": "Jul 13, 2026",
-          "excerpt": "IT department was not pleased, but was also easily fooled"
+          "excerpt": "Nagware goes large on the mean streets of Derby"
         },
         {
-          "title": "Meta admits its first ‘superintelligence’ was too stupid to survive for three days",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/13/meta-admits-its-first-superintelligence-was-too-stupid-to-survive-for-three-days/5270234",
+          "title": "Photovoltaics are still running after a year under Swiss trains",
+          "link": "https://www.theregister.com/offbeat/2026/07/13/photovoltaics-are-still-running-after-a-year-under-swiss-trains/5269664",
           "date": "Jul 13, 2026",
-          "excerpt": "Pulls AI-powered image tweaker after allowing free-for-all"
+          "excerpt": "Solar boss reckons challenges are regulatory, not technological"
         },
         {
-          "title": "Lenovo denies using banned Chinese SSDs where they're not allowed",
-          "link": "https://www.theregister.com/personal-tech/2026/07/13/lenovo-denies-using-banned-chinese-ssds-where-theyre-not-allowed/5270212",
+          "title": "Microsoft is losing the battle to protect license lucre. It better get used to the feeling",
+          "link": "https://www.theregister.com/columnists/2026/07/13/microsoft-is-losing-the-battle-to-protect-license-lucre-it-better-get-used-to-the-feeling/5269709",
           "date": "Jul 13, 2026",
-          "excerpt": "PLUS: Canadian/Bhutanese datacenter for India; China re-uses a rocket; Australia signals AI intervention; And more!"
+          "excerpt": "Time for the Clone Wars remake"
         },
         {
-          "title": "Memory makers are slaves to the boom-bust rollercoaster, and the AI boom is the wildest ride of all",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/12/memory-makers-are-slaves-to-the-boom-bust-rollercoaster-and-the-ai-boom-is-the-wildest-ride-of-all/5269549",
-          "date": "Jul 12, 2026",
-          "excerpt": "The RAMpocalypse may be the precursor to the AIpocalypse"
+          "title": "AI needs a home, not a hotel",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/13/ai-needs-a-home-not-a-hotel/5270167",
+          "date": "Jul 13, 2026",
+          "excerpt": "PARTNER CONTENT: Firms crafting internal AI must choose a permanent residence for their tech, not just rent server space by the hour."
         },
         {
-          "title": "It's an AI web, and we're just rats in the walls",
-          "link": "https://www.theregister.com/columnists/2026/07/12/its-an-ai-web-and-were-just-rats-in-the-walls/5269760",
-          "date": "Jul 12, 2026",
-          "excerpt": "Bots, not people, are now the ones who use the internet the most"
+          "title": "Apple accuses OpenAI of stealing its core tech secrets",
+          "link": "https://www.theregister.com/legal/2026/07/13/apple-accuses-openai-of-stealing-its-core-tech-secrets/5270256",
+          "date": "Jul 13, 2026",
+          "excerpt": "Lawsuit alleges job-swappers took secrets with them, helped by coaching on how to avoid scrutiny"
         }
       ]
     },
