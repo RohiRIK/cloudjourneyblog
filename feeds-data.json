@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T01:29:50.717Z",
+  "updatedAt": "2026-07-13T06:43:39.337Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,24 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "User crippled a network while trying to learn Nmap",
+          "link": "https://www.theregister.com/networks/2026/07/13/user-crippled-a-network-while-trying-to-learn-nmap/5269687",
+          "date": "Jul 13, 2026",
+          "excerpt": "IT department was not pleased, but was also easily fooled"
+        },
+        {
+          "title": "Meta admits its first ‘superintelligence’ was too stupid to survive for three days",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/13/meta-admits-its-first-superintelligence-was-too-stupid-to-survive-for-three-days/5270234",
+          "date": "Jul 13, 2026",
+          "excerpt": "Pulls AI-powered image tweaker after allowing free-for-all"
+        },
+        {
+          "title": "Lenovo denies using banned Chinese SSDs where they're not allowed",
+          "link": "https://www.theregister.com/personal-tech/2026/07/13/lenovo-denies-using-banned-chinese-ssds-where-theyre-not-allowed/5270212",
+          "date": "Jul 13, 2026",
+          "excerpt": "PLUS: Canadian/Bhutanese datacenter for India; China re-uses a rocket; Australia signals AI intervention; And more!"
+        },
+        {
           "title": "Memory makers are slaves to the boom-bust rollercoaster, and the AI boom is the wildest ride of all",
           "link": "https://www.theregister.com/ai-and-ml/2026/07/12/memory-makers-are-slaves-to-the-boom-bust-rollercoaster-and-the-ai-boom-is-the-wildest-ride-of-all/5269549",
           "date": "Jul 12, 2026",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/columnists/2026/07/12/its-an-ai-web-and-were-just-rats-in-the-walls/5269760",
           "date": "Jul 12, 2026",
           "excerpt": "Bots, not people, are now the ones who use the internet the most"
-        },
-        {
-          "title": "AI customers are coming around to the idea that small is beautiful",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/11/ai-customers-are-coming-around-to-the-idea-that-small-is-beautiful/5268070",
-          "date": "Jul 11, 2026",
-          "excerpt": "OpenAI and Anthropic have built AI Swiss Army Knives, but the future may be smaller built-for-purpose tools"
-        },
-        {
-          "title": "Irish datacenters now guzzle 23% of the country's electricity",
-          "link": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
-          "date": "Jul 11, 2026",
-          "excerpt": "Consumption rose another 10% while restrictions on most new grid connections remained around Dublin"
-        },
-        {
-          "title": "Slothful summer app lets you scroll simply by tilting your head",
-          "link": "https://www.theregister.com/personal-tech/2026/07/10/slothful-summer-app-lets-you-scroll-simply-by-tilting-your-head/5270096",
-          "date": "Jul 10, 2026",
-          "excerpt": "ScrollPods is Mac-only, and you'll need compatible AirPods"
         }
       ]
     },
