@@ -5,7 +5,7 @@
     <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     <description>Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman</description>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 06:07:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 09:23:36 GMT</lastBuildDate>
     <atom:link href="https://CloudJourneyBlog.rohi-lab.org/api/rss" rel="self" type="application/rss+xml" />
     <managingEditor>rohi@rohirikman.dev (Rohi Rikman)</managingEditor>
     <webMaster>rohi@rohirikman.dev (Rohi Rikman)</webMaster>
@@ -15,6 +15,16 @@
       <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     </image>
     
+    <item>
+      <title>Building a Multi-Profile Agent System with Hermes</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/hermes-multi-profile-system</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/hermes-multi-profile-system</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How I split one AI agent into nine specialized profiles — each with isolated config, memory, skills, and MCP servers — and why it changed my daily workflow.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/hermes-multi-profile-system.png" type="image/jpeg" />
+      <category>Automation</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
     <item>
       <title>Zero Trust Rollout Retrospective: What Actually Broke</title>
       <link>https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-retrospective</link>

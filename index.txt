@@ -15,7 +15,7 @@ a:I[311451,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a0
 :HL["/_next/static/chunks/b3a7f4834154c9dc.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.29207c2f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"i4ohlk4m_RYMv92n4zj6l","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/92160bc35b2d0114.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3355f25cb11074b7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L6",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/end-of-day-mac","children":["$","$L7",null,{"paddingY":"2","children":"End of Day Mac"}]}]}],["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L7",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L8",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","$La",null,{"maxWidth":48}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Latest writing"}]}],"$Lb"]}],"$Lc"]}],"$Ld","$Le"]}],["$Lf"],"$L10"]}],{},null,false,false]},null,false,false],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true}
+0:{"P":null,"b":"E8b5ku-sMPoOacl5PusPq","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/92160bc35b2d0114.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3355f25cb11074b7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L6",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/end-of-day-mac","children":["$","$L7",null,{"paddingY":"2","children":"End of Day Mac"}]}]}],["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L7",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L8",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","$La",null,{"maxWidth":48}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Latest writing"}]}],"$Lb"]}],"$Lc"]}],"$Ld","$Le"]}],["$Lf"],"$L10"]}],{},null,false,false]},null,false,false],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true}
 13:I[89532,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
 14:I[814360,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
 18:I[474855,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ProjectCard"]
@@ -29,7 +29,273 @@ a:I[311451,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a0
 27:I[521247,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ClientFlex"]
 28:I[402971,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Header"]
 29:I[1166,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"RouteGuard"]
-15:T1842,
+15:T1ff9,
+I run Hermes Agent as my primary AI assistant. It's open-source, provider-agnostic, and runs in my terminal with full system access. The problem: one agent trying to do everything — security investigations, code review, job search, DevOps, content writing, research — ends up doing none of them well. Context bleeds between tasks. A security investigation session pollutes the context for code review. Job search skills load into infrastructure work.
+
+The fix was Hermes's multi-profile system. One installation, nine independent agent profiles, each scoped to a specific domain. Here's what I built and why it works.
+
+## Why multi-profile matters
+
+A single Hermes instance with everything loaded hits context limits fast. Skills pile up. MCP servers compete for tool slots. Memory from one domain contaminates another. The profile system solves this by giving each domain its own complete isolated environment — config, identity, sessions, skills, memory, cron jobs, and credentials.
+
+Think of it like user accounts on a shared machine. Each profile gets its own home directory under `~/.hermes/profiles/<name>/`, and nothing leaks between them.
+
+## The nine profiles
+
+Here's the full roster and what each one does:
+
+**Bob** — Cloud Security Engineer. Investigates Microsoft 365 tenants through Entra ID, Intune, and Exchange Online MCP servers. Correlates identity and device data to catch security issues. Read-only by default.
+
+**Ethan** — Job Search Assistant. Finds, evaluates, and tracks job applications. Manages CV optimization and career strategy for cloud security roles.
+
+**Gabriel** — Cloud Security Investigator. Similar to Bob but focused on M365/Azure/Intune security investigations with a read-only stance. Handles incident response and compliance checks.
+
+**Felix** — DevOps and Infrastructure Engineer. Manages Docker Swarm, CI/CD pipelines, IaC, monitoring, and workflow automation. Has n8n MCP integration for workflow orchestration.
+
+**Max** — Code Reviewer and Quality Engineer. Finds real bugs, not style nits. Security > correctness > performance > style.
+
+**Ella** — Content Writer and Technical Blogger. Writes blog posts, documentation, tutorials, and social media content. Direct, practical voice.
+
+**Leo** — Research and Knowledge Agent. Deep research, paper analysis, competitive intelligence. Goes wide first, then deep.
+
+**Sam** — Homelab and Smart Home Manager. Docker Swarm service health, IoT device status, network monitoring, backup verification, smart home automation.
+
+**Iris** — Documentation and Knowledge Manager. Project documentation, ADRs, runbooks, contributor guides, knowledge base maintenance.
+
+Each profile has a `SOUL.md` file that defines its identity, focus, and behavioral constraints. Bob is read-only. Max finds bugs. Ella writes clearly and skips fluff. These aren't just names — they're scoped identities that shape how the agent approaches every task.
+
+## How profile isolation works
+
+Each profile lives in its own directory under `~/.hermes/profiles/<name>/` with seven isolated dimensions:
+
+**1. Configuration (`config.yaml`)** — Model, provider, toolsets, terminal backend, agent behavior. Felix uses a local terminal pointed at the homelab dashboard directory. Gabriel points at the security engineering project.
+
+**2. Identity (`SOUL.md`)** — The agent's personality, focus areas, and behavioral rules. Each profile reads only its own SOUL.md.
+
+**3. Sessions (`sessions/` + `state.db`)** — Conversation history and FTS5 search index. Bob's security investigations never appear in Ella's content writing sessions.
+
+**4. Skills (`skills/`)** — Domain-specific procedural memory. Felix has Docker Swarm and CI/CD skills. Gabriel has cloud security investigation skills. These don't cross-pollinate.
+
+**5. Memory (`memories/`)** — Persistent cross-session memory. Each profile learns independently. Max remembers code patterns from past reviews. Leo remembers research findings.
+
+**6. Cron jobs (`cron/`)** — Scheduled tasks. Each profile can have its own recurring jobs without interference.
+
+**7. Credentials (`.env`)** — API keys and secrets. Each profile gets its own credential set. Bob has Entra ID app registration secrets. Felix has n8n API keys. No credential sharing between profiles.
+
+Here's what the directory structure looks like:
+
+```
+~/.hermes/profiles/
+├── bob-the-sec-engineer/
+│   ├── config.yaml
+│   ├── SOUL.md
+│   ├── .env
+│   ├── sessions/
+│   ├── skills/
+│   ├── memories/
+│   ├── cron/
+│   └── mcp-servers/
+├── felix/
+│   ├── config.yaml
+│   ├── SOUL.md
+│   ├── .env
+│   ├── sessions/
+│   ├── skills/
+│   ├── memories/
+│   └── cron/
+└── ... (7 more profiles)
+```
+
+## MCP server integration
+
+The real power comes when profiles get their own MCP (Model Context Protocol) servers. MCP servers expose external tools to the agent — APIs, databases, services — as first-class callable tools.
+
+**Felix + n8n:** Felix's config includes an n8n MCP server that gives it direct access to workflow orchestration:
+
+```yaml
+# ~/.hermes/profiles/felix/config.yaml
+mcp_servers:
+  n8n:
+    command: "npx"
+    args:
+      - "-y"
+      - "n8n-mcp"
+    env:
+      N8N_API_URL: "http://localhost:5678"
+      N8N_API_KEY: "your-api-key-here"
+    timeout: 120
+```
+
+With this configured, Felix can create, trigger, and manage n8n workflows directly. No manual API calls, no curl wrappers — the agent treats workflow automation as a native capability.
+
+**Bob + Microsoft Graph MCP:** Bob has three MCP servers for Microsoft Graph — Entra ID, Intune, and Exchange Online. These give Bob read-only access to identity data, device compliance, and mail/calendar across the tenant:
+
+```bash
+# Bob's MCP servers live in their own repo
+~/.hermes/profiles/bob-the-sec-engineer/mcp-servers/
+├── entra_id_mcp/
+├── intune_mcp/
+├── exchange_online_mcp/
+└── gateway_mcp/
+```
+
+Each MCP server has its own risk classification system. Read operations are unrestricted. Write operations require explicit opt-in via environment variables. The guardrails are baked in at the server level, not bolted on.
+
+## Switching between profiles
+
+Usage is straightforward:
+
+```bash
+# List all profiles
+hermes profile list
+
+# Use a specific profile
+hermes -p felix
+
+# Set a sticky default
+hermes profile use felix
+
+# Create a new profile (cloned from default)
+hermes profile create new-agent --clone
+```
+
+In practice, I alias them in my shell:
+
+```bash
+alias bob="hermes -p bob-the-sec-engineer"
+alias felix="hermes -p felix"
+alias ella="hermes -p ella"
+alias max="hermes -p max"
+```
+
+`bob` launches a security investigation. `felix` manages infrastructure. `ella` writes content. Each starts fresh with only its relevant context loaded.
+
+## What changed in my daily workflow
+
+Before profiles: one Hermes session, constantly switching context, skills loading and unloading, memory mixing between domains. A security investigation would surface job search memories. Code review would load DevOps skills.
+
+After profiles: each domain has its own clean context. I open a terminal, pick the right profile, and everything it needs is already loaded. No context pollution. No skill conflicts. Memory stays domain-specific.
+
+The practical impact:
+
+- **Faster startup** — fewer skills and tools to load per profile
+- **Cleaner context** — no irrelevant memories or session history
+- **Better focus** — each profile's SOUL.md constrains behavior to its domain
+- **Secure isolation** — credentials don't leak between profiles
+- **Composable MCP** — each profile connects only to the services it needs
+
+The initial setup took about an hour for all nine profiles. Most of that was writing SOUL.md files and configuring MCP servers. The ROI has been significant — I'm spending less time fighting context and more time actually doing the work.
+
+---
+
+*Hermes Agent is open-source by Nous Research. Profiles are documented at [hermes-agent.nousresearch.com/docs/user-guide/profiles](https://hermes-agent.nousresearch.com/docs/user-guide/profiles).*
+b:["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L13",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L14","hermes-multi-profile-system",{"post":{"metadata":{"title":"Building a Multi-Profile Agent System with Hermes","subtitle":"","publishedAt":"2026-07-14","summary":"How I split one AI agent into nine specialized profiles — each with isolated config, memory, skills, and MCP servers — and why it changed my daily workflow.","image":"/images/blog/hermes-multi-profile-system.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"hermes-multi-profile-system","content":"$15"},"thumbnail":false,"direction":"$undefined"}],"$L16","$L17"]}]}]
+c:["$","$L7",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$La",null,{"maxWidth":48}]}]
+19:T88d,
+## What this is
+
+A macOS menu bar app that closes your work apps at the end of each day — automatically or on demand. No more manually quitting Slack, Chrome, VS Code, and the rest.
+
+The goal isn't to stop working — it's to create a boundary. Having a physical ritual (clicking "end of day" in the menu bar) makes it easier to actually walk away.
+
+## Features
+
+- **Menu bar residence** — Runs quietly in your macOS menu bar, no Dock icon
+- **Custom day picker** — Choose exactly which days to run (Mon, Tue, Wed, Thu, Fri)
+- **Configurable apps** — Pick which apps to close — Slack, Chrome, VS Code, anything
+- **Per-app delay** — Stagger closes so apps have time to save (0-10 seconds per app)
+- **Countdown alert** — 30-second warning before apps close
+- **Pause Today** — Skip tonight without changing your schedule
+- **Snooze 30 min** — Delay the close from the alert or tray menu
+- **Analytics** — Track your streaks, total runs, apps closed, 7-day history
+- **Launch at login** — Starts automatically when you log in
+- **Uninstall** — Clean removal from within the app
+
+## How it works
+
+1. Double-click the app to open setup
+2. Pick a trigger time (e.g., 6:00 PM)
+3. Select which apps to close
+4. Choose which days to run
+5. The app runs in the menu bar all day
+6. At trigger time → 30s countdown → apps close → logged
+
+## Installation
+
+**Download:** Get `EndOfDay.app.zip` from the [latest release](https://github.com/RohiRIK/end-of-day-mac/releases/latest)
+
+**Or build from source:**
+```bash
+git clone https://github.com/RohiRIK/end-of-day-mac
+cd end-of-day-mac
+bash install.sh
+```
+
+Requires macOS 12+ and Xcode Command Line Tools.
+
+## Why I built it
+
+I used to manually quit every app every night. Then I'd check Slack one more time, then check GitHub one more time, and suddenly 20 minutes vanished.
+
+Now I click "End of Day" in the menu bar and walk away. The apps close themselves. The streak counter gives me a reason to actually use it.
+
+It's not about working less — it's about knowing when you're done.
+
+## Stack
+
+- Swift / SwiftUI
+- AppKit for menu bar integration
+- launchd for background scheduling
+- UserDefaults for local persistenced:["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","$La",null,{"maxWidth":48}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Things I've built"}]}],["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L3",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L18","copilot-agent-playbook",{"priority":true,"href":"/work/copilot-agent-playbook","images":[],"title":"Copilot Agent Playbook","description":"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.","content":"\n## What this is\n\nA collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations.\n\n## What's in it\n\n- **Knowledge base agents** — Search, summarize, and surface information from SharePoint, Teams, and external sources\n- **Security agents** — Monitor for threats, enrich alerts, automate incident response\n- **IT ops agents** — Handle password resets, license requests, device triage\n- **Sales enablement** — Customer intelligence, meeting prep, proposal assistance\n- **HR agents** — Onboarding, policy Q&A, benefits navigation\n\n## Why it matters\n\nCopilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible.\n\n## Stack\n\n- Microsoft 365 Copilot\n- Microsoft Graph API\n- Azure AI Studio","avatars":[],"link":"https://github.com/RohiRIK/copilot-agent-playbook"}],["$","$L18","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$19","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest"}],"$L1a"]}]}]]}],"$L1b"]}]
+e:["$","$L1c",null,{}]
+f:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true,"nonce":"$undefined"}]
+10:["$","$L1d",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+11:["$","$1","h",{"children":[null,["$","$L20",null,{"children":"$L21"}],["$","div",null,{"hidden":true,"children":["$","$L22",null,{"children":["$","$1e",null,{"name":"Next.Metadata","children":"$L23"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+24:T771,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"violet","accent":"emerald","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$24"}}]}],["$","$L25",null,{"children":["$","$L3",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L5",null,{"fill":true,"position":"absolute","children":["$","$L26",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L27",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L28",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L29",null,{"children":"$L2a"}]}]}],"$L2b"]}]}]]}]
+2e:I[339756,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
+2f:I[837457,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
+30:I[298229,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"IconButton"]
+2c:T1842,
 We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
 
 ## The Implementation Sequence
@@ -152,113 +418,8 @@ After three years, here's the friction ranking:
 
 Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
 
-The only thing that broke irreparably was when we tried to skip Phase 1.b:["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L13",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L14","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$15"},"thumbnail":false,"direction":"$undefined"}],"$L16","$L17"]}]}]
-c:["$","$L7",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$La",null,{"maxWidth":48}]}]
-19:T88d,
-## What this is
-
-A macOS menu bar app that closes your work apps at the end of each day — automatically or on demand. No more manually quitting Slack, Chrome, VS Code, and the rest.
-
-The goal isn't to stop working — it's to create a boundary. Having a physical ritual (clicking "end of day" in the menu bar) makes it easier to actually walk away.
-
-## Features
-
-- **Menu bar residence** — Runs quietly in your macOS menu bar, no Dock icon
-- **Custom day picker** — Choose exactly which days to run (Mon, Tue, Wed, Thu, Fri)
-- **Configurable apps** — Pick which apps to close — Slack, Chrome, VS Code, anything
-- **Per-app delay** — Stagger closes so apps have time to save (0-10 seconds per app)
-- **Countdown alert** — 30-second warning before apps close
-- **Pause Today** — Skip tonight without changing your schedule
-- **Snooze 30 min** — Delay the close from the alert or tray menu
-- **Analytics** — Track your streaks, total runs, apps closed, 7-day history
-- **Launch at login** — Starts automatically when you log in
-- **Uninstall** — Clean removal from within the app
-
-## How it works
-
-1. Double-click the app to open setup
-2. Pick a trigger time (e.g., 6:00 PM)
-3. Select which apps to close
-4. Choose which days to run
-5. The app runs in the menu bar all day
-6. At trigger time → 30s countdown → apps close → logged
-
-## Installation
-
-**Download:** Get `EndOfDay.app.zip` from the [latest release](https://github.com/RohiRIK/end-of-day-mac/releases/latest)
-
-**Or build from source:**
-```bash
-git clone https://github.com/RohiRIK/end-of-day-mac
-cd end-of-day-mac
-bash install.sh
-```
-
-Requires macOS 12+ and Xcode Command Line Tools.
-
-## Why I built it
-
-I used to manually quit every app every night. Then I'd check Slack one more time, then check GitHub one more time, and suddenly 20 minutes vanished.
-
-Now I click "End of Day" in the menu bar and walk away. The apps close themselves. The streak counter gives me a reason to actually use it.
-
-It's not about working less — it's about knowing when you're done.
-
-## Stack
-
-- Swift / SwiftUI
-- AppKit for menu bar integration
-- launchd for background scheduling
-- UserDefaults for local persistenced:["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","$La",null,{"maxWidth":48}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Things I've built"}]}],["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L3",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L18","copilot-agent-playbook",{"priority":true,"href":"/work/copilot-agent-playbook","images":[],"title":"Copilot Agent Playbook","description":"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.","content":"\n## What this is\n\nA collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations.\n\n## What's in it\n\n- **Knowledge base agents** — Search, summarize, and surface information from SharePoint, Teams, and external sources\n- **Security agents** — Monitor for threats, enrich alerts, automate incident response\n- **IT ops agents** — Handle password resets, license requests, device triage\n- **Sales enablement** — Customer intelligence, meeting prep, proposal assistance\n- **HR agents** — Onboarding, policy Q&A, benefits navigation\n\n## Why it matters\n\nCopilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible.\n\n## Stack\n\n- Microsoft 365 Copilot\n- Microsoft Graph API\n- Azure AI Studio","avatars":[],"link":"https://github.com/RohiRIK/copilot-agent-playbook"}],["$","$L18","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$19","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest"}],"$L1a"]}]}]]}],"$L1b"]}]
-e:["$","$L1c",null,{}]
-f:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true,"nonce":"$undefined"}]
-10:["$","$L1d",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
-11:["$","$1","h",{"children":[null,["$","$L20",null,{"children":"$L21"}],["$","div",null,{"hidden":true,"children":["$","$L22",null,{"children":["$","$1e",null,{"name":"Next.Metadata","children":"$L23"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-24:T771,
-              (function() {
-                try {
-                  const root = document.documentElement;
-                  const defaultTheme = 'system';
-                  
-                  // Set defaults from config
-                  const config = {"brand":"violet","accent":"emerald","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
-                  
-                  // Apply default values
-                  Object.entries(config).forEach(([key, value]) => {
-                    root.setAttribute('data-' + key, value);
-                  });
-                  
-                  // Resolve theme
-                  const resolveTheme = (themeValue) => {
-                    if (!themeValue || themeValue === 'system') {
-                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-                    }
-                    return themeValue;
-                  };
-                  
-                  // Apply saved theme
-                  const savedTheme = localStorage.getItem('data-theme');
-                  const resolvedTheme = resolveTheme(savedTheme);
-                  root.setAttribute('data-theme', resolvedTheme);
-                  
-                  // Apply any saved style overrides
-                  const styleKeys = Object.keys(config);
-                  styleKeys.forEach(key => {
-                    const value = localStorage.getItem('data-' + key);
-                    if (value) {
-                      root.setAttribute('data-' + key, value);
-                    }
-                  });
-                } catch (e) {
-                  console.error('Failed to initialize theme:', e);
-                  document.documentElement.setAttribute('data-theme', 'dark');
-                }
-              })();
-            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$24"}}]}],["$","$L25",null,{"children":["$","$L3",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L5",null,{"fill":true,"position":"absolute","children":["$","$L26",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L27",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L28",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L29",null,{"children":"$L2a"}]}]}],"$L2b"]}]}]]}]
-2e:I[339756,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
-2f:I[837457,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
-30:I[298229,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"IconButton"]
-2c:T1e4d,
+The only thing that broke irreparably was when we tried to skip Phase 1.16:["$","$L14","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$2c"},"thumbnail":false,"direction":"$undefined"}]
+2d:T1e4d,
 Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
 
 This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
@@ -374,154 +535,7 @@ You can't uninvent personal Gmail. Your users will always have personal accounts
 - SSO removes the password management burden
 - Structured migration moves existing data to corporate
 
-The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.16:["$","$L14","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$2c"},"thumbnail":false,"direction":"$undefined"}]
-2d:T1816,
-Federating Google Workspace to Entra ID sounds straightforward — flip the switch in the admin console and suddenly your users sign in with Entra credentials. The reality is more nuanced. Here's what actually happens and how to get it right.
-
-## Why Federate at All
-
-The value isn't just SSO. It's consolidating your identity authority. When Entra is the IdP:
-
-- **One identity** — Users exist in Entra, authenticate to Entra, access Google Workspace. No separate Google password to manage.
-- **Conditional Access** — You can apply Entra CA policies before letting users into Google. MFA requirements, session limits, risk-based access — all enforced before Google sees the request.
-- **Lifecycle** — When a user leaves Entra, they can't access Google. No orphaned accounts.
-
-The alternative — local Google passwords with no Entra visibility — is the risk you're removing.
-
-## The Architecture
-
-Two systems, one federation contract:
-
-```
-User → Google Workspace (SP) → Entra ID (IdP) → SAML Response → User in Google
-```
-
-- **Entra ID** acts as the SAML Identity Provider
-- **Google Workspace** acts as the Service Consumer (via Federated Directory)
-- The glue is SAML 2.0 — standard, well-documented, but picky about configuration
-
-The flow:
-
-1. User visits `mail.google.com` or any Google property
-2. Google detects federated domain, redirects to Entra with SAML AuthnRequest
-3. Entra prompts for authentication (password + MFA if configured)
-4. Entra returns SAML Assertion with user identity claims
-5. Google validates assertion, creates session, user lands in Google Workspace
-
-Two flows exist: SP-initiated (user starts at Google) and IdP-initiated (user starts at Entra, gets redirected to Google). Both work post-setup.
-
-## The Setup Steps
-
-### 1. Prepare Your Domains
-
-Confirm both domains are verified in their respective consoles:
-- In Entra, your primary domain must be verified
-- In Google Admin, your domain must be listed
-
-### 2. Create the Enterprise App in Entra
-
-In Entra ID admin center:
-- Add app > Google Workspace (from the gallery)
-- Set up SSO > SAML
-- **Important**: You'll populate this with values from Google in the next step — don't guess the endpoints.
-
-### 3. Configure Google SSO Profile
-
-In Google Admin > Security > Authentication > SSO with third-party IdP:
-- Create a new SSO profile (or use the preconfigured Microsoft Entra profile if available)
-- Copy these values from Google to Entra:
-  - **Entity ID** (from Google)
-  - **ACS URL** (from Google)
-- Then populate Entra with:
-  - **IdP Login URL**: Your Entra SSO URL
-  - **IdP Logout URL**: Your Entra logout URL
-  - **IdP Certificate**: Upload the Entra signing certificate
-
-Assign the app to pilot users/groups.
-
-### 4. Claims Mapping
-
-Entra sends these claims to Google:
-
-| Entra Claim | Google Field |
-|---|---|
-| email | Primary email |
-| givenName | First name |
-| surname | Last name |
-| NameID | Must match Google user's primary email |
-
-The critical mapping: **NameID must match the user's primary email address in Google**. If it doesn't, sign-in fails.
-
-### 5. Provisioning (Optional But Recommended)
-
-Federation handles **authentication** — it doesn't create Google accounts. Users must exist in Google Workspace to sign in.
-
-Two paths:
-- **Manual**: Pre-create users in Google before they authenticate
-- **Automatic**: Enable Entra provisioning to Google (via Entra ID > Google app > Provisioning). This syncs users from Entra to Google — create, update, disable — on a regular schedule.
-
-Most production deployments enable automatic provisioning to keep Google accounts in sync with Entra. Without it, you must manually create users in Google before they can sign in.
-
-## What Breaks First
-
-### NameID/Email Mismatch
-
-The most common error post-setup: authentication fails at Google because the NameID claim doesn't match the user's primary email in Google.
-
-Fix: Ensure the email claim from Entra matches exactly what's in the Google user's profile.
-
-### Wrong ACS or Entity ID
-
-If the SAML endpoints are mismatched between Entra and Google, the assertion gets rejected.
-
-Fix: Verify Google provides the correct ACS URL and Entity ID, and those are exactly what's configured in Entra.
-
-### Certificate Expiration
-
-Entra's SAML signing certificate expires Yearly (check your app's certificate expiry). Put a calendar reminder 30 days before. When it expires, users can't sign in until you update the certificate in Google admin.
-
-### User Not Provisioned
-
-If a user exists in Entra but not in Google, and provisioning is disabled, authentication fails.
-
-Fix: Enable automatic provisioning, or manually create users in Google before they attempt to sign in.
-
-### Not Assigned to App
-
-Sometimes forgotten: the user or their group isn't assigned to the Google app in Entra.
-
-Fix: Assign the app to the pilot group in Entra > Enterprise App > Assignments.
-
-## The Auth Flow in Plain English
-
-```
-Browser starts at mail.google.com 
-    ↓
-Google sees federated domain, redirects (SAML AuthnRequest) to Entra
-    ↓
-User enters credentials at Entra (MFA triggers here if enabled)
-    ↓
-Entra validates, issues SAML Assertion with email + name + ImmutableId
-    ↓
-Google receives assertion, matches ImmutableId to Google user, logs in
-```
-
-The key insight: the user never enters a Google password. Entra owns the credential entry, password complexity, MFA enforcement. Google just trusts Entra's assertion.
-
-## What You Gain
-
-| Before Federation | After Federation |
-|---|---|---|
-| Users manage Google passwords separately | Single Entra password |
-| No Entra visibility into Google access | CA policies apply before Google |
-| Orphaned Google accounts on leavers | Access cuts off when Entra disables |
-| No unified session policy | Entra controls session lifetime |
-
-## The Takeaway
-
-The setup isn't hard — it's exacting. Get the SAML metadata right, map ImmutableId correctly, enable provisioning, and test both SP and IdP flows. Once federated, you've moved the authentication authority to Entra and consolidated your identity stack.
-
-Don't skip the test phase. Try it with one pilot user before rolling it out domain-wide.17:["$","$L14","google-workspace-entra-federation",{"post":{"metadata":{"title":"Google Workspace to Entra ID Federation: The SSO Setup That Actually Works","subtitle":"","publishedAt":"2026-04-27","summary":"Setting up Google Workspace to use Entra ID as the Identity Provider isn't just checking a box. Here's the practical walkthrough of SAML federation, claims mapping, and what breaks when you get it wrong.","image":"/images/blog/google-workspace-entra-federation.png","images":[],"tag":"Identity","team":[],"link":""},"slug":"google-workspace-entra-federation","content":"$2d"},"thumbnail":false,"direction":"$undefined"}]
+The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.17:["$","$L14","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$2d"},"thumbnail":false,"direction":"$undefined"}]
 1a:["$","$L18","m365-cli",{"priority":false,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}]
 1b:["$","$L7",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$La",null,{"maxWidth":48}]}]
 2a:["$","$L2e",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2f",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L3",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]

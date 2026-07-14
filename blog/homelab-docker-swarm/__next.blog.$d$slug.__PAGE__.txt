@@ -16,7 +16,7 @@
 3e:I[605649,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
 3f:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 40:"$Sreact.suspense"
-0:{"buildId":"i4ohlk4m_RYMv92n4zj6l","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/homelab-docker-swarm","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/homelab-docker-swarm\",\"sameAs\":[],\"headline\":\"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke\",\"description\":\"A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/homelab-docker-swarm.png\",\"datePublished\":\"2026-03-02\",\"dateModified\":\"2026-03-02\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 2, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/homelab-docker-swarm.png","alt":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"My homelab runs on a dedicated server, not a cloud VPS. Everything is version-controlled, documented, and designed to run without me touching it. It's been doing that for over a year."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is what's running, how it's wired together, and what went wrong the first time."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-swarm-and-not-the-alternatives","children":"Why Swarm and not the alternatives"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The choice comes up every time I mention this setup: why not Kubernetes, why not plain Compose?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Kubernetes is genuinely overkill for a single server. The operational overhead — etcd, control plane components, kubeconfig management, networking plugins — is real work for infrastructure that only needs to orchestrate maybe 10 services. The value of Kubernetes is horizontal scaling and high availability across nodes. I have one node."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d"]}],"$L2e","$L2f","$L30","$L31"]}]}],"$L32"]}],["$L33"],"$L34"]}],"loading":null,"isPartial":false}
+0:{"buildId":"E8b5ku-sMPoOacl5PusPq","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/homelab-docker-swarm","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/homelab-docker-swarm\",\"sameAs\":[],\"headline\":\"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke\",\"description\":\"A tour of my self-hosted infrastructure — Docker Swarm for orchestration, Traefik for ingress, Infisical for secrets, and the modular design that replaced the monolith I should never have written.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/homelab-docker-swarm.png\",\"datePublished\":\"2026-03-02\",\"dateModified\":\"2026-03-02\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"March 2, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/homelab-docker-swarm.png","alt":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"My homelab runs on a dedicated server, not a cloud VPS. Everything is version-controlled, documented, and designed to run without me touching it. It's been doing that for over a year."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is what's running, how it's wired together, and what went wrong the first time."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-swarm-and-not-the-alternatives","children":"Why Swarm and not the alternatives"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The choice comes up every time I mention this setup: why not Kubernetes, why not plain Compose?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Kubernetes is genuinely overkill for a single server. The operational overhead — etcd, control plane components, kubeconfig management, networking plugins — is real work for infrastructure that only needs to orchestrate maybe 10 services. The value of Kubernetes is horizontal scaling and high availability across nodes. I have one node."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d"]}],"$L2e","$L2f","$L30","$L31"]}]}],"$L32"]}],["$L33"],"$L34"]}],"loading":null,"isPartial":false}
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Plain Compose works and is simple to reason about, but it doesn't give you health-based restarts, rolling updates, or service redeployment without downtime. When a container crashes, Compose doesn't automatically reschedule it. Swarm does."}]
 a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Swarm hits the right point in the tradeoff: orchestration primitives (services, secrets, overlay networks, health checks, update policies) without the operational overhead of a full cluster. It's been running with no manual intervention since I set it up."}]
 b:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"network-architecture","children":"Network architecture"}]
@@ -56,7 +56,172 @@ f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"secrets-
 2d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Everything else, including the Swarm choice over Kubernetes, I'd make the same way."}]
 2e:["$","$L36",null,{"title":"My Homelab on Docker Swarm: What Runs, How It's Wired, What Broke","url":"https://CloudJourneyBlog.rohi-lab.org/blog/homelab-docker-swarm"}]
 2f:["$","$L37",null,{}]
-3b:T1842,
+3b:T1ff9,
+I run Hermes Agent as my primary AI assistant. It's open-source, provider-agnostic, and runs in my terminal with full system access. The problem: one agent trying to do everything — security investigations, code review, job search, DevOps, content writing, research — ends up doing none of them well. Context bleeds between tasks. A security investigation session pollutes the context for code review. Job search skills load into infrastructure work.
+
+The fix was Hermes's multi-profile system. One installation, nine independent agent profiles, each scoped to a specific domain. Here's what I built and why it works.
+
+## Why multi-profile matters
+
+A single Hermes instance with everything loaded hits context limits fast. Skills pile up. MCP servers compete for tool slots. Memory from one domain contaminates another. The profile system solves this by giving each domain its own complete isolated environment — config, identity, sessions, skills, memory, cron jobs, and credentials.
+
+Think of it like user accounts on a shared machine. Each profile gets its own home directory under `~/.hermes/profiles/<name>/`, and nothing leaks between them.
+
+## The nine profiles
+
+Here's the full roster and what each one does:
+
+**Bob** — Cloud Security Engineer. Investigates Microsoft 365 tenants through Entra ID, Intune, and Exchange Online MCP servers. Correlates identity and device data to catch security issues. Read-only by default.
+
+**Ethan** — Job Search Assistant. Finds, evaluates, and tracks job applications. Manages CV optimization and career strategy for cloud security roles.
+
+**Gabriel** — Cloud Security Investigator. Similar to Bob but focused on M365/Azure/Intune security investigations with a read-only stance. Handles incident response and compliance checks.
+
+**Felix** — DevOps and Infrastructure Engineer. Manages Docker Swarm, CI/CD pipelines, IaC, monitoring, and workflow automation. Has n8n MCP integration for workflow orchestration.
+
+**Max** — Code Reviewer and Quality Engineer. Finds real bugs, not style nits. Security > correctness > performance > style.
+
+**Ella** — Content Writer and Technical Blogger. Writes blog posts, documentation, tutorials, and social media content. Direct, practical voice.
+
+**Leo** — Research and Knowledge Agent. Deep research, paper analysis, competitive intelligence. Goes wide first, then deep.
+
+**Sam** — Homelab and Smart Home Manager. Docker Swarm service health, IoT device status, network monitoring, backup verification, smart home automation.
+
+**Iris** — Documentation and Knowledge Manager. Project documentation, ADRs, runbooks, contributor guides, knowledge base maintenance.
+
+Each profile has a `SOUL.md` file that defines its identity, focus, and behavioral constraints. Bob is read-only. Max finds bugs. Ella writes clearly and skips fluff. These aren't just names — they're scoped identities that shape how the agent approaches every task.
+
+## How profile isolation works
+
+Each profile lives in its own directory under `~/.hermes/profiles/<name>/` with seven isolated dimensions:
+
+**1. Configuration (`config.yaml`)** — Model, provider, toolsets, terminal backend, agent behavior. Felix uses a local terminal pointed at the homelab dashboard directory. Gabriel points at the security engineering project.
+
+**2. Identity (`SOUL.md`)** — The agent's personality, focus areas, and behavioral rules. Each profile reads only its own SOUL.md.
+
+**3. Sessions (`sessions/` + `state.db`)** — Conversation history and FTS5 search index. Bob's security investigations never appear in Ella's content writing sessions.
+
+**4. Skills (`skills/`)** — Domain-specific procedural memory. Felix has Docker Swarm and CI/CD skills. Gabriel has cloud security investigation skills. These don't cross-pollinate.
+
+**5. Memory (`memories/`)** — Persistent cross-session memory. Each profile learns independently. Max remembers code patterns from past reviews. Leo remembers research findings.
+
+**6. Cron jobs (`cron/`)** — Scheduled tasks. Each profile can have its own recurring jobs without interference.
+
+**7. Credentials (`.env`)** — API keys and secrets. Each profile gets its own credential set. Bob has Entra ID app registration secrets. Felix has n8n API keys. No credential sharing between profiles.
+
+Here's what the directory structure looks like:
+
+```
+~/.hermes/profiles/
+├── bob-the-sec-engineer/
+│   ├── config.yaml
+│   ├── SOUL.md
+│   ├── .env
+│   ├── sessions/
+│   ├── skills/
+│   ├── memories/
+│   ├── cron/
+│   └── mcp-servers/
+├── felix/
+│   ├── config.yaml
+│   ├── SOUL.md
+│   ├── .env
+│   ├── sessions/
+│   ├── skills/
+│   ├── memories/
+│   └── cron/
+└── ... (7 more profiles)
+```
+
+## MCP server integration
+
+The real power comes when profiles get their own MCP (Model Context Protocol) servers. MCP servers expose external tools to the agent — APIs, databases, services — as first-class callable tools.
+
+**Felix + n8n:** Felix's config includes an n8n MCP server that gives it direct access to workflow orchestration:
+
+```yaml
+# ~/.hermes/profiles/felix/config.yaml
+mcp_servers:
+  n8n:
+    command: "npx"
+    args:
+      - "-y"
+      - "n8n-mcp"
+    env:
+      N8N_API_URL: "http://localhost:5678"
+      N8N_API_KEY: "your-api-key-here"
+    timeout: 120
+```
+
+With this configured, Felix can create, trigger, and manage n8n workflows directly. No manual API calls, no curl wrappers — the agent treats workflow automation as a native capability.
+
+**Bob + Microsoft Graph MCP:** Bob has three MCP servers for Microsoft Graph — Entra ID, Intune, and Exchange Online. These give Bob read-only access to identity data, device compliance, and mail/calendar across the tenant:
+
+```bash
+# Bob's MCP servers live in their own repo
+~/.hermes/profiles/bob-the-sec-engineer/mcp-servers/
+├── entra_id_mcp/
+├── intune_mcp/
+├── exchange_online_mcp/
+└── gateway_mcp/
+```
+
+Each MCP server has its own risk classification system. Read operations are unrestricted. Write operations require explicit opt-in via environment variables. The guardrails are baked in at the server level, not bolted on.
+
+## Switching between profiles
+
+Usage is straightforward:
+
+```bash
+# List all profiles
+hermes profile list
+
+# Use a specific profile
+hermes -p felix
+
+# Set a sticky default
+hermes profile use felix
+
+# Create a new profile (cloned from default)
+hermes profile create new-agent --clone
+```
+
+In practice, I alias them in my shell:
+
+```bash
+alias bob="hermes -p bob-the-sec-engineer"
+alias felix="hermes -p felix"
+alias ella="hermes -p ella"
+alias max="hermes -p max"
+```
+
+`bob` launches a security investigation. `felix` manages infrastructure. `ella` writes content. Each starts fresh with only its relevant context loaded.
+
+## What changed in my daily workflow
+
+Before profiles: one Hermes session, constantly switching context, skills loading and unloading, memory mixing between domains. A security investigation would surface job search memories. Code review would load DevOps skills.
+
+After profiles: each domain has its own clean context. I open a terminal, pick the right profile, and everything it needs is already loaded. No context pollution. No skill conflicts. Memory stays domain-specific.
+
+The practical impact:
+
+- **Faster startup** — fewer skills and tools to load per profile
+- **Cleaner context** — no irrelevant memories or session history
+- **Better focus** — each profile's SOUL.md constrains behavior to its domain
+- **Secure isolation** — credentials don't leak between profiles
+- **Composable MCP** — each profile connects only to the services it needs
+
+The initial setup took about an hour for all nine profiles. Most of that was writing SOUL.md files and configuring MCP servers. The ROI has been significant — I'm spending less time fighting context and more time actually doing the work.
+
+---
+
+*Hermes Agent is open-source by Nous Research. Profiles are documented at [hermes-agent.nousresearch.com/docs/user-guide/profiles](https://hermes-agent.nousresearch.com/docs/user-guide/profiles).*
+30:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L38",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L39",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L3a","hermes-multi-profile-system",{"post":{"metadata":{"title":"Building a Multi-Profile Agent System with Hermes","subtitle":"","publishedAt":"2026-07-14","summary":"How I split one AI agent into nine specialized profiles — each with isolated config, memory, skills, and MCP servers — and why it changed my daily workflow.","image":"/images/blog/hermes-multi-profile-system.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"hermes-multi-profile-system","content":"$3b"},"thumbnail":true,"direction":"column"}],"$L3c"]}]]}]
+31:["$","$L3d",null,{}]
+32:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L3e",null,{"fitHeight":true}]}]
+33:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
+34:["$","$L3f",null,{"children":["$","$40",null,{"name":"Next.MetadataOutlet","children":"$@41"}]}]
+42:T1842,
 We spent three years rolling out Zero Trust at a defense technology company. 57 tasks later, here's what actually worked — and what broke in production.
 
 ## The Implementation Sequence
@@ -179,126 +344,5 @@ After three years, here's the friction ranking:
 
 Zero Trust isn't a project with an end date. It's an operational posture. The sequence matters: emergency access → security info registration → legacy block → MFA → device compliance → session controls → risk-based access → 802.1X.
 
-The only thing that broke irreparably was when we tried to skip Phase 1.30:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L38",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L39",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L3a","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$3b"},"thumbnail":true,"direction":"column"}],"$L3c"]}]]}]
-31:["$","$L3d",null,{}]
-32:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L3e",null,{"fitHeight":true}]}]
-33:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
-34:["$","$L3f",null,{"children":["$","$40",null,{"name":"Next.MetadataOutlet","children":"$@41"}]}]
-42:T1e4d,
-Your users have personal Gmail accounts open on their work machines. They're checking personal email alongside Google Workspace. They're sharing work documents from personal Drive. IT has no visibility, no DLP, no audit trail.
-
-This is the shadow IT problem. You can't just block personal Gmail at the network level without breaking something. But you can make it unusable for work purposes — and that's what this post covers.
-
-## The Problem: Shadow IT in Google Workspace
-
-Every organization has it: users who default to personal accounts for convenience. Personal Gmail on work devices. Personal Drive for sharing. Personal Calendar for everything.
-
-The risks:
-- **No DLP** — Company data leaves to personal accounts with no controls
-- **No audit trail** — You can't investigate a data leak if you don't know it happened
-- **No lifecycle** — When they leave, access to work data persists in their personal account
-- **Compliance risk** — Often noncompliant with internal policy and regulated data-handling requirements
-
-The goal: make personal Gmail unusable for work purposes without breaking legitimate personal use on personal devices.
-
-## How CASB Fits In
-
-CASB (Cloud Access Security Broker) sits between your users and cloud services, providing:
-- **Visibility** — What cloud apps are being used?
-- **Data protection** — DLP policies applied to cloud traffic
-- **Threat protection** — Anomaly detection for cloud usage
-- **Access control** — Block or restrict based on context
-
-Google Workspace integrates with CASB via API, not inline proxy. Google explicitly recommends API/offline CASB patterns over inline proxies — inline CASBs exist but aren't the preferred path. For most orgs, Google-native controls (DLP, Reports API, App Access Management) cover much of what you need before considering third-party CASB.
-
-### Shadow IT Discovery
-
-Before you can block, you need to know what you're dealing with. The CASB (or Google Workspace audit logs) reveals:
-
-- **OAuth token inventory** — Which third-party apps have user-authorized access to their Google data
-- **Login activity** — Where are users authenticating from?
-- **Drive sharing** — What's being shared externally?
-- **App usage** — Which apps are accessing Google Workspace data?
-
-In Google Workspace Admin console, go to Security > API controls > Access management. Review OAuth app entries — check ownership (Google-owned/internal/third-party), requested scopes, and user count. The CASB dashboard often surfaces this more visually.
-
-Apps are categorized as **Trusted** (full access), **Limited** (specific Google data only), **Blocked** (no access), or the default for unconfigured apps. Mark unknown third-party apps as Blocked after reviewing scope and ownership.
-
-## The Migration Strategy
-
-### Phase 1: Discover and Categorize
-
-List every external app accessing your users' Google data. Categorize:
-- **Approved** — IT-sanctioned, security reviewed
-- **Tolerated** — Not ideal but not blocked yet
-- **Blocked** — Shadow IT, must go
-
-The CASB dashboard usually provides this. If not, export audit logs and pivot in Excel.
-
-### Phase 2: Offer a Better Alternative
-
-Users go to personal Gmail because the sanctioned option isn't convenient. Fix that:
-
-- **Google Workspace** — If you don't have it, get it. Every user gets company @company.com account.
-- **Shared drives** — Centralize file storage so personal Drive isn't needed
-- **SSO** — Single sign-on from Entra ID to Google Workspace removes the password burden
-
-### Phase 3: Enforce with Policy
-
-Now block. The enforcement stack, in order of impact:
-
-**1. Block personal Google accounts** — This is what actually makes personal Gmail unusable on managed devices. Configure via proxy: `X-GoogApps-Allowed-Domains: yourdomain.com`, or in Google Admin console > Security > Managed browser > Restrict sign-in to managed accounts. This stops users from adding their personal @gmail.com account to Chrome or signing into personal Gmail on managed machines.
-
-**2. App Access Control** — In Security > API controls > Access management, configure apps as Trusted / Limited / Specific Google data / Blocked. This controls OAuth grants, not browser access. Set default to Blocked for unconfigured apps if you want zero tolerance.
-
-**3. Context-Aware Access** — Verify managed device before granting access to Workspace apps. Requires Endpoint Verification on desktop; mobile uses Google endpoint management (Intune, Jamf, etc.) for device signals.
-
-### Phase 4: Data Migration
-
-For users with existing personal Gmail data that needs to come over:
-
-1. **Data import** — Admin imports personal Gmail to corporate account via Security > Data export and management > Data migration. Requires user authorization — they authorize their personal Gmail access. This isn't the "Google Workspace Migrate" tool (that's for Exchange migrations).
-2. **Takeout** — User exports personal Drive, admin migrates to Shared Drive
-3. **Calendar migration** — User exports from personal calendar, imports to corporate or shares calendar with corporate account
-
-This takes time. Give users 30 days to migrate, then enforce.
-
-## The Enforcement Checklist
-
-| Control | Implementation | Effect |
-|---|---|---|
-| Consumer account block | X-GoogApps-Allowed-Domains header or managed browser sign-in restriction | Personal Gmail can't sign in on managed devices |
-| App Access Control | Set apps to Trusted / Limited / Blocked; default to Blocked for unconfigured | No unapproved OAuth apps |
-| Context-Aware Access | Require managed device (desktop: Endpoint Verification; mobile: endpoint management) | Unmanaged devices blocked |
-| Drive external sharing | Allowlist or trust rules for external sharing | No uncontrolled file sharing |
-| SSO | Entra ID to Google Workspace | One identity, one credential |
-
-**CAA rollout tip:** Start in **monitor mode** first. Block only after verifying compliant devices sync Endpoint Verification — Google docs warn that sync delays can incorrectly block compliant desktops.
-
-## What Actually Breaks First
-
-In practice, this enforcement breaks these workflows:
-
-1. **User's personal phone** — They can't check corporate email on their personal Android/iOS without management installed. Solution: offer MDM enrollment or accept the limitation.
-
-2. **Third-party tools** — Users who authorized random SaaS apps lose access. Solution: pre-approve the most common ones (Zoom, Slack, etc.).
-
-3. **Contractors** — External users without managed devices. Solution: dedicated contractor accounts with limited access, or accept unmanaged access with increased monitoring.
-
-4. **Endpoint Verification sync delays** — Compliant desktops get blocked before they sync device status. Google's docs explicitly warn about this. Run in monitor mode first.
-
-5. **OAuth restrictions break integrations fast** — Zoom, Slack, calendaring add-ons, scanners, backup tools — all need explicit app access configuration or users lose functionality.
-
-6. **Delegated mailbox access** — Consumer account blocking with `X-GoogApps-Allowed-Domains` can break delegated mailbox access if the delegate's domain isn't in allowed headers.
-
-## The Takeaway
-
-You can't uninvent personal Gmail. Your users will always have personal accounts. What you can do is make it operationally useless for work:
-
-- DLP policies block data exfiltration
-- Context-Aware Access restricts access to managed devices
-- SSO removes the password management burden
-- Structured migration moves existing data to corporate
-
-The goal isn't to punish users who use personal accounts. It's to make the corporate alternative so seamless that personal use becomes friction for work purposes, not the other way around.3c:["$","$L3a","gcp-casb-shadow-it-migration",{"post":{"metadata":{"title":"Forcing the Shadow IT Migration: Making Personal Gmail Unusable in a Managed Network","subtitle":"","publishedAt":"2026-04-28","summary":"Personal Gmail inside your corporate network isn't just a compliance risk — it's a data leak waiting to happen. Here's how to use CASB policies, Context-Aware Access, and structured migration to make shadow IT unusable.","image":"/images/blog/gcp-casb-shadow-it-migration.png","images":[],"tag":"Security","team":[],"link":""},"slug":"gcp-casb-shadow-it-migration","content":"$42"},"thumbnail":true,"direction":"column"}]
+The only thing that broke irreparably was when we tried to skip Phase 1.3c:["$","$L3a","zero-trust-retrospective",{"post":{"metadata":{"title":"Zero Trust Rollout Retrospective: What Actually Broke","subtitle":"","publishedAt":"2026-04-29","summary":"A multi-year Zero Trust program across MDE, Intune baselines, Conditional Access, phishing-resistant MFA, 802.1X, and MDI. Here's what we implemented, in what order, and what broke first.","image":"/images/blog/zero-trust-retrospective.png","images":[],"tag":"Security","team":[],"link":""},"slug":"zero-trust-retrospective","content":"$42"},"thumbnail":true,"direction":"column"}]
 41:null
