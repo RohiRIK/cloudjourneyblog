@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-13T20:47:18.673Z",
+  "updatedAt": "2026-07-14T06:02:51.225Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+          "date": "Jul 13, 2026",
+          "excerpt": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misco"
+        },
         {
           "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
           "date": "Jul 8, 2026",
           "excerpt": "At Microsoft we encompass these security requirements, along with threat knowledge, and operational frameworks in our Secure Future Initiative (SFI), to guide what a well-defended cloud service looks "
-        },
-        {
-          "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
-          "date": "Jul 6, 2026",
-          "excerpt": "Read five key learnings from the Frost & Sullivan 2025 Frost Radar™ for CSPM to learn how CSPM is evolving from point-in-time compliance to continuous risk management. The post 5 insights from Frost &"
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Big Blue thinks small, again, with 2U POWER tower",
+          "link": "https://www.theregister.com/systems/2026/07/14/big-blue-thinks-small-again-with-2u-power-tower/5270851",
+          "date": "Jul 14, 2026",
+          "excerpt": "The last proprietary minicomputer, now in ‘deskside’ form if you fancy that"
+        },
+        {
+          "title": "India’s tech services giant HCL is getting into the AI datacenter business",
+          "link": "https://www.theregister.com/off-prem/2026/07/14/indias-tech-services-giant-hcl-is-getting-into-the-ai-datacenter-business/5270827",
+          "date": "Jul 14, 2026",
+          "excerpt": "Starting small with $37m and maybe 50MW but reckons full-stack service plan can succeed"
+        },
+        {
+          "title": "Gobi X: Creating more energy for AI, not taking it from society",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/14/gobi-x-creating-more-energy-for-ai-not-taking-it-from-society/5270590",
+          "date": "Jul 14, 2026",
+          "excerpt": "PARTNER CONTENT: How Envision is reversing the datacenter playbook by making computing chase abundant desert power, not the other way around"
+        },
+        {
+          "title": "Zuck's AI ambitions put Meta on course to become America's next big cloud provider",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/14/zucks-ai-ambitions-put-meta-on-course-to-become-americas-next-big-cloud-provider/5270758",
+          "date": "Jul 13, 2026",
+          "excerpt": "Renting out spare compute is simply the natural progression for any sufficiently large infra company"
+        },
+        {
+          "title": "Zig creator calls Bun’s Claude Rust rewrite ‘unreviewed slop’",
+          "link": "https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743",
+          "date": "Jul 13, 2026",
+          "excerpt": "The port took just 11 days and about $165,000 at API pricing"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
