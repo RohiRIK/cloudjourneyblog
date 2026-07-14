@@ -23,6 +23,7 @@
 | When HiBob Is Your Source of Truth | Automation |
 | Claude Code Config v3: LTM as Infrastructure | Dev Tools |
 | Cross-Platform Compliance Architecture | Security |
+| Hermes Multi-Profile System | AI / DevTools |
 
 ---
 

@@ -1,0 +1,167 @@
+---
+title: "Building a Multi-Profile Agent System with Hermes"
+summary: "How I split one AI agent into nine specialized profiles — each with isolated config, memory, skills, and MCP servers — and why it changed my daily workflow."
+image: "/images/blog/hermes-multi-profile-system.png"
+publishedAt: "2026-07-14"
+tag: "Automation"
+---
+
+I run Hermes Agent as my primary AI assistant. It's open-source, provider-agnostic, and runs in my terminal with full system access. The problem: one agent trying to do everything — security investigations, code review, job search, DevOps, content writing, research — ends up doing none of them well. Context bleeds between tasks. A security investigation session pollutes the context for code review. Job search skills load into infrastructure work.
+
+The fix was Hermes's multi-profile system. One installation, nine independent agent profiles, each scoped to a specific domain. Here's what I built and why it works.
+
+## Why multi-profile matters
+
+A single Hermes instance with everything loaded hits context limits fast. Skills pile up. MCP servers compete for tool slots. Memory from one domain contaminates another. The profile system solves this by giving each domain its own complete isolated environment — config, identity, sessions, skills, memory, cron jobs, and credentials.
+
+Think of it like user accounts on a shared machine. Each profile gets its own home directory under `~/.hermes/profiles/<name>/`, and nothing leaks between them.
+
+## The nine profiles
+
+Here's the full roster and what each one does:
+
+**Bob** — Cloud Security Engineer. Investigates Microsoft 365 tenants through Entra ID, Intune, and Exchange Online MCP servers. Correlates identity and device data to catch security issues. Read-only by default.
+
+**Ethan** — Job Search Assistant. Finds, evaluates, and tracks job applications. Manages CV optimization and career strategy for cloud security roles.
+
+**Gabriel** — Cloud Security Investigator. Similar to Bob but focused on M365/Azure/Intune security investigations with a read-only stance. Handles incident response and compliance checks.
+
+**Felix** — DevOps and Infrastructure Engineer. Manages Docker Swarm, CI/CD pipelines, IaC, monitoring, and workflow automation. Has n8n MCP integration for workflow orchestration.
+
+**Max** — Code Reviewer and Quality Engineer. Finds real bugs, not style nits. Security > correctness > performance > style.
+
+**Ella** — Content Writer and Technical Blogger. Writes blog posts, documentation, tutorials, and social media content. Direct, practical voice.
+
+**Leo** — Research and Knowledge Agent. Deep research, paper analysis, competitive intelligence. Goes wide first, then deep.
+
+**Sam** — Homelab and Smart Home Manager. Docker Swarm service health, IoT device status, network monitoring, backup verification, smart home automation.
+
+**Iris** — Documentation and Knowledge Manager. Project documentation, ADRs, runbooks, contributor guides, knowledge base maintenance.
+
+Each profile has a `SOUL.md` file that defines its identity, focus, and behavioral constraints. Bob is read-only. Max finds bugs. Ella writes clearly and skips fluff. These aren't just names — they're scoped identities that shape how the agent approaches every task.
+
+## How profile isolation works
+
+Each profile lives in its own directory under `~/.hermes/profiles/<name>/` with seven isolated dimensions:
+
+**1. Configuration (`config.yaml`)** — Model, provider, toolsets, terminal backend, agent behavior. Felix uses a local terminal pointed at the homelab dashboard directory. Gabriel points at the security engineering project.
+
+**2. Identity (`SOUL.md`)** — The agent's personality, focus areas, and behavioral rules. Each profile reads only its own SOUL.md.
+
+**3. Sessions (`sessions/` + `state.db`)** — Conversation history and FTS5 search index. Bob's security investigations never appear in Ella's content writing sessions.
+
+**4. Skills (`skills/`)** — Domain-specific procedural memory. Felix has Docker Swarm and CI/CD skills. Gabriel has cloud security investigation skills. These don't cross-pollinate.
+
+**5. Memory (`memories/`)** — Persistent cross-session memory. Each profile learns independently. Max remembers code patterns from past reviews. Leo remembers research findings.
+
+**6. Cron jobs (`cron/`)** — Scheduled tasks. Each profile can have its own recurring jobs without interference.
+
+**7. Credentials (`.env`)** — API keys and secrets. Each profile gets its own credential set. Bob has Entra ID app registration secrets. Felix has n8n API keys. No credential sharing between profiles.
+
+Here's what the directory structure looks like:
+
+```
+~/.hermes/profiles/
+├── bob-the-sec-engineer/
+│   ├── config.yaml
+│   ├── SOUL.md
+│   ├── .env
+│   ├── sessions/
+│   ├── skills/
+│   ├── memories/
+│   ├── cron/
+│   └── mcp-servers/
+├── felix/
+│   ├── config.yaml
+│   ├── SOUL.md
+│   ├── .env
+│   ├── sessions/
+│   ├── skills/
+│   ├── memories/
+│   └── cron/
+└── ... (7 more profiles)
+```
+
+## MCP server integration
+
+The real power comes when profiles get their own MCP (Model Context Protocol) servers. MCP servers expose external tools to the agent — APIs, databases, services — as first-class callable tools.
+
+**Felix + n8n:** Felix's config includes an n8n MCP server that gives it direct access to workflow orchestration:
+
+```yaml
+# ~/.hermes/profiles/felix/config.yaml
+mcp_servers:
+  n8n:
+    command: "npx"
+    args:
+      - "-y"
+      - "n8n-mcp"
+    env:
+      N8N_API_URL: "http://localhost:5678"
+      N8N_API_KEY: "your-api-key-here"
+    timeout: 120
+```
+
+With this configured, Felix can create, trigger, and manage n8n workflows directly. No manual API calls, no curl wrappers — the agent treats workflow automation as a native capability.
+
+**Bob + Microsoft Graph MCP:** Bob has three MCP servers for Microsoft Graph — Entra ID, Intune, and Exchange Online. These give Bob read-only access to identity data, device compliance, and mail/calendar across the tenant:
+
+```bash
+# Bob's MCP servers live in their own repo
+~/.hermes/profiles/bob-the-sec-engineer/mcp-servers/
+├── entra_id_mcp/
+├── intune_mcp/
+├── exchange_online_mcp/
+└── gateway_mcp/
+```
+
+Each MCP server has its own risk classification system. Read operations are unrestricted. Write operations require explicit opt-in via environment variables. The guardrails are baked in at the server level, not bolted on.
+
+## Switching between profiles
+
+Usage is straightforward:
+
+```bash
+# List all profiles
+hermes profile list
+
+# Use a specific profile
+hermes -p felix
+
+# Set a sticky default
+hermes profile use felix
+
+# Create a new profile (cloned from default)
+hermes profile create new-agent --clone
+```
+
+In practice, I alias them in my shell:
+
+```bash
+alias bob="hermes -p bob-the-sec-engineer"
+alias felix="hermes -p felix"
+alias ella="hermes -p ella"
+alias max="hermes -p max"
+```
+
+`bob` launches a security investigation. `felix` manages infrastructure. `ella` writes content. Each starts fresh with only its relevant context loaded.
+
+## What changed in my daily workflow
+
+Before profiles: one Hermes session, constantly switching context, skills loading and unloading, memory mixing between domains. A security investigation would surface job search memories. Code review would load DevOps skills.
+
+After profiles: each domain has its own clean context. I open a terminal, pick the right profile, and everything it needs is already loaded. No context pollution. No skill conflicts. Memory stays domain-specific.
+
+The practical impact:
+
+- **Faster startup** — fewer skills and tools to load per profile
+- **Cleaner context** — no irrelevant memories or session history
+- **Better focus** — each profile's SOUL.md constrains behavior to its domain
+- **Secure isolation** — credentials don't leak between profiles
+- **Composable MCP** — each profile connects only to the services it needs
+
+The initial setup took about an hour for all nine profiles. Most of that was writing SOUL.md files and configuring MCP servers. The ROI has been significant — I'm spending less time fighting context and more time actually doing the work.
+
+---
+
+*Hermes Agent is open-source by Nous Research. Profiles are documented at [hermes-agent.nousresearch.com/docs/user-guide/profiles](https://hermes-agent.nousresearch.com/docs/user-guide/profiles).*
