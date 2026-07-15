@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T09:48:19.132Z",
+  "updatedAt": "2026-07-15T13:07:07.984Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "AWS sustainability claims don't hold water, lawsuit alleges",
+          "link": "https://www.theregister.com/on-prem/2026/07/15/aws-sustainability-claims-dont-hold-water-lawsuit-alleges/5269723",
+          "date": "Jul 15, 2026",
+          "excerpt": "Ex-staffer accuses Amazon's Virginia datacenters of quietly guzzling H20 all year round, despite 'water positive' PR push"
+        },
+        {
+          "title": "EU lets wearables wriggle out of user-replaceable battery rules",
+          "link": "https://www.theregister.com/personal-tech/2026/07/15/eu-lets-wearables-wriggle-out-of-user-replaceable-battery-rules/5271641",
+          "date": "Jul 15, 2026",
+          "excerpt": "Miniaturization means a professional's touch is needed"
+        },
+        {
+          "title": "A moment of silence, please, for the final release of Debian on x86-32",
+          "link": "https://www.theregister.com/os-platforms/2026/07/15/a-moment-of-silence-please-for-the-final-release-of-debian-on-x86-32/5271198",
+          "date": "Jul 15, 2026",
+          "excerpt": "New Debian versions hit FOSSland in the form of 13.6 and 12.15"
+        },
+        {
+          "title": "EU competition decision hands SAP customers more leverage in contract talks",
+          "link": "https://www.theregister.com/software/2026/07/15/eu-competition-decision-hands-sap-customers-more-leverage-in-contract-talks/5271154",
+          "date": "Jul 15, 2026",
+          "excerpt": "Truce over maintenance fees is a bargaining chip for ECC holdouts – just don't expect a stampede to third-party support"
+        },
+        {
           "title": "Software bloat? This elevator needs an 8GB Core i5",
           "link": "https://www.theregister.com/offbeat/2026/07/15/software-bloat-this-elevator-needs-an-8gb-core-i5/5270901",
           "date": "Jul 15, 2026",
           "excerpt": "This elevator is headed for floor Bork"
-        },
-        {
-          "title": "OpenMandriva's accused repo wrecker says it wasn't sabotage – it was a message",
-          "link": "https://www.theregister.com/os-platforms/2026/07/15/openmandrivas-accused-repo-wrecker-says-it-wasnt-sabotage-it-was-a-message/5270511",
-          "date": "Jul 15, 2026",
-          "excerpt": "Ex-contributor claims he wasn't a rogue admin, hadn't left the project, and never intended to harm the distro"
-        },
-        {
-          "title": "The Star Wars cantina scene shows we need a new hope for the agentic web",
-          "link": "https://www.theregister.com/columnists/2026/07/15/the-star-wars-cantina-scene-shows-we-need-a-new-hope-for-the-agentic-web/5270946",
-          "date": "Jul 15, 2026",
-          "excerpt": "'We don't serve their kind here' protects today's publishers, but won't help rebels destroy the monetization Death Stars built by Google and Meta"
-        },
-        {
-          "title": "At last, a good reason to buy an AI PC: Reining in runaway token bills",
-          "link": "https://www.theregister.com/personal-tech/2026/07/15/at-last-a-good-reason-to-buy-an-ai-pc-reining-in-runaway-token-bills/5271589",
-          "date": "Jul 15, 2026",
-          "excerpt": "Gartner thinks we’re headed to a hybrid AI model where you offload stuff to the desktop whenever possible"
-        },
-        {
-          "title": "South Korea to launch universal basic AI chatbot",
-          "link": "https://www.theregister.com/public-sector/2026/07/15/south-korea-to-launch-universal-basic-ai-chatbot/5271566",
-          "date": "Jul 15, 2026",
-          "excerpt": "Tender calls for providers to power free service with local LLMs, government to supply some GPUs"
         }
       ]
     },
