@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-15T13:07:07.984Z",
+  "updatedAt": "2026-07-15T20:48:18.252Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Turning threat intelligence into decisive action with Defender Experts",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/",
+          "date": "Jul 15, 2026",
+          "excerpt": "Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post"
+        },
         {
           "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
           "date": "Jul 9, 2026",
           "excerpt": "GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware i"
-        },
-        {
-          "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud  ",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
-          "date": "Jul 8, 2026",
-          "excerpt": "At Microsoft we encompass these security requirements, along with threat knowledge, and operational frameworks in our Secure Future Initiative (SFI), to guide what a well-defended cloud service looks "
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Zoom warns of critical account takeover vulnerability",
+          "link": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
+          "date": "Jul 15, 2026",
+          "excerpt": "Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticated party to hijack accounts. [...]"
+        },
+        {
+          "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
+          "link": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
+          "date": "Jul 15, 2026",
+          "excerpt": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]"
+        },
+        {
+          "title": "AsyncAPI npm packages infected with credential-stealing malware",
+          "link": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
+          "date": "Jul 15, 2026",
+          "excerpt": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]"
+        },
+        {
+          "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
+          "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+          "date": "Jul 15, 2026",
+          "excerpt": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system found "
+        },
+        {
           "title": "CISA warns admins to patch actively exploited SharePoint flaws",
           "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
           "date": "Jul 15, 2026",
           "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server inst"
-        },
-        {
-          "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/",
-          "date": "Jul 15, 2026",
-          "excerpt": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]"
-        },
-        {
-          "title": "US charges alleged operators of Russian bulletproof hosting service",
-          "link": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
-          "date": "Jul 15, 2026",
-          "excerpt": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damage"
-        },
-        {
-          "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
-          "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
-          "date": "Jul 14, 2026",
-          "excerpt": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released"
-        },
-        {
-          "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
-          "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
-          "date": "Jul 14, 2026",
-          "excerpt": "The Spanish Police dismantled a cybercrime and money-laundering organization that made €140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "AWS sustainability claims don't hold water, lawsuit alleges",
-          "link": "https://www.theregister.com/on-prem/2026/07/15/aws-sustainability-claims-dont-hold-water-lawsuit-alleges/5269723",
+          "title": "Salesforce's Agentforce isn't winning over clients, KeyBanc analysts claim",
+          "link": "https://www.theregister.com/saas/2026/07/15/salesforces-agentforce-isnt-winning-over-clients-keybanc-analysts-claim/5271866",
           "date": "Jul 15, 2026",
-          "excerpt": "Ex-staffer accuses Amazon's Virginia datacenters of quietly guzzling H20 all year round, despite 'water positive' PR push"
+          "excerpt": "Investment bank cites messy customer data and a product that 'just isn't there'; Salesforce counters by saying it the fastest-growing product in its history"
         },
         {
-          "title": "EU lets wearables wriggle out of user-replaceable battery rules",
-          "link": "https://www.theregister.com/personal-tech/2026/07/15/eu-lets-wearables-wriggle-out-of-user-replaceable-battery-rules/5271641",
+          "title": "Linus Torvalds tells AI haters to fork off",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/15/linus-torvalds-tells-ai-haters-to-fork-off/5271894",
           "date": "Jul 15, 2026",
-          "excerpt": "Miniaturization means a professional's touch is needed"
+          "excerpt": "Linux supremo says contributors opposed to AI use can 'just walk away'"
         },
         {
-          "title": "A moment of silence, please, for the final release of Debian on x86-32",
-          "link": "https://www.theregister.com/os-platforms/2026/07/15/a-moment-of-silence-please-for-the-final-release-of-debian-on-x86-32/5271198",
+          "title": "Dark patterns in Windows are steering users to Edge: Mozilla-commissioned report",
+          "link": "https://www.theregister.com/os-platforms/2026/07/15/dark-patterns-in-windows-are-steering-users-to-edge-mozilla-commissioned-report/5271792",
           "date": "Jul 15, 2026",
-          "excerpt": "New Debian versions hit FOSSland in the form of 13.6 and 12.15"
+          "excerpt": "Report finds regional differences, especially outside the EEA, but it's still a dark tale claiming user manipulation"
         },
         {
-          "title": "EU competition decision hands SAP customers more leverage in contract talks",
-          "link": "https://www.theregister.com/software/2026/07/15/eu-competition-decision-hands-sap-customers-more-leverage-in-contract-talks/5271154",
+          "title": "CISA sounds alarm over trio of exploited SharePoint flaws",
+          "link": "https://www.theregister.com/security/2026/07/15/cisa-sounds-alarm-over-trio-of-exploited-sharepoint-flaws/5271814",
           "date": "Jul 15, 2026",
-          "excerpt": "Truce over maintenance fees is a bargaining chip for ECC holdouts – just don't expect a stampede to third-party support"
+          "excerpt": "Three bugs are under active attack, and two more critical holes could add to the pain"
         },
         {
-          "title": "Software bloat? This elevator needs an 8GB Core i5",
-          "link": "https://www.theregister.com/offbeat/2026/07/15/software-bloat-this-elevator-needs-an-8gb-core-i5/5270901",
+          "title": "Microsoft cancels Patch Tuesday for some Dell users over surprise shutdowns, overheating devices",
+          "link": "https://www.theregister.com/os-platforms/2026/07/15/microsoft-cancels-patch-tuesday-for-some-dell-users-over-surprise-shutdowns-overheating-devices/5271691",
           "date": "Jul 15, 2026",
-          "excerpt": "This elevator is headed for floor Bork"
+          "excerpt": "Mega hardware vendor reports problems - but Windows maker isn't yet naming affected models"
         }
       ]
     },
