@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-16T20:43:55.494Z",
+  "updatedAt": "2026-07-17T01:28:39.900Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
+          "date": "Jul 16, 2026",
+          "excerpt": "From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal b"
+        },
         {
           "title": "Least privilege for AI agents: Identity, access, and tool binding",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
           "date": "Jul 13, 2026",
           "excerpt": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misco"
-        },
-        {
-          "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
-          "date": "Jul 13, 2026",
-          "excerpt": "Microsoft Entra ID makes passkeys the default sign-in experience and introduces a new model for SMS and voice authentication. Read about how to prepare. The post Microsoft Entra ID security updates: P"
         }
       ]
     },
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "New ClickLock macOS malware traps users into revealing login password",
+          "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+          "date": "Jul 16, 2026",
+          "excerpt": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]"
+        },
+        {
+          "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+          "link": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+          "date": "Jul 16, 2026",
+          "excerpt": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the Unite"
+        },
+        {
           "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
           "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
           "date": "Jul 16, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/",
           "date": "Jul 16, 2026",
           "excerpt": "Traditional security workflows were built for environments that changed at human speed. Token Security explains why AI agents require a new approach: building on a live identity foundation while givin"
-        },
-        {
-          "title": "23andMe to pay $18 million in new genetics data breach settlement",
-          "link": "https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/",
-          "date": "Jul 16, 2026",
-          "excerpt": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]"
-        },
-        {
-          "title": "Scattered Spider members behind TfL hack get five years in prison",
-          "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-behind-transport-for-london-hack-get-five-years-in-prison/",
-          "date": "Jul 16, 2026",
-          "excerpt": "Two leading members of the Scattered Spider cybercrime collective were sentenced to five years and six months in prison each for hacking Transport for London (TfL) in 2024. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "EU forces Google to share its toys with the other AI and search kids",
-          "link": "https://www.theregister.com/software/2026/07/16/eu-forces-google-to-share-its-toys-with-the-other-ai-and-search-kids/5273819",
+          "title": "Chinese memory ban would cut off RAMpocalypse relief",
+          "link": "https://www.theregister.com/systems/2026/07/17/chinese-memory-ban-would-cut-off-rampocalypse-relief/5273993",
           "date": "Jul 16, 2026",
-          "excerpt": "The Chocolate Factory is not amused"
+          "excerpt": "Two US lawmakers push tighter curbs on chipmakers from the Middle Kingdom"
         },
         {
-          "title": "AI vendors have found someone to pay their infrastructure bills: You",
-          "link": "https://www.theregister.com/software/2026/07/16/ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you/5273712",
+          "title": "OpenAI admits GPT-5.6 occasionally deletes files – but it's an 'honest mistake'",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/16/openai-admits-gpt-56-occasionally-deletes-files-but-its-an-honest-mistake/5274008",
           "date": "Jul 16, 2026",
-          "excerpt": "Forrester warns price hikes and usage charges will pump up software budgets next year"
+          "excerpt": "Data purges deemed an example of 'misaligned behavior' that upstart is working to avoid"
         },
         {
-          "title": "Kick your mouse out of the house with this AI-assisted keyboard utility",
-          "link": "https://www.theregister.com/software/2026/07/16/kick-your-mouse-out-of-the-house-with-this-ai-assisted-keyboard-utility/5271938",
+          "title": "Amsterdam activists throw acid at Microsoft datacenter project",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/16/amsterdam-activists-throw-acid-at-microsoft-datacenter-project/5273943",
           "date": "Jul 16, 2026",
-          "excerpt": "Neverclick avoids being limited to certain apps by ditching accessibility APIs for a quick, lightweight computer vision model."
+          "excerpt": "Extinction Rebellion claims responsibility for chemical-filled balloon attack targeting concrete and steel"
         },
         {
-          "title": "C'mon, just copy this text string and paste it into your macOS Terminal – it'll fix your computer, honest",
-          "link": "https://www.theregister.com/cyber-crime/2026/07/16/cmon-just-copy-this-text-string-and-paste-it-into-your-macos-terminal-itll-fix-your-computer-honest/5273701",
+          "title": "Researcher poisons open-weight AI model for under $100",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/16/researcher-poisons-open-weight-ai-model-for-under-100/5273880",
           "date": "Jul 16, 2026",
-          "excerpt": "Newly documented stealer ClickLock comes for the more trusting Mac user with spot of social engineering"
+          "excerpt": "Models demand trust without offering verification"
         },
         {
-          "title": "NASA's Artemis III will need three rockets to do the job Apollo did with one",
-          "link": "https://www.theregister.com/science/2026/07/16/nasas-artemis-iii-will-need-three-rockets-to-do-the-job-apollo-did-with-one/5273620",
+          "title": "TSMC's $265B US fab pledge is the outline of a concept of a plan",
+          "link": "https://www.theregister.com/systems/2026/07/16/tsmcs-265b-us-fab-pledge-is-the-outline-of-a-concept-of-a-plan/5273903",
           "date": "Jul 16, 2026",
-          "excerpt": "Blue Origin and SpaceX get their turn to prove they can dock, loiter, and not blow up the launch pad"
+          "excerpt": "Beware of fab makers bearing press releases"
         }
       ]
     },
