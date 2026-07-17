@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T01:28:39.900Z",
+  "updatedAt": "2026-07-17T09:44:57.701Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Windows Server 2022 reach end of mainstream support in 90 days",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
+          "date": "Jul 17, 2026",
+          "excerpt": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]"
+        },
+        {
+          "title": "US charges two over laundering $43 million from investment fraud",
+          "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+          "date": "Jul 17, 2026",
+          "excerpt": "U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]"
+        },
+        {
+          "title": "CISA urges immediate action on actively exploited Fortinet flaws",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
+          "date": "Jul 17, 2026",
+          "excerpt": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]"
+        },
+        {
           "title": "New ClickLock macOS malware traps users into revealing login password",
           "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
           "date": "Jul 16, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
           "date": "Jul 16, 2026",
           "excerpt": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the Unite"
-        },
-        {
-          "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
-          "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
-          "date": "Jul 16, 2026",
-          "excerpt": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's access"
-        },
-        {
-          "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
-          "link": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
-          "date": "Jul 16, 2026",
-          "excerpt": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]"
-        },
-        {
-          "title": "AI Agents Broke the Security Playbook. Here's What Replaces It.",
-          "link": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/",
-          "date": "Jul 16, 2026",
-          "excerpt": "Traditional security workflows were built for environments that changed at human speed. Token Security explains why AI agents require a new approach: building on a live identity foundation while givin"
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "Chinese memory ban would cut off RAMpocalypse relief",
-          "link": "https://www.theregister.com/systems/2026/07/17/chinese-memory-ban-would-cut-off-rampocalypse-relief/5273993",
-          "date": "Jul 16, 2026",
-          "excerpt": "Two US lawmakers push tighter curbs on chipmakers from the Middle Kingdom"
-        },
-        {
-          "title": "OpenAI admits GPT-5.6 occasionally deletes files – but it's an 'honest mistake'",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/16/openai-admits-gpt-56-occasionally-deletes-files-but-its-an-honest-mistake/5274008",
-          "date": "Jul 16, 2026",
-          "excerpt": "Data purges deemed an example of 'misaligned behavior' that upstart is working to avoid"
-        },
-        {
-          "title": "Amsterdam activists throw acid at Microsoft datacenter project",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/16/amsterdam-activists-throw-acid-at-microsoft-datacenter-project/5273943",
-          "date": "Jul 16, 2026",
-          "excerpt": "Extinction Rebellion claims responsibility for chemical-filled balloon attack targeting concrete and steel"
-        },
-        {
-          "title": "Researcher poisons open-weight AI model for under $100",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/16/researcher-poisons-open-weight-ai-model-for-under-100/5273880",
-          "date": "Jul 16, 2026",
-          "excerpt": "Models demand trust without offering verification"
-        },
-        {
-          "title": "TSMC's $265B US fab pledge is the outline of a concept of a plan",
-          "link": "https://www.theregister.com/systems/2026/07/16/tsmcs-265b-us-fab-pledge-is-the-outline-of-a-concept-of-a-plan/5273903",
-          "date": "Jul 16, 2026",
-          "excerpt": "Beware of fab makers bearing press releases"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
