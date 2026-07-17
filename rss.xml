@@ -5,9 +5,25 @@
     <link>https://cloudjourneyblog.rohi-lab.org</link>
     <description>Security, automation, and the systems that connect them.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 09:49:48 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 13:21:17 GMT</lastBuildDate>
     <atom:link href="https://cloudjourneyblog.rohi-lab.org/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[Docker CVE-2026-34040: One Megabyte to Root]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/docker-cve-2026-34040</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/docker-cve-2026-34040</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A size check bug in Docker Engine let attackers bypass every AuthZ plugin for a decade. Here's how the vulnerability worked, who was exposed, and what it means for your container security stack.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[The Passkey Deadline]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/passkey-deadline</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/passkey-deadline</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Microsoft just made passkeys the default in Entra ID and set a February 2027 deadline for SMS. Here's what every organization needs to do now - and the migration roadmap that gets you there without disruption.]]></description>
+    </item>
+  
     <item>
       <title><![CDATA[Building a Multi-Profile Agent System with Hermes]]></title>
       <link>https://cloudjourneyblog.rohi-lab.org/blog/hermes-multi-profile-system</link>

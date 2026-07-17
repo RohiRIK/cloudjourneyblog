@@ -5,7 +5,7 @@
     <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     <description>Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman</description>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 09:49:47 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 13:21:16 GMT</lastBuildDate>
     <atom:link href="https://CloudJourneyBlog.rohi-lab.org/api/rss" rel="self" type="application/rss+xml" />
     <managingEditor>rohi@rohirikman.dev (Rohi Rikman)</managingEditor>
     <webMaster>rohi@rohirikman.dev (Rohi Rikman)</webMaster>
@@ -15,6 +15,26 @@
       <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     </image>
     
+    <item>
+      <title>Docker CVE-2026-34040: One Megabyte to Root</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/docker-cve-2026-34040</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/docker-cve-2026-34040</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A size check bug in Docker Engine let attackers bypass every AuthZ plugin for a decade. Here's how the vulnerability worked, who was exposed, and what it means for your container security stack.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/docker-cve-2026-34040.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>The Passkey Deadline</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/passkey-deadline</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/passkey-deadline</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Microsoft just made passkeys the default in Entra ID and set a February 2027 deadline for SMS. Here's what every organization needs to do now - and the migration roadmap that gets you there without disruption.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/passkey-deadline.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
     <item>
       <title>Building a Multi-Profile Agent System with Hermes</title>
       <link>https://CloudJourneyBlog.rohi-lab.org/blog/hermes-multi-profile-system</link>

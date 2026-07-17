@@ -1216,3 +1216,90 @@ dark steel. The graph breathes — some nodes vivid, some fading, the system
 tending itself.
 
 ---
+
+## 29. passkey-deadline.png
+
+**Concept:** COUNTDOWN / DEADLINE URGENCY problem type.
+SMS MFA is being retired — passkeys are becoming the default. The image should
+convey a ticking clock and a migration path: the old method fading, the new
+method solidifying.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Center composition: A large geometric hourglass, dominant in the frame,
+rendered in dark steel with neon-cyan circuit-trace edges. The hourglass is
+split into two distinct chambers:
+
+TOP CHAMBER (old method): Contains small floating SMS icons — geometric
+envelope shapes, rendered in fading dim red/orange. The icons are sinking
+downward through the hourglass neck, dissolving as they pass through.
+Some are already fragmented, broken into geometric shards. The red/orange
+glow is dimming.
+
+BOTTOM CHAMBER (new method): Small passkey/FIDO2 icons — geometric key
+shapes with circular verification rings — are accumulating, rendered in
+solid neon-green. They stack cleanly, growing brighter as they accumulate.
+Each key has a distinct hexagonal verification checkmark inside.
+
+The hourglass neck (the transition point) glows with a thin magenta line —
+the deprecation deadline. A small February calendar icon (geometric grid,
+28 cells, one highlighted) floats near the neck in dim amber, marking the
+date.
+
+Behind the hourglass: a faint Conditional Access shield icon in dim
+cyan, positioned upper-center — the policy engine driving the migration.
+Three thin lines descend from the shield to the bottom chamber, suggesting
+the enforcement path.
+
+Color palette: near-black background, hourglass in dark steel with
+cyan edges, old SMS icons in fading red/orange, passkey icons in
+neon-green, deprecation line in magenta, calendar in dim amber,
+shield in dim cyan. The hourglass is running — time is the constraint.
+
+---
+
+## 30. docker-cve-2026-34040.png
+
+**Concept:** BLINDSPOT / HIDDEN VULNERABILITY problem type.
+A security control (AuthZ plugin) that was supposed to protect the
+boundary has a hole in it — requests too large to see. The image should
+show the defense being circumvented by size, not by sophistication.
+
+**Prompt:**
+
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black
+background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No
+text in image.
+
+Center composition: A large geometric security gate — the AuthZ plugin —
+rendered as a vertical rectangular frame in deep purple with electric-cyan
+circuit traces. The gate has a visible inspection window: a rectangular
+opening in the center through which requests pass. Small authorized
+requests (green, passing through cleanly) are visible on the left side.
+
+On the right side of the gate: a massively oversized geometric block —
+a padded HTTP request body — rendered in dark steel with red warning
+edges. The block is wider than the gate's inspection window. It doesn't
+fit through the window. Instead, it slides UNDER the gate, bypassing
+the inspection window entirely. A gap between the gate's base and the
+floor is visible — the oversized request slips through the gap.
+
+Behind the gate: the Docker daemon — a large geometric whale icon in
+electric blue, processing the oversized block normally. The daemon is
+unaware the AuthZ plugin never saw it. The whale's eye is a simple
+circle, neutral, unseeing.
+
+Below the bypass: three small broken shield icons in dim red — OPA,
+Prisma Cloud, Casbin — the AuthZ plugins that were bypassed. Each has
+a visible crack. They're intact but blind.
+
+Color palette: near-black background, AuthZ gate in deep purple with
+cyan traces, authorized requests in neon-green, oversized block in dark
+steel with red edges, Docker whale in electric blue, broken shields in
+dim red. The bypass is mechanical, not clever — size defeats inspection.
+
+---
