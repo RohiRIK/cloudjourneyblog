@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-17T16:57:29.389Z",
+  "updatedAt": "2026-07-18T12:46:53.908Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
+          "date": "Jul 17, 2026",
+          "excerpt": "Join Microsoft Security at Black Hat USA 2026 for supply chain research, hands-on security experiences, expert conversations, and our reception. The post Microsoft at Black Hat USA 2026: Defending tru"
+        },
         {
           "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/",
           "date": "Jul 15, 2026",
           "excerpt": "Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post"
-        },
-        {
-          "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
-          "date": "Jul 13, 2026",
-          "excerpt": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misco"
         }
       ]
     },
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Abbott probes two cyber incidents amid extortion claims",
+          "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
+          "date": "Jul 17, 2026",
+          "excerpt": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also "
+        },
+        {
+          "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
+          "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
+          "date": "Jul 17, 2026",
+          "excerpt": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]"
+        },
+        {
           "title": "Ernst & Young discloses data breach after support system hack",
           "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
           "date": "Jul 17, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
           "date": "Jul 17, 2026",
           "excerpt": "A security researcher using the \"Nightmare Eclipse\" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]"
-        },
-        {
-          "title": "Windows Server 2022 reach end of mainstream support in 90 days",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
-          "date": "Jul 17, 2026",
-          "excerpt": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]"
-        },
-        {
-          "title": "US charges two over laundering $43 million from investment fraud",
-          "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
-          "date": "Jul 17, 2026",
-          "excerpt": "U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Torvalds challenged the haters to fork Linux. Someone said 'hold my beer'",
-          "link": "https://www.theregister.com/os-platforms/2026/07/17/torvalds-challenged-the-haters-to-fork-linux-someone-said-hold-my-beer/5274275",
-          "date": "Jul 17, 2026",
-          "excerpt": "More a rewrite really, and of a very early version: Linux 0.11 – in Rust"
+          "title": "NextBSD returns to dollop Apple source on FreeBSD",
+          "link": "https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788",
+          "date": "Jul 18, 2026",
+          "excerpt": "New maintainer revives the project with Darwin components, Gershwin, and Claude Code"
         },
         {
-          "title": "Microsoft gives admins Exchange Online breathing room",
-          "link": "https://www.theregister.com/saas/2026/07/17/microsoft-gives-admins-exchange-online-breathing-room/5274346",
+          "title": "Mozilla speeds Firefox release schedule to biweekly",
+          "link": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423",
           "date": "Jul 17, 2026",
-          "excerpt": "Retirement of PowerShell -Credential parameter pushed back to the end of 2026"
+          "excerpt": "And what to expect in Firefox 153 as the next ESR release gets close"
         },
         {
-          "title": "Top EU court clips YouTube's intermediary defense over reviewed content",
-          "link": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299",
+          "title": "Microsoft cuts OneDrive support for older Windows 10 versions next month",
+          "link": "https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489",
           "date": "Jul 17, 2026",
-          "excerpt": "You can't claim to be a passive host after vetting a creator's channel, Google warned"
+          "excerpt": "22H2 has until 2028, or there's always Windows 11"
         },
         {
-          "title": "Attackers target critical FortiSandbox flaws as CISA issues patch order",
-          "link": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287",
+          "title": "Billing software error sends billion-dollar AWS estimates",
+          "link": "https://www.theregister.com/off-prem/2026/07/17/billing-software-error-sends-billion-dollar-aws-estimates/5274521",
           "date": "Jul 17, 2026",
-          "excerpt": "Command injection vulns land on exploited list after researchers spot abuse attempts"
+          "excerpt": "Amazon asks users not to panic as it works to fix the bug"
         },
         {
-          "title": "SpaceX Starship Flight Test 13 takes issue with the 'flight' bit",
-          "link": "https://www.theregister.com/science/2026/07/17/spacex-starship-flight-test-13-takes-issue-with-the-flight-bit/5274228",
+          "title": "AI spam filters are getting suckered by old-school text salting",
+          "link": "https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434",
           "date": "Jul 17, 2026",
-          "excerpt": "Engine replacement needed after launchpad abort"
+          "excerpt": "Turns out decades-old email tricks still work against some LLM-powered email filters"
         }
       ]
     },
