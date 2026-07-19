@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T16:42:37.580Z",
+  "updatedAt": "2026-07-19T20:36:43.427Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -74,7 +74,7 @@
           "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
           "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
           "date": "Jul 18, 2026",
-          "excerpt": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]"
+          "excerpt": "7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed f"
         },
         {
           "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "Connecting AI agents to outside services explodes the risk radius",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640",
-          "date": "Jul 19, 2026",
-          "excerpt": "Connect all the things and watch what happens"
-        },
-        {
-          "title": "Using AI makes people less likely to admit they don't know something",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567",
-          "date": "Jul 19, 2026",
-          "excerpt": "Researchers found confidence increased even as accuracy fell"
-        },
-        {
-          "title": "Java was a three-day hotfix away from dying horribly on stage",
-          "link": "https://www.theregister.com/devops/2026/07/18/java-was-a-three-day-hotfix-away-from-dying-horribly-on-stage/5274590",
-          "date": "Jul 18, 2026",
-          "excerpt": "Tim Lindholm, Java's original JVM maintainer, shares with El Reg some of the grungy build details the doc glosses over"
-        },
-        {
-          "title": "NextBSD returns to dollop Apple source on FreeBSD",
-          "link": "https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788",
-          "date": "Jul 18, 2026",
-          "excerpt": "New maintainer revives the project with Darwin components, Gershwin, and Claude Code"
-        },
-        {
-          "title": "Mozilla speeds Firefox release schedule to biweekly",
-          "link": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423",
-          "date": "Jul 17, 2026",
-          "excerpt": "And what to expect in Firefox 153 as the next ESR release gets close"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
