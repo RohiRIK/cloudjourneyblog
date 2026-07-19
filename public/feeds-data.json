@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T12:49:39.716Z",
+  "updatedAt": "2026-07-19T16:42:37.580Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Hackers abuse ViPNet software to target Russian govt agencies",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+          "date": "Jul 19, 2026",
+          "excerpt": "An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]"
+        },
+        {
           "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
           "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
           "date": "Jul 18, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
           "date": "Jul 18, 2026",
           "excerpt": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies ag"
-        },
-        {
-          "title": "Abbott probes two cyber incidents amid extortion claims",
-          "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-          "date": "Jul 17, 2026",
-          "excerpt": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also "
         }
       ]
     },
@@ -101,6 +101,12 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Connecting AI agents to outside services explodes the risk radius",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640",
+          "date": "Jul 19, 2026",
+          "excerpt": "Connect all the things and watch what happens"
+        },
         {
           "title": "Using AI makes people less likely to admit they don't know something",
           "link": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423",
           "date": "Jul 17, 2026",
           "excerpt": "And what to expect in Firefox 153 as the next ESR release gets close"
-        },
-        {
-          "title": "Microsoft cuts OneDrive support for older Windows 10 versions next month",
-          "link": "https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489",
-          "date": "Jul 17, 2026",
-          "excerpt": "22H2 has until 2028, or there's always Windows 11"
         }
       ]
     },
