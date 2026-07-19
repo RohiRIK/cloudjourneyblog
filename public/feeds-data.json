@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T12:46:53.908Z",
+  "updatedAt": "2026-07-19T09:43:02.400Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
+          "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
+          "date": "Jul 18, 2026",
+          "excerpt": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]"
+        },
+        {
+          "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+          "link": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+          "date": "Jul 18, 2026",
+          "excerpt": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. ["
+        },
+        {
+          "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
+          "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+          "date": "Jul 18, 2026",
+          "excerpt": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]"
+        },
+        {
+          "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
+          "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
+          "date": "Jul 18, 2026",
+          "excerpt": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies ag"
+        },
+        {
           "title": "Abbott probes two cyber incidents amid extortion claims",
           "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
           "date": "Jul 17, 2026",
           "excerpt": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also "
-        },
-        {
-          "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
-          "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
-          "date": "Jul 17, 2026",
-          "excerpt": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]"
-        },
-        {
-          "title": "Ernst & Young discloses data breach after support system hack",
-          "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-          "date": "Jul 17, 2026",
-          "excerpt": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]"
-        },
-        {
-          "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
-          "link": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
-          "date": "Jul 17, 2026",
-          "excerpt": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residential proxies and combine them with browser fingerprin"
-        },
-        {
-          "title": "New Windows LegacyHive zero-day gives hackers admin privileges",
-          "link": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
-          "date": "Jul 17, 2026",
-          "excerpt": "A security researcher using the \"Nightmare Eclipse\" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Using AI makes people less likely to admit they don't know something",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567",
+          "date": "Jul 19, 2026",
+          "excerpt": "Researchers found confidence increased even as accuracy fell"
+        },
+        {
+          "title": "Java was a three-day hotfix away from dying horribly on stage",
+          "link": "https://www.theregister.com/devops/2026/07/18/java-was-a-three-day-hotfix-away-from-dying-horribly-on-stage/5274590",
+          "date": "Jul 18, 2026",
+          "excerpt": "Tim Lindholm, Java's original JVM maintainer, shares with El Reg some of the grungy build details the doc glosses over"
+        },
         {
           "title": "NextBSD returns to dollop Apple source on FreeBSD",
           "link": "https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/os-platforms/2026/07/17/microsoft-cuts-onedrive-support-for-older-windows-10-versions-next-month/5274489",
           "date": "Jul 17, 2026",
           "excerpt": "22H2 has until 2028, or there's always Windows 11"
-        },
-        {
-          "title": "Billing software error sends billion-dollar AWS estimates",
-          "link": "https://www.theregister.com/off-prem/2026/07/17/billing-software-error-sends-billion-dollar-aws-estimates/5274521",
-          "date": "Jul 17, 2026",
-          "excerpt": "Amazon asks users not to panic as it works to fix the bug"
-        },
-        {
-          "title": "AI spam filters are getting suckered by old-school text salting",
-          "link": "https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434",
-          "date": "Jul 17, 2026",
-          "excerpt": "Turns out decades-old email tricks still work against some LLM-powered email filters"
         }
       ]
     },
