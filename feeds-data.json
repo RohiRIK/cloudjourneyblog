@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T20:36:43.427Z",
+  "updatedAt": "2026-07-20T06:37:28.576Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Comment in code read 'Dear future me, sorry I wrote this'",
+          "link": "https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130",
+          "date": "Jul 20, 2026",
+          "excerpt": "Developer was hired to write VB, used C# instead, and thought he mostly made it work"
+        },
+        {
+          "title": "AI ops tools will create console sprawl and break IT more often: Gartner",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712",
+          "date": "Jul 20, 2026",
+          "excerpt": "Yet by 2030, a quarter of the IT ops work you do now will be handled by an unsupervised clanker"
+        },
+        {
+          "title": "Chinese President Xi Jinping wants emergency response systems to keep AI in check",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/20/chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check/5274687",
+          "date": "Jul 20, 2026",
+          "excerpt": "PLUS: Korean e-tailer Coupang's warehouse burns and burns; Australian Uni expels VMware; India's first private rocket flies first time; And more!"
+        },
+        {
+          "title": "Connecting AI agents to outside services explodes the risk radius",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640",
+          "date": "Jul 19, 2026",
+          "excerpt": "Connect all the things and watch what happens"
+        },
+        {
+          "title": "Using AI makes people less likely to admit they don't know something",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567",
+          "date": "Jul 19, 2026",
+          "excerpt": "Researchers found confidence increased even as accuracy fell"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
