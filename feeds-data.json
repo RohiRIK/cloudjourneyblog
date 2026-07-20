@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T10:38:52.236Z",
+  "updatedAt": "2026-07-20T17:18:58.056Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "An AI SOC Evaluation Guide for Security Leaders",
+          "link": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
+          "date": "Jul 20, 2026",
+          "excerpt": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC soluti"
+        },
+        {
+          "title": "Hugging Face warns an autonomous AI agent hacked its network",
+          "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+          "date": "Jul 20, 2026",
+          "excerpt": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI age"
+        },
+        {
+          "title": "Microsoft confirms Windows Server Update Services sync delays",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
+          "date": "Jul 20, 2026",
+          "excerpt": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]"
+        },
+        {
           "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
           "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
           "date": "Jul 20, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
           "date": "Jul 20, 2026",
           "excerpt": "Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]"
-        },
-        {
-          "title": "Hackers abuse ViPNet software to target Russian govt agencies",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
-          "date": "Jul 19, 2026",
-          "excerpt": "An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]"
-        },
-        {
-          "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
-          "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
-          "date": "Jul 18, 2026",
-          "excerpt": "7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed f"
-        },
-        {
-          "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
-          "link": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
-          "date": "Jul 18, 2026",
-          "excerpt": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. ["
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "The Document Foundation says Microsoft's file formats keep users on a short leash",
+          "link": "https://www.theregister.com/applications/2026/07/20/the-document-foundation-says-microsofts-file-formats-keep-users-on-a-short-leash/5274960",
+          "date": "Jul 20, 2026",
+          "excerpt": "OOXML may carry an ISO certificate, but only Office can be trusted to render it properly"
+        },
+        {
+          "title": "Microsoft 365 calendars become spy drop boxes in HOLLOWGRAPH campaign",
+          "link": "https://www.theregister.com/security/2026/07/20/microsoft-365-calendars-become-spy-drop-boxes-in-hollowgraph-campaign/5274982",
+          "date": "Jul 20, 2026",
+          "excerpt": "Malware hides commands in appointments set for 2050 and uses Redmond's own cloud to phone home"
+        },
+        {
+          "title": "Windows Server Update Services buckle under Microsoft's metadata mountain",
+          "link": "https://www.theregister.com/systems/2026/07/20/windows-server-update-services-buckle-under-microsofts-metadata-mountain/5274843",
+          "date": "Jul 20, 2026",
+          "excerpt": "Redmond has stabilized new installations, but existing deployments remain stuck in sync purgatory"
+        },
+        {
+          "title": "EU's AI labeling rules take effect next month",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/20/eus-ai-labeling-rules-take-effect-next-month/5274917",
+          "date": "Jul 20, 2026",
+          "excerpt": "Chatbots and agents will have to come clean about who – or what – users are talking to"
+        },
+        {
+          "title": "Watching the world burn as all the money flows into a multitrillion-dollar Magic 8 Ball",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/20/watching-the-world-burn-as-all-the-money-flows-into-a-multitrillion-dollar-magic-8-ball/5274553",
+          "date": "Jul 20, 2026",
+          "excerpt": "On this week's episode of The Kettle, we welcome a special guest to discuss how the AI datacenter buildout is setting the world on fire – literally"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
