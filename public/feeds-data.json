@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T17:06:13.490Z",
+  "updatedAt": "2026-07-21T20:56:59.073Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
+          "link": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
+          "date": "Jul 21, 2026",
+          "excerpt": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]"
+        },
+        {
+          "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
+          "link": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+          "date": "Jul 21, 2026",
+          "excerpt": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ran"
+        },
+        {
           "title": "Critical wp2shell WordPress flaws exploited to install webshells",
           "link": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
           "date": "Jul 21, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
           "date": "Jul 21, 2026",
           "excerpt": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]"
-        },
-        {
-          "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
-          "link": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
-          "date": "Jul 21, 2026",
-          "excerpt": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]"
-        },
-        {
-          "title": "Microsoft shares manual fix for WSUS sync delays and timeouts",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-manual-fix-for-wsus-sync-delays-and-timeouts/",
-          "date": "Jul 21, 2026",
-          "excerpt": "Microsoft has shared manual mitigations to help IT administrators fix Windows Server Update Services (WSUS) servers affected by a known issue that causes Windows Update scans to fail or time out. [..."
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "US Marines' latest anti-drone toy is an AI turret that uses regular machine guns",
+          "link": "https://www.theregister.com/offbeat/2026/07/21/us-marines-latest-anti-drone-toy-is-an-ai-turret-that-uses-regular-machine-guns/5275691",
+          "date": "Jul 21, 2026",
+          "excerpt": "Don't worry - it can autonomously attack ground targets, too"
+        },
+        {
+          "title": "Iran says it's struck offline AWS facility in Bahrain ... again",
+          "link": "https://www.theregister.com/off-prem/2026/07/21/iran-says-its-struck-offline-aws-facility-in-bahrain-again/5275762",
+          "date": "Jul 21, 2026",
+          "excerpt": "AWS' me-south-1 region has been offline for months, so more like beating a dead cloud"
+        },
         {
           "title": "Oracle faces $100M annual bill to back Wisconsin datacenter power promises",
           "link": "https://www.theregister.com/ai-and-ml/2026/07/21/oracle-faces-100m-annual-bill-to-back-wisconsin-datacenter-power-promises/5275728",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/systems/2026/07/21/nvidia-shows-off-vera-rubin-platform-for-tokenmaxxing/5275316",
           "date": "Jul 21, 2026",
           "excerpt": "If your AI Factory sells tokens, why not optimize token emission?"
-        },
-        {
-          "title": "Windows 11 Start menu changes trickle into Beta, movable taskbar still MIA",
-          "link": "https://www.theregister.com/os-platforms/2026/07/21/windows-11-start-menu-changes-trickle-into-beta-movable-taskbar-still-mia/5275549",
-          "date": "Jul 21, 2026",
-          "excerpt": "Users asked for flexibility, but a leaner OS for older PCs might matter more as hardware prices soar"
-        },
-        {
-          "title": "AI music platform Suno hits bum note as 55M users exposed in data breach, claims infosec expert",
-          "link": "https://www.theregister.com/security/2026/07/21/breach-of-ai-music-platform-suno-affected-55m-user-accounts/5275514",
-          "date": "Jul 21, 2026",
-          "excerpt": "Have I Been Pwned confirms scale for first time"
         }
       ]
     },
