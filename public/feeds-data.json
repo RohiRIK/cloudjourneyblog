@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T01:25:08.227Z",
+  "updatedAt": "2026-07-22T06:20:23.674Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "OpenAI says its AI models hacked Hugging Face during testing",
+          "link": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/",
+          "date": "Jul 22, 2026",
+          "excerpt": "OpenAI says its AI models, including GPT‑5.6 Sol and a pre-release model, hacked into the Hugging Face artificial intelligence repository while being tested in a sandboxed testing environment. [...]"
+        },
+        {
           "title": "Police dismantle Kratos phishing platform, arrest developer",
           "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
           "date": "Jul 21, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
           "date": "Jul 21, 2026",
           "excerpt": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ran"
-        },
-        {
-          "title": "Critical wp2shell WordPress flaws exploited to install webshells",
-          "link": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
-          "date": "Jul 21, 2026",
-          "excerpt": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on affected"
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "China advances plans for national single-stack IPv6 network, and its own surveillance-friendly version of the protocol",
+          "link": "https://www.theregister.com/networks/2026/07/22/china-advances-plans-for-national-single-stack-ipv6-network-and-its-own-surveillance-friendly-version-of-the-protocol/5275984",
+          "date": "Jul 22, 2026",
+          "excerpt": "IPv6+ could make it easier to censor netizens or block traffic, and Beijing is already exporting it"
+        },
+        {
+          "title": "OpenAI admits it was the source of the agent swarm that attacked Hugging Face",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/22/openai-admits-it-was-the-source-of-the-agent-swarm-that-attacked-hugging-face/5275939",
+          "date": "Jul 22, 2026",
+          "excerpt": "Sandboxed experiment found itself a zero day, escaped onto the open internet and validated scary predictions about rogue agents"
+        },
         {
           "title": "The truth nobody wants to admit: Chinese or not, open models are competitive now",
           "link": "https://www.theregister.com/ai-and-ml/2026/07/22/the-truth-nobody-wants-to-admit-chinese-or-not-open-models-are-competitive-now/5275879",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/07/21/ais-cheatin-heart-will-make-you-weep/5275784",
           "date": "Jul 21, 2026",
           "excerpt": "Trust but verify doesn't work when verification is difficult"
-        },
-        {
-          "title": "US Marines' latest anti-drone toy is an AI turret that uses regular machine guns",
-          "link": "https://www.theregister.com/offbeat/2026/07/21/us-marines-latest-anti-drone-toy-is-an-ai-turret-that-uses-regular-machine-guns/5275691",
-          "date": "Jul 21, 2026",
-          "excerpt": "Don't worry - it can autonomously attack ground targets, too"
-        },
-        {
-          "title": "Iran says it's struck offline AWS facility in Bahrain ... again",
-          "link": "https://www.theregister.com/off-prem/2026/07/21/iran-says-its-struck-offline-aws-facility-in-bahrain-again/5275762",
-          "date": "Jul 21, 2026",
-          "excerpt": "AWS' me-south-1 region has been offline for months, so more like beating a dead cloud"
         }
       ]
     },
