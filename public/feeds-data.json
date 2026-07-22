@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T20:56:59.073Z",
+  "updatedAt": "2026-07-22T01:25:08.227Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Police dismantle Kratos phishing platform, arrest developer",
+          "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
+          "date": "Jul 21, 2026",
+          "excerpt": "Authorities in Germany and the U.S. dismantled the central infrastructure of Kratos, a phishing-as-a-service (PhaaS) platform with global reach, and its developer was arrested in Indonesia. [...]"
+        },
+        {
+          "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
+          "link": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
+          "date": "Jul 21, 2026",
+          "excerpt": "A large-scale operation dubbed 'FakeGit' is pushing SmartLoader and StealC malware through 7,600 malicious GitHub repositories that accumulated more than 14 million downloads. [...]"
+        },
+        {
           "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
           "link": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
           "date": "Jul 21, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
           "date": "Jul 21, 2026",
           "excerpt": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on affected"
-        },
-        {
-          "title": "Closing the Identity Gaps in Critical Infrastructure Security",
-          "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
-          "date": "Jul 21, 2026",
-          "excerpt": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device tr"
-        },
-        {
-          "title": "US seizes over 1,000 websites in FIFA World Cup piracy crackdown",
-          "link": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
-          "date": "Jul 21, 2026",
-          "excerpt": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "The truth nobody wants to admit: Chinese or not, open models are competitive now",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/22/the-truth-nobody-wants-to-admit-chinese-or-not-open-models-are-competitive-now/5275879",
+          "date": "Jul 21, 2026",
+          "excerpt": "Hey Uncle Sam, if you thought GPT-5.6 and Claude Fable 5 were scary, get a load of Kimi K3"
+        },
+        {
+          "title": "Cisco's open-weight bug busters take on Google and OpenAI",
+          "link": "https://www.theregister.com/security/2026/07/21/ciscos-open-weight-bug-busters-take-on-google-and-openai/5275817",
+          "date": "Jul 21, 2026",
+          "excerpt": "Don't call them chatbots"
+        },
+        {
+          "title": "AI's cheatin' heart will make you weep",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/21/ais-cheatin-heart-will-make-you-weep/5275784",
+          "date": "Jul 21, 2026",
+          "excerpt": "Trust but verify doesn't work when verification is difficult"
+        },
         {
           "title": "US Marines' latest anti-drone toy is an AI turret that uses regular machine guns",
           "link": "https://www.theregister.com/offbeat/2026/07/21/us-marines-latest-anti-drone-toy-is-an-ai-turret-that-uses-regular-machine-guns/5275691",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/off-prem/2026/07/21/iran-says-its-struck-offline-aws-facility-in-bahrain-again/5275762",
           "date": "Jul 21, 2026",
           "excerpt": "AWS' me-south-1 region has been offline for months, so more like beating a dead cloud"
-        },
-        {
-          "title": "Oracle faces $100M annual bill to back Wisconsin datacenter power promises",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/21/oracle-faces-100m-annual-bill-to-back-wisconsin-datacenter-power-promises/5275728",
-          "date": "Jul 21, 2026",
-          "excerpt": "Regulator refuses to budge on $7B guarantee for nearly 1 GW campus being developed with Vantage and OpenAI"
-        },
-        {
-          "title": "Kratos phishing-as-a-service kit loses its battle with international law enforcement",
-          "link": "https://www.theregister.com/security/2026/07/21/german-authorities-lead-takedown-of-kratos-phishing-platform/5275666",
-          "date": "Jul 21, 2026",
-          "excerpt": "Alleged developer arrested in Indonesia after more than 200 servers slain"
-        },
-        {
-          "title": "Nvidia shows off Vera Rubin platform for tokenmaxxing",
-          "link": "https://www.theregister.com/systems/2026/07/21/nvidia-shows-off-vera-rubin-platform-for-tokenmaxxing/5275316",
-          "date": "Jul 21, 2026",
-          "excerpt": "If your AI Factory sells tokens, why not optimize token emission?"
         }
       ]
     },
