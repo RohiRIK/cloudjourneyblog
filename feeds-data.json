@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T06:20:23.674Z",
+  "updatedAt": "2026-07-22T10:12:51.415Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
+          "date": "Jul 22, 2026",
+          "excerpt": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]"
+        },
+        {
           "title": "OpenAI says its AI models hacked Hugging Face during testing",
           "link": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/",
           "date": "Jul 22, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
           "date": "Jul 21, 2026",
           "excerpt": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]"
-        },
-        {
-          "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
-          "link": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
-          "date": "Jul 21, 2026",
-          "excerpt": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ran"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Redmond's reaper cometh: October 2026 set to bury a graveyard of Microsoft products",
+          "link": "https://www.theregister.com/software/2026/07/22/redmonds-reaper-cometh-october-2026-set-to-bury-a-graveyard-of-microsoft-products/5275627",
+          "date": "Jul 22, 2026",
+          "excerpt": "Office LTSC 2021, Windows Server 2022, Publisher, and Entra ID risk policies all facing the chop within weeks of each other"
+        },
+        {
+          "title": "Raspberry Pi goes large with 10.1-inch Touch Display 2",
+          "link": "https://www.theregister.com/personal-tech/2026/07/22/raspberry-pi-goes-large-with-101-inch-touch-display-2/5276030",
+          "date": "Jul 22, 2026",
+          "excerpt": "More screen, more pixels, and a Pi 5 required to drive the lot"
+        },
+        {
+          "title": "Council worker spared prison after four-day data-snooping spree",
+          "link": "https://www.theregister.com/security/2026/07/22/council-worker-spared-prison-after-four-day-data-snooping-spree/5276054",
+          "date": "Jul 22, 2026",
+          "excerpt": "Herefordshire employee handed suspended sentence for breach of Computer Misuse Act"
+        },
+        {
+          "title": "Anyone with a shed, an extension cord, a couple of GPUs and an overdraft is building datacenters. Fujitsu just offloaded five",
+          "link": "https://www.theregister.com/off-prem/2026/07/22/anyone-with-a-shed-an-extension-cord-a-couple-of-gpus-and-an-overdraft-is-building-datacenters-fujitsu-just-offloaded-five/5276007",
+          "date": "Jul 22, 2026",
+          "excerpt": "‘Digital transformation’ is a better bet, apparently, so private equity gets a turn"
+        },
+        {
           "title": "China advances plans for national single-stack IPv6 network, and its own surveillance-friendly version of the protocol",
           "link": "https://www.theregister.com/networks/2026/07/22/china-advances-plans-for-national-single-stack-ipv6-network-and-its-own-surveillance-friendly-version-of-the-protocol/5275984",
           "date": "Jul 22, 2026",
           "excerpt": "IPv6+ could make it easier to censor netizens or block traffic, and Beijing is already exporting it"
-        },
-        {
-          "title": "OpenAI admits it was the source of the agent swarm that attacked Hugging Face",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/22/openai-admits-it-was-the-source-of-the-agent-swarm-that-attacked-hugging-face/5275939",
-          "date": "Jul 22, 2026",
-          "excerpt": "Sandboxed experiment found itself a zero day, escaped onto the open internet and validated scary predictions about rogue agents"
-        },
-        {
-          "title": "The truth nobody wants to admit: Chinese or not, open models are competitive now",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/22/the-truth-nobody-wants-to-admit-chinese-or-not-open-models-are-competitive-now/5275879",
-          "date": "Jul 21, 2026",
-          "excerpt": "Hey Uncle Sam, if you thought GPT-5.6 and Claude Fable 5 were scary, get a load of Kimi K3"
-        },
-        {
-          "title": "Cisco's open-weight bug busters take on Google and OpenAI",
-          "link": "https://www.theregister.com/security/2026/07/21/ciscos-open-weight-bug-busters-take-on-google-and-openai/5275817",
-          "date": "Jul 21, 2026",
-          "excerpt": "Don't call them chatbots"
-        },
-        {
-          "title": "AI's cheatin' heart will make you weep",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/21/ais-cheatin-heart-will-make-you-weep/5275784",
-          "date": "Jul 21, 2026",
-          "excerpt": "Trust but verify doesn't work when verification is difficult"
         }
       ]
     },
