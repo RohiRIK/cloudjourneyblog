@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-23T13:21:16.577Z",
+  "updatedAt": "2026-07-23T17:07:32.897Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Email threat landscape: Q2 2026 trends and insights",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
+          "date": "Jul 23, 2026",
+          "excerpt": "In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat "
+        },
         {
           "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
           "date": "Jul 16, 2026",
           "excerpt": "As AI agents become more autonomous, strong identity, access, and auditing controls are critical to keeping them secure. The post Least privilege for AI agents: Identity, access, and tool binding appe"
-        },
-        {
-          "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
-          "date": "Jul 16, 2026",
-          "excerpt": "Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defe"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
+          "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
+          "date": "Jul 23, 2026",
+          "excerpt": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing atta"
+        },
+        {
+          "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+          "date": "Jul 23, 2026",
+          "excerpt": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence. [."
+        },
+        {
+          "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
+          "date": "Jul 23, 2026",
+          "excerpt": "Microsoft Teams and several Microsoft 365 services are experiencing an ongoing outage, with users reporting problems accessing Teams, SharePoint, Excel and the Microsoft 365 Admin Center. [...]"
+        },
+        {
+          "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
+          "link": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
+          "date": "Jul 23, 2026",
+          "excerpt": "FedRAMP 20X replaces point-in-time assessments with continuous, machine-readable evidence that demonstrates security controls are working. Anecdotes explains what the transition from Rev5 to FedRAMP 2"
+        },
+        {
           "title": "EU fines Google $1 billion for search, app store antitrust violations",
           "link": "https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/",
           "date": "Jul 23, 2026",
           "excerpt": "The European Commission fined Google €890 million ($1 billion) on Thursday after finding the company had violated the European Union's Digital Markets Act (DMA), which ensures fair online competition."
-        },
-        {
-          "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
-          "link": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
-          "date": "Jul 23, 2026",
-          "excerpt": "A nine-year-old race condition vulnerability in the Linux kernel's XFS filesystem, tracked as CVE-2026-64600, allows local attackers to overwrite protected files and gain root privileges. [...]"
-        },
-        {
-          "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
-          "link": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
-          "date": "Jul 23, 2026",
-          "excerpt": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]"
-        },
-        {
-          "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
-          "date": "Jul 23, 2026",
-          "excerpt": "Microsoft is working to resolve an ongoing Exchange Online issue that has been mistakenly quarantining customers' mailboxes since Sunday. [...]"
-        },
-        {
-          "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
-          "date": "Jul 23, 2026",
-          "excerpt": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "One ChatGPT link could smuggle a rogue AI agent into your company",
-          "link": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
+          "title": "Year-long Russian attacks infect users as soon as they look at an email",
+          "link": "https://www.theregister.com/patches/2026/07/23/year-long-russian-attacks-infect-users-as-soon-as-they-look-at-an-email/5277358",
           "date": "Jul 23, 2026",
-          "excerpt": "Researchers say OpenAI flaw let phishing bait create an autonomous corporate mole armed with employee access"
+          "excerpt": "Phishing for dummies"
         },
         {
-          "title": "If you get knocked on the head and get all your devices stolen and have amnesia, Google will let you back in with a selfie",
-          "link": "https://www.theregister.com/security/2026/07/23/if-you-get-knocked-on-the-head-and-get-all-your-devices-stolen-and-have-amnesia-google-will-let-you-back-in-with-a-selfie/5276669",
+          "title": "Model Context Protocol prepares to break with its stateful past",
+          "link": "https://www.theregister.com/devops/2026/07/23/model-context-protocol-prepares-to-break-with-its-stateful-past/5276722",
           "date": "Jul 23, 2026",
-          "excerpt": "You'll need to be able to move your head side to side to make sure you're not a deepfake"
+          "excerpt": "Biggest overhaul since launch ditches sessions, guts little-used features, and leaves homebrew implementations facing a slog"
         },
         {
-          "title": "Swiss train maker tells ransomware crooks to get off at the next stop",
-          "link": "https://www.theregister.com/security/2026/07/23/stadler-rail-scoffs-at-eversts-123m-extortion-attempts/5276922",
+          "title": "Millions of California-bought cars can be hijacked via Bluetooth",
+          "link": "https://www.theregister.com/security/2026/07/23/millions-of-california-bought-cars-can-be-hijacked-via-bluetooth/5277315",
           "date": "Jul 23, 2026",
-          "excerpt": "Stadler refuses $12.3M demand after thieves swipe technical data through supplier platform"
+          "excerpt": "Aftermarket dealer-installed KARR/SWDS security systems all use the same secure key, say UCSD researchers"
         },
         {
-          "title": "IBM insists AI didn't kill software deals, just delayed them",
-          "link": "https://www.theregister.com/software/2026/07/23/ibm-insists-ai-didnt-kill-software-deals-just-delayed-them/5276977",
+          "title": "Oracle drops 1,449 security patches like it's the new normal",
+          "link": "https://www.theregister.com/security/2026/07/23/oracle-drops-1449-security-patches-like-its-the-new-normal/5277114",
           "date": "Jul 23, 2026",
-          "excerpt": "Big Blue says customers postponed rather than abandoned major purchases as hardware soaked up enterprise budgets"
+          "excerpt": "Experts say the era of AI bug hunting is here, so defenders will simply have to adapt to busier workloads"
         },
         {
-          "title": "Firefox 153 contains itself while Thunderbird 153 fixes almost everything",
-          "link": "https://www.theregister.com/software/2026/07/23/firefox-153-contains-itself-while-thunderbird-153-fixes-almost-everything/5276390",
+          "title": "GitHub slashes public bug bounty payouts as AI report flood buries its security team",
+          "link": "https://www.theregister.com/devops/2026/07/23/github-slashes-public-bug-bounty-payouts-as-ai-report-flood-buries-its-security-team/5277046",
           "date": "Jul 23, 2026",
-          "excerpt": "Mozilla walls off your online identities as MZLA unleashes a bumper repair job"
+          "excerpt": "Code shack also putting new limits on first-time researchers, and reserving the biggest rewards for a hand-picked group of proven hunters"
         }
       ]
     },
