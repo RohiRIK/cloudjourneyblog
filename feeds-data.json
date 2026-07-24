@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T13:15:05.574Z",
+  "updatedAt": "2026-07-24T17:19:23.530Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+          "date": "Jul 24, 2026",
+          "excerpt": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more devices than intended, disrupting Azure and Microso"
+        },
+        {
+          "title": "Chick-fil-A data breach affects more than 13,000 customers",
+          "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+          "date": "Jul 24, 2026",
+          "excerpt": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]"
+        },
+        {
+          "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
+          "link": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+          "date": "Jul 24, 2026",
+          "excerpt": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated package, repo, or domain names. ActiveState explains ho"
+        },
+        {
           "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
           "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
           "date": "Jul 24, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
           "date": "Jul 24, 2026",
           "excerpt": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]"
-        },
-        {
-          "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
-          "date": "Jul 24, 2026",
-          "excerpt": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]"
-        },
-        {
-          "title": "New Dolphin X malware uses AI to rank high-value targets",
-          "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
-          "date": "Jul 23, 2026",
-          "excerpt": "A new Dolphin X remote access trojan claims to use an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify which victims should be targeted first. [...]"
-        },
-        {
-          "title": "Australian energy provider Origin says data breach exposes client data",
-          "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
-          "date": "Jul 23, 2026",
-          "excerpt": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiable information (PII), among others. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "ChatGPT wants access to your health records so it can be a better not-doctor",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/24/chatgpt-wants-access-to-your-health-records-so-it-can-be-a-better-not-doctor/5278430",
+          "date": "Jul 24, 2026",
+          "excerpt": "Feature launches a day after lawsuit alleges chatbot advice contributed to near-fatal embolism"
+        },
+        {
+          "title": "Cambodian Prime Minister Hun Manet met with ZTE to deepen cooperation in digital infrastructure and artificial intelligence (AI)",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/24/partner-content/5278416",
+          "date": "Jul 24, 2026",
+          "excerpt": "PARTNER CONTENT: Focusing on 5G deployment, AI integration, and ICT talent development to drive the nation's digital transformation"
+        },
+        {
+          "title": "Flock cameras go up in flames as cops hunt suspected firebugs",
+          "link": "https://www.theregister.com/offbeat/2026/07/24/flock-cameras-go-up-in-flames-as-cops-hunt-suspected-firebugs/5278357",
+          "date": "Jul 24, 2026",
+          "excerpt": "Two license plate readers torched in Georgia amid backlash against the surveillance network"
+        },
+        {
+          "title": "Veterans Affairs signs $1.6B deal for an army of Salesforce AI agents",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/24/veterans-affairs-signs-16b-deal-for-an-army-of-salesforce-ai-agents/5278302",
+          "date": "Jul 24, 2026",
+          "excerpt": "Makes agreement under nose of Oracle, which gets its own $7 billion defense deal"
+        },
+        {
           "title": "SpaceX to try its luck again with Starship Flight 13 after engines and weather say no",
           "link": "https://www.theregister.com/science/2026/07/24/spacex-to-try-its-luck-again-with-starship-flight-13-after-engines-and-weather-say-no/5278239",
           "date": "Jul 24, 2026",
           "excerpt": "Replacement Raptors head for liftoff without a static fire test"
-        },
-        {
-          "title": "Uncle Sam tells overseas cybercrooks their visas are canceled",
-          "link": "https://www.theregister.com/security/2026/07/24/uncle-sam-tells-overseas-cybercrooks-their-visas-are-canceled/5278212",
-          "date": "Jul 24, 2026",
-          "excerpt": "Policy targets online scammers, sextortionists, and potentially their immediate families"
-        },
-        {
-          "title": "LG kills McAfee pop-up after Windows boss steps in",
-          "link": "https://www.theregister.com/personal-tech/2026/07/24/lg-kills-mcafee-pop-up-after-windows-boss-steps-in/5278168",
-          "date": "Jul 24, 2026",
-          "excerpt": "Advert gets the chop, but the silent app installation mechanism remains untouched"
-        },
-        {
-          "title": "EU telcos ask: Huawei going to afford to replace Chinese equipment?",
-          "link": "https://www.theregister.com/networks/2026/07/24/eu-telcos-ask-huawei-going-to-afford-to-replace-chinese-equipment/5278122",
-          "date": "Jul 24, 2026",
-          "excerpt": "Proposed cybersecurity legislation may force a cull of high-risk network technology, costing tens of billions"
-        },
-        {
-          "title": "Fujitsu joins £14.9B UK framework despite public sector bid freeze",
-          "link": "https://www.theregister.com/public-sector/2026/07/24/fujitsu-joins-149b-uk-framework-despite-public-sector-bid-freeze/5278144",
-          "date": "Jul 24, 2026",
-          "excerpt": "Supplier says the Horizon-era pause only stops it chasing work from new government customers"
         }
       ]
     },
