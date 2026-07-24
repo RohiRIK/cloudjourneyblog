@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T06:17:30.861Z",
+  "updatedAt": "2026-07-24T10:05:38.501Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+          "date": "Jul 24, 2026",
+          "excerpt": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]"
+        },
+        {
           "title": "New Dolphin X malware uses AI to rank high-value targets",
           "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
           "date": "Jul 23, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
           "date": "Jul 23, 2026",
           "excerpt": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing atta"
-        },
-        {
-          "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
-          "date": "Jul 23, 2026",
-          "excerpt": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence. [."
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Microsoft fiber foul-up cut off Azure California for almost five hours",
-          "link": "https://www.theregister.com/off-prem/2026/07/24/microsoft-fiber-foul-up-cut-off-azure-california-for-almost-five-hours/5277945",
+          "title": "Burnham wants Big Ecommerce to bankroll Britain's pubs",
+          "link": "https://www.theregister.com/offbeat/2026/07/24/burnham-wants-big-ecommerce-to-bankroll-britains-pubs/5277991",
           "date": "Jul 24, 2026",
-          "excerpt": "Maintenance mistake caused immediate issues and took out 27 services"
+          "excerpt": "Online marketplaces could find themselves buying the next round as the PM looks to tax ecommerce to save the local"
         },
         {
-          "title": "OpenAI-Hugging Face attack doesn't mean agents are evil – unless you tell them to be",
-          "link": "https://www.theregister.com/security/2026/07/24/openai-hugging-face-attack-doesnt-mean-agents-are-evil-unless-you-tell-them-to-be/5277881",
-          "date": "Jul 23, 2026",
-          "excerpt": "Attack models gonna attack"
+          "title": "Google meets the neighbors and gets both barrels over its new UK datacenter",
+          "link": "https://www.theregister.com/on-prem/2026/07/24/google-meets-the-neighbors-and-gets-both-barrels-over-its-new-uk-datacenter/5277188",
+          "date": "Jul 24, 2026",
+          "excerpt": "The Reg was there as locals aired grievances over poor communication, noise, and light pollution at Waltham Cross facility"
         },
         {
-          "title": "Researchers replace downloaded macOS apps with evil twins, Apple shrugs",
-          "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
-          "date": "Jul 23, 2026",
-          "excerpt": "Gatekeeper has one job and it's not doing it for some software"
+          "title": "Google breaks Alibaba’s record for Europe’s largest DMA fine",
+          "link": "https://www.theregister.com/legal/2026/07/24/google-breaks-alibabas-record-for-europes-largest-dma-fine/5278017",
+          "date": "Jul 24, 2026",
+          "excerpt": "€890 million slap – just 0.25% of revenue – for making itself the subject of search results, and hiding app store alternatives"
         },
         {
-          "title": "AMD and Cerebras join forces against Nvidia’s Groq LPUs",
-          "link": "https://www.theregister.com/systems/2026/07/23/amd-and-cerebras-join-forces-against-nvidias-groq-lpus/5277817",
-          "date": "Jul 23, 2026",
-          "excerpt": "The enemy of my enemy is my friend"
+          "title": "Support newbie figured out how to avoid all-nighters, and his colleagues hated him for it",
+          "link": "https://www.theregister.com/software/2026/07/24/support-newbie-figured-out-how-to-avoid-all-nighters-and-his-colleagues-hated-him-for-it/5276829",
+          "date": "Jul 24, 2026",
+          "excerpt": "Sleep doesn't pay"
         },
         {
-          "title": "OpenAI won't let some customers export their chats, but this tool will",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/23/openai-wont-let-some-customers-export-their-chats-but-this-tool-will/5277795",
-          "date": "Jul 23, 2026",
-          "excerpt": "ChatGPT Business and Enterprise users lack the standard chat export option, so third-party utilities like scrapemychats fill the gap"
+          "title": "Intel knows it needs to ‘leapfrog’ ARM and AMD, says CEO Lip-Bu Tan",
+          "link": "https://www.theregister.com/systems/2026/07/24/intel-knows-it-needs-to-leapfrog-arm-and-amd-says-ceo-lip-bu-tan/5277968",
+          "date": "Jul 24, 2026",
+          "excerpt": "Chipzilla changes PC biz name to reflect belief edge and robots could be as valuable one day"
         }
       ]
     },
