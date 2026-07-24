@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T10:05:38.501Z",
+  "updatedAt": "2026-07-24T13:15:05.574Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
+          "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
+          "date": "Jul 24, 2026",
+          "excerpt": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of nihilistic violent extremist groups. [...]"
+        },
+        {
+          "title": "Man gets six years for hacking 750 women's Snapchat accounts",
+          "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
+          "date": "Jul 24, 2026",
+          "excerpt": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]"
+        },
+        {
           "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
           "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
           "date": "Jul 24, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
           "date": "Jul 23, 2026",
           "excerpt": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiable information (PII), among others. [...]"
-        },
-        {
-          "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
-          "link": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
-          "date": "Jul 23, 2026",
-          "excerpt": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver the SectopRAT malware. [...]"
-        },
-        {
-          "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
-          "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
-          "date": "Jul 23, 2026",
-          "excerpt": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing atta"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Burnham wants Big Ecommerce to bankroll Britain's pubs",
-          "link": "https://www.theregister.com/offbeat/2026/07/24/burnham-wants-big-ecommerce-to-bankroll-britains-pubs/5277991",
+          "title": "SpaceX to try its luck again with Starship Flight 13 after engines and weather say no",
+          "link": "https://www.theregister.com/science/2026/07/24/spacex-to-try-its-luck-again-with-starship-flight-13-after-engines-and-weather-say-no/5278239",
           "date": "Jul 24, 2026",
-          "excerpt": "Online marketplaces could find themselves buying the next round as the PM looks to tax ecommerce to save the local"
+          "excerpt": "Replacement Raptors head for liftoff without a static fire test"
         },
         {
-          "title": "Google meets the neighbors and gets both barrels over its new UK datacenter",
-          "link": "https://www.theregister.com/on-prem/2026/07/24/google-meets-the-neighbors-and-gets-both-barrels-over-its-new-uk-datacenter/5277188",
+          "title": "Uncle Sam tells overseas cybercrooks their visas are canceled",
+          "link": "https://www.theregister.com/security/2026/07/24/uncle-sam-tells-overseas-cybercrooks-their-visas-are-canceled/5278212",
           "date": "Jul 24, 2026",
-          "excerpt": "The Reg was there as locals aired grievances over poor communication, noise, and light pollution at Waltham Cross facility"
+          "excerpt": "Policy targets online scammers, sextortionists, and potentially their immediate families"
         },
         {
-          "title": "Google breaks Alibaba’s record for Europe’s largest DMA fine",
-          "link": "https://www.theregister.com/legal/2026/07/24/google-breaks-alibabas-record-for-europes-largest-dma-fine/5278017",
+          "title": "LG kills McAfee pop-up after Windows boss steps in",
+          "link": "https://www.theregister.com/personal-tech/2026/07/24/lg-kills-mcafee-pop-up-after-windows-boss-steps-in/5278168",
           "date": "Jul 24, 2026",
-          "excerpt": "€890 million slap – just 0.25% of revenue – for making itself the subject of search results, and hiding app store alternatives"
+          "excerpt": "Advert gets the chop, but the silent app installation mechanism remains untouched"
         },
         {
-          "title": "Support newbie figured out how to avoid all-nighters, and his colleagues hated him for it",
-          "link": "https://www.theregister.com/software/2026/07/24/support-newbie-figured-out-how-to-avoid-all-nighters-and-his-colleagues-hated-him-for-it/5276829",
+          "title": "EU telcos ask: Huawei going to afford to replace Chinese equipment?",
+          "link": "https://www.theregister.com/networks/2026/07/24/eu-telcos-ask-huawei-going-to-afford-to-replace-chinese-equipment/5278122",
           "date": "Jul 24, 2026",
-          "excerpt": "Sleep doesn't pay"
+          "excerpt": "Proposed cybersecurity legislation may force a cull of high-risk network technology, costing tens of billions"
         },
         {
-          "title": "Intel knows it needs to ‘leapfrog’ ARM and AMD, says CEO Lip-Bu Tan",
-          "link": "https://www.theregister.com/systems/2026/07/24/intel-knows-it-needs-to-leapfrog-arm-and-amd-says-ceo-lip-bu-tan/5277968",
+          "title": "Fujitsu joins £14.9B UK framework despite public sector bid freeze",
+          "link": "https://www.theregister.com/public-sector/2026/07/24/fujitsu-joins-149b-uk-framework-despite-public-sector-bid-freeze/5278144",
           "date": "Jul 24, 2026",
-          "excerpt": "Chipzilla changes PC biz name to reflect belief edge and robots could be as valuable one day"
+          "excerpt": "Supplier says the Horizon-era pause only stops it chasing work from new government customers"
         }
       ]
     },
