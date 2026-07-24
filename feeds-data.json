@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T01:29:20.511Z",
+  "updatedAt": "2026-07-24T06:17:30.861Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Microsoft fiber foul-up cut off Azure California for almost five hours",
+          "link": "https://www.theregister.com/off-prem/2026/07/24/microsoft-fiber-foul-up-cut-off-azure-california-for-almost-five-hours/5277945",
+          "date": "Jul 24, 2026",
+          "excerpt": "Maintenance mistake caused immediate issues and took out 27 services"
+        },
+        {
+          "title": "OpenAI-Hugging Face attack doesn't mean agents are evil – unless you tell them to be",
+          "link": "https://www.theregister.com/security/2026/07/24/openai-hugging-face-attack-doesnt-mean-agents-are-evil-unless-you-tell-them-to-be/5277881",
+          "date": "Jul 23, 2026",
+          "excerpt": "Attack models gonna attack"
+        },
+        {
           "title": "Researchers replace downloaded macOS apps with evil twins, Apple shrugs",
           "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
           "date": "Jul 23, 2026",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/07/23/openai-wont-let-some-customers-export-their-chats-but-this-tool-will/5277795",
           "date": "Jul 23, 2026",
           "excerpt": "ChatGPT Business and Enterprise users lack the standard chat export option, so third-party utilities like scrapemychats fill the gap"
-        },
-        {
-          "title": "Codeberg gives vibe-coded projects the toss, promotes human FLOSS",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/23/codeberg-gives-vibe-coded-projects-the-toss-promotes-human-floss/5277717",
-          "date": "Jul 23, 2026",
-          "excerpt": "AI no longer welcome in human-focused community"
-        },
-        {
-          "title": "AMD attacks the rack with Helios systems that rival Nvidia's",
-          "link": "https://www.theregister.com/systems/2026/07/23/amd-attacks-the-rack-with-helios-systems-that-rival-nvidias/5277246",
-          "date": "Jul 23, 2026",
-          "excerpt": "Spec for spec, the House of Zen's first rack-scale AI compute platform is bigger and faster than Nvidia's Vera Rubin by nearly every metric, but that's only on paper"
         }
       ]
     },
