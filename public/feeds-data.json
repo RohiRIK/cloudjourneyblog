@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T17:19:23.530Z",
+  "updatedAt": "2026-07-24T20:53:59.892Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "OnTrac notifies customers of data breach after network hack",
+          "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+          "date": "Jul 24, 2026",
+          "excerpt": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]"
+        },
+        {
+          "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+          "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+          "date": "Jul 24, 2026",
+          "excerpt": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]"
+        },
+        {
+          "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
+          "date": "Jul 24, 2026",
+          "excerpt": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]"
+        },
+        {
           "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
           "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
           "date": "Jul 24, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
           "date": "Jul 24, 2026",
           "excerpt": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]"
-        },
-        {
-          "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
-          "link": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
-          "date": "Jul 24, 2026",
-          "excerpt": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated package, repo, or domain names. ActiveState explains ho"
-        },
-        {
-          "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
-          "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
-          "date": "Jul 24, 2026",
-          "excerpt": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of nihilistic violent extremist groups. [...]"
-        },
-        {
-          "title": "Man gets six years for hacking 750 women's Snapchat accounts",
-          "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
-          "date": "Jul 24, 2026",
-          "excerpt": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]"
         }
       ]
     },
@@ -101,6 +101,12 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Dev accidentally commits Copilot binary to FreeBSD ports repo",
+          "link": "https://www.theregister.com/os-platforms/2026/07/24/dev-accidentally-commits-copilot-binary-to-freebsd-ports-repo/5278458",
+          "date": "Jul 24, 2026",
+          "excerpt": "Git is aptly named: it isn’t easy – but there are alternatives"
+        },
         {
           "title": "ChatGPT wants access to your health records so it can be a better not-doctor",
           "link": "https://www.theregister.com/ai-and-ml/2026/07/24/chatgpt-wants-access-to-your-health-records-so-it-can-be-a-better-not-doctor/5278430",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/07/24/veterans-affairs-signs-16b-deal-for-an-army-of-salesforce-ai-agents/5278302",
           "date": "Jul 24, 2026",
           "excerpt": "Makes agreement under nose of Oracle, which gets its own $7 billion defense deal"
-        },
-        {
-          "title": "SpaceX to try its luck again with Starship Flight 13 after engines and weather say no",
-          "link": "https://www.theregister.com/science/2026/07/24/spacex-to-try-its-luck-again-with-starship-flight-13-after-engines-and-weather-say-no/5278239",
-          "date": "Jul 24, 2026",
-          "excerpt": "Replacement Raptors head for liftoff without a static fire test"
         }
       ]
     },
