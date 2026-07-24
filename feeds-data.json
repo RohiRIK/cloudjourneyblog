@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T17:07:32.897Z",
+  "updatedAt": "2026-07-24T01:29:20.511Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "New Dolphin X malware uses AI to rank high-value targets",
+          "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
+          "date": "Jul 23, 2026",
+          "excerpt": "A new Dolphin X remote access trojan claims to use an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify which victims should be targeted first. [...]"
+        },
+        {
+          "title": "Australian energy provider Origin says data breach exposes client data",
+          "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
+          "date": "Jul 23, 2026",
+          "excerpt": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiable information (PII), among others. [...]"
+        },
+        {
+          "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
+          "link": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
+          "date": "Jul 23, 2026",
+          "excerpt": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver the SectopRAT malware. [...]"
+        },
+        {
           "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
           "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
           "date": "Jul 23, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
           "date": "Jul 23, 2026",
           "excerpt": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence. [."
-        },
-        {
-          "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
-          "date": "Jul 23, 2026",
-          "excerpt": "Microsoft Teams and several Microsoft 365 services are experiencing an ongoing outage, with users reporting problems accessing Teams, SharePoint, Excel and the Microsoft 365 Admin Center. [...]"
-        },
-        {
-          "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
-          "link": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
-          "date": "Jul 23, 2026",
-          "excerpt": "FedRAMP 20X replaces point-in-time assessments with continuous, machine-readable evidence that demonstrates security controls are working. Anecdotes explains what the transition from Rev5 to FedRAMP 2"
-        },
-        {
-          "title": "EU fines Google $1 billion for search, app store antitrust violations",
-          "link": "https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/",
-          "date": "Jul 23, 2026",
-          "excerpt": "The European Commission fined Google €890 million ($1 billion) on Thursday after finding the company had violated the European Union's Digital Markets Act (DMA), which ensures fair online competition."
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Year-long Russian attacks infect users as soon as they look at an email",
-          "link": "https://www.theregister.com/patches/2026/07/23/year-long-russian-attacks-infect-users-as-soon-as-they-look-at-an-email/5277358",
+          "title": "Researchers replace downloaded macOS apps with evil twins, Apple shrugs",
+          "link": "https://www.theregister.com/security/2026/07/24/researchers-replace-downloaded-macos-apps-with-evil-twins-apple-shrugs/5277858",
           "date": "Jul 23, 2026",
-          "excerpt": "Phishing for dummies"
+          "excerpt": "Gatekeeper has one job and it's not doing it for some software"
         },
         {
-          "title": "Model Context Protocol prepares to break with its stateful past",
-          "link": "https://www.theregister.com/devops/2026/07/23/model-context-protocol-prepares-to-break-with-its-stateful-past/5276722",
+          "title": "AMD and Cerebras join forces against Nvidia’s Groq LPUs",
+          "link": "https://www.theregister.com/systems/2026/07/23/amd-and-cerebras-join-forces-against-nvidias-groq-lpus/5277817",
           "date": "Jul 23, 2026",
-          "excerpt": "Biggest overhaul since launch ditches sessions, guts little-used features, and leaves homebrew implementations facing a slog"
+          "excerpt": "The enemy of my enemy is my friend"
         },
         {
-          "title": "Millions of California-bought cars can be hijacked via Bluetooth",
-          "link": "https://www.theregister.com/security/2026/07/23/millions-of-california-bought-cars-can-be-hijacked-via-bluetooth/5277315",
+          "title": "OpenAI won't let some customers export their chats, but this tool will",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/23/openai-wont-let-some-customers-export-their-chats-but-this-tool-will/5277795",
           "date": "Jul 23, 2026",
-          "excerpt": "Aftermarket dealer-installed KARR/SWDS security systems all use the same secure key, say UCSD researchers"
+          "excerpt": "ChatGPT Business and Enterprise users lack the standard chat export option, so third-party utilities like scrapemychats fill the gap"
         },
         {
-          "title": "Oracle drops 1,449 security patches like it's the new normal",
-          "link": "https://www.theregister.com/security/2026/07/23/oracle-drops-1449-security-patches-like-its-the-new-normal/5277114",
+          "title": "Codeberg gives vibe-coded projects the toss, promotes human FLOSS",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/23/codeberg-gives-vibe-coded-projects-the-toss-promotes-human-floss/5277717",
           "date": "Jul 23, 2026",
-          "excerpt": "Experts say the era of AI bug hunting is here, so defenders will simply have to adapt to busier workloads"
+          "excerpt": "AI no longer welcome in human-focused community"
         },
         {
-          "title": "GitHub slashes public bug bounty payouts as AI report flood buries its security team",
-          "link": "https://www.theregister.com/devops/2026/07/23/github-slashes-public-bug-bounty-payouts-as-ai-report-flood-buries-its-security-team/5277046",
+          "title": "AMD attacks the rack with Helios systems that rival Nvidia's",
+          "link": "https://www.theregister.com/systems/2026/07/23/amd-attacks-the-rack-with-helios-systems-that-rival-nvidias/5277246",
           "date": "Jul 23, 2026",
-          "excerpt": "Code shack also putting new limits on first-time researchers, and reserving the biggest rewards for a hand-picked group of proven hunters"
+          "excerpt": "Spec for spec, the House of Zen's first rack-scale AI compute platform is bigger and faster than Nvidia's Vera Rubin by nearly every metric, but that's only on paper"
         }
       ]
     },
