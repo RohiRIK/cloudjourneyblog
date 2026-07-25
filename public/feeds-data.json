@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T16:43:31.213Z",
+  "updatedAt": "2026-07-25T20:39:15.061Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "How AI drove Shopify back to clean code",
+          "link": "https://www.theregister.com/devops/2026/07/25/how-ai-drove-shopify-back-to-clean-code/5277901",
+          "date": "Jul 25, 2026",
+          "excerpt": "Turns out, agents just want the same things as humans: easily-readable code, explicit contracts, and helpful feedback"
+        },
+        {
+          "title": "Anti-AI open source has an enemy in common, but almost nothing else",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/25/anti-ai-open-source-has-an-enemy-in-common-but-almost-nothing-else/5278275",
+          "date": "Jul 25, 2026",
+          "excerpt": "Building bot-free alternatives may require lefties, libertarians, and culture warriors to share code"
+        },
+        {
+          "title": "BOFH: This printer engineer knows every trick in the book",
+          "link": "https://www.theregister.com/bofh/2026/07/25/bofh-this-printer-engineer-knows-every-trick-in-the-book/5278087",
+          "date": "Jul 25, 2026",
+          "excerpt": "But so does this customer"
+        },
+        {
+          "title": "Anthropic debuts Opus 5 at half the price of its Fable sibling",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/25/anthropic-debuts-opus-5-at-half-the-price-of-its-fable-sibling/5278630",
+          "date": "Jul 24, 2026",
+          "excerpt": "And as a bonus, it doesn't require data retention"
+        },
+        {
+          "title": "Pope's official prayer app commits cardinal sin, leaks 700K+ users' info",
+          "link": "https://www.theregister.com/security/2026/07/24/popes-official-prayer-app-commits-cardinal-sin-leaks-700k-users-info/5278603",
+          "date": "Jul 24, 2026",
+          "excerpt": "(Security) hole-ier than thou"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
