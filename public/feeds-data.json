@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T20:39:15.061Z",
+  "updatedAt": "2026-07-26T01:43:02.161Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
+          "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+          "date": "Jul 25, 2026",
+          "excerpt": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]"
+        },
+        {
           "title": "Malicious sites use JavaScript to build malware in browser memory",
           "link": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
           "date": "Jul 25, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
           "date": "Jul 24, 2026",
           "excerpt": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]"
-        },
-        {
-          "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
-          "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
-          "date": "Jul 24, 2026",
-          "excerpt": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]"
         }
       ]
     },
