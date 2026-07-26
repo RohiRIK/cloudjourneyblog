@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T12:54:40.574Z",
+  "updatedAt": "2026-07-26T20:44:08.934Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
+          "date": "Jul 26, 2026",
+          "excerpt": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]"
+        },
+        {
           "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
           "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
           "date": "Jul 25, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
           "date": "Jul 25, 2026",
           "excerpt": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]"
-        },
-        {
-          "title": "OnTrac notifies customers of data breach after network hack",
-          "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
-          "date": "Jul 24, 2026",
-          "excerpt": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]"
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Trump expands voluntary pledge to keep datacenter costs off household power bills",
+          "link": "https://www.theregister.com/on-prem/2026/07/26/trump-expands-voluntary-pledge-to-keep-datacenter-costs-off-household-power-bills/5278346",
+          "date": "Jul 26, 2026",
+          "excerpt": "Pinkie promise gains 200-plus new participants and precisely zero enforcement"
+        },
+        {
+          "title": "The last Space Shuttle returned to Earth 15 years ago",
+          "link": "https://www.theregister.com/science/2026/07/26/the-last-space-shuttle-returned-to-earth-15-years-ago/5277279",
+          "date": "Jul 26, 2026",
+          "excerpt": "So, how are those commercial replacements working out for you, NASA?"
+        },
+        {
+          "title": "How AI drove Shopify back to clean code",
+          "link": "https://www.theregister.com/devops/2026/07/25/how-ai-drove-shopify-back-to-clean-code/5277901",
+          "date": "Jul 25, 2026",
+          "excerpt": "Turns out, agents just want the same things as humans: easily-readable code, explicit contracts, and helpful feedback"
+        },
+        {
+          "title": "Anti-AI open source has an enemy in common, but almost nothing else",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/25/anti-ai-open-source-has-an-enemy-in-common-but-almost-nothing-else/5278275",
+          "date": "Jul 25, 2026",
+          "excerpt": "Building bot-free alternatives may require lefties, libertarians, and culture warriors to share code"
+        },
+        {
+          "title": "BOFH: This printer engineer knows every trick in the book",
+          "link": "https://www.theregister.com/bofh/2026/07/25/bofh-this-printer-engineer-knows-every-trick-in-the-book/5278087",
+          "date": "Jul 25, 2026",
+          "excerpt": "But so does this customer"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
