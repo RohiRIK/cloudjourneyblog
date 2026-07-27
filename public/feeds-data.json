@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T06:53:42.303Z",
+  "updatedAt": "2026-07-27T11:00:27.311Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "Manager showed off his DOS prowess – with a command that wiped data",
-          "link": "https://www.theregister.com/software/2026/07/27/manager-showed-off-his-dos-prowess-with-a-command-that-wiped-data/5278057",
-          "date": "Jul 27, 2026",
-          "excerpt": "Never believe a suit who says they're handy with tech"
-        },
-        {
-          "title": "SpaceX just about nails Starship test flight 13",
-          "link": "https://www.theregister.com/science/2026/07/27/spacex-just-about-nails-starship-test-flight-13/5278725",
-          "date": "Jul 27, 2026",
-          "excerpt": "Super Heavy booster had a super heavy landing, but other reusability tech did the trick"
-        },
-        {
-          "title": "Foxconn drops VMware, adopts hyperconverged upstart Arcrfra for workloads including AI",
-          "link": "https://www.theregister.com/virtualization/2026/07/27/foxconn-drops-vmware-adopts-hyperconverged-upstart-arcrfra-for-workloads-including-ai/5278684",
-          "date": "Jul 27, 2026",
-          "excerpt": "PLUS: New CEO for Infosys; China fines Trip.com; India demands GitHub remove Jack Dorsey's distributed social network; And more!"
-        },
-        {
-          "title": "Trump expands voluntary pledge to keep datacenter costs off household power bills",
-          "link": "https://www.theregister.com/on-prem/2026/07/26/trump-expands-voluntary-pledge-to-keep-datacenter-costs-off-household-power-bills/5278346",
-          "date": "Jul 26, 2026",
-          "excerpt": "Pinkie promise gains 200-plus new participants and precisely zero enforcement"
-        },
-        {
-          "title": "The last Space Shuttle returned to Earth 15 years ago",
-          "link": "https://www.theregister.com/science/2026/07/26/the-last-space-shuttle-returned-to-earth-15-years-ago/5277279",
-          "date": "Jul 26, 2026",
-          "excerpt": "So, how are those commercial replacements working out for you, NASA?"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
