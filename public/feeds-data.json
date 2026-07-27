@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T11:00:27.311Z",
+  "updatedAt": "2026-07-27T17:28:08.542Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
+          "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
+          "date": "Jul 27, 2026",
+          "excerpt": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]"
+        },
+        {
+          "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
+          "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
+          "date": "Jul 27, 2026",
+          "excerpt": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attac"
+        },
+        {
+          "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
+          "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
+          "date": "Jul 27, 2026",
+          "excerpt": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before"
+        },
+        {
           "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
           "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
           "date": "Jul 26, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
           "date": "Jul 25, 2026",
           "excerpt": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]"
-        },
-        {
-          "title": "Malicious sites use JavaScript to build malware in browser memory",
-          "link": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-          "date": "Jul 25, 2026",
-          "excerpt": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]"
-        },
-        {
-          "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
-          "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
-          "date": "Jul 25, 2026",
-          "excerpt": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]"
-        },
-        {
-          "title": "OpenAI confirms ChatGPT is down worldwide",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
-          "date": "Jul 25, 2026",
-          "excerpt": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]"
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Tech giants link hands to praise open AI models after OpenAI - Hugging Face attack",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-giants-link-hands-to-praise-open-ai-models-after-openai-hugging-face-attack/5279061",
+          "date": "Jul 27, 2026",
+          "excerpt": "The Open Security AI Alliance says the Hugging Face/OpenAI mess proves frontier labs can't be trusted to properly secure sensitive systems"
+        },
+        {
+          "title": "Cassette simulator rewinds digital audio to a more analog time in hiss-tory",
+          "link": "https://www.theregister.com/offbeat/2026/07/27/cassette-simulator-rewinds-digital-audio-to-a-more-analog-time-in-hiss-tory/5279018",
+          "date": "Jul 27, 2026",
+          "excerpt": "Is there a simulator for the wail when you realize your precious one-off bootleg has just been chewed up?"
+        },
+        {
+          "title": "Microsoft Defender for Endpoint leaves some Linux boxes defenseless after update",
+          "link": "https://www.theregister.com/patches/2026/07/27/microsoft-defender-for-endpoint-leaves-some-linux-boxes-defenseless-after-update/5278914",
+          "date": "Jul 27, 2026",
+          "excerpt": "One bug disabled the security service on restart, another blocked installation on hardened RHEL systems"
+        },
+        {
+          "title": "Tech sector pours $1T into AI and sends customers the bill",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-sector-pours-1t-into-ai-and-sends-customers-the-bill/5278845",
+          "date": "Jul 27, 2026",
+          "excerpt": "History's biggest infrastructure build-out is pushing up hardware and software prices, analyst says"
+        },
+        {
+          "title": "British Army finds a new eye in the sky after Watchkeeper woes",
+          "link": "https://www.theregister.com/offbeat/2026/07/27/british-army-finds-a-new-eye-in-the-sky-after-watchkeeper-woes/5278859",
+          "date": "Jul 27, 2026",
+          "excerpt": "Tekever AR5 drone regarded as more up-to-date answer to provide battlefield surveillance for soldiers"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
