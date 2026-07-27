@@ -1,11 +1,23 @@
 {
-  "updatedAt": "2026-07-27T17:28:08.542Z",
+  "updatedAt": "2026-07-27T21:00:34.736Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "Rethinking security for the age of AI",
+          "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+          "date": "Jul 27, 2026",
+          "excerpt": "Why security needs a new Cyber Stack — Introducing Project Perception The physics of cybersecurity are changing. Autonomous systems can now reason, adapt and operate continuously. At the same time, th"
+        },
+        {
+          "title": "Enhancing AI security through global AI red teaming",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+          "date": "Jul 27, 2026",
+          "excerpt": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional exp"
+        },
         {
           "title": "Email threat landscape: Q2 2026 trends and insights",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
@@ -23,18 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
           "date": "Jul 17, 2026",
           "excerpt": "Join Microsoft Security at Black Hat USA 2026 for supply chain research, hands-on security experiences, expert conversations, and our reception. The post Microsoft at Black Hat USA 2026: Defending tru"
-        },
-        {
-          "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
-          "date": "Jul 16, 2026",
-          "excerpt": "From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal b"
-        },
-        {
-          "title": "Least privilege for AI agents: Identity, access, and tool binding",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
-          "date": "Jul 16, 2026",
-          "excerpt": "As AI agents become more autonomous, strong identity, access, and auditing controls are critical to keeping them secure. The post Least privilege for AI agents: Identity, access, and tool binding appe"
         }
       ]
     },
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
+          "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
+          "date": "Jul 27, 2026",
+          "excerpt": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows"
+        },
+        {
+          "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
+          "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
+          "date": "Jul 27, 2026",
+          "excerpt": "Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet application from the App Store. [...]"
+        },
+        {
           "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
           "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
           "date": "Jul 27, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
           "date": "Jul 27, 2026",
           "excerpt": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before"
-        },
-        {
-          "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
-          "date": "Jul 26, 2026",
-          "excerpt": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]"
-        },
-        {
-          "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
-          "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-          "date": "Jul 25, 2026",
-          "excerpt": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]"
         }
       ]
     },
@@ -114,6 +114,12 @@
           "excerpt": "Is there a simulator for the wail when you realize your precious one-off bootleg has just been chewed up?"
         },
         {
+          "title": "AI has changed data architecture, but storage hasn't caught up",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/27/ai-has-changed-data-architecture-but-storage-hasnt-caught-up/5255880",
+          "date": "Jul 27, 2026",
+          "excerpt": "SPONSORED FEATURE: AI's hunger for data outstrips storage smarts, leaving GPUs famished"
+        },
+        {
           "title": "Microsoft Defender for Endpoint leaves some Linux boxes defenseless after update",
           "link": "https://www.theregister.com/patches/2026/07/27/microsoft-defender-for-endpoint-leaves-some-linux-boxes-defenseless-after-update/5278914",
           "date": "Jul 27, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-sector-pours-1t-into-ai-and-sends-customers-the-bill/5278845",
           "date": "Jul 27, 2026",
           "excerpt": "History's biggest infrastructure build-out is pushing up hardware and software prices, analyst says"
-        },
-        {
-          "title": "British Army finds a new eye in the sky after Watchkeeper woes",
-          "link": "https://www.theregister.com/offbeat/2026/07/27/british-army-finds-a-new-eye-in-the-sky-after-watchkeeper-woes/5278859",
-          "date": "Jul 27, 2026",
-          "excerpt": "Tekever AR5 drone regarded as more up-to-date answer to provide battlefield surveillance for soldiers"
         }
       ]
     },
