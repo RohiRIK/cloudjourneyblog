@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T20:44:08.934Z",
+  "updatedAt": "2026-07-27T01:50:01.450Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,12 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Foxconn drops VMware, adopts hyperconverged upstart Arcrfra for workloads including AI",
+          "link": "https://www.theregister.com/virtualization/2026/07/27/foxconn-drops-vmware-adopts-hyperconverged-upstart-arcrfra-for-workloads-including-ai/5278684",
+          "date": "Jul 27, 2026",
+          "excerpt": "PLUS: New CEO for Infosys; China fines Trip.com; India demands GitHub remove Jack Dorsey's distributed social network; And more!"
+        },
+        {
           "title": "Trump expands voluntary pledge to keep datacenter costs off household power bills",
           "link": "https://www.theregister.com/on-prem/2026/07/26/trump-expands-voluntary-pledge-to-keep-datacenter-costs-off-household-power-bills/5278346",
           "date": "Jul 26, 2026",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/07/25/anti-ai-open-source-has-an-enemy-in-common-but-almost-nothing-else/5278275",
           "date": "Jul 25, 2026",
           "excerpt": "Building bot-free alternatives may require lefties, libertarians, and culture warriors to share code"
-        },
-        {
-          "title": "BOFH: This printer engineer knows every trick in the book",
-          "link": "https://www.theregister.com/bofh/2026/07/25/bofh-this-printer-engineer-knows-every-trick-in-the-book/5278087",
-          "date": "Jul 25, 2026",
-          "excerpt": "But so does this customer"
         }
       ]
     },
