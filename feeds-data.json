@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T21:00:34.736Z",
+  "updatedAt": "2026-07-28T06:17:20.209Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -10,7 +10,7 @@
           "title": "Rethinking security for the age of AI",
           "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
           "date": "Jul 27, 2026",
-          "excerpt": "Why security needs a new Cyber Stack — Introducing Project Perception The physics of cybersecurity are changing. Autonomous systems can now reason, adapt and operate continuously. At the same time, th"
+          "excerpt": "The physics of cybersecurity are changing. Introducing security's new cyber stack: Project Perception. The post Rethinking security for the age of AI appeared first on Microsoft Security Blog."
         },
         {
           "title": "Enhancing AI security through global AI red teaming",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Hackers target US firms in FastJson RCE zero-day attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
+          "date": "Jul 27, 2026",
+          "excerpt": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]"
+        },
+        {
+          "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+          "date": "Jul 27, 2026",
+          "excerpt": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]"
+        },
+        {
+          "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
+          "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+          "date": "Jul 27, 2026",
+          "excerpt": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]"
+        },
+        {
           "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
           "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
           "date": "Jul 27, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
           "date": "Jul 27, 2026",
           "excerpt": "Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet application from the App Store. [...]"
-        },
-        {
-          "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
-          "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
-          "date": "Jul 27, 2026",
-          "excerpt": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]"
-        },
-        {
-          "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
-          "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
-          "date": "Jul 27, 2026",
-          "excerpt": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attac"
-        },
-        {
-          "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
-          "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
-          "date": "Jul 27, 2026",
-          "excerpt": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before"
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "Tech giants link hands to praise open AI models after OpenAI - Hugging Face attack",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-giants-link-hands-to-praise-open-ai-models-after-openai-hugging-face-attack/5279061",
-          "date": "Jul 27, 2026",
-          "excerpt": "The Open Security AI Alliance says the Hugging Face/OpenAI mess proves frontier labs can't be trusted to properly secure sensitive systems"
-        },
-        {
-          "title": "Cassette simulator rewinds digital audio to a more analog time in hiss-tory",
-          "link": "https://www.theregister.com/offbeat/2026/07/27/cassette-simulator-rewinds-digital-audio-to-a-more-analog-time-in-hiss-tory/5279018",
-          "date": "Jul 27, 2026",
-          "excerpt": "Is there a simulator for the wail when you realize your precious one-off bootleg has just been chewed up?"
-        },
-        {
-          "title": "AI has changed data architecture, but storage hasn't caught up",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/27/ai-has-changed-data-architecture-but-storage-hasnt-caught-up/5255880",
-          "date": "Jul 27, 2026",
-          "excerpt": "SPONSORED FEATURE: AI's hunger for data outstrips storage smarts, leaving GPUs famished"
-        },
-        {
-          "title": "Microsoft Defender for Endpoint leaves some Linux boxes defenseless after update",
-          "link": "https://www.theregister.com/patches/2026/07/27/microsoft-defender-for-endpoint-leaves-some-linux-boxes-defenseless-after-update/5278914",
-          "date": "Jul 27, 2026",
-          "excerpt": "One bug disabled the security service on restart, another blocked installation on hardened RHEL systems"
-        },
-        {
-          "title": "Tech sector pours $1T into AI and sends customers the bill",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-sector-pours-1t-into-ai-and-sends-customers-the-bill/5278845",
-          "date": "Jul 27, 2026",
-          "excerpt": "History's biggest infrastructure build-out is pushing up hardware and software prices, analyst says"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
