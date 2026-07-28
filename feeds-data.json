@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T06:17:20.209Z",
+  "updatedAt": "2026-07-28T10:21:53.131Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
+          "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
+          "date": "Jul 28, 2026",
+          "excerpt": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]"
+        },
+        {
           "title": "Hackers target US firms in FastJson RCE zero-day attacks",
           "link": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
           "date": "Jul 27, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
           "date": "Jul 27, 2026",
           "excerpt": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows"
-        },
-        {
-          "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
-          "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
-          "date": "Jul 27, 2026",
-          "excerpt": "Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet application from the App Store. [...]"
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Openreach nudges another 112 exchange areas toward full fiber",
+          "link": "https://www.theregister.com/networks/2026/07/28/openreach-nudges-another-112-exchange-areas-toward-full-fiber/5279046",
+          "date": "Jul 28, 2026",
+          "excerpt": "Latest batch takes the copper sales restrictions to 1,572 locations and 15.4 million premises"
+        },
+        {
+          "title": "Cisco close to releasing more AI models, this time for deep networking ops",
+          "link": "https://www.theregister.com/networks/2026/07/28/cisco-close-to-releasing-more-ai-models-this-time-for-deep-networking-ops/5279350",
+          "date": "Jul 28, 2026",
+          "excerpt": "Token costs not quite sorted, but on-prem will be an option"
+        },
+        {
+          "title": "China fights back in AI spat with claim US AI companies distil Chinese models",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/28/china-fights-back-in-ai-spat-with-claim-us-ai-companies-distil-chinese-models/5279315",
+          "date": "Jul 28, 2026",
+          "excerpt": "Beijing happy to ‘take all necessary measures’ if sanctioned"
+        },
+        {
+          "title": "Leading AI models (even Grok) are all a bunch of leftist punks",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/27/leading-ai-models-even-grok-are-all-a-bunch-of-leftist-punks/5279208",
+          "date": "Jul 27, 2026",
+          "excerpt": "AI seems to have a liberal bias"
+        },
+        {
+          "title": "Jensen puts his thumb on the scales against open-weights fearmongering",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/27/jensen-puts-his-thumb-on-the-scales-against-open-weights-fearmongering/5279194",
+          "date": "Jul 27, 2026",
+          "excerpt": "American AI flag bearers get in line, at least on paper"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
