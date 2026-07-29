@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-29T10:27:42.376Z",
+  "updatedAt": "2026-07-29T20:41:56.029Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "​​Better security starts with better questions",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
+          "date": "Jul 29, 2026",
+          "excerpt": "Learn how better questions, trusted AI, and human judgment help security leaders make confident decisions and build resilient systems. The post ​​Better security starts with better questions appeared "
+        },
         {
           "title": "Rethinking security for the age of AI",
           "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
@@ -29,12 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
           "date": "Jul 22, 2026",
           "excerpt": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The "
-        },
-        {
-          "title": "Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
-          "date": "Jul 17, 2026",
-          "excerpt": "Join Microsoft Security at Black Hat USA 2026 for supply chain research, hands-on security experiences, expert conversations, and our reception. The post Microsoft at Black Hat USA 2026: Defending tru"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-          "link": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
-          "date": "Jul 28, 2026",
-          "excerpt": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]"
+          "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+          "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+          "date": "Jul 29, 2026",
+          "excerpt": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHu"
         },
         {
-          "title": "OpenAI models used Artifactory zero-days to escape to the internet",
-          "link": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
-          "date": "Jul 28, 2026",
-          "excerpt": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attac"
+          "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+          "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+          "date": "Jul 29, 2026",
+          "excerpt": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of t"
         },
         {
-          "title": "CISA shares advice on isolating vital systems during cyberattacks",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
-          "date": "Jul 28, 2026",
-          "excerpt": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or "
+          "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
+          "date": "Jul 29, 2026",
+          "excerpt": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated"
         },
         {
-          "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
-          "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
-          "date": "Jul 28, 2026",
-          "excerpt": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]"
+          "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
+          "link": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+          "date": "Jul 29, 2026",
+          "excerpt": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege ar"
         },
         {
-          "title": "Is Your SSO Protected Against Modern Credential Attacks?",
-          "link": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
-          "date": "Jul 28, 2026",
-          "excerpt": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity harde"
+          "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
+          "date": "Jul 29, 2026",
+          "excerpt": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "NHS England rapped over inaccurate Palantir patient data disclosure",
-          "link": "https://www.theregister.com/public-sector/2026/07/29/nhs-england-rapped-over-inaccurate-palantir-patient-data-disclosure/5280233",
+          "title": "Uncle Sam sees the light, offers GlobalFoundries $300M to pursue silicon photonics while taking 1% stake",
+          "link": "https://www.theregister.com/public-sector/2026/07/29/uncle-sam-sees-the-light-offers-globalfoundries-300m-to-pursue-silicon-photonics-while-taking-1-stake/5280620",
           "date": "Jul 29, 2026",
-          "excerpt": "Privacy guardian warns public trust quickly erodes when supplier access comes as a surprise"
+          "excerpt": "Meanwhile, the other state-backed foundry, Intel, wraps up RAMP-C defense test chip program"
         },
         {
-          "title": "AI digs through 3,700 accounts of dreams and waking life, finds method in the madness",
-          "link": "https://www.theregister.com/offbeat/2026/07/29/ai-digs-through-3700-accounts-of-dreams-and-waking-life-finds-method-in-the-madness/5279775",
+          "title": "Closed models refuse to help researcher swat Linux bug",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/29/closed-models-refuse-to-help-researcher-swat-linux-bug/5280647",
           "date": "Jul 29, 2026",
-          "excerpt": "Researchers uncover patterns in how sleeping minds recombine memories, people, and places"
+          "excerpt": "\"I'm sorry, Dave. I'm afraid I can't do that\" is an effective sales pitch for open source"
         },
         {
-          "title": "Burnham's spanner in the works leaves UK government tech scattered across Whitehall",
-          "link": "https://www.theregister.com/public-sector/2026/07/29/burnhams-spanner-in-the-works-leaves-uk-government-tech-scattered-across-whitehall/5279437",
+          "title": "Word worm crawls into Copilot, spreads chaos",
+          "link": "https://www.theregister.com/security/2026/07/29/word-worm-crawls-into-copilot-spreads-chaos/5280588",
           "date": "Jul 29, 2026",
-          "excerpt": "Splitting up responsibility for digital transformation and procurement while AI gets a seat at Cabinet risks incoherency"
+          "excerpt": "Researcher says months of coordination with Microsoft have yet to produce a robust mitigation"
         },
         {
-          "title": "Airbus keeps an A350 flying for 24 hours",
-          "link": "https://www.theregister.com/offbeat/2026/07/29/airbus-keeps-an-a350-flying-for-24-hours/5280209",
+          "title": "Moscow slaps Telegram founder on wanted list, Durov responds with one-finger salute",
+          "link": "https://www.theregister.com/applications/2026/07/29/moscow-slaps-telegram-founder-on-wanted-list-durov-responds-with-one-finger-salute/5280522",
           "date": "Jul 29, 2026",
-          "excerpt": "Ultra long range edition should enable 22-hour nonstop Australia-to-Europe flights next year"
+          "excerpt": "FSB claims Ukrainian spies use chat platform to recruit Russians for sabotage and arson"
         },
         {
-          "title": "Big Tech demanding deals that smooth out memory prices, says SK Hynix",
-          "link": "https://www.theregister.com/systems/2026/07/29/big-tech-demanding-deals-that-smooth-out-memory-prices-says-sk-hynix/5280182",
+          "title": "MinIO pitches persistent memory for agents with work to finish",
+          "link": "https://www.theregister.com/storage/2026/07/29/minio-pitches-persistent-memory-for-agents-with-work-to-finish/5280407",
           "date": "Jul 29, 2026",
-          "excerpt": "Don't worry about an AI bust, monster profits and huge margins are here to stay"
+          "excerpt": "AIStor keeps context, files, and secrets under customer control so interrupted jobs can pick up where they left off"
         }
       ]
     },
