@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T06:23:00.406Z",
+  "updatedAt": "2026-07-29T10:27:42.376Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "NHS England rapped over inaccurate Palantir patient data disclosure",
+          "link": "https://www.theregister.com/public-sector/2026/07/29/nhs-england-rapped-over-inaccurate-palantir-patient-data-disclosure/5280233",
+          "date": "Jul 29, 2026",
+          "excerpt": "Privacy guardian warns public trust quickly erodes when supplier access comes as a surprise"
+        },
+        {
+          "title": "AI digs through 3,700 accounts of dreams and waking life, finds method in the madness",
+          "link": "https://www.theregister.com/offbeat/2026/07/29/ai-digs-through-3700-accounts-of-dreams-and-waking-life-finds-method-in-the-madness/5279775",
+          "date": "Jul 29, 2026",
+          "excerpt": "Researchers uncover patterns in how sleeping minds recombine memories, people, and places"
+        },
+        {
+          "title": "Burnham's spanner in the works leaves UK government tech scattered across Whitehall",
+          "link": "https://www.theregister.com/public-sector/2026/07/29/burnhams-spanner-in-the-works-leaves-uk-government-tech-scattered-across-whitehall/5279437",
+          "date": "Jul 29, 2026",
+          "excerpt": "Splitting up responsibility for digital transformation and procurement while AI gets a seat at Cabinet risks incoherency"
+        },
+        {
+          "title": "Airbus keeps an A350 flying for 24 hours",
+          "link": "https://www.theregister.com/offbeat/2026/07/29/airbus-keeps-an-a350-flying-for-24-hours/5280209",
+          "date": "Jul 29, 2026",
+          "excerpt": "Ultra long range edition should enable 22-hour nonstop Australia-to-Europe flights next year"
+        },
+        {
           "title": "Big Tech demanding deals that smooth out memory prices, says SK Hynix",
           "link": "https://www.theregister.com/systems/2026/07/29/big-tech-demanding-deals-that-smooth-out-memory-prices-says-sk-hynix/5280182",
           "date": "Jul 29, 2026",
           "excerpt": "Don't worry about an AI bust, monster profits and huge margins are here to stay"
-        },
-        {
-          "title": "America bans imported robots due to supply chain and security risks",
-          "link": "https://www.theregister.com/security/2026/07/29/america-bans-imported-robots-due-to-supply-chain-and-security-risks/5280145",
-          "date": "Jul 29, 2026",
-          "excerpt": "Docs point to China’s Unitree as prime example of the foreign clanker threat"
-        },
-        {
-          "title": "A requiem for Optane, Intel's KV Cache killer that could have eased the RAM price crunch",
-          "link": "https://www.theregister.com/storage/2026/07/29/a-requiem-for-optane-intels-kv-cache-killer-that-could-have-eased-the-ram-price-crunch/5280063",
-          "date": "Jul 28, 2026",
-          "excerpt": "With microscopic latencies and otherworldly write endurance, it was perfect for today's AI workloads - but gone before they arrived"
-        },
-        {
-          "title": "MCP gets an enterprise makeover",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/29/mcp-gets-an-enterprise-makeover/5280027",
-          "date": "Jul 28, 2026",
-          "excerpt": "Now happier running in a conventional K8s environment, with `an easier-to-live-with lifecycle"
-        },
-        {
-          "title": "Looks like JFrog's 0-days let OpenAI's models hack Hugging Face",
-          "link": "https://www.theregister.com/security/2026/07/28/looks-like-jfrogs-0-days-let-openais-models-hack-hugging-face/5280001",
-          "date": "Jul 28, 2026",
-          "excerpt": "The vendor won't confirm or deny"
         }
       ]
     },
