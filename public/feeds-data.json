@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T01:25:09.003Z",
+  "updatedAt": "2026-07-29T06:23:00.406Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Big Tech demanding deals that smooth out memory prices, says SK Hynix",
+          "link": "https://www.theregister.com/systems/2026/07/29/big-tech-demanding-deals-that-smooth-out-memory-prices-says-sk-hynix/5280182",
+          "date": "Jul 29, 2026",
+          "excerpt": "Don't worry about an AI bust, monster profits and huge margins are here to stay"
+        },
+        {
+          "title": "America bans imported robots due to supply chain and security risks",
+          "link": "https://www.theregister.com/security/2026/07/29/america-bans-imported-robots-due-to-supply-chain-and-security-risks/5280145",
+          "date": "Jul 29, 2026",
+          "excerpt": "Docs point to China’s Unitree as prime example of the foreign clanker threat"
+        },
+        {
           "title": "A requiem for Optane, Intel's KV Cache killer that could have eased the RAM price crunch",
           "link": "https://www.theregister.com/storage/2026/07/29/a-requiem-for-optane-intels-kv-cache-killer-that-could-have-eased-the-ram-price-crunch/5280063",
           "date": "Jul 28, 2026",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/security/2026/07/28/looks-like-jfrogs-0-days-let-openais-models-hack-hugging-face/5280001",
           "date": "Jul 28, 2026",
           "excerpt": "The vendor won't confirm or deny"
-        },
-        {
-          "title": "Perplexity's tokenmaxxing Model Council gives you multiple bot perspectives",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/28/perplexitys-tokenmaxxing-model-council-gives-you-multiple-bot-perspectives/5279972",
-          "date": "Jul 28, 2026",
-          "excerpt": "Up to 8 AI models running in the cloud weighing in on ambiguous business issues? Sounds affordable"
-        },
-        {
-          "title": "War machines can run amok with AI in control",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/28/war-machines-can-run-amok-with-ai-in-control/5279937",
-          "date": "Jul 28, 2026",
-          "excerpt": "Tour of the AI kill chain maps the risks of ubiquitous surveillance and flawed algorithms"
         }
       ]
     },
