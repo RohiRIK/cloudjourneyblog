@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T17:18:02.037Z",
+  "updatedAt": "2026-07-29T01:25:09.003Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
+          "link": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+          "date": "Jul 28, 2026",
+          "excerpt": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]"
+        },
+        {
+          "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+          "link": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+          "date": "Jul 28, 2026",
+          "excerpt": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attac"
+        },
+        {
+          "title": "CISA shares advice on isolating vital systems during cyberattacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
+          "date": "Jul 28, 2026",
+          "excerpt": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or "
+        },
+        {
+          "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+          "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+          "date": "Jul 28, 2026",
+          "excerpt": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]"
+        },
+        {
           "title": "Is Your SSO Protected Against Modern Credential Attacks?",
           "link": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
           "date": "Jul 28, 2026",
           "excerpt": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity harde"
-        },
-        {
-          "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
-          "link": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
-          "date": "Jul 28, 2026",
-          "excerpt": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]"
-        },
-        {
-          "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
-          "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
-          "date": "Jul 28, 2026",
-          "excerpt": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]"
-        },
-        {
-          "title": "Hackers target US firms in FastJson RCE zero-day attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
-          "date": "Jul 27, 2026",
-          "excerpt": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]"
-        },
-        {
-          "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-          "date": "Jul 27, 2026",
-          "excerpt": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "AI is storage’s biggest opportunity - and biggest threat",
-          "link": "https://www.theregister.com/storage/2026/07/28/sponsored/5279607",
+          "title": "A requiem for Optane, Intel's KV Cache killer that could have eased the RAM price crunch",
+          "link": "https://www.theregister.com/storage/2026/07/29/a-requiem-for-optane-intels-kv-cache-killer-that-could-have-eased-the-ram-price-crunch/5280063",
           "date": "Jul 28, 2026",
-          "excerpt": "Faster access and more secure recoveries are driving business, but mishaps and attacks can endanger data"
+          "excerpt": "With microscopic latencies and otherworldly write endurance, it was perfect for today's AI workloads - but gone before they arrived"
         },
         {
-          "title": "College prof hides prompt to catch AI cheaters, finds human nature is pretty much as we thought",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/28/college-prof-hides-prompt-to-catch-ai-cheaters-finds-human-nature-is-pretty-much-as-we-thought/5279864",
+          "title": "MCP gets an enterprise makeover",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/29/mcp-gets-an-enterprise-makeover/5280027",
           "date": "Jul 28, 2026",
-          "excerpt": ""
+          "excerpt": "Now happier running in a conventional K8s environment, with `an easier-to-live-with lifecycle"
         },
         {
-          "title": "DEF CON bans Meta-style 'pervert glasses'",
-          "link": "https://www.theregister.com/security/2026/07/28/def-con-bans-meta-style-pervert-glasses/5279763",
+          "title": "Looks like JFrog's 0-days let OpenAI's models hack Hugging Face",
+          "link": "https://www.theregister.com/security/2026/07/28/looks-like-jfrogs-0-days-let-openais-models-hack-hugging-face/5280001",
           "date": "Jul 28, 2026",
-          "excerpt": "More organizers prohibit camera-equipped specs, even with prescription lenses"
+          "excerpt": "The vendor won't confirm or deny"
         },
         {
-          "title": "Britain hopes £7.3M will help electric and hydrogen aircraft take off",
-          "link": "https://www.theregister.com/offbeat/2026/07/28/britain-hopes-73m-will-help-electric-and-hydrogen-aircraft-take-off/5279809",
+          "title": "Perplexity's tokenmaxxing Model Council gives you multiple bot perspectives",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/28/perplexitys-tokenmaxxing-model-council-gives-you-multiple-bot-perspectives/5279972",
           "date": "Jul 28, 2026",
-          "excerpt": "Government finds some loose change down to chuck at emission-free flight research"
+          "excerpt": "Up to 8 AI models running in the cloud weighing in on ambiguous business issues? Sounds affordable"
         },
         {
-          "title": "AI-found bugs aren't proving any easier to exploit despite the hype",
-          "link": "https://www.theregister.com/security/2026/07/28/ai-found-bugs-arent-proving-any-easier-to-exploit-despite-the-hype/5279637",
+          "title": "War machines can run amok with AI in control",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/28/war-machines-can-run-amok-with-ai-in-control/5279937",
           "date": "Jul 28, 2026",
-          "excerpt": "VulnCheck says fewer than 2% of AI-assisted vulnerability discoveries have been weaponized, casting doubt on claims frontier models are handing attackers a major advantage"
+          "excerpt": "Tour of the AI kill chain maps the risks of ubiquitous surveillance and flawed algorithms"
         }
       ]
     },
