@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T01:18:36.079Z",
+  "updatedAt": "2026-07-30T06:17:01.997Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "Microsoft's cloud brings rain of revenue but modest M365 AI revenue harvest",
-          "link": "https://www.theregister.com/software/2026/07/30/microsoft-earnings-q4-26-cloud-brings-revenue-rain/5280798",
-          "date": "Jul 29, 2026",
-          "excerpt": "Capex spending? What? Me worry?"
-        },
-        {
-          "title": "NOAA ditches weather-predicting supercomputers for Google Cloud",
-          "link": "https://www.theregister.com/hpc/2026/07/29/noaa-ditches-weather-predicting-supercomputers-for-google-cloud/5280697",
-          "date": "Jul 29, 2026",
-          "excerpt": "Government agency will use Google Cloud H4D VMs to replace HPE Cray machines"
-        },
-        {
-          "title": "Big vacuum is watching as robo-cleaners put humans behind the wheel",
-          "link": "https://www.theregister.com/offbeat/2026/07/29/big-vacuum-is-watching-as-robo-cleaners-put-humans-behind-the-wheel/5280674",
-          "date": "Jul 29, 2026",
-          "excerpt": "Like a Waymo mated with a Roomba"
-        },
-        {
-          "title": "Uncle Sam sees the light, offers GlobalFoundries $300M to pursue silicon photonics while taking 1% stake",
-          "link": "https://www.theregister.com/public-sector/2026/07/29/uncle-sam-sees-the-light-offers-globalfoundries-300m-to-pursue-silicon-photonics-while-taking-1-stake/5280620",
-          "date": "Jul 29, 2026",
-          "excerpt": "Meanwhile, the other state-backed foundry, Intel, wraps up RAMP-C defense test chip program"
-        },
-        {
-          "title": "Closed models refuse to help researcher swat Linux bug",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/29/closed-models-refuse-to-help-researcher-swat-linux-bug/5280647",
-          "date": "Jul 29, 2026",
-          "excerpt": "\"I'm sorry, Dave. I'm afraid I can't do that\" is an effective sales pitch for open source"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
