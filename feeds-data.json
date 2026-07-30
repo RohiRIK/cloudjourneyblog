@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T20:41:56.029Z",
+  "updatedAt": "2026-07-30T01:18:36.079Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+          "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
+          "date": "Jul 29, 2026",
+          "excerpt": "The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor c"
+        },
+        {
+          "title": "Anthropic confirms Claude is down worldwide",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+          "date": "Jul 29, 2026",
+          "excerpt": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models. The disruption is causing requests to fail with a \"529 Overloaded\" message, including in Claude and "
+        },
+        {
+          "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
+          "date": "Jul 29, 2026",
+          "excerpt": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorize"
+        },
+        {
           "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
           "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
           "date": "Jul 29, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
           "date": "Jul 29, 2026",
           "excerpt": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of t"
-        },
-        {
-          "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
-          "date": "Jul 29, 2026",
-          "excerpt": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated"
-        },
-        {
-          "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
-          "link": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
-          "date": "Jul 29, 2026",
-          "excerpt": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege ar"
-        },
-        {
-          "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
-          "date": "Jul 29, 2026",
-          "excerpt": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Microsoft's cloud brings rain of revenue but modest M365 AI revenue harvest",
+          "link": "https://www.theregister.com/software/2026/07/30/microsoft-earnings-q4-26-cloud-brings-revenue-rain/5280798",
+          "date": "Jul 29, 2026",
+          "excerpt": "Capex spending? What? Me worry?"
+        },
+        {
+          "title": "NOAA ditches weather-predicting supercomputers for Google Cloud",
+          "link": "https://www.theregister.com/hpc/2026/07/29/noaa-ditches-weather-predicting-supercomputers-for-google-cloud/5280697",
+          "date": "Jul 29, 2026",
+          "excerpt": "Government agency will use Google Cloud H4D VMs to replace HPE Cray machines"
+        },
+        {
+          "title": "Big vacuum is watching as robo-cleaners put humans behind the wheel",
+          "link": "https://www.theregister.com/offbeat/2026/07/29/big-vacuum-is-watching-as-robo-cleaners-put-humans-behind-the-wheel/5280674",
+          "date": "Jul 29, 2026",
+          "excerpt": "Like a Waymo mated with a Roomba"
+        },
         {
           "title": "Uncle Sam sees the light, offers GlobalFoundries $300M to pursue silicon photonics while taking 1% stake",
           "link": "https://www.theregister.com/public-sector/2026/07/29/uncle-sam-sees-the-light-offers-globalfoundries-300m-to-pursue-silicon-photonics-while-taking-1-stake/5280620",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/ai-and-ml/2026/07/29/closed-models-refuse-to-help-researcher-swat-linux-bug/5280647",
           "date": "Jul 29, 2026",
           "excerpt": "\"I'm sorry, Dave. I'm afraid I can't do that\" is an effective sales pitch for open source"
-        },
-        {
-          "title": "Word worm crawls into Copilot, spreads chaos",
-          "link": "https://www.theregister.com/security/2026/07/29/word-worm-crawls-into-copilot-spreads-chaos/5280588",
-          "date": "Jul 29, 2026",
-          "excerpt": "Researcher says months of coordination with Microsoft have yet to produce a robust mitigation"
-        },
-        {
-          "title": "Moscow slaps Telegram founder on wanted list, Durov responds with one-finger salute",
-          "link": "https://www.theregister.com/applications/2026/07/29/moscow-slaps-telegram-founder-on-wanted-list-durov-responds-with-one-finger-salute/5280522",
-          "date": "Jul 29, 2026",
-          "excerpt": "FSB claims Ukrainian spies use chat platform to recruit Russians for sabotage and arson"
-        },
-        {
-          "title": "MinIO pitches persistent memory for agents with work to finish",
-          "link": "https://www.theregister.com/storage/2026/07/29/minio-pitches-persistent-memory-for-agents-with-work-to-finish/5280407",
-          "date": "Jul 29, 2026",
-          "excerpt": "AIStor keeps context, files, and secrets under customer control so interrupted jobs can pick up where they left off"
         }
       ]
     },
