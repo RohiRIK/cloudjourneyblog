@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T06:35:24.141Z",
+  "updatedAt": "2026-07-31T17:18:45.588Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
+          "date": "Jul 31, 2026",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and waste"
+        },
+        {
+          "title": "ESET tracks rise in malicious AI skills and adaptable malware",
+          "link": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
+          "date": "Jul 31, 2026",
+          "excerpt": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware"
+        },
+        {
           "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
           "link": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
           "date": "Jul 31, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
           "date": "Jul 30, 2026",
           "excerpt": "JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code execution. [...]"
-        },
-        {
-          "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
-          "link": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
-          "date": "Jul 30, 2026",
-          "excerpt": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]"
-        },
-        {
-          "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
-          "link": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
-          "date": "Jul 30, 2026",
-          "excerpt": "Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws that allow attackers to bypass authentication, execut"
         }
       ]
     },
@@ -100,38 +100,8 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [
-        {
-          "title": "Techie lured out of retirement to support software only he remembered",
-          "link": "https://www.theregister.com/software/2026/07/31/techie-lured-out-of-retirement-to-support-software-only-he-remembered/5280245",
-          "date": "Jul 31, 2026",
-          "excerpt": "The first job went well, but a pension remained preferable to rolling projects"
-        },
-        {
-          "title": "Anthropic’s Claude escaped test sandbox to attack three organizations",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562",
-          "date": "Jul 31, 2026",
-          "excerpt": "Wrote and published malware during tests, which is apparently OK because leaky test environments were the real problem"
-        },
-        {
-          "title": "Amazon's Q2 was great, but the earnings release is packed with baloney",
-          "link": "https://www.theregister.com/paas-and-iaas/2026/07/31/amazon-q2-earnings-strong-results-much-baloney-in-press-release-corey-quinn/5281486",
-          "date": "Jul 31, 2026",
-          "excerpt": "\"Tell me lies, tell me sweet little lies\""
-        },
-        {
-          "title": "LinkedIn realizes its users have been bathing in AI slop, offers a shower",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/30/linkedin-realizes-its-users-have-been-bathing-in-ai-slop-offers-a-shower/5281436",
-          "date": "Jul 30, 2026",
-          "excerpt": "AI-riddled social network adds button to report sloppy posts, ditches AI rewrite tools, and promises more to come"
-        },
-        {
-          "title": "Oracle adds Google Gemini to the agent menu",
-          "link": "https://www.theregister.com/ai-and-ml/2026/07/30/oracle-adds-google-gemini-to-the-agent-menu/5281331",
-          "date": "Jul 30, 2026",
-          "excerpt": "Chocolate Factory LLMs join Big Red's Fusion automation party"
-        }
-      ]
+      "items": [],
+      "error": true
     },
     {
       "name": "GitHub Enterprise",
