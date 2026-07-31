@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T01:45:03.503Z",
+  "updatedAt": "2026-07-31T06:35:24.141Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Techie lured out of retirement to support software only he remembered",
+          "link": "https://www.theregister.com/software/2026/07/31/techie-lured-out-of-retirement-to-support-software-only-he-remembered/5280245",
+          "date": "Jul 31, 2026",
+          "excerpt": "The first job went well, but a pension remained preferable to rolling projects"
+        },
+        {
+          "title": "Anthropic’s Claude escaped test sandbox to attack three organizations",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562",
+          "date": "Jul 31, 2026",
+          "excerpt": "Wrote and published malware during tests, which is apparently OK because leaky test environments were the real problem"
+        },
+        {
+          "title": "Amazon's Q2 was great, but the earnings release is packed with baloney",
+          "link": "https://www.theregister.com/paas-and-iaas/2026/07/31/amazon-q2-earnings-strong-results-much-baloney-in-press-release-corey-quinn/5281486",
+          "date": "Jul 31, 2026",
+          "excerpt": "\"Tell me lies, tell me sweet little lies\""
+        },
+        {
+          "title": "LinkedIn realizes its users have been bathing in AI slop, offers a shower",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/30/linkedin-realizes-its-users-have-been-bathing-in-ai-slop-offers-a-shower/5281436",
+          "date": "Jul 30, 2026",
+          "excerpt": "AI-riddled social network adds button to report sloppy posts, ditches AI rewrite tools, and promises more to come"
+        },
+        {
+          "title": "Oracle adds Google Gemini to the agent menu",
+          "link": "https://www.theregister.com/ai-and-ml/2026/07/30/oracle-adds-google-gemini-to-the-agent-menu/5281331",
+          "date": "Jul 30, 2026",
+          "excerpt": "Chocolate Factory LLMs join Big Red's Fusion automation party"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
