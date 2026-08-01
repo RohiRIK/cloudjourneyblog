@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T06:19:31.246Z",
+  "updatedAt": "2026-08-01T16:46:42.862Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Rails patches critical Active Storage flaw with RCE potential",
+          "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+          "date": "Aug 1, 2026",
+          "excerpt": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE)"
+        },
+        {
           "title": "Amgen says cloud data breach exposed patient health, proprietary info",
           "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
           "date": "Jul 31, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
           "date": "Jul 31, 2026",
           "excerpt": "OpenAI says it has reduced the price of two GPT-5.6 models, cutting Luna's API price by 80% and Terra's by 20% as it works to make its models more efficient. [...]"
-        },
-        {
-          "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
-          "link": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
-          "date": "Jul 31, 2026",
-          "excerpt": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]"
         }
       ]
     },
@@ -101,6 +101,24 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Unexpected item in the bagging area as Windows Activation error pops up at check-in",
+          "link": "https://www.theregister.com/offbeat/2026/08/01/unexpected-item-in-the-bagging-area-as-windows-activation-error-pops-up-at-check-in/5281946",
+          "date": "Aug 1, 2026",
+          "excerpt": "Bags weighed down by a Microsoft license key"
+        },
+        {
+          "title": "A deep dive into Nvidia's Vera CPU and the Olympus cores that power it",
+          "link": "https://www.theregister.com/systems/2026/08/01/nvidias-vera-cpu-and-the-olympus-cores-that-power-it-deep-dive/5282056",
+          "date": "Aug 1, 2026",
+          "excerpt": "88 custom cores, 176 funky threads, 1.5 TB of laptop RAM, and 1.8 TB/s of NVLink connectivity — this isn't your typical datacenter chip"
+        },
+        {
+          "title": "Enterprise cloud infrastructure uptake shows no sign of slowing",
+          "link": "https://www.theregister.com/off-prem/2026/08/01/enterprise-cloud-infrastructure-uptake-shows-no-sign-of-slowing/5281835",
+          "date": "Aug 1, 2026",
+          "excerpt": "Cloud revenue now north of $143 billion a quarter, and growth is accelerating"
+        },
         {
           "title": "Dev who gave HashiCorp its name returns with a faster terminal multiplexer",
           "link": "https://www.theregister.com/devops/2026/07/31/dev-who-gave-hashicorp-its-name-returns-with-a-faster-terminal-multiplexer/5281970",
@@ -112,24 +130,6 @@
           "link": "https://www.theregister.com/security/2026/07/31/the-most-famous-brand-in-physical-security-got-pwned-by-shinyhunters/5281924",
           "date": "Jul 31, 2026",
           "excerpt": "Hopefully the company secures houses better than it locks down SaaS systems"
-        },
-        {
-          "title": "US bank places trust in ransomware crew that promised to delete its data",
-          "link": "https://www.theregister.com/cyber-crime/2026/07/31/us-bank-places-trust-in-ransomware-crew-that-promised-to-delete-its-data/5281888",
-          "date": "Jul 31, 2026",
-          "excerpt": "History suggests this was not wise"
-        },
-        {
-          "title": "Anthropic and OpenAI are competing to see whose agents can go rogue harder",
-          "link": "https://www.theregister.com/security/2026/07/31/anthropic-and-openai-are-competing-to-see-whose-agents-can-go-rogue-harder/5281797",
-          "date": "Jul 31, 2026",
-          "excerpt": "Whoever wins, we lose"
-        },
-        {
-          "title": "Update Teams mobile app by October or lose your calendar",
-          "link": "https://www.theregister.com/software/2026/07/31/update-teams-mobile-app-by-october-or-lose-your-calendar/5281773",
-          "date": "Jul 31, 2026",
-          "excerpt": "A nice little summer job for someone"
         }
       ]
     },
