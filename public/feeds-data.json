@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T16:46:42.862Z",
+  "updatedAt": "2026-08-02T16:44:48.414Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Google Chrome may soon block New Tab hijacker extensions by default",
+          "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
+          "date": "Aug 2, 2026",
+          "excerpt": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]"
+        },
+        {
           "title": "Rails patches critical Active Storage flaw with RCE potential",
           "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
           "date": "Aug 1, 2026",
@@ -87,12 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
           "date": "Jul 31, 2026",
           "excerpt": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboard"
-        },
-        {
-          "title": "OpenAI says its new GPT 5.6 models are becoming more cost-efficient",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
-          "date": "Jul 31, 2026",
-          "excerpt": "OpenAI says it has reduced the price of two GPT-5.6 models, cutting Luna's API price by 80% and Terra's by 20% as it works to make its models more efficient. [...]"
         }
       ]
     },
@@ -101,6 +101,12 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Meet the 'internet radical' who helped Microsoft get email and AT&T get online",
+          "link": "https://www.theregister.com/offbeat/2026/08/02/meet-the-internet-radical-who-helped-microsoft-get-email-and-att-get-online/5281281",
+          "date": "Aug 2, 2026",
+          "excerpt": "Tom Evslin on Bill Gates, the birth of Exchange, and dragging Ma Bell onto the web"
+        },
         {
           "title": "Unexpected item in the bagging area as Windows Activation error pops up at check-in",
           "link": "https://www.theregister.com/offbeat/2026/08/01/unexpected-item-in-the-bagging-area-as-windows-activation-error-pops-up-at-check-in/5281946",
@@ -124,12 +130,6 @@
           "link": "https://www.theregister.com/devops/2026/07/31/dev-who-gave-hashicorp-its-name-returns-with-a-faster-terminal-multiplexer/5281970",
           "date": "Jul 31, 2026",
           "excerpt": "Persistent sessions could be just the beginning"
-        },
-        {
-          "title": "The most famous brand in physical security got pwned by ShinyHunters",
-          "link": "https://www.theregister.com/security/2026/07/31/the-most-famous-brand-in-physical-security-got-pwned-by-shinyhunters/5281924",
-          "date": "Jul 31, 2026",
-          "excerpt": "Hopefully the company secures houses better than it locks down SaaS systems"
         }
       ]
     },
