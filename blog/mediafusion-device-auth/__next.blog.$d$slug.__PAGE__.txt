@@ -18,7 +18,7 @@
 4d:I[605649,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
 4e:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 4f:"$Sreact.suspense"
-0:{"buildId":"wKTVf5CvuUUHVPMuNo_I8","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/mediafusion-device-auth","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/mediafusion-device-auth\",\"sameAs\":[],\"headline\":\"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device\",\"description\":\"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/mediafusion-device-auth.png\",\"datePublished\":\"2026-08-03\",\"dateModified\":\"2026-08-03\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"August 3, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/mediafusion-device-auth.png","alt":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"MediaFusion solves a critical challenge in the streaming ecosystem: how to securely authenticate users on devices with limited input capabilities. From Stremio addons on Android TV boxes to Kodi installations on Raspberry Pis, many streaming devices lack full keyboards or browsers, making traditional OAuth flows impractical. MediaFusion addresses this by implementing the OAuth 2.0 Device Authorization Grant (RFC 8628), creating a seamless authentication experience that never requires users to enter credentials on the device itself."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-is-mediafusion","children":"What is MediaFusion?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"MediaFusion is an open-source streaming platform that aggregates content from configured sources—including torrent indexers, debrid services like RealDebrid and Premiumize, metadata providers, and enhancement services—into a unified interface accessible through Stremio, Kodi, or directly in a browser. Acting as an aggregation layer, it connects to over 40 external services across six major categories, eliminating the need to juggle multiple apps or websites."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a"]}],"$L3b","$L3c","$L3d","$L3e"]}]}],"$L3f"]}],["$L40"],"$L41"]}],"loading":null,"isPartial":false}
+0:{"buildId":"1ouSiiRyxSV5gUauT_cA5","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/mediafusion-device-auth","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/mediafusion-device-auth\",\"sameAs\":[],\"headline\":\"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device\",\"description\":\"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/mediafusion-device-auth.png\",\"datePublished\":\"2026-08-03\",\"dateModified\":\"2026-08-03\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"August 3, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/mediafusion-device-auth.png","alt":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"MediaFusion solves a critical challenge in the streaming ecosystem: how to securely authenticate users on devices with limited input capabilities. From Stremio addons on Android TV boxes to Kodi installations on Raspberry Pis, many streaming devices lack full keyboards or browsers, making traditional OAuth flows impractical. MediaFusion addresses this by implementing the OAuth 2.0 Device Authorization Grant (RFC 8628), creating a seamless authentication experience that never requires users to enter credentials on the device itself."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-is-mediafusion","children":"What is MediaFusion?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"MediaFusion is an open-source streaming platform that aggregates content from configured sources-including torrent indexers, debrid services like RealDebrid and Premiumize, metadata providers, and enhancement services-into a unified interface accessible through Stremio, Kodi, or directly in a browser. Acting as an aggregation layer, it connects to over 40 external services across six major categories, eliminating the need to juggle multiple apps or websites."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a"]}],"$L3b","$L3c","$L3d","$L3e"]}]}],"$L3f"]}],["$L40"],"$L41"]}],"loading":null,"isPartial":false}
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The platform's strength lies in its ability to present a unified streaming experience while handling the complexity of authentication with various backend services behind the scenes."}]
 a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-oauth-2.0-device-authorization-grant-explained","children":"The OAuth 2.0 Device Authorization Grant Explained"}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The OAuth 2.0 Device Authorization Grant (also known as \"device flow\") is specifically designed for input-constrained or browserless devices. Unlike traditional OAuth flows that require redirects or embedded browsers, device flow enables authorization through a secondary device like a smartphone or laptop."}]
@@ -27,14 +27,14 @@ d:["$","$L42",null,{"as":"ol","children":["\n",["$","$L43",null,{"marginTop":"4"
 e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"OAuth Device Flow Diagram","src":"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZiIvPjx0ZXh0IHg9IjMwMCIgeT0iMjAwIiBmb250LXNpemU9IjE2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMDAwIjpEZXZpY2UgRmxvdzwvdGV4dD48L3N2Zz4="}]}]
 f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-device-flow-provides-excellent-ux-for-mediafusion-users","children":"Why Device Flow Provides Excellent UX for MediaFusion Users"}]
 10:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The device flow solves the authentication dilemma for streaming addons in several key ways:"}]
-11:["$","$L42",null,{"as":"ul","children":["\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"No Browser Required on Device"}],": MediaFusion runs on devices that may lack browsers or have limited input (like TV boxes or Raspberry Pi setups). The device flow eliminates the need for browser-based authentication flows on these constrained devices."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Secondary Device Authentication"}],": Users complete authorization on familiar devices with full keyboards and browsers—typically smartphones or laptops—making the process intuitive and error-free."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Simple Code Entry"}],": Instead of entering complex credentials, users only need to input a short, alphanumeric user code (typically 6-8 characters), reducing friction and errors."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Automatic Polling"}],": After displaying the user code, MediaFusion automatically handles the polling process in the background, requiring no further user interaction until authorization completes or times out."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"URL-Based Configuration"}],": Encrypted credentials are embedded directly in the manifest URL, eliminating separate login steps when installing the Stremio or Kodi addon. Users simply install the addon with the pre-configured manifest URL, and it just works."]}],"\n"]}],"\n"]}]
+11:["$","$L42",null,{"as":"ul","children":["\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"No Browser Required on Device"}],": MediaFusion runs on devices that may lack browsers or have limited input (like TV boxes or Raspberry Pi setups). The device flow eliminates the need for browser-based authentication flows on these constrained devices."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Secondary Device Authentication"}],": Users complete authorization on familiar devices with full keyboards and browsers-typically smartphones or laptops-making the process intuitive and error-free."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Simple Code Entry"}],": Instead of entering complex credentials, users only need to input a short, alphanumeric user code (typically 6-8 characters), reducing friction and errors."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Automatic Polling"}],": After displaying the user code, MediaFusion automatically handles the polling process in the background, requiring no further user interaction until authorization completes or times out."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"URL-Based Configuration"}],": Encrypted credentials are embedded directly in the manifest URL, eliminating separate login steps when installing the Stremio or Kodi addon. Users simply install the addon with the pre-configured manifest URL, and it just works."]}],"\n"]}],"\n"]}]
 12:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"security-analysis-what-device-flow-protects-against","children":"Security Analysis: What Device Flow Protects Against"}]
 13:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The device flow provides inherent security benefits by design:"}]
 14:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"what-it-protects-against","children":"What It Protects Against"}]
 15:["$","$L42",null,{"as":"ul","children":["\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Credential Exposure"}],": User credentials (username/password) never enter the MediaFusion device interface, eliminating credential theft from compromised devices."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Limited Attack Surface"}],": Only the device code and user code are exposed on the limited-interface device, minimizing the attack surface."]}],"\n"]}]
 16:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"security-considerations-and-mitigations","children":"Security Considerations & Mitigations"}]
 17:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"While inherently more secure than alternatives like Resource Owner Password Credentials (ROPC), device flow requires attention to several considerations:"}]
-18:["$","$L42",null,{"as":"ol","children":["\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"User Code Brute Forcing"}],": RFC 8628 §5.1 specifies that user codes must be sufficiently long and random to prevent brute-force attacks. MediaFusion relies on provider-standard implementations that typically use 8-character alphanumeric codes (62^8 ≈ 218 trillion possibilities)."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Device Code Brute Forcing"}],": Similarly, device codes must be sufficiently entropic (RFC 8628 §5.2). Providers implement these with sufficient entropy to make brute-forcing impractical."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Phishing Risks"}],": Users must verify they're entering codes on legitimate provider verification pages. MediaFusion mitigates this by displaying the exact verification URL to visit."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Polling Abuse"}],": Providers must implement rate limiting on token endpoints to prevent abuse from frequent polling—a standard requirement RFC 8628 §5.4 places on authorization servers."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Token Lifetime Management"}],": Access tokens should have appropriate expiration times, with refresh token support where applicable, limiting the window of compromise if tokens are intercepted."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"PKCE Considerations"}],": While RFC 8628 doesn't mandate PKCE for device flow, some providers implement it additionally. MediaFusion works with provider implementations as-is."]}],"\n"]}],"\n"]}]
+18:["$","$L42",null,{"as":"ol","children":["\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"User Code Brute Forcing"}],": RFC 8628 section 5.1 specifies that user codes must be sufficiently long and random to prevent brute-force attacks. MediaFusion relies on provider-standard implementations that typically use 8-character alphanumeric codes (62^8 ~ 218 trillion possibilities)."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Device Code Brute Forcing"}],": Similarly, device codes must be sufficiently entropic (RFC 8628 section 5.2). Providers implement these with sufficient entropy to make brute-forcing impractical."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Phishing Risks"}],": Users must verify they're entering codes on legitimate provider verification pages. MediaFusion mitigates this by displaying the exact verification URL to visit."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Polling Abuse"}],": Providers must implement rate limiting on token endpoints to prevent abuse from frequent polling-a standard requirement RFC 8628 section 5.4 places on authorization servers."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Token Lifetime Management"}],": Access tokens should have appropriate expiration times, with refresh token support where applicable, limiting the window of compromise if tokens are intercepted."]}],"\n"]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"PKCE Considerations"}],": While RFC 8628 doesn't mandate PKCE for device flow, some providers implement it additionally. MediaFusion works with provider implementations as-is."]}],"\n"]}],"\n"]}]
 19:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"device-flow-vs.-alternative-oauth-flows","children":"Device Flow vs. Alternative OAuth Flows"}]
 1a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Understanding when device flow is the right choice requires comparing it to other OAuth flows:"}]
 1b:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"device-flow-vs.-authorization-code-pkce","children":"Device Flow vs. Authorization Code + PKCE"}]
@@ -59,11 +59,11 @@ f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-devi
 2e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["The encryption implementation spans ",["$","$L44",null,{"children":"utils/crypto.py"}]," and ",["$","$L44",null,{"children":"db/schemas.py"}]," (lines 235-348), ensuring credentials never remain in plaintext in configurations or URLs."]}]
 2f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"best-practices-for-users-when-authorizing-devices","children":"Best Practices for Users When Authorizing Devices"}]
 30:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"To maximize security when using MediaFusion's device flow:"}]
-31:["$","$L42",null,{"as":"ol","children":["\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Verify the Verification URL"}],": Always ensure you're on the legitimate provider's website when entering user codes."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Use Temporary Codes"}],": Treat user codes as temporary passwords—don't share them or enter them on suspicious sites."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Monitor Authorized Devices"}],": Regularly review and revoke access for devices you no longer use via the provider's account dashboard."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Understand Token Scope"}],": Be aware of what permissions you're granting (typically limited to accessing your debrid/storage account)."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Keep Recovery Options Updated"}],": Ensure account recovery methods are current in case you need to regain access."]}],"\n"]}]
+31:["$","$L42",null,{"as":"ol","children":["\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Verify the Verification URL"}],": Always ensure you're on the legitimate provider's website when entering user codes."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Use Temporary Codes"}],": Treat user codes as temporary passwords-don't share them or enter them on suspicious sites."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Monitor Authorized Devices"}],": Regularly review and revoke access for devices you no longer use via the provider's account dashboard."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Understand Token Scope"}],": Be aware of what permissions you're granting (typically limited to accessing your debrid/storage account)."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Keep Recovery Options Updated"}],": Ensure account recovery methods are current in case you need to regain access."]}],"\n"]}]
 32:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-this-approach-represents-the-future-of-device-authentication","children":"Why This Approach Represents the Future of Device Authentication"}]
 33:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"MediaFusion's implementation of OAuth 2.0 Device Flow exemplifies a broader shift in how we handle authentication for the growing ecosystem of smart devices, IoT gadgets, and media-centric hardware:"}]
 34:["$","$L42",null,{"as":"ul","children":["\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"User-Centric Security"}],": By separating authentication from the device interface, we achieve both security and usability without compromise."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Standardized Approach"}],": Leveraging RFC 8628 ensures compatibility with major identity providers while benefiting from community-vetted security practices."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Seamless Integration"}],": The URL-based credential embedding creates a truly \"set it and forget it\" experience for addon installation and configuration."]}],"\n",["$","$L43",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Extensible Framework"}],": As more services adopt device flow (from Google to Azure AD), MediaFusion's modular implementation can easily integrate new providers."]}],"\n"]}]
-35:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"For streaming enthusiasts who value both convenience and security, MediaFusion's device flow implementation demonstrates how thoughtful authentication design can make complex backend integrations disappear behind a simple, \"just works\" user experience—exactly what the modern streaming ecosystem needs."}]
+35:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"For streaming enthusiasts who value both convenience and security, MediaFusion's device flow implementation demonstrates how thoughtful authentication design can make complex backend integrations disappear behind a simple, \"just works\" user experience-exactly what the modern streaming ecosystem needs."}]
 36:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L45",null,{"maxWidth":"40"}]}]
 37:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"related-documents","children":"Related Documents"}]
 38:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"related-documents","children":"Related Documents"}]
@@ -183,30 +183,30 @@ Validation checks:
 3f:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L4d",null,{"fitHeight":true}]}]
 40:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
 41:["$","$L4e",null,{"children":["$","$4f",null,{"name":"Next.MetadataOutlet","children":"$@50"}]}]
-51:T17ad,
+51:T1729,
 # Securing AI Agents: Threat Model and Guardrails for Production
 
-AI agents—LLMs augmented with tool use, memory, and planning—are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero‑trust playbook for securing AI agents at scale, grounded in recent academic surveys, real‑world case studies, and industry cheat‑sheets.
+AI agents-LLMs augmented with tool use, memory, and planning-are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero-trust playbook for securing AI agents at scale, grounded in recent academic surveys, real-world case studies, and industry cheat-sheets.
 
 ## Core Threat Model for AI Agents
 
 ### Prompt Injection / Tool Manipulation
-Attacker‑controlled input causing unwanted tool calls or data leaks.  
+Attacker-controlled input causing unwanted tool calls or data leaks.  
 *Citations: [1,2,4,5]*
 
 ### Data Exfiltration & Lateral Movement
 Agents with excessive permissions read/exfiltrate data or pivot to other services.  
 *Citations: [1,2]*
 
-### Over‑Privileged Agent Identities
+### Over-Privileged Agent Identities
 Excessive IAM roles/service accounts enable privilege escalation.  
 *Citations: [1,2]*
 
-### Indirect / Second‑Order Injection
-Malicious data returned by tools corrupts the agent’s reasoning.  
+### Indirect / Second-Order Injection
+Malicious data returned by tools corrupts the agent's reasoning.  
 *Citations: [3,6]*
 
-### Runtime & Supply‑Chain Risks
+### Runtime & Supply-Chain Risks
 Compromised tool images, unsafe plugins, credential leakage.  
 *Citations: [2,3]*
 
@@ -216,12 +216,12 @@ Compromised tool images, unsafe plugins, credential leakage.
 [3] ClawGuard runtime security framework  
 [4] Forcepoint blog on agentic AI risks  
 [5] Astrix guide  
-[6] “Caging the Agents” healthcare case study
+[6] "Caging the Agents" healthcare case study
 
-## Least‑Privilege / Capability‑Based Access Control (ABA)
+## Least-Privilege / Capability-Based Access Control (ABA)
 
-### Per‑Agent Credentials & Short‑Lived Tokens
-Use workload identity (OIDC federation, Azure/Google workload identity) so agents never store long‑lived secrets.  
+### Per-Agent Credentials & Short-Lived Tokens
+Use workload identity (OIDC federation, Azure/Google workload identity) so agents never store long-lived secrets.  
 *Citations: [2,6]*
 
 ### Scoped Tool Access
@@ -229,10 +229,10 @@ Each agent gets a minimal allowlist of APIs/commands, enforced via sidecar proxi
 *Citations: [2,6]*
 
 ### Runtime Policy Engines
-e.g., Open Policy Agent (OPA) or Kubernetes PSP/OPA‑Gatekeeper to deny privileged syscalls.  
+e.g., Open Policy Agent (OPA) or Kubernetes PSP/OPA-Gatekeeper to deny privileged syscalls.  
 *Citations: [2]*
 
-*Source:* “Caging the Agents” – credential proxy sidecars prevent containers from accessing raw secrets.
+*Source:* "Caging the Agents" - credential proxy sidecars prevent containers from accessing raw secrets.
 
 ## Securing the Agent Runtime & Deployment
 
@@ -241,61 +241,61 @@ Use gVisor, Kata Containers, or lightweight VMs to sandbox agent processes.
 *Citations: [6]*
 
 ### Network Egress Controls
-Allow‑list destinations per agent (e.g., Kubernetes NetworkPolicy, AWS Security Groups, Azure NSG).  
+Allow-list destinations per agent (e.g., Kubernetes NetworkPolicy, AWS Security Groups, Azure NSG).  
 *Citations: [6]*
 
 ### Secret Management
 Inject secrets via sidecar or CSI driver; never mount directly into agent filesystem.  
 *Citations: [2,6]*
 
-### Audit Logging & Tamper‑Evident Trails
+### Audit Logging & Tamper-Evident Trails
 Log every tool call, LLM prompt/output, and credential access; ship to SIEM/chronicle.  
 *Citations: [2,6]*
 
-### Human‑in‑the‑Loop / Approval Gates
+### Human-in-the-Loop / Approval Gates
 Require approval for destructive actions (e.g., `kubectl delete`, `aws s3 rm`).  
 *Citations: [2,6]*
 
 *Sources:*  
-- “Caging the Agents” – four‑layer defense: gVisor isolation, credential sidecar, network egress allowlist, prompt‑integrity framework  
-- “Towards trustworthy agentic AI” – discusses isolation, secrets, logging, approval mechanisms
+- "Caging the Agents" - four-layer defense: gVisor isolation, credential sidecar, network egress allowlist, prompt-integrity framework  
+- "Towards trustworthy agentic AI" - discusses isolation, secrets, logging, approval mechanisms
 
 ## Identity & Trust Boundaries
 
 ### Workload Identity Federation
-Agents authenticate to downstream APIs using short‑lived JWTs from Azure AD Workload Identity, Google Workload Identity Federation, or AWS IAM Roles for Service Accounts (IRSA).  
+Agents authenticate to downstream APIs using short-lived JWTs from Azure AD Workload Identity, Google Workload Identity Federation, or AWS IAM Roles for Service Accounts (IRSA).  
 *Citations: [2]*
 
 ### Mutual TLS / SPIFFE
-Establish service‑to‑service trust between agents and backend APIs.  
+Establish service-to-service trust between agents and backend APIs.  
 *Citations: [2]*
 
 ### Tool/Plugin Signing & Attestation
 Verify code signatures before loading plugins.  
 *Citations: [2,3]*
 
-*Source:* “Towards trustworthy agentic AI” – covers OIDC federation and workload identity.
+*Source:* "Towards trustworthy agentic AI" - covers OIDC federation and workload identity.
 
 ## Practical Guardrails an Infra/Security Engineer Can Implement Today
 
-### Prompt‑Integrity Framework
+### Prompt-Integrity Framework
 Wrap untrusted tool outputs in structured metadata (e.g., JSON with `trusted: false`) and apply validation/sanitization before feeding back to the LLM.  
 *Citations: [6]*
 
-### Input Sanitization & Allow‑Listing
+### Input Sanitization & Allow-Listing
 Reject prompts containing known injection patterns (e.g., `<<SYS>>`, `[[[`, `]]]`).  
 *Citations: [4,5]*
 
 ### Output Encoding / Sandboxed Execution
-Run tool‑generated code in a sandbox (gVisor, Firecracker) and enforce SELinux/AppArmor profiles.  
+Run tool-generated code in a sandbox (gVisor, Firecracker) and enforce SELinux/AppArmor profiles.  
 *Citations: [2,6]*
 
 ### Runtime Detection
-Deploy classifiers or anomaly detectors on prompt/tool‑call streams (see ClawGuard runtime framework for indirect injection detection).  
+Deploy classifiers or anomaly detectors on prompt/tool-call streams (see ClawGuard runtime framework for indirect injection detection).  
 *Citations: [3]*
 
-### Preference‑Optimization Defenses
-Fine‑tune LLMs to reject malicious prompts via reinforcement learning from human feedback (SecAlign approach).  
+### Preference-Optimization Defenses
+Fine-tune LLMs to reject malicious prompts via reinforcement learning from human feedback (SecAlign approach).  
 *Citations: [4]*
 
 ### Structured Query Defenses
@@ -303,28 +303,28 @@ Force agents to use parameterized queries or prepared statements when interactin
 *Citations: [5]*
 
 ### Continuous Automated Security Auditing
-Run an “audit agent” that periodically checks agent configurations, permission drift, and anomalous behavior (as in the healthcare case study).  
+Run an "audit agent" that periodically checks agent configurations, permission drift, and anomalous behavior (as in the healthcare case study).  
 *Citations: [6]*
 
 *Sources:*  
-- “Caging the Agents” – prompt integrity framework with structured envelopes  
-- ClawGuard – runtime security framework for indirect prompt injection  
-- SecAlign – preference optimization to defend against prompt injection  
-- StruQ – structured queries to mitigate injection  
-- OWASP Cheat Sheet – recommends input validation, output encoding, least privilege, monitoring  
-- Astrix guide – lists prompt injection, tool manipulation, data exfiltration, over‑privileged agents as top risks
+- "Caging the Agents" - prompt integrity framework with structured envelopes  
+- ClawGuard - runtime security framework for indirect prompt injection  
+- SecAlign - preference optimization to defend against prompt injection  
+- StruQ - structured queries to mitigate injection  
+- OWASP Cheat Sheet - recommends input validation, output encoding, least privilege, monitoring  
+- Astrix guide - lists prompt injection, tool manipulation, data exfiltration, over-privileged agents as top risks
 
-## Conclusion & Call‑to‑Action
+## Conclusion & Call-to-Action
 
-AI agent security extends zero‑trust principles: verify, enforce least privilege, monitor, and assume breach. Engineers can start today by:
+AI agent security extends zero-trust principles: verify, enforce least privilege, monitor, and assume breach. Engineers can start today by:
 
-1. Enforcing per‑agent workload identities  
+1. Enforcing per-agent workload identities  
 2. Sandboxing agent runtimes  
-3. Implementing egress allow‑lists  
-4. Adding prompt‑integrity wrappers  
+3. Implementing egress allow-lists  
+4. Adding prompt-integrity wrappers  
 5. Logging all tool interactions  
 
-Continuous red‑team/blue‑team exercises and automated audit agents keep defenses current as threats evolve.
+Continuous red-team/blue-team exercises and automated audit agents keep defenses current as threats evolve.
 
-*All sources are publicly accessible as of the date of this article. Content is ASCII‑only as requested.*4b:["$","$L49","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$51"},"thumbnail":true,"direction":"column"}]
+*All sources are publicly accessible as of the date of this article. Content is ASCII-only as requested.*4b:["$","$L49","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$51"},"thumbnail":true,"direction":"column"}]
 50:null

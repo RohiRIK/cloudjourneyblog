@@ -112,13 +112,13 @@ Validation checks:
 - PowerShell Scripts for Remediations reference: https://learn.microsoft.com/en-us/intune/device-management/tools/ref-remediation-scripts
 - Windows Autopatch alerts and remediations: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/alerts-remediations
 - Windows Autopatch management status report: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/windows-autopatch-management-status-report
-- Windows Autopatch groups overview: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/deploy/windows-autopatch-groups-overview0:{"buildId":"wKTVf5CvuUUHVPMuNo_I8","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"sameAs\":[],\"headline\":\"Writing on security, automation, and infrastructure\",\"description\":\"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing on security, automation, and infrastructure"}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","intune-autopatch-with-scripts",{"post":{"metadata":{"title":"Intune Autopatch with Script-Based Patch Verification","subtitle":"","publishedAt":"2026-08-03","summary":"Step-by-step guide to implementing Windows Autopatch with Intune Proactive Remediations for verifiable automated patching.","image":"/images/blog/intune-autopatch-with-scripts.png","images":[],"tag":"Security","team":[],"link":""},"slug":"intune-autopatch-with-scripts","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9"]}]]}],["$La"],"$Lb"]}],"loading":null,"isPartial":false}
-c:T2bbe,
+- Windows Autopatch groups overview: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/deploy/windows-autopatch-groups-overview0:{"buildId":"1ouSiiRyxSV5gUauT_cA5","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"sameAs\":[],\"headline\":\"Writing on security, automation, and infrastructure\",\"description\":\"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing on security, automation, and infrastructure"}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","intune-autopatch-with-scripts",{"post":{"metadata":{"title":"Intune Autopatch with Script-Based Patch Verification","subtitle":"","publishedAt":"2026-08-03","summary":"Step-by-step guide to implementing Windows Autopatch with Intune Proactive Remediations for verifiable automated patching.","image":"/images/blog/intune-autopatch-with-scripts.png","images":[],"tag":"Security","team":[],"link":""},"slug":"intune-autopatch-with-scripts","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9"]}]]}],["$La"],"$Lb"]}],"loading":null,"isPartial":false}
+c:T2bc0,
 MediaFusion solves a critical challenge in the streaming ecosystem: how to securely authenticate users on devices with limited input capabilities. From Stremio addons on Android TV boxes to Kodi installations on Raspberry Pis, many streaming devices lack full keyboards or browsers, making traditional OAuth flows impractical. MediaFusion addresses this by implementing the OAuth 2.0 Device Authorization Grant (RFC 8628), creating a seamless authentication experience that never requires users to enter credentials on the device itself.
 
 ## What is MediaFusion?
 
-MediaFusion is an open-source streaming platform that aggregates content from configured sources—including torrent indexers, debrid services like RealDebrid and Premiumize, metadata providers, and enhancement services—into a unified interface accessible through Stremio, Kodi, or directly in a browser. Acting as an aggregation layer, it connects to over 40 external services across six major categories, eliminating the need to juggle multiple apps or websites.
+MediaFusion is an open-source streaming platform that aggregates content from configured sources-including torrent indexers, debrid services like RealDebrid and Premiumize, metadata providers, and enhancement services-into a unified interface accessible through Stremio, Kodi, or directly in a browser. Acting as an aggregation layer, it connects to over 40 external services across six major categories, eliminating the need to juggle multiple apps or websites.
 
 The platform's strength lies in its ability to present a unified streaming experience while handling the complexity of authentication with various backend services behind the scenes.
 
@@ -146,7 +146,7 @@ The device flow solves the authentication dilemma for streaming addons in severa
 
 - **No Browser Required on Device**: MediaFusion runs on devices that may lack browsers or have limited input (like TV boxes or Raspberry Pi setups). The device flow eliminates the need for browser-based authentication flows on these constrained devices.
 
-- **Secondary Device Authentication**: Users complete authorization on familiar devices with full keyboards and browsers—typically smartphones or laptops—making the process intuitive and error-free.
+- **Secondary Device Authentication**: Users complete authorization on familiar devices with full keyboards and browsers-typically smartphones or laptops-making the process intuitive and error-free.
 
 - **Simple Code Entry**: Instead of entering complex credentials, users only need to input a short, alphanumeric user code (typically 6-8 characters), reducing friction and errors.
 
@@ -165,13 +165,13 @@ The device flow provides inherent security benefits by design:
 ### Security Considerations & Mitigations
 While inherently more secure than alternatives like Resource Owner Password Credentials (ROPC), device flow requires attention to several considerations:
 
-1. **User Code Brute Forcing**: RFC 8628 §5.1 specifies that user codes must be sufficiently long and random to prevent brute-force attacks. MediaFusion relies on provider-standard implementations that typically use 8-character alphanumeric codes (62^8 ≈ 218 trillion possibilities).
+1. **User Code Brute Forcing**: RFC 8628 section 5.1 specifies that user codes must be sufficiently long and random to prevent brute-force attacks. MediaFusion relies on provider-standard implementations that typically use 8-character alphanumeric codes (62^8 ~ 218 trillion possibilities).
 
-2. **Device Code Brute Forcing**: Similarly, device codes must be sufficiently entropic (RFC 8628 §5.2). Providers implement these with sufficient entropy to make brute-forcing impractical.
+2. **Device Code Brute Forcing**: Similarly, device codes must be sufficiently entropic (RFC 8628 section 5.2). Providers implement these with sufficient entropy to make brute-forcing impractical.
 
 3. **Phishing Risks**: Users must verify they're entering codes on legitimate provider verification pages. MediaFusion mitigates this by displaying the exact verification URL to visit.
 
-4. **Polling Abuse**: Providers must implement rate limiting on token endpoints to prevent abuse from frequent polling—a standard requirement RFC 8628 §5.4 places on authorization servers.
+4. **Polling Abuse**: Providers must implement rate limiting on token endpoints to prevent abuse from frequent polling-a standard requirement RFC 8628 section 5.4 places on authorization servers.
 
 5. **Token Lifetime Management**: Access tokens should have appropriate expiration times, with refresh token support where applicable, limiting the window of compromise if tokens are intercepted.
 
@@ -227,7 +227,7 @@ The encryption implementation spans `utils/crypto.py` and `db/schemas.py` (lines
 To maximize security when using MediaFusion's device flow:
 
 1. **Verify the Verification URL**: Always ensure you're on the legitimate provider's website when entering user codes.
-2. **Use Temporary Codes**: Treat user codes as temporary passwords—don't share them or enter them on suspicious sites.
+2. **Use Temporary Codes**: Treat user codes as temporary passwords-don't share them or enter them on suspicious sites.
 3. **Monitor Authorized Devices**: Regularly review and revoke access for devices you no longer use via the provider's account dashboard.
 4. **Understand Token Scope**: Be aware of what permissions you're granting (typically limited to accessing your debrid/storage account).
 5. **Keep Recovery Options Updated**: Ensure account recovery methods are current in case you need to regain access.
@@ -241,7 +241,7 @@ MediaFusion's implementation of OAuth 2.0 Device Flow exemplifies a broader shif
 - **Seamless Integration**: The URL-based credential embedding creates a truly "set it and forget it" experience for addon installation and configuration.
 - **Extensible Framework**: As more services adopt device flow (from Google to Azure AD), MediaFusion's modular implementation can easily integrate new providers.
 
-For streaming enthusiasts who value both convenience and security, MediaFusion's device flow implementation demonstrates how thoughtful authentication design can make complex backend integrations disappear behind a simple, "just works" user experience—exactly what the modern streaming ecosystem needs.
+For streaming enthusiasts who value both convenience and security, MediaFusion's device flow implementation demonstrates how thoughtful authentication design can make complex backend integrations disappear behind a simple, "just works" user experience-exactly what the modern streaming ecosystem needs.
 
 ---
 
@@ -254,7 +254,7 @@ For streaming enthusiasts who value both convenience and security, MediaFusion's
 - [OAuth 2.0 Threat Model and Security Considerations (RFC 6819)](https://www.rfc-editor.org/info/rfc6819) - Broader OAuth security context
 - [OAuth 2.0 Token Exchange (RFC 8693)](https://www.rfc-editor.org/info/rfc8693) - Related token exchange mechanisms7:["$","$L4",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","mediafusion-device-auth",{"post":{"metadata":{"title":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","subtitle":"","publishedAt":"2026-08-03","summary":"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.","image":"/images/blog/mediafusion-device-auth.png","images":[],"tag":"Security","team":[],"link":""},"slug":"mediafusion-device-auth","content":"$c"},"thumbnail":true,"direction":"column"}],"$Ld"]}]
 8:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textWrap":"balance"},"children":"Earlier posts"}]
-e:T2082,
+e:T2080,
 ## Introduction
 
 I've been using Stremio as my main media center for a while now. It's a clean, unified interface that pulls in content from various addons. Recently, I've been using the MediaFusion addon with Real-Debrid to get a Netflix-like experience from torrents and Usenet, but without the downsides of traditional P2P. In this article, I'll walk you through how my Stremio + MediaFusion + Real-Debrid stack works, why the authentication flow matters for security, and why this setup is both safer and faster than pure P2P or traditional streaming services.
@@ -275,7 +275,7 @@ When you add MediaFusion as a Stremio addon and configure it to use Real-Debrid,
 
 ![MediaFusion OAuth device-code flow](/images/blog/stremio-auth-flowchart.png)
 
-1. In Stremio, go to the MediaFusion addon settings (gear icon → Configure).
+1. In Stremio, go to the MediaFusion addon settings (gear icon -> Configure).
 2. For Real-Debrid, click the "Authorize with Real-Debrid" button.
 3. MediaFusion's backend requests a device code from Real-Debrid's device authorization endpoint.
 4. Real-Debrid responds with a user code and a verification URL (e.g., https://real-debrid.com/device).
@@ -329,7 +329,7 @@ For these reasons, I recommend using the OAuth device-code flow whenever possibl
 | Delivery Mechanism | Direct HTTP(S) download from debrid CDN (or P2P if debrid not used). | Adaptive bitrate streaming via proprietary CDNs (HTTPS/DASH/HLS). |
 | User Control | Choose which indexers/debrids to enable; self-host options; add/remove sources freely. | Fixed library; no user-added sources. |
 | Privacy/IP Exposure | With debrid: IP hidden from peers; no seeding. Without debrid: IP exposed to swarm (optional). | User IP visible only to the service (standard for any web service). |
-| Cost | Debrid subscription (e.g., Real-Debrid ~€3/month) + optional hosting; Stremio/MediaFusion free. | Subscription fee (~$10–$20/mo per service). |
+| Cost | Debrid subscription (e.g., Real-Debrid ~3 EUR/month) + optional hosting; Stremio/MediaFusion free. | Subscription fee (~$10-$20/mo per service). |
 | Legality | Depends on source material; user responsible for ensuring content is legally obtained. | Fully licensed, legal by design. |
 
 ## Security & Privacy Checklist
@@ -357,30 +357,30 @@ The Stremio + MediaFusion + Real-Debrid stack gives you the flexibility and brea
 Give it a try - a few minutes of setup, and you're watching Blu-ray, Ultra (4K), and Mega-quality content from every corner of the streaming world.9:["$","$L4",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","stremio-mediafusion-realdebrid",{"post":{"metadata":{"title":"Stremio + MediaFusion + Real-Debrid: How I Stream Torrents Safely and Fast","subtitle":"","publishedAt":"2026-08-03","summary":"A detailed look at how I use Stremio with the MediaFusion plugin and Real-Debrid for a secure, high-speed streaming experience that avoids P2P risks.","image":"/images/blog/stremio-mediafusion-realdebrid.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"stremio-mediafusion-realdebrid","content":"$e"},"thumbnail":true,"direction":"column"}],"$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e"]}]
 a:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true}]
 b:["$","$L2f",null,{"children":["$","$30",null,{"name":"Next.MetadataOutlet","children":"$@31"}]}]
-32:T17ad,
+32:T1729,
 # Securing AI Agents: Threat Model and Guardrails for Production
 
-AI agents—LLMs augmented with tool use, memory, and planning—are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero‑trust playbook for securing AI agents at scale, grounded in recent academic surveys, real‑world case studies, and industry cheat‑sheets.
+AI agents-LLMs augmented with tool use, memory, and planning-are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero-trust playbook for securing AI agents at scale, grounded in recent academic surveys, real-world case studies, and industry cheat-sheets.
 
 ## Core Threat Model for AI Agents
 
 ### Prompt Injection / Tool Manipulation
-Attacker‑controlled input causing unwanted tool calls or data leaks.  
+Attacker-controlled input causing unwanted tool calls or data leaks.  
 *Citations: [1,2,4,5]*
 
 ### Data Exfiltration & Lateral Movement
 Agents with excessive permissions read/exfiltrate data or pivot to other services.  
 *Citations: [1,2]*
 
-### Over‑Privileged Agent Identities
+### Over-Privileged Agent Identities
 Excessive IAM roles/service accounts enable privilege escalation.  
 *Citations: [1,2]*
 
-### Indirect / Second‑Order Injection
-Malicious data returned by tools corrupts the agent’s reasoning.  
+### Indirect / Second-Order Injection
+Malicious data returned by tools corrupts the agent's reasoning.  
 *Citations: [3,6]*
 
-### Runtime & Supply‑Chain Risks
+### Runtime & Supply-Chain Risks
 Compromised tool images, unsafe plugins, credential leakage.  
 *Citations: [2,3]*
 
@@ -390,12 +390,12 @@ Compromised tool images, unsafe plugins, credential leakage.
 [3] ClawGuard runtime security framework  
 [4] Forcepoint blog on agentic AI risks  
 [5] Astrix guide  
-[6] “Caging the Agents” healthcare case study
+[6] "Caging the Agents" healthcare case study
 
-## Least‑Privilege / Capability‑Based Access Control (ABA)
+## Least-Privilege / Capability-Based Access Control (ABA)
 
-### Per‑Agent Credentials & Short‑Lived Tokens
-Use workload identity (OIDC federation, Azure/Google workload identity) so agents never store long‑lived secrets.  
+### Per-Agent Credentials & Short-Lived Tokens
+Use workload identity (OIDC federation, Azure/Google workload identity) so agents never store long-lived secrets.  
 *Citations: [2,6]*
 
 ### Scoped Tool Access
@@ -403,10 +403,10 @@ Each agent gets a minimal allowlist of APIs/commands, enforced via sidecar proxi
 *Citations: [2,6]*
 
 ### Runtime Policy Engines
-e.g., Open Policy Agent (OPA) or Kubernetes PSP/OPA‑Gatekeeper to deny privileged syscalls.  
+e.g., Open Policy Agent (OPA) or Kubernetes PSP/OPA-Gatekeeper to deny privileged syscalls.  
 *Citations: [2]*
 
-*Source:* “Caging the Agents” – credential proxy sidecars prevent containers from accessing raw secrets.
+*Source:* "Caging the Agents" - credential proxy sidecars prevent containers from accessing raw secrets.
 
 ## Securing the Agent Runtime & Deployment
 
@@ -415,61 +415,61 @@ Use gVisor, Kata Containers, or lightweight VMs to sandbox agent processes.
 *Citations: [6]*
 
 ### Network Egress Controls
-Allow‑list destinations per agent (e.g., Kubernetes NetworkPolicy, AWS Security Groups, Azure NSG).  
+Allow-list destinations per agent (e.g., Kubernetes NetworkPolicy, AWS Security Groups, Azure NSG).  
 *Citations: [6]*
 
 ### Secret Management
 Inject secrets via sidecar or CSI driver; never mount directly into agent filesystem.  
 *Citations: [2,6]*
 
-### Audit Logging & Tamper‑Evident Trails
+### Audit Logging & Tamper-Evident Trails
 Log every tool call, LLM prompt/output, and credential access; ship to SIEM/chronicle.  
 *Citations: [2,6]*
 
-### Human‑in‑the‑Loop / Approval Gates
+### Human-in-the-Loop / Approval Gates
 Require approval for destructive actions (e.g., `kubectl delete`, `aws s3 rm`).  
 *Citations: [2,6]*
 
 *Sources:*  
-- “Caging the Agents” – four‑layer defense: gVisor isolation, credential sidecar, network egress allowlist, prompt‑integrity framework  
-- “Towards trustworthy agentic AI” – discusses isolation, secrets, logging, approval mechanisms
+- "Caging the Agents" - four-layer defense: gVisor isolation, credential sidecar, network egress allowlist, prompt-integrity framework  
+- "Towards trustworthy agentic AI" - discusses isolation, secrets, logging, approval mechanisms
 
 ## Identity & Trust Boundaries
 
 ### Workload Identity Federation
-Agents authenticate to downstream APIs using short‑lived JWTs from Azure AD Workload Identity, Google Workload Identity Federation, or AWS IAM Roles for Service Accounts (IRSA).  
+Agents authenticate to downstream APIs using short-lived JWTs from Azure AD Workload Identity, Google Workload Identity Federation, or AWS IAM Roles for Service Accounts (IRSA).  
 *Citations: [2]*
 
 ### Mutual TLS / SPIFFE
-Establish service‑to‑service trust between agents and backend APIs.  
+Establish service-to-service trust between agents and backend APIs.  
 *Citations: [2]*
 
 ### Tool/Plugin Signing & Attestation
 Verify code signatures before loading plugins.  
 *Citations: [2,3]*
 
-*Source:* “Towards trustworthy agentic AI” – covers OIDC federation and workload identity.
+*Source:* "Towards trustworthy agentic AI" - covers OIDC federation and workload identity.
 
 ## Practical Guardrails an Infra/Security Engineer Can Implement Today
 
-### Prompt‑Integrity Framework
+### Prompt-Integrity Framework
 Wrap untrusted tool outputs in structured metadata (e.g., JSON with `trusted: false`) and apply validation/sanitization before feeding back to the LLM.  
 *Citations: [6]*
 
-### Input Sanitization & Allow‑Listing
+### Input Sanitization & Allow-Listing
 Reject prompts containing known injection patterns (e.g., `<<SYS>>`, `[[[`, `]]]`).  
 *Citations: [4,5]*
 
 ### Output Encoding / Sandboxed Execution
-Run tool‑generated code in a sandbox (gVisor, Firecracker) and enforce SELinux/AppArmor profiles.  
+Run tool-generated code in a sandbox (gVisor, Firecracker) and enforce SELinux/AppArmor profiles.  
 *Citations: [2,6]*
 
 ### Runtime Detection
-Deploy classifiers or anomaly detectors on prompt/tool‑call streams (see ClawGuard runtime framework for indirect injection detection).  
+Deploy classifiers or anomaly detectors on prompt/tool-call streams (see ClawGuard runtime framework for indirect injection detection).  
 *Citations: [3]*
 
-### Preference‑Optimization Defenses
-Fine‑tune LLMs to reject malicious prompts via reinforcement learning from human feedback (SecAlign approach).  
+### Preference-Optimization Defenses
+Fine-tune LLMs to reject malicious prompts via reinforcement learning from human feedback (SecAlign approach).  
 *Citations: [4]*
 
 ### Structured Query Defenses
@@ -477,30 +477,30 @@ Force agents to use parameterized queries or prepared statements when interactin
 *Citations: [5]*
 
 ### Continuous Automated Security Auditing
-Run an “audit agent” that periodically checks agent configurations, permission drift, and anomalous behavior (as in the healthcare case study).  
+Run an "audit agent" that periodically checks agent configurations, permission drift, and anomalous behavior (as in the healthcare case study).  
 *Citations: [6]*
 
 *Sources:*  
-- “Caging the Agents” – prompt integrity framework with structured envelopes  
-- ClawGuard – runtime security framework for indirect prompt injection  
-- SecAlign – preference optimization to defend against prompt injection  
-- StruQ – structured queries to mitigate injection  
-- OWASP Cheat Sheet – recommends input validation, output encoding, least privilege, monitoring  
-- Astrix guide – lists prompt injection, tool manipulation, data exfiltration, over‑privileged agents as top risks
+- "Caging the Agents" - prompt integrity framework with structured envelopes  
+- ClawGuard - runtime security framework for indirect prompt injection  
+- SecAlign - preference optimization to defend against prompt injection  
+- StruQ - structured queries to mitigate injection  
+- OWASP Cheat Sheet - recommends input validation, output encoding, least privilege, monitoring  
+- Astrix guide - lists prompt injection, tool manipulation, data exfiltration, over-privileged agents as top risks
 
-## Conclusion & Call‑to‑Action
+## Conclusion & Call-to-Action
 
-AI agent security extends zero‑trust principles: verify, enforce least privilege, monitor, and assume breach. Engineers can start today by:
+AI agent security extends zero-trust principles: verify, enforce least privilege, monitor, and assume breach. Engineers can start today by:
 
-1. Enforcing per‑agent workload identities  
+1. Enforcing per-agent workload identities  
 2. Sandboxing agent runtimes  
-3. Implementing egress allow‑lists  
-4. Adding prompt‑integrity wrappers  
+3. Implementing egress allow-lists  
+4. Adding prompt-integrity wrappers  
 5. Logging all tool interactions  
 
-Continuous red‑team/blue‑team exercises and automated audit agents keep defenses current as threats evolve.
+Continuous red-team/blue-team exercises and automated audit agents keep defenses current as threats evolve.
 
-*All sources are publicly accessible as of the date of this article. Content is ASCII‑only as requested.*d:["$","$L5","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$32"},"thumbnail":true,"direction":"column"}]
+*All sources are publicly accessible as of the date of this article. Content is ASCII-only as requested.*d:["$","$L5","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$32"},"thumbnail":true,"direction":"column"}]
 33:T2605,
 Securing third-party integrations is critical for maintaining a strong security posture. As a Cloud Security & Infrastructure Engineer working with M365, Azure, and GCP, I've seen how improper OAuth/OIDC implementations can lead to data breaches, lateral movement, and compliance violations. This guide provides battle-tested practices for securing these integrations.
 

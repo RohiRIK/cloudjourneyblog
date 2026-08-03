@@ -15,7 +15,7 @@ a:I[311451,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a0
 :HL["/_next/static/chunks/b3a7f4834154c9dc.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.29207c2f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"wKTVf5CvuUUHVPMuNo_I8","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/92160bc35b2d0114.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3355f25cb11074b7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L6",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/end-of-day-mac","children":["$","$L7",null,{"paddingY":"2","children":"End of Day Mac"}]}]}],["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L7",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L8",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","$La",null,{"maxWidth":48}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Latest writing"}]}],"$Lb"]}],"$Lc"]}],"$Ld","$Le"]}],["$Lf"],"$L10"]}],{},null,false,false]},null,false,false],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true}
+0:{"P":null,"b":"1ouSiiRyxSV5gUauT_cA5","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/92160bc35b2d0114.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3355f25cb11074b7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L6",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/end-of-day-mac","children":["$","$L7",null,{"paddingY":"2","children":"End of Day Mac"}]}]}],["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L7",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L8",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","$La",null,{"maxWidth":48}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Latest writing"}]}],"$Lb"]}],"$Lc"]}],"$Ld","$Le"]}],["$Lf"],"$L10"]}],{},null,false,false]},null,false,false],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true}
 13:I[89532,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
 14:I[814360,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
 18:I[474855,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ProjectCard"]
@@ -242,12 +242,12 @@ f:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","as
 2e:I[339756,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
 2f:I[837457,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
 30:I[298229,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"IconButton"]
-2c:T2bbe,
+2c:T2bc0,
 MediaFusion solves a critical challenge in the streaming ecosystem: how to securely authenticate users on devices with limited input capabilities. From Stremio addons on Android TV boxes to Kodi installations on Raspberry Pis, many streaming devices lack full keyboards or browsers, making traditional OAuth flows impractical. MediaFusion addresses this by implementing the OAuth 2.0 Device Authorization Grant (RFC 8628), creating a seamless authentication experience that never requires users to enter credentials on the device itself.
 
 ## What is MediaFusion?
 
-MediaFusion is an open-source streaming platform that aggregates content from configured sources—including torrent indexers, debrid services like RealDebrid and Premiumize, metadata providers, and enhancement services—into a unified interface accessible through Stremio, Kodi, or directly in a browser. Acting as an aggregation layer, it connects to over 40 external services across six major categories, eliminating the need to juggle multiple apps or websites.
+MediaFusion is an open-source streaming platform that aggregates content from configured sources-including torrent indexers, debrid services like RealDebrid and Premiumize, metadata providers, and enhancement services-into a unified interface accessible through Stremio, Kodi, or directly in a browser. Acting as an aggregation layer, it connects to over 40 external services across six major categories, eliminating the need to juggle multiple apps or websites.
 
 The platform's strength lies in its ability to present a unified streaming experience while handling the complexity of authentication with various backend services behind the scenes.
 
@@ -275,7 +275,7 @@ The device flow solves the authentication dilemma for streaming addons in severa
 
 - **No Browser Required on Device**: MediaFusion runs on devices that may lack browsers or have limited input (like TV boxes or Raspberry Pi setups). The device flow eliminates the need for browser-based authentication flows on these constrained devices.
 
-- **Secondary Device Authentication**: Users complete authorization on familiar devices with full keyboards and browsers—typically smartphones or laptops—making the process intuitive and error-free.
+- **Secondary Device Authentication**: Users complete authorization on familiar devices with full keyboards and browsers-typically smartphones or laptops-making the process intuitive and error-free.
 
 - **Simple Code Entry**: Instead of entering complex credentials, users only need to input a short, alphanumeric user code (typically 6-8 characters), reducing friction and errors.
 
@@ -294,13 +294,13 @@ The device flow provides inherent security benefits by design:
 ### Security Considerations & Mitigations
 While inherently more secure than alternatives like Resource Owner Password Credentials (ROPC), device flow requires attention to several considerations:
 
-1. **User Code Brute Forcing**: RFC 8628 §5.1 specifies that user codes must be sufficiently long and random to prevent brute-force attacks. MediaFusion relies on provider-standard implementations that typically use 8-character alphanumeric codes (62^8 ≈ 218 trillion possibilities).
+1. **User Code Brute Forcing**: RFC 8628 section 5.1 specifies that user codes must be sufficiently long and random to prevent brute-force attacks. MediaFusion relies on provider-standard implementations that typically use 8-character alphanumeric codes (62^8 ~ 218 trillion possibilities).
 
-2. **Device Code Brute Forcing**: Similarly, device codes must be sufficiently entropic (RFC 8628 §5.2). Providers implement these with sufficient entropy to make brute-forcing impractical.
+2. **Device Code Brute Forcing**: Similarly, device codes must be sufficiently entropic (RFC 8628 section 5.2). Providers implement these with sufficient entropy to make brute-forcing impractical.
 
 3. **Phishing Risks**: Users must verify they're entering codes on legitimate provider verification pages. MediaFusion mitigates this by displaying the exact verification URL to visit.
 
-4. **Polling Abuse**: Providers must implement rate limiting on token endpoints to prevent abuse from frequent polling—a standard requirement RFC 8628 §5.4 places on authorization servers.
+4. **Polling Abuse**: Providers must implement rate limiting on token endpoints to prevent abuse from frequent polling-a standard requirement RFC 8628 section 5.4 places on authorization servers.
 
 5. **Token Lifetime Management**: Access tokens should have appropriate expiration times, with refresh token support where applicable, limiting the window of compromise if tokens are intercepted.
 
@@ -356,7 +356,7 @@ The encryption implementation spans `utils/crypto.py` and `db/schemas.py` (lines
 To maximize security when using MediaFusion's device flow:
 
 1. **Verify the Verification URL**: Always ensure you're on the legitimate provider's website when entering user codes.
-2. **Use Temporary Codes**: Treat user codes as temporary passwords—don't share them or enter them on suspicious sites.
+2. **Use Temporary Codes**: Treat user codes as temporary passwords-don't share them or enter them on suspicious sites.
 3. **Monitor Authorized Devices**: Regularly review and revoke access for devices you no longer use via the provider's account dashboard.
 4. **Understand Token Scope**: Be aware of what permissions you're granting (typically limited to accessing your debrid/storage account).
 5. **Keep Recovery Options Updated**: Ensure account recovery methods are current in case you need to regain access.
@@ -370,7 +370,7 @@ MediaFusion's implementation of OAuth 2.0 Device Flow exemplifies a broader shif
 - **Seamless Integration**: The URL-based credential embedding creates a truly "set it and forget it" experience for addon installation and configuration.
 - **Extensible Framework**: As more services adopt device flow (from Google to Azure AD), MediaFusion's modular implementation can easily integrate new providers.
 
-For streaming enthusiasts who value both convenience and security, MediaFusion's device flow implementation demonstrates how thoughtful authentication design can make complex backend integrations disappear behind a simple, "just works" user experience—exactly what the modern streaming ecosystem needs.
+For streaming enthusiasts who value both convenience and security, MediaFusion's device flow implementation demonstrates how thoughtful authentication design can make complex backend integrations disappear behind a simple, "just works" user experience-exactly what the modern streaming ecosystem needs.
 
 ---
 
@@ -382,30 +382,30 @@ For streaming enthusiasts who value both convenience and security, MediaFusion's
 - [OAuth 2.0 for Native Apps (RFC 8252)](https://www.rfc-editor.org/info/rfc8252) - Comparison with traditional OAuth flows
 - [OAuth 2.0 Threat Model and Security Considerations (RFC 6819)](https://www.rfc-editor.org/info/rfc6819) - Broader OAuth security context
 - [OAuth 2.0 Token Exchange (RFC 8693)](https://www.rfc-editor.org/info/rfc8693) - Related token exchange mechanisms16:["$","$L14","mediafusion-device-auth",{"post":{"metadata":{"title":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","subtitle":"","publishedAt":"2026-08-03","summary":"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.","image":"/images/blog/mediafusion-device-auth.png","images":[],"tag":"Security","team":[],"link":""},"slug":"mediafusion-device-auth","content":"$2c"},"thumbnail":false,"direction":"$undefined"}]
-2d:T17ad,
+2d:T1729,
 # Securing AI Agents: Threat Model and Guardrails for Production
 
-AI agents—LLMs augmented with tool use, memory, and planning—are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero‑trust playbook for securing AI agents at scale, grounded in recent academic surveys, real‑world case studies, and industry cheat‑sheets.
+AI agents-LLMs augmented with tool use, memory, and planning-are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero-trust playbook for securing AI agents at scale, grounded in recent academic surveys, real-world case studies, and industry cheat-sheets.
 
 ## Core Threat Model for AI Agents
 
 ### Prompt Injection / Tool Manipulation
-Attacker‑controlled input causing unwanted tool calls or data leaks.  
+Attacker-controlled input causing unwanted tool calls or data leaks.  
 *Citations: [1,2,4,5]*
 
 ### Data Exfiltration & Lateral Movement
 Agents with excessive permissions read/exfiltrate data or pivot to other services.  
 *Citations: [1,2]*
 
-### Over‑Privileged Agent Identities
+### Over-Privileged Agent Identities
 Excessive IAM roles/service accounts enable privilege escalation.  
 *Citations: [1,2]*
 
-### Indirect / Second‑Order Injection
-Malicious data returned by tools corrupts the agent’s reasoning.  
+### Indirect / Second-Order Injection
+Malicious data returned by tools corrupts the agent's reasoning.  
 *Citations: [3,6]*
 
-### Runtime & Supply‑Chain Risks
+### Runtime & Supply-Chain Risks
 Compromised tool images, unsafe plugins, credential leakage.  
 *Citations: [2,3]*
 
@@ -415,12 +415,12 @@ Compromised tool images, unsafe plugins, credential leakage.
 [3] ClawGuard runtime security framework  
 [4] Forcepoint blog on agentic AI risks  
 [5] Astrix guide  
-[6] “Caging the Agents” healthcare case study
+[6] "Caging the Agents" healthcare case study
 
-## Least‑Privilege / Capability‑Based Access Control (ABA)
+## Least-Privilege / Capability-Based Access Control (ABA)
 
-### Per‑Agent Credentials & Short‑Lived Tokens
-Use workload identity (OIDC federation, Azure/Google workload identity) so agents never store long‑lived secrets.  
+### Per-Agent Credentials & Short-Lived Tokens
+Use workload identity (OIDC federation, Azure/Google workload identity) so agents never store long-lived secrets.  
 *Citations: [2,6]*
 
 ### Scoped Tool Access
@@ -428,10 +428,10 @@ Each agent gets a minimal allowlist of APIs/commands, enforced via sidecar proxi
 *Citations: [2,6]*
 
 ### Runtime Policy Engines
-e.g., Open Policy Agent (OPA) or Kubernetes PSP/OPA‑Gatekeeper to deny privileged syscalls.  
+e.g., Open Policy Agent (OPA) or Kubernetes PSP/OPA-Gatekeeper to deny privileged syscalls.  
 *Citations: [2]*
 
-*Source:* “Caging the Agents” – credential proxy sidecars prevent containers from accessing raw secrets.
+*Source:* "Caging the Agents" - credential proxy sidecars prevent containers from accessing raw secrets.
 
 ## Securing the Agent Runtime & Deployment
 
@@ -440,61 +440,61 @@ Use gVisor, Kata Containers, or lightweight VMs to sandbox agent processes.
 *Citations: [6]*
 
 ### Network Egress Controls
-Allow‑list destinations per agent (e.g., Kubernetes NetworkPolicy, AWS Security Groups, Azure NSG).  
+Allow-list destinations per agent (e.g., Kubernetes NetworkPolicy, AWS Security Groups, Azure NSG).  
 *Citations: [6]*
 
 ### Secret Management
 Inject secrets via sidecar or CSI driver; never mount directly into agent filesystem.  
 *Citations: [2,6]*
 
-### Audit Logging & Tamper‑Evident Trails
+### Audit Logging & Tamper-Evident Trails
 Log every tool call, LLM prompt/output, and credential access; ship to SIEM/chronicle.  
 *Citations: [2,6]*
 
-### Human‑in‑the‑Loop / Approval Gates
+### Human-in-the-Loop / Approval Gates
 Require approval for destructive actions (e.g., `kubectl delete`, `aws s3 rm`).  
 *Citations: [2,6]*
 
 *Sources:*  
-- “Caging the Agents” – four‑layer defense: gVisor isolation, credential sidecar, network egress allowlist, prompt‑integrity framework  
-- “Towards trustworthy agentic AI” – discusses isolation, secrets, logging, approval mechanisms
+- "Caging the Agents" - four-layer defense: gVisor isolation, credential sidecar, network egress allowlist, prompt-integrity framework  
+- "Towards trustworthy agentic AI" - discusses isolation, secrets, logging, approval mechanisms
 
 ## Identity & Trust Boundaries
 
 ### Workload Identity Federation
-Agents authenticate to downstream APIs using short‑lived JWTs from Azure AD Workload Identity, Google Workload Identity Federation, or AWS IAM Roles for Service Accounts (IRSA).  
+Agents authenticate to downstream APIs using short-lived JWTs from Azure AD Workload Identity, Google Workload Identity Federation, or AWS IAM Roles for Service Accounts (IRSA).  
 *Citations: [2]*
 
 ### Mutual TLS / SPIFFE
-Establish service‑to‑service trust between agents and backend APIs.  
+Establish service-to-service trust between agents and backend APIs.  
 *Citations: [2]*
 
 ### Tool/Plugin Signing & Attestation
 Verify code signatures before loading plugins.  
 *Citations: [2,3]*
 
-*Source:* “Towards trustworthy agentic AI” – covers OIDC federation and workload identity.
+*Source:* "Towards trustworthy agentic AI" - covers OIDC federation and workload identity.
 
 ## Practical Guardrails an Infra/Security Engineer Can Implement Today
 
-### Prompt‑Integrity Framework
+### Prompt-Integrity Framework
 Wrap untrusted tool outputs in structured metadata (e.g., JSON with `trusted: false`) and apply validation/sanitization before feeding back to the LLM.  
 *Citations: [6]*
 
-### Input Sanitization & Allow‑Listing
+### Input Sanitization & Allow-Listing
 Reject prompts containing known injection patterns (e.g., `<<SYS>>`, `[[[`, `]]]`).  
 *Citations: [4,5]*
 
 ### Output Encoding / Sandboxed Execution
-Run tool‑generated code in a sandbox (gVisor, Firecracker) and enforce SELinux/AppArmor profiles.  
+Run tool-generated code in a sandbox (gVisor, Firecracker) and enforce SELinux/AppArmor profiles.  
 *Citations: [2,6]*
 
 ### Runtime Detection
-Deploy classifiers or anomaly detectors on prompt/tool‑call streams (see ClawGuard runtime framework for indirect injection detection).  
+Deploy classifiers or anomaly detectors on prompt/tool-call streams (see ClawGuard runtime framework for indirect injection detection).  
 *Citations: [3]*
 
-### Preference‑Optimization Defenses
-Fine‑tune LLMs to reject malicious prompts via reinforcement learning from human feedback (SecAlign approach).  
+### Preference-Optimization Defenses
+Fine-tune LLMs to reject malicious prompts via reinforcement learning from human feedback (SecAlign approach).  
 *Citations: [4]*
 
 ### Structured Query Defenses
@@ -502,30 +502,30 @@ Force agents to use parameterized queries or prepared statements when interactin
 *Citations: [5]*
 
 ### Continuous Automated Security Auditing
-Run an “audit agent” that periodically checks agent configurations, permission drift, and anomalous behavior (as in the healthcare case study).  
+Run an "audit agent" that periodically checks agent configurations, permission drift, and anomalous behavior (as in the healthcare case study).  
 *Citations: [6]*
 
 *Sources:*  
-- “Caging the Agents” – prompt integrity framework with structured envelopes  
-- ClawGuard – runtime security framework for indirect prompt injection  
-- SecAlign – preference optimization to defend against prompt injection  
-- StruQ – structured queries to mitigate injection  
-- OWASP Cheat Sheet – recommends input validation, output encoding, least privilege, monitoring  
-- Astrix guide – lists prompt injection, tool manipulation, data exfiltration, over‑privileged agents as top risks
+- "Caging the Agents" - prompt integrity framework with structured envelopes  
+- ClawGuard - runtime security framework for indirect prompt injection  
+- SecAlign - preference optimization to defend against prompt injection  
+- StruQ - structured queries to mitigate injection  
+- OWASP Cheat Sheet - recommends input validation, output encoding, least privilege, monitoring  
+- Astrix guide - lists prompt injection, tool manipulation, data exfiltration, over-privileged agents as top risks
 
-## Conclusion & Call‑to‑Action
+## Conclusion & Call-to-Action
 
-AI agent security extends zero‑trust principles: verify, enforce least privilege, monitor, and assume breach. Engineers can start today by:
+AI agent security extends zero-trust principles: verify, enforce least privilege, monitor, and assume breach. Engineers can start today by:
 
-1. Enforcing per‑agent workload identities  
+1. Enforcing per-agent workload identities  
 2. Sandboxing agent runtimes  
-3. Implementing egress allow‑lists  
-4. Adding prompt‑integrity wrappers  
+3. Implementing egress allow-lists  
+4. Adding prompt-integrity wrappers  
 5. Logging all tool interactions  
 
-Continuous red‑team/blue‑team exercises and automated audit agents keep defenses current as threats evolve.
+Continuous red-team/blue-team exercises and automated audit agents keep defenses current as threats evolve.
 
-*All sources are publicly accessible as of the date of this article. Content is ASCII‑only as requested.*17:["$","$L14","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$2d"},"thumbnail":false,"direction":"$undefined"}]
+*All sources are publicly accessible as of the date of this article. Content is ASCII-only as requested.*17:["$","$L14","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$2d"},"thumbnail":false,"direction":"$undefined"}]
 1a:["$","$L18","m365-cli",{"priority":false,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}]
 1b:["$","$L7",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$La",null,{"maxWidth":48}]}]
 2a:["$","$L2e",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2f",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L3",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
