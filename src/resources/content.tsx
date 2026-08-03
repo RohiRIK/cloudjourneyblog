@@ -291,7 +291,33 @@ const gallery: Gallery = {
   label: "Gallery",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
-  images: [],
+  images: [
+    {
+      src: "/images/gallery/gallery-01-titanium-hummingbird.png",
+      alt: "A massive titanium-and-brass mechanical hummingbird hovers inside a rain-streaked glass cathedral, its fractal solar-panel wings casting jewel-toned light through the storm.",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/gallery-02-bioluminescent-librarian.png",
+      alt: "A giant glowing octopus reads from radiant coral books in an underwater Greek amphitheater while neon fish orbit like planets.",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/gallery-03-lava-cake-universe.png",
+      alt: "A three-armed galaxy-shaped cosmic chef cracks open a floating lava cake in deep space; a miniature solar system bursts forth from molten chocolate.",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/gallery-05-firewall-widow.png",
+      alt: "A grieving figure in a billowing gown cradles a glowing server atop a cathedral-like data center at sunset, as ghostly IP addresses ascend from a graveyard of hard drives.",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/gallery-06-gabriel-exe-descending.png",
+      alt: "A massive digital angel with hexagonal firewall-panel wings descends through a storm, striking a multi-headed botnet hydra with a beam of encrypted golden light.",
+      orientation: "vertical",
+    },
+  ],
 };
 
 export { person, social, newsletter, home, about, blog, work, gallery };
