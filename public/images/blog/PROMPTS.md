@@ -97,6 +97,10 @@
 ---
 ## 33. intune-autopatch-with-scripts.png
 #
+**REGENERATED 2026-08-03** — original generation was a duplicate of mediafusion-device-auth.png (same md5); replaced with a unique image. Prompt used:
+# Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No text in image.
+# Subject: automated patch deployment - a central geometric cloud control node at top sending glowing sync pulses down neon lines to a fleet of flat monitor/server terminal cubes below, each terminal with a small progress gauge arc and a tiny green checkmark badge appearing on the first cube, conveying managed automatic patching across many devices. Neon green, cyan, and violet palette. Square composition, 1024x1024 PNG.
+#
 **Concept:** INTEUNE AUTOPATCH + SCRIPTS problem type.
 # Windows Autopatch automates Windows and Microsoft 365 updates; Intune update policies control deployment rings; PowerShell remediation scripts verify and remediate patch compliance.
 #
