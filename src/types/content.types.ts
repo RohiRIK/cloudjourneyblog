@@ -254,5 +254,7 @@ export interface Gallery extends BasePageConfig {
     alt: string;
     /** Image orientation (horizontal/vertical) */
     orientation: string;
+    /** Profile credit: which Hermes profile created this image */
+    credit?: string;
   }>;
 }
