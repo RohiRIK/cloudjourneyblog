@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T09:44:57.701Z",
+  "updatedAt": "2026-08-02T20:42:01.229Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -7,34 +7,34 @@
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
         {
-          "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
-          "date": "Jul 16, 2026",
-          "excerpt": "From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal b"
+          "title": "CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
+          "date": "Jul 31, 2026",
+          "excerpt": "Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order "
         },
         {
-          "title": "Least privilege for AI agents: Identity, access, and tool binding",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
-          "date": "Jul 16, 2026",
-          "excerpt": "As AI agents become more autonomous, strong identity, access, and auditing controls are critical to keeping them secure. The post Least privilege for AI agents: Identity, access, and tool binding appe"
+          "title": "​​​​What’s new in Microsoft Security: July 2026",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
+          "date": "Jul 30, 2026",
+          "excerpt": "This month’s updates help security and IT teams secure their AI environments, use AI to defend, and strengthen the foundations that AI-powered operations depend on. The post ​​​​What’s new in Microsof"
         },
         {
-          "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
-          "date": "Jul 16, 2026",
-          "excerpt": "Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defe"
+          "title": "​​Better security starts with better questions",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
+          "date": "Jul 29, 2026",
+          "excerpt": "Learn how better questions, trusted AI, and human judgment help security leaders make confident decisions and build resilient systems. The post ​​Better security starts with better questions appeared "
         },
         {
-          "title": "Turning threat intelligence into decisive action with Defender Experts",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/",
-          "date": "Jul 15, 2026",
-          "excerpt": "Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools. The post"
+          "title": "Rethinking security for the age of AI",
+          "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+          "date": "Jul 27, 2026",
+          "excerpt": "The physics of cybersecurity are changing. Introducing security's new cyber stack: Project Perception. The post Rethinking security for the age of AI appeared first on Microsoft Security Blog."
         },
         {
-          "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
-          "date": "Jul 13, 2026",
-          "excerpt": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misco"
+          "title": "Enhancing AI security through global AI red teaming",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+          "date": "Jul 27, 2026",
+          "excerpt": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional exp"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Windows Server 2022 reach end of mainstream support in 90 days",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
-          "date": "Jul 17, 2026",
-          "excerpt": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]"
+          "title": "Google Chrome may soon block New Tab hijacker extensions by default",
+          "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
+          "date": "Aug 2, 2026",
+          "excerpt": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]"
         },
         {
-          "title": "US charges two over laundering $43 million from investment fraud",
-          "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
-          "date": "Jul 17, 2026",
-          "excerpt": "U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]"
+          "title": "Rails patches critical Active Storage flaw with RCE potential",
+          "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+          "date": "Aug 1, 2026",
+          "excerpt": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE)"
         },
         {
-          "title": "CISA urges immediate action on actively exploited Fortinet flaws",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
-          "date": "Jul 17, 2026",
-          "excerpt": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]"
+          "title": "Amgen says cloud data breach exposed patient health, proprietary info",
+          "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
+          "date": "Jul 31, 2026",
+          "excerpt": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers."
         },
         {
-          "title": "New ClickLock macOS malware traps users into revealing login password",
-          "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
-          "date": "Jul 16, 2026",
-          "excerpt": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]"
+          "title": "Arch Linux disables AUR package adoption to stop malware flood",
+          "link": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
+          "date": "Jul 31, 2026",
+          "excerpt": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]"
         },
         {
-          "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
-          "link": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
-          "date": "Jul 16, 2026",
-          "excerpt": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the Unite"
+          "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+          "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
+          "date": "Jul 31, 2026",
+          "excerpt": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboard"
         }
       ]
     },
@@ -100,8 +100,38 @@
       "name": "The Register",
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
-      "items": [],
-      "error": true
+      "items": [
+        {
+          "title": "Meet the 'internet radical' who helped Microsoft get email and AT&T get online",
+          "link": "https://www.theregister.com/offbeat/2026/08/02/meet-the-internet-radical-who-helped-microsoft-get-email-and-att-get-online/5281281",
+          "date": "Aug 2, 2026",
+          "excerpt": "Tom Evslin on Bill Gates, the birth of Exchange, and dragging Ma Bell onto the web"
+        },
+        {
+          "title": "Unexpected item in the bagging area as Windows Activation error pops up at check-in",
+          "link": "https://www.theregister.com/offbeat/2026/08/01/unexpected-item-in-the-bagging-area-as-windows-activation-error-pops-up-at-check-in/5281946",
+          "date": "Aug 1, 2026",
+          "excerpt": "Bags weighed down by a Microsoft license key"
+        },
+        {
+          "title": "A deep dive into Nvidia's Vera CPU and the Olympus cores that power it",
+          "link": "https://www.theregister.com/systems/2026/08/01/nvidias-vera-cpu-and-the-olympus-cores-that-power-it-deep-dive/5282056",
+          "date": "Aug 1, 2026",
+          "excerpt": "88 custom cores, 176 funky threads, 1.5 TB of laptop RAM, and 1.8 TB/s of NVLink connectivity — this isn't your typical datacenter chip"
+        },
+        {
+          "title": "Enterprise cloud infrastructure uptake shows no sign of slowing",
+          "link": "https://www.theregister.com/off-prem/2026/08/01/enterprise-cloud-infrastructure-uptake-shows-no-sign-of-slowing/5281835",
+          "date": "Aug 1, 2026",
+          "excerpt": "Cloud revenue now north of $143 billion a quarter, and growth is accelerating"
+        },
+        {
+          "title": "Dev who gave HashiCorp its name returns with a faster terminal multiplexer",
+          "link": "https://www.theregister.com/devops/2026/07/31/dev-who-gave-hashicorp-its-name-returns-with-a-faster-terminal-multiplexer/5281970",
+          "date": "Jul 31, 2026",
+          "excerpt": "Persistent sessions could be just the beginning"
+        }
+      ]
     },
     {
       "name": "GitHub Enterprise",
