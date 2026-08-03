@@ -5,7 +5,7 @@
     <link>https://cloudjourneyblog.rohi-lab.org</link>
     <description>Security, automation, and the systems that connect them.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 11:29:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 11:44:31 GMT</lastBuildDate>
     <atom:link href="https://cloudjourneyblog.rohi-lab.org/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -38,6 +38,14 @@
       <guid>https://cloudjourneyblog.rohi-lab.org/blog/stremio-mediafusion-realdebrid</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[A detailed look at how I use Stremio with the MediaFusion plugin and Real-Debrid for a secure, high-speed streaming experience that avoids P2P risks.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Auth & Identity Flows for Third-Party Integrations: Securing OAuth/OIDC in Multi-Cloud Environments]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/third-party-oauth-identity</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/third-party-oauth-identity</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A practical guide to securing third-party integrations using OAuth 2.0/OIDC, covering flows, token handling, pitfalls, and platform-specific hardening for Azure AD/Entra ID and Google Cloud service accounts.]]></description>
     </item>
   
     <item>

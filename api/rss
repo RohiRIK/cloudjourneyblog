@@ -5,7 +5,7 @@
     <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     <description>Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman</description>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 11:29:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 11:44:31 GMT</lastBuildDate>
     <atom:link href="https://CloudJourneyBlog.rohi-lab.org/api/rss" rel="self" type="application/rss+xml" />
     <managingEditor>rohi@rohirikman.dev (Rohi Rikman)</managingEditor>
     <webMaster>rohi@rohirikman.dev (Rohi Rikman)</webMaster>
@@ -53,6 +53,16 @@
       <description><![CDATA[A detailed look at how I use Stremio with the MediaFusion plugin and Real-Debrid for a secure, high-speed streaming experience that avoids P2P risks.]]></description>
       <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/stremio-mediafusion-realdebrid.png" type="image/jpeg" />
       <category>Automation</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>Auth & Identity Flows for Third-Party Integrations: Securing OAuth/OIDC in Multi-Cloud Environments</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/third-party-oauth-identity</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/third-party-oauth-identity</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A practical guide to securing third-party integrations using OAuth 2.0/OIDC, covering flows, token handling, pitfalls, and platform-specific hardening for Azure AD/Entra ID and Google Cloud service accounts.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/third-party-oauth-identity.png" type="image/jpeg" />
+      <category>Security</category>
       <author>rohi@rohirikman.dev (Rohi Rikman)</author>
     </item>
     <item>
