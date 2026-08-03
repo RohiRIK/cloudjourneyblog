@@ -10,6 +10,8 @@ tag: "Automation"
 
 I've been using Stremio as my main media center for a while now. It's a clean, unified interface that pulls in content from various addons. Recently, I've been using the MediaFusion addon with Real-Debrid to get a Netflix-like experience from torrents and Usenet, but without the downsides of traditional P2P. In this article, I'll walk you through how my Stremio + MediaFusion + Real-Debrid stack works, why the authentication flow matters for security, and why this setup is both safer and faster than pure P2P or traditional streaming services.
 
+After just a few minutes of setup, the payoff is hard to overstate: I can pull up **Blu-ray and Ultra (4K) quality, Mega-grade releases** - movies and services from essentially every streaming service worldwide - all from one clean interface. Here's how it works, and why it is both safer and faster than pure P2P or traditional streaming.
+
 ## What is Stremio?
 
 Stremio is a media center application that aggregates content from multiple sources through addons (plugins). It runs on desktop, mobile, and web, providing a single interface for movies, series, live TV, and more. The platform uses a sandboxed addon system: each addon runs in a restricted environment and must request explicit permissions from the user to access external services. This design enhances security by isolating addons from the core application and the user's system.
@@ -21,6 +23,8 @@ MediaFusion is an open-source addon that aggregates torrents, Usenet, and debrid
 ### How MediaFusion Connects to Real-Debrid (OAuth Device Code Flow)
 
 When you add MediaFusion as a Stremio addon and configure it to use Real-Debrid, the authentication flow follows the OAuth 2.0 Device Authorization Grant (RFC 8628). Here's how it works:
+
+![MediaFusion OAuth device-code flow](/images/blog/stremio-auth-flowchart.png)
 
 1. In Stremio, go to the MediaFusion addon settings (gear icon → Configure).
 2. For Real-Debrid, click the "Authorize with Real-Debrid" button.
@@ -101,4 +105,4 @@ Follow the MediaFusion README to install the addon, then use the device-code flo
 
 The Stremio + MediaFusion + Real-Debrid stack gives you the flexibility and breadth of torrent/Usenet sources with the convenience and safety of a centralized streaming service. By leveraging debrid services, you avoid the risks of P2P (IP exposure, seeding) while gaining speed and reliability through cached CDN delivery. The OAuth-based authentication flow ensures your credentials stay secure. While it requires a bit more setup than clicking "play" on Netflix, the trade-off is worth it for those who value both choice and security in their streaming setup.
 
-Give it a try and see how it transforms your streaming experience.
+Give it a try - a few minutes of setup, and you're watching Blu-ray, Ultra (4K), and Mega-quality content from every corner of the streaming world.
