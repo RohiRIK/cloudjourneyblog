@@ -13,7 +13,291 @@ b:I[814360,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a0
 1a:I[303847,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Mailchimp"]
 1b:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 1c:"$Sreact.suspense"
-c:T19dc,
+c:T2bbe,
+MediaFusion solves a critical challenge in the streaming ecosystem: how to securely authenticate users on devices with limited input capabilities. From Stremio addons on Android TV boxes to Kodi installations on Raspberry Pis, many streaming devices lack full keyboards or browsers, making traditional OAuth flows impractical. MediaFusion addresses this by implementing the OAuth 2.0 Device Authorization Grant (RFC 8628), creating a seamless authentication experience that never requires users to enter credentials on the device itself.
+
+## What is MediaFusion?
+
+MediaFusion is an open-source streaming platform that aggregates content from configured sources—including torrent indexers, debrid services like RealDebrid and Premiumize, metadata providers, and enhancement services—into a unified interface accessible through Stremio, Kodi, or directly in a browser. Acting as an aggregation layer, it connects to over 40 external services across six major categories, eliminating the need to juggle multiple apps or websites.
+
+The platform's strength lies in its ability to present a unified streaming experience while handling the complexity of authentication with various backend services behind the scenes.
+
+## The OAuth 2.0 Device Authorization Grant Explained
+
+The OAuth 2.0 Device Authorization Grant (also known as "device flow") is specifically designed for input-constrained or browserless devices. Unlike traditional OAuth flows that require redirects or embedded browsers, device flow enables authorization through a secondary device like a smartphone or laptop.
+
+Here's how MediaFusion implements this flow:
+
+1. **Device Authorization Request**: When configuring a debrid service (like RealDebrid), MediaFusion's configuration UI makes a GET request to the provider's `/provider/device_code` endpoint to obtain a device code and user code.
+
+2. **User Code Display**: The configuration interface displays the user code and instructs the user to visit a verification URL on a separate device (typically a smartphone or computer) with full input capabilities.
+
+3. **User Authorization**: The user visits the verification URL on their secondary device, enters the user code, and grants authorization to MediaFusion.
+
+4. **Polling for Token**: While the user authorizes, MediaFusion polls the token endpoint (`/provider/authorize`) with the device code at intervals specified by the provider (typically every 5 seconds) until authorization completes or the code expires.
+
+5. **Token Reception**: Upon successful authorization, the token endpoint returns an access token, which MediaFusion encrypts and embeds in the manifest URL via the `secret_str` parameter for seamless addon configuration.
+
+![OAuth Device Flow Diagram](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZiIvPjx0ZXh0IHg9IjMwMCIgeT0iMjAwIiBmb250LXNpemU9IjE2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMDAwIjpEZXZpY2UgRmxvdzwvdGV4dD48L3N2Zz4=)
+
+## Why Device Flow Provides Excellent UX for MediaFusion Users
+
+The device flow solves the authentication dilemma for streaming addons in several key ways:
+
+- **No Browser Required on Device**: MediaFusion runs on devices that may lack browsers or have limited input (like TV boxes or Raspberry Pi setups). The device flow eliminates the need for browser-based authentication flows on these constrained devices.
+
+- **Secondary Device Authentication**: Users complete authorization on familiar devices with full keyboards and browsers—typically smartphones or laptops—making the process intuitive and error-free.
+
+- **Simple Code Entry**: Instead of entering complex credentials, users only need to input a short, alphanumeric user code (typically 6-8 characters), reducing friction and errors.
+
+- **Automatic Polling**: After displaying the user code, MediaFusion automatically handles the polling process in the background, requiring no further user interaction until authorization completes or times out.
+
+- **URL-Based Configuration**: Encrypted credentials are embedded directly in the manifest URL, eliminating separate login steps when installing the Stremio or Kodi addon. Users simply install the addon with the pre-configured manifest URL, and it just works.
+
+## Security Analysis: What Device Flow Protects Against
+
+The device flow provides inherent security benefits by design:
+
+### What It Protects Against
+- **Credential Exposure**: User credentials (username/password) never enter the MediaFusion device interface, eliminating credential theft from compromised devices.
+- **Limited Attack Surface**: Only the device code and user code are exposed on the limited-interface device, minimizing the attack surface.
+
+### Security Considerations & Mitigations
+While inherently more secure than alternatives like Resource Owner Password Credentials (ROPC), device flow requires attention to several considerations:
+
+1. **User Code Brute Forcing**: RFC 8628 §5.1 specifies that user codes must be sufficiently long and random to prevent brute-force attacks. MediaFusion relies on provider-standard implementations that typically use 8-character alphanumeric codes (62^8 ≈ 218 trillion possibilities).
+
+2. **Device Code Brute Forcing**: Similarly, device codes must be sufficiently entropic (RFC 8628 §5.2). Providers implement these with sufficient entropy to make brute-forcing impractical.
+
+3. **Phishing Risks**: Users must verify they're entering codes on legitimate provider verification pages. MediaFusion mitigates this by displaying the exact verification URL to visit.
+
+4. **Polling Abuse**: Providers must implement rate limiting on token endpoints to prevent abuse from frequent polling—a standard requirement RFC 8628 §5.4 places on authorization servers.
+
+5. **Token Lifetime Management**: Access tokens should have appropriate expiration times, with refresh token support where applicable, limiting the window of compromise if tokens are intercepted.
+
+6. **PKCE Considerations**: While RFC 8628 doesn't mandate PKCE for device flow, some providers implement it additionally. MediaFusion works with provider implementations as-is.
+
+## Device Flow vs. Alternative OAuth Flows
+
+Understanding when device flow is the right choice requires comparing it to other OAuth flows:
+
+### Device Flow vs. Authorization Code + PKCE
+- **Device Flow**: Designed for input-constrained/browserless devices; uses user code + verification URL; client polls for token
+- **Auth Code + PKCE**: Requires browser/user-agent on device; uses redirect_uri; authorization server redirects back to client
+
+### Device Flow vs. ROPC (Resource Owner Password Credentials)
+- **Device Flow**: Never handles user credentials; more secure against credential theft and phishing
+- **ROPC**: Requires username/password handled by client; vulnerable to phishing, keylogging, and credential theft
+
+### When Device Flow is Appropriate
+Device flow is ideal when:
+- Devices lack browsers or have limited input capabilities (smart TVs, streaming sticks, gaming consoles)
+- You want to avoid handling user credentials on the device
+- Users have access to a secondary device for authorization
+- Deploying streaming/media addons (Stremio/Kodi) where seamless configuration is paramount
+
+## How MediaFusion Implements Device Flow Technically
+
+Based on source code analysis, MediaFusion's implementation follows these patterns:
+
+### Device Code Request
+The configuration UI initiates the flow by calling `GET /{provider}/device_code` (found in `resources/js/config_script.js` lines 33-60), which returns:
+- `device_code`: Used for polling the token endpoint
+- `user_code`: The code users enter on the verification page
+- `verification_uri`: The URL users should visit
+- `expires_in`: Validity period (typically 5-15 minutes)
+- `interval`: Polling interval in seconds (usually 5)
+
+### Token Polling
+While the user authorizes, MediaFusion POSTs to `/{provider}/authorize` with the `device_code` (lines 63-96 in config_script.js), respecting the provider-specified interval to avoid abuse.
+
+### User Code Display
+The configuration interface (`resources/html/configure.html` lines 235-242) presents the user code and instructions clearly, often with copy-to-clipboard functionality for ease of use.
+
+### Token Storage
+Upon receiving the access token, MediaFusion:
+1. Encrypts it using AES via `utils/crypto.py` with a site-specific `settings.secret_key`
+2. Embeds the encrypted token in the manifest URL as the `secret_str` parameter
+3. This allows Stremio/Kodi addons to load configured services without additional login steps
+
+The encryption implementation spans `utils/crypto.py` and `db/schemas.py` (lines 235-348), ensuring credentials never remain in plaintext in configurations or URLs.
+
+## Best Practices for Users When Authorizing Devices
+
+To maximize security when using MediaFusion's device flow:
+
+1. **Verify the Verification URL**: Always ensure you're on the legitimate provider's website when entering user codes.
+2. **Use Temporary Codes**: Treat user codes as temporary passwords—don't share them or enter them on suspicious sites.
+3. **Monitor Authorized Devices**: Regularly review and revoke access for devices you no longer use via the provider's account dashboard.
+4. **Understand Token Scope**: Be aware of what permissions you're granting (typically limited to accessing your debrid/storage account).
+5. **Keep Recovery Options Updated**: Ensure account recovery methods are current in case you need to regain access.
+
+## Why This Approach Represents the Future of Device Authentication
+
+MediaFusion's implementation of OAuth 2.0 Device Flow exemplifies a broader shift in how we handle authentication for the growing ecosystem of smart devices, IoT gadgets, and media-centric hardware:
+
+- **User-Centric Security**: By separating authentication from the device interface, we achieve both security and usability without compromise.
+- **Standardized Approach**: Leveraging RFC 8628 ensures compatibility with major identity providers while benefiting from community-vetted security practices.
+- **Seamless Integration**: The URL-based credential embedding creates a truly "set it and forget it" experience for addon installation and configuration.
+- **Extensible Framework**: As more services adopt device flow (from Google to Azure AD), MediaFusion's modular implementation can easily integrate new providers.
+
+For streaming enthusiasts who value both convenience and security, MediaFusion's device flow implementation demonstrates how thoughtful authentication design can make complex backend integrations disappear behind a simple, "just works" user experience—exactly what the modern streaming ecosystem needs.
+
+---
+
+## Related Documents
+
+## Related Documents
+
+### See Also
+- [OAuth 2.0 for Native Apps (RFC 8252)](https://www.rfc-editor.org/info/rfc8252) - Comparison with traditional OAuth flows
+- [OAuth 2.0 Threat Model and Security Considerations (RFC 6819)](https://www.rfc-editor.org/info/rfc6819) - Broader OAuth security context
+- [OAuth 2.0 Token Exchange (RFC 8693)](https://www.rfc-editor.org/info/rfc8693) - Related token exchange mechanisms0:{"buildId":"jujynRwrdbEpj8EvFl8xT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L4",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L5",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/end-of-day-mac","children":["$","$L6",null,{"paddingY":"2","children":"End of Day Mac"}]}]}],["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L7",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L6",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L8",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L7",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L6",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L9",null,{"maxWidth":48}]}],["$","$L6",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L6",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Latest writing"}]}],["$","$L6",null,{"flex":3,"paddingX":"20","children":["$","$La",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$Lb","mediafusion-device-auth",{"post":{"metadata":{"title":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","subtitle":"","publishedAt":"2026-08-03","summary":"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.","image":"/images/blog/mediafusion-device-auth.png","images":[],"tag":"Security","team":[],"link":""},"slug":"mediafusion-device-auth","content":"$c"},"thumbnail":false}],"$Ld","$Le"]}]}]]}],"$Lf"]}],"$L10","$L11"]}],["$L12"],"$L13"]}],"loading":null,"isPartial":false}
+14:T17ad,
+# Securing AI Agents: Threat Model and Guardrails for Production
+
+AI agents—LLMs augmented with tool use, memory, and planning—are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero‑trust playbook for securing AI agents at scale, grounded in recent academic surveys, real‑world case studies, and industry cheat‑sheets.
+
+## Core Threat Model for AI Agents
+
+### Prompt Injection / Tool Manipulation
+Attacker‑controlled input causing unwanted tool calls or data leaks.  
+*Citations: [1,2,4,5]*
+
+### Data Exfiltration & Lateral Movement
+Agents with excessive permissions read/exfiltrate data or pivot to other services.  
+*Citations: [1,2]*
+
+### Over‑Privileged Agent Identities
+Excessive IAM roles/service accounts enable privilege escalation.  
+*Citations: [1,2]*
+
+### Indirect / Second‑Order Injection
+Malicious data returned by tools corrupts the agent’s reasoning.  
+*Citations: [3,6]*
+
+### Runtime & Supply‑Chain Risks
+Compromised tool images, unsafe plugins, credential leakage.  
+*Citations: [2,3]*
+
+*Sources:*  
+[1] OWASP AI Agent Security Cheat Sheet  
+[2] Astrix guide  
+[3] ClawGuard runtime security framework  
+[4] Forcepoint blog on agentic AI risks  
+[5] Astrix guide  
+[6] “Caging the Agents” healthcare case study
+
+## Least‑Privilege / Capability‑Based Access Control (ABA)
+
+### Per‑Agent Credentials & Short‑Lived Tokens
+Use workload identity (OIDC federation, Azure/Google workload identity) so agents never store long‑lived secrets.  
+*Citations: [2,6]*
+
+### Scoped Tool Access
+Each agent gets a minimal allowlist of APIs/commands, enforced via sidecar proxies or API gateways.  
+*Citations: [2,6]*
+
+### Runtime Policy Engines
+e.g., Open Policy Agent (OPA) or Kubernetes PSP/OPA‑Gatekeeper to deny privileged syscalls.  
+*Citations: [2]*
+
+*Source:* “Caging the Agents” – credential proxy sidecars prevent containers from accessing raw secrets.
+
+## Securing the Agent Runtime & Deployment
+
+### Workload Isolation
+Use gVisor, Kata Containers, or lightweight VMs to sandbox agent processes.  
+*Citations: [6]*
+
+### Network Egress Controls
+Allow‑list destinations per agent (e.g., Kubernetes NetworkPolicy, AWS Security Groups, Azure NSG).  
+*Citations: [6]*
+
+### Secret Management
+Inject secrets via sidecar or CSI driver; never mount directly into agent filesystem.  
+*Citations: [2,6]*
+
+### Audit Logging & Tamper‑Evident Trails
+Log every tool call, LLM prompt/output, and credential access; ship to SIEM/chronicle.  
+*Citations: [2,6]*
+
+### Human‑in‑the‑Loop / Approval Gates
+Require approval for destructive actions (e.g., `kubectl delete`, `aws s3 rm`).  
+*Citations: [2,6]*
+
+*Sources:*  
+- “Caging the Agents” – four‑layer defense: gVisor isolation, credential sidecar, network egress allowlist, prompt‑integrity framework  
+- “Towards trustworthy agentic AI” – discusses isolation, secrets, logging, approval mechanisms
+
+## Identity & Trust Boundaries
+
+### Workload Identity Federation
+Agents authenticate to downstream APIs using short‑lived JWTs from Azure AD Workload Identity, Google Workload Identity Federation, or AWS IAM Roles for Service Accounts (IRSA).  
+*Citations: [2]*
+
+### Mutual TLS / SPIFFE
+Establish service‑to‑service trust between agents and backend APIs.  
+*Citations: [2]*
+
+### Tool/Plugin Signing & Attestation
+Verify code signatures before loading plugins.  
+*Citations: [2,3]*
+
+*Source:* “Towards trustworthy agentic AI” – covers OIDC federation and workload identity.
+
+## Practical Guardrails an Infra/Security Engineer Can Implement Today
+
+### Prompt‑Integrity Framework
+Wrap untrusted tool outputs in structured metadata (e.g., JSON with `trusted: false`) and apply validation/sanitization before feeding back to the LLM.  
+*Citations: [6]*
+
+### Input Sanitization & Allow‑Listing
+Reject prompts containing known injection patterns (e.g., `<<SYS>>`, `[[[`, `]]]`).  
+*Citations: [4,5]*
+
+### Output Encoding / Sandboxed Execution
+Run tool‑generated code in a sandbox (gVisor, Firecracker) and enforce SELinux/AppArmor profiles.  
+*Citations: [2,6]*
+
+### Runtime Detection
+Deploy classifiers or anomaly detectors on prompt/tool‑call streams (see ClawGuard runtime framework for indirect injection detection).  
+*Citations: [3]*
+
+### Preference‑Optimization Defenses
+Fine‑tune LLMs to reject malicious prompts via reinforcement learning from human feedback (SecAlign approach).  
+*Citations: [4]*
+
+### Structured Query Defenses
+Force agents to use parameterized queries or prepared statements when interacting with databases (StruQ method).  
+*Citations: [5]*
+
+### Continuous Automated Security Auditing
+Run an “audit agent” that periodically checks agent configurations, permission drift, and anomalous behavior (as in the healthcare case study).  
+*Citations: [6]*
+
+*Sources:*  
+- “Caging the Agents” – prompt integrity framework with structured envelopes  
+- ClawGuard – runtime security framework for indirect prompt injection  
+- SecAlign – preference optimization to defend against prompt injection  
+- StruQ – structured queries to mitigate injection  
+- OWASP Cheat Sheet – recommends input validation, output encoding, least privilege, monitoring  
+- Astrix guide – lists prompt injection, tool manipulation, data exfiltration, over‑privileged agents as top risks
+
+## Conclusion & Call‑to‑Action
+
+AI agent security extends zero‑trust principles: verify, enforce least privilege, monitor, and assume breach. Engineers can start today by:
+
+1. Enforcing per‑agent workload identities  
+2. Sandboxing agent runtimes  
+3. Implementing egress allow‑lists  
+4. Adding prompt‑integrity wrappers  
+5. Logging all tool interactions  
+
+Continuous red‑team/blue‑team exercises and automated audit agents keep defenses current as threats evolve.
+
+*All sources are publicly accessible as of the date of this article. Content is ASCII‑only as requested.*d:["$","$Lb","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$14"},"thumbnail":false}]
+15:T19dc,
 Docker's AuthZ middleware is supposed to be the last line of defense - the plugin that decides whether a container operation is allowed. CVE-2026-34040, disclosed by Cyera Research in April 2026, showed that a single padded HTTP request could make every AuthZ plugin in the ecosystem invisible.
 
 The vulnerability class had existed since Docker Engine 1.10 - February 2016. Ten years.
@@ -101,249 +385,7 @@ CVE-2026-34040 isn't just a Docker bug - it's evidence that the container securi
 The combination of K8s 1.36 User Namespaces (GA), Docker CVE-2026-34040 (AuthZ bypass), and the broader shift toward rootless containers points in one direction: the era of "deploy a plugin and consider authorization handled" is over. Container security needs the same defense-in-depth approach that network security learned years ago. No single control is sufficient. Every layer assumes the others might fail.
 
 Patch Docker. Enable user namespaces. Layer your controls. The vulnerability existed for a decade because the assumption was that AuthZ plugins were the boundary. They're not. They're one layer - and that layer just had a hole in it.
-0:{"buildId":"bXeihExRwEcYYfM_UZ8El","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L4",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L5",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/end-of-day-mac","children":["$","$L6",null,{"paddingY":"2","children":"End of Day Mac"}]}]}],["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L7",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L6",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L8",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L7",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L6",null,{"fillWidth":true,"paddingRight":"64","children":["$","$L9",null,{"maxWidth":48}]}],["$","$L6",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L6",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Latest writing"}]}],["$","$L6",null,{"flex":3,"paddingX":"20","children":["$","$La",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$Lb","docker-cve-2026-34040",{"post":{"metadata":{"title":"Docker CVE-2026-34040: One Megabyte to Root","subtitle":"","publishedAt":"2026-07-17","summary":"A size check bug in Docker Engine let attackers bypass every AuthZ plugin for a decade. Here's how the vulnerability worked, who was exposed, and what it means for your container security stack.","image":"/images/blog/docker-cve-2026-34040.png","images":[],"tag":"Security","team":[],"link":""},"slug":"docker-cve-2026-34040","content":"$c"},"thumbnail":false}],"$Ld","$Le"]}]}]]}],"$Lf"]}],"$L10","$L11"]}],["$L12"],"$L13"]}],"loading":null,"isPartial":false}
-14:T1da1,
-SMS MFA is on its way out. Not gradually, not optionally - Microsoft is retiring native telecom delivery for SMS and voice authentication on February 1, 2027, and passkeys are becoming the default authentication method in Entra ID starting September 1, 2026.
-
-If you're reading this and your environment still relies on SMS as a primary or fallback second factor, the clock is already ticking. This isn't a recommendation - it's a deprecation with a hard date.
-
-## What changed and why it matters
-
-On July 13, 2026, Microsoft published the announcement: passkeys (FIDO2/phishing-resistant) will be the default authentication method in Entra ID. The rollout begins September 1, 2026. Users currently enabled for SMS/voice will be auto-enabled for passkeys.
-
-Then on February 1, 2027, native SMS and voice delivery is retired. Organizations that still need SMS will have to contract third-party telecom partners through the Microsoft Security Store (partners announced September 18, 2026).
-
-The driver isn't convenience - it's threat reality. AI-powered phishing campaigns now achieve click-through rates up to 54%, compared to roughly 12% for traditional phishing. Adversary-in-the-middle proxy attacks make SMS and push-based MFA fundamentally vulnerable. Passkeys bind the authentication ceremony to the legitimate origin cryptographically. There's nothing to intercept.
-
-Microsoft's own Secure Future Initiative progress report (July 10, 2026) puts this in context: 99.97% of user/device pairs at Microsoft are now protected by phishing-resistant MFA. They're not just recommending it - they've deployed it at scale internally and are pushing the rest of the ecosystem to follow.
-
-## The timeline
-
-| Date | What happens |
-|------|-------------|
-| July 13, 2026 | Announcement published |
-| September 1, 2026 | Rollout begins - SMS/voice users auto-enabled for passkeys |
-| September 18, 2026 | Supported third-party telecom providers announced |
-| February 1, 2027 | Native SMS/voice retired |
-| September 7, 2026 | SSPR accepts only registered authentication methods (no more contact details as MFA) |
-
-The September SSPR change is easy to miss. Self-service password reset will stop accepting unregistered email/phone as authentication methods. If your users registered a personal Gmail or a phone number they no longer have access to, they'll be locked out of SSPR. Verify registration state before September 7.
-
-## What you need to do now
-
-### Phase 1 - Audit your current state (July-August 2026)
-
-Before you migrate anything, know what you have:
-
-1. **Inventory authentication methods per user.** In the Entra admin center, go to Users > Authentication methods. Export the report. Identify every user with SMS or voice as their only registered method.
-
-2. **Check SSPR registration.** Under Password reset > Authentication methods, verify what users have registered. Flag anyone with only a phone number or email as their registered method - they'll need to add a passkey before September 7.
-
-3. **Review Conditional Access policies.** Identify any policies that rely on "Require MFA" without specifying authentication strength. These will continue to work after February 2027 but won't enforce phishing-resistant methods. Start upgrading them to reference Authentication Strengths.
-
-4. **Audit service accounts.** Service accounts with interactive sign-ins using SMS or phone-based MFA are a blocking issue. These need certificate-based authentication or managed identity - they can't use passkeys.
-
-### Phase 2 - Deploy passkey infrastructure (August-September 2026)
-
-1. **Enable the passkey authentication method.** In Entra > Protection > Authentication methods, ensure FIDO2 (Security Keys) and Microsoft Authenticator (for passkey support) are enabled.
-
-2. **Create registration campaigns.** Use Entra's built-in registration campaign feature (now GA for passkeys) to prompt users during sign-in. The campaign shows a banner directing users to register a passkey. Target users who don't yet have a phishing-resistant method.
-
-3. **Deploy Windows Hello for Business.** For managed Windows devices, WHfB is the lowest-friction path. Users authenticate with biometric or PIN - it's already the login experience, just backed by a FIDO2 credential bound to the device. Verify Intune compliance policies and Hello provisioning policies are deployed.
-
-4. **Deploy Platform SSO for macOS.** For Mac users, Platform SSO uses the Secure Enclave to generate a hardware-bound key that qualifies as phishing-resistant under Authentication Strengths. Requires Intune MDM enrollment and macOS 13+.
-
-5. **Issue FIDO2 hardware keys for edge cases.** Shared workstations, kiosk scenarios, privileged users on multiple devices, and Linux workstations all need hardware keys. YubiKey 5 series or equivalent.
-
-### Phase 3 - Migrate and enforce (September 2026-January 2027)
-
-1. **Enroll in batches.** Don't enforce for everyone simultaneously. Create a security group (`sg-passkey-enrolled`), deploy a phishing-resistant Authentication Strength policy scoped to that group, and add users as they register.
-
-2. **Upgrade Conditional Access policies.** Replace "Require MFA" with explicit Authentication Strength references. Phishing-Resistant MFA for privileged roles and sensitive apps. Passwordless MFA as a broader baseline. Keep existing MFA policies as a safety net.
-
-3. **Monitor sign-in logs.** Filter for "Report-only: Would have failed" before enforcing. Identify users who would be blocked and help them register before the policy applies.
-
-4. **Cut SMS/voice before February 2027.** Don't wait for Microsoft to retire it. If you've completed passkey enrollment for your user population, disable SMS/voice in your authentication methods policy. The fewer users on a deprecated method, the cleaner the transition.
-
-## Linux support
-
-A detail that matters for heterogeneous environments: phishing-resistant MFA for Linux desktops is now available via the Microsoft identity broker. Supported on Ubuntu 24.04, 26.04, RHEL 8, 9, and 10. This means your Linux workstations can participate in the same Conditional Access policies as Windows and macOS - no exceptions needed for platform coverage.
-
-## What about third-party telecom?
-
-If you absolutely cannot migrate away from SMS before February 2027 - legacy systems, regulatory requirements, or environments where passkey enrollment isn't feasible for a subset of users - Microsoft will support third-party telecom partners for SMS/voice delivery. The partner list goes live September 18, 2026 via the Microsoft Security Store.
-
-This is a stopgap, not a strategy. Third-party SMS delivery adds cost, complexity, and the same phishing vulnerabilities that drove the deprecation. Use it only for the tail cases you genuinely can't reach with passkeys.
-
-## The bigger picture
-
-This isn't just an MFA method swap. It's Microsoft aligning the entire Entra ID ecosystem around phishing-resistant authentication as the baseline. The Conditional Access policy changes in July 2026 (CA policies now apply during Windows Hello and Platform SSO registration), the September 7 SSPR tightening, and the February 2027 SMS retirement are all parts of the same trajectory.
-
-Environments that delay will face a forced migration with a compressed timeline. Environments that start now have six months to enroll users, test policies, and enforce gradually - which is the only way to do this without locking people out.
-
-The passkey default isn't coming. It's already here. The question is whether you'll migrate on your terms or on Microsoft's timeline.
-d:["$","$Lb","passkey-deadline",{"post":{"metadata":{"title":"The Passkey Deadline","subtitle":"","publishedAt":"2026-07-17","summary":"Microsoft just made passkeys the default in Entra ID and set a February 2027 deadline for SMS. Here's what every organization needs to do now - and the migration roadmap that gets you there without disruption.","image":"/images/blog/passkey-deadline.png","images":[],"tag":"Security","team":[],"link":""},"slug":"passkey-deadline","content":"$14"},"thumbnail":false}]
-15:T1ff9,
-I run Hermes Agent as my primary AI assistant. It's open-source, provider-agnostic, and runs in my terminal with full system access. The problem: one agent trying to do everything — security investigations, code review, job search, DevOps, content writing, research — ends up doing none of them well. Context bleeds between tasks. A security investigation session pollutes the context for code review. Job search skills load into infrastructure work.
-
-The fix was Hermes's multi-profile system. One installation, nine independent agent profiles, each scoped to a specific domain. Here's what I built and why it works.
-
-## Why multi-profile matters
-
-A single Hermes instance with everything loaded hits context limits fast. Skills pile up. MCP servers compete for tool slots. Memory from one domain contaminates another. The profile system solves this by giving each domain its own complete isolated environment — config, identity, sessions, skills, memory, cron jobs, and credentials.
-
-Think of it like user accounts on a shared machine. Each profile gets its own home directory under `~/.hermes/profiles/<name>/`, and nothing leaks between them.
-
-## The nine profiles
-
-Here's the full roster and what each one does:
-
-**Bob** — Cloud Security Engineer. Investigates Microsoft 365 tenants through Entra ID, Intune, and Exchange Online MCP servers. Correlates identity and device data to catch security issues. Read-only by default.
-
-**Ethan** — Job Search Assistant. Finds, evaluates, and tracks job applications. Manages CV optimization and career strategy for cloud security roles.
-
-**Gabriel** — Cloud Security Investigator. Similar to Bob but focused on M365/Azure/Intune security investigations with a read-only stance. Handles incident response and compliance checks.
-
-**Felix** — DevOps and Infrastructure Engineer. Manages Docker Swarm, CI/CD pipelines, IaC, monitoring, and workflow automation. Has n8n MCP integration for workflow orchestration.
-
-**Max** — Code Reviewer and Quality Engineer. Finds real bugs, not style nits. Security > correctness > performance > style.
-
-**Ella** — Content Writer and Technical Blogger. Writes blog posts, documentation, tutorials, and social media content. Direct, practical voice.
-
-**Leo** — Research and Knowledge Agent. Deep research, paper analysis, competitive intelligence. Goes wide first, then deep.
-
-**Sam** — Homelab and Smart Home Manager. Docker Swarm service health, IoT device status, network monitoring, backup verification, smart home automation.
-
-**Iris** — Documentation and Knowledge Manager. Project documentation, ADRs, runbooks, contributor guides, knowledge base maintenance.
-
-Each profile has a `SOUL.md` file that defines its identity, focus, and behavioral constraints. Bob is read-only. Max finds bugs. Ella writes clearly and skips fluff. These aren't just names — they're scoped identities that shape how the agent approaches every task.
-
-## How profile isolation works
-
-Each profile lives in its own directory under `~/.hermes/profiles/<name>/` with seven isolated dimensions:
-
-**1. Configuration (`config.yaml`)** — Model, provider, toolsets, terminal backend, agent behavior. Felix uses a local terminal pointed at the homelab dashboard directory. Gabriel points at the security engineering project.
-
-**2. Identity (`SOUL.md`)** — The agent's personality, focus areas, and behavioral rules. Each profile reads only its own SOUL.md.
-
-**3. Sessions (`sessions/` + `state.db`)** — Conversation history and FTS5 search index. Bob's security investigations never appear in Ella's content writing sessions.
-
-**4. Skills (`skills/`)** — Domain-specific procedural memory. Felix has Docker Swarm and CI/CD skills. Gabriel has cloud security investigation skills. These don't cross-pollinate.
-
-**5. Memory (`memories/`)** — Persistent cross-session memory. Each profile learns independently. Max remembers code patterns from past reviews. Leo remembers research findings.
-
-**6. Cron jobs (`cron/`)** — Scheduled tasks. Each profile can have its own recurring jobs without interference.
-
-**7. Credentials (`.env`)** — API keys and secrets. Each profile gets its own credential set. Bob has Entra ID app registration secrets. Felix has n8n API keys. No credential sharing between profiles.
-
-Here's what the directory structure looks like:
-
-```
-~/.hermes/profiles/
-├── bob-the-sec-engineer/
-│   ├── config.yaml
-│   ├── SOUL.md
-│   ├── .env
-│   ├── sessions/
-│   ├── skills/
-│   ├── memories/
-│   ├── cron/
-│   └── mcp-servers/
-├── felix/
-│   ├── config.yaml
-│   ├── SOUL.md
-│   ├── .env
-│   ├── sessions/
-│   ├── skills/
-│   ├── memories/
-│   └── cron/
-└── ... (7 more profiles)
-```
-
-## MCP server integration
-
-The real power comes when profiles get their own MCP (Model Context Protocol) servers. MCP servers expose external tools to the agent — APIs, databases, services — as first-class callable tools.
-
-**Felix + n8n:** Felix's config includes an n8n MCP server that gives it direct access to workflow orchestration:
-
-```yaml
-# ~/.hermes/profiles/felix/config.yaml
-mcp_servers:
-  n8n:
-    command: "npx"
-    args:
-      - "-y"
-      - "n8n-mcp"
-    env:
-      N8N_API_URL: "http://localhost:5678"
-      N8N_API_KEY: "your-api-key-here"
-    timeout: 120
-```
-
-With this configured, Felix can create, trigger, and manage n8n workflows directly. No manual API calls, no curl wrappers — the agent treats workflow automation as a native capability.
-
-**Bob + Microsoft Graph MCP:** Bob has three MCP servers for Microsoft Graph — Entra ID, Intune, and Exchange Online. These give Bob read-only access to identity data, device compliance, and mail/calendar across the tenant:
-
-```bash
-# Bob's MCP servers live in their own repo
-~/.hermes/profiles/bob-the-sec-engineer/mcp-servers/
-├── entra_id_mcp/
-├── intune_mcp/
-├── exchange_online_mcp/
-└── gateway_mcp/
-```
-
-Each MCP server has its own risk classification system. Read operations are unrestricted. Write operations require explicit opt-in via environment variables. The guardrails are baked in at the server level, not bolted on.
-
-## Switching between profiles
-
-Usage is straightforward:
-
-```bash
-# List all profiles
-hermes profile list
-
-# Use a specific profile
-hermes -p felix
-
-# Set a sticky default
-hermes profile use felix
-
-# Create a new profile (cloned from default)
-hermes profile create new-agent --clone
-```
-
-In practice, I alias them in my shell:
-
-```bash
-alias bob="hermes -p bob-the-sec-engineer"
-alias felix="hermes -p felix"
-alias ella="hermes -p ella"
-alias max="hermes -p max"
-```
-
-`bob` launches a security investigation. `felix` manages infrastructure. `ella` writes content. Each starts fresh with only its relevant context loaded.
-
-## What changed in my daily workflow
-
-Before profiles: one Hermes session, constantly switching context, skills loading and unloading, memory mixing between domains. A security investigation would surface job search memories. Code review would load DevOps skills.
-
-After profiles: each domain has its own clean context. I open a terminal, pick the right profile, and everything it needs is already loaded. No context pollution. No skill conflicts. Memory stays domain-specific.
-
-The practical impact:
-
-- **Faster startup** — fewer skills and tools to load per profile
-- **Cleaner context** — no irrelevant memories or session history
-- **Better focus** — each profile's SOUL.md constrains behavior to its domain
-- **Secure isolation** — credentials don't leak between profiles
-- **Composable MCP** — each profile connects only to the services it needs
-
-The initial setup took about an hour for all nine profiles. Most of that was writing SOUL.md files and configuring MCP servers. The ROI has been significant — I'm spending less time fighting context and more time actually doing the work.
-
----
-
-*Hermes Agent is open-source by Nous Research. Profiles are documented at [hermes-agent.nousresearch.com/docs/user-guide/profiles](https://hermes-agent.nousresearch.com/docs/user-guide/profiles).*
-e:["$","$Lb","hermes-multi-profile-system",{"post":{"metadata":{"title":"Building a Multi-Profile Agent System with Hermes","subtitle":"","publishedAt":"2026-07-14","summary":"How I split one AI agent into nine specialized profiles — each with isolated config, memory, skills, and MCP servers — and why it changed my daily workflow.","image":"/images/blog/hermes-multi-profile-system.jpg","images":[],"tag":"Automation","team":[],"link":""},"slug":"hermes-multi-profile-system","content":"$15"},"thumbnail":false}]
+e:["$","$Lb","docker-cve-2026-34040",{"post":{"metadata":{"title":"Docker CVE-2026-34040: One Megabyte to Root","subtitle":"","publishedAt":"2026-07-17","summary":"A size check bug in Docker Engine let attackers bypass every AuthZ plugin for a decade. Here's how the vulnerability worked, who was exposed, and what it means for your container security stack.","image":"/images/blog/docker-cve-2026-34040.png","images":[],"tag":"Security","team":[],"link":""},"slug":"docker-cve-2026-34040","content":"$15"},"thumbnail":false}]
 f:["$","$L6",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$L9",null,{"maxWidth":48}]}]
 17:T88d,
 ## What this is

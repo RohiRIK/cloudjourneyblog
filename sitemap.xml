@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://CloudJourneyBlog.rohi-lab.org</loc>
-<lastmod>2026-08-02</lastmod>
+<lastmod>2026-08-03</lastmod>
 </url>
 <url>
 <loc>https://CloudJourneyBlog.rohi-lab.org/blog</loc>
-<lastmod>2026-08-02</lastmod>
+<lastmod>2026-08-03</lastmod>
 </url>
 <url>
 <loc>https://CloudJourneyBlog.rohi-lab.org/about</loc>
-<lastmod>2026-08-02</lastmod>
+<lastmod>2026-08-03</lastmod>
 </url>
 <url>
 <loc>https://CloudJourneyBlog.rohi-lab.org/feeds</loc>
-<lastmod>2026-08-02</lastmod>
+<lastmod>2026-08-03</lastmod>
 </url>
 <url>
 <loc>https://CloudJourneyBlog.rohi-lab.org/blog/ai-driven-soc-assistant</loc>
@@ -97,6 +97,10 @@
 <lastmod>2026-03-20</lastmod>
 </url>
 <url>
+<loc>https://CloudJourneyBlog.rohi-lab.org/blog/mediafusion-device-auth</loc>
+<lastmod>2026-08-03</lastmod>
+</url>
+<url>
 <loc>https://CloudJourneyBlog.rohi-lab.org/blog/netlogon-rpc-sealing-playbook</loc>
 <lastmod>2026-03-03</lastmod>
 </url>
@@ -115,6 +119,10 @@
 <url>
 <loc>https://CloudJourneyBlog.rohi-lab.org/blog/robot-army-personal-lab</loc>
 <lastmod>2026-04-26</lastmod>
+</url>
+<url>
+<loc>https://CloudJourneyBlog.rohi-lab.org/blog/securing-ai-agents</loc>
+<lastmod>2026-08-03</lastmod>
 </url>
 <url>
 <loc>https://CloudJourneyBlog.rohi-lab.org/blog/smart-offboarding-orchestration</loc>

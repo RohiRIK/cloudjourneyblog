@@ -5,7 +5,7 @@
     <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     <description>Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman</description>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Aug 2026 20:46:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 11:00:39 GMT</lastBuildDate>
     <atom:link href="https://CloudJourneyBlog.rohi-lab.org/api/rss" rel="self" type="application/rss+xml" />
     <managingEditor>rohi@rohirikman.dev (Rohi Rikman)</managingEditor>
     <webMaster>rohi@rohirikman.dev (Rohi Rikman)</webMaster>
@@ -15,6 +15,26 @@
       <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     </image>
     
+    <item>
+      <title>How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/mediafusion-device-auth</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/mediafusion-device-auth</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/mediafusion-device-auth.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>Securing AI Agents: Threat Model and Guardrails for Production</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/securing-ai-agents</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/securing-ai-agents</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/securing-ai-agents.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
     <item>
       <title>Docker CVE-2026-34040: One Megabyte to Root</title>
       <link>https://CloudJourneyBlog.rohi-lab.org/blog/docker-cve-2026-34040</link>

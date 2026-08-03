@@ -5,9 +5,25 @@
     <link>https://cloudjourneyblog.rohi-lab.org</link>
     <description>Security, automation, and the systems that connect them.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2026 20:46:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 11:00:41 GMT</lastBuildDate>
     <atom:link href="https://cloudjourneyblog.rohi-lab.org/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title><![CDATA[How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/mediafusion-device-auth</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/mediafusion-device-auth</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.]]></description>
+    </item>
+  
+    <item>
+      <title><![CDATA[Securing AI Agents: Threat Model and Guardrails for Production]]></title>
+      <link>https://cloudjourneyblog.rohi-lab.org/blog/securing-ai-agents</link>
+      <guid>https://cloudjourneyblog.rohi-lab.org/blog/securing-ai-agents</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.]]></description>
+    </item>
+  
     <item>
       <title><![CDATA[Docker CVE-2026-34040: One Megabyte to Root]]></title>
       <link>https://cloudjourneyblog.rohi-lab.org/blog/docker-cve-2026-34040</link>
