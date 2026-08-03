@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T20:42:01.229Z",
+  "updatedAt": "2026-08-03T14:16:14.026Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
+          "date": "Aug 2, 2026",
+          "excerpt": "OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer scien"
+        },
+        {
+          "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
+          "link": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+          "date": "Aug 2, 2026",
+          "excerpt": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number "
+        },
+        {
           "title": "Google Chrome may soon block New Tab hijacker extensions by default",
           "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
           "date": "Aug 2, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
           "date": "Jul 31, 2026",
           "excerpt": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers."
-        },
-        {
-          "title": "Arch Linux disables AUR package adoption to stop malware flood",
-          "link": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
-          "date": "Jul 31, 2026",
-          "excerpt": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]"
-        },
-        {
-          "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
-          "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-          "date": "Jul 31, 2026",
-          "excerpt": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboard"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Meet the 'internet radical' who helped Microsoft get email and AT&T get online",
-          "link": "https://www.theregister.com/offbeat/2026/08/02/meet-the-internet-radical-who-helped-microsoft-get-email-and-att-get-online/5281281",
-          "date": "Aug 2, 2026",
-          "excerpt": "Tom Evslin on Bill Gates, the birth of Exchange, and dragging Ma Bell onto the web"
+          "title": "Police National Legal Database confirms data theft after dark web leak",
+          "link": "https://www.theregister.com/cyber-crime/2026/08/03/police-national-legal-database-confirms-data-theft-after-dark-web-leak/5282332",
+          "date": "Aug 3, 2026",
+          "excerpt": "ExfilSquad claims 135,000 contact records weeks after hitting the Department for Education"
         },
         {
-          "title": "Unexpected item in the bagging area as Windows Activation error pops up at check-in",
-          "link": "https://www.theregister.com/offbeat/2026/08/01/unexpected-item-in-the-bagging-area-as-windows-activation-error-pops-up-at-check-in/5281946",
-          "date": "Aug 1, 2026",
-          "excerpt": "Bags weighed down by a Microsoft license key"
+          "title": "NASA boss balks at billion-dollar estimate for recycled Moon rover",
+          "link": "https://www.theregister.com/science/2026/08/03/nasa-boss-balks-at-billion-dollar-estimate-for-recycled-moon-rover/5282355",
+          "date": "Aug 3, 2026",
+          "excerpt": "Turning two Mars testbeds into one lunar explorer may prove anything but cheap"
         },
         {
-          "title": "A deep dive into Nvidia's Vera CPU and the Olympus cores that power it",
-          "link": "https://www.theregister.com/systems/2026/08/01/nvidias-vera-cpu-and-the-olympus-cores-that-power-it-deep-dive/5282056",
-          "date": "Aug 1, 2026",
-          "excerpt": "88 custom cores, 176 funky threads, 1.5 TB of laptop RAM, and 1.8 TB/s of NVLink connectivity — this isn't your typical datacenter chip"
+          "title": "Water system cyberattacks spread to Georgia, Michigan amid US-Iran conflict",
+          "link": "https://www.theregister.com/security/2026/08/03/georgia-michigan-say-water-systems-hacked-by-iran-tied-crew/5282262",
+          "date": "Aug 3, 2026",
+          "excerpt": "Trump rejects Tehran theory, blames 'grossly incompetent' governor of Minnesota instead"
         },
         {
-          "title": "Enterprise cloud infrastructure uptake shows no sign of slowing",
-          "link": "https://www.theregister.com/off-prem/2026/08/01/enterprise-cloud-infrastructure-uptake-shows-no-sign-of-slowing/5281835",
-          "date": "Aug 1, 2026",
-          "excerpt": "Cloud revenue now north of $143 billion a quarter, and growth is accelerating"
+          "title": "Google Earth's AI makeover survives one trip around the Sun",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/03/google-earths-ai-makeover-survives-one-trip-around-the-sun/5282224",
+          "date": "Aug 3, 2026",
+          "excerpt": "Turns out letting anyone rewrite the planet with a prompt had drawbacks"
         },
         {
-          "title": "Dev who gave HashiCorp its name returns with a faster terminal multiplexer",
-          "link": "https://www.theregister.com/devops/2026/07/31/dev-who-gave-hashicorp-its-name-returns-with-a-faster-terminal-multiplexer/5281970",
-          "date": "Jul 31, 2026",
-          "excerpt": "Persistent sessions could be just the beginning"
+          "title": "The AI bubble is already popping; we just don't know it yet",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004",
+          "date": "Aug 3, 2026",
+          "excerpt": "Weird times in earnings-land, and we're talking about it on The Reg's home grown podcast"
         }
       ]
     },
