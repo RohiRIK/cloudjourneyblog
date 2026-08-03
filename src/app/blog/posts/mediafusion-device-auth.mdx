@@ -1,0 +1,147 @@
+---
+title: "How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device"
+summary: "Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations."
+image: "/images/blog/mediafusion-device-auth.png"
+publishedAt: "2026-08-03"
+tag: "Security"
+---
+
+MediaFusion solves a critical challenge in the streaming ecosystem: how to securely authenticate users on devices with limited input capabilities. From Stremio addons on Android TV boxes to Kodi installations on Raspberry Pis, many streaming devices lack full keyboards or browsers, making traditional OAuth flows impractical. MediaFusion addresses this by implementing the OAuth 2.0 Device Authorization Grant (RFC 8628), creating a seamless authentication experience that never requires users to enter credentials on the device itself.
+
+## What is MediaFusion?
+
+MediaFusion is an open-source streaming platform that aggregates content from configured sources—including torrent indexers, debrid services like RealDebrid and Premiumize, metadata providers, and enhancement services—into a unified interface accessible through Stremio, Kodi, or directly in a browser. Acting as an aggregation layer, it connects to over 40 external services across six major categories, eliminating the need to juggle multiple apps or websites.
+
+The platform's strength lies in its ability to present a unified streaming experience while handling the complexity of authentication with various backend services behind the scenes.
+
+## The OAuth 2.0 Device Authorization Grant Explained
+
+The OAuth 2.0 Device Authorization Grant (also known as "device flow") is specifically designed for input-constrained or browserless devices. Unlike traditional OAuth flows that require redirects or embedded browsers, device flow enables authorization through a secondary device like a smartphone or laptop.
+
+Here's how MediaFusion implements this flow:
+
+1. **Device Authorization Request**: When configuring a debrid service (like RealDebrid), MediaFusion's configuration UI makes a GET request to the provider's `/provider/device_code` endpoint to obtain a device code and user code.
+
+2. **User Code Display**: The configuration interface displays the user code and instructs the user to visit a verification URL on a separate device (typically a smartphone or computer) with full input capabilities.
+
+3. **User Authorization**: The user visits the verification URL on their secondary device, enters the user code, and grants authorization to MediaFusion.
+
+4. **Polling for Token**: While the user authorizes, MediaFusion polls the token endpoint (`/provider/authorize`) with the device code at intervals specified by the provider (typically every 5 seconds) until authorization completes or the code expires.
+
+5. **Token Reception**: Upon successful authorization, the token endpoint returns an access token, which MediaFusion encrypts and embeds in the manifest URL via the `secret_str` parameter for seamless addon configuration.
+
+![OAuth Device Flow Diagram](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZiIvPjx0ZXh0IHg9IjMwMCIgeT0iMjAwIiBmb250LXNpemU9IjE2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMDAwIjpEZXZpY2UgRmxvdzwvdGV4dD48L3N2Zz4=)
+
+## Why Device Flow Provides Excellent UX for MediaFusion Users
+
+The device flow solves the authentication dilemma for streaming addons in several key ways:
+
+- **No Browser Required on Device**: MediaFusion runs on devices that may lack browsers or have limited input (like TV boxes or Raspberry Pi setups). The device flow eliminates the need for browser-based authentication flows on these constrained devices.
+
+- **Secondary Device Authentication**: Users complete authorization on familiar devices with full keyboards and browsers—typically smartphones or laptops—making the process intuitive and error-free.
+
+- **Simple Code Entry**: Instead of entering complex credentials, users only need to input a short, alphanumeric user code (typically 6-8 characters), reducing friction and errors.
+
+- **Automatic Polling**: After displaying the user code, MediaFusion automatically handles the polling process in the background, requiring no further user interaction until authorization completes or times out.
+
+- **URL-Based Configuration**: Encrypted credentials are embedded directly in the manifest URL, eliminating separate login steps when installing the Stremio or Kodi addon. Users simply install the addon with the pre-configured manifest URL, and it just works.
+
+## Security Analysis: What Device Flow Protects Against
+
+The device flow provides inherent security benefits by design:
+
+### What It Protects Against
+- **Credential Exposure**: User credentials (username/password) never enter the MediaFusion device interface, eliminating credential theft from compromised devices.
+- **Limited Attack Surface**: Only the device code and user code are exposed on the limited-interface device, minimizing the attack surface.
+
+### Security Considerations & Mitigations
+While inherently more secure than alternatives like Resource Owner Password Credentials (ROPC), device flow requires attention to several considerations:
+
+1. **User Code Brute Forcing**: RFC 8628 §5.1 specifies that user codes must be sufficiently long and random to prevent brute-force attacks. MediaFusion relies on provider-standard implementations that typically use 8-character alphanumeric codes (62^8 ≈ 218 trillion possibilities).
+
+2. **Device Code Brute Forcing**: Similarly, device codes must be sufficiently entropic (RFC 8628 §5.2). Providers implement these with sufficient entropy to make brute-forcing impractical.
+
+3. **Phishing Risks**: Users must verify they're entering codes on legitimate provider verification pages. MediaFusion mitigates this by displaying the exact verification URL to visit.
+
+4. **Polling Abuse**: Providers must implement rate limiting on token endpoints to prevent abuse from frequent polling—a standard requirement RFC 8628 §5.4 places on authorization servers.
+
+5. **Token Lifetime Management**: Access tokens should have appropriate expiration times, with refresh token support where applicable, limiting the window of compromise if tokens are intercepted.
+
+6. **PKCE Considerations**: While RFC 8628 doesn't mandate PKCE for device flow, some providers implement it additionally. MediaFusion works with provider implementations as-is.
+
+## Device Flow vs. Alternative OAuth Flows
+
+Understanding when device flow is the right choice requires comparing it to other OAuth flows:
+
+### Device Flow vs. Authorization Code + PKCE
+- **Device Flow**: Designed for input-constrained/browserless devices; uses user code + verification URL; client polls for token
+- **Auth Code + PKCE**: Requires browser/user-agent on device; uses redirect_uri; authorization server redirects back to client
+
+### Device Flow vs. ROPC (Resource Owner Password Credentials)
+- **Device Flow**: Never handles user credentials; more secure against credential theft and phishing
+- **ROPC**: Requires username/password handled by client; vulnerable to phishing, keylogging, and credential theft
+
+### When Device Flow is Appropriate
+Device flow is ideal when:
+- Devices lack browsers or have limited input capabilities (smart TVs, streaming sticks, gaming consoles)
+- You want to avoid handling user credentials on the device
+- Users have access to a secondary device for authorization
+- Deploying streaming/media addons (Stremio/Kodi) where seamless configuration is paramount
+
+## How MediaFusion Implements Device Flow Technically
+
+Based on source code analysis, MediaFusion's implementation follows these patterns:
+
+### Device Code Request
+The configuration UI initiates the flow by calling `GET /{provider}/device_code` (found in `resources/js/config_script.js` lines 33-60), which returns:
+- `device_code`: Used for polling the token endpoint
+- `user_code`: The code users enter on the verification page
+- `verification_uri`: The URL users should visit
+- `expires_in`: Validity period (typically 5-15 minutes)
+- `interval`: Polling interval in seconds (usually 5)
+
+### Token Polling
+While the user authorizes, MediaFusion POSTs to `/{provider}/authorize` with the `device_code` (lines 63-96 in config_script.js), respecting the provider-specified interval to avoid abuse.
+
+### User Code Display
+The configuration interface (`resources/html/configure.html` lines 235-242) presents the user code and instructions clearly, often with copy-to-clipboard functionality for ease of use.
+
+### Token Storage
+Upon receiving the access token, MediaFusion:
+1. Encrypts it using AES via `utils/crypto.py` with a site-specific `settings.secret_key`
+2. Embeds the encrypted token in the manifest URL as the `secret_str` parameter
+3. This allows Stremio/Kodi addons to load configured services without additional login steps
+
+The encryption implementation spans `utils/crypto.py` and `db/schemas.py` (lines 235-348), ensuring credentials never remain in plaintext in configurations or URLs.
+
+## Best Practices for Users When Authorizing Devices
+
+To maximize security when using MediaFusion's device flow:
+
+1. **Verify the Verification URL**: Always ensure you're on the legitimate provider's website when entering user codes.
+2. **Use Temporary Codes**: Treat user codes as temporary passwords—don't share them or enter them on suspicious sites.
+3. **Monitor Authorized Devices**: Regularly review and revoke access for devices you no longer use via the provider's account dashboard.
+4. **Understand Token Scope**: Be aware of what permissions you're granting (typically limited to accessing your debrid/storage account).
+5. **Keep Recovery Options Updated**: Ensure account recovery methods are current in case you need to regain access.
+
+## Why This Approach Represents the Future of Device Authentication
+
+MediaFusion's implementation of OAuth 2.0 Device Flow exemplifies a broader shift in how we handle authentication for the growing ecosystem of smart devices, IoT gadgets, and media-centric hardware:
+
+- **User-Centric Security**: By separating authentication from the device interface, we achieve both security and usability without compromise.
+- **Standardized Approach**: Leveraging RFC 8628 ensures compatibility with major identity providers while benefiting from community-vetted security practices.
+- **Seamless Integration**: The URL-based credential embedding creates a truly "set it and forget it" experience for addon installation and configuration.
+- **Extensible Framework**: As more services adopt device flow (from Google to Azure AD), MediaFusion's modular implementation can easily integrate new providers.
+
+For streaming enthusiasts who value both convenience and security, MediaFusion's device flow implementation demonstrates how thoughtful authentication design can make complex backend integrations disappear behind a simple, "just works" user experience—exactly what the modern streaming ecosystem needs.
+
+---
+
+## Related Documents
+
+## Related Documents
+
+### See Also
+- [OAuth 2.0 for Native Apps (RFC 8252)](https://www.rfc-editor.org/info/rfc8252) - Comparison with traditional OAuth flows
+- [OAuth 2.0 Threat Model and Security Considerations (RFC 6819)](https://www.rfc-editor.org/info/rfc6819) - Broader OAuth security context
+- [OAuth 2.0 Token Exchange (RFC 8693)](https://www.rfc-editor.org/info/rfc8693) - Related token exchange mechanisms
