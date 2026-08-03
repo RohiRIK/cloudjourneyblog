@@ -112,7 +112,7 @@ Validation checks:
 - PowerShell Scripts for Remediations reference: https://learn.microsoft.com/en-us/intune/device-management/tools/ref-remediation-scripts
 - Windows Autopatch alerts and remediations: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/alerts-remediations
 - Windows Autopatch management status report: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/windows-autopatch-management-status-report
-- Windows Autopatch groups overview: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/deploy/windows-autopatch-groups-overview0:{"buildId":"yoBgSPydlSc_AlagdAV1y","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"sameAs\":[],\"headline\":\"Writing on security, automation, and infrastructure\",\"description\":\"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing on security, automation, and infrastructure"}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","intune-autopatch-with-scripts",{"post":{"metadata":{"title":"Intune Autopatch with Script-Based Patch Verification","subtitle":"","publishedAt":"2026-08-03","summary":"Step-by-step guide to implementing Windows Autopatch with Intune Proactive Remediations for verifiable automated patching.","image":"/images/blog/intune-autopatch-with-scripts.png","images":[],"tag":"Security","team":[],"link":""},"slug":"intune-autopatch-with-scripts","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9"]}]]}],["$La"],"$Lb"]}],"loading":null,"isPartial":false}
+- Windows Autopatch groups overview: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/deploy/windows-autopatch-groups-overview0:{"buildId":"DCYjrjlb9CPg9UAWH3leX","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"sameAs\":[],\"headline\":\"Writing on security, automation, and infrastructure\",\"description\":\"Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing on security, automation, and infrastructure"}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","intune-autopatch-with-scripts",{"post":{"metadata":{"title":"Intune Autopatch with Script-Based Patch Verification","subtitle":"","publishedAt":"2026-08-03","summary":"Step-by-step guide to implementing Windows Autopatch with Intune Proactive Remediations for verifiable automated patching.","image":"/images/blog/intune-autopatch-with-scripts.png","images":[],"tag":"Security","team":[],"link":""},"slug":"intune-autopatch-with-scripts","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9"]}]]}],["$La"],"$Lb"]}],"loading":null,"isPartial":false}
 c:T2bc0,
 MediaFusion solves a critical challenge in the streaming ecosystem: how to securely authenticate users on devices with limited input capabilities. From Stremio addons on Android TV boxes to Kodi installations on Raspberry Pis, many streaming devices lack full keyboards or browsers, making traditional OAuth flows impractical. MediaFusion addresses this by implementing the OAuth 2.0 Device Authorization Grant (RFC 8628), creating a seamless authentication experience that never requires users to enter credentials on the device itself.
 
@@ -357,150 +357,96 @@ The Stremio + MediaFusion + Real-Debrid stack gives you the flexibility and brea
 Give it a try - a few minutes of setup, and you're watching Blu-ray, Ultra (4K), and Mega-quality content from every corner of the streaming world.9:["$","$L4",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","stremio-mediafusion-realdebrid",{"post":{"metadata":{"title":"Stremio + MediaFusion + Real-Debrid: How I Stream Torrents Safely and Fast","subtitle":"","publishedAt":"2026-08-03","summary":"A detailed look at how I use Stremio with the MediaFusion plugin and Real-Debrid for a secure, high-speed streaming experience that avoids P2P risks.","image":"/images/blog/stremio-mediafusion-realdebrid.png","images":[],"tag":"Automation","team":[],"link":""},"slug":"stremio-mediafusion-realdebrid","content":"$e"},"thumbnail":true,"direction":"column"}],"$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e"]}]
 a:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true}]
 b:["$","$L2f",null,{"children":["$","$30",null,{"name":"Next.MetadataOutlet","children":"$@31"}]}]
-32:T1729,
+32:T1e71,
 # Securing AI Agents: Threat Model and Guardrails for Production
 
-AI agents-LLMs augmented with tool use, memory, and planning-are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero-trust playbook for securing AI agents at scale, grounded in recent academic surveys, real-world case studies, and industry cheat-sheets.
+AI agents - LLMs augmented with tool use, memory, and planning - are now deployed in production clouds, automating cloud operations, security triage, and DevOps workflows. They bring real efficiency, but they also expand the attack surface far beyond classic prompt injection. Tool abuse, data exfiltration, and privilege escalation become practical risks the moment an agent can act on your infrastructure.
 
-## Core Threat Model for AI Agents
+This article translates recent research and industry guidance into a zero-trust playbook that cloud security and infrastructure engineers can apply today. The core idea is simple: treat every agent like an untrusted remote employee with a limited set of privileges, and build guardrails around what it can see, touch, and do.
 
-### Prompt Injection / Tool Manipulation
-Attacker-controlled input causing unwanted tool calls or data leaks.  
-*Citations: [1,2,4,5]*
+## The Threat Model for AI Agents
 
-### Data Exfiltration & Lateral Movement
-Agents with excessive permissions read/exfiltrate data or pivot to other services.  
-*Citations: [1,2]*
+Agents introduce attack vectors that traditional applications do not have. Understanding them is the first step:
 
-### Over-Privileged Agent Identities
-Excessive IAM roles/service accounts enable privilege escalation.  
-*Citations: [1,2]*
+- **Prompt injection / tool manipulation**: attacker-controlled input causes the agent to make unwanted tool calls or leak data. This can come directly from a user, or indirectly through content the agent reads (web pages, documents, emails).
+- **Data exfiltration and lateral movement**: agents with excessive permissions can read sensitive data or pivot to other services using the credentials they hold.
+- **Over-privileged agent identities**: overly broad IAM roles or service accounts turn a single compromised agent into a privilege-escalation path across your cloud.
+- **Indirect / second-order injection**: malicious data returned by a tool corrupts the agent's reasoning and triggers further actions.
+- **Runtime and supply-chain risks**: compromised tool images, unsafe plugins, and credential leakage from the agent environment itself.
 
-### Indirect / Second-Order Injection
-Malicious data returned by tools corrupts the agent's reasoning.  
-*Citations: [3,6]*
+These threats extend beyond the well-known LLM vulnerability lists because an agent can chain tool calls, retain state, and act autonomously. The same zero-trust mindset you apply to workloads applies here: never trust implicitly, always verify.
 
-### Runtime & Supply-Chain Risks
-Compromised tool images, unsafe plugins, credential leakage.  
-*Citations: [2,3]*
+## Least-Privilege and Attribute-Based Access Control
 
-*Sources:*  
-[1] OWASP AI Agent Security Cheat Sheet  
-[2] Astrix guide  
-[3] ClawGuard runtime security framework  
-[4] Forcepoint blog on agentic AI risks  
-[5] Astrix guide  
-[6] "Caging the Agents" healthcare case study
+The single highest-impact control is limiting what an agent can do, using per-agent identities and scoped permissions (sometimes called agent-based architecture, or ABA).
 
-## Least-Privilege / Capability-Based Access Control (ABA)
+- **Per-agent credentials and short-lived tokens**: use workload identity (OIDC federation, Azure/Google workload identity, AWS IRSA) so agents never store long-lived secrets. Tokens are minted per run and expire quickly.
+- **Scoped tool access**: give each agent a minimal allowlist of APIs and commands, enforced at the edge through sidecar proxies or API gateways. An agent that only needs to read logs should never be able to delete cloud resources.
+- **Runtime policy engines**: enforce deny-by-default policies with tools like Open Policy Agent (OPA) or Kubernetes admission controllers (Gatekeeper) that block privileged or dangerous actions before they execute.
 
-### Per-Agent Credentials & Short-Lived Tokens
-Use workload identity (OIDC federation, Azure/Google workload identity) so agents never store long-lived secrets.  
-*Citations: [2,6]*
+The principle is the same as least privilege for humans: the agent gets exactly the access its task requires, nothing more.
 
-### Scoped Tool Access
-Each agent gets a minimal allowlist of APIs/commands, enforced via sidecar proxies or API gateways.  
-*Citations: [2,6]*
+## Securing the Agent Runtime and Deployment
 
-### Runtime Policy Engines
-e.g., Open Policy Agent (OPA) or Kubernetes PSP/OPA-Gatekeeper to deny privileged syscalls.  
-*Citations: [2]*
+How the agent runs matters as much as what it can access:
 
-*Source:* "Caging the Agents" - credential proxy sidecars prevent containers from accessing raw secrets.
+- **Workload isolation**: run agent processes in sandboxed runtimes - gVisor, Kata Containers, or lightweight VMs - so a compromise stays contained.
+- **Network egress controls**: allow-list destinations per agent using Kubernetes NetworkPolicy, AWS security groups, or Azure NSGs. Block default egress to the internet.
+- **Secret management**: inject secrets via sidecar containers or CSI drivers; never mount them directly into the agent's filesystem or environment.
+- **Audit logging and tamper-evident trails**: log every tool call, LLM prompt and output, and credential access, and ship those logs to your SIEM. You cannot investigate what you did not record.
+- **Human-in-the-loop / approval gates**: require explicit approval for destructive actions - deletes, financial transactions, mass changes - either through a human review queue or a policy gate that refuses the action.
 
-## Securing the Agent Runtime & Deployment
+Isolation plus audit gives you both blast-radius containment and the evidence needed to respond when something goes wrong.
 
-### Workload Isolation
-Use gVisor, Kata Containers, or lightweight VMs to sandbox agent processes.  
-*Citations: [6]*
+## Identity and Trust Boundaries
 
-### Network Egress Controls
-Allow-list destinations per agent (e.g., Kubernetes NetworkPolicy, AWS Security Groups, Azure NSG).  
-*Citations: [6]*
+Agents authenticate to downstream APIs like any service, so the identity layer is a natural control point:
 
-### Secret Management
-Inject secrets via sidecar or CSI driver; never mount directly into agent filesystem.  
-*Citations: [2,6]*
+- **Workload identity federation**: agents use short-lived JWTs from Azure AD Workload Identity, Google Workload Identity Federation, or AWS IAM Roles for Service Accounts (IRSA) instead of static API keys.
+- **Mutual TLS / SPIFFE**: establish service-to-service trust between agents and backend APIs so requests are authenticated on both ends.
+- **Tool and plugin signing**: verify code signatures before loading plugins or tools, and pin versions to prevent supply-chain substitution.
 
-### Audit Logging & Tamper-Evident Trails
-Log every tool call, LLM prompt/output, and credential access; ship to SIEM/chronicle.  
-*Citations: [2,6]*
+Treat every tool call as a cross-boundary request, and authenticate it as such.
 
-### Human-in-the-Loop / Approval Gates
-Require approval for destructive actions (e.g., `kubectl delete`, `aws s3 rm`).  
-*Citations: [2,6]*
+## Practical Guardrails You Can Implement Today
 
-*Sources:*  
-- "Caging the Agents" - four-layer defense: gVisor isolation, credential sidecar, network egress allowlist, prompt-integrity framework  
-- "Towards trustworthy agentic AI" - discusses isolation, secrets, logging, approval mechanisms
+You do not need a multi-year program to start hardening agents. These controls are implementable this week:
 
-## Identity & Trust Boundaries
+- **Prompt-integrity framework**: wrap untrusted tool outputs in structured metadata (for example, JSON with a `trusted: false` flag) and validate or sanitize them before feeding back into the model.
+- **Input sanitization and allow-listing**: reject prompts containing known injection patterns (for example, chat-escape sequences) at the gateway.
+- **Output encoding and sandboxed execution**: run tool-generated code in a sandbox (gVisor, Firecracker) with SELinux or AppArmor profiles enforced.
+- **Runtime detection**: deploy classifiers or anomaly detectors on prompt and tool-call streams to catch indirect injection and unexpected behavior.
+- **Preference-optimization defenses**: fine-tune models to reject malicious prompts (the SecAlign approach) as a defense-in-depth layer.
+- **Structured query defenses**: force agents to use parameterized queries or prepared statements when interacting with databases (the StruQ method) to blunt SQL-injection-style attacks.
+- **Continuous automated security auditing**: run an audit agent that periodically checks agent configurations, permission drift, and anomalous behavior, and alerts on findings.
 
-### Workload Identity Federation
-Agents authenticate to downstream APIs using short-lived JWTs from Azure AD Workload Identity, Google Workload Identity Federation, or AWS IAM Roles for Service Accounts (IRSA).  
-*Citations: [2]*
+None of these are silver bullets; they are layers. Defense in depth is the only realistic posture for a system with as much autonomy as an agent.
 
-### Mutual TLS / SPIFFE
-Establish service-to-service trust between agents and backend APIs.  
-*Citations: [2]*
+## Conclusion and Call to Action
 
-### Tool/Plugin Signing & Attestation
-Verify code signatures before loading plugins.  
-*Citations: [2,3]*
+Securing AI agents is an extension of zero trust: verify identity, enforce least privilege, monitor everything, and assume breach. Engineers can start today by:
 
-*Source:* "Towards trustworthy agentic AI" - covers OIDC federation and workload identity.
+1. Enforcing per-agent workload identities instead of shared keys.
+2. Sandboxing agent runtimes and limiting egress.
+3. Implementing egress allow-lists and scoped tool access.
+4. Adding prompt-integrity wrappers around untrusted inputs.
+5. Logging all tool interactions to the SIEM.
 
-## Practical Guardrails an Infra/Security Engineer Can Implement Today
+Continuous red-team and blue-team exercises, plus automated audit agents, keep defenses current as the threat landscape evolves. The agents are getting more capable every quarter; make sure your guardrails are too.
 
-### Prompt-Integrity Framework
-Wrap untrusted tool outputs in structured metadata (e.g., JSON with `trusted: false`) and apply validation/sanitization before feeding back to the LLM.  
-*Citations: [6]*
+## References
 
-### Input Sanitization & Allow-Listing
-Reject prompts containing known injection patterns (e.g., `<<SYS>>`, `[[[`, `]]]`).  
-*Citations: [4,5]*
+- OWASP GenAI / LLM security project (agent security guidance): https://genai.owasp.org/llm-top-10/
+- Astrix security - agent security research and guides: https://www.astrix.security/
+- ClawGuard - runtime security framework for indirect prompt injection
+- "Caging the Agents" - healthcare case study on credential sidecars and prompt-integrity frameworks
+- "Towards Trustworthy Agentic AI" - survey on isolation, secrets, logging, and approval mechanisms
+- SecAlign - preference optimization to defend against prompt injection
+- StruQ - structured queries to mitigate injection
+- Forcepoint - analysis of agentic AI risks
 
-### Output Encoding / Sandboxed Execution
-Run tool-generated code in a sandbox (gVisor, Firecracker) and enforce SELinux/AppArmor profiles.  
-*Citations: [2,6]*
-
-### Runtime Detection
-Deploy classifiers or anomaly detectors on prompt/tool-call streams (see ClawGuard runtime framework for indirect injection detection).  
-*Citations: [3]*
-
-### Preference-Optimization Defenses
-Fine-tune LLMs to reject malicious prompts via reinforcement learning from human feedback (SecAlign approach).  
-*Citations: [4]*
-
-### Structured Query Defenses
-Force agents to use parameterized queries or prepared statements when interacting with databases (StruQ method).  
-*Citations: [5]*
-
-### Continuous Automated Security Auditing
-Run an "audit agent" that periodically checks agent configurations, permission drift, and anomalous behavior (as in the healthcare case study).  
-*Citations: [6]*
-
-*Sources:*  
-- "Caging the Agents" - prompt integrity framework with structured envelopes  
-- ClawGuard - runtime security framework for indirect prompt injection  
-- SecAlign - preference optimization to defend against prompt injection  
-- StruQ - structured queries to mitigate injection  
-- OWASP Cheat Sheet - recommends input validation, output encoding, least privilege, monitoring  
-- Astrix guide - lists prompt injection, tool manipulation, data exfiltration, over-privileged agents as top risks
-
-## Conclusion & Call-to-Action
-
-AI agent security extends zero-trust principles: verify, enforce least privilege, monitor, and assume breach. Engineers can start today by:
-
-1. Enforcing per-agent workload identities  
-2. Sandboxing agent runtimes  
-3. Implementing egress allow-lists  
-4. Adding prompt-integrity wrappers  
-5. Logging all tool interactions  
-
-Continuous red-team/blue-team exercises and automated audit agents keep defenses current as threats evolve.
-
-*All sources are publicly accessible as of the date of this article. Content is ASCII-only as requested.*d:["$","$L5","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$32"},"thumbnail":true,"direction":"column"}]
+All sources are publicly accessible as of the date of this article. Content is ASCII-only as requested.
+d:["$","$L5","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$32"},"thumbnail":true,"direction":"column"}]
 33:T2605,
 Securing third-party integrations is critical for maintaining a strong security posture. As a Cloud Security & Infrastructure Engineer working with M365, Azure, and GCP, I've seen how improper OAuth/OIDC implementations can lead to data breaches, lateral movement, and compliance violations. This guide provides battle-tested practices for securing these integrations.
 
