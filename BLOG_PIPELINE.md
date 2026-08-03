@@ -30,6 +30,7 @@
 ---
 
 ## 🚀 In Flight / Active Batch (2026-08-03)
+| Intune Autopatch + scripts | Infrastructure | Published |
 
 Written via the **Leo → Iris kanban pipeline** (board `cloudjourney-blog`): Leo researches → Iris writes (MDX + agy hero image) → builds → deploys. To add a new article, create a research ticket (Leo) + article ticket (Iris, `--skill blog-writing`) on that board.
 
@@ -39,7 +40,6 @@ Written via the **Leo → Iris kanban pipeline** (board `cloudjourney-blog`): Le
 | MediaFusion OAuth device-auth flow | Security | Published |
 | Auth & identity flows for 3rd-party integrations | Security | In Flight |
 | Securing AI agents | AI | In Flight |
-| Intune Autopatch + scripts | Infrastructure | In Flight |
 
 ---
 
