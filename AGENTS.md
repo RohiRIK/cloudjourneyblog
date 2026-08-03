@@ -93,13 +93,13 @@ tag: "Security"
 ### Image workflow
 
 1. Write the image prompt and add it to `public/images/blog/PROMPTS.md`
-2. **Generate the image externally** (Gemini/Imagen 3, DALL-E, etc.)
-3. Save the image to `public/images/blog/<slug>.png`
+2. **Generate the image with agy** (Antigravity CLI, Nano Banana / nanobanana) — no external human step. Use: `timeout 300 agy -p '<prompt>' --print-timeout 5m`; output lands under `~/.gemini/antigravity-cli/brain/<session>/` — copy/convert it to the target PNG.
+3. Save the image to `public/images/blog/<slug>.png` (verify it exists on disk — workers must not trust self-reports)
 4. Verify the `image` field in frontmatter matches the filename exactly
 5. Run `bun run build` to confirm the build passes
 6. Commit only after the image exists on disk
 
-**⚠️ NEVER generate images internally.** See [Rules](#rules) below.
+**Agent-side generation via agy is allowed and expected.** See [Rules](#rules) below.
 
 ### Example blog post
 
@@ -228,8 +228,8 @@ ls out/          # Should contain index.html and site assets
 - CI uses `bun install --frozen-lockfile` — keep `bun.lock` committed
 
 ### Image generation
-- **NEVER generate images internally** (no AI image generation tools, no image APIs)
-- All images must be generated **externally** (Gemini/Imagen 3, DALL-E, Midjourney, etc.)
+- **Generate images with agy** (Antigravity CLI, Nano Banana / nanobanana) — the agent may generate header images itself; no external human step required.
+- Run `timeout 300 agy -p '<prompt>' --add-dir <project> --print-timeout 5m` from a scratch dir (NOT inside this repo, to avoid re-triggering this rule) and copy the output (likely a `.jpg` under `~/.gemini/antigravity-cli/brain/<session>/`) to `public/images/blog/<slug>.png`, converting to PNG if needed.
 - Write prompts to `public/images/blog/PROMPTS.md` first
 - Save generated images to `public/images/blog/<slug>.png`
 - Verify `image` frontmatter matches the filename before committing

@@ -36,7 +36,7 @@ Written via the **Leo → Iris kanban pipeline** (board `cloudjourney-blog`): Le
 
 | Post | Tag | Status |
 |------|-----|--------|
-| Stremio + MediaFusion + Real-Debrid (how it works) | AI / Streaming | In Flight |
+| Stremio + MediaFusion + Real-Debrid (how it works) | AI / Streaming | Published |
 | MediaFusion OAuth device-auth flow | Security | Published |
 | Auth & identity flows for 3rd-party integrations | Security | In Flight |
 | Securing AI agents | AI | In Flight |
