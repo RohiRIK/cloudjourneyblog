@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T14:16:14.026Z",
+  "updatedAt": "2026-08-03T17:45:20.512Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,24 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+          "date": "Aug 3, 2026",
+          "excerpt": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]"
+        },
+        {
+          "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
+          "link": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+          "date": "Aug 3, 2026",
+          "excerpt": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]"
+        },
+        {
+          "title": "Inside the Underground Business of the Android BTMOB RAT malware",
+          "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
+          "date": "Aug 3, 2026",
+          "excerpt": "Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of resellers, source-code vendors, custom versions, and"
+        },
+        {
           "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
           "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
           "date": "Aug 2, 2026",
@@ -75,24 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
           "date": "Aug 2, 2026",
           "excerpt": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number "
-        },
-        {
-          "title": "Google Chrome may soon block New Tab hijacker extensions by default",
-          "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
-          "date": "Aug 2, 2026",
-          "excerpt": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]"
-        },
-        {
-          "title": "Rails patches critical Active Storage flaw with RCE potential",
-          "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
-          "date": "Aug 1, 2026",
-          "excerpt": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE)"
-        },
-        {
-          "title": "Amgen says cloud data breach exposed patient health, proprietary info",
-          "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
-          "date": "Jul 31, 2026",
-          "excerpt": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers."
         }
       ]
     },
@@ -101,6 +101,18 @@
       "tag": "Security",
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
+        {
+          "title": "Russian spies turn public Wi-Fi into malware delivery systems",
+          "link": "https://www.theregister.com/security/2026/08/03/russias-svr-borks-public-wi-fis-for-digital-surveillance/5282399",
+          "date": "Aug 3, 2026",
+          "excerpt": "Keyloggers, audio-visual surveillance, and token theft on CaptivePortal's agenda as hospitality sector put on alert"
+        },
+        {
+          "title": "MediaTek lines up $5B war chest for AI datacenter push",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/03/mediatek-lines-up-5b-war-chest-for-ai-datacenter-push/5282304",
+          "date": "Aug 3, 2026",
+          "excerpt": "Taiwanese silicon biz believes it can take up to 20% of $80B market with upcoming ASIC chips, but analysts are sceptical"
+        },
         {
           "title": "Police National Legal Database confirms data theft after dark web leak",
           "link": "https://www.theregister.com/cyber-crime/2026/08/03/police-national-legal-database-confirms-data-theft-after-dark-web-leak/5282332",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/security/2026/08/03/georgia-michigan-say-water-systems-hacked-by-iran-tied-crew/5282262",
           "date": "Aug 3, 2026",
           "excerpt": "Trump rejects Tehran theory, blames 'grossly incompetent' governor of Minnesota instead"
-        },
-        {
-          "title": "Google Earth's AI makeover survives one trip around the Sun",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/03/google-earths-ai-makeover-survives-one-trip-around-the-sun/5282224",
-          "date": "Aug 3, 2026",
-          "excerpt": "Turns out letting anyone rewrite the planet with a prompt had drawbacks"
-        },
-        {
-          "title": "The AI bubble is already popping; we just don't know it yet",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004",
-          "date": "Aug 3, 2026",
-          "excerpt": "Weird times in earnings-land, and we're talking about it on The Reg's home grown podcast"
         }
       ]
     },
