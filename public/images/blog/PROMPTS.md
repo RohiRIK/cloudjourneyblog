@@ -38,6 +38,33 @@
 #- [x] 30. passkey-deadline.png
 #- [x] 31. docker-cve-2026-34040.png
 #
+## 29. stremio-mediafusion-realdebrid.png
+#
+# **Concept:** STREAMING STACK WITH DEBRID problem type.
+#
+# Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No text in image.
+#
+# Center composition: Three interconnected geometric nodes representing the stack:
+#   - LEFT NODE (electric blue): Stremio Client — a hexagon with a play button icon inside, representing the media center
+#   - CENTER NODE (neon green): MediaFusion Plugin — a pentagon with a puzzle piece icon, representing the addon that aggregates sources
+#   - RIGHT NODE (amber): Real-Debrid Service — an octagon with a cloud and shield icon, representing the debrid service that caches and delivers via CDN
+#
+# From each node, neon lines flow downward to a central SECURITY LAYER:
+#   - OAuth Device Flow (cyan shield with device/code icon)
+#   - Token Scoping (purple checkmark over limited scope)
+#   - CDN Delivery (green downward arrow to a fast server)
+#   - No P2P Exposure (orange shield with no peer icons)
+#
+# Below the security layer: a CHECKLIST grid with checkmarks in neon colors:
+#   [ ] Secure auth (device code)
+#   [ ] Token encryption
+#   [ ] No IP exposure
+#   [ ] HTTPS only
+#   [ ] Cached delivery
+#
+# Color palette: near-black background, flow nodes in electric blue/neon green/amber, security elements in cyan/purple/green/orange, checklist in neon-white on dark gray. Subjects fill the frame. Minimal. Gallery-worthy.
+#
+# ---
 ## 32. third-party-oauth-identity.png
 #
 **Concept:** AUTHENTICATION FLOWS / TOKEN SECURITY problem type.
@@ -124,3 +151,23 @@ Below the security layer: a FLOW DIAGRAM with neon arrows:#
 Color palette: near-black background, flow nodes in electric blue/neon green/amber, security elements in cyan/purple/green/orange/yellow, flowchart arrows in neon-white. Subjects fill the frame. Minimal. Gallery-worthy.#
 #
 ---
+
+---
+## securing-ai-agents.png
+#
+**Concept:** SECURING AI AGENTS: THREAT MODEL + GUARDRAILS problem type.
+#
+# Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No text in image.
+#
+# Center composition: A shield shaped like a hexagonal grid protecting a stylized AI agent node (a robot head with gears) from incoming threat vectors (lightning bolts, code injection symbols). From the shield, neon lines flow to security layers: identity verification (shield with OIDC token), runtime sandbox (container with lock), egress allowlist (network node with checkmark), prompt integrity (JSON envelope with checkmark).
+#
+# Below the security layer: a CHECKLIST grid with checkmarks in neon colors:
+#   [ ] Least‑privilege credentials
+#   [ ] Runtime sandboxing
+#   [ ] Egress allow‑list
+#   [ ] Prompt‑integrity wrappers
+#   [ ] Audit logging
+#
+# Color palette: near-black background, shield in electric blue, threat vectors in red, security layers in neon green/purple/orange, checklist in neon‑white on dark gray. Subjects fill the frame. Minimal. Gallery-worthy.
+#
+#
