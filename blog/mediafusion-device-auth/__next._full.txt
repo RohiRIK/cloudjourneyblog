@@ -13,7 +13,7 @@ d:I[168027,[],"default"]
 :HL["/_next/static/chunks/b3a7f4834154c9dc.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.29207c2f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"jujynRwrdbEpj8EvFl8xT","c":["","blog","mediafusion-device-auth"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","mediafusion-device-auth","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/92160bc35b2d0114.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3355f25cb11074b7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"Qw6qNl8P05DNg8vZbngvr","c":["","blog","mediafusion-device-auth"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","mediafusion-device-auth","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/92160bc35b2d0114.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3355f25cb11074b7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
 f:I[530824,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Providers"]
 10:I[273323,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"Column"]
 11:I[621971,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"RevealFx"]
@@ -75,7 +75,117 @@ e:T771,
 23:I[814360,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"default"]
 16:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
 17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"/ Powered by caffeine and questionable life choices"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/RohiRIK","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/rohi-rikman-48831b239/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:rohi@rohirikman.dev","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-24:T17ad,
+24:T1808,
+Intune Autopatch automates Windows, Microsoft 365 Apps, Edge, and Teams updates to improve security and productivity. To ensure patches are correctly applied and systems remain compliant, organizations can use Intune Proactive Remediations to detect missing patches and remediate them automatically. This guide provides a verifiable, end-to-end flow for engineers to implement and validate automated patching.
+
+## Introduction
+
+Automated patching reduces administrative overhead and improves security posture by ensuring timely updates. Windows Autopatch manages update rings and cadence as a service, while Intune Proactive Remediations allow custom detection and remediation scripts to verify patch state and fix issues automatically.
+
+## Prerequisites
+
+- Licensing: Microsoft 365 Business Premium, Windows 10/11 Education A3/A5, Windows 10/11 Enterprise E3/E5 (including F3), or VDA equivalents.
+- Device platform: Windows 10/11 Enterprise/Education, Windows IoT Enterprise (certain LTSC limitations apply).
+- Network: Internet access to Intune, Windows Update, and Autopatch endpoints.
+
+## Step 1: Verify Prerequisites
+
+Confirm licenses are assigned to users or devices. Ensure devices run supported Windows editions. Validate network connectivity to required endpoints (*.manage.microsoft.com, *.update.microsoft.com, etc.).
+
+## Step 2: Enroll Devices in Windows Autopatch
+
+In the Microsoft Endpoint Manager admin center:
+1. Navigate to Devices > Windows > Windows Autopatch > Enroll.
+2. Select device groups (Entra groups) to enroll.
+3. Confirm enrollment status in the Autopatch enrollment blade.
+
+## Step 3: Configure Update Rings (if needed)
+
+Autopatch creates default Test and Last rings. Review them via Intune > Devices > Update rings.
+- Avoid assigning custom rings to Autopatch-managed devices; rely on service-managed policies.
+- Adjust ring settings (deferral, grace periods) only for opt-out groups.
+
+## Step 4: Deploy Proactive Remediation Script for Patch Verification
+
+Create a detection script that checks for the latest quality update KB (returns exit code 0 if compliant, non-zero if action needed). Create a remediation script that triggers Windows Update or resets Windows Update components.
+
+Example detection script (PowerShell):
+```powershell
+# Check for KB500xxxx (example)
+$hotfix = Get-HotFix -ID KB500xxxx -ErrorAction SilentlyContinue
+if ($hotfix) { exit 0 } else { exit 1 }
+```
+
+Example remediation script (PowerShell):
+```powershell
+# Trigger Windows Update scan and install
+usoclient StartScan
+usoclient StartInstall
+# Alternatively, reset Windows Update components
+net stop wuauserv
+net stop cryptSvc
+net stop bits
+net stop msiserver
+ren C:\Windows\SoftwareDistribution SoftwareDistribution.old
+ren C:\Windows\System32\catroot2 catroot2.old
+net start wuauserv
+net start cryptSvc
+net start bits
+net start msiserver
+```
+
+Deployment steps in Intune:
+1. Upload detection and remediation scripts as a script package (Intune > Devices > Scripts).
+2. Assign to targeting groups (can be the same Autopatch group or Entra group).
+3. Set schedule (e.g., every 8 hours) and user context (System).
+4. Enable notifications for failed detections.
+
+## Step 5: Monitor Compliance and Alerts
+
+Monitor sources:
+- Intune device compliance and update compliance reports.
+- Windows Autopatch Management Status Report (tenant-wide view of eligible devices).
+- Windows Autopatch Alert Report (active alerts, severity, impacted update types).
+
+Validation checks:
+- Detection scripts run on schedule to verify patch state.
+- Manual verification via Get-HotFix, Get-ItemProperty for registry keys, or WSUS/ConfigMgr queries.
+- Handling failed patches:
+  - Detection failure triggers remediation script (e.g., retry Windows Update, reset Windows Update components).
+  - If remediation fails, device marked non-compliant; admin can investigate logs (WindowsUpdate.log, SetupAPI.log).
+  - Rollback options: Use Windows Update for Business uninstall policies, or deploy a script to uninstall the problematic update via wusa.exe /uninstall.
+- Reporting and alerting:
+  - Configure alert rules in Intune for compliance drift.
+  - Use Autopatch alert email notifications or webhook integrations.
+  - Export reports to Power BI or Log Analytics for trend analysis.
+
+## Step 6: Remediate Failures and Verify Fixes
+
+- When detection fails, remediation script runs automatically.
+- Verify success by checking subsequent detection returns exit code 0.
+- If persistent failure, open ticket, collect logs, consider pausing the update ring for that device group.
+
+## Step 7: Review Reports and Adjust Policies
+
+- Weekly: Examine Intune update compliance trends.
+- Monthly: Review Autopatch reports for rollback/pause events.
+- Adjust ring deferrals or exclusion groups based on observed issues.
+- Update detection/remediation scripts as new KBs are released.
+
+## Sources
+
+- Windows Autopatch overview: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/overview/windows-autopatch-overview
+- Windows Autopatch prerequisites: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/prepare/windows-autopatch-prerequisites
+- Manage Windows Update ring policies (Intune): https://learn.microsoft.com/en-us/intune/device-updates/windows/manage-update-rings
+- Update ring settings reference: https://learn.microsoft.com/en-us/intune/device-updates/windows/ref-update-ring-settings
+- Use Remediations to Detect and Fix Support Issues (Intune): https://learn.microsoft.com/en-us/intune/device-management/tools/deploy-remediations
+- PowerShell Scripts for Remediations reference: https://learn.microsoft.com/en-us/intune/device-management/tools/ref-remediation-scripts
+- Windows Autopatch alerts and remediations: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/alerts-remediations
+- Windows Autopatch management status report: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/windows-autopatch-management-status-report
+- Windows Autopatch groups overview: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/deploy/windows-autopatch-groups-overview5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/mediafusion-device-auth","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/mediafusion-device-auth\",\"sameAs\":[],\"headline\":\"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device\",\"description\":\"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/mediafusion-device-auth.png\",\"datePublished\":\"2026-08-03\",\"dateModified\":\"2026-08-03\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"August 3, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}]]}]}],["$","$L1d",null,{"src":"/images/blog/mediafusion-device-auth.png","alt":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","url":"https://CloudJourneyBlog.rohi-lab.org/blog/mediafusion-device-auth"}],["$","$L20",null,{}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L21",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L22",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L23","intune-autopatch-with-scripts",{"post":{"metadata":{"title":"Intune Autopatch with Script-Based Patch Verification","subtitle":"","publishedAt":"2026-08-03","summary":"Step-by-step guide to implementing Windows Autopatch with Intune Proactive Remediations for verifiable automated patching.","image":"/images/blog/intune-autopatch-with-scripts.png","images":[],"tag":"Security","team":[],"link":""},"slug":"intune-autopatch-with-scripts","content":"$24"},"thumbnail":true,"direction":"column"}],"$L25"]}]]}],"$L26"]}]}],"$L27"]}]
+29:I[988654,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
+2a:I[605649,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
+28:T17ad,
 # Securing AI Agents: Threat Model and Guardrails for Production
 
 AI agents—LLMs augmented with tool use, memory, and planning—are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero‑trust playbook for securing AI agents at scale, grounded in recent academic surveys, real‑world case studies, and industry cheat‑sheets.
@@ -218,98 +328,7 @@ AI agent security extends zero‑trust principles: verify, enforce least privile
 
 Continuous red‑team/blue‑team exercises and automated audit agents keep defenses current as threats evolve.
 
-*All sources are publicly accessible as of the date of this article. Content is ASCII‑only as requested.*5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/mediafusion-device-auth","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/mediafusion-device-auth\",\"sameAs\":[],\"headline\":\"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device\",\"description\":\"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/mediafusion-device-auth.png\",\"datePublished\":\"2026-08-03\",\"dateModified\":\"2026-08-03\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"August 3, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Rohi Rikman"}]]}]}],["$","$L1d",null,{"src":"/images/blog/mediafusion-device-auth.png","alt":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","url":"https://CloudJourneyBlog.rohi-lab.org/blog/mediafusion-device-auth"}],["$","$L20",null,{}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L21",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L22",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L23","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$24"},"thumbnail":true,"direction":"column"}],"$L25"]}]]}],"$L26"]}]}],"$L27"]}]
-29:I[988654,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"ScrollToHash"]
-2a:I[605649,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
-28:T19dc,
-Docker's AuthZ middleware is supposed to be the last line of defense - the plugin that decides whether a container operation is allowed. CVE-2026-34040, disclosed by Cyera Research in April 2026, showed that a single padded HTTP request could make every AuthZ plugin in the ecosystem invisible.
-
-The vulnerability class had existed since Docker Engine 1.10 - February 2016. Ten years.
-
-## How the bypass worked
-
-The attack is disarmingly simple. Docker Engine's AuthZ middleware inspects request bodies before allowing container operations. But request bodies larger than 1 megabyte are silently dropped before they reach the AuthZ plugins. The Docker daemon still processes the request normally.
-
-That's the entire bug. A 1MB+ padded HTTP request bypasses authorization. The AuthZ plugin never sees it. The daemon executes the operation anyway.
-
-The practical exploit: send a single padded HTTP request that creates a privileged container with host root access. No authentication bypass. No credential theft. Just a request that's too big for the security control to see.
-
-## Who was affected
-
-Every environment using AuthZ plugins - which, in a properly configured production Docker deployment, is most of them. The affected plugins include:
-
-- **Open Policy Agent (OPA)** - the most common policy engine for container authorization
-- **Prisma Cloud** - enterprise container security
-- **Casbin** - open-source authorization
-- **Custom AuthZ plugins** - any organization that built their own authorization middleware
-
-This is the standard recommendation for production Docker: deploy an AuthZ plugin to restrict what container operations are permitted. CVE-2026-34040 means that recommendation was providing a false sense of security for a decade.
-
-## The inheritance problem
-
-This vulnerability is related to - but distinct from - CVE-2024-41110 (CVSS 10.0, disclosed 2024), which used a zero-length body to achieve the same bypass. Docker patched CVE-2024-41110, but the fix was incomplete. CVE-2026-34040 uses a different mechanism (oversized body vs. empty body) to achieve the same outcome.
-
-The pattern matters: the authz bypass isn't a single bug - it's a vulnerability class in how Docker handles request body routing to plugins. Patching one specific bypass doesn't close the class. Docker Engine 29.3.1 addresses this properly.
-
-## The real-world impact
-
-The vulnerability is particularly dangerous in three scenarios:
-
-**CI/CD pipelines.** Build systems that submit Docker API requests via the daemon socket. If an attacker can influence the request body size - through a compromised build step, a malicious Dockerfile, or a supply chain attack - they can bypass AuthZ controls to create privileged containers. In a pipeline that's supposed to run untrusted code, this is the difference between "contained breach" and "full host compromise."
-
-**Multi-tenant container platforms.** Environments where multiple teams or customers share a Docker daemon, with AuthZ plugins enforcing isolation between tenants. The bypass means any tenant can escape their authorization boundary. Shared Docker infrastructure without user namespaces is especially exposed.
-
-**Environments using AuthZ as the primary control.** Organizations that deployed an AuthZ plugin and considered authorization handled. The plugin was the control - and it was invisible to oversized requests.
-
-## What to do
-
-### Patch immediately
-
-Docker Engine 29.3.1 addresses CVE-2026-34040. This is not a "patch when convenient" vulnerability - it's a complete bypass of a primary security control.
-
-```bash
-# Check your version
-docker version
-
-# Update (Debian/Ubuntu)
-sudo apt update && sudo apt install docker-ce docker-ce-cli containerd.io
-
-# Update (RHEL/CentOS)
-sudo yum update docker-ce docker-ce-cli containerd.io
-```
-
-### Don't rely on AuthZ alone
-
-This is the structural lesson. AuthZ plugins are a valuable layer, but they're a single point of failure in the authorization chain. The container security stack needs defense in depth:
-
-**User Namespaces.** Kubernetes 1.36 (released April 2026) graduated User Namespaces to GA. Rootless containers - pods that run without real root on the host - are now a stable, supported configuration. Even if an AuthZ bypass creates a privileged container, user namespaces limit what that privilege means on the host. The container's "root" is a mapped UID with no real host privileges.
-
-**Seccomp profiles.** Default seccomp profiles restrict the system calls a container can make. Even a root-privileged container can't mount the host filesystem or load kernel modules if the seccomp profile blocks those syscalls.
-
-**AppArmor/SELinux.** Mandatory access controls add another layer. A container running as root with a restrictive AppArmor profile can't escape the profile's constraints regardless of its nominal privilege level.
-
-**Read-only root filesystems.** Containers that can't write to their own filesystem can't persist payloads or modify binaries. This is a simple control that dramatically reduces post-exploitation options.
-
-### Audit your AuthZ plugins
-
-Check whether your AuthZ plugins are updated. Some plugins may have their own mitigations or configuration changes that reduce exposure. OPA's Docker authorization policy, for example, can be updated to reject oversized request bodies at the policy level - though this is a workaround, not a fix.
-
-### Monitor for exploitation
-
-The exploit leaves traces. Docker daemon logs record container creation events. Look for:
-
-- Privileged containers created by unexpected callers
-- Container creation requests with unusually large request bodies
-- API calls that bypass the expected authorization plugin audit trail
-
-## The container security stack is shifting
-
-CVE-2026-34040 isn't just a Docker bug - it's evidence that the container security model needs more layers. AuthZ plugins were designed as the authorization gate, but they're only as reliable as the request routing that feeds them.
-
-The combination of K8s 1.36 User Namespaces (GA), Docker CVE-2026-34040 (AuthZ bypass), and the broader shift toward rootless containers points in one direction: the era of "deploy a plugin and consider authorization handled" is over. Container security needs the same defense-in-depth approach that network security learned years ago. No single control is sufficient. Every layer assumes the others might fail.
-
-Patch Docker. Enable user namespaces. Layer your controls. The vulnerability existed for a decade because the assumption was that AuthZ plugins were the boundary. They're not. They're one layer - and that layer just had a hole in it.
-25:["$","$L23","docker-cve-2026-34040",{"post":{"metadata":{"title":"Docker CVE-2026-34040: One Megabyte to Root","subtitle":"","publishedAt":"2026-07-17","summary":"A size check bug in Docker Engine let attackers bypass every AuthZ plugin for a decade. Here's how the vulnerability worked, who was exposed, and what it means for your container security stack.","image":"/images/blog/docker-cve-2026-34040.png","images":[],"tag":"Security","team":[],"link":""},"slug":"docker-cve-2026-34040","content":"$28"},"thumbnail":true,"direction":"column"}]
+*All sources are publicly accessible as of the date of this article. Content is ASCII‑only as requested.*25:["$","$L23","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$28"},"thumbnail":true,"direction":"column"}]
 26:["$","$L29",null,{}]
 27:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L2a",null,{"fitHeight":true}]}]
 2b:I[811052,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingLink"]

@@ -5,7 +5,7 @@
     <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     <description>Practical writing on cloud security, AI agents, and the systems that make them work — by Rohi Rikman</description>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 11:00:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 11:28:01 GMT</lastBuildDate>
     <atom:link href="https://CloudJourneyBlog.rohi-lab.org/api/rss" rel="self" type="application/rss+xml" />
     <managingEditor>rohi@rohirikman.dev (Rohi Rikman)</managingEditor>
     <webMaster>rohi@rohirikman.dev (Rohi Rikman)</webMaster>
@@ -15,6 +15,16 @@
       <link>https://CloudJourneyBlog.rohi-lab.org/blog</link>
     </image>
     
+    <item>
+      <title>Intune Autopatch with Script-Based Patch Verification</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/intune-autopatch-with-scripts</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/intune-autopatch-with-scripts</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Step-by-step guide to implementing Windows Autopatch with Intune Proactive Remediations for verifiable automated patching.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/intune-autopatch-with-scripts.png" type="image/jpeg" />
+      <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
     <item>
       <title>How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device</title>
       <link>https://CloudJourneyBlog.rohi-lab.org/blog/mediafusion-device-auth</link>
@@ -33,6 +43,16 @@
       <description><![CDATA[A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.]]></description>
       <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/securing-ai-agents.png" type="image/jpeg" />
       <category>Security</category>
+      <author>rohi@rohirikman.dev (Rohi Rikman)</author>
+    </item>
+    <item>
+      <title>Stremio + MediaFusion + Real-Debrid: How I Stream Torrents Safely and Fast</title>
+      <link>https://CloudJourneyBlog.rohi-lab.org/blog/stremio-mediafusion-realdebrid</link>
+      <guid>https://CloudJourneyBlog.rohi-lab.org/blog/stremio-mediafusion-realdebrid</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[A detailed look at how I use Stremio with the MediaFusion plugin and Real-Debrid for a secure, high-speed streaming experience that avoids P2P risks.]]></description>
+      <enclosure url="https://CloudJourneyBlog.rohi-lab.org/images/blog/stremio-mediafusion-realdebrid.png" type="image/jpeg" />
+      <category>Automation</category>
       <author>rohi@rohirikman.dev (Rohi Rikman)</author>
     </item>
     <item>

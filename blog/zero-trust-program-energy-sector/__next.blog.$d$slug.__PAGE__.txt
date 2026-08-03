@@ -18,7 +18,7 @@
 4a:I[605649,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/909e86f090b49392.js"],"HeadingNav"]
 4b:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 4c:"$Sreact.suspense"
-0:{"buildId":"jujynRwrdbEpj8EvFl8xT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/zero-trust-program-energy-sector","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-program-energy-sector\",\"sameAs\":[],\"headline\":\"Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment\",\"description\":\"What we actually did — and what broke — rolling out a full Zero Trust program across a large energy sector organization with 57 tasks across the full stack.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/zero-trust-program-energy-sector.png\",\"datePublished\":\"2026-04-26\",\"dateModified\":\"2026-04-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 26, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/zero-trust-program-energy-sector.png","alt":"Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Zero Trust is one of those frameworks that everyone talks about and few people have actually implemented end-to-end. It's easy to describe the principle — never trust, always verify — and hard to execute it across an estate that spans legacy OT systems, hybrid Active Directory, cloud workloads, and thousands of endpoints."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is a retrospective on a 57-task Zero Trust program I ran for an energy sector client over 18 months. I'll cover what we did, what we got wrong, and what I'd do differently next time."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-starting-point","children":"The Starting Point"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The organization had a traditional perimeter security model: a corporate firewall, AD-joined workstations, and a VPN for remote access. It worked — until it didn't."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The triggering events were a phishing campaign that got as far as a finance workstation, a VPN breach via a contractor whose credentials had been reused on an breached external service, and a regulatory audit that flagged the lack of endpoint visibility as a finding."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37"]}],"$L38","$L39","$L3a","$L3b"]}]}],"$L3c"]}],["$L3d"],"$L3e"]}],"loading":null,"isPartial":false}
+0:{"buildId":"Qw6qNl8P05DNg8vZbngvr","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/zero-trust-program-energy-sector","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-program-energy-sector\",\"sameAs\":[],\"headline\":\"Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment\",\"description\":\"What we actually did — and what broke — rolling out a full Zero Trust program across a large energy sector organization with 57 tasks across the full stack.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/blog/zero-trust-program-energy-sector.png\",\"datePublished\":\"2026-04-26\",\"dateModified\":\"2026-04-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 26, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.png"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Rohi Rikman"}]]}]}],["$","$L7",null,{"src":"/images/blog/zero-trust-program-energy-sector.png","alt":"Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Zero Trust is one of those frameworks that everyone talks about and few people have actually implemented end-to-end. It's easy to describe the principle — never trust, always verify — and hard to execute it across an estate that spans legacy OT systems, hybrid Active Directory, cloud workloads, and thousands of endpoints."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This is a retrospective on a 57-task Zero Trust program I ran for an energy sector client over 18 months. I'll cover what we did, what we got wrong, and what I'd do differently next time."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-starting-point","children":"The Starting Point"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The organization had a traditional perimeter security model: a corporate firewall, AD-joined workstations, and a VPN for remote access. It worked — until it didn't."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The triggering events were a phishing campaign that got as far as a finance workstation, a VPN breach via a contractor whose credentials had been reused on an breached external service, and a regulatory audit that flagged the lack of endpoint visibility as a finding."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37"]}],"$L38","$L39","$L3a","$L3b"]}]}],"$L3c"]}],["$L3d"],"$L3e"]}],"loading":null,"isPartial":false}
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The board approved a Zero Trust program. 18 months. 57 tasks. Full scope."}]
 a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-we-built","children":"What We Built"}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"The program broke down into six workstreams:"}]
@@ -68,7 +68,119 @@ f:["$","span",null,{"className":"font-body font-default font-m neutral-on-backgr
 37:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Zero Trust isn't a product you buy. It's a program you build, incrementally, one control at a time."}]
 38:["$","$L42",null,{"title":"Building a Zero Trust Program: Lessons from a Large Energy Sector Deployment","url":"https://CloudJourneyBlog.rohi-lab.org/blog/zero-trust-program-energy-sector"}]
 39:["$","$L43",null,{}]
-47:T2bbe,
+47:T1808,
+Intune Autopatch automates Windows, Microsoft 365 Apps, Edge, and Teams updates to improve security and productivity. To ensure patches are correctly applied and systems remain compliant, organizations can use Intune Proactive Remediations to detect missing patches and remediate them automatically. This guide provides a verifiable, end-to-end flow for engineers to implement and validate automated patching.
+
+## Introduction
+
+Automated patching reduces administrative overhead and improves security posture by ensuring timely updates. Windows Autopatch manages update rings and cadence as a service, while Intune Proactive Remediations allow custom detection and remediation scripts to verify patch state and fix issues automatically.
+
+## Prerequisites
+
+- Licensing: Microsoft 365 Business Premium, Windows 10/11 Education A3/A5, Windows 10/11 Enterprise E3/E5 (including F3), or VDA equivalents.
+- Device platform: Windows 10/11 Enterprise/Education, Windows IoT Enterprise (certain LTSC limitations apply).
+- Network: Internet access to Intune, Windows Update, and Autopatch endpoints.
+
+## Step 1: Verify Prerequisites
+
+Confirm licenses are assigned to users or devices. Ensure devices run supported Windows editions. Validate network connectivity to required endpoints (*.manage.microsoft.com, *.update.microsoft.com, etc.).
+
+## Step 2: Enroll Devices in Windows Autopatch
+
+In the Microsoft Endpoint Manager admin center:
+1. Navigate to Devices > Windows > Windows Autopatch > Enroll.
+2. Select device groups (Entra groups) to enroll.
+3. Confirm enrollment status in the Autopatch enrollment blade.
+
+## Step 3: Configure Update Rings (if needed)
+
+Autopatch creates default Test and Last rings. Review them via Intune > Devices > Update rings.
+- Avoid assigning custom rings to Autopatch-managed devices; rely on service-managed policies.
+- Adjust ring settings (deferral, grace periods) only for opt-out groups.
+
+## Step 4: Deploy Proactive Remediation Script for Patch Verification
+
+Create a detection script that checks for the latest quality update KB (returns exit code 0 if compliant, non-zero if action needed). Create a remediation script that triggers Windows Update or resets Windows Update components.
+
+Example detection script (PowerShell):
+```powershell
+# Check for KB500xxxx (example)
+$hotfix = Get-HotFix -ID KB500xxxx -ErrorAction SilentlyContinue
+if ($hotfix) { exit 0 } else { exit 1 }
+```
+
+Example remediation script (PowerShell):
+```powershell
+# Trigger Windows Update scan and install
+usoclient StartScan
+usoclient StartInstall
+# Alternatively, reset Windows Update components
+net stop wuauserv
+net stop cryptSvc
+net stop bits
+net stop msiserver
+ren C:\Windows\SoftwareDistribution SoftwareDistribution.old
+ren C:\Windows\System32\catroot2 catroot2.old
+net start wuauserv
+net start cryptSvc
+net start bits
+net start msiserver
+```
+
+Deployment steps in Intune:
+1. Upload detection and remediation scripts as a script package (Intune > Devices > Scripts).
+2. Assign to targeting groups (can be the same Autopatch group or Entra group).
+3. Set schedule (e.g., every 8 hours) and user context (System).
+4. Enable notifications for failed detections.
+
+## Step 5: Monitor Compliance and Alerts
+
+Monitor sources:
+- Intune device compliance and update compliance reports.
+- Windows Autopatch Management Status Report (tenant-wide view of eligible devices).
+- Windows Autopatch Alert Report (active alerts, severity, impacted update types).
+
+Validation checks:
+- Detection scripts run on schedule to verify patch state.
+- Manual verification via Get-HotFix, Get-ItemProperty for registry keys, or WSUS/ConfigMgr queries.
+- Handling failed patches:
+  - Detection failure triggers remediation script (e.g., retry Windows Update, reset Windows Update components).
+  - If remediation fails, device marked non-compliant; admin can investigate logs (WindowsUpdate.log, SetupAPI.log).
+  - Rollback options: Use Windows Update for Business uninstall policies, or deploy a script to uninstall the problematic update via wusa.exe /uninstall.
+- Reporting and alerting:
+  - Configure alert rules in Intune for compliance drift.
+  - Use Autopatch alert email notifications or webhook integrations.
+  - Export reports to Power BI or Log Analytics for trend analysis.
+
+## Step 6: Remediate Failures and Verify Fixes
+
+- When detection fails, remediation script runs automatically.
+- Verify success by checking subsequent detection returns exit code 0.
+- If persistent failure, open ticket, collect logs, consider pausing the update ring for that device group.
+
+## Step 7: Review Reports and Adjust Policies
+
+- Weekly: Examine Intune update compliance trends.
+- Monthly: Review Autopatch reports for rollback/pause events.
+- Adjust ring deferrals or exclusion groups based on observed issues.
+- Update detection/remediation scripts as new KBs are released.
+
+## Sources
+
+- Windows Autopatch overview: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/overview/windows-autopatch-overview
+- Windows Autopatch prerequisites: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/prepare/windows-autopatch-prerequisites
+- Manage Windows Update ring policies (Intune): https://learn.microsoft.com/en-us/intune/device-updates/windows/manage-update-rings
+- Update ring settings reference: https://learn.microsoft.com/en-us/intune/device-updates/windows/ref-update-ring-settings
+- Use Remediations to Detect and Fix Support Issues (Intune): https://learn.microsoft.com/en-us/intune/device-management/tools/deploy-remediations
+- PowerShell Scripts for Remediations reference: https://learn.microsoft.com/en-us/intune/device-management/tools/ref-remediation-scripts
+- Windows Autopatch alerts and remediations: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/alerts-remediations
+- Windows Autopatch management status report: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/windows-autopatch-management-status-report
+- Windows Autopatch groups overview: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/deploy/windows-autopatch-groups-overview3a:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L44",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L45",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L46","intune-autopatch-with-scripts",{"post":{"metadata":{"title":"Intune Autopatch with Script-Based Patch Verification","subtitle":"","publishedAt":"2026-08-03","summary":"Step-by-step guide to implementing Windows Autopatch with Intune Proactive Remediations for verifiable automated patching.","image":"/images/blog/intune-autopatch-with-scripts.png","images":[],"tag":"Security","team":[],"link":""},"slug":"intune-autopatch-with-scripts","content":"$47"},"thumbnail":true,"direction":"column"}],"$L48"]}]]}]
+3b:["$","$L49",null,{}]
+3c:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L4a",null,{"fitHeight":true}]}]
+3d:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
+3e:["$","$L4b",null,{"children":["$","$4c",null,{"name":"Next.MetadataOutlet","children":"$@4d"}]}]
+4e:T2bbe,
 MediaFusion solves a critical challenge in the streaming ecosystem: how to securely authenticate users on devices with limited input capabilities. From Stremio addons on Android TV boxes to Kodi installations on Raspberry Pis, many streaming devices lack full keyboards or browsers, making traditional OAuth flows impractical. MediaFusion addresses this by implementing the OAuth 2.0 Device Authorization Grant (RFC 8628), creating a seamless authentication experience that never requires users to enter credentials on the device itself.
 
 ## What is MediaFusion?
@@ -207,153 +319,5 @@ For streaming enthusiasts who value both convenience and security, MediaFusion's
 ### See Also
 - [OAuth 2.0 for Native Apps (RFC 8252)](https://www.rfc-editor.org/info/rfc8252) - Comparison with traditional OAuth flows
 - [OAuth 2.0 Threat Model and Security Considerations (RFC 6819)](https://www.rfc-editor.org/info/rfc6819) - Broader OAuth security context
-- [OAuth 2.0 Token Exchange (RFC 8693)](https://www.rfc-editor.org/info/rfc8693) - Related token exchange mechanisms3a:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L44",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L45",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L46","mediafusion-device-auth",{"post":{"metadata":{"title":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","subtitle":"","publishedAt":"2026-08-03","summary":"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.","image":"/images/blog/mediafusion-device-auth.png","images":[],"tag":"Security","team":[],"link":""},"slug":"mediafusion-device-auth","content":"$47"},"thumbnail":true,"direction":"column"}],"$L48"]}]]}]
-3b:["$","$L49",null,{}]
-3c:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L4a",null,{"fitHeight":true}]}]
-3d:["$","script","script-0",{"src":"/_next/static/chunks/909e86f090b49392.js","async":true}]
-3e:["$","$L4b",null,{"children":["$","$4c",null,{"name":"Next.MetadataOutlet","children":"$@4d"}]}]
-4e:T17ad,
-# Securing AI Agents: Threat Model and Guardrails for Production
-
-AI agents—LLMs augmented with tool use, memory, and planning—are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero‑trust playbook for securing AI agents at scale, grounded in recent academic surveys, real‑world case studies, and industry cheat‑sheets.
-
-## Core Threat Model for AI Agents
-
-### Prompt Injection / Tool Manipulation
-Attacker‑controlled input causing unwanted tool calls or data leaks.  
-*Citations: [1,2,4,5]*
-
-### Data Exfiltration & Lateral Movement
-Agents with excessive permissions read/exfiltrate data or pivot to other services.  
-*Citations: [1,2]*
-
-### Over‑Privileged Agent Identities
-Excessive IAM roles/service accounts enable privilege escalation.  
-*Citations: [1,2]*
-
-### Indirect / Second‑Order Injection
-Malicious data returned by tools corrupts the agent’s reasoning.  
-*Citations: [3,6]*
-
-### Runtime & Supply‑Chain Risks
-Compromised tool images, unsafe plugins, credential leakage.  
-*Citations: [2,3]*
-
-*Sources:*  
-[1] OWASP AI Agent Security Cheat Sheet  
-[2] Astrix guide  
-[3] ClawGuard runtime security framework  
-[4] Forcepoint blog on agentic AI risks  
-[5] Astrix guide  
-[6] “Caging the Agents” healthcare case study
-
-## Least‑Privilege / Capability‑Based Access Control (ABA)
-
-### Per‑Agent Credentials & Short‑Lived Tokens
-Use workload identity (OIDC federation, Azure/Google workload identity) so agents never store long‑lived secrets.  
-*Citations: [2,6]*
-
-### Scoped Tool Access
-Each agent gets a minimal allowlist of APIs/commands, enforced via sidecar proxies or API gateways.  
-*Citations: [2,6]*
-
-### Runtime Policy Engines
-e.g., Open Policy Agent (OPA) or Kubernetes PSP/OPA‑Gatekeeper to deny privileged syscalls.  
-*Citations: [2]*
-
-*Source:* “Caging the Agents” – credential proxy sidecars prevent containers from accessing raw secrets.
-
-## Securing the Agent Runtime & Deployment
-
-### Workload Isolation
-Use gVisor, Kata Containers, or lightweight VMs to sandbox agent processes.  
-*Citations: [6]*
-
-### Network Egress Controls
-Allow‑list destinations per agent (e.g., Kubernetes NetworkPolicy, AWS Security Groups, Azure NSG).  
-*Citations: [6]*
-
-### Secret Management
-Inject secrets via sidecar or CSI driver; never mount directly into agent filesystem.  
-*Citations: [2,6]*
-
-### Audit Logging & Tamper‑Evident Trails
-Log every tool call, LLM prompt/output, and credential access; ship to SIEM/chronicle.  
-*Citations: [2,6]*
-
-### Human‑in‑the‑Loop / Approval Gates
-Require approval for destructive actions (e.g., `kubectl delete`, `aws s3 rm`).  
-*Citations: [2,6]*
-
-*Sources:*  
-- “Caging the Agents” – four‑layer defense: gVisor isolation, credential sidecar, network egress allowlist, prompt‑integrity framework  
-- “Towards trustworthy agentic AI” – discusses isolation, secrets, logging, approval mechanisms
-
-## Identity & Trust Boundaries
-
-### Workload Identity Federation
-Agents authenticate to downstream APIs using short‑lived JWTs from Azure AD Workload Identity, Google Workload Identity Federation, or AWS IAM Roles for Service Accounts (IRSA).  
-*Citations: [2]*
-
-### Mutual TLS / SPIFFE
-Establish service‑to‑service trust between agents and backend APIs.  
-*Citations: [2]*
-
-### Tool/Plugin Signing & Attestation
-Verify code signatures before loading plugins.  
-*Citations: [2,3]*
-
-*Source:* “Towards trustworthy agentic AI” – covers OIDC federation and workload identity.
-
-## Practical Guardrails an Infra/Security Engineer Can Implement Today
-
-### Prompt‑Integrity Framework
-Wrap untrusted tool outputs in structured metadata (e.g., JSON with `trusted: false`) and apply validation/sanitization before feeding back to the LLM.  
-*Citations: [6]*
-
-### Input Sanitization & Allow‑Listing
-Reject prompts containing known injection patterns (e.g., `<<SYS>>`, `[[[`, `]]]`).  
-*Citations: [4,5]*
-
-### Output Encoding / Sandboxed Execution
-Run tool‑generated code in a sandbox (gVisor, Firecracker) and enforce SELinux/AppArmor profiles.  
-*Citations: [2,6]*
-
-### Runtime Detection
-Deploy classifiers or anomaly detectors on prompt/tool‑call streams (see ClawGuard runtime framework for indirect injection detection).  
-*Citations: [3]*
-
-### Preference‑Optimization Defenses
-Fine‑tune LLMs to reject malicious prompts via reinforcement learning from human feedback (SecAlign approach).  
-*Citations: [4]*
-
-### Structured Query Defenses
-Force agents to use parameterized queries or prepared statements when interacting with databases (StruQ method).  
-*Citations: [5]*
-
-### Continuous Automated Security Auditing
-Run an “audit agent” that periodically checks agent configurations, permission drift, and anomalous behavior (as in the healthcare case study).  
-*Citations: [6]*
-
-*Sources:*  
-- “Caging the Agents” – prompt integrity framework with structured envelopes  
-- ClawGuard – runtime security framework for indirect prompt injection  
-- SecAlign – preference optimization to defend against prompt injection  
-- StruQ – structured queries to mitigate injection  
-- OWASP Cheat Sheet – recommends input validation, output encoding, least privilege, monitoring  
-- Astrix guide – lists prompt injection, tool manipulation, data exfiltration, over‑privileged agents as top risks
-
-## Conclusion & Call‑to‑Action
-
-AI agent security extends zero‑trust principles: verify, enforce least privilege, monitor, and assume breach. Engineers can start today by:
-
-1. Enforcing per‑agent workload identities  
-2. Sandboxing agent runtimes  
-3. Implementing egress allow‑lists  
-4. Adding prompt‑integrity wrappers  
-5. Logging all tool interactions  
-
-Continuous red‑team/blue‑team exercises and automated audit agents keep defenses current as threats evolve.
-
-*All sources are publicly accessible as of the date of this article. Content is ASCII‑only as requested.*48:["$","$L46","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$4e"},"thumbnail":true,"direction":"column"}]
+- [OAuth 2.0 Token Exchange (RFC 8693)](https://www.rfc-editor.org/info/rfc8693) - Related token exchange mechanisms48:["$","$L46","mediafusion-device-auth",{"post":{"metadata":{"title":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","subtitle":"","publishedAt":"2026-08-03","summary":"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.","image":"/images/blog/mediafusion-device-auth.png","images":[],"tag":"Security","team":[],"link":""},"slug":"mediafusion-device-auth","content":"$4e"},"thumbnail":true,"direction":"column"}]
 4d:null

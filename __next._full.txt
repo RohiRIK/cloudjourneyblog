@@ -15,7 +15,7 @@ a:I[311451,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a0
 :HL["/_next/static/chunks/b3a7f4834154c9dc.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.29207c2f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"jujynRwrdbEpj8EvFl8xT","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/92160bc35b2d0114.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3355f25cb11074b7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L6",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/end-of-day-mac","children":["$","$L7",null,{"paddingY":"2","children":"End of Day Mac"}]}]}],["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L7",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L8",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","$La",null,{"maxWidth":48}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Latest writing"}]}],"$Lb"]}],"$Lc"]}],"$Ld","$Le"]}],["$Lf"],"$L10"]}],{},null,false,false]},null,false,false],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true}
+0:{"P":null,"b":"Qw6qNl8P05DNg8vZbngvr","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/92160bc35b2d0114.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3355f25cb11074b7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/8a07e6fd7e614a7b.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/21f080b07a2c63d8.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e235429b8fbdec6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/\",\"sameAs\":[],\"headline\":\"Rohi Rikman | Cloud Security Architect\",\"description\":\"Cloud Security Architect & Automation Engineer specializing in Azure, Entra ID, and AI agent systems\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L6",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/end-of-day-mac","children":["$","$L7",null,{"paddingY":"2","children":"End of Day Mac"}]}]}],["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Security, automation, and the systems that connect them."}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I build AI agents and automation systems that handle the repetitive, high-stakes parts of cloud security — so humans can focus on the problems that actually need them."}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L7",null,{"gap":"12","wrap":true,"horizontal":"center","children":[["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"tertiary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.png","size":"m"}],"About – Rohi Rikman"]}]}],["$","$L8",null,{"id":"blog","data-border":"rounded","href":"/blog","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":"Read the blog"}]]}]}]]}]}],["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","$La",null,{"maxWidth":48}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Latest writing"}]}],"$Lb"]}],"$Lc"]}],"$Ld","$Le"]}],["$Lf"],"$L10"]}],{},null,false,false]},null,false,false],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true}
 13:I[89532,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Grid"]
 14:I[814360,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"default"]
 18:I[474855,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ProjectCard"]
@@ -29,7 +29,220 @@ a:I[311451,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a0
 27:I[521247,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"ClientFlex"]
 28:I[402971,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"Header"]
 29:I[1166,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"RouteGuard"]
-15:T2bbe,
+15:T1808,
+Intune Autopatch automates Windows, Microsoft 365 Apps, Edge, and Teams updates to improve security and productivity. To ensure patches are correctly applied and systems remain compliant, organizations can use Intune Proactive Remediations to detect missing patches and remediate them automatically. This guide provides a verifiable, end-to-end flow for engineers to implement and validate automated patching.
+
+## Introduction
+
+Automated patching reduces administrative overhead and improves security posture by ensuring timely updates. Windows Autopatch manages update rings and cadence as a service, while Intune Proactive Remediations allow custom detection and remediation scripts to verify patch state and fix issues automatically.
+
+## Prerequisites
+
+- Licensing: Microsoft 365 Business Premium, Windows 10/11 Education A3/A5, Windows 10/11 Enterprise E3/E5 (including F3), or VDA equivalents.
+- Device platform: Windows 10/11 Enterprise/Education, Windows IoT Enterprise (certain LTSC limitations apply).
+- Network: Internet access to Intune, Windows Update, and Autopatch endpoints.
+
+## Step 1: Verify Prerequisites
+
+Confirm licenses are assigned to users or devices. Ensure devices run supported Windows editions. Validate network connectivity to required endpoints (*.manage.microsoft.com, *.update.microsoft.com, etc.).
+
+## Step 2: Enroll Devices in Windows Autopatch
+
+In the Microsoft Endpoint Manager admin center:
+1. Navigate to Devices > Windows > Windows Autopatch > Enroll.
+2. Select device groups (Entra groups) to enroll.
+3. Confirm enrollment status in the Autopatch enrollment blade.
+
+## Step 3: Configure Update Rings (if needed)
+
+Autopatch creates default Test and Last rings. Review them via Intune > Devices > Update rings.
+- Avoid assigning custom rings to Autopatch-managed devices; rely on service-managed policies.
+- Adjust ring settings (deferral, grace periods) only for opt-out groups.
+
+## Step 4: Deploy Proactive Remediation Script for Patch Verification
+
+Create a detection script that checks for the latest quality update KB (returns exit code 0 if compliant, non-zero if action needed). Create a remediation script that triggers Windows Update or resets Windows Update components.
+
+Example detection script (PowerShell):
+```powershell
+# Check for KB500xxxx (example)
+$hotfix = Get-HotFix -ID KB500xxxx -ErrorAction SilentlyContinue
+if ($hotfix) { exit 0 } else { exit 1 }
+```
+
+Example remediation script (PowerShell):
+```powershell
+# Trigger Windows Update scan and install
+usoclient StartScan
+usoclient StartInstall
+# Alternatively, reset Windows Update components
+net stop wuauserv
+net stop cryptSvc
+net stop bits
+net stop msiserver
+ren C:\Windows\SoftwareDistribution SoftwareDistribution.old
+ren C:\Windows\System32\catroot2 catroot2.old
+net start wuauserv
+net start cryptSvc
+net start bits
+net start msiserver
+```
+
+Deployment steps in Intune:
+1. Upload detection and remediation scripts as a script package (Intune > Devices > Scripts).
+2. Assign to targeting groups (can be the same Autopatch group or Entra group).
+3. Set schedule (e.g., every 8 hours) and user context (System).
+4. Enable notifications for failed detections.
+
+## Step 5: Monitor Compliance and Alerts
+
+Monitor sources:
+- Intune device compliance and update compliance reports.
+- Windows Autopatch Management Status Report (tenant-wide view of eligible devices).
+- Windows Autopatch Alert Report (active alerts, severity, impacted update types).
+
+Validation checks:
+- Detection scripts run on schedule to verify patch state.
+- Manual verification via Get-HotFix, Get-ItemProperty for registry keys, or WSUS/ConfigMgr queries.
+- Handling failed patches:
+  - Detection failure triggers remediation script (e.g., retry Windows Update, reset Windows Update components).
+  - If remediation fails, device marked non-compliant; admin can investigate logs (WindowsUpdate.log, SetupAPI.log).
+  - Rollback options: Use Windows Update for Business uninstall policies, or deploy a script to uninstall the problematic update via wusa.exe /uninstall.
+- Reporting and alerting:
+  - Configure alert rules in Intune for compliance drift.
+  - Use Autopatch alert email notifications or webhook integrations.
+  - Export reports to Power BI or Log Analytics for trend analysis.
+
+## Step 6: Remediate Failures and Verify Fixes
+
+- When detection fails, remediation script runs automatically.
+- Verify success by checking subsequent detection returns exit code 0.
+- If persistent failure, open ticket, collect logs, consider pausing the update ring for that device group.
+
+## Step 7: Review Reports and Adjust Policies
+
+- Weekly: Examine Intune update compliance trends.
+- Monthly: Review Autopatch reports for rollback/pause events.
+- Adjust ring deferrals or exclusion groups based on observed issues.
+- Update detection/remediation scripts as new KBs are released.
+
+## Sources
+
+- Windows Autopatch overview: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/overview/windows-autopatch-overview
+- Windows Autopatch prerequisites: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/prepare/windows-autopatch-prerequisites
+- Manage Windows Update ring policies (Intune): https://learn.microsoft.com/en-us/intune/device-updates/windows/manage-update-rings
+- Update ring settings reference: https://learn.microsoft.com/en-us/intune/device-updates/windows/ref-update-ring-settings
+- Use Remediations to Detect and Fix Support Issues (Intune): https://learn.microsoft.com/en-us/intune/device-management/tools/deploy-remediations
+- PowerShell Scripts for Remediations reference: https://learn.microsoft.com/en-us/intune/device-management/tools/ref-remediation-scripts
+- Windows Autopatch alerts and remediations: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/alerts-remediations
+- Windows Autopatch management status report: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/monitor/windows-autopatch-management-status-report
+- Windows Autopatch groups overview: https://learn.microsoft.com/en-us/windows/deployment/windows-autopatch/deploy/windows-autopatch-groups-overviewb:["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L13",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L14","intune-autopatch-with-scripts",{"post":{"metadata":{"title":"Intune Autopatch with Script-Based Patch Verification","subtitle":"","publishedAt":"2026-08-03","summary":"Step-by-step guide to implementing Windows Autopatch with Intune Proactive Remediations for verifiable automated patching.","image":"/images/blog/intune-autopatch-with-scripts.png","images":[],"tag":"Security","team":[],"link":""},"slug":"intune-autopatch-with-scripts","content":"$15"},"thumbnail":false,"direction":"$undefined"}],"$L16","$L17"]}]}]
+c:["$","$L7",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$La",null,{"maxWidth":48}]}]
+19:T88d,
+## What this is
+
+A macOS menu bar app that closes your work apps at the end of each day — automatically or on demand. No more manually quitting Slack, Chrome, VS Code, and the rest.
+
+The goal isn't to stop working — it's to create a boundary. Having a physical ritual (clicking "end of day" in the menu bar) makes it easier to actually walk away.
+
+## Features
+
+- **Menu bar residence** — Runs quietly in your macOS menu bar, no Dock icon
+- **Custom day picker** — Choose exactly which days to run (Mon, Tue, Wed, Thu, Fri)
+- **Configurable apps** — Pick which apps to close — Slack, Chrome, VS Code, anything
+- **Per-app delay** — Stagger closes so apps have time to save (0-10 seconds per app)
+- **Countdown alert** — 30-second warning before apps close
+- **Pause Today** — Skip tonight without changing your schedule
+- **Snooze 30 min** — Delay the close from the alert or tray menu
+- **Analytics** — Track your streaks, total runs, apps closed, 7-day history
+- **Launch at login** — Starts automatically when you log in
+- **Uninstall** — Clean removal from within the app
+
+## How it works
+
+1. Double-click the app to open setup
+2. Pick a trigger time (e.g., 6:00 PM)
+3. Select which apps to close
+4. Choose which days to run
+5. The app runs in the menu bar all day
+6. At trigger time → 30s countdown → apps close → logged
+
+## Installation
+
+**Download:** Get `EndOfDay.app.zip` from the [latest release](https://github.com/RohiRIK/end-of-day-mac/releases/latest)
+
+**Or build from source:**
+```bash
+git clone https://github.com/RohiRIK/end-of-day-mac
+cd end-of-day-mac
+bash install.sh
+```
+
+Requires macOS 12+ and Xcode Command Line Tools.
+
+## Why I built it
+
+I used to manually quit every app every night. Then I'd check Slack one more time, then check GitHub one more time, and suddenly 20 minutes vanished.
+
+Now I click "End of Day" in the menu bar and walk away. The apps close themselves. The streak counter gives me a reason to actually use it.
+
+It's not about working less — it's about knowing when you're done.
+
+## Stack
+
+- Swift / SwiftUI
+- AppKit for menu bar integration
+- launchd for background scheduling
+- UserDefaults for local persistenced:["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","$La",null,{"maxWidth":48}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Things I've built"}]}],["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L3",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L18","copilot-agent-playbook",{"priority":true,"href":"/work/copilot-agent-playbook","images":[],"title":"Copilot Agent Playbook","description":"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.","content":"\n## What this is\n\nA collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations.\n\n## What's in it\n\n- **Knowledge base agents** — Search, summarize, and surface information from SharePoint, Teams, and external sources\n- **Security agents** — Monitor for threats, enrich alerts, automate incident response\n- **IT ops agents** — Handle password resets, license requests, device triage\n- **Sales enablement** — Customer intelligence, meeting prep, proposal assistance\n- **HR agents** — Onboarding, policy Q&A, benefits navigation\n\n## Why it matters\n\nCopilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible.\n\n## Stack\n\n- Microsoft 365 Copilot\n- Microsoft Graph API\n- Azure AI Studio","avatars":[],"link":"https://github.com/RohiRIK/copilot-agent-playbook"}],["$","$L18","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$19","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest"}],"$L1a"]}]}]]}],"$L1b"]}]
+e:["$","$L1c",null,{}]
+f:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true,"nonce":"$undefined"}]
+10:["$","$L1d",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+11:["$","$1","h",{"children":[null,["$","$L20",null,{"children":"$L21"}],["$","div",null,{"hidden":true,"children":["$","$L22",null,{"children":["$","$1e",null,{"name":"Next.Metadata","children":"$L23"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+24:T771,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"violet","accent":"emerald","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$24"}}]}],["$","$L25",null,{"children":["$","$L3",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L5",null,{"fill":true,"position":"absolute","children":["$","$L26",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L27",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L28",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L29",null,{"children":"$L2a"}]}]}],"$L2b"]}]}]]}]
+2e:I[339756,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
+2f:I[837457,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
+30:I[298229,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"IconButton"]
+2c:T2bbe,
 MediaFusion solves a critical challenge in the streaming ecosystem: how to securely authenticate users on devices with limited input capabilities. From Stremio addons on Android TV boxes to Kodi installations on Raspberry Pis, many streaming devices lack full keyboards or browsers, making traditional OAuth flows impractical. MediaFusion addresses this by implementing the OAuth 2.0 Device Authorization Grant (RFC 8628), creating a seamless authentication experience that never requires users to enter credentials on the device itself.
 
 ## What is MediaFusion?
@@ -168,113 +381,8 @@ For streaming enthusiasts who value both convenience and security, MediaFusion's
 ### See Also
 - [OAuth 2.0 for Native Apps (RFC 8252)](https://www.rfc-editor.org/info/rfc8252) - Comparison with traditional OAuth flows
 - [OAuth 2.0 Threat Model and Security Considerations (RFC 6819)](https://www.rfc-editor.org/info/rfc6819) - Broader OAuth security context
-- [OAuth 2.0 Token Exchange (RFC 8693)](https://www.rfc-editor.org/info/rfc8693) - Related token exchange mechanismsb:["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L13",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L14","mediafusion-device-auth",{"post":{"metadata":{"title":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","subtitle":"","publishedAt":"2026-08-03","summary":"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.","image":"/images/blog/mediafusion-device-auth.png","images":[],"tag":"Security","team":[],"link":""},"slug":"mediafusion-device-auth","content":"$15"},"thumbnail":false,"direction":"$undefined"}],"$L16","$L17"]}]}]
-c:["$","$L7",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$La",null,{"maxWidth":48}]}]
-19:T88d,
-## What this is
-
-A macOS menu bar app that closes your work apps at the end of each day — automatically or on demand. No more manually quitting Slack, Chrome, VS Code, and the rest.
-
-The goal isn't to stop working — it's to create a boundary. Having a physical ritual (clicking "end of day" in the menu bar) makes it easier to actually walk away.
-
-## Features
-
-- **Menu bar residence** — Runs quietly in your macOS menu bar, no Dock icon
-- **Custom day picker** — Choose exactly which days to run (Mon, Tue, Wed, Thu, Fri)
-- **Configurable apps** — Pick which apps to close — Slack, Chrome, VS Code, anything
-- **Per-app delay** — Stagger closes so apps have time to save (0-10 seconds per app)
-- **Countdown alert** — 30-second warning before apps close
-- **Pause Today** — Skip tonight without changing your schedule
-- **Snooze 30 min** — Delay the close from the alert or tray menu
-- **Analytics** — Track your streaks, total runs, apps closed, 7-day history
-- **Launch at login** — Starts automatically when you log in
-- **Uninstall** — Clean removal from within the app
-
-## How it works
-
-1. Double-click the app to open setup
-2. Pick a trigger time (e.g., 6:00 PM)
-3. Select which apps to close
-4. Choose which days to run
-5. The app runs in the menu bar all day
-6. At trigger time → 30s countdown → apps close → logged
-
-## Installation
-
-**Download:** Get `EndOfDay.app.zip` from the [latest release](https://github.com/RohiRIK/end-of-day-mac/releases/latest)
-
-**Or build from source:**
-```bash
-git clone https://github.com/RohiRIK/end-of-day-mac
-cd end-of-day-mac
-bash install.sh
-```
-
-Requires macOS 12+ and Xcode Command Line Tools.
-
-## Why I built it
-
-I used to manually quit every app every night. Then I'd check Slack one more time, then check GitHub one more time, and suddenly 20 minutes vanished.
-
-Now I click "End of Day" in the menu bar and walk away. The apps close themselves. The streak counter gives me a reason to actually use it.
-
-It's not about working less — it's about knowing when you're done.
-
-## Stack
-
-- Swift / SwiftUI
-- AppKit for menu bar integration
-- launchd for background scheduling
-- UserDefaults for local persistenced:["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","$La",null,{"maxWidth":48}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Things I've built"}]}],["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L3",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L18","copilot-agent-playbook",{"priority":true,"href":"/work/copilot-agent-playbook","images":[],"title":"Copilot Agent Playbook","description":"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.","content":"\n## What this is\n\nA collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations.\n\n## What's in it\n\n- **Knowledge base agents** — Search, summarize, and surface information from SharePoint, Teams, and external sources\n- **Security agents** — Monitor for threats, enrich alerts, automate incident response\n- **IT ops agents** — Handle password resets, license requests, device triage\n- **Sales enablement** — Customer intelligence, meeting prep, proposal assistance\n- **HR agents** — Onboarding, policy Q&A, benefits navigation\n\n## Why it matters\n\nCopilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible.\n\n## Stack\n\n- Microsoft 365 Copilot\n- Microsoft Graph API\n- Azure AI Studio","avatars":[],"link":"https://github.com/RohiRIK/copilot-agent-playbook"}],["$","$L18","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$19","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest"}],"$L1a"]}]}]]}],"$L1b"]}]
-e:["$","$L1c",null,{}]
-f:["$","script","script-0",{"src":"/_next/static/chunks/8ac4e8555f09f41a.js","async":true,"nonce":"$undefined"}]
-10:["$","$L1d",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
-11:["$","$1","h",{"children":[null,["$","$L20",null,{"children":"$L21"}],["$","div",null,{"hidden":true,"children":["$","$L22",null,{"children":["$","$1e",null,{"name":"Next.Metadata","children":"$L23"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-24:T771,
-              (function() {
-                try {
-                  const root = document.documentElement;
-                  const defaultTheme = 'system';
-                  
-                  // Set defaults from config
-                  const config = {"brand":"violet","accent":"emerald","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
-                  
-                  // Apply default values
-                  Object.entries(config).forEach(([key, value]) => {
-                    root.setAttribute('data-' + key, value);
-                  });
-                  
-                  // Resolve theme
-                  const resolveTheme = (themeValue) => {
-                    if (!themeValue || themeValue === 'system') {
-                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-                    }
-                    return themeValue;
-                  };
-                  
-                  // Apply saved theme
-                  const savedTheme = localStorage.getItem('data-theme');
-                  const resolvedTheme = resolveTheme(savedTheme);
-                  root.setAttribute('data-theme', resolvedTheme);
-                  
-                  // Apply any saved style overrides
-                  const styleKeys = Object.keys(config);
-                  styleKeys.forEach(key => {
-                    const value = localStorage.getItem('data-' + key);
-                    if (value) {
-                      root.setAttribute('data-' + key, value);
-                    }
-                  });
-                } catch (e) {
-                  console.error('Failed to initialize theme:', e);
-                  document.documentElement.setAttribute('data-theme', 'dark');
-                }
-              })();
-            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$24"}}]}],["$","$L25",null,{"children":["$","$L3",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L5",null,{"fill":true,"position":"absolute","children":["$","$L26",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L27",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L28",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L29",null,{"children":"$L2a"}]}]}],"$L2b"]}]}]]}]
-2e:I[339756,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
-2f:I[837457,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"default"]
-30:I[298229,["/_next/static/chunks/3355f25cb11074b7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/21f080b07a2c63d8.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js","/_next/static/chunks/8ac4e8555f09f41a.js"],"IconButton"]
-2c:T17ad,
+- [OAuth 2.0 Token Exchange (RFC 8693)](https://www.rfc-editor.org/info/rfc8693) - Related token exchange mechanisms16:["$","$L14","mediafusion-device-auth",{"post":{"metadata":{"title":"How MediaFusion's OAuth Device Flow Enables Secure Streaming on Any Device","subtitle":"","publishedAt":"2026-08-03","summary":"Explore how MediaFusion implements OAuth 2.0 Device Authorization Grant to solve authentication challenges on input-limited streaming devices, balancing user convenience with security considerations.","image":"/images/blog/mediafusion-device-auth.png","images":[],"tag":"Security","team":[],"link":""},"slug":"mediafusion-device-auth","content":"$2c"},"thumbnail":false,"direction":"$undefined"}]
+2d:T17ad,
 # Securing AI Agents: Threat Model and Guardrails for Production
 
 AI agents—LLMs augmented with tool use, memory, and planning—are now deployed in production clouds. They introduce risks beyond classic prompt injection, including tool abuse, data exfiltration, and privilege escalation. This article provides a zero‑trust playbook for securing AI agents at scale, grounded in recent academic surveys, real‑world case studies, and industry cheat‑sheets.
@@ -417,96 +525,7 @@ AI agent security extends zero‑trust principles: verify, enforce least privile
 
 Continuous red‑team/blue‑team exercises and automated audit agents keep defenses current as threats evolve.
 
-*All sources are publicly accessible as of the date of this article. Content is ASCII‑only as requested.*16:["$","$L14","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$2c"},"thumbnail":false,"direction":"$undefined"}]
-2d:T19dc,
-Docker's AuthZ middleware is supposed to be the last line of defense - the plugin that decides whether a container operation is allowed. CVE-2026-34040, disclosed by Cyera Research in April 2026, showed that a single padded HTTP request could make every AuthZ plugin in the ecosystem invisible.
-
-The vulnerability class had existed since Docker Engine 1.10 - February 2016. Ten years.
-
-## How the bypass worked
-
-The attack is disarmingly simple. Docker Engine's AuthZ middleware inspects request bodies before allowing container operations. But request bodies larger than 1 megabyte are silently dropped before they reach the AuthZ plugins. The Docker daemon still processes the request normally.
-
-That's the entire bug. A 1MB+ padded HTTP request bypasses authorization. The AuthZ plugin never sees it. The daemon executes the operation anyway.
-
-The practical exploit: send a single padded HTTP request that creates a privileged container with host root access. No authentication bypass. No credential theft. Just a request that's too big for the security control to see.
-
-## Who was affected
-
-Every environment using AuthZ plugins - which, in a properly configured production Docker deployment, is most of them. The affected plugins include:
-
-- **Open Policy Agent (OPA)** - the most common policy engine for container authorization
-- **Prisma Cloud** - enterprise container security
-- **Casbin** - open-source authorization
-- **Custom AuthZ plugins** - any organization that built their own authorization middleware
-
-This is the standard recommendation for production Docker: deploy an AuthZ plugin to restrict what container operations are permitted. CVE-2026-34040 means that recommendation was providing a false sense of security for a decade.
-
-## The inheritance problem
-
-This vulnerability is related to - but distinct from - CVE-2024-41110 (CVSS 10.0, disclosed 2024), which used a zero-length body to achieve the same bypass. Docker patched CVE-2024-41110, but the fix was incomplete. CVE-2026-34040 uses a different mechanism (oversized body vs. empty body) to achieve the same outcome.
-
-The pattern matters: the authz bypass isn't a single bug - it's a vulnerability class in how Docker handles request body routing to plugins. Patching one specific bypass doesn't close the class. Docker Engine 29.3.1 addresses this properly.
-
-## The real-world impact
-
-The vulnerability is particularly dangerous in three scenarios:
-
-**CI/CD pipelines.** Build systems that submit Docker API requests via the daemon socket. If an attacker can influence the request body size - through a compromised build step, a malicious Dockerfile, or a supply chain attack - they can bypass AuthZ controls to create privileged containers. In a pipeline that's supposed to run untrusted code, this is the difference between "contained breach" and "full host compromise."
-
-**Multi-tenant container platforms.** Environments where multiple teams or customers share a Docker daemon, with AuthZ plugins enforcing isolation between tenants. The bypass means any tenant can escape their authorization boundary. Shared Docker infrastructure without user namespaces is especially exposed.
-
-**Environments using AuthZ as the primary control.** Organizations that deployed an AuthZ plugin and considered authorization handled. The plugin was the control - and it was invisible to oversized requests.
-
-## What to do
-
-### Patch immediately
-
-Docker Engine 29.3.1 addresses CVE-2026-34040. This is not a "patch when convenient" vulnerability - it's a complete bypass of a primary security control.
-
-```bash
-# Check your version
-docker version
-
-# Update (Debian/Ubuntu)
-sudo apt update && sudo apt install docker-ce docker-ce-cli containerd.io
-
-# Update (RHEL/CentOS)
-sudo yum update docker-ce docker-ce-cli containerd.io
-```
-
-### Don't rely on AuthZ alone
-
-This is the structural lesson. AuthZ plugins are a valuable layer, but they're a single point of failure in the authorization chain. The container security stack needs defense in depth:
-
-**User Namespaces.** Kubernetes 1.36 (released April 2026) graduated User Namespaces to GA. Rootless containers - pods that run without real root on the host - are now a stable, supported configuration. Even if an AuthZ bypass creates a privileged container, user namespaces limit what that privilege means on the host. The container's "root" is a mapped UID with no real host privileges.
-
-**Seccomp profiles.** Default seccomp profiles restrict the system calls a container can make. Even a root-privileged container can't mount the host filesystem or load kernel modules if the seccomp profile blocks those syscalls.
-
-**AppArmor/SELinux.** Mandatory access controls add another layer. A container running as root with a restrictive AppArmor profile can't escape the profile's constraints regardless of its nominal privilege level.
-
-**Read-only root filesystems.** Containers that can't write to their own filesystem can't persist payloads or modify binaries. This is a simple control that dramatically reduces post-exploitation options.
-
-### Audit your AuthZ plugins
-
-Check whether your AuthZ plugins are updated. Some plugins may have their own mitigations or configuration changes that reduce exposure. OPA's Docker authorization policy, for example, can be updated to reject oversized request bodies at the policy level - though this is a workaround, not a fix.
-
-### Monitor for exploitation
-
-The exploit leaves traces. Docker daemon logs record container creation events. Look for:
-
-- Privileged containers created by unexpected callers
-- Container creation requests with unusually large request bodies
-- API calls that bypass the expected authorization plugin audit trail
-
-## The container security stack is shifting
-
-CVE-2026-34040 isn't just a Docker bug - it's evidence that the container security model needs more layers. AuthZ plugins were designed as the authorization gate, but they're only as reliable as the request routing that feeds them.
-
-The combination of K8s 1.36 User Namespaces (GA), Docker CVE-2026-34040 (AuthZ bypass), and the broader shift toward rootless containers points in one direction: the era of "deploy a plugin and consider authorization handled" is over. Container security needs the same defense-in-depth approach that network security learned years ago. No single control is sufficient. Every layer assumes the others might fail.
-
-Patch Docker. Enable user namespaces. Layer your controls. The vulnerability existed for a decade because the assumption was that AuthZ plugins were the boundary. They're not. They're one layer - and that layer just had a hole in it.
-17:["$","$L14","docker-cve-2026-34040",{"post":{"metadata":{"title":"Docker CVE-2026-34040: One Megabyte to Root","subtitle":"","publishedAt":"2026-07-17","summary":"A size check bug in Docker Engine let attackers bypass every AuthZ plugin for a decade. Here's how the vulnerability worked, who was exposed, and what it means for your container security stack.","image":"/images/blog/docker-cve-2026-34040.png","images":[],"tag":"Security","team":[],"link":""},"slug":"docker-cve-2026-34040","content":"$2d"},"thumbnail":false,"direction":"$undefined"}]
+*All sources are publicly accessible as of the date of this article. Content is ASCII‑only as requested.*17:["$","$L14","securing-ai-agents",{"post":{"metadata":{"title":"Securing AI Agents: Threat Model and Guardrails for Production","subtitle":"","publishedAt":"2026-08-03","summary":"A practical guide to securing AI agents in production, covering threat model, least-privilege access, runtime security, and practical guardrails for infrastructure and security engineers.","image":"/images/blog/securing-ai-agents.png","images":[],"tag":"Security","team":[],"link":""},"slug":"securing-ai-agents","content":"$2d"},"thumbnail":false,"direction":"$undefined"}]
 1a:["$","$L18","m365-cli",{"priority":false,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}]
 1b:["$","$L7",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","$La",null,{"maxWidth":48}]}]
 2a:["$","$L2e",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2f",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L3",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
