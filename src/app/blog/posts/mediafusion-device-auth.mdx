@@ -10,7 +10,7 @@ MediaFusion solves a critical challenge in the streaming ecosystem: how to secur
 
 ## What is MediaFusion?
 
-MediaFusion is an open-source streaming platform that aggregates content from configured sources—including torrent indexers, debrid services like RealDebrid and Premiumize, metadata providers, and enhancement services—into a unified interface accessible through Stremio, Kodi, or directly in a browser. Acting as an aggregation layer, it connects to over 40 external services across six major categories, eliminating the need to juggle multiple apps or websites.
+MediaFusion is an open-source streaming platform that aggregates content from configured sources-including torrent indexers, debrid services like RealDebrid and Premiumize, metadata providers, and enhancement services-into a unified interface accessible through Stremio, Kodi, or directly in a browser. Acting as an aggregation layer, it connects to over 40 external services across six major categories, eliminating the need to juggle multiple apps or websites.
 
 The platform's strength lies in its ability to present a unified streaming experience while handling the complexity of authentication with various backend services behind the scenes.
 
@@ -38,7 +38,7 @@ The device flow solves the authentication dilemma for streaming addons in severa
 
 - **No Browser Required on Device**: MediaFusion runs on devices that may lack browsers or have limited input (like TV boxes or Raspberry Pi setups). The device flow eliminates the need for browser-based authentication flows on these constrained devices.
 
-- **Secondary Device Authentication**: Users complete authorization on familiar devices with full keyboards and browsers—typically smartphones or laptops—making the process intuitive and error-free.
+- **Secondary Device Authentication**: Users complete authorization on familiar devices with full keyboards and browsers-typically smartphones or laptops-making the process intuitive and error-free.
 
 - **Simple Code Entry**: Instead of entering complex credentials, users only need to input a short, alphanumeric user code (typically 6-8 characters), reducing friction and errors.
 
@@ -57,13 +57,13 @@ The device flow provides inherent security benefits by design:
 ### Security Considerations & Mitigations
 While inherently more secure than alternatives like Resource Owner Password Credentials (ROPC), device flow requires attention to several considerations:
 
-1. **User Code Brute Forcing**: RFC 8628 §5.1 specifies that user codes must be sufficiently long and random to prevent brute-force attacks. MediaFusion relies on provider-standard implementations that typically use 8-character alphanumeric codes (62^8 ≈ 218 trillion possibilities).
+1. **User Code Brute Forcing**: RFC 8628 section 5.1 specifies that user codes must be sufficiently long and random to prevent brute-force attacks. MediaFusion relies on provider-standard implementations that typically use 8-character alphanumeric codes (62^8 ~ 218 trillion possibilities).
 
-2. **Device Code Brute Forcing**: Similarly, device codes must be sufficiently entropic (RFC 8628 §5.2). Providers implement these with sufficient entropy to make brute-forcing impractical.
+2. **Device Code Brute Forcing**: Similarly, device codes must be sufficiently entropic (RFC 8628 section 5.2). Providers implement these with sufficient entropy to make brute-forcing impractical.
 
 3. **Phishing Risks**: Users must verify they're entering codes on legitimate provider verification pages. MediaFusion mitigates this by displaying the exact verification URL to visit.
 
-4. **Polling Abuse**: Providers must implement rate limiting on token endpoints to prevent abuse from frequent polling—a standard requirement RFC 8628 §5.4 places on authorization servers.
+4. **Polling Abuse**: Providers must implement rate limiting on token endpoints to prevent abuse from frequent polling-a standard requirement RFC 8628 section 5.4 places on authorization servers.
 
 5. **Token Lifetime Management**: Access tokens should have appropriate expiration times, with refresh token support where applicable, limiting the window of compromise if tokens are intercepted.
 
@@ -119,7 +119,7 @@ The encryption implementation spans `utils/crypto.py` and `db/schemas.py` (lines
 To maximize security when using MediaFusion's device flow:
 
 1. **Verify the Verification URL**: Always ensure you're on the legitimate provider's website when entering user codes.
-2. **Use Temporary Codes**: Treat user codes as temporary passwords—don't share them or enter them on suspicious sites.
+2. **Use Temporary Codes**: Treat user codes as temporary passwords-don't share them or enter them on suspicious sites.
 3. **Monitor Authorized Devices**: Regularly review and revoke access for devices you no longer use via the provider's account dashboard.
 4. **Understand Token Scope**: Be aware of what permissions you're granting (typically limited to accessing your debrid/storage account).
 5. **Keep Recovery Options Updated**: Ensure account recovery methods are current in case you need to regain access.
@@ -133,7 +133,7 @@ MediaFusion's implementation of OAuth 2.0 Device Flow exemplifies a broader shif
 - **Seamless Integration**: The URL-based credential embedding creates a truly "set it and forget it" experience for addon installation and configuration.
 - **Extensible Framework**: As more services adopt device flow (from Google to Azure AD), MediaFusion's modular implementation can easily integrate new providers.
 
-For streaming enthusiasts who value both convenience and security, MediaFusion's device flow implementation demonstrates how thoughtful authentication design can make complex backend integrations disappear behind a simple, "just works" user experience—exactly what the modern streaming ecosystem needs.
+For streaming enthusiasts who value both convenience and security, MediaFusion's device flow implementation demonstrates how thoughtful authentication design can make complex backend integrations disappear behind a simple, "just works" user experience-exactly what the modern streaming ecosystem needs.
 
 ---
 

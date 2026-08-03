@@ -26,7 +26,7 @@ When you add MediaFusion as a Stremio addon and configure it to use Real-Debrid,
 
 ![MediaFusion OAuth device-code flow](/images/blog/stremio-auth-flowchart.png)
 
-1. In Stremio, go to the MediaFusion addon settings (gear icon → Configure).
+1. In Stremio, go to the MediaFusion addon settings (gear icon -> Configure).
 2. For Real-Debrid, click the "Authorize with Real-Debrid" button.
 3. MediaFusion's backend requests a device code from Real-Debrid's device authorization endpoint.
 4. Real-Debrid responds with a user code and a verification URL (e.g., https://real-debrid.com/device).
@@ -80,7 +80,7 @@ For these reasons, I recommend using the OAuth device-code flow whenever possibl
 | Delivery Mechanism | Direct HTTP(S) download from debrid CDN (or P2P if debrid not used). | Adaptive bitrate streaming via proprietary CDNs (HTTPS/DASH/HLS). |
 | User Control | Choose which indexers/debrids to enable; self-host options; add/remove sources freely. | Fixed library; no user-added sources. |
 | Privacy/IP Exposure | With debrid: IP hidden from peers; no seeding. Without debrid: IP exposed to swarm (optional). | User IP visible only to the service (standard for any web service). |
-| Cost | Debrid subscription (e.g., Real-Debrid ~€3/month) + optional hosting; Stremio/MediaFusion free. | Subscription fee (~$10–$20/mo per service). |
+| Cost | Debrid subscription (e.g., Real-Debrid ~3 EUR/month) + optional hosting; Stremio/MediaFusion free. | Subscription fee (~$10-$20/mo per service). |
 | Legality | Depends on source material; user responsible for ensuring content is legally obtained. | Fully licensed, legal by design. |
 
 ## Security & Privacy Checklist
