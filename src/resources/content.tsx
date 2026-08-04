@@ -322,6 +322,36 @@ const gallery: Gallery = {
       orientation: "vertical",
       credit: "by Gabriel - Security",
     },
+    {
+      src: "/images/gallery/gallery-04-dreamweavers-garden.png",
+      alt: "A golden silk-woman floats inside a hollow asteroid, her unraveling threads blooming into tiny dream-bubbles each containing a whimsical scene sewn by mechanical hummingbirds.",
+      orientation: "vertical",
+      credit: "by Ella - Creative Director",
+    },
+    {
+      src: "/images/gallery/gallery-07-starchart-jellyfish.png",
+      alt: "A bioluminescent jellyfish made of star charts drifts through deep space, its glowing tentacles streaming astronomical data into a golden pocket-watch observatory - a cosmic library of light.",
+      orientation: "vertical",
+      credit: "by Leo - Researcher",
+    },
+    {
+      src: "/images/gallery/gallery-08-archive-blooms.png",
+      alt: "A luminous tree-library in deep space, its root tendrils cracking open planets while glowing books shed pages that transform into cybernetic butterflies; a cloaked archivist on a root-bridge reaches out to catch a story before it dissolves into starlight.",
+      orientation: "horizontal",
+      credit: "by Iris - Documentation",
+    },
+    {
+      src: "/images/gallery/gallery-09-merge-conflict-apocalypse.png",
+      alt: "Two cosmic hands made of code streams descend from a storm sky and crash together in a blinding firework of merge conflicts above a scattered circle of tiny developers.",
+      orientation: "horizontal",
+      credit: "by Max - Code Review & QA",
+    },
+    {
+      src: "/images/gallery/gallery-10-dial-up-cathedral.png",
+      alt: "Inside a cathedral where dial-up modems form the organ and mid-1990s web GIFs are the stained glass, a robed figure kneels at the altar as binary noise ascends like a saint, while an Under Construction banner flickers in the rafters.",
+      orientation: "vertical",
+      credit: "by Iris - Documentation",
+    },
   ],
 };
 
