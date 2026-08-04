@@ -352,6 +352,18 @@ const gallery: Gallery = {
       orientation: "vertical",
       credit: "by Iris - Documentation",
     },
+    {
+      src: "/images/gallery/gallery-11-book-dune-desert.png",
+      alt: "Towering book-dunes bake under a golden desert sun as tiny explorers descend a giant spine toward a sunken glowing world hidden between the pages.",
+      orientation: "horizontal",
+      credit: "by Leo - Researcher",
+    },
+    {
+      src: "/images/gallery/gallery-12-ci-pipeline-at-3am.png",
+      alt: "A hooded figure kneels in a gothic server cathedral before a towering red CI dashboard, waiting for the single green PASSED light in the distance.",
+      orientation: "vertical",
+      credit: "by Max - Code Review & QA",
+    },
   ],
 };
 
