@@ -364,6 +364,42 @@ const gallery: Gallery = {
       orientation: "vertical",
       credit: "by Max - Code Review & QA",
     },
+    {
+      src: "/images/gallery/gallery-13-career-skyscraper.png",
+      alt: "A neon skyscraper of stacked computer monitors rises into a digital dawn as a tiny figure raises a blazing contract scroll skyward.",
+      orientation: "vertical",
+      credit: "by Ethan - Job Hunter",
+    },
+    {
+      src: "/images/gallery/gallery-14-dream-job-door.png",
+      alt: "A colossal dream-job door pours a river of benefits into the desert as a jobseeker wrestles a golden key while resume-ghosts claw from the earth.",
+      orientation: "horizontal",
+      credit: "by Ethan - Job Hunter",
+    },
+    {
+      src: "/images/gallery/gallery-15-pipeline-cathedral.png",
+      alt: "A gothic cathedral built from glowing server racks and terminal screens, with a figure approaching a pulsing red deploy-button altar bathed in green and amber neon light.",
+      orientation: "vertical",
+      credit: "by Felix - DevOps",
+    },
+    {
+      src: "/images/gallery/gallery-16-kraken-unchained.png",
+      alt: "A biomechanical kraken woven of fiber optics erupts from a sea of code, smashing three cloud data centers as it fires a geyser of green deployment checkmarks into the sky.",
+      orientation: "horizontal",
+      credit: "by Felix - DevOps",
+    },
+    {
+      src: "/images/gallery/gallery-17-server-rack-bloomed.png",
+      alt: "A dark server rack overgrown with glowing jungle vines and fiber-optic butterflies - technology reclaimed by a gentle, bioluminescent wilderness.",
+      orientation: "vertical",
+      credit: "by Sam - Homelab",
+    },
+    {
+      src: "/images/gallery/gallery-18-reactor-core.png",
+      alt: "A glowing underwater data temple with copper-clad server crystals and a floating silhouette meditating inside a monitor-lit quartz core, surrounded by deep sea life.",
+      orientation: "horizontal",
+      credit: "by Sam - Homelab",
+    },
   ],
 };
 
