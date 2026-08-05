@@ -1,11 +1,29 @@
 {
-  "updatedAt": "2026-08-04T13:44:01.546Z",
+  "updatedAt": "2026-08-05T01:25:48.096Z",
   "feeds": [
     {
       "name": "Microsoft Security",
       "tag": "Security",
       "url": "https://www.microsoft.com/security/blog/feed/",
       "items": [
+        {
+          "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+          "date": "Aug 4, 2026",
+          "excerpt": "A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, a"
+        },
+        {
+          "title": "Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
+          "date": "Aug 4, 2026",
+          "excerpt": "Microsoft expands its Zero Trust for AI strategy to enhance security for AI and DevSecOps environments with new tools and guidance. The post Advance Zero Trust for AI: New tools and guidance to secure"
+        },
+        {
+          "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET ",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
+          "date": "Aug 4, 2026",
+          "excerpt": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Micr"
+        },
         {
           "title": "CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
@@ -17,24 +35,6 @@
           "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
           "date": "Jul 30, 2026",
           "excerpt": "This month’s updates help security and IT teams secure their AI environments, use AI to defend, and strengthen the foundations that AI-powered operations depend on. The post ​​​​What’s new in Microsof"
-        },
-        {
-          "title": "​​Better security starts with better questions",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
-          "date": "Jul 29, 2026",
-          "excerpt": "Learn how better questions, trusted AI, and human judgment help security leaders make confident decisions and build resilient systems. The post ​​Better security starts with better questions appeared "
-        },
-        {
-          "title": "Rethinking security for the age of AI",
-          "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
-          "date": "Jul 27, 2026",
-          "excerpt": "The physics of cybersecurity are changing. Introducing security's new cyber stack: Project Perception. The post Rethinking security for the age of AI appeared first on Microsoft Security Blog."
-        },
-        {
-          "title": "Enhancing AI security through global AI red teaming",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
-          "date": "Jul 27, 2026",
-          "excerpt": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional exp"
         }
       ]
     },
@@ -65,34 +65,34 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
-          "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
-          "link": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
+          "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+          "link": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
           "date": "Aug 4, 2026",
-          "excerpt": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]"
+          "excerpt": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and socia"
         },
         {
-          "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
-          "link": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
-          "date": "Aug 3, 2026",
-          "excerpt": "Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager's synced passkeys to take over accounts, bypass user verif"
+          "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+          "link": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+          "date": "Aug 4, 2026",
+          "excerpt": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code executio"
         },
         {
-          "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
-          "link": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
-          "date": "Aug 3, 2026",
-          "excerpt": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately delivering CountLoader to Windows and macOS devices"
+          "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
+          "link": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+          "date": "Aug 4, 2026",
+          "excerpt": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-code phishing targeting Microsoft 365 accounts. [...]"
         },
         {
-          "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
-          "link": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
-          "date": "Aug 3, 2026",
-          "excerpt": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]"
+          "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+          "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+          "date": "Aug 4, 2026",
+          "excerpt": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]"
         },
         {
-          "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
-          "date": "Aug 3, 2026",
-          "excerpt": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]"
+          "title": "77 Open VSX extensions found harvesting developer info",
+          "link": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
+          "date": "Aug 4, 2026",
+          "excerpt": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Cloud giants pour nearly $600B into capex as AI demand surges",
-          "link": "https://www.theregister.com/off-prem/2026/08/04/cloud-giants-pour-nearly-600b-into-capex-as-ai-demand-surges/5282679",
+          "title": "Dev proves LLMs will run on anything – even a $10 microcontroller",
+          "link": "https://www.theregister.com/edge-and-iot/2026/08/04/dev-proves-llms-will-run-on-anything-even-a-10-microcontroller/5283088",
           "date": "Aug 4, 2026",
-          "excerpt": "Revenue is soaring, yet hyperscalers say they still cannot build capacity fast enough"
+          "excerpt": "Nearly 10 tok/s and it's mostly coherent — What's not to like?"
         },
         {
-          "title": "Tennessee congressional hopeful accused of shooting license plate cameras",
-          "link": "https://www.theregister.com/security/2026/08/04/us-house-candidate-allegedly-shoots-down-four-flock-cameras/5282696",
+          "title": "OpenAI wants teachers and profs to foist their work off on ChatGPT",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/04/openai-wants-teachers-and-profs-to-foist-their-work-off-on-chatgpt/5283064",
           "date": "Aug 4, 2026",
-          "excerpt": "Cops arrest budding politician for allegedly dealing with Flock's expansion the American way"
+          "excerpt": "New plugins for K-12 teachers, university instructors, and college kids? Read the room, guys"
         },
         {
-          "title": "CAF Bank reopens online service but warns of further outages",
-          "link": "https://www.theregister.com/security/2026/08/04/caf-bank-reopens-online-service-but-warns-of-further-outages/5282668",
+          "title": "Next.js 16.3 aims to reduce dreaded FATAL ERROR messages",
+          "link": "https://www.theregister.com/devops/2026/08/04/nextjs-163-aims-to-reduce-dreaded-fatal-error-messages/5283036",
           "date": "Aug 4, 2026",
-          "excerpt": "Customers told traffic may be limited at certain times following more than ten days offline"
+          "excerpt": "New React framework lowers memory usage by 90%, team claims"
         },
         {
-          "title": "UK mulls making employers ask before installing bossware",
-          "link": "https://www.theregister.com/software/2026/08/04/uk-mulls-making-employers-ask-before-installing-bossware/5282440",
+          "title": "Bypassing AI guardrails is so easy a script kiddie can do it",
+          "link": "https://www.theregister.com/security/2026/08/04/bypassing-ai-guardrails-is-so-easy-a-script-kiddie-can-do-it/5282973",
           "date": "Aug 4, 2026",
-          "excerpt": "Proposals span AI productivity scores, keystroke logging, biometrics, and other ways to watch workers"
+          "excerpt": "Claiming 'it's my server' was often enough to persuade models to help"
         },
         {
-          "title": "NASA puts astronauts’ lives in the hands of Tesla’s flaky Cybertruck",
-          "link": "https://www.theregister.com/science/2026/08/04/nasa-puts-astronauts-lives-in-the-hands-of-teslas-flaky-cybertruck/5282628",
+          "title": "This one time, at Hacker Summer Camp …",
+          "link": "https://www.theregister.com/security/2026/08/04/this-one-time-at-hacker-summer-camp/5282999",
           "date": "Aug 4, 2026",
-          "excerpt": "Muskmobiles subject to 11 recalls get the launchpad rescue mission currently handled by vehicles that can survive land mine blasts"
+          "excerpt": "What to expect as BSides, Black Hat, and DEF CON descend on Las Vegas"
         }
       ]
     },
