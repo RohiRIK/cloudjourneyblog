@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T01:25:48.096Z",
+  "updatedAt": "2026-08-05T06:18:04.654Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,6 +102,18 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "AI researchers let models off the leash – then watched as they tried to add malware to a FOSS project",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/05/ai-researchers-let-models-off-the-leash-then-watched-as-they-tried-to-add-malware-to-a-foss-project/5283165",
+          "date": "Aug 5, 2026",
+          "excerpt": "Models used social engineering and collaborated among themselves to solve a security challenge"
+        },
+        {
+          "title": "AMD's results spotlight risks of putting all your AI eggs in too few baskets",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/05/amds-results-spotlight-risks-of-putting-all-your-ai-eggs-in-too-few-baskets/5283142",
+          "date": "Aug 5, 2026",
+          "excerpt": "The House of Zen's new Helios racks, Venice Epycs, may dent Nvidia's dominance — if the bubble doesn't pop first"
+        },
+        {
           "title": "Dev proves LLMs will run on anything – even a $10 microcontroller",
           "link": "https://www.theregister.com/edge-and-iot/2026/08/04/dev-proves-llms-will-run-on-anything-even-a-10-microcontroller/5283088",
           "date": "Aug 4, 2026",
@@ -118,18 +130,6 @@
           "link": "https://www.theregister.com/devops/2026/08/04/nextjs-163-aims-to-reduce-dreaded-fatal-error-messages/5283036",
           "date": "Aug 4, 2026",
           "excerpt": "New React framework lowers memory usage by 90%, team claims"
-        },
-        {
-          "title": "Bypassing AI guardrails is so easy a script kiddie can do it",
-          "link": "https://www.theregister.com/security/2026/08/04/bypassing-ai-guardrails-is-so-easy-a-script-kiddie-can-do-it/5282973",
-          "date": "Aug 4, 2026",
-          "excerpt": "Claiming 'it's my server' was often enough to persuade models to help"
-        },
-        {
-          "title": "This one time, at Hacker Summer Camp …",
-          "link": "https://www.theregister.com/security/2026/08/04/this-one-time-at-hacker-summer-camp/5282999",
-          "date": "Aug 4, 2026",
-          "excerpt": "What to expect as BSides, Black Hat, and DEF CON descend on Las Vegas"
         }
       ]
     },
