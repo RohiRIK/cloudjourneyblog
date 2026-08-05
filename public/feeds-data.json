@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T06:18:04.654Z",
+  "updatedAt": "2026-08-05T10:23:14.223Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
+          "title": "Keeping yesterday's computers ticking takes more than nostalgia",
+          "link": "https://www.theregister.com/offbeat/2026/08/05/keeping-yesterdays-computers-ticking-takes-more-than-nostalgia/5282729",
+          "date": "Aug 5, 2026",
+          "excerpt": "Earie Salmon explains why soldering skills are only the start"
+        },
+        {
+          "title": "Double trouble for Microsoft as pre-owned software license claims converge",
+          "link": "https://www.theregister.com/saas/2026/08/05/double-trouble-for-microsoft-as-pre-owned-software-license-claims-converge-1/5282421",
+          "date": "Aug 5, 2026",
+          "excerpt": "Tribunal to explore how £270 million reseller case intersects with multibillion-pound class action"
+        },
+        {
+          "title": "New Boeing finally gets going, 15 years after debut",
+          "link": "https://www.theregister.com/offbeat/2026/08/05/new-boeing-finally-gets-going-15-years-after-debut/5283213",
+          "date": "Aug 5, 2026",
+          "excerpt": "The 737-7 is the smallest of its type, yet it has the longest range"
+        },
+        {
+          "title": "Adding an API to networking hardware doesn’t solve management challenges",
+          "link": "https://www.theregister.com/networks/2026/08/05/adding-an-api-to-networking-hardware-doesnt-solve-management-challenges/5283188",
+          "date": "Aug 5, 2026",
+          "excerpt": "This is why cloud-inspired networks win: virtual switches are all consistent"
+        },
+        {
           "title": "AI researchers let models off the leash – then watched as they tried to add malware to a FOSS project",
           "link": "https://www.theregister.com/ai-and-ml/2026/08/05/ai-researchers-let-models-off-the-leash-then-watched-as-they-tried-to-add-malware-to-a-foss-project/5283165",
           "date": "Aug 5, 2026",
           "excerpt": "Models used social engineering and collaborated among themselves to solve a security challenge"
-        },
-        {
-          "title": "AMD's results spotlight risks of putting all your AI eggs in too few baskets",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/05/amds-results-spotlight-risks-of-putting-all-your-ai-eggs-in-too-few-baskets/5283142",
-          "date": "Aug 5, 2026",
-          "excerpt": "The House of Zen's new Helios racks, Venice Epycs, may dent Nvidia's dominance — if the bubble doesn't pop first"
-        },
-        {
-          "title": "Dev proves LLMs will run on anything – even a $10 microcontroller",
-          "link": "https://www.theregister.com/edge-and-iot/2026/08/04/dev-proves-llms-will-run-on-anything-even-a-10-microcontroller/5283088",
-          "date": "Aug 4, 2026",
-          "excerpt": "Nearly 10 tok/s and it's mostly coherent — What's not to like?"
-        },
-        {
-          "title": "OpenAI wants teachers and profs to foist their work off on ChatGPT",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/04/openai-wants-teachers-and-profs-to-foist-their-work-off-on-chatgpt/5283064",
-          "date": "Aug 4, 2026",
-          "excerpt": "New plugins for K-12 teachers, university instructors, and college kids? Read the room, guys"
-        },
-        {
-          "title": "Next.js 16.3 aims to reduce dreaded FATAL ERROR messages",
-          "link": "https://www.theregister.com/devops/2026/08/04/nextjs-163-aims-to-reduce-dreaded-fatal-error-messages/5283036",
-          "date": "Aug 4, 2026",
-          "excerpt": "New React framework lowers memory usage by 90%, team claims"
         }
       ]
     },
