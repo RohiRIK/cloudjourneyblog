@@ -6,12 +6,14 @@ import {
   Column,
   Heading,
   Line,
+  Media,
   Meta,
   RevealFx,
   Row,
   Schema,
   Text,
 } from "@once-ui-system/core";
+import { withBasePath } from "@/utils/basePath";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -40,6 +42,18 @@ export default function Home() {
         }}
       />
       <Column fillWidth horizontal="center" gap="m">
+        <RevealFx translateY="4" delay={0.1} horizontal="center">
+          <Media
+            priority
+            src={withBasePath(person.avatar)}
+            alt={person.name}
+            aspectRatio="1 / 1"
+            radius="full"
+            border="neutral-alpha-medium"
+            sizes="(max-width: 768px) 112px, 152px"
+            style={{ width: "clamp(112px, 16vw, 152px)" }}
+          />
+        </RevealFx>
         <Column maxWidth="s" horizontal="center" align="center">
           <RevealFx translateY="4" fillWidth horizontal="center" paddingBottom="16">
             <Heading wrap="balance" variant="display-strong-l">
