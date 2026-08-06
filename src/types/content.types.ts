@@ -23,8 +23,10 @@ export type Person = {
   avatar: string;
   /** Email address */
   email: string;
-  /** IANA time zone location */
+  /** IANA time zone used for the clock */
   location: IANATimeZone;
+  /** Visitor-facing location label (privacy-preserving, e.g. "Israel") */
+  locationLabel?: string;
   /** Languages spoken */
   languages?: string[];
 };

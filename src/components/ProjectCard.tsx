@@ -19,6 +19,8 @@ interface ProjectCardProps {
   description: string;
   avatars: { src: string }[];
   link: string;
+  /** Heading level for the card title; defaults to "h2" (top-level lists). */
+  heading?: "h1" | "h2" | "h3";
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -29,6 +31,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   description,
   avatars,
   link,
+  heading = "h2",
 }) => {
   return (
     <Column fillWidth gap="m">
@@ -49,7 +52,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
       >
         {title && (
           <Flex flex={5}>
-            <Heading as="h2" wrap="balance" variant="heading-strong-xl">
+            <Heading as={heading} wrap="balance" variant="heading-strong-xl">
               {title}
             </Heading>
           </Flex>
