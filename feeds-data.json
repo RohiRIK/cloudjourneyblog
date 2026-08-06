@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T20:55:40.646Z",
+  "updatedAt": "2026-08-06T10:25:33.789Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -65,6 +65,18 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "items": [
         {
+          "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
+          "link": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
+          "date": "Aug 5, 2026",
+          "excerpt": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide"
+        },
+        {
+          "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+          "date": "Aug 5, 2026",
+          "excerpt": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of do"
+        },
+        {
           "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
           "link": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
           "date": "Aug 5, 2026",
@@ -81,18 +93,6 @@
           "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
           "date": "Aug 5, 2026",
           "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]"
-        },
-        {
-          "title": "Google Blogger locks hundreds of blogs in malware false positive",
-          "link": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
-          "date": "Aug 5, 2026",
-          "excerpt": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" policy, with some sites deleted from the platform. [...]"
-        },
-        {
-          "title": "How AI-powered phishing killed blocklists for good",
-          "link": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
-          "date": "Aug 5, 2026",
-          "excerpt": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Security explains why browser-level, technique-based dete"
         }
       ]
     },
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "Elon pledges to give Nvidia a virtual monopoly over the stars",
-          "link": "https://www.theregister.com/systems/2026/08/05/elon-pledges-to-give-nvidia-a-virtual-monopoly-over-the-stars/5283605",
-          "date": "Aug 5, 2026",
-          "excerpt": "In space, no one can hear you scream when the LLMs hallucinate"
+          "title": "News Corp labels some AI companies 'crass kleptomaniacs'",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/06/news-corp-labels-some-ai-companies-crass-kleptomaniacs/5283848",
+          "date": "Aug 6, 2026",
+          "excerpt": "Pay it for content, like OpenAI and Meta, to become 'principled' and 'honorable'"
         },
         {
-          "title": "IBM's agentic AI platform is under active attack - patch now",
-          "link": "https://www.theregister.com/security/2026/08/05/ibms-agentic-ai-platform-is-under-active-attack-patch-now/5283535",
-          "date": "Aug 5, 2026",
-          "excerpt": "A critical Langflow flaw allowing RCE on default deployments is being exploited, says the CISA"
+          "title": "Azure CTO pastes Doom into Paint one frame at a time",
+          "link": "https://www.theregister.com/offbeat/2026/08/06/azure-cto-pastes-doom-into-paint-one-frame-at-a-time/5283559",
+          "date": "Aug 6, 2026",
+          "excerpt": "It computes nothing, renders everything, and even has sound"
         },
         {
-          "title": "Samsung and Mousterian move ahead with floating datacenter for Texas",
-          "link": "https://www.theregister.com/on-prem/2026/08/05/samsung-and-mousterian-move-ahead-with-floating-datacenter-for-texas/5283505",
-          "date": "Aug 5, 2026",
-          "excerpt": "But bobbing bit barn may be becalmed by state governor's moratorium on connecting to the grid"
+          "title": "HPE extends validity of quoted hardware prices, possibly for months",
+          "link": "https://www.theregister.com/systems/2026/08/06/hpe-extends-validity-of-quoted-hardware-prices-possibly-for-months/5283817",
+          "date": "Aug 6, 2026",
+          "excerpt": "Suggests Big Green knows its component prices will remain steady"
         },
         {
-          "title": "Microsoft tells engineers to curb their token-burning enthusiasm",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/05/microsoft-tells-engineers-to-curb-their-token-burning-enthusiasm/5283482",
-          "date": "Aug 5, 2026",
-          "excerpt": "Redmond wants results from Copilot, not impressive-looking consumption figures"
+          "title": "Chinese router vendor denies its firmware contains backdoors – but pauses downloads to fix security issues anyway",
+          "link": "https://www.theregister.com/security/2026/08/06/chinese-router-vendor-denies-its-firmware-contains-backdoors-but-pauses-downloads-to-fix-security-issues-anyway/5283794",
+          "date": "Aug 6, 2026",
+          "excerpt": "It’s just a remote maintenance function, says Zbtlink"
         },
         {
-          "title": "Operationalize AI at scale with HPE and NVIDIA",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/05/sponsored-operational-ai-at-scale-with-hpe-and-nvidia/5282929",
-          "date": "Aug 5, 2026",
-          "excerpt": "SPONSORED POST: The AI factory concept encompasses the new AI stack, explain HPE’s Thierry Pienaar and NVIDIA’s Kaushik Shirhatti"
+          "title": "Proxmox ports itself to Arm with help from Nvidia and Supermicro",
+          "link": "https://www.theregister.com/virtualization/2026/08/06/proxmox-ports-itself-to-arm-with-help-from-nvidia-and-supermicro/5283770",
+          "date": "Aug 6, 2026",
+          "excerpt": "VMware competitor aiming for the AI datacenter"
         }
       ]
     },
