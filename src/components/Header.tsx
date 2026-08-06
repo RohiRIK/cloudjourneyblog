@@ -73,7 +73,7 @@ export const Header = () => {
         }}
       >
         <Row paddingLeft="12" fillWidth vertical="center" textVariant="body-default-s">
-          {display.location && <Row s={{ hide: true }}>{person.location}</Row>}
+          {display.location && <Row s={{ hide: true }}>{person.locationLabel}</Row>}
         </Row>
         <Row fillWidth horizontal="center">
           <Row
@@ -87,7 +87,12 @@ export const Header = () => {
           >
             <Row gap="4" vertical="center" textVariant="body-default-s" suppressHydrationWarning>
               {routes["/"] && (
-                <ToggleButton prefixIcon="home" href="/" selected={pathname === "/"} />
+                <ToggleButton
+                  prefixIcon="home"
+                  href="/"
+                  aria-label="Home"
+                  selected={pathname === "/"}
+                />
               )}
               <Line background="neutral-alpha-medium" vert maxHeight="24" />
               {routes["/blog"] && (
@@ -104,6 +109,7 @@ export const Header = () => {
                     <ToggleButton
                       prefixIcon="book"
                       href="/blog"
+                      aria-label={blog.label}
                       selected={pathname.startsWith("/blog")}
                     />
                   </Row>
@@ -123,6 +129,7 @@ export const Header = () => {
                     <ToggleButton
                       prefixIcon="cpu"
                       href={agentStack.path}
+                      aria-label={agentStack.label}
                       selected={pathname === agentStack.path}
                     />
                   </Row>
@@ -142,6 +149,7 @@ export const Header = () => {
                     <ToggleButton
                       prefixIcon="grid"
                       href="/work"
+                      aria-label={work.label}
                       selected={pathname.startsWith("/work")}
                     />
                   </Row>
@@ -161,6 +169,7 @@ export const Header = () => {
                     <ToggleButton
                       prefixIcon="person"
                       href="/about"
+                      aria-label={about.label}
                       selected={pathname === "/about"}
                     />
                   </Row>
@@ -180,6 +189,7 @@ export const Header = () => {
                     <ToggleButton
                       prefixIcon="gallery"
                       href="/gallery"
+                      aria-label={gallery.label}
                       selected={pathname.startsWith("/gallery")}
                     />
                   </Row>

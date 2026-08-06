@@ -1,21 +1,17 @@
+import { Posts } from "@/components/blog/Posts";
+import { Projects } from "@/components/work/Projects";
+import { about, agentStack, baseURL, home, person, routes, social } from "@/resources";
 import {
-  Heading,
-  Text,
   Button,
-  Avatar,
-  RevealFx,
   Column,
-  Badge,
+  Heading,
+  Line,
+  Meta,
+  RevealFx,
   Row,
   Schema,
-  Meta,
-  Line,
+  Text,
 } from "@once-ui-system/core";
-import { home, about, blog, person, baseURL, routes, agentStack } from "@/resources";
-import { withBasePath } from "@/utils/basePath";
-import { Mailchimp } from "@/components";
-import { Projects } from "@/components/work/Projects";
-import { Posts } from "@/components/blog/Posts";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -45,27 +41,6 @@ export default function Home() {
       />
       <Column fillWidth horizontal="center" gap="m">
         <Column maxWidth="s" horizontal="center" align="center">
-          {home.featured.display && (
-            <RevealFx
-              fillWidth
-              horizontal="center"
-              paddingTop="16"
-              paddingBottom="32"
-              paddingLeft="12"
-            >
-              <Badge
-                background="brand-alpha-weak"
-                paddingX="12"
-                paddingY="4"
-                onBackground="neutral-strong"
-                textVariant="label-default-s"
-                arrow={false}
-                href={home.featured.href}
-              >
-                <Row paddingY="2">{home.featured.title}</Row>
-              </Badge>
-            </RevealFx>
-          )}
           <RevealFx translateY="4" fillWidth horizontal="center" paddingBottom="16">
             <Heading wrap="balance" variant="display-strong-l">
               {home.headline}
@@ -78,88 +53,34 @@ export default function Home() {
           </RevealFx>
           <RevealFx paddingTop="12" delay={0.4} horizontal="center" paddingLeft="12">
             <Row gap="12" wrap horizontal="center">
-              <Button
-                id="about"
-                data-border="rounded"
-                href={about.path}
-                variant="tertiary"
-                size="m"
-                weight="default"
-                arrowIcon
-              >
-                <Row gap="8" vertical="center" paddingRight="4">
-                  {about.avatar.display && (
-                    <Avatar
-                      marginRight="8"
-                      style={{ marginLeft: "-0.75rem" }}
-                      src={withBasePath(person.avatar)}
-                      size="m"
-                    />
-                  )}
-                  {about.title}
-                </Row>
+              <Button href="#selected-work" variant="primary" size="l" arrowIcon>
+                See selected work
               </Button>
-              {routes["/blog"] && (
-                <Button
-                  id="blog"
-                  data-border="rounded"
-                  href={blog.path}
-                  variant="secondary"
-                  size="m"
-                  weight="default"
-                  arrowIcon
-                >
-                  Read the blog
-                </Button>
-              )}
+              <Button href={about.path} variant="secondary" size="l" arrowIcon>
+                About
+              </Button>
             </Row>
           </RevealFx>
         </Column>
       </Column>
-      {routes["/blog"] && (
-        <Column fillWidth gap="24" marginBottom="l">
-          <Row fillWidth paddingRight="64">
-            <Line maxWidth={48} />
-          </Row>
-          <Row fillWidth gap="24" marginTop="40" s={{ direction: "column" }}>
-            <Row flex={1} paddingLeft="l" paddingTop="24">
-              <Heading as="h2" variant="display-strong-xs" wrap="balance">
-                Latest writing
-              </Heading>
-            </Row>
-            <Row flex={3} paddingX="20">
-              <Posts range={[1, 3]} columns="2" />
-            </Row>
-          </Row>
-          <Row fillWidth paddingLeft="64" horizontal="end">
-            <Line maxWidth={48} />
-          </Row>
-        </Column>
-      )}
-      <Column fillWidth gap="24" marginBottom="l">
+      <Column id="selected-work" fillWidth gap="24" marginBottom="l">
         <Row fillWidth paddingRight="64">
           <Line maxWidth={48} />
         </Row>
         <Row fillWidth gap="24" marginTop="40" s={{ direction: "column" }}>
           <Row flex={1} paddingLeft="l" paddingTop="24">
             <Heading as="h2" variant="display-strong-xs" wrap="balance">
-              Things I've built
+              Selected work
             </Heading>
           </Row>
           <Row flex={3} paddingX="20">
             <Projects
-              range={[1, 3]}
-              exclude={[
-                "fleetwatch",
-                "personal-coffeshop",
-                "air-quality-automation",
-                "unix-update-automator",
-                "homelab-swarm-stack",
-                "dev-team",
+              include={[
+                "zero-trust-endpoint-hardening",
                 "n8n-automation-workflows",
                 "device-inventory-analytics",
-                "doc-crawler-ai-organizer",
               ]}
+              heading="h3"
             />
           </Row>
         </Row>
@@ -178,8 +99,8 @@ export default function Home() {
                 Meet the Agent Stack
               </Heading>
               <Text onBackground="neutral-weak" wrap="balance">
-                The bounded specialist fleet behind research, implementation, operations, review, and
-                decision support — with human approval for consequential actions.
+                The bounded specialist fleet behind research, implementation, operations, review,
+                and decision support — with human approval for consequential actions.
               </Text>
               <Button href={agentStack.path} variant="secondary" size="m" arrowIcon>
                 Explore the fleet
@@ -197,7 +118,59 @@ export default function Home() {
           </Row>
         </Column>
       )}
-      <Mailchimp />
+      {routes["/blog"] && (
+        <Column fillWidth gap="24" marginBottom="l">
+          <Row fillWidth paddingRight="64">
+            <Line maxWidth={48} />
+          </Row>
+          <Row fillWidth gap="24" marginTop="40" s={{ direction: "column" }}>
+            <Row flex={1} paddingLeft="l" paddingTop="24">
+              <Heading as="h2" variant="display-strong-xs" wrap="balance">
+                Selected writing
+              </Heading>
+            </Row>
+            <Row flex={3} paddingX="20">
+              <Posts range={[1, 1]} columns="1" />
+            </Row>
+          </Row>
+          <Row fillWidth paddingLeft="64" horizontal="end">
+            <Line maxWidth={48} />
+          </Row>
+        </Column>
+      )}
+      <Column fillWidth gap="24" marginBottom="l" horizontal="center" align="center">
+        <Row fillWidth paddingRight="64" horizontal="center">
+          <Line maxWidth={48} />
+        </Row>
+        <Heading as="h2" variant="display-strong-xs" wrap="balance" align="center" marginTop="40">
+          Get in touch
+        </Heading>
+        <Text wrap="balance" onBackground="neutral-weak" variant="body-default-l" align="center">
+          GitHub for code, LinkedIn for work, email for anything else.
+        </Text>
+        <Row gap="12" wrap horizontal="center" paddingTop="8">
+          {social
+            .filter((item) => item.essential)
+            .map(
+              (item) =>
+                item.link && (
+                  <Button
+                    key={item.name}
+                    href={item.link}
+                    prefixIcon={item.icon}
+                    variant="secondary"
+                    size="m"
+                    weight="default"
+                  >
+                    {item.name}
+                  </Button>
+                ),
+            )}
+        </Row>
+        <Row fillWidth paddingLeft="64" horizontal="end">
+          <Line maxWidth={48} />
+        </Row>
+      </Column>
     </Column>
   );
 }
