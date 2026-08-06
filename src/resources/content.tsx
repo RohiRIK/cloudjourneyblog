@@ -217,6 +217,17 @@ const about: About = {
     title: "Outside the Terminal",
     items: [
       {
+        title: "Coffee",
+        description: (
+          <>
+            I pull shots on an ECM Mechanika with the same obsessiveness I bring to query tuning —
+            small adjustments, immediate feedback, trying to understand what changed and why. I've
+            been chasing a specific extraction for months. It's a good problem.
+          </>
+        ),
+        icon: "coffee",
+      },
+      {
         title: "Training",
         description: (
           <>
@@ -236,6 +247,16 @@ const about: About = {
           </>
         ),
         icon: "wrench",
+      },
+      {
+        title: "Garden",
+        description: (
+          <>
+            I’m starting a home garden — a slow, hands-on project with real feedback, seasonal
+            constraints, and plenty to learn along the way.
+          </>
+        ),
+        icon: "garden",
       },
     ],
   },

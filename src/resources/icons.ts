@@ -34,7 +34,22 @@ import {
   SiSupabase,
 } from "react-icons/si";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
+import { LuCoffee, LuSprout } from "react-icons/lu";
+
+import {
+  FaDiscord,
+  FaGithub,
+  FaLinkedin,
+  FaX,
+  FaThreads,
+  FaInstagram,
+  FaXTwitter,
+  FaFacebook,
+  FaPinterest,
+  FaWhatsapp,
+  FaReddit,
+  FaTelegram,
+} from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -62,6 +77,8 @@ export const iconLibrary: Record<string, IconType> = {
   shield: HiOutlineShieldCheck,
   terminal: HiOutlineCommandLine,
   cog: HiOutlineCog6Tooth,
+  coffee: LuCoffee,
+  garden: LuSprout,
   cpu: HiOutlineCpuChip,
   wrench: HiOutlineWrenchScrewdriver,
   javascript: SiJavascript,

@@ -54,6 +54,7 @@ const readyPortraitSlugs = new Set([
   "bob",
   "ada",
   "alex",
+  "sam",
   "ella",
   "felix",
   "franz",
@@ -63,6 +64,7 @@ const readyPortraitSlugs = new Set([
   "leo",
   "marco",
   "max",
+  "sofia",
 ]);
 
 const portrait = (slug: string, name: string) => ({
