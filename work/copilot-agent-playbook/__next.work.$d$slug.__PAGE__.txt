@@ -1,18 +1,18 @@
 1:"$Sreact.fragment"
-2:I[273323,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
-3:I[479520,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],""]
-4:I[624379,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"SmartLink"]
-5:I[778454,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
-6:I[571045,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"AvatarGroup"]
-7:I[811052,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"HeadingLink"]
-8:I[436122,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"List"]
-9:I[626935,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ListItem"]
-f:I[311451,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Line"]
-10:I[474855,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
-22:I[988654,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
+2:I[273323,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
+3:I[479520,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],""]
+4:I[624379,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"SmartLink"]
+5:I[778454,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
+6:I[571045,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"AvatarGroup"]
+7:I[811052,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"HeadingLink"]
+8:I[436122,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"List"]
+9:I[626935,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ListItem"]
+f:I[311451,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Line"]
+10:I[474855,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
+22:I[988654,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
 23:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 24:"$Sreact.suspense"
-0:{"buildId":"V_whUKhuG83WmZbo-c3YS","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/copilot-agent-playbook","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work/copilot-agent-playbook\",\"sameAs\":[],\"headline\":\"Copilot Agent Playbook\",\"description\":\"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"datePublished\":\"2026-04-26\",\"dateModified\":\"2026-04-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 26, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Copilot Agent Playbook"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[]}]]}]}],false,["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-this-is","children":"What this is"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"A collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-s-in-it","children":"What's in it"}],"\n",["$","$L8",null,{"as":"ul","children":["\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Knowledge base agents"}]," — Search, summarize, and surface information from SharePoint, Teams, and external sources"]}],"\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Security agents"}]," — Monitor for threats, enrich alerts, automate incident response"]}],"\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"IT ops agents"}]," — Handle password resets, license requests, device triage"]}],"\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Sales enablement"}]," — Customer intelligence, meeting prep, proposal assistance"]}],"\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"HR agents"}]," — Onboarding, policy Q&A, benefits navigation"]}],"\n"]}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-it-matters","children":"Why it matters"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Copilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"stack","children":"Stack"}],"\n",["$","$L8",null,{"as":"ul","children":["\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Microsoft 365 Copilot"}],"\n","$La","\n","$Lb","\n"]}]]}],"$Lc","$Ld"]}],null,"$Le"]}],"loading":null,"isPartial":false}
+0:{"buildId":"GZ58HKbPjQD404MiwemHT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/copilot-agent-playbook","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work/copilot-agent-playbook\",\"sameAs\":[],\"headline\":\"Copilot Agent Playbook\",\"description\":\"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"datePublished\":\"2026-04-26\",\"dateModified\":\"2026-04-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 26, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Copilot Agent Playbook"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[]}]]}]}],false,["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-this-is","children":"What this is"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"A collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-s-in-it","children":"What's in it"}],"\n",["$","$L8",null,{"as":"ul","children":["\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Knowledge base agents"}]," — Search, summarize, and surface information from SharePoint, Teams, and external sources"]}],"\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Security agents"}]," — Monitor for threats, enrich alerts, automate incident response"]}],"\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"IT ops agents"}]," — Handle password resets, license requests, device triage"]}],"\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Sales enablement"}]," — Customer intelligence, meeting prep, proposal assistance"]}],"\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"HR agents"}]," — Onboarding, policy Q&A, benefits navigation"]}],"\n"]}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-it-matters","children":"Why it matters"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Copilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"stack","children":"Stack"}],"\n",["$","$L8",null,{"as":"ul","children":["\n",["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Microsoft 365 Copilot"}],"\n","$La","\n","$Lb","\n"]}]]}],"$Lc","$Ld"]}],null,"$Le"]}],"loading":null,"isPartial":false}
 a:["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Microsoft Graph API"}]
 b:["$","$L9",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Azure AI Studio"}]
 11:T10a2,
@@ -77,7 +77,7 @@ I also initially tried to make it too autonomous. Fully automated playbook execu
 ## Results (personal use)
 
 Triage time on familiar alert types dropped significantly — the lookup work that was eating 15-30 minutes now takes seconds. For novel or complex incidents I still do full manual investigation, which is the right call. The assistant is a first-pass filter, not a replacement for thinking.
-c:["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$Lf",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L10","m365-cli",{"priority":true,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}],["$","$L10","project-aegis",{"priority":true,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$11","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}],"$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21"]}]]}]
+c:["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$Lf",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L10","m365-cli",{"priority":true,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli","heading":"h2"}],["$","$L10","project-aegis",{"priority":true,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$11","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis","heading":"h2"}],"$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21"]}]]}]
 d:["$","$L22",null,{}]
 e:["$","$L23",null,{"children":["$","$24",null,{"name":"Next.MetadataOutlet","children":"$@25"}]}]
 26:T5f0,
@@ -107,7 +107,7 @@ Working with large Intune environments at Oncloud, the native portal was consist
 - PostgreSQL with GIN/B-Tree indexes
 - Microsoft Graph SDK
 - Vercel
-12:["$","$L10","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$26","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch"}]
+12:["$","$L10","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$26","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch","heading":"h2"}]
 27:T71c,
 ## What this is
 
@@ -135,7 +135,7 @@ Also: the first version had a bug where two guests placing orders within millise
 - Bun
 - Firebase Firestore (real-time)
 - PWA
-13:["$","$L10","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$27","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop"}]
+13:["$","$L10","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$27","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop","heading":"h2"}]
 28:T749,
 ## What this was
 
@@ -164,7 +164,7 @@ A subset of devices had been enrolled in JumpCloud via a method that left a pers
 - Windows Autopilot
 - Apple Business Manager
 - PowerShell & Microsoft Graph API
-14:["$","$L10","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$28","avatars":[],"link":""}]
+14:["$","$L10","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$28","avatars":[],"link":"","heading":"h2"}]
 29:T6db,
 ## What this was
 
@@ -191,7 +191,7 @@ The data migration took longer than scoped. The client's Google Drive was far me
 - Google Workspace APIs
 - Microsoft Graph API
 - PowerShell
-15:["$","$L10","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$29","avatars":[],"link":""}]
+15:["$","$L10","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$29","avatars":[],"link":"","heading":"h2"}]
 2a:T9e2,
 ## What this is
 
@@ -233,7 +233,7 @@ It's not magic — it's just configuration that enforces the workflow I actually
 - CLAUDE.md (global + per-project)
 - Session context (4 markdown files per project)
 - Custom agents + skills
-16:["$","$L10","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$2a","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config"}]
+16:["$","$L10","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$2a","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config","heading":"h2"}]
 2b:T748,
 ## What this was
 
@@ -263,7 +263,7 @@ Conditional Access is easy to get wrong in both directions. The first FIDO2 roll
 - Microsoft Entra ID
 - Defender for Endpoint (XDR)
 - PowerShell & Microsoft Graph API
-17:["$","$L10","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$2b","avatars":[],"link":""}]
+17:["$","$L10","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$2b","avatars":[],"link":"","heading":"h2"}]
 2c:T5cd,
 ## What this is
 
@@ -287,7 +287,7 @@ Profile photo sync sounds like a small thing, but it touches identity data for e
 - Microsoft Graph API
 - HiBob API
 - Compatible with Azure Automation, GitHub Actions, or local CRON
-18:["$","$L10","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$2c","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync"}]
+18:["$","$L10","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$2c","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync","heading":"h2"}]
 2d:T69a,
 ## What this is
 
@@ -319,7 +319,7 @@ Node.js workers run continuous sync from Microsoft Graph, pulling device state a
 - OpenSearch (AWS Managed)
 - TypeScript / Node.js
 - Microsoft Graph API
-19:["$","$L10","device-inventory-analytics",{"priority":false,"href":"/work/device-inventory-analytics","images":[],"title":"Device Inventory Analytics","description":"A high-scale device analytics platform for large Intune environments — OpenSearch-powered full-text search, compliance heatmaps, and aggregated reporting across 50,000+ assets.","content":"$2d","avatars":[],"link":""}]
+19:["$","$L10","device-inventory-analytics",{"priority":false,"href":"/work/device-inventory-analytics","images":[],"title":"Device Inventory Analytics","description":"A high-scale device analytics platform for large Intune environments — OpenSearch-powered full-text search, compliance heatmaps, and aggregated reporting across 50,000+ assets.","content":"$2d","avatars":[],"link":"","heading":"h2"}]
 2e:T70d,
 ## What this is
 
@@ -346,7 +346,7 @@ n8n is genuinely good for this kind of work but error handling in production req
 - Microsoft Graph API
 - Microsoft Sentinel
 - HiBob, VirusTotal, AbuseIPDB APIs
-1a:["$","$L10","n8n-automation-workflows",{"priority":false,"href":"/work/n8n-automation-workflows","images":[],"title":"n8n Automation Workflows","description":"A library of n8n workflows built for real SecOps and IT ops use cases — alert enrichment, identity lifecycle, license auditing, and incident notification.","content":"$2e","avatars":[],"link":"https://github.com/RohiRIK/n8n"}]
+1a:["$","$L10","n8n-automation-workflows",{"priority":false,"href":"/work/n8n-automation-workflows","images":[],"title":"n8n Automation Workflows","description":"A library of n8n workflows built for real SecOps and IT ops use cases — alert enrichment, identity lifecycle, license auditing, and incident notification.","content":"$2e","avatars":[],"link":"https://github.com/RohiRIK/n8n","heading":"h2"}]
 2f:T6af,
 ## What this is
 
@@ -378,7 +378,7 @@ Keeping RAG datasets current for Project Aegis. Documentation changes — API re
 - Firecrawl (headless browser crawling)
 - Markdown with YAML frontmatter
 - Compatible with LangChain and LlamaIndex pipelines
-1b:["$","$L10","doc-crawler-ai-organizer",{"priority":false,"href":"/work/doc-crawler-ai-organizer","images":[],"title":"Doc-Crawler AI","description":"A documentation pipeline that crawls technical docs sites and converts them to clean, structured Markdown optimized for RAG ingestion — handles SPAs, strips noise, preserves heading hierarchy.","content":"$2f","avatars":[],"link":"https://github.com/RohiRIK/doc-crawler-ai-organizer"}]
+1b:["$","$L10","doc-crawler-ai-organizer",{"priority":false,"href":"/work/doc-crawler-ai-organizer","images":[],"title":"Doc-Crawler AI","description":"A documentation pipeline that crawls technical docs sites and converts them to clean, structured Markdown optimized for RAG ingestion — handles SPAs, strips noise, preserves heading hierarchy.","content":"$2f","avatars":[],"link":"https://github.com/RohiRIK/doc-crawler-ai-organizer","heading":"h2"}]
 30:T63c,
 ## What this is
 
@@ -416,7 +416,7 @@ Position the BME680 away from the Orange Pi's CPU. I didn't, and the first week 
 - Docker & Docker Compose
 - Orange Pi 3 LTS (ARM64)
 - Bosch BME680 via I2C
-1c:["$","$L10","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$30","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation"}]
+1c:["$","$L10","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$30","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation","heading":"h2"}]
 31:T647,
 ## What this is
 
@@ -441,7 +441,7 @@ Most existing solutions are either too opinionated (full configuration managemen
 - Bash
 - `flock`, `getopt`, `mail`
 - apt, dnf, pacman, zypper, brew, npm, pip
-1d:["$","$L10","unix-update-automator",{"priority":false,"href":"/work/unix-update-automator","images":[],"title":"Unix Update Automator","description":"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.","content":"$31","avatars":[],"link":"https://github.com/RohiRIK/unix-update-automator"}]
+1d:["$","$L10","unix-update-automator",{"priority":false,"href":"/work/unix-update-automator","images":[],"title":"Unix Update Automator","description":"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.","content":"$31","avatars":[],"link":"https://github.com/RohiRIK/unix-update-automator","heading":"h2"}]
 32:T71f,
 ## What this is
 
@@ -475,7 +475,7 @@ It's not a full system configuration management setup. No Ansible, no Nix. If I 
 - GNU Stow (symlink management)
 - Homebrew + Brewfile
 - Starship prompt
-1e:["$","$L10","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$32","avatars":[],"link":"https://github.com/RohiRIK/dotfiles"}]
+1e:["$","$L10","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$32","avatars":[],"link":"https://github.com/RohiRIK/dotfiles","heading":"h2"}]
 33:T6a9,
 ## What this is
 
@@ -503,7 +503,7 @@ Whether specialized agents produce meaningfully better results than a single age
 - Google Gemini SDK
 - Model Context Protocol (MCP)
 - TypeScript
-1f:["$","$L10","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$33","avatars":[],"link":"https://github.com/RohiRIK/dev-team"}]
+1f:["$","$L10","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$33","avatars":[],"link":"https://github.com/RohiRIK/dev-team","heading":"h2"}]
 34:T7a4,
 ## What this is
 
@@ -538,7 +538,7 @@ The first version had everything in one large Compose file. Adding a new service
 - Traefik
 - Infisical
 - Ubuntu Server / Portainer
-20:["$","$L10","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$34","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack"}]
+20:["$","$L10","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$34","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack","heading":"h2"}]
 35:T63c,
 ## What this is
 
@@ -570,5 +570,5 @@ Work in progress. Core identity and license commands are solid. Adding modules f
 - TypeScript
 - Commander.js
 - Microsoft Graph SDK
-21:["$","$L10","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$35","avatars":[],"link":"https://github.com/RohiRIK/o365-cli"}]
+21:["$","$L10","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$35","avatars":[],"link":"https://github.com/RohiRIK/o365-cli","heading":"h2"}]
 25:null

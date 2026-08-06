@@ -1,18 +1,18 @@
 1:"$Sreact.fragment"
-2:I[273323,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
-3:I[479520,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],""]
-4:I[624379,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"SmartLink"]
-5:I[778454,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
-6:I[571045,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"AvatarGroup"]
-7:I[811052,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"HeadingLink"]
-11:I[436122,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"List"]
-12:I[626935,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ListItem"]
-13:I[311451,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Line"]
-14:I[474855,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
-26:I[988654,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
+2:I[273323,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
+3:I[479520,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],""]
+4:I[624379,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"SmartLink"]
+5:I[778454,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
+6:I[571045,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"AvatarGroup"]
+7:I[811052,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"HeadingLink"]
+11:I[436122,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"List"]
+12:I[626935,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ListItem"]
+13:I[311451,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Line"]
+14:I[474855,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
+26:I[988654,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
 27:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 28:"$Sreact.suspense"
-0:{"buildId":"V_whUKhuG83WmZbo-c3YS","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/doc-crawler-ai-organizer","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work/doc-crawler-ai-organizer\",\"sameAs\":[],\"headline\":\"Doc-Crawler AI\",\"description\":\"A documentation pipeline that crawls technical docs sites and converts them to clean, structured Markdown optimized for RAG ingestion — handles SPAs, strips noise, preserves heading hierarchy.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"datePublished\":\"2025-12-16\",\"dateModified\":\"2025-12-16\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 16, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Doc-Crawler AI"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[]}]]}]}],false,["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-this-is","children":"What this is"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"A pipeline tool I built to solve a recurring problem with RAG systems: the source data quality. Embedding documentation that still has navigation bars, cookie banners, and sidebar content mixed in produces retrieval results that are noisier than they should be."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This tool crawls a documentation site and outputs clean, structured Markdown that's actually ready to embed."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-pipeline","children":"The pipeline"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Discover"}]," — maps the site using sitemaps and recursive link discovery."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Crawl"}]," — uses Firecrawl to handle JavaScript-heavy documentation sites (SPAs that don't render content without JS execution are a common problem for simple scrapers)."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Clean"}]," — strips navigation, footers, sidebars, and other non-content elements. Preserves code blocks, heading hierarchy, and inline formatting."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Export"}]," — outputs Markdown with YAML frontmatter including source URL, crawl timestamp, and category tags."]}],"\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld"]}],"$Le","$Lf"]}],null,"$L10"]}],"loading":null,"isPartial":false}
+0:{"buildId":"GZ58HKbPjQD404MiwemHT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/doc-crawler-ai-organizer","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work/doc-crawler-ai-organizer\",\"sameAs\":[],\"headline\":\"Doc-Crawler AI\",\"description\":\"A documentation pipeline that crawls technical docs sites and converts them to clean, structured Markdown optimized for RAG ingestion — handles SPAs, strips noise, preserves heading hierarchy.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"datePublished\":\"2025-12-16\",\"dateModified\":\"2025-12-16\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 16, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Doc-Crawler AI"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[]}]]}]}],false,["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-this-is","children":"What this is"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"A pipeline tool I built to solve a recurring problem with RAG systems: the source data quality. Embedding documentation that still has navigation bars, cookie banners, and sidebar content mixed in produces retrieval results that are noisier than they should be."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This tool crawls a documentation site and outputs clean, structured Markdown that's actually ready to embed."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"the-pipeline","children":"The pipeline"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Discover"}]," — maps the site using sitemaps and recursive link discovery."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Crawl"}]," — uses Firecrawl to handle JavaScript-heavy documentation sites (SPAs that don't render content without JS execution are a common problem for simple scrapers)."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Clean"}]," — strips navigation, footers, sidebars, and other non-content elements. Preserves code blocks, heading hierarchy, and inline formatting."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Export"}]," — outputs Markdown with YAML frontmatter including source URL, crawl timestamp, and category tags."]}],"\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld"]}],"$Le","$Lf"]}],null,"$L10"]}],"loading":null,"isPartial":false}
 8:["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-heading-hierarchy-matters","children":"Why heading hierarchy matters"}]
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"RAG systems chunk documents before embedding. If a chunk loses its heading context — if you can't tell what section a paragraph belongs to — retrieval becomes less accurate because the chunk looks the same whether it's a warning note or a main concept. Preserving the heading structure makes chunking strategies more effective."}]
 a:["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-i-use-it-for","children":"What I use it for"}]
@@ -74,7 +74,7 @@ It's not about working less — it's about knowing when you're done.
 - Swift / SwiftUI
 - AppKit for menu bar integration
 - launchd for background scheduling
-- UserDefaults for local persistencee:["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L13",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L14","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$15","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest"}],["$","$L14","m365-cli",{"priority":true,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}],"$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25"]}]]}]
+- UserDefaults for local persistencee:["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L13",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L14","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$15","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest","heading":"h2"}],["$","$L14","m365-cli",{"priority":true,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli","heading":"h2"}],"$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25"]}]]}]
 f:["$","$L26",null,{}]
 10:["$","$L27",null,{"children":["$","$28",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
 2a:T10a2,
@@ -139,7 +139,7 @@ I also initially tried to make it too autonomous. Fully automated playbook execu
 ## Results (personal use)
 
 Triage time on familiar alert types dropped significantly — the lookup work that was eating 15-30 minutes now takes seconds. For novel or complex incidents I still do full manual investigation, which is the right call. The assistant is a first-pass filter, not a replacement for thinking.
-16:["$","$L14","project-aegis",{"priority":false,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$2a","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}]
+16:["$","$L14","project-aegis",{"priority":false,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$2a","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis","heading":"h2"}]
 2b:T5f0,
 ## What this is
 
@@ -167,7 +167,7 @@ Working with large Intune environments at Oncloud, the native portal was consist
 - PostgreSQL with GIN/B-Tree indexes
 - Microsoft Graph SDK
 - Vercel
-17:["$","$L14","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$2b","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch"}]
+17:["$","$L14","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$2b","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch","heading":"h2"}]
 2c:T71c,
 ## What this is
 
@@ -195,7 +195,7 @@ Also: the first version had a bug where two guests placing orders within millise
 - Bun
 - Firebase Firestore (real-time)
 - PWA
-18:["$","$L14","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$2c","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop"}]
+18:["$","$L14","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$2c","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop","heading":"h2"}]
 2d:T749,
 ## What this was
 
@@ -224,7 +224,7 @@ A subset of devices had been enrolled in JumpCloud via a method that left a pers
 - Windows Autopilot
 - Apple Business Manager
 - PowerShell & Microsoft Graph API
-19:["$","$L14","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$2d","avatars":[],"link":""}]
+19:["$","$L14","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$2d","avatars":[],"link":"","heading":"h2"}]
 2e:T6db,
 ## What this was
 
@@ -251,7 +251,7 @@ The data migration took longer than scoped. The client's Google Drive was far me
 - Google Workspace APIs
 - Microsoft Graph API
 - PowerShell
-1a:["$","$L14","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$2e","avatars":[],"link":""}]
+1a:["$","$L14","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$2e","avatars":[],"link":"","heading":"h2"}]
 2f:T9e2,
 ## What this is
 
@@ -293,7 +293,7 @@ It's not magic — it's just configuration that enforces the workflow I actually
 - CLAUDE.md (global + per-project)
 - Session context (4 markdown files per project)
 - Custom agents + skills
-1b:["$","$L14","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$2f","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config"}]
+1b:["$","$L14","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$2f","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config","heading":"h2"}]
 30:T748,
 ## What this was
 
@@ -323,7 +323,7 @@ Conditional Access is easy to get wrong in both directions. The first FIDO2 roll
 - Microsoft Entra ID
 - Defender for Endpoint (XDR)
 - PowerShell & Microsoft Graph API
-1c:["$","$L14","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$30","avatars":[],"link":""}]
+1c:["$","$L14","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$30","avatars":[],"link":"","heading":"h2"}]
 31:T5cd,
 ## What this is
 
@@ -347,7 +347,7 @@ Profile photo sync sounds like a small thing, but it touches identity data for e
 - Microsoft Graph API
 - HiBob API
 - Compatible with Azure Automation, GitHub Actions, or local CRON
-1d:["$","$L14","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$31","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync"}]
+1d:["$","$L14","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$31","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync","heading":"h2"}]
 32:T69a,
 ## What this is
 
@@ -379,7 +379,7 @@ Node.js workers run continuous sync from Microsoft Graph, pulling device state a
 - OpenSearch (AWS Managed)
 - TypeScript / Node.js
 - Microsoft Graph API
-1e:["$","$L14","device-inventory-analytics",{"priority":false,"href":"/work/device-inventory-analytics","images":[],"title":"Device Inventory Analytics","description":"A high-scale device analytics platform for large Intune environments — OpenSearch-powered full-text search, compliance heatmaps, and aggregated reporting across 50,000+ assets.","content":"$32","avatars":[],"link":""}]
+1e:["$","$L14","device-inventory-analytics",{"priority":false,"href":"/work/device-inventory-analytics","images":[],"title":"Device Inventory Analytics","description":"A high-scale device analytics platform for large Intune environments — OpenSearch-powered full-text search, compliance heatmaps, and aggregated reporting across 50,000+ assets.","content":"$32","avatars":[],"link":"","heading":"h2"}]
 33:T70d,
 ## What this is
 
@@ -406,7 +406,7 @@ n8n is genuinely good for this kind of work but error handling in production req
 - Microsoft Graph API
 - Microsoft Sentinel
 - HiBob, VirusTotal, AbuseIPDB APIs
-1f:["$","$L14","n8n-automation-workflows",{"priority":false,"href":"/work/n8n-automation-workflows","images":[],"title":"n8n Automation Workflows","description":"A library of n8n workflows built for real SecOps and IT ops use cases — alert enrichment, identity lifecycle, license auditing, and incident notification.","content":"$33","avatars":[],"link":"https://github.com/RohiRIK/n8n"}]
+1f:["$","$L14","n8n-automation-workflows",{"priority":false,"href":"/work/n8n-automation-workflows","images":[],"title":"n8n Automation Workflows","description":"A library of n8n workflows built for real SecOps and IT ops use cases — alert enrichment, identity lifecycle, license auditing, and incident notification.","content":"$33","avatars":[],"link":"https://github.com/RohiRIK/n8n","heading":"h2"}]
 34:T63c,
 ## What this is
 
@@ -444,7 +444,7 @@ Position the BME680 away from the Orange Pi's CPU. I didn't, and the first week 
 - Docker & Docker Compose
 - Orange Pi 3 LTS (ARM64)
 - Bosch BME680 via I2C
-20:["$","$L14","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$34","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation"}]
+20:["$","$L14","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$34","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation","heading":"h2"}]
 35:T647,
 ## What this is
 
@@ -469,7 +469,7 @@ Most existing solutions are either too opinionated (full configuration managemen
 - Bash
 - `flock`, `getopt`, `mail`
 - apt, dnf, pacman, zypper, brew, npm, pip
-21:["$","$L14","unix-update-automator",{"priority":false,"href":"/work/unix-update-automator","images":[],"title":"Unix Update Automator","description":"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.","content":"$35","avatars":[],"link":"https://github.com/RohiRIK/unix-update-automator"}]
+21:["$","$L14","unix-update-automator",{"priority":false,"href":"/work/unix-update-automator","images":[],"title":"Unix Update Automator","description":"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.","content":"$35","avatars":[],"link":"https://github.com/RohiRIK/unix-update-automator","heading":"h2"}]
 36:T71f,
 ## What this is
 
@@ -503,7 +503,7 @@ It's not a full system configuration management setup. No Ansible, no Nix. If I 
 - GNU Stow (symlink management)
 - Homebrew + Brewfile
 - Starship prompt
-22:["$","$L14","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$36","avatars":[],"link":"https://github.com/RohiRIK/dotfiles"}]
+22:["$","$L14","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$36","avatars":[],"link":"https://github.com/RohiRIK/dotfiles","heading":"h2"}]
 37:T6a9,
 ## What this is
 
@@ -531,7 +531,7 @@ Whether specialized agents produce meaningfully better results than a single age
 - Google Gemini SDK
 - Model Context Protocol (MCP)
 - TypeScript
-23:["$","$L14","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$37","avatars":[],"link":"https://github.com/RohiRIK/dev-team"}]
+23:["$","$L14","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$37","avatars":[],"link":"https://github.com/RohiRIK/dev-team","heading":"h2"}]
 38:T7a4,
 ## What this is
 
@@ -566,7 +566,7 @@ The first version had everything in one large Compose file. Adding a new service
 - Traefik
 - Infisical
 - Ubuntu Server / Portainer
-24:["$","$L14","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$38","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack"}]
+24:["$","$L14","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$38","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack","heading":"h2"}]
 39:T63c,
 ## What this is
 
@@ -598,5 +598,5 @@ Work in progress. Core identity and license commands are solid. Adding modules f
 - TypeScript
 - Commander.js
 - Microsoft Graph SDK
-25:["$","$L14","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$39","avatars":[],"link":"https://github.com/RohiRIK/o365-cli"}]
+25:["$","$L14","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$39","avatars":[],"link":"https://github.com/RohiRIK/o365-cli","heading":"h2"}]
 29:null

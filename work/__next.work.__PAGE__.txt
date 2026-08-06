@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[273323,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
-3:I[479520,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],""]
-4:I[474855,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
+2:I[273323,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
+3:I[479520,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],""]
+4:I[474855,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
 24:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 25:"$Sreact.suspense"
 5:T88d,
@@ -59,8 +59,8 @@ It's not about working less — it's about knowing when you're done.
 - Swift / SwiftUI
 - AppKit for menu bar integration
 - launchd for background scheduling
-- UserDefaults for local persistence0:{"buildId":"V_whUKhuG83WmZbo-c3YS","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work\",\"sameAs\":[],\"headline\":\"Projects – Rohi Rikman\",\"description\":\"Automation and security projects by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Rohi Rikman"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","copilot-agent-playbook",{"priority":true,"href":"/work/copilot-agent-playbook","images":[],"title":"Copilot Agent Playbook","description":"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.","content":"\n## What this is\n\nA collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations.\n\n## What's in it\n\n- **Knowledge base agents** — Search, summarize, and surface information from SharePoint, Teams, and external sources\n- **Security agents** — Monitor for threats, enrich alerts, automate incident response\n- **IT ops agents** — Handle password resets, license requests, device triage\n- **Sales enablement** — Customer intelligence, meeting prep, proposal assistance\n- **HR agents** — Onboarding, policy Q&A, benefits navigation\n\n## Why it matters\n\nCopilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible.\n\n## Stack\n\n- Microsoft 365 Copilot\n- Microsoft Graph API\n- Azure AI Studio","avatars":[],"link":"https://github.com/RohiRIK/copilot-agent-playbook"}],["$","$L4","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$5","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest"}],"$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14"]}]]}],null,"$L15"]}],"loading":null,"isPartial":false}
-6:["$","$L4","m365-cli",{"priority":false,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}]
+- UserDefaults for local persistence0:{"buildId":"GZ58HKbPjQD404MiwemHT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work\",\"sameAs\":[],\"headline\":\"Projects – Rohi Rikman\",\"description\":\"Automation and security projects by Rohi Rikman\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Rohi Rikman"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","copilot-agent-playbook",{"priority":true,"href":"/work/copilot-agent-playbook","images":[],"title":"Copilot Agent Playbook","description":"35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments — knowledge base, deployment framework and customer showcase.","content":"\n## What this is\n\nA collection of 35 production-ready Microsoft 365 Copilot agent ideas for enterprise environments. Each idea includes a use case description, suggested implementation approach, and deployment considerations.\n\n## What's in it\n\n- **Knowledge base agents** — Search, summarize, and surface information from SharePoint, Teams, and external sources\n- **Security agents** — Monitor for threats, enrich alerts, automate incident response\n- **IT ops agents** — Handle password resets, license requests, device triage\n- **Sales enablement** — Customer intelligence, meeting prep, proposal assistance\n- **HR agents** — Onboarding, policy Q&A, benefits navigation\n\n## Why it matters\n\nCopilot is often sold as \"ask it anything\" — but real enterprise value comes from scoped, well-designed agents that handle specific workflows. This playbook shows what's actually possible.\n\n## Stack\n\n- Microsoft 365 Copilot\n- Microsoft Graph API\n- Azure AI Studio","avatars":[],"link":"https://github.com/RohiRIK/copilot-agent-playbook","heading":"h2"}],["$","$L4","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$5","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest","heading":"h2"}],"$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14"]}]]}],null,"$L15"]}],"loading":null,"isPartial":false}
+6:["$","$L4","m365-cli",{"priority":false,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli","heading":"h2"}]
 16:T10a2,
 ## What it is
 
@@ -123,7 +123,7 @@ I also initially tried to make it too autonomous. Fully automated playbook execu
 ## Results (personal use)
 
 Triage time on familiar alert types dropped significantly — the lookup work that was eating 15-30 minutes now takes seconds. For novel or complex incidents I still do full manual investigation, which is the right call. The assistant is a first-pass filter, not a replacement for thinking.
-7:["$","$L4","project-aegis",{"priority":false,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$16","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}]
+7:["$","$L4","project-aegis",{"priority":false,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$16","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis","heading":"h2"}]
 17:T5f0,
 ## What this is
 
@@ -151,7 +151,7 @@ Working with large Intune environments at Oncloud, the native portal was consist
 - PostgreSQL with GIN/B-Tree indexes
 - Microsoft Graph SDK
 - Vercel
-8:["$","$L4","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$17","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch"}]
+8:["$","$L4","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$17","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch","heading":"h2"}]
 18:T71c,
 ## What this is
 
@@ -179,7 +179,7 @@ Also: the first version had a bug where two guests placing orders within millise
 - Bun
 - Firebase Firestore (real-time)
 - PWA
-9:["$","$L4","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$18","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop"}]
+9:["$","$L4","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$18","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop","heading":"h2"}]
 19:T749,
 ## What this was
 
@@ -208,7 +208,7 @@ A subset of devices had been enrolled in JumpCloud via a method that left a pers
 - Windows Autopilot
 - Apple Business Manager
 - PowerShell & Microsoft Graph API
-a:["$","$L4","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$19","avatars":[],"link":""}]
+a:["$","$L4","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$19","avatars":[],"link":"","heading":"h2"}]
 1a:T6db,
 ## What this was
 
@@ -235,7 +235,7 @@ The data migration took longer than scoped. The client's Google Drive was far me
 - Google Workspace APIs
 - Microsoft Graph API
 - PowerShell
-b:["$","$L4","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$1a","avatars":[],"link":""}]
+b:["$","$L4","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$1a","avatars":[],"link":"","heading":"h2"}]
 1b:T9e2,
 ## What this is
 
@@ -277,7 +277,7 @@ It's not magic — it's just configuration that enforces the workflow I actually
 - CLAUDE.md (global + per-project)
 - Session context (4 markdown files per project)
 - Custom agents + skills
-c:["$","$L4","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$1b","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config"}]
+c:["$","$L4","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$1b","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config","heading":"h2"}]
 1c:T748,
 ## What this was
 
@@ -307,7 +307,7 @@ Conditional Access is easy to get wrong in both directions. The first FIDO2 roll
 - Microsoft Entra ID
 - Defender for Endpoint (XDR)
 - PowerShell & Microsoft Graph API
-d:["$","$L4","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$1c","avatars":[],"link":""}]
+d:["$","$L4","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$1c","avatars":[],"link":"","heading":"h2"}]
 1d:T5cd,
 ## What this is
 
@@ -331,7 +331,7 @@ Profile photo sync sounds like a small thing, but it touches identity data for e
 - Microsoft Graph API
 - HiBob API
 - Compatible with Azure Automation, GitHub Actions, or local CRON
-e:["$","$L4","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$1d","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync"}]
+e:["$","$L4","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$1d","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync","heading":"h2"}]
 1e:T63c,
 ## What this is
 
@@ -369,7 +369,7 @@ Position the BME680 away from the Orange Pi's CPU. I didn't, and the first week 
 - Docker & Docker Compose
 - Orange Pi 3 LTS (ARM64)
 - Bosch BME680 via I2C
-f:["$","$L4","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$1e","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation"}]
+f:["$","$L4","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$1e","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation","heading":"h2"}]
 1f:T647,
 ## What this is
 
@@ -394,7 +394,7 @@ Most existing solutions are either too opinionated (full configuration managemen
 - Bash
 - `flock`, `getopt`, `mail`
 - apt, dnf, pacman, zypper, brew, npm, pip
-10:["$","$L4","unix-update-automator",{"priority":false,"href":"/work/unix-update-automator","images":[],"title":"Unix Update Automator","description":"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.","content":"$1f","avatars":[],"link":"https://github.com/RohiRIK/unix-update-automator"}]
+10:["$","$L4","unix-update-automator",{"priority":false,"href":"/work/unix-update-automator","images":[],"title":"Unix Update Automator","description":"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.","content":"$1f","avatars":[],"link":"https://github.com/RohiRIK/unix-update-automator","heading":"h2"}]
 20:T71f,
 ## What this is
 
@@ -428,7 +428,7 @@ It's not a full system configuration management setup. No Ansible, no Nix. If I 
 - GNU Stow (symlink management)
 - Homebrew + Brewfile
 - Starship prompt
-11:["$","$L4","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$20","avatars":[],"link":"https://github.com/RohiRIK/dotfiles"}]
+11:["$","$L4","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$20","avatars":[],"link":"https://github.com/RohiRIK/dotfiles","heading":"h2"}]
 21:T6a9,
 ## What this is
 
@@ -456,7 +456,7 @@ Whether specialized agents produce meaningfully better results than a single age
 - Google Gemini SDK
 - Model Context Protocol (MCP)
 - TypeScript
-12:["$","$L4","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$21","avatars":[],"link":"https://github.com/RohiRIK/dev-team"}]
+12:["$","$L4","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$21","avatars":[],"link":"https://github.com/RohiRIK/dev-team","heading":"h2"}]
 22:T7a4,
 ## What this is
 
@@ -491,7 +491,7 @@ The first version had everything in one large Compose file. Adding a new service
 - Traefik
 - Infisical
 - Ubuntu Server / Portainer
-13:["$","$L4","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$22","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack"}]
+13:["$","$L4","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$22","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack","heading":"h2"}]
 23:T63c,
 ## What this is
 
@@ -523,6 +523,6 @@ Work in progress. Core identity and license commands are solid. Adding modules f
 - TypeScript
 - Commander.js
 - Microsoft Graph SDK
-14:["$","$L4","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$23","avatars":[],"link":"https://github.com/RohiRIK/o365-cli"}]
+14:["$","$L4","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$23","avatars":[],"link":"https://github.com/RohiRIK/o365-cli","heading":"h2"}]
 15:["$","$L24",null,{"children":["$","$25",null,{"name":"Next.MetadataOutlet","children":"$@26"}]}]
 26:null

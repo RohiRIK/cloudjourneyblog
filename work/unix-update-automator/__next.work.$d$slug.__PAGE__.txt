@@ -1,19 +1,19 @@
 1:"$Sreact.fragment"
-2:I[273323,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
-3:I[479520,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],""]
-4:I[624379,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"SmartLink"]
-5:I[778454,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
-6:I[571045,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"AvatarGroup"]
-7:I[811052,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"HeadingLink"]
-8:I[362844,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"InlineCode"]
-10:I[436122,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"List"]
-11:I[626935,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ListItem"]
-12:I[311451,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Line"]
-13:I[474855,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
-25:I[988654,["/_next/static/chunks/adcdd2df71ab69e7.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/b4fb6e9900dcfd90.js","/_next/static/chunks/0e235429b8fbdec6.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
+2:I[273323,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
+3:I[479520,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],""]
+4:I[624379,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"SmartLink"]
+5:I[778454,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
+6:I[571045,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"AvatarGroup"]
+7:I[811052,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"HeadingLink"]
+8:I[362844,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"InlineCode"]
+10:I[436122,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"List"]
+11:I[626935,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ListItem"]
+12:I[311451,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"Line"]
+13:I[474855,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
+25:I[988654,["/_next/static/chunks/fe02e46b350c4d44.js","/_next/static/chunks/8a07e6fd7e614a7b.js","/_next/static/chunks/1179586da96b41b9.js","/_next/static/chunks/a78e7f0399bed372.js","/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
 26:I[897367,["/_next/static/chunks/d96012bcfc98706a.js","/_next/static/chunks/73e3194f06db260e.js"],"OutletBoundary"]
 27:"$Sreact.suspense"
-0:{"buildId":"V_whUKhuG83WmZbo-c3YS","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/unix-update-automator","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work/unix-update-automator\",\"sameAs\":[],\"headline\":\"Unix Update Automator\",\"description\":\"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"datePublished\":\"2025-12-13\",\"dateModified\":\"2025-12-13\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 13, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Unix Update Automator"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[]}]]}]}],false,["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-this-is","children":"What this is"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["A maintenance automation tool I wrote because I got tired of running different update commands on different machines. One script that handles ",["$","$L8",null,{"children":"apt"}],", ",["$","$L8",null,{"children":"dnf"}],", ",["$","$L8",null,{"children":"pacman"}],", ",["$","$L8",null,{"children":"brew"}],", ",["$","$L8",null,{"children":"npm"}],", ",["$","$L8",null,{"children":"pip"}]," — whatever's present on the system — with consistent logging and safe execution defaults."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Runs unattended. Doesn't hang waiting for user input. Doesn't overwrite config files without asking. Keeps timestamped logs so you can see what actually happened."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-i-built-it-instead-of-using-something-existing","children":"Why I built it instead of using something existing"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Most existing solutions are either too opinionated (full configuration management like Ansible is overkill for this) or too simple (a cron job with ",["$","$L8",null,{"children":"apt upgrade -y"}]," has no error handling). I wanted something in between — lightweight, readable Bash that does the job reliably and can be understood and modified without reading documentation."]}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"how-it-works","children":"How it works"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Core + Modules architecture"}]," — the core script handles argument parsing, logging, environment detection, and concurrency control (lockfile to prevent simultaneous runs). Each package manager is a separate module that the core calls if that manager is present on the system."]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc"]}],"$Ld","$Le"]}],null,"$Lf"]}],"loading":null,"isPartial":false}
+0:{"buildId":"GZ58HKbPjQD404MiwemHT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/unix-update-automator","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/work/unix-update-automator\",\"sameAs\":[],\"headline\":\"Unix Update Automator\",\"description\":\"A Bash automation suite for keeping Linux and macOS systems current — handles package managers, runtime updates, logging, and scheduled execution without manual intervention.\",\"image\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\",\"datePublished\":\"2025-12-13\",\"dateModified\":\"2025-12-13\",\"author\":{\"@type\":\"Person\",\"name\":\"Rohi Rikman\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://CloudJourneyBlog.rohi-lab.org/images/avatar.png\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 13, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Unix Update Automator"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[]}]]}]}],false,["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-this-is","children":"What this is"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["A maintenance automation tool I wrote because I got tired of running different update commands on different machines. One script that handles ",["$","$L8",null,{"children":"apt"}],", ",["$","$L8",null,{"children":"dnf"}],", ",["$","$L8",null,{"children":"pacman"}],", ",["$","$L8",null,{"children":"brew"}],", ",["$","$L8",null,{"children":"npm"}],", ",["$","$L8",null,{"children":"pip"}]," — whatever's present on the system — with consistent logging and safe execution defaults."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Runs unattended. Doesn't hang waiting for user input. Doesn't overwrite config files without asking. Keeps timestamped logs so you can see what actually happened."}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-i-built-it-instead-of-using-something-existing","children":"Why I built it instead of using something existing"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Most existing solutions are either too opinionated (full configuration management like Ansible is overkill for this) or too simple (a cron job with ",["$","$L8",null,{"children":"apt upgrade -y"}]," has no error handling). I wanted something in between — lightweight, readable Bash that does the job reliably and can be understood and modified without reading documentation."]}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"how-it-works","children":"How it works"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Core + Modules architecture"}]," — the core script handles argument parsing, logging, environment detection, and concurrency control (lockfile to prevent simultaneous runs). Each package manager is a separate module that the core calls if that manager is present on the system."]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc"]}],"$Ld","$Le"]}],null,"$Lf"]}],"loading":null,"isPartial":false}
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Execution modes"}]," — ",["$","$L8",null,{"children":"--check-only"}]," to see what would update without doing it, ",["$","$L8",null,{"children":"--security-only"}]," for security patches only, ",["$","$L8",null,{"children":"--reboot"}]," on Linux systems that need a restart after kernel updates."]}]
 a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Scheduled via native tools"}]," — ",["$","$L8",null,{"children":"onboard.sh"}]," sets up a Cron job on Linux or a Launchd agent on macOS so it runs automatically on whatever schedule you want."]}]
 b:["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"stack","children":"Stack"}]
@@ -73,7 +73,7 @@ It's not about working less — it's about knowing when you're done.
 - Swift / SwiftUI
 - AppKit for menu bar integration
 - launchd for background scheduling
-- UserDefaults for local persistenced:["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L12",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L13","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$14","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest"}],["$","$L13","m365-cli",{"priority":true,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli"}],"$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24"]}]]}]
+- UserDefaults for local persistenced:["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L12",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L13","end-of-day-mac",{"priority":true,"href":"/work/end-of-day-mac","images":[],"title":"End of Day Mac","description":"macOS menu bar app that closes your work apps at the end of each day — with analytics, custom schedules, and per-app delays. Build better work habits.","content":"$14","avatars":[],"link":"https://github.com/RohiRIK/end-of-day-mac/releases/latest","heading":"h2"}],["$","$L13","m365-cli",{"priority":true,"href":"/work/m365-cli","images":[],"title":"M365 CLI","description":"High-performance Microsoft 365 governance and security CLI — for Entra ID, Intune, Defender, and SharePoint administration.","content":"\n## What this is\n\nA CLI tool for Microsoft 365 governance and security operations. Built for speed and automation — no clicking through admin centers.\n\n## What's in it\n\n- **Entra ID commands** — User lifecycle, group management, role assignments\n- **Intune commands** — Device compliance, configuration profiles, app deployment\n- **Defender commands** — Alert triage, incident response, threat hunting\n- **SharePoint commands** — Site permissions, content audit, drive management\n- **Bulk operations** — Process thousands of objects at once\n\n## Why it matters\n\nThe Microsoft 365 admin centers are slow and don't scale for automation. This CLI gives you scripts and pipelines that can handle enterprise-scale operations.\n\n## Stack\n\n- Rust (core TUI)\n- TypeScript / Bun (workers)\n- Microsoft Graph API\n- OIDC authentication","avatars":[],"link":"https://github.com/RohiRIK/m365-cli","heading":"h2"}],"$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24"]}]]}]
 e:["$","$L25",null,{}]
 f:["$","$L26",null,{"children":["$","$27",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
 29:T10a2,
@@ -138,7 +138,7 @@ I also initially tried to make it too autonomous. Fully automated playbook execu
 ## Results (personal use)
 
 Triage time on familiar alert types dropped significantly — the lookup work that was eating 15-30 minutes now takes seconds. For novel or complex incidents I still do full manual investigation, which is the right call. The assistant is a first-pass filter, not a replacement for thinking.
-15:["$","$L13","project-aegis",{"priority":false,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$29","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis"}]
+15:["$","$L13","project-aegis",{"priority":false,"href":"/work/project-aegis","images":[],"title":"Project Aegis","description":"A personal RAG-based SOC assistant I built to answer security questions fast — powered by LangChain, Gemini, and a Pinecone vector store sitting on top of real security documentation.","content":"$29","avatars":[],"link":"https://github.com/RohiRIK/Project-Aegis","heading":"h2"}]
 2a:T5f0,
 ## What this is
 
@@ -166,7 +166,7 @@ Working with large Intune environments at Oncloud, the native portal was consist
 - PostgreSQL with GIN/B-Tree indexes
 - Microsoft Graph SDK
 - Vercel
-16:["$","$L13","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$2a","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch"}]
+16:["$","$L13","fleetwatch",{"priority":false,"href":"/work/fleetwatch","images":[],"title":"FleetWatch","description":"A device management dashboard built for large Intune environments — fast search, real-time compliance status, and direct device actions without the native portal slowness.","content":"$2a","avatars":[],"link":"https://github.com/RohiRIK/fleetwatch","heading":"h2"}]
 2b:T71c,
 ## What this is
 
@@ -194,7 +194,7 @@ Also: the first version had a bug where two guests placing orders within millise
 - Bun
 - Firebase Firestore (real-time)
 - PWA
-17:["$","$L13","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$2b","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop"}]
+17:["$","$L13","personal-coffeshop",{"priority":false,"href":"/work/personal-coffeshop","images":[],"title":"Personal Coffeeshop","description":"A full-stack order management system and kitchen display for home barista use — guests order via QR code, the host tracks and manages the queue in real time.","content":"$2b","avatars":[],"link":"https://github.com/RohiRIK/Personal-coffeshop","heading":"h2"}]
 2c:T749,
 ## What this was
 
@@ -223,7 +223,7 @@ A subset of devices had been enrolled in JumpCloud via a method that left a pers
 - Windows Autopilot
 - Apple Business Manager
 - PowerShell & Microsoft Graph API
-18:["$","$L13","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$2c","avatars":[],"link":""}]
+18:["$","$L13","jumpcloud-to-intune-migration",{"priority":false,"href":"/work/jumpcloud-to-intune-migration","images":[],"title":"JumpCloud to Intune Migration","description":"MDM consolidation from JumpCloud to Microsoft Intune — automated unenrollment, Autopilot provisioning, and policy parity for a mixed Windows and macOS fleet.","content":"$2c","avatars":[],"link":"","heading":"h2"}]
 2d:T6db,
 ## What this was
 
@@ -250,7 +250,7 @@ The data migration took longer than scoped. The client's Google Drive was far me
 - Google Workspace APIs
 - Microsoft Graph API
 - PowerShell
-19:["$","$L13","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$2d","avatars":[],"link":""}]
+19:["$","$L13","gcp-to-entra-migration",{"priority":false,"href":"/work/gcp-to-entra-migration","images":[],"title":"GCP to Entra ID Migration","description":"Full identity and collaboration migration from Google Workspace to Microsoft 365 — mailboxes, Drive data, SSO re-mapping across 50+ apps, and tenant consolidation.","content":"$2d","avatars":[],"link":"","heading":"h2"}]
 2e:T9e2,
 ## What this is
 
@@ -292,7 +292,7 @@ It's not magic — it's just configuration that enforces the workflow I actually
 - CLAUDE.md (global + per-project)
 - Session context (4 markdown files per project)
 - Custom agents + skills
-1a:["$","$L13","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$2e","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config"}]
+1a:["$","$L13","claude-code-config",{"priority":false,"href":"/work/claude-code-config","images":[],"title":"Claude Code Config","description":"My production Claude Code setup — custom hooks, agents, skills, and session context system that makes AI-assisted development actually sustainable day-to-day.","content":"$2e","avatars":[],"link":"https://github.com/RohiRIK/claude-code-config","heading":"h2"}]
 2f:T748,
 ## What this was
 
@@ -322,7 +322,7 @@ Conditional Access is easy to get wrong in both directions. The first FIDO2 roll
 - Microsoft Entra ID
 - Defender for Endpoint (XDR)
 - PowerShell & Microsoft Graph API
-1b:["$","$L13","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$2f","avatars":[],"link":""}]
+1b:["$","$L13","zero-trust-endpoint-hardening",{"priority":false,"href":"/work/zero-trust-endpoint-hardening","images":[],"title":"Zero-Trust Endpoint Hardening","description":"End-to-end Zero-Trust rollout for a client fleet — Intune security baselines, Conditional Access redesign, EDR onboarding, and hardware attestation for 10k+ endpoints.","content":"$2f","avatars":[],"link":"","heading":"h2"}]
 30:T5cd,
 ## What this is
 
@@ -346,7 +346,7 @@ Profile photo sync sounds like a small thing, but it touches identity data for e
 - Microsoft Graph API
 - HiBob API
 - Compatible with Azure Automation, GitHub Actions, or local CRON
-1c:["$","$L13","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$30","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync"}]
+1c:["$","$L13","hibob-teams-sync",{"priority":false,"href":"/work/hibob-teams-sync","images":[],"title":"HiBob Teams Sync","description":"Automation tool that keeps employee profile photos in sync between HiBob (HRIS) and Microsoft Teams/Entra ID — no third-party services, runs in your own infrastructure.","content":"$30","avatars":[],"link":"https://github.com/RohiRIK/HiBob-Teams-Sync","heading":"h2"}]
 31:T69a,
 ## What this is
 
@@ -378,7 +378,7 @@ Node.js workers run continuous sync from Microsoft Graph, pulling device state a
 - OpenSearch (AWS Managed)
 - TypeScript / Node.js
 - Microsoft Graph API
-1d:["$","$L13","device-inventory-analytics",{"priority":false,"href":"/work/device-inventory-analytics","images":[],"title":"Device Inventory Analytics","description":"A high-scale device analytics platform for large Intune environments — OpenSearch-powered full-text search, compliance heatmaps, and aggregated reporting across 50,000+ assets.","content":"$31","avatars":[],"link":""}]
+1d:["$","$L13","device-inventory-analytics",{"priority":false,"href":"/work/device-inventory-analytics","images":[],"title":"Device Inventory Analytics","description":"A high-scale device analytics platform for large Intune environments — OpenSearch-powered full-text search, compliance heatmaps, and aggregated reporting across 50,000+ assets.","content":"$31","avatars":[],"link":"","heading":"h2"}]
 32:T70d,
 ## What this is
 
@@ -405,7 +405,7 @@ n8n is genuinely good for this kind of work but error handling in production req
 - Microsoft Graph API
 - Microsoft Sentinel
 - HiBob, VirusTotal, AbuseIPDB APIs
-1e:["$","$L13","n8n-automation-workflows",{"priority":false,"href":"/work/n8n-automation-workflows","images":[],"title":"n8n Automation Workflows","description":"A library of n8n workflows built for real SecOps and IT ops use cases — alert enrichment, identity lifecycle, license auditing, and incident notification.","content":"$32","avatars":[],"link":"https://github.com/RohiRIK/n8n"}]
+1e:["$","$L13","n8n-automation-workflows",{"priority":false,"href":"/work/n8n-automation-workflows","images":[],"title":"n8n Automation Workflows","description":"A library of n8n workflows built for real SecOps and IT ops use cases — alert enrichment, identity lifecycle, license auditing, and incident notification.","content":"$32","avatars":[],"link":"https://github.com/RohiRIK/n8n","heading":"h2"}]
 33:T6af,
 ## What this is
 
@@ -437,7 +437,7 @@ Keeping RAG datasets current for Project Aegis. Documentation changes — API re
 - Firecrawl (headless browser crawling)
 - Markdown with YAML frontmatter
 - Compatible with LangChain and LlamaIndex pipelines
-1f:["$","$L13","doc-crawler-ai-organizer",{"priority":false,"href":"/work/doc-crawler-ai-organizer","images":[],"title":"Doc-Crawler AI","description":"A documentation pipeline that crawls technical docs sites and converts them to clean, structured Markdown optimized for RAG ingestion — handles SPAs, strips noise, preserves heading hierarchy.","content":"$33","avatars":[],"link":"https://github.com/RohiRIK/doc-crawler-ai-organizer"}]
+1f:["$","$L13","doc-crawler-ai-organizer",{"priority":false,"href":"/work/doc-crawler-ai-organizer","images":[],"title":"Doc-Crawler AI","description":"A documentation pipeline that crawls technical docs sites and converts them to clean, structured Markdown optimized for RAG ingestion — handles SPAs, strips noise, preserves heading hierarchy.","content":"$33","avatars":[],"link":"https://github.com/RohiRIK/doc-crawler-ai-organizer","heading":"h2"}]
 34:T63c,
 ## What this is
 
@@ -475,7 +475,7 @@ Position the BME680 away from the Orange Pi's CPU. I didn't, and the first week 
 - Docker & Docker Compose
 - Orange Pi 3 LTS (ARM64)
 - Bosch BME680 via I2C
-20:["$","$L13","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$34","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation"}]
+20:["$","$L13","air-quality-automation",{"priority":false,"href":"/work/air-quality-automation","images":[],"title":"Air Quality Automation","description":"A Docker-based environmental monitoring system running on Orange Pi 3 LTS — BME680 sensor, dynamic air quality scoring, and structured JSON telemetry ready for any dashboard.","content":"$34","avatars":[],"link":"https://github.com/RohiRIK/Air-Quality-Orange-Pi-Automation","heading":"h2"}]
 35:T71f,
 ## What this is
 
@@ -509,7 +509,7 @@ It's not a full system configuration management setup. No Ansible, no Nix. If I 
 - GNU Stow (symlink management)
 - Homebrew + Brewfile
 - Starship prompt
-21:["$","$L13","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$35","avatars":[],"link":"https://github.com/RohiRIK/dotfiles"}]
+21:["$","$L13","dotfiles",{"priority":false,"href":"/work/dotfiles","images":[],"title":"Dotfiles","description":"My dev environment as code — zsh, Zed, tmux, and tooling configuration managed in a single repo with a bootstrap script that sets up a new machine in one command.","content":"$35","avatars":[],"link":"https://github.com/RohiRIK/dotfiles","heading":"h2"}]
 36:T6a9,
 ## What this is
 
@@ -537,7 +537,7 @@ Whether specialized agents produce meaningfully better results than a single age
 - Google Gemini SDK
 - Model Context Protocol (MCP)
 - TypeScript
-22:["$","$L13","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$36","avatars":[],"link":"https://github.com/RohiRIK/dev-team"}]
+22:["$","$L13","dev-team",{"priority":false,"href":"/work/dev-team","images":[],"title":"Dev Team AI","description":"A multi-agent orchestration framework using MCP — 29+ specialized agents coordinated by a central orchestrator to handle complex development and security tasks autonomously.","content":"$36","avatars":[],"link":"https://github.com/RohiRIK/dev-team","heading":"h2"}]
 37:T7a4,
 ## What this is
 
@@ -572,7 +572,7 @@ The first version had everything in one large Compose file. Adding a new service
 - Traefik
 - Infisical
 - Ubuntu Server / Portainer
-23:["$","$L13","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$37","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack"}]
+23:["$","$L13","homelab-swarm-stack",{"priority":false,"href":"/work/homelab-swarm-stack","images":[],"title":"HomeLab Swarm Stack","description":"My self-hosted infrastructure running on a home server — Docker Swarm, Traefik for ingress, Infisical for secrets, and a handful of services I actually use.","content":"$37","avatars":[],"link":"https://github.com/RohiRIK/homelab-swarm-stack","heading":"h2"}]
 38:T63c,
 ## What this is
 
@@ -604,5 +604,5 @@ Work in progress. Core identity and license commands are solid. Adding modules f
 - TypeScript
 - Commander.js
 - Microsoft Graph SDK
-24:["$","$L13","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$38","avatars":[],"link":"https://github.com/RohiRIK/o365-cli"}]
+24:["$","$L13","o365-cli",{"priority":false,"href":"/work/o365-cli","images":[],"title":"o365-cli","description":"A TypeScript CLI for M365 administration — bulk identity operations, policy export/import, license auditing, and audit log streaming, all from the terminal.","content":"$38","avatars":[],"link":"https://github.com/RohiRIK/o365-cli","heading":"h2"}]
 28:null
