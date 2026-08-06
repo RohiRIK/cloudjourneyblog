@@ -19,6 +19,7 @@ const baseURL: string = "https://CloudJourneyBlog.rohi-lab.org";
 const routes: RoutesConfig = {
   "/": true,
   "/blog": true,
+  "/agent-stack": true,
   "/work": false,
   "/about": true,
   "/gallery": true,

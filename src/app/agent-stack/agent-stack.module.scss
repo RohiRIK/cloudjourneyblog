@@ -1,0 +1,33 @@
+.operatingModel {
+  display: grid;
+  gap: var(--static-space-16);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.operatingStep {
+  border-left: 1px solid var(--brand-alpha-medium);
+  padding-left: var(--static-space-12);
+}
+
+.agentGrid {
+  display: grid;
+  gap: var(--static-space-16);
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+@media (max-width: 900px) {
+  .operatingModel {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .agentGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .operatingModel,
+  .agentGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

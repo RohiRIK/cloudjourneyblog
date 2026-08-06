@@ -10,6 +10,8 @@ export {
   gallery,
 } from "./content";
 
+export { agentGroups, agents, agentStack } from "./agents";
+
 export {
   display,
   mailchimp,

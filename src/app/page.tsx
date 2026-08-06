@@ -11,7 +11,7 @@ import {
   Meta,
   Line,
 } from "@once-ui-system/core";
-import { home, about, blog, person, baseURL, routes } from "@/resources";
+import { home, about, blog, person, baseURL, routes, agentStack } from "@/resources";
 import { withBasePath } from "@/utils/basePath";
 import { Mailchimp } from "@/components";
 import { Projects } from "@/components/work/Projects";
@@ -167,6 +167,36 @@ export default function Home() {
           <Line maxWidth={48} />
         </Row>
       </Column>
+      {routes["/agent-stack"] && (
+        <Column fillWidth gap="24" marginBottom="l">
+          <Row fillWidth paddingRight="64">
+            <Line maxWidth={48} />
+          </Row>
+          <Row fillWidth gap="24" marginTop="40" s={{ direction: "column" }}>
+            <Column flex={1} paddingLeft="l" paddingTop="24" gap="12">
+              <Heading as="h2" variant="display-strong-xs" wrap="balance">
+                Meet the Agent Stack
+              </Heading>
+              <Text onBackground="neutral-weak" wrap="balance">
+                The bounded specialist fleet behind research, implementation, operations, review, and
+                decision support — with human approval for consequential actions.
+              </Text>
+              <Button href={agentStack.path} variant="secondary" size="m" arrowIcon>
+                Explore the fleet
+              </Button>
+            </Column>
+            <Column flex={3} paddingX="20" gap="12" vertical="center">
+              <Text variant="heading-strong-l" wrap="balance">
+                {agentStack.headline}
+              </Text>
+              <Text onBackground="neutral-weak">Evidence first. Human judgment last.</Text>
+            </Column>
+          </Row>
+          <Row fillWidth paddingLeft="64" horizontal="end">
+            <Line maxWidth={48} />
+          </Row>
+        </Column>
+      )}
       <Mailchimp />
     </Column>
   );

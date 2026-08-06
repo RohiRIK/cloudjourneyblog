@@ -1,0 +1,31 @@
+.card {
+  min-height: 100%;
+  transition: transform var(--transition-micro-medium), border-color var(--transition-micro-medium);
+}
+
+.card:hover {
+  transform: translateY(calc(var(--static-space-1) * -1));
+  border-color: var(--brand-alpha-medium);
+}
+
+.placeholder,
+.portrait {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  overflow: hidden;
+}
+
+.portrait img {
+  object-fit: cover;
+  object-position: center top;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}
