@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T10:25:33.789Z",
+  "updatedAt": "2026-08-06T13:40:13.469Z",
   "feeds": [
     {
       "name": "Microsoft Security",
@@ -102,34 +102,34 @@
       "url": "https://www.theregister.co.uk/headlines.rss",
       "items": [
         {
-          "title": "News Corp labels some AI companies 'crass kleptomaniacs'",
-          "link": "https://www.theregister.com/ai-and-ml/2026/08/06/news-corp-labels-some-ai-companies-crass-kleptomaniacs/5283848",
+          "title": "Blue Origin blames New Glenn fireball on engine oxygen valve",
+          "link": "https://www.theregister.com/science/2026/08/06/blue-origin-blames-new-glenn-fireball-on-engine-oxygen-valve/5283997",
           "date": "Aug 6, 2026",
-          "excerpt": "Pay it for content, like OpenAI and Meta, to become 'principled' and 'honorable'"
+          "excerpt": "Small modifications under way as Bezos's rocket biz races to rebuild pad and fly again this year"
         },
         {
-          "title": "Azure CTO pastes Doom into Paint one frame at a time",
-          "link": "https://www.theregister.com/offbeat/2026/08/06/azure-cto-pastes-doom-into-paint-one-frame-at-a-time/5283559",
+          "title": "European firms afraid of US tech kill switch but haven't made an escape plan",
+          "link": "https://www.theregister.com/off-prem/2026/08/06/european-firms-afraid-of-us-tech-kill-switch-but-havent-made-an-escape-plan/5284030",
           "date": "Aug 6, 2026",
-          "excerpt": "It computes nothing, renders everything, and even has sound"
+          "excerpt": "Nearly three-quarters worry Washington could cut access, yet fewer than half regularly test their fallback"
         },
         {
-          "title": "HPE extends validity of quoted hardware prices, possibly for months",
-          "link": "https://www.theregister.com/systems/2026/08/06/hpe-extends-validity-of-quoted-hardware-prices-possibly-for-months/5283817",
+          "title": "IT department put sticky notes on the laptops to help employees log in",
+          "link": "https://www.theregister.com/security/2026/08/06/it-department-put-sticky-notes-on-the-laptops-to-help-employees-log-in/5283662",
           "date": "Aug 6, 2026",
-          "excerpt": "Suggests Big Green knows its component prices will remain steady"
+          "excerpt": "Leaving this information exposed allowed someone else to gain access"
         },
         {
-          "title": "Chinese router vendor denies its firmware contains backdoors – but pauses downloads to fix security issues anyway",
-          "link": "https://www.theregister.com/security/2026/08/06/chinese-router-vendor-denies-its-firmware-contains-backdoors-but-pauses-downloads-to-fix-security-issues-anyway/5283794",
+          "title": "Windows 10 LTSC 2021 has five months before security updates cost extra",
+          "link": "https://www.theregister.com/os-platforms/2026/08/06/windows-10-ltsc-2021-has-five-months-before-security-updates-cost-extra/5283904",
           "date": "Aug 6, 2026",
-          "excerpt": "It’s just a remote maintenance function, says Zbtlink"
+          "excerpt": "ESU meter starts running in January, unless you're on the IoT edition"
         },
         {
-          "title": "Proxmox ports itself to Arm with help from Nvidia and Supermicro",
-          "link": "https://www.theregister.com/virtualization/2026/08/06/proxmox-ports-itself-to-arm-with-help-from-nvidia-and-supermicro/5283770",
+          "title": "Meta latest to tell world its AI agent wandered out of test pen",
+          "link": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-latest-to-tell-world-its-ai-agent-wandered-out-of-test-pen/5283947",
           "date": "Aug 6, 2026",
-          "excerpt": "VMware competitor aiming for the AI datacenter"
+          "excerpt": "Another week, another firm explaining why one of its models reached somewhere it wasn't supposed to"
         }
       ]
     },
