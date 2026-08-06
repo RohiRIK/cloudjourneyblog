@@ -49,3 +49,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # GitHub's action defaults to 10 minutes; our verified Pages deploy
+          # enters deployment_in_progress near that boundary before cancellation.
+          timeout: 1800000
