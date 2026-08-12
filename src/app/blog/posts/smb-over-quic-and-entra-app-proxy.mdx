@@ -1,0 +1,88 @@
+---
+title: "Stop Treating Every Remote Access Problem Like a VPN Problem"
+summary: "How SMB over QUIC and Microsoft Entra Application Proxy address two different legacy-access problems without exposing TCP 445 or publishing a general network tunnel."
+image: "/images/blog/smb-over-quic-and-entra-app-proxy.png"
+publishedAt: "2026-08-12"
+tag: "Security"
+---
+
+A VPN is a network-level answer. That does not automatically make it the right answer for every remote-access requirement.
+
+The useful question is narrower: what is the user trying to reach? A Windows file share and an internal web application have different protocols, different trust boundaries, and different safe replacement patterns. Treating both as "connect the laptop to the LAN" usually creates a larger blast radius than the workload needs.
+
+For the two common cases, the split is straightforward:
+
+- Use **SMB over QUIC** when remote users need Windows file-server access.
+- Use **Microsoft Entra Application Proxy** when they need a private HTTP/HTTPS application.
+
+Neither is a universal VPN replacement. Together, they are a practical way to reduce the amount of broad network access that a remote worker receives.
+
+## File shares: SMB over QUIC
+
+SMB over QUIC gives Windows SMB an Internet-capable transport. It runs the SMB session through a TLS 1.3-authenticated QUIC tunnel over UDP 443 instead of exposing the legacy TCP 445 service. Microsoft describes it as an "SMB VPN": SMB authentication, authorization, signing, compression, and normal file-server behavior stay inside the tunnel.[1]
+
+That is a meaningful difference from publishing an ordinary file share to the Internet. The edge only needs UDP 443 for the QUIC listener. Microsoft explicitly says not to allow TCP 445 inbound for this scenario.[1]
+
+The operational prerequisites matter:
+
+1. Start with a supported server and client. Microsoft documents Windows Server 2022 Datacenter: Azure Edition or later for the server, and Windows 11 for the client.[1]
+2. Use a trusted server certificate with the public DNS name in its SAN. Do not build the design around an IP address, particularly behind NAT.[1]
+3. Confirm that the server can reach a domain controller when domain authentication is required. The domain controller itself does not need Internet exposure.[1]
+4. Test with the actual remote networks your users use. QUIC is UDP-based, so a restrictive hotel, guest Wi-Fi, or upstream firewall can be the real compatibility issue.
+
+SMB over QUIC is deliberately opt-in. Windows SMB clients use TCP by default, and Microsoft documents explicit QUIC mapping options for cases where you want to force the transport.[1] That makes a staged rollout possible: enable one file server, use a small pilot group, verify certificate and client behavior, then move more shares.
+
+## Internal web apps: Entra Application Proxy
+
+Application Proxy solves a different problem. It publishes a private **web** application through Microsoft Entra ID, then routes approved user traffic to a connector inside the private network. Microsoft positions it for on-premises web applications and documents an external HTTP/HTTPS endpoint connected to an internal application URL.[2]
+
+The connector uses outbound connections to the cloud service. That means you do not need an inbound firewall rule or a new DMZ listener for the connector itself.[2] The identity layer can apply Microsoft Entra controls such as single sign-on, Conditional Access, and MFA before the user reaches the app.[2]
+
+The key constraint is protocol fit: Application Proxy is for web applications. It does not proxy SMB. Do not force a file-server problem into an HTTP proxy, and do not use an SMB transport to publish an internal web portal.
+
+## A safer migration pattern
+
+The strongest rollout is not "turn off the VPN on Friday." It is inventory, segmentation, pilot, and reduction.
+
+### 1. Classify the access paths
+
+Build a small table before changing anything:
+
+| Workload | Protocol | Target pattern |
+|---|---|---|
+| Department file share | SMB | SMB over QUIC |
+| Legacy intranet portal | HTTP/HTTPS | Entra Application Proxy |
+| Admin protocol or unmanaged dependency | Varies | Keep on a tightly scoped temporary path until redesigned |
+
+This is where hidden dependencies appear: DFS referrals, hard-coded UNC paths, internal DNS assumptions, browser-integrated authentication, and applications that call multiple back-end URLs.
+
+### 2. Keep identity policy close to the resource
+
+For Application Proxy, use app assignment and Conditional Access rather than treating every authenticated user as a network user. For SMB over QUIC, keep share and NTFS authorization intact, require managed clients where appropriate, and monitor authentication activity. The point is not merely encryption; it is reducing who can reach what.
+
+### 3. Prove the failure modes
+
+Test more than happy-path file opens and browser sign-in:
+
+- expired or mismatched certificate
+- blocked UDP 443
+- device that misses a Conditional Access requirement
+- a user assigned to the wrong group
+- unavailable connector or file server
+- rollback to the old access method during the pilot
+
+### 4. Reduce the VPN only after evidence exists
+
+Keep a measured exception list. A VPN can remain appropriate for workloads that truly need network-level connectivity, but it should be an explicit exception with an owner and an exit plan, not the default transport for every internal resource.
+
+## The design principle
+
+Replacing a VPN is not about selecting a fashionable product. It is about changing from broad network presence to application- and protocol-specific access.
+
+SMB over QUIC gives a file server an encrypted, Internet-capable SMB path without TCP 445 exposure. Entra Application Proxy gives internal web applications an identity-aware publishing path without opening inbound connector access. Use each one where it fits, prove the edge cases, and leave the remaining VPN scope small enough that you can explain every route.
+
+## Sources
+
+[1] [SMB over QUIC | Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/storage/file-server/smb-over-quic)
+
+[2] [Microsoft Entra application proxy | Microsoft Learn](https://learn.microsoft.com/en-us/entra/identity/app-proxy/overview-what-is-app-proxy)

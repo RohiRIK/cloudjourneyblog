@@ -175,3 +175,24 @@ Color palette: near-black background, flow nodes in electric blue/neon green/amb
 # Color palette: near-black background, shield in electric blue, threat vectors in red, security layers in neon green/purple/orange, checklist in neon‑white on dark gray. Subjects fill the frame. Minimal. Gallery-worthy.
 #
 #
+---
+## 35. smb-over-quic-and-entra-app-proxy.png
+#
+# [ ] Unique hero for SMB over QUIC and Entra Application Proxy
+# Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No text, letters, numbers, logos, or watermarks in image. Square 1:1 composition.
+# A precise split-screen security access scene: on the left, a cobalt-blue Windows file cabinet connected to a bright cyan QUIC packet stream that exits through a UDP port gateway and enters a violet shielded remote laptop; on the right, an amber legacy browser window behind a compact on-premises connector node, linked by a green identity token path to a protected user portal. The two halves meet at a thin white identity boundary, but never merge into one generic network tunnel. Small abstract certificate, shield, and policy glyphs only. Palette: cobalt blue, cyan, violet, amber, neon green, near-black. Clean architectural diagram, no generic padlock wall, no text.
+#
+---
+## 36. azure-waf-detection-to-prevention.png
+#
+# [ ] Unique hero for Azure WAF Detection to Prevention
+# Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No text, letters, numbers, logos, or watermarks in image. Square 1:1 composition.
+# A single angular web gateway in the center transforms from an open cyan scanning grid on the left into a solid magenta-and-orange enforcement barrier on the right. Legitimate geometric request packets pass through a narrow verified path while hostile red shards are inspected, then diverted into a small quarantine tray. Behind the gateway are three tiny log bars and a precise adjustable rule dial with no labels. Palette: cyan, electric blue, magenta, orange, red, near-black. The concept is controlled tuning and measured promotion, not a generic firewall or padlock. Clean minimal security operations illustration.
+#
+---
+## 37. auditable-human-approval-gates-for-ai-agents.png
+#
+# [ ] Unique hero for auditable Human Approval Gates for AI Agents
+# Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. No text, letters, numbers, logos, or watermarks in image. Square 1:1 composition.
+# A small violet autonomous agent node proposes three branching action cards toward a central human approval console represented only by a calm white hand silhouette pressing one green confirmation circle. An immutable amber audit trail of connected square event blocks runs beneath the console to a separate blue execution worker, with a red stop-switch node clearly isolated at the edge. Show separation of proposal, human authorization, audit evidence, and execution. Palette: violet, electric blue, neon green, amber, red, near-black. Minimal governance diagram, no robot face, no generic shield, no text.
+#

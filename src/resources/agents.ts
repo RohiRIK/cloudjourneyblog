@@ -64,7 +64,11 @@ const readyPortraitSlugs = new Set([
   "leo",
   "marco",
   "max",
+  "miguel",
   "sofia",
+  "victor",
+  "ethan",
+  "warren",
 ]);
 
 const portrait = (slug: string, name: string) => ({
@@ -212,6 +216,18 @@ const ella: Agent = {
   portrait: portrait("ella", "Ella"),
 };
 
+const miguel: Agent = {
+  slug: "miguel",
+  name: "Miguel",
+  role: "Second Brain & Productivity",
+  summary:
+    "Organizes Rohi's second brain, task systems, meeting capture, and bounded productivity workflows.",
+  material: "Runner bean",
+  tags: ["Second brain", "Tasks", "Client isolation"],
+  icon: "document",
+  portrait: portrait("miguel", "Miguel"),
+};
+
 const ethan: Agent = {
   slug: "ethan",
   name: "Ethan",
@@ -282,6 +298,7 @@ export const agents = [
   grace,
   iris,
   ella,
+  miguel,
   ethan,
   sofia,
   marco,
@@ -312,7 +329,7 @@ export const agentGroups: readonly AgentGroup[] = [
     id: "communicate",
     title: "Communicate & guide",
     description: "Turn verified facts into useful documentation, content, and learning.",
-    agents: [iris, ella, ethan, sofia],
+    agents: [iris, ella, miguel, ethan, sofia],
   },
   {
     id: "plan",

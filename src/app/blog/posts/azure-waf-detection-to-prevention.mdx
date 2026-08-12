@@ -1,0 +1,92 @@
+---
+title: "How to Tune Azure WAF Without Breaking Production"
+summary: "A disciplined path from Detection mode evidence to Prevention mode enforcement, with narrow exclusions, diagnostics, and a rollback plan."
+image: "/images/blog/azure-waf-detection-to-prevention.png"
+publishedAt: "2026-08-12"
+tag: "Security"
+---
+
+A web application firewall is supposed to create friction for attackers, not for the users who are trying to finish a legitimate request. The tension is real: a managed ruleset will see patterns in headers, query strings, JSON bodies, and cookies that look dangerous because sometimes they are dangerous.
+
+The bad response is to disable the managed ruleset after the first false positive. The other bad response is to switch a new policy to Prevention mode without learning what the application actually sends.
+
+The safer path is evidence first, enforcement second.
+
+## Detection mode is a measurement period
+
+Azure Application Gateway WAF Detection mode logs requests and the actions the WAF would otherwise take, but it does not block traffic. Microsoft recommends it while you tune for the workload; Microsoft also makes the limitation clear: Detection mode provides no protection.[3]
+
+That makes Detection mode useful for a bounded question:
+
+> Which real requests match which rules, and are those requests malicious or legitimate?
+
+It is not a permanent production posture. Give the measurement period a start date, an owner, expected application journeys, and an explicit exit criterion. Otherwise "temporary" Detection mode becomes a silent exception that lasts for years.
+
+## Start with observability, not rule changes
+
+Before changing a rule, enable Application Gateway diagnostic settings and send WAF logs to Log Analytics. Microsoft calls out regular log review as the way to tune policies, reduce false positives, and understand whether the application is being targeted.[3]
+
+For each suspicious match, capture a small evidence record:
+
+- timestamp and request correlation data
+- listener, host, path, and HTTP method
+- WAF rule and ruleset version
+- the matched request attribute, without copying sensitive values into tickets
+- whether the application request was expected
+- the proposed change, owner, and expiry/review date
+
+This prevents the most common tuning mistake: changing a rule because someone saw a single blocked request without proving the request was part of a valid user journey.
+
+## Make exclusions narrow by design
+
+A WAF exclusion does not turn off all inspection. It omits selected request attributes from WAF evaluation while the rest of the request is still evaluated.[4]
+
+That is helpful when a known-safe application field contains content that consistently triggers a false positive. It is also a security decision. Microsoft recommends exclusions that are as narrow and specific as possible, using per-rule exclusions where possible.[4]
+
+Use this order of preference:
+
+1. Fix the application behavior if it is malformed or unexpectedly encoding data.
+2. Scope the exclusion to one rule and one precise request attribute.
+3. Scope it to the smallest relevant application policy, listener, or path.
+4. Document why it exists and review it when the ruleset changes.
+
+Avoid global exclusions for a header, cookie, JSON field, or query argument unless you can demonstrate that the broader scope is necessary. A broad exclusion is not just a support workaround; it creates a blind spot for every request that matches it.
+
+## Treat WAF policy as code
+
+Manual portal changes are difficult to compare, test, and reproduce. Microsoft notes that portal-configured exclusions must be recreated when a ruleset version changes, which is error-prone. Azure CLI, PowerShell, Bicep, or Terraform makes exclusions and policy settings reusable and reviewable.[3]
+
+A production-ready WAF change should therefore have:
+
+- a versioned policy definition
+- a reviewable diff
+- an application owner who validates the expected path
+- a stated rollback action
+- a post-change log-review window
+
+This is not ceremony for its own sake. It lets you answer the question that matters during an incident: *what changed, why, and how do we safely reverse it?*
+
+## Move to Prevention in a controlled sequence
+
+After the pilot has enough representative traffic, turn the evidence into a promotion checklist:
+
+1. **Confirm coverage.** Include interactive browser flows, APIs, uploads, authentication callbacks, admin paths, and automation clients.
+2. **Close known false positives.** Prefer narrow, per-rule exclusions with an owner.
+3. **Validate the ruleset.** Use managed rules and check the currently supported version before promotion.[3]
+4. **Promote one scope at a time.** A listener- or path-specific WAF policy lets you change one site without changing every site behind the gateway.[3]
+5. **Watch the first hours closely.** Review block events, 4xx/5xx trends, and business-journey telemetry.
+6. **Keep rollback simple.** Revert the policy association or the exact versioned policy change; do not improvise a broad ruleset disablement under pressure.
+
+Prevention mode is the point at which malicious matches are actually blocked. Microsoft recommends moving there after tuning because Detection mode only records what would happen.[3]
+
+## The operational habit that matters
+
+Tuning is not a one-time project. New application features, new clients, and ruleset upgrades all change the shape of traffic. A short recurring review of exclusions, blocked requests, policy drift, and ruleset versions is more useful than a large annual cleanup.
+
+The goal is not a WAF with zero alerts. It is a WAF whose enforcement decisions are understood, reproducible, and narrow enough that a false positive can be fixed without quietly reducing protection for the rest of the application.
+
+## Sources
+
+[3] [Azure WAF best practices | Microsoft Learn](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/best-practices)
+
+[4] [Azure WAF exclusion lists | Microsoft Learn](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-waf-configuration)
