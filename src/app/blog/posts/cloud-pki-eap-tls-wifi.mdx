@@ -6,33 +6,33 @@ publishedAt: "2026-08-20"
 tag: "Security"
 ---
 
-Cert-based Wi-Fi removes password-based attacks from the wireless edge. It also moves failure modes from "wrong password" to "wrong certificate role, missing chain, misconfigured identity, or wrong trust boundary." That is useful and risky in the same step.[1]
+Cert-based Wi-Fi removes password-based attacks from the wireless edge. It also moves failure modes from "wrong password" to "wrong certificate role, missing chain, misconfigured identity, or wrong trust boundary." That is useful and risky in the same step.
 
-Energy-sector operational environments are one place where this matters. These networks often mix plant-floor, corporate, and remote access devices under strict safety and availability constraints. Revocation has to work. Segmentation has to stay intact. And a bad Wi-Fi auth change should not become a control-room incident.[1]
+Energy-sector operational environments are one place where this matters. These networks often mix plant-floor, corporate, and remote access devices under strict safety and availability constraints. Revocation has to work. Segmentation has to stay intact. And a bad Wi-Fi auth change should not become a control-room incident.
 
-This post is based on an anonymized energy-company implementation that used Microsoft Intune Cloud PKI, SCEP-issued device certificates, an enterprise Wi-Fi profile, and a FortiGate-managed wireless architecture. No tenant details, SSIDs, domains, IP ranges, certificate subjects, or internal topology are disclosed.[1]
+This post is based on an anonymized energy-company implementation that used Microsoft Intune Cloud PKI, SCEP-issued device certificates, an enterprise Wi-Fi profile, and a FortiGate-managed wireless architecture. No tenant details, SSIDs, domains, IP ranges, certificate subjects, or internal topology are disclosed.
 
 ---
 
 ## What this deployment tries to solve
 
-Password-based WPA2/WPA3 Enterprise is convenient until it is the path an attacker uses to brute-force or phish credentials. EAP-TLS shifts the authentication check from a shared secret to a device-side certificate presented to a RADIUS server over a mutually authenticated TLS channel.[1]
+Password-based WPA2/WPA3 Enterprise is convenient until it is the path an attacker uses to brute-force or phish credentials. EAP-TLS shifts the authentication check from a shared secret to a device-side certificate presented to a RADIUS server over a mutually authenticated TLS channel.
 
-That sounds simple. It is not a single Intune switch.[1]
+That sounds simple. It is not a single Intune switch.
 
 A working deployment needs:
 
-- a certificate chain that endpoints trust before enrollment[1]
-- a certificate issuance flow that matches the device identity source[1]
-- a Wi-Fi profile that uses the issued certificate instead of a password[1]
-- a wireless topology where the FortiGate and RADIUS roles are explicit[9]
-- a rollback posture that does not assume the production SSID can be modified before validation is complete[1]
+- a certificate chain that endpoints trust before enrollment
+- a certificate issuance flow that matches the device identity source
+- a Wi-Fi profile that uses the issued certificate instead of a password
+- a wireless topology where the FortiGate and RADIUS roles are explicit
+- a rollback posture that does not assume the production SSID can be modified before validation is complete
 
 ---
 
 ## The architecture chain
 
-Think of the trust path in layers. Failure at any one of these layers breaks Wi-Fi auth even if every other layer is correct.[1]
+Think of the trust path in layers. Failure at any one of these layers breaks Wi-Fi auth even if every other layer is correct.
 
 Cloud PKI Root CA
 -> Cloud PKI Issuing CA
@@ -41,17 +41,17 @@ Cloud PKI Root CA
 -> RADIUS/EAP-TLS trust path
 -> Intune enterprise Wi-Fi profile
 
-Each arrow is a deployment step with its own prerequisites. Skipping the trusted certificate profile step, for example, does not produce a debug-only warning. It usually produces a failed SCEP enrollment and a device that cannot authenticate even though the Wi-Fi profile is correct.[4]
+Each arrow is a deployment step with its own prerequisites. Skipping the trusted certificate profile step, for example, does not produce a debug-only warning. It usually produces a failed SCEP enrollment and a device that cannot authenticate even though the Wi-Fi profile is correct.
 
 ---
 
 ## Root CA and Issuing CA
 
-Intune Cloud PKI supports a two-tier hierarchy. A Root CA is created first. An Issuing CA is created after, and endpoint certificates are issued through the Issuing CA. A production EAP-TLS deployment needs both tiers. A Root CA alone is not enough for endpoint issuance.[1][2]
+Intune Cloud PKI supports a two-tier hierarchy. A Root CA is created first. An Issuing CA is created after, and endpoint certificates are issued through the Issuing CA. A production EAP-TLS deployment needs both tiers. A Root CA alone is not enough for endpoint issuance.
 
-In production, Cloud PKI keys use Azure Managed HSM. Trial or sandbox Cloud PKI CAs can use software-backed keys instead. That distinction matters because the operational security of the deployment changes depending on which mode is in use.[1][2]
+In production, Cloud PKI keys use Azure Managed HSM. Trial or sandbox Cloud PKI CAs can use software-backed keys instead. That distinction matters because the operational security of the deployment changes depending on which mode is in use.
 
-If the environment already has an on-premises or private root, Intune Cloud PKI also supports bring-your-own CA anchoring for the Issuing CA. That is a branching decision, not a default.[1][3]
+If the environment already has an on-premises or private root, Intune Cloud PKI also supports bring-your-own CA anchoring for the Issuing CA. That is a branching decision, not a default.
 
 Primary sources:
 - [Microsoft Learn | Cloud PKI overview](https://learn.microsoft.com/en-us/intune/cloud-pki/)
@@ -61,11 +61,11 @@ Primary sources:
 
 ## Endpoint trust for the certificate chain
 
-Before a device can receive a certificate from Cloud PKI, it must trust the CA chain used to validate that certificate. In Intune, that is a trusted certificate profile, not an assumption.[4]
+Before a device can receive a certificate from Cloud PKI, it must trust the CA chain used to validate that certificate. In Intune, that is a trusted certificate profile, not an assumption.
 
-The profile should deliver the public Root CA and Issuing CA certificates. It must not deliver leaf certificates. Devices need the chain before SCEP enrollment can succeed, and missing chain trust is one of the more common silent failures in certificate-based network access.[4]
+The profile should deliver the public Root CA and Issuing CA certificates. It must not deliver leaf certificates. Devices need the chain before SCEP enrollment can succeed, and missing chain trust is one of the more common silent failures in certificate-based network access.
 
-On Windows, the admin center may show trusted certificate profiles as "Windows 8.1 and later" while they still function on Windows 10/11. That presentation issue is known; do not treat it as an unsupported platform signal without checking the actual device enrollment behavior.[4]
+On Windows, the admin center may show trusted certificate profiles as "Windows 8.1 and later" while they still function on Windows 10/11. That presentation issue is known; do not treat it as an unsupported platform signal without checking the actual device enrollment behavior.
 
 Primary sources:
 - [Microsoft Learn | Trusted certificate profiles](https://learn.microsoft.com/en-us/intune/device-configuration/certificates/trusted-root-profiles)
@@ -74,17 +74,17 @@ Primary sources:
 
 ## SCEP and the client device certificate
 
-Cloud PKI provides a Cloud Certificate Registration Authority that supports SCEP for each Issuing CA. Intune can then issue device-side certificates suitable for 802.1X and EAP-TLS.[5][6]
+Cloud PKI provides a Cloud Certificate Registration Authority that supports SCEP for each Issuing CA. Intune can then issue device-side certificates suitable for 802.1X and EAP-TLS.
 
-This step has more branches than the name suggests.[1]
+This step has more branches than the name suggests.
 
-The first branch is identity type: device certificate versus user certificate. A device certificate is often a better fit for kiosks, shared workstations, or non-user-bound infrastructure. A user certificate follows the signed-in identity. The article cannot present either as universal; the correct choice depends on how the environment authenticates to Wi-Fi and who owns the endpoint.[5][6]
+The first branch is identity type: device certificate versus user certificate. A device certificate is often a better fit for kiosks, shared workstations, or non-user-bound infrastructure. A user certificate follows the signed-in identity. The article cannot present either as universal; the correct choice depends on how the environment authenticates to Wi-Fi and who owns the endpoint.
 
-The second branch is join type. Hybrid-joined Windows devices can require an `OnpremisesSecurityIdentifier` SAN mapping under strong-mapping guidance such as KB5014754. Azure AD-joined or cloud-only devices may have different mapping requirements. The SCEP subject and SAN fields are not the same across these environments.[5][6]
+The second branch is join type. Hybrid-joined Windows devices can require an `OnpremisesSecurityIdentifier` SAN mapping under strong-mapping guidance such as KB5014754. Azure AD-joined or cloud-only devices may have different mapping requirements. The SCEP subject and SAN fields are not the same across these environments.
 
-SCEP profiles can use Intune variables for subject and SAN values, but those variables must align with the environment's identity source: Azure AD object ID, device ID, or on-premises SID for hybrid-joined devices. The certificate request is only as correct as the mapping that generated it.[5][6]
+SCEP profiles can use Intune variables for subject and SAN values, but those variables must align with the environment's identity source: Azure AD object ID, device ID, or on-premises SID for hybrid-joined devices. The certificate request is only as correct as the mapping that generated it.
 
-Another practical point: Cloud PKI is scoped to Intune-managed device end-entity certificates via SCEP. It is not a full enterprise PKI replacement for server, code-signing, or non-Intune certificate workloads.[1][6]
+Another practical point: Cloud PKI is scoped to Intune-managed device end-entity certificates via SCEP. It is not a full enterprise PKI replacement for server, code-signing, or non-Intune certificate workloads.
 
 Primary sources:
 - [Microsoft Learn | Cloud PKI overview](https://learn.microsoft.com/en-us/intune/cloud-pki/)
@@ -95,41 +95,41 @@ Primary sources:
 
 ## Private key storage and KSP considerations
 
-The Key Storage Provider determines where and how private keys are protected on the endpoint, impacting both security and usability. This choice must align with device type, management capabilities, and risk tolerance.[1]
+The Key Storage Provider determines where and how private keys are protected on the endpoint, impacting both security and usability. This choice must align with device type, management capabilities, and risk tolerance.
 
-Private keys can be stored in three primary locations:[1]
+Private keys can be stored in three primary locations:
 
 - TPM 2.0: hardware-bound keys with hardware-based protection, ideal for corporate-owned devices requiring strong assurance
 - Software-based keys: stored in the OS key storage, less secure but more flexible for scenarios where TPM or HSM is unavailable
-- HSM-backed keys: keys protected by external hardware security modules, highest assurance but requires additional infrastructure[1]
+- HSM-backed keys: keys protected by external hardware security modules, highest assurance but requires additional infrastructure
 
-Key protection options vary by storage type:[1]
+Key protection options vary by storage type:
 
 - TPM: hardware isolation, anti-hammering protection, bound to specific hardware
 - Software: OS-level access controls, optional encryption at rest, dependent on platform security
-- HSM: physical tamper resistance, strict access logging, cryptographic boundary enforcement[1]
+- HSM: physical tamper resistance, strict access logging, cryptographic boundary enforcement
 
-Implications for device types:[1]
+Implications for device types:
 
 - Kiosks and shared workstations: TPM-bound keys prevent credential roaming and ensure device-specific authentication
 - User-bound devices: software or HSM options may be preferred to support roaming profiles or certificate renewal
-- Scenarios without TPM: software-based keys are the fallback, compensated by MDM policies and additional access controls[1]
+- Scenarios without TPM: software-based keys are the fallback, compensated by MDM policies and additional access controls
 
-The KSP choice directly affects SCEP enrollment success and certificate usage:[1]
+The KSP choice directly affects SCEP enrollment success and certificate usage:
 
 - TPM keys require compatible TPM 2.0 firmware and proper endorsement key hierarchy
 - Software keys depend on device encryption status and user account protections
-- HSM implementations need additional client-side middleware and driver support[1]
+- HSM implementations need additional client-side middleware and driver support
 
 ---
 
 ## Certificate revocation and chain lifecycle
 
-Revocation is not a checkpoint at the end of the project. It is an operational requirement that must be validated before production cutover.[1]
+Revocation is not a checkpoint at the end of the project. It is an operational requirement that must be validated before production cutover.
 
-Cloud PKI publishes CRL distribution points and Authority Information Access endpoints for each CA. The CRL has a 7-day validity period with a 3.5-day refresh. Reliable CDP/AIA reachability matters because the RADIUS server or validating endpoint must be able to check whether an issued certificate is still valid.[1]
+Cloud PKI publishes CRL distribution points and Authority Information Access endpoints for each CA. The CRL has a 7-day validity period with a 3.5-day refresh. Reliable CDP/AIA reachability matters because the RADIUS server or validating endpoint must be able to check whether an issued certificate is still valid.
 
-If the wireless access path, intermediate firewall rules, or proxy configuration blocks Intune-hosted CDP/AIA endpoints, revocation checks can fail. Air-gapped or restricted network segments are a known failure mode and should be treated as a validation item, not an afterthought.[1]
+If the wireless access path, intermediate firewall rules, or proxy configuration blocks Intune-hosted CDP/AIA endpoints, revocation checks can fail. Air-gapped or restricted network segments are a known failure mode and should be treated as a validation item, not an afterthought.
 
 Primary sources:
 - [Microsoft Learn | Cloud PKI overview](https://learn.microsoft.com/en-us/intune/cloud-pki/)
@@ -138,15 +138,15 @@ Primary sources:
 
 ## RADIUS, EAP-TLS trust, and the FortiGate role
 
-This is the part most likely to be misread from an existing flow.[8]
+This is the part most likely to be misread from an existing flow.
 
-In the primary validated pattern for this class of deployment, FortiGate operates as the wireless controller or AP manager. It forwards 802.1X/EAP authentication to an external RADIUS server such as FortiAuthenticator or Microsoft NPS. The RADIUS server performs EAP-TLS certificate validation. FortiOS itself is not documented as the native EAP-TLS certificate-validation RADIUS endpoint.[8][11]
+In the primary validated pattern for this class of deployment, FortiGate operates as the wireless controller or AP manager. It forwards 802.1X/EAP authentication to an external RADIUS server such as FortiAuthenticator or Microsoft NPS. The RADIUS server performs EAP-TLS certificate validation. FortiOS itself is not documented as the native EAP-TLS certificate-validation RADIUS endpoint.
 
-That matters because there are two certificate trust questions, not one.[8]
+That matters because there are two certificate trust questions, not one.
 
-The first is the device certificate issued through Cloud PKI and presented during EAP-TLS. The second is the RADIUS server certificate presented back to the device during the TLS handshake. The RADIUS server certificate must be trusted by the device separately from the certificate it received from Cloud PKI. Confusing the two is a common cause of EAP-TLS failures.[9][10]
+The first is the device certificate issued through Cloud PKI and presented during EAP-TLS. The second is the RADIUS server certificate presented back to the device during the TLS handshake. The RADIUS server certificate must be trusted by the device separately from the certificate it received from Cloud PKI. Confusing the two is a common cause of EAP-TLS failures.
 
-EAP is encapsulated inside RADIUS messages. The wireless controller passes the authentication exchange; the RADIUS server validates the certificate, checks policy, and returns accept or reject. If the deployment uses FortiAuthenticator, the RADIUS integration path is documented by Fortinet. If it uses NPS or another RADIUS service, the configuration paths and certificate validation requirements can differ.[9][10]
+EAP is encapsulated inside RADIUS messages. The wireless controller passes the authentication exchange; the RADIUS server validates the certificate, checks policy, and returns accept or reject. If the deployment uses FortiAuthenticator, the RADIUS integration path is documented by Fortinet. If it uses NPS or another RADIUS service, the configuration paths and certificate validation requirements can differ.
 
 Primary sources:
 - [Fortinet Community | 802.1X wireless certificate-based RADIUS authentication using NPS with FortiAP](https://community.fortinet.com/support-forum-92/802-1x-wireless-machine-certificate-based-radius-authentication-using-nps-with-fortiap-s-212485)
@@ -157,25 +157,25 @@ Primary sources:
 
 ## The choices the article cannot avoid
 
-A useful post should describe decisions, not pretend the environment is uniform. The validated choices for this deployment are:[1]
+A useful post should describe decisions, not pretend the environment is uniform. The validated choices for this deployment are:
 
-- Device auth versus user auth[5]
-- RADIUS product and topology[8]
-- FortiGate role: controller/AP versus RADIUS validator[9]
-- target OS and management path[7]
-- private-key storage and HSM context[1]
-- subject and SAN mapping by device join type[5]
-- certificate revocation expectations and network reachability[1]
+- Device auth versus user auth
+- RADIUS product and topology
+- FortiGate role: controller/AP versus RADIUS validator
+- target OS and management path
+- private-key storage and HSM context
+- subject and SAN mapping by device join type
+- certificate revocation expectations and network reachability
 
-Each choice changes the configuration path. Any post that flattens them into a single procedure will mislead readers with different environments.[1]
+Each choice changes the configuration path. Any post that flattens them into a single procedure will mislead readers with different environments.
 
 ---
 
 ## Intune enterprise Wi-Fi profile
 
-Once the certificate chain and SCEP profile are in place, Intune can deliver an enterprise Wi-Fi profile for WPA2/WPA3 Enterprise with EAP-TLS. Supported platforms include Windows, iOS/iPadOS, macOS, and Android Enterprise. Android device administrator management is deprecated and should not be used for new EAP-TLS deployments. Windows 8.1 is end of support for Intune.[7]
+Once the certificate chain and SCEP profile are in place, Intune can deliver an enterprise Wi-Fi profile for WPA2/WPA3 Enterprise with EAP-TLS. Supported platforms include Windows, iOS/iPadOS, macOS, and Android Enterprise. Android device administrator management is deprecated and should not be used for new EAP-TLS deployments. Windows 8.1 is end of support for Intune.
 
-The Wi-Fi profile references the certificate flow, not the other way around. The profile cannot fix a broken trusted certificate profile or an invalid SCEP certificate.[7]
+The Wi-Fi profile references the certificate flow, not the other way around. The profile cannot fix a broken trusted certificate profile or an invalid SCEP certificate.
 
 Primary sources:
 - [Microsoft Learn | Configure Wi-Fi profiles](https://learn.microsoft.com/en-us/intune/device-configuration/templates/configure-wifi)
@@ -185,9 +185,9 @@ Primary sources:
 
 ## Pilot rollout as a control, not a checklist
 
-For energy-sector and other operational environments, certificate rollout is safer when it starts on a dedicated test SSID with a small pilot group instead of the live production SSID.[1]
+For energy-sector and other operational environments, certificate rollout is safer when it starts on a dedicated test SSID with a small pilot group instead of the live production SSID.
 
-A useful minimum pilot set:[1]
+A useful minimum pilot set:
 
 - 5 to 10 devices spanning the target OS mix
 - a separate test SSID that is not the production SSID
@@ -197,7 +197,7 @@ A useful minimum pilot set:[1]
 - a revocation test showing access is denied within the expected CRL window
 - a stated rollback action that does not modify the production SSID
 
-If any of these fail, the rollback is to disable the test SSID and remove the pilot profiles. Production should remain unchanged until the pilot is stable.[1]
+If any of these fail, the rollback is to disable the test SSID and remove the pilot profiles. Production should remain unchanged until the pilot is stable.
 
 ---
 
@@ -205,55 +205,55 @@ If any of these fail, the rollback is to disable the test SSID and remove the pi
 
 Use this checklist as a reader-facing implementation gate:
 
-1. Confirm Cloud PKI licensing and Root plus Issuing CA hierarchy.[1][2]
-2. Confirm the trusted certificate profile is deployed before any SCEP profile.[4]
-3. Confirm the device or user certificate choice matches the Wi-Fi authentication model.[5][6]
-4. Confirm SAN mapping matches the device join type and identity source.[5][6]
-5. Confirm the RADIUS server certificate is trusted independently on the device.[8][10]
-6. Confirm pilot devices complete EAP-TLS authentication through the wireless controller to the external RADIUS server.[8][9]
-7. Confirm CDP/AIA endpoints are reachable for revocation checks.[1]
-8. Confirm a revocation test changes access behavior within the expected window.[1]
-9. Confirm no production SSID configuration is modified during the pilot.[1]
+1. Confirm Cloud PKI licensing and Root plus Issuing CA hierarchy.
+2. Confirm the trusted certificate profile is deployed before any SCEP profile.
+3. Confirm the device or user certificate choice matches the Wi-Fi authentication model.
+4. Confirm SAN mapping matches the device join type and identity source.
+5. Confirm the RADIUS server certificate is trusted independently on the device.
+6. Confirm pilot devices complete EAP-TLS authentication through the wireless controller to the external RADIUS server.
+7. Confirm CDP/AIA endpoints are reachable for revocation checks.
+8. Confirm a revocation test changes access behavior within the expected window.
+9. Confirm no production SSID configuration is modified during the pilot.
 
 ---
 
 ## No-cutover conditions
 
-Do not move the production SSID into the new certificate auth path until all of the following are true:[1]
+Do not move the production SSID into the new certificate auth path until all of the following are true:
 
-- trusted certificate profile deployment is verified on pilot devices[4]
-- SCEP enrollment is verified with correct subject/SAN mapping[5][6]
-- EAP-TLS authentication succeeds from the wireless controller to the external RADIUS server[8][9]
-- RADIUS server certificate validation succeeds on pilot devices[8][10]
-- revocation behavior is confirmed[1]
-- the pilot has remained stable for 14 days[1]
+- trusted certificate profile deployment is verified on pilot devices
+- SCEP enrollment is verified with correct subject/SAN mapping
+- EAP-TLS authentication succeeds from the wireless controller to the external RADIUS server
+- RADIUS server certificate validation succeeds on pilot devices
+- revocation behavior is confirmed
+- the pilot has remained stable for 14 days
 
-If any of these are not met, the safe posture is to stop, not to change production.[1]
+If any of these are not met, the safe posture is to stop, not to change production.
 
 ---
 
 ## Rollback considerations
 
-Rollback should be simple and deterministic. In practice that means:[1]
+Rollback should be simple and deterministic. In practice that means:
 
 - disable the test SSID
 - remove the pilot certificate and Wi-Fi profiles from the pilot group
 - leave the production SSID unchanged until an explicit cutover decision is made
 
-Do not treat rollback as a later improvisation. Define it before the pilot starts.[1]
+Do not treat rollback as a later improvisation. Define it before the pilot starts.
 
 ---
 
 ## Sources
 
-[1] https://learn.microsoft.com/en-us/intune/cloud-pki
-[2] https://learn.microsoft.com/en-us/intune/cloud-pki/configure-ca
-[3] https://learn.microsoft.com/en-us/intune/cloud-pki/configure-byoca
-[4] https://learn.microsoft.com/en-us/intune/device-configuration/certificates/trusted-root-profiles
-[5] https://learn.microsoft.com/en-us/intune/device-configuration/certificates/scep-profiles
-[6] https://learn.microsoft.com/en-us/intune/fundamentals/certificates/overview
-[7] https://learn.microsoft.com/en-us/intune/device-configuration/templates/configure-wifi
-[8] https://learn.microsoft.com/en-us/intune/device-configuration/templates/ref-wifi-settings-windows
-[9] https://community.fortinet.com/support-forum-92/802-1x-wireless-machine-certificate-based-radius-authentication-using-nps-with-fortiap-s-212485
-[10] https://docs.fortinet.com/document/fortiauthenticator/8.0.0/examples/587192/wifi-using-fortiauthenticator-radius-with-certificates
-[11] https://docs.fortinet.com/document/fortigate/7.4.0/new-features/716389/support-for-eap-tls-on-fortiwifi-models-operating-in-client-mode-7-4-1
+- [Microsoft Learn | Cloud PKI overview](https://learn.microsoft.com/en-us/intune/cloud-pki)
+- [Microsoft Learn | Configure Cloud PKI certificate authorities](https://learn.microsoft.com/en-us/intune/cloud-pki/configure-ca)
+- [Microsoft Learn | Configure bring-your-own CA (BYOCA)](https://learn.microsoft.com/en-us/intune/cloud-pki/configure-byoca)
+- [Microsoft Learn | Trusted certificate profiles](https://learn.microsoft.com/en-us/intune/device-configuration/certificates/trusted-root-profiles)
+- [Microsoft Learn | SCEP certificate profiles](https://learn.microsoft.com/en-us/intune/device-configuration/certificates/scep-profiles)
+- [Microsoft Learn | Intune certificate overview](https://learn.microsoft.com/en-us/intune/fundamentals/certificates/overview)
+- [Microsoft Learn | Configure Wi-Fi profiles](https://learn.microsoft.com/en-us/intune/device-configuration/templates/configure-wifi)
+- [Microsoft Learn | Windows Wi-Fi reference settings](https://learn.microsoft.com/en-us/intune/device-configuration/templates/ref-wifi-settings-windows)
+- [Fortinet Community | 802.1X wireless machine-certificate RADIUS authentication using NPS with FortiAP](https://community.fortinet.com/support-forum-92/802-1x-wireless-machine-certificate-based-radius-authentication-using-nps-with-fortiap-s-212485)
+- [Fortinet Docs | FortiAuthenticator RADIUS with certificates example](https://docs.fortinet.com/document/fortiauthenticator/8.0.0/examples/587192/wifi-using-fortiauthenticator-radius-with-certificates)
+- [Fortinet Docs | EAP-TLS support on FortiWiFi client mode](https://docs.fortinet.com/document/fortigate/7.4.0/new-features/716389/support-for-eap-tls-on-fortiwifi-models-operating-in-client-mode-7-4-1)

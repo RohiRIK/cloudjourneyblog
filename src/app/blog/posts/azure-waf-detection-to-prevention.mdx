@@ -14,7 +14,7 @@ The safer path is evidence first, enforcement second.
 
 ## Detection mode is a measurement period
 
-Azure Application Gateway WAF Detection mode logs requests and the actions the WAF would otherwise take, but it does not block traffic. Microsoft recommends it while you tune for the workload; Microsoft also makes the limitation clear: Detection mode provides no protection.[3]
+Azure Application Gateway WAF Detection mode logs requests and the actions the WAF would otherwise take, but it does not block traffic. Microsoft recommends it while you tune for the workload; Microsoft also makes the limitation clear: Detection mode provides no protection.
 
 That makes Detection mode useful for a bounded question:
 
@@ -24,7 +24,7 @@ It is not a permanent production posture. Give the measurement period a start da
 
 ## Start with observability, not rule changes
 
-Before changing a rule, enable Application Gateway diagnostic settings and send WAF logs to Log Analytics. Microsoft calls out regular log review as the way to tune policies, reduce false positives, and understand whether the application is being targeted.[3]
+Before changing a rule, enable Application Gateway diagnostic settings and send WAF logs to Log Analytics. Microsoft calls out regular log review as the way to tune policies, reduce false positives, and understand whether the application is being targeted.
 
 For each suspicious match, capture a small evidence record:
 
@@ -39,9 +39,9 @@ This prevents the most common tuning mistake: changing a rule because someone sa
 
 ## Make exclusions narrow by design
 
-A WAF exclusion does not turn off all inspection. It omits selected request attributes from WAF evaluation while the rest of the request is still evaluated.[4]
+A WAF exclusion does not turn off all inspection. It omits selected request attributes from WAF evaluation while the rest of the request is still evaluated.
 
-That is helpful when a known-safe application field contains content that consistently triggers a false positive. It is also a security decision. Microsoft recommends exclusions that are as narrow and specific as possible, using per-rule exclusions where possible.[4]
+That is helpful when a known-safe application field contains content that consistently triggers a false positive. It is also a security decision. Microsoft recommends exclusions that are as narrow and specific as possible, using per-rule exclusions where possible.
 
 Use this order of preference:
 
@@ -54,7 +54,7 @@ Avoid global exclusions for a header, cookie, JSON field, or query argument unle
 
 ## Treat WAF policy as code
 
-Manual portal changes are difficult to compare, test, and reproduce. Microsoft notes that portal-configured exclusions must be recreated when a ruleset version changes, which is error-prone. Azure CLI, PowerShell, Bicep, or Terraform makes exclusions and policy settings reusable and reviewable.[3]
+Manual portal changes are difficult to compare, test, and reproduce. Microsoft notes that portal-configured exclusions must be recreated when a ruleset version changes, which is error-prone. Azure CLI, PowerShell, Bicep, or Terraform makes exclusions and policy settings reusable and reviewable.
 
 A production-ready WAF change should therefore have:
 
@@ -72,12 +72,12 @@ After the pilot has enough representative traffic, turn the evidence into a prom
 
 1. **Confirm coverage.** Include interactive browser flows, APIs, uploads, authentication callbacks, admin paths, and automation clients.
 2. **Close known false positives.** Prefer narrow, per-rule exclusions with an owner.
-3. **Validate the ruleset.** Use managed rules and check the currently supported version before promotion.[3]
-4. **Promote one scope at a time.** A listener- or path-specific WAF policy lets you change one site without changing every site behind the gateway.[3]
+3. **Validate the ruleset.** Use managed rules and check the currently supported version before promotion.
+4. **Promote one scope at a time.** A listener- or path-specific WAF policy lets you change one site without changing every site behind the gateway.
 5. **Watch the first hours closely.** Review block events, 4xx/5xx trends, and business-journey telemetry.
 6. **Keep rollback simple.** Revert the policy association or the exact versioned policy change; do not improvise a broad ruleset disablement under pressure.
 
-Prevention mode is the point at which malicious matches are actually blocked. Microsoft recommends moving there after tuning because Detection mode only records what would happen.[3]
+Prevention mode is the point at which malicious matches are actually blocked. Microsoft recommends moving there after tuning because Detection mode only records what would happen.
 
 ## The operational habit that matters
 
@@ -87,6 +87,6 @@ The goal is not a WAF with zero alerts. It is a WAF whose enforcement decisions 
 
 ## Sources
 
-[3] [Azure WAF best practices | Microsoft Learn](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/best-practices)
+- [Azure WAF best practices | Microsoft Learn](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/best-practices)
 
-[4] [Azure WAF exclusion lists | Microsoft Learn](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-waf-configuration)
+- [Azure WAF exclusion lists | Microsoft Learn](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-waf-configuration)

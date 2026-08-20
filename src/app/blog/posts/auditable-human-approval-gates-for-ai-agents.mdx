@@ -12,7 +12,7 @@ Those are not equivalent controls.
 
 For an AI agent that can call tools, create tickets, change cloud resources, publish content, send messages, touch tenant data, or initiate money movement, a human approval gate needs to be a real authorization boundary. It must be understandable after the fact, not just present in a demo.
 
-NIST's AI Risk Management Framework calls for documented, assessed, and managed processes for human oversight, along with ongoing monitoring and the ability to modify, intervene in, or shut down systems that deviate from expected behavior.[5] OWASP's AI Agent Security Cheat Sheet takes the operational version further: fail closed if risk classification, approval validation, policy lookup, or audit logging fails.[6]
+NIST's AI Risk Management Framework calls for documented, assessed, and managed processes for human oversight, along with ongoing monitoring and the ability to modify, intervene in, or shut down systems that deviate from expected behavior. OWASP's AI Agent Security Cheat Sheet takes the operational version further: fail closed if risk classification, approval validation, policy lookup, or audit logging fails.
 
 That gives us a practical design target.
 
@@ -58,7 +58,7 @@ A reviewer should not approve their own recommendation merely because an interfa
 - a different control plane validates the approval token and policy
 - the execution worker performs only the approved action
 
-NIST emphasizes accountability mechanisms, documented risks, and clearly differentiated human roles and responsibilities for AI oversight.[5] In practice, that means the approval decision belongs in a durable system record, not only in a conversational transcript.
+NIST emphasizes accountability mechanisms, documented risks, and clearly differentiated human roles and responsibilities for AI oversight. In practice, that means the approval decision belongs in a durable system record, not only in a conversational transcript.
 
 ## Capture the evidence, not just the outcome
 
@@ -85,12 +85,12 @@ Approval workflows fail in boring ways: a browser tab times out, a policy servic
 A robust gate has explicit answers:
 
 - Can the approval be reused? Usually no; bind it to one request and expiry.
-- What happens if logging is down? Fail closed for consequential actions.[6]
+- What happens if logging is down? Fail closed for consequential actions.
 - What happens if execution differs from the approved plan? Stop and require a new approval.
 - Can an authorized human halt the agent? Yes, with a durable kill switch and a recorded reason.
 - What is the rollback path? Define it before the action becomes available.
 
-NIST treats ongoing monitoring, periodic review, and human intervention as part of managing AI-system risk, not as optional operational polish.[5]
+NIST treats ongoing monitoring, periodic review, and human intervention as part of managing AI-system risk, not as optional operational polish.
 
 ## Do not confuse approval with safety
 
@@ -109,6 +109,6 @@ That makes human oversight operational instead of ceremonial. The result is not 
 
 ## Sources
 
-[5] [NIST AI Risk Management Framework 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)
+- [NIST AI Risk Management Framework 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)
 
-[6] [OWASP AI Agent Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html)
+- [OWASP AI Agent Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html)
