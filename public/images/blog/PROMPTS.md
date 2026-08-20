@@ -157,7 +157,19 @@ Color palette: near-black background, flow nodes in electric blue/neon green/amb
 ---
 
 ---
-## securing-ai-agents.png
+## 38. cloud-pki-eap-tls-wifi.png
+
+**Concept:** CLOUD PKI TO EAP-TLS WI-FI WITH INTUNE AND FORTIGATE problem type.
+
+Microsoft Intune Cloud PKI issues device certificates through SCEP for EAP-TLS Wi-Fi, with a FortiGate-managed wireless architecture forwarding 802.1X authentication to an external RADIUS server for certificate validation.
+
+**Prompt:**
+Nano Banana style digital illustration. Cyberpunk retrofuturism. Near-black background (#0D0D0D). Bold flat colors, hard neon edges, zero gradients. Square 1:1 composition. ICON-ONLY DIAGRAM: absolutely no text, letters, words, numbers, logos, watermarks, labels, captions, or glyph-like typography anywhere in the image. Use only abstract geometric certificate, shield, device, wireless, router, and server icons. Failure condition: any readable or pseudo-readable typography.
+A precise layered certificate trust chain flowing from top to bottom: an abstract electric-blue geometric trust-anchor icon connects down to a neon-green issuing-certificate icon, then to three small trusted-device icons, then to an amber device-certificate icon, then into a cyan RADIUS-validation server icon, and finally to a cyan Wi-Fi lock icon. A separate violet branch shows a wireless-controller appliance forwarding abstract authentication packets to an external server icon, visually separating controller and RADIUS roles. Small geometric endpoint and network-segment icons below receive only verified neon connection lines. Palette: electric blue, neon green, amber, cyan, violet, near-black. Minimal clean security architecture illustration, icon-only, no typography.
+
+---
+
+## 39. securing-ai-agents.png
 #
 **Concept:** SECURING AI AGENTS: THREAT MODEL + GUARDRAILS problem type.
 #
