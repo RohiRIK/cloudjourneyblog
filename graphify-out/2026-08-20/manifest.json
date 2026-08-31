@@ -1,0 +1,1607 @@
+{
+  ".eslintrc.json": {
+    "mtime": 1785757604.5957873,
+    "ast_hash": "9b8be5ef96ddd69ecd1ddc1554c61a88",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/FrontendDesign/Tools/GenerateComponent.ts": {
+    "mtime": 1785757838.168186,
+    "ast_hash": "351541f9251929157f04f78bdb58aae5",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/ui-ux-pro-max/scripts/core.py": {
+    "mtime": 1784008204.1699023,
+    "ast_hash": "3df4734a785963a8242a56c1b926adfd",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/ui-ux-pro-max/scripts/design_system.py": {
+    "mtime": 1784008204.1706054,
+    "ast_hash": "08f84d04608a19049c90fc2b1ef314f9",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/ui-ux-pro-max/scripts/search.py": {
+    "mtime": 1784008204.1706054,
+    "ast_hash": "8c7e35426fe8f6f3ed91e9dce0ed7af1",
+    "semantic_hash": ""
+  },
+  ".github/scripts/parse-frontmatter.ts": {
+    "mtime": 1785757838.168186,
+    "ast_hash": "ed4c523d5a190b4c6c5ef1cca4f89f1f",
+    "semantic_hash": ""
+  },
+  ".lintstagedrc.js": {
+    "mtime": 1784008204.172178,
+    "ast_hash": "dd6c1d0c93822f9326d2f95a8016bf25",
+    "semantic_hash": ""
+  },
+  ".vscode/extensions.json": {
+    "mtime": 1784008204.172178,
+    "ast_hash": "8d2eec11f757091ac2d8fdbc8ee8491f",
+    "semantic_hash": ""
+  },
+  "biome.json": {
+    "mtime": 1785757604.5967872,
+    "ast_hash": "7e63a6c4dd85cfec6e4090b9e1c0e94f",
+    "semantic_hash": ""
+  },
+  "index.ts": {
+    "mtime": 1785757838.168186,
+    "ast_hash": "30dc1c8733140d067c74eedf5f32fe87",
+    "semantic_hash": ""
+  },
+  "next.config.mjs": {
+    "mtime": 1784008204.199903,
+    "ast_hash": "e56ffc4ba33ceb645ff07dee2bdf4db1",
+    "semantic_hash": ""
+  },
+  "next.config.ts": {
+    "mtime": 1784008204.199903,
+    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1785999820.472553,
+    "ast_hash": "e43b84e419c7cd4b0b287de981b0ced9",
+    "semantic_hash": ""
+  },
+  "public/feeds-data.json": {
+    "mtime": 1786024617.571165,
+    "ast_hash": "72dcb4811f03278be5e9bf3b332af84d",
+    "semantic_hash": ""
+  },
+  "scripts/update-feeds.js": {
+    "mtime": 1785757838.168186,
+    "ast_hash": "1e8f5208c8b9f611882f4f9763c12464",
+    "semantic_hash": ""
+  },
+  "scripts/validate-agent-assets.ts": {
+    "mtime": 1785999820.487243,
+    "ast_hash": "137521135eea8aafc16388e4c46fe521",
+    "semantic_hash": ""
+  },
+  "src/app/about/page.tsx": {
+    "mtime": 1786021045.1544518,
+    "ast_hash": "589edabbd906edc237e01e6fc4b6092e",
+    "semantic_hash": ""
+  },
+  "src/app/agent-stack/page.tsx": {
+    "mtime": 1785999820.488202,
+    "ast_hash": "93147315469602e01e2c0ef20e9ba3d6",
+    "semantic_hash": ""
+  },
+  "src/app/api/rss/route.ts": {
+    "mtime": 1785757604.6007872,
+    "ast_hash": "3446ee91ef2c6995f6ecfb8ece496ff4",
+    "semantic_hash": ""
+  },
+  "src/app/blog/[slug]/page.tsx": {
+    "mtime": 1785757838.168186,
+    "ast_hash": "fc80f40d27ff5dd4bd31de7a0f2f7c4a",
+    "semantic_hash": ""
+  },
+  "src/app/blog/page.tsx": {
+    "mtime": 1785757604.6007872,
+    "ast_hash": "f7386dbf08a636db8a2c63473a998386",
+    "semantic_hash": ""
+  },
+  "src/app/feeds/page.tsx": {
+    "mtime": 1785757838.169186,
+    "ast_hash": "7de43d500ab1be58513dd1878b530a42",
+    "semantic_hash": ""
+  },
+  "src/app/gallery/page.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "05a7c922b6a2240204600879aa18a33d",
+    "semantic_hash": ""
+  },
+  "src/app/layout.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "307458621b1ce375faf42983c6447562",
+    "semantic_hash": ""
+  },
+  "src/app/not-found.tsx": {
+    "mtime": 1784008204.2289035,
+    "ast_hash": "e5c6575790f3ad74b9c2a313a951469e",
+    "semantic_hash": ""
+  },
+  "src/app/page.tsx": {
+    "mtime": 1786028022.1834671,
+    "ast_hash": "e118c308fde96034ec1b541df9d01472",
+    "semantic_hash": ""
+  },
+  "src/app/robots.ts": {
+    "mtime": 1784008204.2289035,
+    "ast_hash": "bb6adc49893081a57c8979e19e56668f",
+    "semantic_hash": ""
+  },
+  "src/app/rss.xml/route.ts": {
+    "mtime": 1785757838.169186,
+    "ast_hash": "394c7546d50f2da4ea48e5da451296d9",
+    "semantic_hash": ""
+  },
+  "src/app/sitemap.ts": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "960a459fc7b55795ff6f9d4c34ddad34",
+    "semantic_hash": ""
+  },
+  "src/app/work/[slug]/page.tsx": {
+    "mtime": 1785757838.169186,
+    "ast_hash": "74b14d39433b09affb461a924b606a31",
+    "semantic_hash": ""
+  },
+  "src/app/work/page.tsx": {
+    "mtime": 1785757838.169186,
+    "ast_hash": "f0c385f6e4732390eebb5377b052e1a2",
+    "semantic_hash": ""
+  },
+  "src/components/BentoCard.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "38c70b436b84601361b800c5977eb412",
+    "semantic_hash": ""
+  },
+  "src/components/Clock.tsx": {
+    "mtime": 1785757838.169186,
+    "ast_hash": "1e64ffa20b191bf56200bea84133acbe",
+    "semantic_hash": ""
+  },
+  "src/components/Footer.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "cf0e40b47699d82bb4e8c10d7d22c31b",
+    "semantic_hash": ""
+  },
+  "src/components/Header.tsx": {
+    "mtime": 1786021045.1544518,
+    "ast_hash": "3696ae8d6cc715ee3cff794965975277",
+    "semantic_hash": ""
+  },
+  "src/components/HeadingLink.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "857f1584265e51ccbceecaba91cc46c1",
+    "semantic_hash": ""
+  },
+  "src/components/Mailchimp.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "f274448ceac1ba6b4948ec8213035a5f",
+    "semantic_hash": ""
+  },
+  "src/components/ProjectCard.tsx": {
+    "mtime": 1786021045.1554518,
+    "ast_hash": "7eab5208d3610f93f3eb1a1f09a73e83",
+    "semantic_hash": ""
+  },
+  "src/components/Providers.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "5979844f5ab2e776c8c59d8682474a4e",
+    "semantic_hash": ""
+  },
+  "src/components/RouteGuard.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "72cd63e186a0085425a63acae22d2894",
+    "semantic_hash": ""
+  },
+  "src/components/ScrollToHash.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "7ee72df3bfbfb83f6dc310064531f6e5",
+    "semantic_hash": ""
+  },
+  "src/components/ThemeToggle.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "aff99e5ba961e7d8a6273da0e113235f",
+    "semantic_hash": ""
+  },
+  "src/components/agents/AgentCard.tsx": {
+    "mtime": 1785999820.4884026,
+    "ast_hash": "b1a917645288bcf3c28825058dce444d",
+    "semantic_hash": ""
+  },
+  "src/components/blog/Comments.tsx": {
+    "mtime": 1784008204.2311058,
+    "ast_hash": "99c8129562b0489105b2420b648adc5b",
+    "semantic_hash": ""
+  },
+  "src/components/blog/Post.tsx": {
+    "mtime": 1785757604.6017873,
+    "ast_hash": "83e19161dd4e198ba8b944d0e91ecea6",
+    "semantic_hash": ""
+  },
+  "src/components/blog/Posts.tsx": {
+    "mtime": 1784008204.2311413,
+    "ast_hash": "8e9f95f5ca6a519a5eceddec4e51a626",
+    "semantic_hash": ""
+  },
+  "src/components/blog/ShareSection.tsx": {
+    "mtime": 1785757838.169186,
+    "ast_hash": "15a40a66ec2dfbf234f8f014e64fe06d",
+    "semantic_hash": ""
+  },
+  "src/components/gallery/GalleryView.tsx": {
+    "mtime": 1785761396.6920676,
+    "ast_hash": "8a5fe4a64d159e3b735df7e971b28923",
+    "semantic_hash": ""
+  },
+  "src/components/index.ts": {
+    "mtime": 1784008204.2311413,
+    "ast_hash": "63a28cc1f2a78bea4f8f5066ae844f97",
+    "semantic_hash": ""
+  },
+  "src/components/mdx.tsx": {
+    "mtime": 1785757838.169186,
+    "ast_hash": "e2c66a4ad58fb6ce5397e602943e112c",
+    "semantic_hash": ""
+  },
+  "src/components/work/Projects.tsx": {
+    "mtime": 1786021045.1554518,
+    "ast_hash": "6c0e9b8dd2e74b877833046f7a91037d",
+    "semantic_hash": ""
+  },
+  "src/lib/utils.ts": {
+    "mtime": 1784008204.2312794,
+    "ast_hash": "618d00bf4537ce84f9ba62c5b215fb30",
+    "semantic_hash": ""
+  },
+  "src/resources/agents.ts": {
+    "mtime": 1786553550.4036942,
+    "ast_hash": "62dd58dfda06b51d20d73416ac344152",
+    "semantic_hash": ""
+  },
+  "src/resources/config.js": {
+    "mtime": 1785757838.169186,
+    "ast_hash": "66a0c8890398f991ff678b26985172ac",
+    "semantic_hash": ""
+  },
+  "src/resources/content.js": {
+    "mtime": 1785757838.169186,
+    "ast_hash": "596b8e13b9acef3a9f8e956d2fbe66a7",
+    "semantic_hash": ""
+  },
+  "src/resources/content.tsx": {
+    "mtime": 1786021045.1583858,
+    "ast_hash": "46a7abd38e6c8d2d7f523e29c5ab0149",
+    "semantic_hash": ""
+  },
+  "src/resources/icons.ts": {
+    "mtime": 1786021045.1583858,
+    "ast_hash": "8fbce7e03035ef48d44eadad1262ebe9",
+    "semantic_hash": ""
+  },
+  "src/resources/index.ts": {
+    "mtime": 1785999820.4884026,
+    "ast_hash": "f749fae2d65c6669fa54a79a5d12eeef",
+    "semantic_hash": ""
+  },
+  "src/resources/once-ui.config.ts": {
+    "mtime": 1785999820.4884026,
+    "ast_hash": "a0a2d1df069e947de98f2668a499cbaa",
+    "semantic_hash": ""
+  },
+  "src/types/config.types.ts": {
+    "mtime": 1785757604.6027873,
+    "ast_hash": "d4b57dca1f0755d99ace20630bb45ced",
+    "semantic_hash": ""
+  },
+  "src/types/content.types.ts": {
+    "mtime": 1786021045.1554518,
+    "ast_hash": "3fadbbb39340d9081c06df14d1524929",
+    "semantic_hash": ""
+  },
+  "src/types/index.ts": {
+    "mtime": 1784008204.231498,
+    "ast_hash": "de6c09eab1c8394697803b525da48e25",
+    "semantic_hash": ""
+  },
+  "src/utils/basePath.ts": {
+    "mtime": 1784008204.231498,
+    "ast_hash": "d282003e4de5d52f4d72534804f8d430",
+    "semantic_hash": ""
+  },
+  "src/utils/formatDate.ts": {
+    "mtime": 1784008204.2315466,
+    "ast_hash": "c147f72094de0f3db7c6c689d697f55e",
+    "semantic_hash": ""
+  },
+  "src/utils/utils.ts": {
+    "mtime": 1785757604.6027873,
+    "ast_hash": "76742509b9795f600a4510918b49dd61",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1785757838.169186,
+    "ast_hash": "91e451ebed9282640d89414743f9f310",
+    "semantic_hash": ""
+  },
+  ".agents/skills/docs-writer/SKILL.md": {
+    "mtime": 1784008204.1641133,
+    "ast_hash": "a57bb5adffd3df3f79a0986fa6a32c66",
+    "semantic_hash": ""
+  },
+  ".claude/commands/blog.md": {
+    "mtime": 1784008204.1642756,
+    "ast_hash": "9a52d9b9490f2bdc17a2a5c231a25598",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/CodingStandards/Context-Rules.md": {
+    "mtime": 1784008204.1654594,
+    "ast_hash": "b61d820b822992e92054c9cb5b7316e9",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/CodingStandards/SKILL.md": {
+    "mtime": 1784008204.165699,
+    "ast_hash": "059abcef4ce8ee05f5c83290ee10c158",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/CodingStandards/Workflows/CheckStandards.md": {
+    "mtime": 1784008204.165699,
+    "ast_hash": "8205c9345b91a3e9a46e674a7713e23a",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/FrontendDesign/Context-FrontendPatterns.md": {
+    "mtime": 1784008204.165699,
+    "ast_hash": "583170de280041dcb7f425547c09ec78",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/FrontendDesign/Context-Overview.md": {
+    "mtime": 1784008204.1659586,
+    "ast_hash": "b7c3055ef8cd2dd1621341aab22140e9",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/FrontendDesign/SKILL.md": {
+    "mtime": 1784008204.1659586,
+    "ast_hash": "9ff0bfc3412442bbf31c60739ce92462",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/FrontendDesign/Workflows/GenerateComponent.md": {
+    "mtime": 1784008204.1659586,
+    "ast_hash": "3a0a29a4a215606e467f805f7607b8be",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/content-optimization/SKILL.md": {
+    "mtime": 1784008204.1659586,
+    "ast_hash": "f8555e4f221db7b4e970887f43c1d170",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/content-optimization/references/audit-checklist.md": {
+    "mtime": 1784008204.1662898,
+    "ast_hash": "7a191bacddafa076b7983643c430d33d",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/content-optimization/references/headline-formulas.md": {
+    "mtime": 1784008204.1664093,
+    "ast_hash": "14de2836e9fd3f4a8d5b0c3726750dea",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/docs-writer/SKILL.md": {
+    "mtime": 1784008204.1664093,
+    "ast_hash": "a57bb5adffd3df3f79a0986fa6a32c66",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/find-skills/SKILL.md": {
+    "mtime": 1784008204.1664093,
+    "ast_hash": "0fe8fff3609ea5420b0ceb315e5c19d3",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/github-project-management/SKILL.md": {
+    "mtime": 1784008204.1664093,
+    "ast_hash": "ba129b2f16626619a8b18702984404a1",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/humanizer/SKILL.md": {
+    "mtime": 1784008204.1664093,
+    "ast_hash": "7bfaaefe7b7ecd0d99813a15a0089e48",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/job-application-optimizer/SKILL.md": {
+    "mtime": 1784008204.1664093,
+    "ast_hash": "5a37dcd50909faf2d76f725a6ad47d96",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/mermaid-diagrams/SKILL.md": {
+    "mtime": 1784008204.1664093,
+    "ast_hash": "aa846d5d69ca03e0c749e8b78ec681e6",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/mermaid-diagrams/references/advanced-features.md": {
+    "mtime": 1784008204.1669023,
+    "ast_hash": "e5fe76b00e1552589ac7e99899a37595",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/mermaid-diagrams/references/architecture-diagrams.md": {
+    "mtime": 1784008204.1676328,
+    "ast_hash": "e3a23c9ff37e8233b618fd878bd4b724",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/mermaid-diagrams/references/c4-diagrams.md": {
+    "mtime": 1784008204.1676328,
+    "ast_hash": "e62029f2d4a8a0d099ef34bc1d0129ce",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/mermaid-diagrams/references/class-diagrams.md": {
+    "mtime": 1784008204.1676328,
+    "ast_hash": "92b7915dc41be71dae8f71a9eabeb1f6",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/mermaid-diagrams/references/erd-diagrams.md": {
+    "mtime": 1784008204.1676328,
+    "ast_hash": "cfdc7e20025728860d4607314f17e26b",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/mermaid-diagrams/references/flowcharts.md": {
+    "mtime": 1784008204.1676328,
+    "ast_hash": "a926ade987edee12516dfa4c540a8923",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/mermaid-diagrams/references/sequence-diagrams.md": {
+    "mtime": 1784008204.1676328,
+    "ast_hash": "c764aab721f7cc4d9c8ad6f08609aa03",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/resume-optimization/SKILL.md": {
+    "mtime": 1784008204.1676328,
+    "ast_hash": "4472923a1588688958fcafc1b967f5dc",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/resume-optimization/references/achievement-formula.md": {
+    "mtime": 1784008204.1682088,
+    "ast_hash": "fac8ec76946a9b0bf18505d21b83bace",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/resume-optimization/references/ats-keywords.md": {
+    "mtime": 1784008204.1683047,
+    "ast_hash": "b28852d7069ac702fa27258f923dc5e9",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/resume-optimization/references/resume-structure.md": {
+    "mtime": 1784008204.1683047,
+    "ast_hash": "4bf1a947710b81ab99abfbaa9ac8257f",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/resume-optimization/references/tailoring-guide.md": {
+    "mtime": 1784008204.1683047,
+    "ast_hash": "4a5c79d2b3f567d8876b9ad2953e9166",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/ui-ux-pro-max/SKILL.md": {
+    "mtime": 1784008204.1683047,
+    "ast_hash": "75e099fc4d682f096c450de146e01873",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/AGENTS.md": {
+    "mtime": 1784008204.1706054,
+    "ast_hash": "fc8b8af2a66fa9cff8fcc2d414b5cdc5",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/SKILL.md": {
+    "mtime": 1784008204.1710176,
+    "ast_hash": "01c2b8f72277f12a3d071e3c66589d69",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/advanced-event-handler-refs.md": {
+    "mtime": 1784008204.1710176,
+    "ast_hash": "f2a0d125f3773bfda91e187fa5bed48a",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/advanced-init-once.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "0100519098b834e69a3515657a39bdc9",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/advanced-use-latest.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "60309961293388c9b9e9fd4e0db344e3",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/async-api-routes.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "344fa543b37e303660404e1ef3a4638b",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/async-defer-await.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "6c0229d5e8267c3036443b39cd1805a6",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/async-dependencies.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "9c5622d97b20b9e0cb79455b4322061a",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/async-parallel.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "a0e06a8e9985cdff4ece0312d8ee35db",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/async-suspense-boundaries.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "dbb2fc80721ca1ce32426f43219d314f",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/bundle-barrel-imports.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "cb9904b16c26f7670dacf4b7f8d53af8",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/bundle-conditional.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "585be2b6fc418c766e5b91cc2141d334",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/bundle-defer-third-party.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "6d4d1d4fac411f724071428dd0bc93ba",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/bundle-dynamic-imports.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "72d89583306887810f67e9f7860f06af",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/bundle-preload.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "924ec7e7502ca042070326d38e88f8cd",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/client-event-listeners.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "71062add972f9735348b7ae77e778eb8",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/client-localstorage-schema.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "982a459b07cbec2f8386e526b924c339",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/client-passive-event-listeners.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "3853533fd5f49fa2fc98296f9c34d84f",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/client-swr-dedup.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "e565fcba7836d339ca4707aad6fdaa4a",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-batch-dom-css.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "869dbc06a931ccfb899b739316c348af",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-cache-function-results.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "5d641ce87ef753d59e3205244e2851a1",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-cache-property-access.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "5b4ae3cd853b92222a8fd8c8d8202426",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-cache-storage.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "828f260566ff92df56089321fa41c116",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-combine-iterations.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "4f241532133637fee75304d40f016713",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-early-exit.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "d300cb3e57255029e446bdfa49dc4074",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-hoist-regexp.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "ced4609a5916db47bbaccfcc3f2dcdbb",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-index-maps.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "db5bcfde02e1ce9f41d6ed1f5aafc8c5",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-length-check-first.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "2ba208759dd91578f1085c28e6a92ce9",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-min-max-loop.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "82f654d27529dd80be7ae33d45dcdf8c",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-set-map-lookups.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "59a278e21ecd322bff566ba4ad7f5a30",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/js-tosorted-immutable.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "fd0804905877b6b7b1858e5df1b5f3c4",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rendering-activity.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "b66bde1377564aa196ba15fc94215cd3",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rendering-animate-svg-wrapper.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "7301cbe48bf0e1c44934847861384d03",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rendering-conditional-render.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "7aa6112d7544d55147e183b84add9c31",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rendering-content-visibility.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "a4ec0125d3a9d79ac2ab5f7a7b5b4d7d",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rendering-hoist-jsx.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "00519c11155c5c2a6f493d7980211a71",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rendering-hydration-no-flicker.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "a33ebc96d26525f94c460342d913e47a",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rendering-hydration-suppress-warning.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "23bc895f5697c19a59712bf19474ec12",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rendering-svg-precision.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "1b880754ee449c52ccc725481f8b2e90",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rendering-usetransition-loading.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "3cea04ec76a76183cebc6571ac6365a2",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-defer-reads.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "2b754062eb7b203632859f6515ed3561",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-dependencies.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "ad0e42cd0616237f62f8a5abbc2138bc",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-derived-state-no-effect.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "c83ba3c8ea58015fd30072790a4959c4",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-derived-state.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "fadd31941e355786cb0cc7bba3c672fd",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-functional-setstate.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "188c0b949d23c11885914c573f4a770a",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-lazy-state-init.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "6f9fc3d826cea2ca484912256149b077",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-memo-with-default-value.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "9bfa45660e0a4d4f180e1d12d9ed44ea",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-memo.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "f0decabf1e4cf032c36f0977c81167b7",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-move-effect-to-event.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "599463fe624afd8822ba2bfa7c0138d5",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "42c37552160cff86a0fcbd93a27aa74e",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-transitions.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "3f275bbfb966fcb39c554ad959fdf016",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/rerender-use-ref-transient-values.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "24d2e82617e2da4207afaf049e1314f3",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/server-after-nonblocking.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "c88a79384f87826bf1b20aa3637093a5",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/server-auth-actions.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "d8691820d666e5dd9094ccc6996398e3",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/server-cache-lru.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "723195ea460bfbc4d43b4eb0c47b246b",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/server-cache-react.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "bc168ee66c4378854c7aa23cb9ca1369",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/server-dedup-props.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "86bf6f2d562ca98bca778a5b9d2f0251",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/server-parallel-fetching.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "1a36cf0b49a1a498fc1150afbf7a42c2",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/vercel-react-best-practices/rules/server-serialization.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "e6d34426614852685f43609dd9e3b250",
+    "semantic_hash": ""
+  },
+  ".gemini/skills/web-design-guidelines/SKILL.md": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "98087aedd18375666dbb093c859b2949",
+    "semantic_hash": ""
+  },
+  ".github/FUNDING.yml": {
+    "mtime": 1784008204.171085,
+    "ast_hash": "a0aa1308a4570c856489d46d35694683",
+    "semantic_hash": ""
+  },
+  ".github/workflows/deploy.yml": {
+    "mtime": 1786025735.1779106,
+    "ast_hash": "c7c5a82646eb8ec13dbfe6831414069b",
+    "semantic_hash": ""
+  },
+  ".github/workflows/feed-refresh.yml": {
+    "mtime": 1784008204.172178,
+    "ast_hash": "0537b3cc2b67c7a1bfa483181b0e5301",
+    "semantic_hash": ""
+  },
+  ".github/workflows/publish-social.yml": {
+    "mtime": 1784008204.172178,
+    "ast_hash": "70b81cf5863b63e93bf5cee6824b5e9b",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1785754615.760132,
+    "ast_hash": "1def7a61356af0159aaaec9706be2aa6",
+    "semantic_hash": ""
+  },
+  "BLOG_PIPELINE.md": {
+    "mtime": 1785756533.6530972,
+    "ast_hash": "d60ae0c6a1a9b46896e088a1073afa46",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1784008204.172178,
+    "ast_hash": "c62513ec1b4d69082e71acd3fd21ecf0",
+    "semantic_hash": ""
+  },
+  "GEMINI.md": {
+    "mtime": 1784008204.172178,
+    "ast_hash": "2833ff59810ecfdacd1a17b03464e3bb",
+    "semantic_hash": ""
+  },
+  "PROFILES.md": {
+    "mtime": 1784020972.8332021,
+    "ast_hash": "f71dbc90cc444d4ce20674724e632ee7",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1784008204.172178,
+    "ast_hash": "f7b48a5beae60a968ed6572dc3ae059a",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1784008204.199903,
+    "ast_hash": "9139054326389739fb720ac8575bd200",
+    "semantic_hash": ""
+  },
+  "public/images/agents/README.md": {
+    "mtime": 1785999820.472553,
+    "ast_hash": "0b47790f153968855d359ec79081d1b0",
+    "semantic_hash": ""
+  },
+  "public/images/blog/PROMPTS.md": {
+    "mtime": 1787234339.89199,
+    "ast_hash": "d16aa6402d102d24cab68d585a1ecb9d",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/ai-driven-soc-assistant.mdx": {
+    "mtime": 1784008204.2276902,
+    "ast_hash": "7f5fb0011faadcf794ea531f4d5d37aa",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/claude-code-config-v2.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "2da130c189c549af9045c1cc6ea3666e",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/claude-code-config-v3.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "999266041a03d7b3194d7a7dbe22f970",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/claude-code-config.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "236b9bd808f4fb38a82af32ac1f86c06",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/claude-code-daily-workflow.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "d0f93c0a2a777f2f974a0141e558bbc0",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/conditional-access-in-practice.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "de42479680781a92e5b0f5e7c0c58937",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/cross-platform-compliance-architecture.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "2fde92640e4e39e56f9de27109675d26",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/device-inventory-pipeline.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "b41691f9f1cee0ff8174b13aab15bc5b",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/docker-cve-2026-34040.mdx": {
+    "mtime": 1784294436.7778895,
+    "ast_hash": "0b03186833229dc60885a1b0b670da36",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/endpoint-hardening-zero-trust-control.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "5fb9c7ac8ac9f9dd9e4569194db8e18b",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/entra-join-readiness-checklist.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "022a27a50a841f8b14d7150d01d989d8",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/fleetwatch-from-script-to-system.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "8131a9dd83a268bc31c47603e2814616",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/gcp-casb-shadow-it-migration.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "1fc97404d03d631e98a399c111fcb672",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/google-workspace-entra-federation.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "1eefd1d1d5a94c98bc1c9390cd08712e",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/hermes-multi-profile-system.mdx": {
+    "mtime": 1784031579.3580174,
+    "ast_hash": "4d4a838f4d769499b1cf539ce7c7f922",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/hibob-hr-automation.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "3dce53302904cfbfed701f1b7e3e70df",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/homelab-docker-swarm.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "c6a17db6f86788c1b786f57d873e18a5",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/hr-lifecycle-automation.mdx": {
+    "mtime": 1784008204.2278135,
+    "ast_hash": "b57d192225e7d9bed9bc87ee7467b18c",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/identity-first-security.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "4c3946c05549fdcce412b6ce93b9c795",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/intune-autopatch-with-scripts.mdx": {
+    "mtime": 1785754912.583048,
+    "ast_hash": "d4993c0b5b436739a7a4f537efdb102f",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/jumpcloud-to-intune-migration.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "bf0c6ae76b641474bf335a7a15869d2f",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/mediafusion-device-auth.mdx": {
+    "mtime": 1785757918.467361,
+    "ast_hash": "9cf7fdcdc314ffb87817146f5c90681b",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/netlogon-rpc-sealing-playbook.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "ac010a34c0df435687ca2a3e2e1d8973",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/new-environment-setup.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "1b2bbe65d7a0c5b28b46fbd0c8c1c522",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/passkey-deadline.mdx": {
+    "mtime": 1784294436.7778895,
+    "ast_hash": "1785b5a6a97f063bcd5eec85422ddfc0",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/phishing-resistant-mfa-rollout.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "20d0f103e0f73dc4779ad3961a8a936f",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/robot-army-personal-lab.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "fa357c89ac149c21d21121dda1163c2c",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/securing-ai-agents.mdx": {
+    "mtime": 1785758549.1216233,
+    "ast_hash": "9e13a1369f54af2744808c281f1a1534",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/smart-offboarding-orchestration.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "85c50dd1e4daf4dda00c148bd0efb660",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/stremio-mediafusion-realdebrid.mdx": {
+    "mtime": 1785757918.4664412,
+    "ast_hash": "9fb7c9bb920dcb910901d40b7b9e80fa",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/third-party-oauth-identity.mdx": {
+    "mtime": 1785754539.9668622,
+    "ast_hash": "e98c85967165b1b999a53e5f27f88f65",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/vibe-coding-ai-workflows.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "3ab0925e7419207ed78f910502b03b53",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/zero-trust-for-ai-agents.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "35ebc021d6db83741e8b9d2612a3881e",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/zero-trust-is-not-a-product.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "1cef06f5256c4c27426ffe2aba8ee4bb",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/zero-trust-program-energy-sector.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "e32f479c3d22aab8a55cc7ee0eacb260",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/zero-trust-retrospective.mdx": {
+    "mtime": 1784008204.2279036,
+    "ast_hash": "c373e36521cdc4a29cc843555a790059",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/air-quality-automation.mdx": {
+    "mtime": 1784008204.2303874,
+    "ast_hash": "b8223c0e1a8db3fc4047393bdeb05c31",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/claude-code-config.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "76762b4568d1eac07c7784688e0b1f46",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/copilot-agent-playbook.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "c7ccf25805bf57eac6d0abc180b91811",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/dev-team.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "ec34012211dabbdbfcfed50b1dd6982c",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/device-inventory-analytics.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "3a01d7fe8224eb2420095ef118e44893",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/doc-crawler-ai-organizer.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "a751e2ed6834ece37a1739ea91947d5f",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/dotfiles.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "cf796bba6699e7364375da917d886315",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/end-of-day-mac.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "206b16a6be20d6d25d8b234cfd9c136b",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/fleetwatch.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "8faa70621577ddbbb0b54af43e9ae5ad",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/gcp-to-entra-migration.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "19bc2015faa7c8a26a512ba8cfd0f7d5",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/hibob-teams-sync.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "129559411ca4c45a5791b675f7885439",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/homelab-swarm-stack.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "a9218b660948aab98ba3b8b7a3d275c2",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/jumpcloud-to-intune-migration.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "465f228bb95da00c8dd7c12299ed588c",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/m365-cli.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "850d1e474357b08a3c1300a0bf62e44a",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/n8n-automation-workflows.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "914ed0d713c2509adca843e661ae7b49",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/o365-cli.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "d688cf9fe58bd317102a09d10057b774",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/personal-coffeshop.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "94600f5d34b18d45ef810394a67970dc",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/project-aegis.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "700eeb428691b95366dec5a5b58d2ba3",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/unix-update-automator.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "56d5a678a8f671fcbac88a0390cb419e",
+    "semantic_hash": ""
+  },
+  "src/app/work/projects/zero-trust-endpoint-hardening.mdx": {
+    "mtime": 1784008204.2304904,
+    "ast_hash": "058a3d4b51bbb91fec4070f4e9411118",
+    "semantic_hash": ""
+  },
+  "assets/pdf/ROHI-RIKMAN- Cloud Security Architect & Automation Engineer.pdf": {
+    "mtime": 1784008204.1989028,
+    "ast_hash": "c32b31b8c3797cd3dfe715047cb5ccea",
+    "semantic_hash": ""
+  },
+  "assets/pdf/ROHI-RIKMAN-Cloud-Security-Architect&Automation-Engineer-EUR.pdf": {
+    "mtime": 1784008204.1989028,
+    "ast_hash": "fb4821bd79220861ca8b1a0e7fb794f1",
+    "semantic_hash": ""
+  },
+  ".gemini-clipboard/clipboard-1765892903814.png": {
+    "mtime": 1784008204.1642756,
+    "ast_hash": "6d9c235ed75f1d89cfa1070badc0d791",
+    "semantic_hash": ""
+  },
+  ".gemini-clipboard/clipboard-1765892913912.png": {
+    "mtime": 1784008204.1650717,
+    "ast_hash": "7c38760a8b10c399cecccc86c6590735",
+    "semantic_hash": ""
+  },
+  ".gemini-clipboard/clipboard-1765893274186.png": {
+    "mtime": 1784008204.1650717,
+    "ast_hash": "17d975568a1bedb100998a52083578e4",
+    "semantic_hash": ""
+  },
+  "assets/anime.PNG": {
+    "mtime": 1784008204.1769025,
+    "ast_hash": "ffd39983078a3fd33773fac9a352943b",
+    "semantic_hash": ""
+  },
+  "assets/bad-shirt.png": {
+    "mtime": 1784008204.1899028,
+    "ast_hash": "0480ae14c84657bbb90321b7a37d8f43",
+    "semantic_hash": ""
+  },
+  "assets/main.png": {
+    "mtime": 1784008204.197903,
+    "ast_hash": "bd37eca2434f52243277cb5c34434457",
+    "semantic_hash": ""
+  },
+  "public/images/agents/ada.png": {
+    "mtime": 1785999820.4732425,
+    "ast_hash": "fd0bda9fc627b94c422b5e717954ba03",
+    "semantic_hash": ""
+  },
+  "public/images/agents/alex.png": {
+    "mtime": 1785999820.4732425,
+    "ast_hash": "196f642522ade016326bd15667ed3b51",
+    "semantic_hash": ""
+  },
+  "public/images/agents/bob.png": {
+    "mtime": 1785999820.4742427,
+    "ast_hash": "153f3ee3e83f0354063a97f0fb2a12ea",
+    "semantic_hash": ""
+  },
+  "public/images/agents/ella.png": {
+    "mtime": 1785999820.4752426,
+    "ast_hash": "adfe3bce5999f298f1dd5d4f90bb761c",
+    "semantic_hash": ""
+  },
+  "public/images/agents/felix.png": {
+    "mtime": 1785999820.4772427,
+    "ast_hash": "a1090e6b9b41f444de0e54362222b76a",
+    "semantic_hash": ""
+  },
+  "public/images/agents/franz.png": {
+    "mtime": 1785999820.4792428,
+    "ast_hash": "cb463945cfe60d6a213bb6e9d0c3d964",
+    "semantic_hash": ""
+  },
+  "public/images/agents/gabriel.png": {
+    "mtime": 1785999820.4802427,
+    "ast_hash": "d8ae89bffa8b9c3ff97e9e3cab10eccd",
+    "semantic_hash": ""
+  },
+  "public/images/agents/grace.png": {
+    "mtime": 1785999820.4812427,
+    "ast_hash": "5c0c42c50a9a8d309077af54e3429812",
+    "semantic_hash": ""
+  },
+  "public/images/agents/iris.png": {
+    "mtime": 1785999820.4822428,
+    "ast_hash": "6a25c1acb8a78d5ccee0f4278e9acd2d",
+    "semantic_hash": ""
+  },
+  "public/images/agents/leo.png": {
+    "mtime": 1785999820.4832428,
+    "ast_hash": "0c7f74893f4f2a3cc2477b89ba222dd0",
+    "semantic_hash": ""
+  },
+  "public/images/agents/marco.png": {
+    "mtime": 1785999820.4862428,
+    "ast_hash": "f95177c3bc579e37ade485e3dbba1bbd",
+    "semantic_hash": ""
+  },
+  "public/images/agents/max.png": {
+    "mtime": 1785999820.487243,
+    "ast_hash": "f386d1a8c744d9d3353ef3e5b5c3cec4",
+    "semantic_hash": ""
+  },
+  "public/images/avatar.png": {
+    "mtime": 1786021045.1544518,
+    "ast_hash": "4b4e1c3e56c667508ba5036859108921",
+    "semantic_hash": ""
+  },
+  "public/images/blog/ai-driven-soc-assistant.png": {
+    "mtime": 1784008204.208903,
+    "ast_hash": "d29c70fad840eab303abe49fb52bbe2d",
+    "semantic_hash": ""
+  },
+  "public/images/blog/claude-code-config-v2.png": {
+    "mtime": 1784008204.208903,
+    "ast_hash": "a688bddd31ebbf0e758c801396bca46d",
+    "semantic_hash": ""
+  },
+  "public/images/blog/claude-code-config-v3.png": {
+    "mtime": 1784008204.2099032,
+    "ast_hash": "f4001fd17a272ffd1a36759f8f1000d1",
+    "semantic_hash": ""
+  },
+  "public/images/blog/claude-code-config.png": {
+    "mtime": 1784008204.2099032,
+    "ast_hash": "6915f584bcc02c4da737368fd78ffb13",
+    "semantic_hash": ""
+  },
+  "public/images/blog/claude-code-daily-workflow.png": {
+    "mtime": 1784008204.2099032,
+    "ast_hash": "ede776d7b104657465fd42c4bdbdd071",
+    "semantic_hash": ""
+  },
+  "public/images/blog/conditional-access-in-practice.png": {
+    "mtime": 1784008204.2099032,
+    "ast_hash": "5846a1c388d296c6536320e6d6e5caaf",
+    "semantic_hash": ""
+  },
+  "public/images/blog/cross-platform-compliance-architecture.png": {
+    "mtime": 1784008204.2119033,
+    "ast_hash": "5c69dc12b73dacb2b4fede8bd3cc6f91",
+    "semantic_hash": ""
+  },
+  "public/images/blog/device-inventory-pipeline.png": {
+    "mtime": 1784008204.2119033,
+    "ast_hash": "75e4347fec28c8f5b6b8e7aefbd13b60",
+    "semantic_hash": ""
+  },
+  "public/images/blog/docker-cve-2026-34040.png": {
+    "mtime": 1784294436.7758894,
+    "ast_hash": "d0889e737384f0282dcd4ef8c9d9bf14",
+    "semantic_hash": ""
+  },
+  "public/images/blog/endpoint-hardening-zero-trust-control.png": {
+    "mtime": 1784008204.2119033,
+    "ast_hash": "dabd3218b427b25e5bab295a3452edad",
+    "semantic_hash": ""
+  },
+  "public/images/blog/entra-join-readiness-checklist.png": {
+    "mtime": 1784008204.2139032,
+    "ast_hash": "deb6c0058d7322b516cc5577679dfa23",
+    "semantic_hash": ""
+  },
+  "public/images/blog/fleetwatch-from-script-to-system.png": {
+    "mtime": 1784008204.2139032,
+    "ast_hash": "1a52e3c41bba113e542435f32fb51ff5",
+    "semantic_hash": ""
+  },
+  "public/images/blog/gcp-casb-shadow-it-migration.png": {
+    "mtime": 1784008204.2159033,
+    "ast_hash": "ad26fad36d427fd812c9b54b18b25124",
+    "semantic_hash": ""
+  },
+  "public/images/blog/google-workspace-entra-federation.png": {
+    "mtime": 1784008204.2169034,
+    "ast_hash": "0f82f7ff0cd9bff57586d71982fa9995",
+    "semantic_hash": ""
+  },
+  "public/images/blog/hermes-multi-profile-system.jpg": {
+    "mtime": 1784031579.3556654,
+    "ast_hash": "44913d95e09c16dad52924d4c0169ff7",
+    "semantic_hash": ""
+  },
+  "public/images/blog/hibob-hr-automation.png": {
+    "mtime": 1784008204.2169034,
+    "ast_hash": "8010dafe12020b6a4107982fc7f96f60",
+    "semantic_hash": ""
+  },
+  "public/images/blog/homelab-docker-swarm.png": {
+    "mtime": 1784008204.2169034,
+    "ast_hash": "6bd556ce26aaaac7d6fc5d3cd8756cb1",
+    "semantic_hash": ""
+  },
+  "public/images/blog/hr-lifecycle-automation.png": {
+    "mtime": 1784008204.2189033,
+    "ast_hash": "6749f9f2547d2297cd424473756c5a80",
+    "semantic_hash": ""
+  },
+  "public/images/blog/identity-first-security.png": {
+    "mtime": 1784008204.2189033,
+    "ast_hash": "2f1ba25b69798bd1b5e4b5bc8515c766",
+    "semantic_hash": ""
+  },
+  "public/images/blog/intune-autopatch-with-scripts.png": {
+    "mtime": 1785758190.116182,
+    "ast_hash": "c7974c0cd96471a255d89d70e9758d48",
+    "semantic_hash": ""
+  },
+  "public/images/blog/jumpcloud-to-intune-migration.png": {
+    "mtime": 1784008204.2189033,
+    "ast_hash": "1a279810b471a429f424a341048bd943",
+    "semantic_hash": ""
+  },
+  "public/images/blog/mediafusion-device-auth.png": {
+    "mtime": 1785754632.3272216,
+    "ast_hash": "3ef3c0b971dcc2551c3c81fbc6230287",
+    "semantic_hash": ""
+  },
+  "public/images/blog/netlogon-rpc-sealing-playbook.png": {
+    "mtime": 1784008204.2199035,
+    "ast_hash": "fe56bcdd156145d6f92c581784dde410",
+    "semantic_hash": ""
+  },
+  "public/images/blog/new-environment-setup.png": {
+    "mtime": 1784008204.2209034,
+    "ast_hash": "e02adafcbde32be72dabc9804f1117eb",
+    "semantic_hash": ""
+  },
+  "public/images/blog/passkey-deadline.png": {
+    "mtime": 1784294436.7778895,
+    "ast_hash": "f8b1e7e9580de2d36fa2145f926bd116",
+    "semantic_hash": ""
+  },
+  "public/images/blog/phishing-resistant-mfa-rollout.png": {
+    "mtime": 1784008204.2209034,
+    "ast_hash": "3b96c05a1f248ccb19f70695ce6df116",
+    "semantic_hash": ""
+  },
+  "public/images/blog/securing-ai-agents.png": {
+    "mtime": 1785757604.6007872,
+    "ast_hash": "465aa09cc0641983d90d067b86ece9b0",
+    "semantic_hash": ""
+  },
+  "public/images/blog/smart-offboarding-orchestration.png": {
+    "mtime": 1784008204.2229035,
+    "ast_hash": "deaefa61ee5e060f1cac5d18978e6439",
+    "semantic_hash": ""
+  },
+  "public/images/blog/stremio-auth-flowchart.png": {
+    "mtime": 1785757673.2720528,
+    "ast_hash": "1bf275cc38d2cf0b401953befd715254",
+    "semantic_hash": ""
+  },
+  "public/images/blog/stremio-mediafusion-realdebrid.png": {
+    "mtime": 1785755945.5136971,
+    "ast_hash": "a6a95b61768a0ec25385186c30f1053a",
+    "semantic_hash": ""
+  },
+  "public/images/blog/third-party-oauth-identity.png": {
+    "mtime": 1785755222.8029094,
+    "ast_hash": "9fc8a47a8ec687f98edc0a94f4147e6d",
+    "semantic_hash": ""
+  },
+  "public/images/blog/vibe-coding-ai-workflows.png": {
+    "mtime": 1784008204.2229035,
+    "ast_hash": "0be39a9817b25a3033e8728ff129b626",
+    "semantic_hash": ""
+  },
+  "public/images/blog/zero-trust-for-ai-agents.png": {
+    "mtime": 1784008204.2239034,
+    "ast_hash": "5bd5d1d004ee8bf4a8a7c9d5727f88db",
+    "semantic_hash": ""
+  },
+  "public/images/blog/zero-trust-is-not-a-product.png": {
+    "mtime": 1784008204.2239034,
+    "ast_hash": "9cc0ea78f73e76eff1b2eec961ae2f84",
+    "semantic_hash": ""
+  },
+  "public/images/blog/zero-trust-program-energy-sector.png": {
+    "mtime": 1784008204.2249036,
+    "ast_hash": "e266d47064b810774db40f9d8cec277d",
+    "semantic_hash": ""
+  },
+  "public/images/blog/zero-trust-retrospective.png": {
+    "mtime": 1784008204.2269034,
+    "ast_hash": "cdffa357b989b5c2eaa79ec93f6101e9",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-01-titanium-hummingbird.png": {
+    "mtime": 1785759325.6169446,
+    "ast_hash": "41f70a2104d6644dd3f82be508758eb4",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-02-bioluminescent-librarian.png": {
+    "mtime": 1785759325.8489494,
+    "ast_hash": "8723a6760ad79eddca8da7aa4bf6c718",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-03-lava-cake-universe.png": {
+    "mtime": 1785759326.0429537,
+    "ast_hash": "311c51ef78a8371c33ac563b231ee98f",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-04-dreamweavers-garden.png": {
+    "mtime": 1785817385.718013,
+    "ast_hash": "ed0d2eeaee945f23e72c0b44c2e6d044",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-05-firewall-widow.png": {
+    "mtime": 1785759378.1290922,
+    "ast_hash": "e2a0681ce0fce7e1c347b2328250b256",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-06-gabriel-exe-descending.png": {
+    "mtime": 1785759378.337097,
+    "ast_hash": "dacd6ae56073c08f9be62e8c25d0849f",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-07-starchart-jellyfish.png": {
+    "mtime": 1785817385.7260132,
+    "ast_hash": "6c415f3c4c57e7c55027e7eda1e4765b",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-08-archive-blooms.png": {
+    "mtime": 1785817385.7300131,
+    "ast_hash": "282dd032487ce7d1e3e4f3f0b37703e3",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-09-merge-conflict-apocalypse.png": {
+    "mtime": 1785817385.7330134,
+    "ast_hash": "ff070a40b629304f0abc9a2698522db3",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-10-dial-up-cathedral.png": {
+    "mtime": 1785817385.7350132,
+    "ast_hash": "bad63d430b64b1bc32568c80131dc01b",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-11-book-dune-desert.png": {
+    "mtime": 1785817800.039334,
+    "ast_hash": "7f7f0ab17ece33e04b60d5c759c33e71",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-12-ci-pipeline-at-3am.png": {
+    "mtime": 1785817800.260342,
+    "ast_hash": "f0034b13994c9e9eab45b8971fd2606d",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-13-career-skyscraper.png": {
+    "mtime": 1785818032.723275,
+    "ast_hash": "2422a8c4fdb776de5367c772e62c6049",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-14-dream-job-door.png": {
+    "mtime": 1785818033.0122793,
+    "ast_hash": "693d822f1adf0afba63624b534f909a6",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-15-pipeline-cathedral.png": {
+    "mtime": 1785818033.193282,
+    "ast_hash": "670c3b054efc242b95e5f48820e61d56",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-16-kraken-unchained.png": {
+    "mtime": 1785818128.269751,
+    "ast_hash": "24cf3911f3a026b8f374f1e219065e6c",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-17-server-rack-bloomed.png": {
+    "mtime": 1785818128.4747543,
+    "ast_hash": "b2e85421b2ea5b7d14d5fb6b000c23da",
+    "semantic_hash": ""
+  },
+  "public/images/gallery/gallery-18-reactor-core.png": {
+    "mtime": 1785818128.6777577,
+    "ast_hash": "e0033dd0c67f1d279b65ed59df7ec3ac",
+    "semantic_hash": ""
+  },
+  "src/app/icon.png": {
+    "mtime": 1784008204.2289035,
+    "ast_hash": "b6086024c431b01c22f20b55fd13cc3f",
+    "semantic_hash": ""
+  },
+  "public/images/agents/sam.png": {
+    "mtime": 1786021045.1574519,
+    "ast_hash": "f939dc90ff54fe91fe9cd3439c01bd8c",
+    "semantic_hash": ""
+  },
+  "public/images/agents/sofia.png": {
+    "mtime": 1786021045.1574519,
+    "ast_hash": "f9c7bc43e19ad454dcab440141b9ef9c",
+    "semantic_hash": ""
+  },
+  "public/images/agents/prompts/ethan.md": {
+    "mtime": 1786031065.6033611,
+    "ast_hash": "b2165f2b01897713f10187b83360347e",
+    "semantic_hash": ""
+  },
+  "public/images/agents/prompts/miguel.md": {
+    "mtime": 1786553555.4787984,
+    "ast_hash": "e2069acf0446b3d15f39bd29fd9f1c9f",
+    "semantic_hash": ""
+  },
+  "public/images/agents/prompts/victor.md": {
+    "mtime": 1786031065.6013613,
+    "ast_hash": "a3ad98f1a861d6a6aab6c93a45705853",
+    "semantic_hash": ""
+  },
+  "public/images/agents/prompts/warren.md": {
+    "mtime": 1786031065.6033611,
+    "ast_hash": "26cd3a8c6441fccd22a7d392fce8710f",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/auditable-human-approval-gates-for-ai-agents.mdx": {
+    "mtime": 1786553806.1693735,
+    "ast_hash": "33be7e5dc1c4ac9729aa0cfd944b3e5c",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/azure-waf-detection-to-prevention.mdx": {
+    "mtime": 1786553806.1649125,
+    "ast_hash": "9cc2aa2bf24516ebd4a67fa2b3bebd7e",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/smb-over-quic-and-entra-app-proxy.mdx": {
+    "mtime": 1786553806.1639125,
+    "ast_hash": "cfe73fde7d6883e45af60b611e0f2823",
+    "semantic_hash": ""
+  },
+  "tasks/todo.md": {
+    "mtime": 1787232538.083347,
+    "ast_hash": "e07fa5fcab085ff05b662a72449dc275",
+    "semantic_hash": ""
+  },
+  "public/images/agents/ethan.png": {
+    "mtime": 1786554226.3063986,
+    "ast_hash": "e52b54a4755f6a4ae15d22653fbb6f1b",
+    "semantic_hash": ""
+  },
+  "public/images/agents/miguel.png": {
+    "mtime": 1786553565.9606314,
+    "ast_hash": "10c6e6667df6d89c9ce195783b052d90",
+    "semantic_hash": ""
+  },
+  "public/images/agents/victor.png": {
+    "mtime": 1786553565.9611082,
+    "ast_hash": "ceae3aebfead279fba12de1b273fdb61",
+    "semantic_hash": ""
+  },
+  "public/images/agents/warren.png": {
+    "mtime": 1786553565.961975,
+    "ast_hash": "cc32689e35ee59e3725d9f3e0e5d84ca",
+    "semantic_hash": ""
+  },
+  "public/images/blog/auditable-human-approval-gates-for-ai-agents.png": {
+    "mtime": 1786554136.5045907,
+    "ast_hash": "d3369ba11f4ffaa4bc1814b851ba86cc",
+    "semantic_hash": ""
+  },
+  "public/images/blog/azure-waf-detection-to-prevention.png": {
+    "mtime": 1786554031.6724768,
+    "ast_hash": "b910e62dc3a251defd3fa2df7605e880",
+    "semantic_hash": ""
+  },
+  "public/images/blog/smb-over-quic-and-entra-app-proxy.png": {
+    "mtime": 1786554030.3344498,
+    "ast_hash": "f1adc0860c08d15a9bcc62f4269b3aa8",
+    "semantic_hash": ""
+  },
+  "src/app/blog/posts/cloud-pki-eap-tls-wifi.mdx": {
+    "mtime": 1787234614.3319044,
+    "ast_hash": "5ea0459bc42f5abc6eeaa9401293e323",
+    "semantic_hash": ""
+  },
+  "public/images/blog/cloud-pki-eap-tls-wifi.png": {
+    "mtime": 1787234432.415866,
+    "ast_hash": "d58f7a81e5219cf2b81644b49a9f1e79",
+    "semantic_hash": ""
+  }
+}
